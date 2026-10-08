@@ -1,0 +1,144 @@
+{
+  "version": "0.51",
+  "schemaVersion": 41,
+  "date": "2026-10-05",
+  "python": {
+    "tests": 536,
+    "passed": true
+  },
+  "connectedHeadlessUI": {
+    "suites": 27,
+    "passed": true,
+    "results": [
+      {
+        "suite": "test_ui.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_arrival.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_arrivals.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_artwork.cjs",
+        "passed": true,
+        "rerunAfterFinalChanges": true
+      },
+      {
+        "suite": "test_ui_builds.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_candidates.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_cast.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_castle_chapter.cjs",
+        "passed": true,
+        "rerunAfterFinalChanges": true
+      },
+      {
+        "suite": "test_ui_character_setup.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_containment.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_content_packs.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_equipment.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_estate.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_fieldcraft.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_guidance.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_headquarters.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_household_content.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_local.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_mystery.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_phase_work.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_public_content.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_public_integration.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_public_workshop.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_room_navigation.cjs",
+        "passed": true,
+        "rerunAfterFinalChanges": true
+      },
+      {
+        "suite": "test_ui_solo.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_stories.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_visuals.cjs",
+        "passed": true
+      }
+    ]
+  },
+  "renderedBrowser": {
+    "passed": false,
+    "status": "blocked",
+    "reason": "Chromium headless-shell download returned an invalid ZIP; no usable browser executable. No rendered application screenshots obtained.",
+    "runner": "scripts/browser_review.cjs",
+    "runnerStatus": "syntax checked, not executed"
+  },
+  "artwork": {
+    "changedFiles": 0,
+    "existingManifestHashesVerified": true
+  },
+  "saveCompatibility": "Additive schema 40-to-41 migration, backup and accepted artwork preservation covered by tests",
+  "newContent": {
+    "expeditionSites": 2,
+    "researchProjects": 2,
+    "craftableImprovements": 2,
+    "reflections": 6
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "version": "0.64",
+  "schemaVersion": 55,
+  "pythonRegression": {
+    "tests": 725,
+    "seconds": 83.153,
+    "failures": 0,
+    "errors": 0
+  },
+  "connectedUI": {
+    "suites": 40,
+    "seconds": 152.43,
+    "failures": 0
+  },
+  "finalFocusedChecks": {
+    "customizationTests": 22,
+    "customizationSeconds": 0.164,
+    "householdContentTests": 9,
+    "householdContentSeconds": 0.705,
+    "customizationConnectedUI": "passed",
+    "importedFocusRestoration": "passed with actually crafted and inscribed focus"
+  },
+  "totalCollectedPythonTests": 727,
+  "note": "Two final focused cases were added after the passing 725-test full run. Final targeted checks cover subsequent gift and wardrobe integration changes. No full 727-test run claimed.",
+  "content": {
+    "authoredPreferenceProfiles": 14,
+    "sharedInvitationStructures": 5,
+    "garments": 19,
+    "colours": 13,
+    "occasions": 5,
+    "specializations": 7,
+    "personalCornerDesigns": 6
+  },
+  "artwork": "Existing illustrated outfits and portraits reused. Custom appearances and garment combinations are explicitly descriptive until approved artwork exists.",
+  "browserReview": "Not performed: documented local Chromium and cloud-to-local access limitations remain unresolved."
+}

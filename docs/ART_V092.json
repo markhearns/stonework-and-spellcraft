@@ -1,0 +1,94 @@
+{
+  "assets": [
+    {
+      "id": "mira-bathing",
+      "path": "static/assets/portraits/bathing/mira.webp",
+      "sha256": "818a60c879ae468fa063d821c074e0d854ac7b7ba2fea46087008c9887bd21e8",
+      "bytes": 126868
+    },
+    {
+      "id": "tamsin-bathing",
+      "path": "static/assets/portraits/bathing/tamsin.webp",
+      "sha256": "c4ab914d5abe39cab367b5974fb670cc2696008c91e4722f6652e3a3a07e85c8",
+      "bytes": 127930
+    },
+    {
+      "id": "iona-bathing",
+      "path": "static/assets/portraits/bathing/iona.webp",
+      "sha256": "54abb2d7c48796419a4613edc4f403462518b6415539511e6fe0abb7e1c04217",
+      "bytes": 139714
+    },
+    {
+      "id": "aurelia-bathing",
+      "path": "static/assets/portraits/bathing/aurelia.webp",
+      "sha256": "45c4a2774a4152f9e15ddcdc8dca605321438822163c2af572955727e06e88e2",
+      "bytes": 218348
+    },
+    {
+      "id": "neris-bathing",
+      "path": "static/assets/portraits/bathing/neris.webp",
+      "sha256": "16483c26d6a54b0bae2fbf41d2ac0281f5cf9b2b68ba32aede1ff3701f6f181f",
+      "bytes": 128572
+    },
+    {
+      "id": "sabine-bathing",
+      "path": "static/assets/portraits/bathing/sabine.webp",
+      "sha256": "3e0f04b8cfeccfacd7e4836d33078d7742e869a7fc199b0b1324b03c6ba88be2",
+      "bytes": 115902
+    },
+    {
+      "id": "maren-bathing",
+      "path": "static/assets/portraits/bathing/maren.webp",
+      "sha256": "2820c6280fff2e27cf1fe545ac9f77d22a25d04d99b219d4a440b02601cccf0e",
+      "bytes": 156040
+    },
+    {
+      "id": "brakka-bathing",
+      "path": "static/assets/portraits/bathing/brakka.webp",
+      "sha256": "04277313859e338c4419f9875e8467e43c25cb2bd15b6bc9535d41885a402f43",
+      "bytes": 125028
+    },
+    {
+      "id": "fenna-bathing",
+      "path": "static/assets/portraits/bathing/fenna.webp",
+      "sha256": "17523d4f8a937cffec631c3b2b0a7d2933f7b9d9cd5b881c6182e8753c5c3f21",
+      "bytes": 130490
+    },
+    {
+      "id": "kaede-bathing",
+      "path": "static/assets/portraits/bathing/kaede.webp",
+      "sha256": "47aa657059cf9057b6e61a55c03f2c7682c233c5f008a1f2171f48e86c0dbf92",
+      "bytes": 131630
+    },
+    {
+      "id": "elowen-bathing",
+      "path": "static/assets/portraits/bathing/elowen.webp",
+      "sha256": "0ee33d803c7919615ab47be70c592e9717fbc56cb7024c2a4879ec9c86f6564c",
+      "bytes": 105966
+    },
+    {
+      "id": "nyssara-bathing",
+      "path": "static/assets/portraits/bathing/nyssara.webp",
+      "sha256": "59031fdfff14283cc0af747d55c716de1a26dfafa9d19fd966a229f65d2b8e7d",
+      "bytes": 110830
+    },
+    {
+      "id": "sylva-bathing",
+      "path": "static/assets/portraits/bathing/sylva.webp",
+      "sha256": "08f94a194cda9ced91b9f36b9830dc84165623240782ee59ddeaeaab6889b49e",
+      "bytes": 196520
+    },
+    {
+      "id": "velis-bathing",
+      "path": "static/assets/portraits/bathing/velis.webp",
+      "sha256": "da93984afa8daf83a010daefc96bb2c992edfe08e899144b47ce900109e600aa",
+      "bytes": 95424
+    },
+    {
+      "id": "rhess-bathing",
+      "path": "static/assets/portraits/bathing/rhess.webp",
+      "sha256": "f9bdbd24c6c53bcba723807ac132ccdcf27f2b4f4a4ee89764582be3b4be6c9d",
+      "bytes": 140500
+    }
+  ]
+}

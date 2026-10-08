@@ -1,0 +1,14 @@
+Use case: illustration-story. Generate exactly ONE new image. Output the native master image only; filename/export directions below describe later packaging, not extra panels or images.
+ASSET 04 — Fern nursery
+EXACT ID: fern-nursery
+RUNTIME: locations/fern-nursery.webp
+MASTER: masters/fern-nursery.png
+
+GENERATE THIS ONE SUBJECT ONLY
+A modest teaching garden just beyond a small footbridge, seen at natural standing eye level. A low timber shelter protects orderly demonstration beds; ferns and modest plants fill them without obscuring the paths. A simple bench holds a few reusable plant cuttings laid out for visitors. Show the footbridge and a plausible route into the beds, natural soil and worn containers, welcoming diffuse daylight. No greenhouse palace, giant magical tree, luminous plants, gardener portrait or crowds.
+
+CURRENT PROJECT AESTHETIC
+Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving–inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.
+
+COMPOSITION AND OUTPUT
+One full environmental illustration, landscape 16:9, opaque background. Preserve the native high-resolution PNG master; export a 1600 x 900 WebP runtime if possible. Keep focal architecture inside the central 80%; do not bake in a UI strip or artificial empty patch. No people, animals, text, logos, watermark, decorative frame or multi-panel sheet. Natural eye-level perspective, not isometric, aerial or map view. Daylight remains readable; the palette does not require night.

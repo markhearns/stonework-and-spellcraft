@@ -1,0 +1,990 @@
+{
+  "version": "0.89",
+  "python": [
+    {
+      "suite": "test_all_personal_paths.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 6.36
+    },
+    {
+      "suite": "test_armoury.py",
+      "passed": true,
+      "tests": 15,
+      "seconds": 1.17
+    },
+    {
+      "suite": "test_armoury_http.py",
+      "passed": true,
+      "tests": 1,
+      "seconds": 0.81
+    },
+    {
+      "suite": "test_armoury_integration.py",
+      "passed": true,
+      "tests": 4,
+      "seconds": 4.82
+    },
+    {
+      "suite": "test_arrival.py",
+      "passed": true,
+      "tests": 5,
+      "seconds": 1.13
+    },
+    {
+      "suite": "test_arrival_paths.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 1.84
+    },
+    {
+      "suite": "test_art_release.py",
+      "passed": true,
+      "tests": 4,
+      "seconds": 0.86
+    },
+    {
+      "suite": "test_art_v053.py",
+      "passed": true,
+      "tests": 5,
+      "seconds": 0.58
+    },
+    {
+      "suite": "test_attribute_integration.py",
+      "passed": true,
+      "tests": 16,
+      "seconds": 1.77
+    },
+    {
+      "suite": "test_augmentations.py",
+      "passed": true,
+      "tests": 7,
+      "seconds": 0.61
+    },
+    {
+      "suite": "test_campaign_review.py",
+      "passed": true,
+      "tests": 4,
+      "seconds": 41.65
+    },
+    {
+      "suite": "test_campaigns.py",
+      "passed": true,
+      "tests": 3,
+      "seconds": 1.71
+    },
+    {
+      "suite": "test_candidate_http.py",
+      "passed": true,
+      "tests": 1,
+      "seconds": 0.48
+    },
+    {
+      "suite": "test_candidate_proposals.py",
+      "passed": true,
+      "tests": 12,
+      "seconds": 0.64
+    },
+    {
+      "suite": "test_casting_plans.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 1.51
+    },
+    {
+      "suite": "test_castle_chapter.py",
+      "passed": true,
+      "tests": 10,
+      "seconds": 2.51
+    },
+    {
+      "suite": "test_castle_mystery.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 1.38
+    },
+    {
+      "suite": "test_chapter_five_flow.py",
+      "passed": true,
+      "tests": 1,
+      "seconds": 48.87
+    },
+    {
+      "suite": "test_character_builds.py",
+      "passed": true,
+      "tests": 12,
+      "seconds": 1.72
+    },
+    {
+      "suite": "test_character_pool.py",
+      "passed": true,
+      "tests": 7,
+      "seconds": 0.26
+    },
+    {
+      "suite": "test_character_quests.py",
+      "passed": true,
+      "tests": 17,
+      "seconds": 20.31
+    },
+    {
+      "suite": "test_companion_almanac.py",
+      "passed": true,
+      "tests": 20,
+      "seconds": 4.24
+    },
+    {
+      "suite": "test_companion_life.py",
+      "passed": true,
+      "tests": 10,
+      "seconds": 0.83
+    },
+    {
+      "suite": "test_companion_participation.py",
+      "passed": true,
+      "tests": 16,
+      "seconds": 0.85
+    },
+    {
+      "suite": "test_containment.py",
+      "passed": true,
+      "tests": 12,
+      "seconds": 2.5
+    },
+    {
+      "suite": "test_content_packs.py",
+      "passed": true,
+      "tests": 14,
+      "seconds": 1.18
+    },
+    {
+      "suite": "test_customization.py",
+      "passed": true,
+      "tests": 22,
+      "seconds": 0.46
+    },
+    {
+      "suite": "test_delegation.py",
+      "passed": true,
+      "tests": 10,
+      "seconds": 1.29
+    },
+    {
+      "suite": "test_development.py",
+      "passed": true,
+      "tests": 10,
+      "seconds": 3.45
+    },
+    {
+      "suite": "test_dialogue.py",
+      "passed": true,
+      "tests": 18,
+      "seconds": 1.72
+    },
+    {
+      "suite": "test_encounters.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 0.68
+    },
+    {
+      "suite": "test_equipment.py",
+      "passed": true,
+      "tests": 3,
+      "seconds": 0.26
+    },
+    {
+      "suite": "test_equipment_playability.py",
+      "passed": true,
+      "tests": 6,
+      "seconds": 0.4
+    },
+    {
+      "suite": "test_estate_expansion.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 2.59
+    },
+    {
+      "suite": "test_expansion.py",
+      "passed": true,
+      "tests": 7,
+      "seconds": 1.07
+    },
+    {
+      "suite": "test_expansion_http.py",
+      "passed": true,
+      "tests": 1,
+      "seconds": 1.09
+    },
+    {
+      "suite": "test_expansion_packs.py",
+      "passed": true,
+      "tests": 4,
+      "seconds": 0.17
+    },
+    {
+      "suite": "test_expedition.py",
+      "passed": true,
+      "tests": 7,
+      "seconds": 0.57
+    },
+    {
+      "suite": "test_expedition_loop.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 0.52
+    },
+    {
+      "suite": "test_fieldcraft.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 1.3
+    },
+    {
+      "suite": "test_finances.py",
+      "passed": true,
+      "tests": 10,
+      "seconds": 0.5
+    },
+    {
+      "suite": "test_first_hearth.py",
+      "passed": true,
+      "tests": 13,
+      "seconds": 16.69
+    },
+    {
+      "suite": "test_first_patrol.py",
+      "passed": true,
+      "tests": 10,
+      "seconds": 0.64
+    },
+    {
+      "suite": "test_focus.py",
+      "passed": true,
+      "tests": 6,
+      "seconds": 1.63
+    },
+    {
+      "suite": "test_founder_setup.py",
+      "passed": true,
+      "tests": 7,
+      "seconds": 0.51
+    },
+    {
+      "suite": "test_game.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 1.75
+    },
+    {
+      "suite": "test_guidance.py",
+      "passed": true,
+      "tests": 5,
+      "seconds": 0.45
+    },
+    {
+      "suite": "test_headquarters.py",
+      "passed": true,
+      "tests": 16,
+      "seconds": 1.68
+    },
+    {
+      "suite": "test_headquarters_workers.py",
+      "passed": true,
+      "tests": 16,
+      "seconds": 1.32
+    },
+    {
+      "suite": "test_house_shape.py",
+      "passed": true,
+      "tests": 11,
+      "seconds": 40.21
+    },
+    {
+      "suite": "test_household_chapters.py",
+      "passed": true,
+      "tests": 16,
+      "seconds": 0.58
+    },
+    {
+      "suite": "test_household_content.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 1.06
+    },
+    {
+      "suite": "test_household_sagas.py",
+      "passed": true,
+      "tests": 18,
+      "seconds": 20.34
+    },
+    {
+      "suite": "test_housing.py",
+      "passed": true,
+      "tests": 6,
+      "seconds": 0.76
+    },
+    {
+      "suite": "test_iona_conversation.py",
+      "passed": true,
+      "tests": 4,
+      "seconds": 0.23
+    },
+    {
+      "suite": "test_iona_life.py",
+      "passed": true,
+      "tests": 11,
+      "seconds": 2.19
+    },
+    {
+      "suite": "test_keeping_hearth.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 75.44
+    },
+    {
+      "suite": "test_lantern_adventure.py",
+      "passed": true,
+      "tests": 13,
+      "seconds": 0.96
+    },
+    {
+      "suite": "test_lessons.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 0.53
+    },
+    {
+      "suite": "test_living_wing.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 2.64
+    },
+    {
+      "suite": "test_local_expansion.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 2.3
+    },
+    {
+      "suite": "test_magic_overhaul.py",
+      "passed": true,
+      "tests": 22,
+      "seconds": 7.54
+    },
+    {
+      "suite": "test_neighbours.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 3.42
+    },
+    {
+      "suite": "test_npc_policy.py",
+      "passed": true,
+      "tests": 3,
+      "seconds": 0.15
+    },
+    {
+      "suite": "test_opening_guide.py",
+      "passed": true,
+      "tests": 5,
+      "seconds": 1.65
+    },
+    {
+      "suite": "test_outfits.py",
+      "passed": true,
+      "tests": 10,
+      "seconds": 0.34
+    },
+    {
+      "suite": "test_party_journeys.py",
+      "passed": true,
+      "tests": 28,
+      "seconds": 7.83
+    },
+    {
+      "suite": "test_person_registry.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 0.84
+    },
+    {
+      "suite": "test_personal_paths.py",
+      "passed": true,
+      "tests": 17,
+      "seconds": 5.92
+    },
+    {
+      "suite": "test_personal_requests.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 0.68
+    },
+    {
+      "suite": "test_personal_stories.py",
+      "passed": true,
+      "tests": 7,
+      "seconds": 0.32
+    },
+    {
+      "suite": "test_planning.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 2.03
+    },
+    {
+      "suite": "test_portrait_generation.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 0.42
+    },
+    {
+      "suite": "test_provisions.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 0.5
+    },
+    {
+      "suite": "test_public_content.py",
+      "passed": true,
+      "tests": 7,
+      "seconds": 2.86
+    },
+    {
+      "suite": "test_public_integration.py",
+      "passed": true,
+      "tests": 20,
+      "seconds": 2.0
+    },
+    {
+      "suite": "test_public_workshop.py",
+      "passed": true,
+      "tests": 26,
+      "seconds": 1.15
+    },
+    {
+      "suite": "test_recruitment.py",
+      "passed": true,
+      "tests": 11,
+      "seconds": 2.78
+    },
+    {
+      "suite": "test_recruitment_reasons.py",
+      "passed": true,
+      "tests": 3,
+      "seconds": 0.13
+    },
+    {
+      "suite": "test_relationships.py",
+      "passed": true,
+      "tests": 14,
+      "seconds": 4.87
+    },
+    {
+      "suite": "test_resident_future.py",
+      "passed": true,
+      "tests": 21,
+      "seconds": 3.84
+    },
+    {
+      "suite": "test_resident_moments.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 0.47
+    },
+    {
+      "suite": "test_roads_we_keep.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 0.33
+    },
+    {
+      "suite": "test_romance.py",
+      "passed": true,
+      "tests": 15,
+      "seconds": 5.73
+    },
+    {
+      "suite": "test_room_arrangements.py",
+      "passed": true,
+      "tests": 6,
+      "seconds": 0.23
+    },
+    {
+      "suite": "test_room_to_grow.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 37.31
+    },
+    {
+      "suite": "test_scene_drafts.py",
+      "passed": true,
+      "tests": 3,
+      "seconds": 0.32
+    },
+    {
+      "suite": "test_seven_chapter_flow.py",
+      "passed": true,
+      "tests": 1,
+      "seconds": 51.75
+    },
+    {
+      "suite": "test_skills.py",
+      "passed": true,
+      "tests": 7,
+      "seconds": 1.0
+    },
+    {
+      "suite": "test_social_life.py",
+      "passed": true,
+      "tests": 12,
+      "seconds": 1.3
+    },
+    {
+      "suite": "test_solo_life.py",
+      "passed": true,
+      "tests": 10,
+      "seconds": 0.83
+    },
+    {
+      "suite": "test_solo_moments.py",
+      "passed": true,
+      "tests": 5,
+      "seconds": 0.82
+    },
+    {
+      "suite": "test_solo_start.py",
+      "passed": true,
+      "tests": 5,
+      "seconds": 4.44
+    },
+    {
+      "suite": "test_specializations.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 0.64
+    },
+    {
+      "suite": "test_spell_proposals.py",
+      "passed": true,
+      "tests": 2,
+      "seconds": 0.15
+    },
+    {
+      "suite": "test_spellcraft.py",
+      "passed": true,
+      "tests": 12,
+      "seconds": 2.09
+    },
+    {
+      "suite": "test_story_http.py",
+      "passed": true,
+      "tests": 1,
+      "seconds": 0.41
+    },
+    {
+      "suite": "test_summoned_cast.py",
+      "passed": true,
+      "tests": 9,
+      "seconds": 1.42
+    },
+    {
+      "suite": "test_summoning.py",
+      "passed": true,
+      "tests": 15,
+      "seconds": 1.88
+    }
+  ],
+  "ui": [
+    {
+      "suite": "test_ui_almanac.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 8.34
+    },
+    {
+      "suite": "test_ui_armoury.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 1.81
+    },
+    {
+      "suite": "test_ui_arrival.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 5.82
+    },
+    {
+      "suite": "test_ui_arrivals.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 6.09
+    },
+    {
+      "suite": "test_ui_art_v053.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 0.53
+    },
+    {
+      "suite": "test_ui_artwork.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 1.32
+    },
+    {
+      "suite": "test_ui_attributes.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 6.38
+    },
+    {
+      "suite": "test_ui_audit_v083.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 2.72
+    },
+    {
+      "suite": "test_ui_builds.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 6.15
+    },
+    {
+      "suite": "test_ui_candidates.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 5.71
+    },
+    {
+      "suite": "test_ui_cast.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 13.87
+    },
+    {
+      "suite": "test_ui_castle_chapter.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 5.99
+    },
+    {
+      "suite": "test_ui_character_setup.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 2.85
+    },
+    {
+      "suite": "test_ui_containment.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 11.01
+    },
+    {
+      "suite": "test_ui_content_packs.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 2.77
+    },
+    {
+      "suite": "test_ui_customization.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.2
+    },
+    {
+      "suite": "test_ui_equipment.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.96
+    },
+    {
+      "suite": "test_ui_equipment_playability.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 3.16
+    },
+    {
+      "suite": "test_ui_estate.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 6.86
+    },
+    {
+      "suite": "test_ui_fieldcraft.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 3.52
+    },
+    {
+      "suite": "test_ui_first_hearth.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 18.93
+    },
+    {
+      "suite": "test_ui_first_patrol.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 1.74
+    },
+    {
+      "suite": "test_ui_guidance.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.22
+    },
+    {
+      "suite": "test_ui_headquarters.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 2.34
+    },
+    {
+      "suite": "test_ui_headquarters_workers.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.17
+    },
+    {
+      "suite": "test_ui_house_shape.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 31.1
+    },
+    {
+      "suite": "test_ui_household_chapters.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.68
+    },
+    {
+      "suite": "test_ui_household_content.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 5.54
+    },
+    {
+      "suite": "test_ui_household_sagas.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 10.94
+    },
+    {
+      "suite": "test_ui_keeping_hearth.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 69.55
+    },
+    {
+      "suite": "test_ui_lantern_adventure.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 8.34
+    },
+    {
+      "suite": "test_ui_local.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 7.76
+    },
+    {
+      "suite": "test_ui_magic.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 2.75
+    },
+    {
+      "suite": "test_ui_mystery.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 6.02
+    },
+    {
+      "suite": "test_ui_outfits.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 2.93
+    },
+    {
+      "suite": "test_ui_overview_portraits.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 0.49
+    },
+    {
+      "suite": "test_ui_party_journeys.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 15.4
+    },
+    {
+      "suite": "test_ui_personal_paths.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 3.76
+    },
+    {
+      "suite": "test_ui_phase_work.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 7.22
+    },
+    {
+      "suite": "test_ui_polish.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 2.77
+    },
+    {
+      "suite": "test_ui_provisions.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 1.24
+    },
+    {
+      "suite": "test_ui_public_content.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 2.12
+    },
+    {
+      "suite": "test_ui_public_integration.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 15.76
+    },
+    {
+      "suite": "test_ui_public_workshop.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 5.97
+    },
+    {
+      "suite": "test_ui_reconciliation.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 0.06
+    },
+    {
+      "suite": "test_ui_resident_future.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 13.31
+    },
+    {
+      "suite": "test_ui_romance.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 5.89
+    },
+    {
+      "suite": "test_ui_room_navigation.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 5.61
+    },
+    {
+      "suite": "test_ui_room_to_grow.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 37.53
+    },
+    {
+      "suite": "test_ui_social_life.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 3.05
+    },
+    {
+      "suite": "test_ui_solo.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 6.14
+    },
+    {
+      "suite": "test_ui_stories.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.78
+    },
+    {
+      "suite": "test_ui_unified.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.58
+    },
+    {
+      "suite": "test_ui_visuals.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 1.13
+    },
+    {
+      "suite": "test_ui.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 172.33
+    },
+    {
+      "suite": "test_ui_build_workspace.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 10.22
+    },
+    {
+      "suite": "test_ui_character_quests.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 5.0
+    },
+    {
+      "suite": "test_ui_companion_participation.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 6.3
+    },
+    {
+      "suite": "test_ui_relationships.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.83
+    }
+  ],
+  "finalChecks": [
+    {
+      "suite": "test_all_personal_paths.py",
+      "kind": "python",
+      "tests": 9,
+      "passed": true
+    },
+    {
+      "suite": "test_personal_paths.py",
+      "kind": "python",
+      "tests": 17,
+      "passed": true
+    },
+    {
+      "suite": "test_planning.py",
+      "kind": "python",
+      "tests": 9,
+      "passed": true
+    },
+    {
+      "suite": "test_ui_personal_paths.cjs",
+      "kind": "ui",
+      "passed": true
+    },
+    {
+      "suite": "test_ui_build_workspace.cjs",
+      "kind": "ui",
+      "passed": true
+    },
+    {
+      "suite": "test_ui.cjs",
+      "kind": "ui",
+      "passed": true
+    }
+  ]
+}

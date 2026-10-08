@@ -1,0 +1,172 @@
+{
+  "assets": [
+    {
+      "id": "trust",
+      "path": "static/assets/status/trust.webp",
+      "format": "webp",
+      "sourceBytes": 1506738,
+      "alphaPreserved": true,
+      "sourceSHA256": "db12486f09a213860dc65dccb80264d59d838055d003962e91663a21cce3b738",
+      "masterBytes": 942600,
+      "masterSHA256": "97df9bae56a3692c7081ca9b7fb0ebd33c895f7d8f07aeab3113d2f549e6c8d3",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterRGBAPixelIdentical": true,
+      "bytes": 12504,
+      "dimensions": [
+        128,
+        128
+      ],
+      "sha256": "8b67bbe8c9c3a972fcc60ddc455338e715bb2a7a37c1b449e4acafc016595635",
+      "displayEncodingPixelIdentical": true,
+      "masterArchivePath": "masters/trust.webp"
+    },
+    {
+      "id": "affection",
+      "path": "static/assets/status/affection.webp",
+      "format": "webp",
+      "sourceBytes": 1573458,
+      "alphaPreserved": true,
+      "sourceSHA256": "cf7190f344de122f54e69dc5f98aa6ec738c9daa5d7bce36ccfd703c12b84b07",
+      "masterBytes": 1011700,
+      "masterSHA256": "29b00a38085a5616d48025193eb3b9844c6decac7a9d378102166ddf556c8fa3",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterRGBAPixelIdentical": true,
+      "bytes": 11958,
+      "dimensions": [
+        128,
+        128
+      ],
+      "sha256": "d1c4d191fb35b2b73b729a9ad636c74cca36acd692accc8901f6a9d868505354",
+      "displayEncodingPixelIdentical": true,
+      "masterArchivePath": "masters/affection.webp"
+    },
+    {
+      "id": "respect",
+      "path": "static/assets/status/respect.webp",
+      "format": "webp",
+      "sourceBytes": 1789204,
+      "alphaPreserved": true,
+      "sourceSHA256": "455c3ebfb76bc1f984e1e17aa86b5da0d10f5b04bb4caccae1ec665093aefbda",
+      "masterBytes": 1098306,
+      "masterSHA256": "9b9e52f057f05d7ee0231229188b107fcb2b0e3e71ee637e585c186c48c40a96",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterRGBAPixelIdentical": true,
+      "bytes": 19666,
+      "dimensions": [
+        128,
+        128
+      ],
+      "sha256": "792c4dac3515f1cd20787cada4c3a1538076da3c52738a6eeb5687e3c4394644",
+      "displayEncodingPixelIdentical": true,
+      "masterArchivePath": "masters/respect.webp"
+    },
+    {
+      "id": "morning",
+      "path": "static/assets/status/morning.webp",
+      "format": "webp",
+      "sourceBytes": 858537,
+      "alphaPreserved": true,
+      "sourceSHA256": "9f72688685d5a4db28c7869de71bd59445b2ba6c057d67e41e733b513c5c9b56",
+      "masterBytes": 552854,
+      "masterSHA256": "e46f10bce47ada65e0ff9bb103a4049512dd094fc5f8c0fc673565f920795e77",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterRGBAPixelIdentical": true,
+      "bytes": 8326,
+      "dimensions": [
+        128,
+        128
+      ],
+      "sha256": "7eb952540e6446d48c619d3803b79821faa7ba551758a55d753bcf7a2c90bbdd",
+      "displayEncodingPixelIdentical": true,
+      "masterArchivePath": "masters/morning.webp"
+    },
+    {
+      "id": "afternoon",
+      "path": "static/assets/status/afternoon.webp",
+      "format": "webp",
+      "sourceBytes": 1297688,
+      "alphaPreserved": true,
+      "sourceSHA256": "d195cad1bf021803b6d20acfe642dc6db6e6ed095ba77e40518076bb7b73e445",
+      "masterBytes": 914924,
+      "masterSHA256": "c145902f9ae7d8ee5c5ab526f0fa34e9b2c785f9ec5182e53bc2fe4a9bfc8cb3",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterRGBAPixelIdentical": true,
+      "bytes": 13228,
+      "dimensions": [
+        128,
+        128
+      ],
+      "sha256": "c2edaa4b6c22bc0b33e454461fda38a6a1544d2942d604d26051b659f0f4f904",
+      "displayEncodingPixelIdentical": true,
+      "masterArchivePath": "masters/afternoon.webp"
+    },
+    {
+      "id": "evening",
+      "path": "static/assets/status/evening.webp",
+      "format": "webp",
+      "sourceBytes": 1212097,
+      "alphaPreserved": true,
+      "sourceSHA256": "91121a341fdf17d174abf079f5ba8f195e2c11b3ac6fa4c4c91289376d16d3a3",
+      "masterBytes": 780430,
+      "masterSHA256": "bc0816877c8121a97a84fb40172df99acaccc4da3db28f59cb3bff4f36ad4225",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterRGBAPixelIdentical": true,
+      "bytes": 11480,
+      "dimensions": [
+        128,
+        128
+      ],
+      "sha256": "cd0ca034cf580867e69694c5c8c70e311473acd330684856f4e6324ca71a5b7e",
+      "displayEncodingPixelIdentical": true,
+      "masterArchivePath": "masters/evening.webp"
+    },
+    {
+      "id": "resonance",
+      "path": "static/assets/status/resonance.webp",
+      "format": "webp",
+      "sourceBytes": 1396286,
+      "alphaPreserved": true,
+      "sourceSHA256": "95e5c3136d1ca02ada59b1b81e353f1a8952d6a317ba0cf43bbc0dcb2449fe23",
+      "masterBytes": 896724,
+      "masterSHA256": "bb9dbb468ddee5e72349af4f2e1fabc6c86204e21dc0e4097e5082a93fda48d0",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterRGBAPixelIdentical": true,
+      "bytes": 12438,
+      "dimensions": [
+        128,
+        128
+      ],
+      "sha256": "347b0070debe127790fb39c6781c4d466758ce446a894d8908c274826f761c68",
+      "displayEncodingPixelIdentical": true,
+      "masterArchivePath": "masters/resonance.webp"
+    }
+  ],
+  "totalBytes": 89600,
+  "sourceBytes": 9634008,
+  "resizing": "128px display derivatives for icons shown at 24\u201348 CSS pixels; full-resolution masters retained without pixel changes in a separate source-art archive.",
+  "encoding": "Both masters and display derivatives use lossless WebP. Display derivation uses Lanczos resampling; it is not claimed to preserve every full-resolution source pixel.",
+  "totalMasterBytes": 6197538,
+  "masterArchive": "stonework-and-spellcraft-icon-masters-v0.103.zip",
+  "mastersBundledWithGame": false
+}

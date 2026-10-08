@@ -1,0 +1,112 @@
+{
+  "schemaVersion": 1,
+  "validationKind": "content-structure-and-references-only",
+  "runtimeTestsExecuted": false,
+  "packs": [
+    {
+      "packId": "ss-art-and-visual-production",
+      "contentRecords": 93,
+      "mechanicsProposals": 0,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-artifacts-and-recipes",
+      "contentRecords": 80,
+      "mechanicsProposals": 40,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-backgrounds-training-and-perks",
+      "contentRecords": 102,
+      "mechanicsProposals": 48,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-books-food-gardens-and-treasures",
+      "contentRecords": 124,
+      "mechanicsProposals": 0,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-communities-services-and-visitors",
+      "contentRecords": 64,
+      "mechanicsProposals": 1,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-encounters-and-care",
+      "contentRecords": 72,
+      "mechanicsProposals": 0,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-equipment-and-signature-items",
+      "contentRecords": 96,
+      "mechanicsProposals": 45,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-expeditions-and-discoveries",
+      "contentRecords": 126,
+      "mechanicsProposals": 0,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-household-scenes-and-ambient-life",
+      "contentRecords": 160,
+      "mechanicsProposals": 0,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-letters-commissions-and-gifts",
+      "contentRecords": 100,
+      "mechanicsProposals": 1,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-magic-principles-and-spells",
+      "contentRecords": 126,
+      "mechanicsProposals": 69,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-materials-and-properties",
+      "contentRecords": 72,
+      "mechanicsProposals": 13,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-personal-arcs-and-relationships",
+      "contentRecords": 78,
+      "mechanicsProposals": 0,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-private-mystery-foundations",
+      "contentRecords": 42,
+      "mechanicsProposals": 0,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-rituals-and-voluntary-augmentation",
+      "contentRecords": 42,
+      "mechanicsProposals": 42,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-rooms-furnishings-and-synergies",
+      "contentRecords": 120,
+      "mechanicsProposals": 60,
+      "structuralErrors": 0
+    },
+    {
+      "packId": "ss-tutorials-explanations-and-qa",
+      "contentRecords": 144,
+      "mechanicsProposals": 0,
+      "structuralErrors": 0
+    }
+  ],
+  "errors": [],
+  "totalContentRecords": 1641,
+  "totalMechanicsProposals": 319
+}

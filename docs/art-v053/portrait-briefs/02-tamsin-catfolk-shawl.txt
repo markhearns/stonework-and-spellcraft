@@ -1,0 +1,8 @@
+OUTPUT: tamsin-catfolk-shawl.png
+CHARACTER/ART SLOT: tamsin-shawl
+
+Edit references/tamsin-shawl-v2.png. Match the same Catfolk identity as the base Tamsin portrait. Preserve her accepted face, proportions, clothing and plum shawl. Add one pair of feline ears and one softly furred tail; no additional human ears. Do not replace the shawl outfit with the base outfit.
+
+Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving–inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.
+
+1024 x 1536 transparent RGBA PNG. One full adult figure, no background or text.

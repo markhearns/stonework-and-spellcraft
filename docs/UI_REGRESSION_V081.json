@@ -1,0 +1,320 @@
+[
+  {
+    "suite": "test_ui.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 155.66
+  },
+  {
+    "suite": "test_ui_almanac.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 6.79
+  },
+  {
+    "suite": "test_ui_armoury.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 1.76
+  },
+  {
+    "suite": "test_ui_arrival.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 4.91
+  },
+  {
+    "suite": "test_ui_arrivals.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 5.02
+  },
+  {
+    "suite": "test_ui_art_v053.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 0.42
+  },
+  {
+    "suite": "test_ui_artwork.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 1.36
+  },
+  {
+    "suite": "test_ui_attributes.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 5.63
+  },
+  {
+    "suite": "test_ui_builds.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 5.86
+  },
+  {
+    "suite": "test_ui_candidates.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 5.37
+  },
+  {
+    "suite": "test_ui_cast.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 12.13
+  },
+  {
+    "suite": "test_ui_castle_chapter.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 5.09
+  },
+  {
+    "suite": "test_ui_character_quests.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 4.5
+  },
+  {
+    "suite": "test_ui_character_setup.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 2.78
+  },
+  {
+    "suite": "test_ui_companion_participation.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 6.15
+  },
+  {
+    "suite": "test_ui_containment.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 9.4
+  },
+  {
+    "suite": "test_ui_content_packs.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 2.38
+  },
+  {
+    "suite": "test_ui_customization.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 3.26
+  },
+  {
+    "suite": "test_ui_equipment.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 3.96
+  },
+  {
+    "suite": "test_ui_estate.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 6.04
+  },
+  {
+    "suite": "test_ui_fieldcraft.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 3.35
+  },
+  {
+    "suite": "test_ui_first_hearth.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 17.04
+  },
+  {
+    "suite": "test_ui_guidance.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 3.83
+  },
+  {
+    "suite": "test_ui_headquarters.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 2.39
+  },
+  {
+    "suite": "test_ui_headquarters_workers.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 3.88
+  },
+  {
+    "suite": "test_ui_house_shape.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 22.77
+  },
+  {
+    "suite": "test_ui_household_chapters.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 4.16
+  },
+  {
+    "suite": "test_ui_household_content.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 4.18
+  },
+  {
+    "suite": "test_ui_household_sagas.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 8.74
+  },
+  {
+    "suite": "test_ui_keeping_hearth.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 58.87
+  },
+  {
+    "suite": "test_ui_lantern_adventure.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 7.15
+  },
+  {
+    "suite": "test_ui_local.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 5.68
+  },
+  {
+    "suite": "test_ui_magic.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 2.4
+  },
+  {
+    "suite": "test_ui_mystery.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 5.11
+  },
+  {
+    "suite": "test_ui_outfits.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 2.5
+  },
+  {
+    "suite": "test_ui_overview_portraits.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 0.47
+  },
+  {
+    "suite": "test_ui_party_journeys.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 12.38
+  },
+  {
+    "suite": "test_ui_phase_work.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 6.62
+  },
+  {
+    "suite": "test_ui_polish.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 2.14
+  },
+  {
+    "suite": "test_ui_public_content.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 1.85
+  },
+  {
+    "suite": "test_ui_public_integration.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 11.49
+  },
+  {
+    "suite": "test_ui_public_workshop.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 4.9
+  },
+  {
+    "suite": "test_ui_reconciliation.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 0.05
+  },
+  {
+    "suite": "test_ui_relationships.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 4.23
+  },
+  {
+    "suite": "test_ui_resident_future.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 10.72
+  },
+  {
+    "suite": "test_ui_romance.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 4.49
+  },
+  {
+    "suite": "test_ui_room_navigation.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 4.4
+  },
+  {
+    "suite": "test_ui_room_to_grow.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 28.82
+  },
+  {
+    "suite": "test_ui_social_life.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 2.35
+  },
+  {
+    "suite": "test_ui_solo.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 5.18
+  },
+  {
+    "suite": "test_ui_stories.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 4.24
+  },
+  {
+    "suite": "test_ui_unified.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 3.09
+  },
+  {
+    "suite": "test_ui_visuals.cjs",
+    "passed": true,
+    "tests": null,
+    "seconds": 0.91
+  }
+]

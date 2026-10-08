@@ -1,0 +1,2422 @@
+{
+  "schemaVersion": 1,
+  "poolType": "clothing-component",
+  "entries": [
+    {
+      "id": "garment-001",
+      "label": "Cream linen work shirt",
+      "description": "A straight, hip-length shirt with a buttoned front and sleeves that can be neatly rolled. Opaque cloth covers the bust and torso; the modest collar may be worn open without loss of coverage.",
+      "expressionExamples": [
+        "Could accompany plain trousers for a quiet work session."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "work",
+        "workshop",
+        "reading"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "linen",
+        "worn horn buttons"
+      ],
+      "colours": [
+        "warm cream"
+      ],
+      "silhouette": "A straight, hip-length shirt with a buttoned front and sleeves that can be neatly rolled.",
+      "coverage": "Opaque cloth covers the bust and torso; the modest collar may be worn open without loss of coverage.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "work",
+        "workshop",
+        "reading"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-002",
+      "label": "Rust side-laced bodice",
+      "description": "A shaped sleeveless bodice with an adjustable front neckline and independently laced side panels. An opaque structured front securely covers the bust and torso; side lacing closes over inset cloth.",
+      "expressionExamples": [
+        "Could provide a fitted focal point above a simple skirt."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "linen",
+        "soft leather lacing"
+      ],
+      "colours": [
+        "muted rust"
+      ],
+      "silhouette": "A shaped sleeveless bodice with an adjustable front neckline and independently laced side panels.",
+      "coverage": "An opaque structured front securely covers the bust and torso; side lacing closes over inset cloth.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "social",
+        "evening",
+        "leisure"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-003",
+      "label": "Moss wool wrap top",
+      "description": "A softly fitted wrap-front top with separate shoulder ties and a gently shaped waist. Overlapping opaque front panels cover the bust and abdomen securely; the neckline is softly draped.",
+      "expressionExamples": [
+        "Could bring a soft texture to a relaxed ensemble."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "reading",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "soft wool",
+        "linen facing"
+      ],
+      "colours": [
+        "muted moss"
+      ],
+      "silhouette": "A softly fitted wrap-front top with separate shoulder ties and a gently shaped waist.",
+      "coverage": "Overlapping opaque front panels cover the bust and abdomen securely; the neckline is softly draped.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "leisure",
+        "reading",
+        "social"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-004",
+      "label": "Copper cropped blouse",
+      "description": "A short, front-fastened blouse with gathered sleeves and a gently fitted lower edge. Opaque cloth securely covers the bust; a deliberate strip of midriff remains visible above the waistband.",
+      "expressionExamples": [
+        "Could be paired with a secure high or mid-rise waistband."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "linen",
+        "cotton thread"
+      ],
+      "colours": [
+        "copper rust"
+      ],
+      "silhouette": "A short, front-fastened blouse with gathered sleeves and a gently fitted lower edge.",
+      "coverage": "Opaque cloth securely covers the bust; a deliberate strip of midriff remains visible above the waistband.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "leisure",
+        "social"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-005",
+      "label": "Midnight silk halter",
+      "description": "A fitted halter-front top with adjustable neck and side ties and an open upper back. Lined opaque silk securely covers the bust and front torso; the neckline is low but stable.",
+      "expressionExamples": [
+        "Could form a restrained, alluring evening look with an opaque skirt."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "social",
+        "formal"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "lined silk",
+        "linen ties"
+      ],
+      "colours": [
+        "midnight blue"
+      ],
+      "silhouette": "A fitted halter-front top with adjustable neck and side ties and an open upper back.",
+      "coverage": "Lined opaque silk securely covers the bust and front torso; the neckline is low but stable.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "evening",
+        "social",
+        "formal"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-006",
+      "label": "Ecru workshop smock",
+      "description": "A loose, collarless smock with a front opening, practical cuffs and an easy hip-length hem. Opaque cloth covers the bust, torso and upper hips with ample working room.",
+      "expressionExamples": [
+        "Could be chosen over a simpler silhouette when movement matters most."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "work",
+        "workshop"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "cotton",
+        "linen"
+      ],
+      "colours": [
+        "ecru"
+      ],
+      "silhouette": "A loose, collarless smock with a front opening, practical cuffs and an easy hip-length hem.",
+      "coverage": "Opaque cloth covers the bust, torso and upper hips with ample working room.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "work",
+        "workshop"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-007",
+      "label": "Brown laced soft-leather top",
+      "description": "A supple, shaped sleeveless top with front lacing and independently fitted rear side panels. An opaque inset beneath the lacing maintains secure bust and torso coverage.",
+      "expressionExamples": [
+        "Could contrast a structured waist with softer trousers or a skirt."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "workshop",
+        "social",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "soft leather",
+        "linen lining"
+      ],
+      "colours": [
+        "deep brown"
+      ],
+      "silhouette": "A supple, shaped sleeveless top with front lacing and independently fitted rear side panels.",
+      "coverage": "An opaque inset beneath the lacing maintains secure bust and torso coverage.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "workshop",
+        "social",
+        "leisure"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-008",
+      "label": "Slate V-neck tunic",
+      "description": "A clean-lined, hip-length tunic with a front opening and a shallow V-shaped neckline. Opaque cloth covers the bust and torso; the neckline remains modest during ordinary movement.",
+      "expressionExamples": [
+        "Could serve as a quiet base beneath a practical outer layer."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "leisure",
+        "fieldwork"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "soft wool",
+        "linen facing"
+      ],
+      "colours": [
+        "smoky slate"
+      ],
+      "silhouette": "A clean-lined, hip-length tunic with a front opening and a shallow V-shaped neckline.",
+      "coverage": "Opaque cloth covers the bust and torso; the neckline remains modest during ordinary movement.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "reading",
+        "leisure",
+        "fieldwork"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-009",
+      "label": "Ivory off-shoulder top",
+      "description": "A fitted off-shoulder top with side closures and an adjustable upper edge. The shoulders are bare while an opaque shaped front securely covers the bust and waist.",
+      "expressionExamples": [
+        "Could be chosen for a playful adult silhouette without relying on transparency."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "social",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "lined linen",
+        "cotton lacing"
+      ],
+      "colours": [
+        "soft ivory"
+      ],
+      "silhouette": "A fitted off-shoulder top with side closures and an adjustable upper edge.",
+      "coverage": "The shoulders are bare while an opaque shaped front securely covers the bust and waist.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "evening",
+        "social",
+        "leisure"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-010",
+      "label": "Indigo woven waistcoat",
+      "description": "A sleeveless, front-buttoned waistcoat shaped through the torso and cut to the waist. The lined opaque front provides full bust coverage as a standalone top; the neckline is a restrained V.",
+      "expressionExamples": [
+        "Could give a plain pair of trousers a more deliberate line."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "workshop"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "lined cotton",
+        "worn metal buttons"
+      ],
+      "colours": [
+        "muted indigo"
+      ],
+      "silhouette": "A sleeveless, front-buttoned waistcoat shaped through the torso and cut to the waist.",
+      "coverage": "The lined opaque front provides full bust coverage as a standalone top; the neckline is a restrained V.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "social",
+        "workshop"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-011",
+      "label": "Sage cropped wrap",
+      "description": "A short wrap-front top with adjustable shoulder and side ties. Overlapping opaque panels securely cover the bust; a small strip of midriff remains visible.",
+      "expressionExamples": [
+        "Could be paired with a simple skirt or practical shorts."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social",
+        "fieldwork"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "linen",
+        "soft cotton ties"
+      ],
+      "colours": [
+        "sage green"
+      ],
+      "silhouette": "A short wrap-front top with adjustable shoulder and side ties.",
+      "coverage": "Overlapping opaque panels securely cover the bust; a small strip of midriff remains visible.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "leisure",
+        "social",
+        "fieldwork"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-012",
+      "label": "Cream gathered blouse",
+      "description": "A front-fastened blouse with softly gathered sleeves and a shaped waist. Opaque cloth and lined inset work keep the bust and torso fully covered beneath a gently open neckline.",
+      "expressionExamples": [
+        "Could soften a fitted skirt without adding excessive ornament."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "social",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "top",
+      "materials": [
+        "cotton",
+        "linen lace inset"
+      ],
+      "colours": [
+        "warm cream"
+      ],
+      "silhouette": "A front-fastened blouse with softly gathered sleeves and a shaped waist.",
+      "coverage": "Opaque cloth and lined inset work keep the bust and torso fully covered beneath a gently open neckline.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "reading",
+        "social",
+        "leisure"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-013",
+      "label": "Charcoal straight trousers",
+      "description": "Straight-legged trousers with a comfortable shaped waistband and side closure. Opaque cloth fully covers the hips, seat and legs to the ankles.",
+      "expressionExamples": [
+        "Could anchor a practical ensemble with a clean line."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "work",
+        "fieldwork",
+        "reading"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "wool",
+        "linen lining"
+      ],
+      "colours": [
+        "faded charcoal"
+      ],
+      "silhouette": "Straight-legged trousers with a comfortable shaped waistband and side closure.",
+      "coverage": "Opaque cloth fully covers the hips, seat and legs to the ankles.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "work",
+        "fieldwork",
+        "reading"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-014",
+      "label": "Oat wide linen trousers",
+      "description": "Loose, wide-legged trousers with an adjustable waistband and a softly falling leg. Opaque linen covers the hips, seat and legs; the lining prevents sheerness in bright light.",
+      "expressionExamples": [
+        "Could balance a fitted top with easy movement."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "workshop",
+        "reading"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "linen",
+        "cotton ties"
+      ],
+      "colours": [
+        "oat beige"
+      ],
+      "silhouette": "Loose, wide-legged trousers with an adjustable waistband and a softly falling leg.",
+      "coverage": "Opaque linen covers the hips, seat and legs; the lining prevents sheerness in bright light.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "leisure",
+        "workshop",
+        "reading"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-015",
+      "label": "Moss walking skirt",
+      "description": "A knee-length skirt with overlapping walking panels and a shaped waist. Opaque overlapping panels cover the hips, seat and upper legs during ordinary movement.",
+      "expressionExamples": [
+        "Could be chosen for a practical skirt-based outfit."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "fieldwork",
+        "social",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "wool",
+        "linen facing"
+      ],
+      "colours": [
+        "moss green"
+      ],
+      "silhouette": "A knee-length skirt with overlapping walking panels and a shaped waist.",
+      "coverage": "Opaque overlapping panels cover the hips, seat and upper legs during ordinary movement.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "fieldwork",
+        "social",
+        "work"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-016",
+      "label": "Rust short wool skirt",
+      "description": "A mid-thigh skirt with a stable waistband and modest pleats. An opaque lining and secure hem provide non-explicit coverage of the hips and seat; the legs remain visible.",
+      "expressionExamples": [
+        "Could create a playful adult silhouette above simple flats."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "soft wool",
+        "linen lining"
+      ],
+      "colours": [
+        "muted rust"
+      ],
+      "silhouette": "A mid-thigh skirt with a stable waistband and modest pleats.",
+      "coverage": "An opaque lining and secure hem provide non-explicit coverage of the hips and seat; the legs remain visible.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "leisure",
+        "social",
+        "evening"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-017",
+      "label": "Dark soft-leather shorts",
+      "description": "Fitted mid-thigh shorts with shaped seams and a side fastening. Opaque material securely covers the hips, seat and upper thighs without cutaway panels.",
+      "expressionExamples": [
+        "Could pair a confident short silhouette with a softly draped top."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social",
+        "workshop"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "soft leather",
+        "linen lining"
+      ],
+      "colours": [
+        "dark chocolate"
+      ],
+      "silhouette": "Fitted mid-thigh shorts with shaped seams and a side fastening.",
+      "coverage": "Opaque material securely covers the hips, seat and upper thighs without cutaway panels.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "leisure",
+        "social",
+        "workshop"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-018",
+      "label": "Navy fitted skirt",
+      "description": "A knee-length, gently fitted skirt with a small covered walking pleat. Opaque cloth covers the hips, seat and thighs; the pleat opens over an opaque inset.",
+      "expressionExamples": [
+        "Could offer a clean line beneath a fitted bodice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening",
+        "reading"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "wool",
+        "cotton lining"
+      ],
+      "colours": [
+        "deep navy"
+      ],
+      "silhouette": "A knee-length, gently fitted skirt with a small covered walking pleat.",
+      "coverage": "Opaque cloth covers the hips, seat and thighs; the pleat opens over an opaque inset.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "social",
+        "evening",
+        "reading"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-019",
+      "label": "Cream drawstring breeches",
+      "description": "Relaxed calf-length breeches with an adjustable waist and softly gathered cuffs. Opaque linen and secure closures cover the hips, seat and legs below the knee.",
+      "expressionExamples": [
+        "Could suit an unhurried day of practical or quiet activities."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "workshop",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "linen",
+        "cotton cord"
+      ],
+      "colours": [
+        "unbleached cream"
+      ],
+      "silhouette": "Relaxed calf-length breeches with an adjustable waist and softly gathered cuffs.",
+      "coverage": "Opaque linen and secure closures cover the hips, seat and legs below the knee.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "leisure",
+        "workshop",
+        "domestic"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-020",
+      "label": "Ink layered evening skirt",
+      "description": "An ankle-length layered skirt with a softly moving outer panel. A continuous opaque inner skirt preserves coverage beneath the moving outer layers and their restrained openings.",
+      "expressionExamples": [
+        "Could carry evening movement without transparency or an unsecured slit."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "social",
+        "formal"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "lined silk",
+        "linen waistband"
+      ],
+      "colours": [
+        "ink blue",
+        "smoky blue"
+      ],
+      "silhouette": "An ankle-length layered skirt with a softly moving outer panel.",
+      "coverage": "A continuous opaque inner skirt preserves coverage beneath the moving outer layers and their restrained openings.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "evening",
+        "social",
+        "formal"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-021",
+      "label": "Amber pleated skirt",
+      "description": "A knee-length skirt with broad, softly pressed pleats and a secure side closure. Opaque lined cloth covers the hips, seat and upper legs throughout the pleated silhouette.",
+      "expressionExamples": [
+        "Could add a warm colour accent to an otherwise quiet outfit."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "linen",
+        "cotton lining"
+      ],
+      "colours": [
+        "muted amber"
+      ],
+      "silhouette": "A knee-length skirt with broad, softly pressed pleats and a secure side closure.",
+      "coverage": "Opaque lined cloth covers the hips, seat and upper legs throughout the pleated silhouette.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "social",
+        "leisure"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-022",
+      "label": "Mushroom wrap skirt",
+      "description": "A mid-calf wrap skirt with generous overlap and a secondary internal tie. Overlapping opaque panels remain secure over the hips, seat and legs during ordinary movement.",
+      "expressionExamples": [
+        "Could be chosen for a relaxed, tactile silhouette."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "leisure",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "linen",
+        "soft wool blend"
+      ],
+      "colours": [
+        "mushroom taupe"
+      ],
+      "silhouette": "A mid-calf wrap skirt with generous overlap and a secondary internal tie.",
+      "coverage": "Overlapping opaque panels remain secure over the hips, seat and legs during ordinary movement.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "reading",
+        "leisure",
+        "social"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-023",
+      "label": "Oxblood tapered trousers",
+      "description": "Ankle-length trousers with a tapered leg and adjustable side tabs. Opaque cloth fully covers the hips, seat and legs while leaving room for comfortable movement.",
+      "expressionExamples": [
+        "Could provide a restrained deep-colour accent beneath a plain top."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "fieldwork",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "soft wool",
+        "cotton lining"
+      ],
+      "colours": [
+        "muted oxblood"
+      ],
+      "silhouette": "Ankle-length trousers with a tapered leg and adjustable side tabs.",
+      "coverage": "Opaque cloth fully covers the hips, seat and legs while leaving room for comfortable movement.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "social",
+        "fieldwork",
+        "evening"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-024",
+      "label": "Slate tailored shorts",
+      "description": "Mid-thigh tailored shorts with a clean front and adjustable waistband. Opaque lined panels securely cover the hips, seat and upper thighs.",
+      "expressionExamples": [
+        "Could offer a practical short silhouette without modern sportswear details."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "workshop",
+        "leisure",
+        "fieldwork"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "bottom",
+      "materials": [
+        "linen",
+        "cotton lining"
+      ],
+      "colours": [
+        "slate grey"
+      ],
+      "silhouette": "Mid-thigh tailored shorts with a clean front and adjustable waistband.",
+      "coverage": "Opaque lined panels securely cover the hips, seat and upper thighs.",
+      "anatomyAccommodations": [
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "workshop",
+        "leisure",
+        "fieldwork"
+      ],
+      "incompatibleSlots": [
+        "dress"
+      ]
+    },
+    {
+      "id": "garment-025",
+      "label": "Soot linen work dress",
+      "description": "A knee-length front-buttoned dress with a gently shaped waist and practical sleeves. Opaque cloth covers the bust, torso, hips and seat; the skirt has ample movement without open side panels.",
+      "expressionExamples": [
+        "Could be worn as a complete practical garment with simple footwear."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "work",
+        "workshop",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "dress",
+      "materials": [
+        "linen",
+        "cotton thread"
+      ],
+      "colours": [
+        "soft soot grey"
+      ],
+      "silhouette": "A knee-length front-buttoned dress with a gently shaped waist and practical sleeves.",
+      "coverage": "Opaque cloth covers the bust, torso, hips and seat; the skirt has ample movement without open side panels.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "work",
+        "workshop",
+        "domestic"
+      ],
+      "incompatibleSlots": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "id": "garment-026",
+      "label": "Moss apron-style dress",
+      "description": "A full-coverage apron-style dress with a shaped front, independent shoulder ties and a knee-length skirt. An opaque shaped bodice and continuous skirt cover the bust, torso, hips and seat without requiring a separate top.",
+      "expressionExamples": [
+        "Could serve as a self-contained garden or workshop dress."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "gardening",
+        "work",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "dress",
+      "materials": [
+        "linen",
+        "soft leather ties"
+      ],
+      "colours": [
+        "muted moss"
+      ],
+      "silhouette": "A full-coverage apron-style dress with a shaped front, independent shoulder ties and a knee-length skirt.",
+      "coverage": "An opaque shaped bodice and continuous skirt cover the bust, torso, hips and seat without requiring a separate top.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "gardening",
+        "work",
+        "leisure"
+      ],
+      "incompatibleSlots": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "id": "garment-027",
+      "label": "Midnight wrap dress",
+      "description": "A knee-length wrap dress with a softly low neckline, shaped waist and adjustable open-back construction. Overlapping lined panels securely cover the bust, torso, hips and seat; the wrap has a hidden retaining tie.",
+      "expressionExamples": [
+        "Could offer restrained evening allure with clear opaque coverage."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "social",
+        "formal"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "dress",
+      "materials": [
+        "lined silk",
+        "linen ties"
+      ],
+      "colours": [
+        "midnight blue"
+      ],
+      "silhouette": "A knee-length wrap dress with a softly low neckline, shaped waist and adjustable open-back construction.",
+      "coverage": "Overlapping lined panels securely cover the bust, torso, hips and seat; the wrap has a hidden retaining tie.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "evening",
+        "social",
+        "formal"
+      ],
+      "incompatibleSlots": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "id": "garment-028",
+      "label": "Amber sleeveless day dress",
+      "description": "An ankle-length sleeveless dress with a front fastening and an easy shaped waist. Opaque lined cloth covers the bust, torso, hips and legs; a shallow neckline remains stable.",
+      "expressionExamples": [
+        "Could form a warm, simple day ensemble with practical footwear."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "leisure",
+        "fieldwork"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "dress",
+      "materials": [
+        "linen",
+        "cotton lining"
+      ],
+      "colours": [
+        "muted amber"
+      ],
+      "silhouette": "An ankle-length sleeveless dress with a front fastening and an easy shaped waist.",
+      "coverage": "Opaque lined cloth covers the bust, torso, hips and legs; a shallow neckline remains stable.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "social",
+        "leisure",
+        "fieldwork"
+      ],
+      "incompatibleSlots": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "id": "garment-029",
+      "label": "Blue-grey winter dress",
+      "description": "A calf-length, long-sleeved dress with a comfortable waist and a front opening. Opaque lined wool fully covers the bust, torso, hips and most of the legs.",
+      "expressionExamples": [
+        "Could be chosen for a warm, quiet silhouette rather than ceremonial dress."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "domestic",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "dress",
+      "materials": [
+        "soft wool",
+        "linen lining"
+      ],
+      "colours": [
+        "blue-grey"
+      ],
+      "silhouette": "A calf-length, long-sleeved dress with a comfortable waist and a front opening.",
+      "coverage": "Opaque lined wool fully covers the bust, torso, hips and most of the legs.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "reading",
+        "domestic",
+        "social"
+      ],
+      "incompatibleSlots": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "id": "garment-030",
+      "label": "Ivory shoulder-tie dress",
+      "description": "A knee-length dress with individually adjustable shoulder ties and a gently shaped bodice. Opaque lined cloth securely covers the bust, torso, hips and seat; side closures stabilize the open-back option.",
+      "expressionExamples": [
+        "Could be dressed simply or given one restrained accessory."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "dress",
+      "materials": [
+        "lined linen",
+        "cotton ties"
+      ],
+      "colours": [
+        "soft ivory"
+      ],
+      "silhouette": "A knee-length dress with individually adjustable shoulder ties and a gently shaped bodice.",
+      "coverage": "Opaque lined cloth securely covers the bust, torso, hips and seat; side closures stabilize the open-back option.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "leisure",
+        "social",
+        "evening"
+      ],
+      "incompatibleSlots": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "id": "garment-031",
+      "label": "Wine sweetheart evening dress",
+      "description": "A fitted evening dress with a sweetheart neckline, adjustable open back and a side opening over an inner panel. A shaped opaque bodice securely covers the bust; an opaque inner skirt maintains non-explicit coverage beneath the side opening.",
+      "expressionExamples": [
+        "Could emphasize mature curves while remaining secure when seated."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "formal",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "dress",
+      "materials": [
+        "lined silk",
+        "soft cotton support panels"
+      ],
+      "colours": [
+        "deep wine"
+      ],
+      "silhouette": "A fitted evening dress with a sweetheart neckline, adjustable open back and a side opening over an inner panel.",
+      "coverage": "A shaped opaque bodice securely covers the bust; an opaque inner skirt maintains non-explicit coverage beneath the side opening.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "evening",
+        "formal",
+        "social"
+      ],
+      "incompatibleSlots": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "id": "garment-032",
+      "label": "Teal asymmetrical wrap dress",
+      "description": "A mid-calf wrap dress with an asymmetrical front drape and independently fitted rear side panels. Overlapping opaque layers cover the bust, torso, hips and seat; an internal fastening keeps the wrap secure.",
+      "expressionExamples": [
+        "Could create visual movement with a restrained, tactile finish."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "dress",
+      "materials": [
+        "lined linen",
+        "silk edging"
+      ],
+      "colours": [
+        "deep teal"
+      ],
+      "silhouette": "A mid-calf wrap dress with an asymmetrical front drape and independently fitted rear side panels.",
+      "coverage": "Overlapping opaque layers cover the bust, torso, hips and seat; an internal fastening keeps the wrap secure.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "social",
+        "evening",
+        "leisure"
+      ],
+      "incompatibleSlots": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "id": "garment-033",
+      "label": "Brown simple tunic dress",
+      "description": "A knee-length tunic dress with a front opening and a slightly shaped waist. Opaque cloth covers the bust, torso, hips and seat; the relaxed hem allows ordinary movement.",
+      "expressionExamples": [
+        "Could form a quiet base for a single decorative accent."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "leisure",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "dress",
+      "materials": [
+        "soft wool",
+        "linen facing"
+      ],
+      "colours": [
+        "warm dark brown"
+      ],
+      "silhouette": "A knee-length tunic dress with a front opening and a slightly shaped waist.",
+      "coverage": "Opaque cloth covers the bust, torso, hips and seat; the relaxed hem allows ordinary movement.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "reading",
+        "leisure",
+        "social"
+      ],
+      "incompatibleSlots": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "id": "garment-034",
+      "label": "Violet and charcoal evening dress",
+      "description": "An ankle-length dress with a low open back, shaped front bodice and restrained two-tone panels. Opaque support and lining securely cover the bust, torso, hips and seat; the skirt is continuous beneath its draped surface.",
+      "expressionExamples": [
+        "Could offer dark-academia elegance without extensive metallic ornament."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "formal",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "dress",
+      "materials": [
+        "lined silk",
+        "linen support panels"
+      ],
+      "colours": [
+        "muted violet",
+        "charcoal"
+      ],
+      "silhouette": "An ankle-length dress with a low open back, shaped front bodice and restrained two-tone panels.",
+      "coverage": "Opaque support and lining securely cover the bust, torso, hips and seat; the skirt is continuous beneath its draped surface.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "For a tail, use an individually positioned bound rear opening beneath overlapping opaque panels; the side closure keeps hip and seat coverage secure.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "evening",
+        "formal",
+        "social"
+      ],
+      "incompatibleSlots": [
+        "top",
+        "bottom"
+      ]
+    },
+    {
+      "id": "garment-035",
+      "label": "Charcoal short work jacket",
+      "description": "A waist-length, front-buttoned jacket with practical sleeves and a closed back. Opaque outer coverage supplements a complete top or dress; it is not a substitute for the base garment.",
+      "expressionExamples": [
+        "Could provide a simple practical layer over a complete outfit."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "work",
+        "workshop",
+        "fieldwork"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "outer-layer",
+      "materials": [
+        "wool",
+        "linen lining"
+      ],
+      "colours": [
+        "charcoal"
+      ],
+      "silhouette": "A waist-length, front-buttoned jacket with practical sleeves and a closed back.",
+      "coverage": "Opaque outer coverage supplements a complete top or dress; it is not a substitute for the base garment.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "Keep the lower rear opening or divided drape clear of any established tail and of the base garment’s tail accommodation.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "work",
+        "workshop",
+        "fieldwork"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-036",
+      "label": "Moss open-front coat",
+      "description": "A knee-length open-front coat with a divided rear construction and generous movement panels. Opaque cloth adds shoulder and side coverage over a complete base outfit without replacing its secure front coverage.",
+      "expressionExamples": [
+        "Could frame a simple outfit without hiding its silhouette."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "fieldwork",
+        "social",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "outer-layer",
+      "materials": [
+        "linen",
+        "soft wool facing"
+      ],
+      "colours": [
+        "dark moss"
+      ],
+      "silhouette": "A knee-length open-front coat with a divided rear construction and generous movement panels.",
+      "coverage": "Opaque cloth adds shoulder and side coverage over a complete base outfit without replacing its secure front coverage.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Keep the lower rear opening or divided drape clear of any established tail and of the base garment’s tail accommodation.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "fieldwork",
+        "social",
+        "leisure"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-037",
+      "label": "Tobacco leather bolero",
+      "description": "A short open-front bolero with separately fitted shoulder and rear side panels. Opaque shoulder and arm coverage sits over a securely covering top or dress.",
+      "expressionExamples": [
+        "Could add a structured accent while leaving the waist visible."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening",
+        "workshop"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "outer-layer",
+      "materials": [
+        "soft leather",
+        "linen lining"
+      ],
+      "colours": [
+        "tobacco brown"
+      ],
+      "silhouette": "A short open-front bolero with separately fitted shoulder and rear side panels.",
+      "coverage": "Opaque shoulder and arm coverage sits over a securely covering top or dress.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Keep the lower rear opening or divided drape clear of any established tail and of the base garment’s tail accommodation.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "social",
+        "evening",
+        "workshop"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-038",
+      "label": "Ink reading shawl",
+      "description": "A soft shoulder shawl arranged as separate front drapes with a small optional clasp. Opaque drapes add warmth over a complete base outfit; the shawl is not relied on for bust coverage.",
+      "expressionExamples": [
+        "Could be settled over the shoulders while keeping the back clear where needed."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "leisure",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "outer-layer",
+      "materials": [
+        "soft wool",
+        "silk edging"
+      ],
+      "colours": [
+        "ink blue"
+      ],
+      "silhouette": "A soft shoulder shawl arranged as separate front drapes with a small optional clasp.",
+      "coverage": "Opaque drapes add warmth over a complete base outfit; the shawl is not relied on for bust coverage.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Keep the lower rear opening or divided drape clear of any established tail and of the base garment’s tail accommodation.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "reading",
+        "leisure",
+        "evening"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-039",
+      "label": "Oat knitted cardigan",
+      "description": "A relaxed, front-buttoned cardigan with a continuous closed back. Opaque knitted cloth supplements a complete top or dress and is not intended as the only covering layer.",
+      "expressionExamples": [
+        "Could soften a plain indoor ensemble."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "leisure",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "outer-layer",
+      "materials": [
+        "soft wool",
+        "wood buttons"
+      ],
+      "colours": [
+        "oatmeal"
+      ],
+      "silhouette": "A relaxed, front-buttoned cardigan with a continuous closed back.",
+      "coverage": "Opaque knitted cloth supplements a complete top or dress and is not intended as the only covering layer.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "Keep the lower rear opening or divided drape clear of any established tail and of the base garment’s tail accommodation.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "reading",
+        "leisure",
+        "domestic"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-040",
+      "label": "Rust divided travel cloak",
+      "description": "A calf-length cloak with front fastenings, a divided rear panel and adjustable shoulder attachment. Opaque cloth provides an outer layer over a complete outfit; the front may remain open without compromising base coverage.",
+      "expressionExamples": [
+        "Could be part of a proposed travel ensemble without implying weatherproof performance."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "fieldwork",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "outer-layer",
+      "materials": [
+        "wool",
+        "linen lining"
+      ],
+      "colours": [
+        "muted rust"
+      ],
+      "silhouette": "A calf-length cloak with front fastenings, a divided rear panel and adjustable shoulder attachment.",
+      "coverage": "Opaque cloth provides an outer layer over a complete outfit; the front may remain open without compromising base coverage.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Keep the lower rear opening or divided drape clear of any established tail and of the base garment’s tail accommodation.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "fieldwork",
+        "leisure"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-041",
+      "label": "Plum evening capelet",
+      "description": "A short, open-front capelet with independently draped shoulder sections. Opaque shoulder drapes supplement a complete evening garment and leave its secure front visible.",
+      "expressionExamples": [
+        "Could add a quiet frame to an evening silhouette."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "formal",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "outer-layer",
+      "materials": [
+        "lined silk",
+        "soft wool facing"
+      ],
+      "colours": [
+        "muted plum"
+      ],
+      "silhouette": "A short, open-front capelet with independently draped shoulder sections.",
+      "coverage": "Opaque shoulder drapes supplement a complete evening garment and leave its secure front visible.",
+      "anatomyAccommodations": [
+        "Fit independent shoulder and side sections around established wing roots; folded wings remain clear of any back panel.",
+        "Open front, side or neck fastenings avoid forcing the garment over horns, large ears or botanical features.",
+        "Keep the lower rear opening or divided drape clear of any established tail and of the base garment’s tail accommodation.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "evening",
+        "formal",
+        "social"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-042",
+      "label": "Slate sleeveless overcoat",
+      "description": "A long sleeveless overcoat with a front opening, closed upper back and rear hem vents. Opaque outer cloth supplements a complete base outfit; the open front does not supply primary coverage.",
+      "expressionExamples": [
+        "Could give a practical outfit a clean vertical line."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "fieldwork",
+        "social",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "outer-layer",
+      "materials": [
+        "wool",
+        "linen lining"
+      ],
+      "colours": [
+        "slate blue"
+      ],
+      "silhouette": "A long sleeveless overcoat with a front opening, closed upper back and rear hem vents.",
+      "coverage": "Opaque outer cloth supplements a complete base outfit; the open front does not supply primary coverage.",
+      "anatomyAccommodations": [
+        "The closed upper back has no wing opening; do not assign this component to a seraph.",
+        "Use the front opening rather than pulling a fitted neckline over horns, large ears or botanical features.",
+        "Keep the lower rear opening or divided drape clear of any established tail and of the base garment’s tail accommodation.",
+        "Review seam placement, nonabrasive lining and clearance against the actual body, including crafted surfaces and approved joint ranges."
+      ],
+      "occasionTags": [
+        "fieldwork",
+        "social",
+        "work"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-043",
+      "label": "Brown laced ankle boots",
+      "description": "Ankle boots with adjustable front lacing, a broad opening and a low heel. Opaque leather covers the foot and ankle; ordinary leg coverage depends on the chosen bottom or dress.",
+      "expressionExamples": [
+        "Could accompany trousers or a practical walking skirt."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "work",
+        "fieldwork",
+        "workshop"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "footwear",
+      "materials": [
+        "soft leather",
+        "linen lining"
+      ],
+      "colours": [
+        "worn brown"
+      ],
+      "silhouette": "Ankle boots with adjustable front lacing, a broad opening and a low heel.",
+      "coverage": "Opaque leather covers the foot and ankle; ordinary leg coverage depends on the chosen bottom or dress.",
+      "anatomyAccommodations": [
+        "The shaped upper relies on flexible living-foot fit and is not a candidate for golem constructions in this pack."
+      ],
+      "occasionTags": [
+        "work",
+        "fieldwork",
+        "workshop"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-044",
+      "label": "Charcoal soft slippers",
+      "description": "Low, softly structured slippers with a wide opening and adjustable side ties. Opaque material covers the foot while leaving the ankle open.",
+      "expressionExamples": [
+        "Could suit an indoor ensemble after an individual fit review."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "leisure",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "footwear",
+      "materials": [
+        "soft leather",
+        "wool lining"
+      ],
+      "colours": [
+        "charcoal"
+      ],
+      "silhouette": "Low, softly structured slippers with a wide opening and adjustable side ties.",
+      "coverage": "Opaque material covers the foot while leaving the ankle open.",
+      "anatomyAccommodations": [
+        "Adjust the separate ties or straps to established foot shape; crafted feet require padding and explicit review of joint clearance and suitability."
+      ],
+      "occasionTags": [
+        "reading",
+        "leisure",
+        "domestic"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-045",
+      "label": "Ochre strapped sandals",
+      "description": "Flat sandals with individually adjustable straps and an open heel. The sole and straps cover and secure the foot while leaving toes and parts of the foot visible.",
+      "expressionExamples": [
+        "Could provide an open, adjustable footwear option where suitable."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social",
+        "gardening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "footwear",
+      "materials": [
+        "soft leather",
+        "worn metal fittings"
+      ],
+      "colours": [
+        "muted ochre"
+      ],
+      "silhouette": "Flat sandals with individually adjustable straps and an open heel.",
+      "coverage": "The sole and straps cover and secure the foot while leaving toes and parts of the foot visible.",
+      "anatomyAccommodations": [
+        "Adjust the separate ties or straps to established foot shape; crafted feet require padding and explicit review of joint clearance and suitability."
+      ],
+      "occasionTags": [
+        "leisure",
+        "social",
+        "gardening"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-046",
+      "label": "Black low-heeled lace-ups",
+      "description": "Closed low-heeled shoes with a shaped upper and adjustable lacing. Opaque leather covers the foot; the low opening leaves the ankle visible.",
+      "expressionExamples": [
+        "Could give a simple outfit a more deliberate finish."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "footwear",
+      "materials": [
+        "soft leather",
+        "linen lining"
+      ],
+      "colours": [
+        "soft black"
+      ],
+      "silhouette": "Closed low-heeled shoes with a shaped upper and adjustable lacing.",
+      "coverage": "Opaque leather covers the foot; the low opening leaves the ankle visible.",
+      "anatomyAccommodations": [
+        "The shaped upper relies on flexible living-foot fit and is not a candidate for golem constructions in this pack."
+      ],
+      "occasionTags": [
+        "social",
+        "evening",
+        "work"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-047",
+      "label": "Moss lined cloth shoes",
+      "description": "Low cloth shoes with a shaped upper and small side ties. Opaque lined cloth covers the foot while leaving the ankle open.",
+      "expressionExamples": [
+        "Could accompany soft indoor fabrics and a quiet palette."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "reading",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "footwear",
+      "materials": [
+        "linen",
+        "soft leather soles"
+      ],
+      "colours": [
+        "muted moss"
+      ],
+      "silhouette": "Low cloth shoes with a shaped upper and small side ties.",
+      "coverage": "Opaque lined cloth covers the foot while leaving the ankle open.",
+      "anatomyAccommodations": [
+        "The shaped upper relies on flexible living-foot fit and is not a candidate for golem constructions in this pack."
+      ],
+      "occasionTags": [
+        "leisure",
+        "reading",
+        "social"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-048",
+      "label": "Rust mid-calf boots",
+      "description": "Mid-calf boots with adjustable side lacing and modestly shaped uppers. Opaque leather covers the feet, ankles and lower calves.",
+      "expressionExamples": [
+        "Could be a practical style candidate without claimed protection statistics."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "fieldwork",
+        "work",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "footwear",
+      "materials": [
+        "soft leather",
+        "linen lining"
+      ],
+      "colours": [
+        "dark rust"
+      ],
+      "silhouette": "Mid-calf boots with adjustable side lacing and modestly shaped uppers.",
+      "coverage": "Opaque leather covers the feet, ankles and lower calves.",
+      "anatomyAccommodations": [
+        "The shaped upper relies on flexible living-foot fit and is not a candidate for golem constructions in this pack."
+      ],
+      "occasionTags": [
+        "fieldwork",
+        "work",
+        "leisure"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-049",
+      "label": "Blue silk-covered evening shoes",
+      "description": "Low-heeled evening shoes with a closed toe and adjustable instep strap. Opaque material covers the toes and most of the foot; the ankle remains visible.",
+      "expressionExamples": [
+        "Could echo a small silk accent without requiring high heels."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "formal",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "footwear",
+      "materials": [
+        "lined silk",
+        "soft leather soles"
+      ],
+      "colours": [
+        "deep blue"
+      ],
+      "silhouette": "Low-heeled evening shoes with a closed toe and adjustable instep strap.",
+      "coverage": "Opaque material covers the toes and most of the foot; the ankle remains visible.",
+      "anatomyAccommodations": [
+        "The shaped upper relies on flexible living-foot fit and is not a candidate for golem constructions in this pack."
+      ],
+      "occasionTags": [
+        "evening",
+        "formal",
+        "social"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-050",
+      "label": "Tan ankle-wrap flats",
+      "description": "Flat footwear with a broad opening and individually tied ankle and instep straps. The sole and opaque front panel cover the foot's underside and front while leaving portions of the upper foot visible.",
+      "expressionExamples": [
+        "Could offer a flexible fastening layout for an individually fitted ensemble."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "footwear",
+      "materials": [
+        "soft leather",
+        "linen straps"
+      ],
+      "colours": [
+        "dark tan"
+      ],
+      "silhouette": "Flat footwear with a broad opening and individually tied ankle and instep straps.",
+      "coverage": "The sole and opaque front panel cover the foot's underside and front while leaving portions of the upper foot visible.",
+      "anatomyAccommodations": [
+        "Adjust the separate ties or straps to established foot shape; crafted feet require padding and explicit review of joint clearance and suitability."
+      ],
+      "occasionTags": [
+        "leisure",
+        "social",
+        "evening"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-051",
+      "label": "Narrow woven belt",
+      "description": "A narrow woven belt with a simple adjustable closure. This accessory adds no independent body coverage and is worn over a complete base garment.",
+      "expressionExamples": [
+        "Could define the waist without extensive ornament."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "work",
+        "social",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "accessory",
+      "materials": [
+        "linen",
+        "worn metal buckle"
+      ],
+      "colours": [
+        "charcoal",
+        "muted ochre"
+      ],
+      "silhouette": "A narrow woven belt with a simple adjustable closure.",
+      "coverage": "This accessory adds no independent body coverage and is worn over a complete base garment.",
+      "anatomyAccommodations": [
+        "Position side closures and short loose ends away from the tail base, wing roots and any articulated waist joints."
+      ],
+      "occasionTags": [
+        "work",
+        "social",
+        "leisure"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-052",
+      "label": "Brass leaf brooch",
+      "description": "A small matte leaf-shaped brooch with a guarded fastening. This accessory adds no body coverage and is attached only where the base garment remains secure.",
+      "expressionExamples": [
+        "Could add one restrained botanical detail to plain cloth."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening",
+        "formal"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "accessory",
+      "materials": [
+        "worn brass"
+      ],
+      "colours": [
+        "muted brass"
+      ],
+      "silhouette": "A small matte leaf-shaped brooch with a guarded fastening.",
+      "coverage": "This accessory adds no body coverage and is attached only where the base garment remains secure.",
+      "anatomyAccommodations": [
+        "Fasten to suitable cloth, never directly to skin, feathers, scales, botanical growth or a crafted surface."
+      ],
+      "occasionTags": [
+        "social",
+        "evening",
+        "formal"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-053",
+      "label": "Violet silk hair ribbon",
+      "description": "A soft, narrow ribbon intended for a removable hair accent. This accessory provides no body coverage and does not replace any clothing component.",
+      "expressionExamples": [
+        "Could offer a small colour accent without changing the hairstyle permanently."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "accessory",
+      "materials": [
+        "silk"
+      ],
+      "colours": [
+        "muted violet"
+      ],
+      "silhouette": "A soft, narrow ribbon intended for a removable hair accent.",
+      "coverage": "This accessory provides no body coverage and does not replace any clothing component.",
+      "anatomyAccommodations": [
+        "Place only among established suitable hair; do not constrict ears, horns, natural leaves or fixed crafted hair forms."
+      ],
+      "occasionTags": [
+        "leisure",
+        "social",
+        "evening"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-054",
+      "label": "Amber soft neck scarf",
+      "description": "A small scarf tied at the front with an adjustable loose drape. The opaque scarf adds a neck accent but is not relied on for bust or torso coverage.",
+      "expressionExamples": [
+        "Could warm the palette of an otherwise plain outfit."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "social",
+        "fieldwork"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "accessory",
+      "materials": [
+        "linen",
+        "silk edging"
+      ],
+      "colours": [
+        "muted amber"
+      ],
+      "silhouette": "A small scarf tied at the front with an adjustable loose drape.",
+      "coverage": "The opaque scarf adds a neck accent but is not relied on for bust or torso coverage.",
+      "anatomyAccommodations": [
+        "Use a loose front tie clear of horn bases, neck scales, wing roots and crafted neck joints."
+      ],
+      "occasionTags": [
+        "reading",
+        "social",
+        "fieldwork"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-055",
+      "label": "Plain leather tool belt",
+      "description": "A modest side-fastened belt with empty loops and a flat pouch design. This accessory adds no primary coverage and is worn over a complete bottom or dress.",
+      "expressionExamples": [
+        "Could organize actually available tools; the design supplies no tools or contents."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "work",
+        "workshop",
+        "fieldwork"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "accessory",
+      "materials": [
+        "soft leather",
+        "linen ties"
+      ],
+      "colours": [
+        "worn brown"
+      ],
+      "silhouette": "A modest side-fastened belt with empty loops and a flat pouch design.",
+      "coverage": "This accessory adds no primary coverage and is worn over a complete bottom or dress.",
+      "anatomyAccommodations": [
+        "Position side closures and short loose ends away from the tail base, wing roots and any articulated waist joints."
+      ],
+      "occasionTags": [
+        "work",
+        "workshop",
+        "fieldwork"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-056",
+      "label": "Pale-gold woven cuff",
+      "description": "A soft adjustable wrist cuff with restrained metallic thread. This accessory covers a small part of the wrist and supplies no other body coverage.",
+      "expressionExamples": [
+        "Could provide a single muted metallic accent."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening",
+        "formal"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "accessory",
+      "materials": [
+        "linen",
+        "worn brass thread"
+      ],
+      "colours": [
+        "pale gold",
+        "ecru"
+      ],
+      "silhouette": "A soft adjustable wrist cuff with restrained metallic thread.",
+      "coverage": "This accessory covers a small part of the wrist and supplies no other body coverage.",
+      "anatomyAccommodations": [
+        "Review wrist and finger articulation individually; soft adjustable ties must not rub scales or bridge crafted moving joints."
+      ],
+      "occasionTags": [
+        "social",
+        "evening",
+        "formal"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-057",
+      "label": "Woven book sleeve",
+      "description": "A soft removable sleeve for an appropriately sized established book. This carried accessory provides no body coverage and does not include a book.",
+      "expressionExamples": [
+        "Could protect a suitable owned or permitted volume without transferring it."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "work",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "accessory",
+      "materials": [
+        "linen",
+        "soft wool lining"
+      ],
+      "colours": [
+        "charcoal",
+        "cream"
+      ],
+      "silhouette": "A soft removable sleeve for an appropriately sized established book.",
+      "coverage": "This carried accessory provides no body coverage and does not include a book.",
+      "anatomyAccommodations": [
+        "Use only where the established hands or chosen carrying method can handle the sleeve; no anatomy or grip capability is supplied."
+      ],
+      "occasionTags": [
+        "reading",
+        "work",
+        "leisure"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-058",
+      "label": "Open silver-toned circlet",
+      "description": "A slender open circlet with adjustable side segments and modest padding. This accessory provides no body coverage and does not replace head protection or any garment.",
+      "expressionExamples": [
+        "Could frame an established face without adding a crest or rank."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "formal",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "accessory",
+      "materials": [
+        "worn silver-toned metal",
+        "linen padding"
+      ],
+      "colours": [
+        "muted silver"
+      ],
+      "silhouette": "A slender open circlet with adjustable side segments and modest padding.",
+      "coverage": "This accessory provides no body coverage and does not replace head protection or any garment.",
+      "anatomyAccommodations": [
+        "Fit open segments around actual horn, ear and botanical layouts; reject a fit that presses on protrusions or crafted seams."
+      ],
+      "occasionTags": [
+        "evening",
+        "formal",
+        "social"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-059",
+      "label": "Rust linen waist sash",
+      "description": "A soft waist sash with side ties and short, controlled ends. This accessory adds no primary coverage and sits over a secure complete garment.",
+      "expressionExamples": [
+        "Could add a tactile waist accent without obscuring a tail opening."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "accessory",
+      "materials": [
+        "linen"
+      ],
+      "colours": [
+        "muted rust"
+      ],
+      "silhouette": "A soft waist sash with side ties and short, controlled ends.",
+      "coverage": "This accessory adds no primary coverage and sits over a secure complete garment.",
+      "anatomyAccommodations": [
+        "Position side closures and short loose ends away from the tail base, wing roots and any articulated waist joints."
+      ],
+      "occasionTags": [
+        "leisure",
+        "social",
+        "evening"
+      ],
+      "incompatibleSlots": []
+    },
+    {
+      "id": "garment-060",
+      "label": "Indigo fingerless gloves",
+      "description": "A pair of short fingerless gloves with adjustable side ties and open knuckle shaping. Opaque cloth covers parts of the hands and wrists while leaving fingers visible.",
+      "expressionExamples": [
+        "Could be included only where the wearer has compatible established hand articulation."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "work",
+        "fieldwork",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A nonmagical clothing design candidate, not an equipped item or portrait change. Individual fitting is required; accommodations are design requirements, not completed alterations.",
+      "slot": "accessory",
+      "materials": [
+        "soft linen",
+        "cotton ties"
+      ],
+      "colours": [
+        "muted indigo"
+      ],
+      "silhouette": "A pair of short fingerless gloves with adjustable side ties and open knuckle shaping.",
+      "coverage": "Opaque cloth covers parts of the hands and wrists while leaving fingers visible.",
+      "anatomyAccommodations": [
+        "Review wrist and finger articulation individually; soft adjustable ties must not rub scales or bridge crafted moving joints."
+      ],
+      "occasionTags": [
+        "work",
+        "fieldwork",
+        "social"
+      ],
+      "incompatibleSlots": []
+    }
+  ]
+}

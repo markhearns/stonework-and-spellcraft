@@ -1,0 +1,59 @@
+{
+  "release": "0.102",
+  "saveSchema": 65,
+  "python": {
+    "result": "pass",
+    "tests": 114,
+    "modules": [
+      "test_pacing_v102",
+      "test_daily_plan",
+      "test_guidance",
+      "test_first_patrol",
+      "test_field_patrols",
+      "test_armoury",
+      "test_refinements_v100",
+      "test_writing_v101",
+      "test_candidate_http"
+    ]
+  },
+  "ui": {
+    "result": "pass",
+    "scripts": [
+      "test_ui_pacing_v102.cjs",
+      "test_ui_first_hearth.cjs",
+      "test_ui_house_shape.cjs",
+      "test_ui_room_to_grow.cjs",
+      "test_ui_keeping_hearth.cjs",
+      "test_ui_first_patrol.cjs",
+      "test_ui_field_patrols.cjs",
+      "test_ui_guidance.cjs",
+      "test_ui_refinements_v100.cjs",
+      "test_ui_daily_plan.cjs"
+    ],
+    "method": "Headless templates and click controllers against persisted Python API state; no rendered browser review."
+  },
+  "campaigns": {
+    "freshRoutes": 2,
+    "chaptersPerRoute": 8,
+    "paidEscortObjectivePerRoute": 1,
+    "earnedResources": true,
+    "cheats": false,
+    "foodShortages": 0,
+    "separateGuidanceReplay": "Chapters 6\u20138 completed from an earned Chapter 6 checkpoint, following every offered action and explicitly choosing contacts, field methods, plans and closing rewards."
+  },
+  "compatibility": {
+    "saveCheckpoints": 16,
+    "exactMigration": true,
+    "publicViewsReadOnly": true,
+    "sqliteReloadExact": true,
+    "unchangedImages": 279,
+    "imageFormats": {
+      "webp": 277,
+      "svg": 2
+    }
+  },
+  "limits": [
+    "Rendered browser review remains deferred.",
+    "Automated phase counts do not establish subjective fun or human playtime."
+  ]
+}

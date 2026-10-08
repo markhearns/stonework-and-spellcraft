@@ -1,0 +1,1182 @@
+{
+  "schemaVersion": 1,
+  "poolType": "occupation-background",
+  "entries": [
+    {
+      "id": "occupation-001",
+      "label": "Junior copyist",
+      "description": "An early-career copyist interested in legibility, faithful wording and useful page layout.",
+      "expressionExamples": [
+        "Asks whether the heading belongs to the source or the copyist."
+      ],
+      "compatibleTags": [
+        "archives",
+        "language"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Copyist",
+      "originOutline": "She has assisted with modest copying work and learned to distinguish a source from her own annotations.",
+      "experienceThemes": [
+        "archives",
+        "language"
+      ],
+      "naturalAmbitionTags": [
+        "practical-scholarship",
+        "craft"
+      ],
+      "suggestedCapabilityPackageId": "archive-reader",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-002",
+      "label": "Bookbinding assistant",
+      "description": "A beginning binder interested in durable everyday books rather than prestige volumes.",
+      "expressionExamples": [
+        "Looks at how a book opens before discussing its ornament."
+      ],
+      "compatibleTags": [
+        "papercraft",
+        "craft"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Bookbinding assistant",
+      "originOutline": "She has helped prepare covers and fold sections in a small workshop, without claiming independent mastery.",
+      "experienceThemes": [
+        "papercraft",
+        "craft"
+      ],
+      "naturalAmbitionTags": [
+        "sustainability",
+        "personal-growth"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-003",
+      "label": "Practical light-study assistant",
+      "description": "An assistant interested in documenting small, established lighting practices and their uses.",
+      "expressionExamples": [
+        "Asks whether a proposed light is for reading or atmosphere."
+      ],
+      "compatibleTags": [
+        "light",
+        "practical-scholarship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Light-study assistant",
+      "originOutline": "She has helped record permitted demonstrations of practical light work; her actual capabilities remain separately defined.",
+      "experienceThemes": [
+        "light",
+        "practical-scholarship"
+      ],
+      "naturalAmbitionTags": [
+        "experimentation",
+        "reading"
+      ],
+      "suggestedCapabilityPackageId": "light-maker",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-004",
+      "label": "Waterwork trainee",
+      "description": "A junior worker interested in ordinary water movement, access and maintenance questions.",
+      "expressionExamples": [
+        "Separates a visible waterline from a guess about the hidden channel."
+      ],
+      "compatibleTags": [
+        "water",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Waterwork trainee",
+      "originOutline": "She has assisted with simple observations around managed waterworks, under more experienced supervision.",
+      "experienceThemes": [
+        "water",
+        "work"
+      ],
+      "naturalAmbitionTags": [
+        "practical-scholarship",
+        "community"
+      ],
+      "suggestedCapabilityPackageId": "water-worker",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-005",
+      "label": "Kitchen preparation helper",
+      "description": "A practical kitchen worker interested in clear preparation and comfortable shared meals.",
+      "expressionExamples": [
+        "Asks which work should happen before guests arrive."
+      ],
+      "compatibleTags": [
+        "cooking",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Kitchen helper",
+      "originOutline": "She has helped with ordinary preparation and cleanup in a small kitchen; complex techniques are not assumed.",
+      "experienceThemes": [
+        "cooking",
+        "domestic"
+      ],
+      "naturalAmbitionTags": [
+        "hospitality",
+        "work"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-006",
+      "label": "Tailoring room assistant",
+      "description": "A junior textile worker attentive to fit, seam placement and everyday movement.",
+      "expressionExamples": [
+        "Asks which movement the proposed garment needs to allow."
+      ],
+      "compatibleTags": [
+        "textiles",
+        "tailoring"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Tailoring assistant",
+      "originOutline": "She has assisted with basic garment preparation and observed fittings with appropriate permission.",
+      "experienceThemes": [
+        "textiles",
+        "tailoring"
+      ],
+      "naturalAmbitionTags": [
+        "accessibility",
+        "craft"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-007",
+      "label": "Seed nursery helper",
+      "description": "A plant-care assistant interested in careful labels and the conditions different seedlings need.",
+      "expressionExamples": [
+        "Checks whether a label identifies the plant or only its tray."
+      ],
+      "compatibleTags": [
+        "gardening",
+        "botany"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Nursery helper",
+      "originOutline": "She has helped with modest nursery tasks under guidance, without claiming universal botanical knowledge.",
+      "experienceThemes": [
+        "gardening",
+        "botany"
+      ],
+      "naturalAmbitionTags": [
+        "sustainability",
+        "practical-scholarship"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-008",
+      "label": "Route sketching apprentice",
+      "description": "A beginning mapmaker interested in understandable directions and explicit uncertainty.",
+      "expressionExamples": [
+        "Marks an unsurveyed connection as a question rather than a path."
+      ],
+      "compatibleTags": [
+        "cartography",
+        "exploration"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Route sketcher",
+      "originOutline": "She has helped prepare small local route sketches, limited to places and observations her biography actually establishes.",
+      "experienceThemes": [
+        "cartography",
+        "exploration"
+      ],
+      "naturalAmbitionTags": [
+        "accessibility",
+        "community"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-009",
+      "label": "Personal letter writer",
+      "description": "A writer interested in helping people express their own meaning without taking over their voice.",
+      "expressionExamples": [
+        "Asks which words the sender wants kept exactly."
+      ],
+      "compatibleTags": [
+        "correspondence",
+        "language"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Letter writer",
+      "originOutline": "She has assisted with ordinary correspondence for willing correspondents and kept private content confidential.",
+      "experienceThemes": [
+        "correspondence",
+        "language"
+      ],
+      "naturalAmbitionTags": [
+        "privacy",
+        "community"
+      ],
+      "suggestedCapabilityPackageId": "archive-reader",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-010",
+      "label": "Pottery workshop helper",
+      "description": "A ceramic-work assistant curious about form, surface and the behaviour of ordinary vessels.",
+      "expressionExamples": [
+        "Compares a cup's rim and handle rather than only its glaze."
+      ],
+      "compatibleTags": [
+        "ceramics",
+        "craft"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Pottery helper",
+      "originOutline": "She has helped with simple workshop preparation and supervised practice pieces, not years of masterwork.",
+      "experienceThemes": [
+        "ceramics",
+        "craft"
+      ],
+      "naturalAmbitionTags": [
+        "experimentation",
+        "personal-growth"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-011",
+      "label": "Stone lettering trainee",
+      "description": "A beginning stoneworker interested in readable lettering and careful spacing.",
+      "expressionExamples": [
+        "Asks how the inscription will be read from ordinary distance."
+      ],
+      "compatibleTags": [
+        "stonework",
+        "language"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Stone lettering trainee",
+      "originOutline": "She has practised on modest sample pieces and assisted a more experienced maker with preparation.",
+      "experienceThemes": [
+        "stonework",
+        "language"
+      ],
+      "naturalAmbitionTags": [
+        "accessibility",
+        "craft"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-012",
+      "label": "Small fittings assistant",
+      "description": "A junior metalworker interested in hinges, catches and useful small fittings.",
+      "expressionExamples": [
+        "Wants to see the hinge's intended motion before ornament is added."
+      ],
+      "compatibleTags": [
+        "metalwork",
+        "craft"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Metal fittings assistant",
+      "originOutline": "She has assisted with preparation and fitting in a small workshop, with no blanket mechanical expertise implied.",
+      "experienceThemes": [
+        "metalwork",
+        "craft"
+      ],
+      "naturalAmbitionTags": [
+        "practical-scholarship",
+        "revision"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-013",
+      "label": "Tea-room attendant",
+      "description": "A hospitality worker attentive to optional choices and unhurried company.",
+      "expressionExamples": [
+        "Offers a quiet seat without deciding a guest needs conversation."
+      ],
+      "compatibleTags": [
+        "tea",
+        "hospitality"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Tea-room attendant",
+      "originOutline": "She has helped serve simple refreshments and prepare a welcoming room in an early working role.",
+      "experienceThemes": [
+        "tea",
+        "hospitality"
+      ],
+      "naturalAmbitionTags": [
+        "community",
+        "friendship"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-014",
+      "label": "Mending stall assistant",
+      "description": "A textile worker interested in repairs that remain comfortable and understandable.",
+      "expressionExamples": [
+        "Asks whether a patch should be visible or discreet."
+      ],
+      "compatibleTags": [
+        "textiles",
+        "sustainability"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Mending assistant",
+      "originOutline": "She has helped with modest mending tasks and learned to ask before changing a valued garment.",
+      "experienceThemes": [
+        "textiles",
+        "sustainability"
+      ],
+      "naturalAmbitionTags": [
+        "craft",
+        "personal-growth"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-015",
+      "label": "Small chorus singer",
+      "description": "A singer familiar with the ordinary work of listening and rehearsing alongside others.",
+      "expressionExamples": [
+        "Checks whether another singer wants a cue or more space."
+      ],
+      "compatibleTags": [
+        "music",
+        "performance"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Chorus participant",
+      "originOutline": "She has participated in a small local chorus; repertoire and skill must remain within established experience.",
+      "experienceThemes": [
+        "music",
+        "performance"
+      ],
+      "naturalAmbitionTags": [
+        "collaborative",
+        "personal-growth"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-016",
+      "label": "Kitchen herb stall helper",
+      "description": "A market assistant interested in clear labels and honest answers about familiar kitchen herbs.",
+      "expressionExamples": [
+        "Distinguishes what the label says from what she actually knows."
+      ],
+      "compatibleTags": [
+        "gardening",
+        "community"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Herb stall helper",
+      "originOutline": "She has helped with a limited range of ordinary stock under guidance; medicinal expertise is not implied.",
+      "experienceThemes": [
+        "gardening",
+        "community"
+      ],
+      "naturalAmbitionTags": [
+        "trust",
+        "practical-scholarship"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-017",
+      "label": "Basket weaving apprentice",
+      "description": "A beginning basket-maker interested in handles, balance and the use of different fibres.",
+      "expressionExamples": [
+        "Asks what the basket is meant to carry."
+      ],
+      "compatibleTags": [
+        "craft",
+        "sustainability"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Basket weaving apprentice",
+      "originOutline": "She has practised modest weaving forms with supervision and helped prepare suitable materials.",
+      "experienceThemes": [
+        "craft",
+        "sustainability"
+      ],
+      "naturalAmbitionTags": [
+        "accessibility",
+        "personal-growth"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-018",
+      "label": "Weather note keeper",
+      "description": "An observer interested in recording conditions without pretending to forecast them.",
+      "expressionExamples": [
+        "Marks a missing observation rather than inventing the weather."
+      ],
+      "compatibleTags": [
+        "weather",
+        "archives"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Weather recorder",
+      "originOutline": "She has kept a small set of recent observations in an early practical or personal role.",
+      "experienceThemes": [
+        "weather",
+        "archives"
+      ],
+      "naturalAmbitionTags": [
+        "practical-scholarship",
+        "experimentation"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-019",
+      "label": "Paper sorting helper",
+      "description": "A workshop assistant interested in paper texture, reuse and suitable working surfaces.",
+      "expressionExamples": [
+        "Checks whether a sheet is suitable for a practice study."
+      ],
+      "compatibleTags": [
+        "papercraft",
+        "sustainability"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Paper workshop helper",
+      "originOutline": "She has helped sort and prepare ordinary paper materials, without claiming complete papermaking knowledge.",
+      "experienceThemes": [
+        "papercraft",
+        "sustainability"
+      ],
+      "naturalAmbitionTags": [
+        "craft",
+        "archives"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-020",
+      "label": "Stage property assistant",
+      "description": "A theatre helper interested in clear staging and props that serve the scene.",
+      "expressionExamples": [
+        "Asks whether the prop helps the story or merely fills the stage."
+      ],
+      "compatibleTags": [
+        "performance",
+        "craft"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Stage property assistant",
+      "originOutline": "She has helped prepare modest performances with willing participants, not run a grand theatrical career.",
+      "experienceThemes": [
+        "performance",
+        "craft"
+      ],
+      "naturalAmbitionTags": [
+        "humour",
+        "collaborative"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-021",
+      "label": "Apprentice local courier",
+      "description": "A beginning courier interested in reliable arrangements and honest route information.",
+      "expressionExamples": [
+        "Clarifies the destination before accepting a proposed delivery."
+      ],
+      "compatibleTags": [
+        "correspondence",
+        "cartography"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Courier apprentice",
+      "originOutline": "She has helped with a limited set of local deliveries; no unrecorded journeys or special travel powers are implied.",
+      "experienceThemes": [
+        "correspondence",
+        "cartography"
+      ],
+      "naturalAmbitionTags": [
+        "trust",
+        "exploration"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-022",
+      "label": "Garden path assistant",
+      "description": "A practical outdoor worker attentive to approach routes, surfaces and shared access.",
+      "expressionExamples": [
+        "Asks where a visitor could pause or turn back."
+      ],
+      "compatibleTags": [
+        "gardening",
+        "stonework"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Garden path helper",
+      "originOutline": "She has assisted with simple garden-path preparation under guidance, without independent structural authority.",
+      "experienceThemes": [
+        "gardening",
+        "stonework"
+      ],
+      "naturalAmbitionTags": [
+        "accessibility",
+        "community"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-023",
+      "label": "Pigment preparation apprentice",
+      "description": "A visual-art assistant interested in accurate swatches and the difference between colour names and mixtures.",
+      "expressionExamples": [
+        "Separates a poetic colour name from its material note."
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "craft"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Pigment preparation apprentice",
+      "originOutline": "She has helped prepare supervised sample studies using approved ordinary materials.",
+      "experienceThemes": [
+        "visual-art",
+        "craft"
+      ],
+      "naturalAmbitionTags": [
+        "practical-scholarship",
+        "experimentation"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-024",
+      "label": "Small storeroom clerk",
+      "description": "An early-career organizer interested in records that help people find and return things.",
+      "expressionExamples": [
+        "Asks whether an object is shared stock or someone's property."
+      ],
+      "compatibleTags": [
+        "archives",
+        "possessions"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Storeroom clerk",
+      "originOutline": "She has helped maintain a modest inventory under clear ownership arrangements.",
+      "experienceThemes": [
+        "archives",
+        "possessions"
+      ],
+      "naturalAmbitionTags": [
+        "trust",
+        "domestic"
+      ],
+      "suggestedCapabilityPackageId": "archive-reader",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-025",
+      "label": "Footwear workshop helper",
+      "description": "A craft assistant attentive to closures, fit and the different ways people use footwear.",
+      "expressionExamples": [
+        "Asks about the intended use before discussing a shoe's shape."
+      ],
+      "compatibleTags": [
+        "craft",
+        "tailoring"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Footwear assistant",
+      "originOutline": "She has helped with simple preparations and observed appropriate fittings in a small workshop.",
+      "experienceThemes": [
+        "craft",
+        "tailoring"
+      ],
+      "naturalAmbitionTags": [
+        "accessibility",
+        "personal-growth"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-026",
+      "label": "Junior text reviewer",
+      "description": "A beginning editor interested in clarity without erasing the writer's voice.",
+      "expressionExamples": [
+        "Asks whether the writer wants wording suggestions or only obvious corrections."
+      ],
+      "compatibleTags": [
+        "language",
+        "archives"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Text review assistant",
+      "originOutline": "She has helped review short ordinary texts with the authors' permission and within an agreed scope.",
+      "experienceThemes": [
+        "language",
+        "archives"
+      ],
+      "naturalAmbitionTags": [
+        "trust",
+        "revision"
+      ],
+      "suggestedCapabilityPackageId": "archive-reader",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-027",
+      "label": "Candle workshop assistant",
+      "description": "A practical maker interested in ordinary candle forms, holders and clear labelling.",
+      "expressionExamples": [
+        "Asks what holder and setting a candle is intended for."
+      ],
+      "compatibleTags": [
+        "craft",
+        "light"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Candle workshop helper",
+      "originOutline": "She has assisted with simple supervised workshop tasks; this background does not itself imply light magic.",
+      "experienceThemes": [
+        "craft",
+        "light"
+      ],
+      "naturalAmbitionTags": [
+        "practical-scholarship",
+        "domestic"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-028",
+      "label": "Basin maintenance helper",
+      "description": "A junior worker interested in documenting ordinary upkeep around managed basins.",
+      "expressionExamples": [
+        "Distinguishes a visible problem from an unverified explanation."
+      ],
+      "compatibleTags": [
+        "water",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Basin maintenance helper",
+      "originOutline": "She has assisted with basic permitted observations and maintenance under guidance; purification powers are not assumed.",
+      "experienceThemes": [
+        "water",
+        "work"
+      ],
+      "naturalAmbitionTags": [
+        "sustainability",
+        "community"
+      ],
+      "suggestedCapabilityPackageId": "water-worker",
+      "historyMode": "lived-background"
+    },
+    {
+      "id": "occupation-029",
+      "label": "Prospective archive organizer",
+      "description": "A chosen direction for exploring how records can be arranged and read responsibly.",
+      "expressionExamples": [
+        "Asks what a small introductory indexing task would involve."
+      ],
+      "compatibleTags": [
+        "archives",
+        "new-beginnings"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Archive learner",
+      "originOutline": "This is a prospective interest, not evidence of prior employment, reading capability or an inherited archive.",
+      "experienceThemes": [
+        "archives",
+        "new-beginnings"
+      ],
+      "naturalAmbitionTags": [
+        "practical-scholarship",
+        "identity"
+      ],
+      "suggestedCapabilityPackageId": "archive-reader",
+      "historyMode": "prospective-vocation"
+    },
+    {
+      "id": "occupation-030",
+      "label": "Prospective light student",
+      "description": "A possible learning direction centred on useful illumination and clearly bounded questions.",
+      "expressionExamples": [
+        "Asks which parts can be studied through ordinary diagrams."
+      ],
+      "compatibleTags": [
+        "light",
+        "new-beginnings"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Light-work learner",
+      "originOutline": "No prior practice is supplied; actual light-related capability requires an approved package and game integration.",
+      "experienceThemes": [
+        "light",
+        "new-beginnings"
+      ],
+      "naturalAmbitionTags": [
+        "experimentation",
+        "practical-scholarship"
+      ],
+      "suggestedCapabilityPackageId": "light-maker",
+      "historyMode": "prospective-vocation"
+    },
+    {
+      "id": "occupation-031",
+      "label": "Prospective water observer",
+      "description": "A possible vocation exploring water-related records and practical observations.",
+      "expressionExamples": [
+        "Asks which observation is suitable for the established body and tools."
+      ],
+      "compatibleTags": [
+        "water",
+        "new-beginnings"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Water-work learner",
+      "originOutline": "This supplies curiosity only; physical suitability, tools and any water-working capability remain separately approved.",
+      "experienceThemes": [
+        "water",
+        "new-beginnings"
+      ],
+      "naturalAmbitionTags": [
+        "practical-scholarship",
+        "community"
+      ],
+      "suggestedCapabilityPackageId": "water-worker",
+      "historyMode": "prospective-vocation"
+    },
+    {
+      "id": "occupation-032",
+      "label": "Prospective textile learner",
+      "description": "A possible direction for learning about cloth, seams and personally chosen garments.",
+      "expressionExamples": [
+        "Asks what makes one seam different from another."
+      ],
+      "compatibleTags": [
+        "textiles",
+        "new-beginnings"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Textile learner",
+      "originOutline": "There is no implied apprenticeship or learned hand skill; an adult may choose to investigate the subject now.",
+      "experienceThemes": [
+        "textiles",
+        "new-beginnings"
+      ],
+      "naturalAmbitionTags": [
+        "craft",
+        "identity"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "prospective-vocation"
+    },
+    {
+      "id": "occupation-033",
+      "label": "Prospective woodwork learner",
+      "description": "A possible interest in joinery, carved forms and useful ordinary objects.",
+      "expressionExamples": [
+        "Studies a drawing of a joint before choosing a practice question."
+      ],
+      "compatibleTags": [
+        "woodwork",
+        "new-beginnings"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Woodwork learner",
+      "originOutline": "No previous workshop or material affinity is asserted, including for a living-wood golem.",
+      "experienceThemes": [
+        "woodwork",
+        "new-beginnings"
+      ],
+      "naturalAmbitionTags": [
+        "practical-scholarship",
+        "autonomy"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "prospective-vocation"
+    },
+    {
+      "id": "occupation-034",
+      "label": "Prospective botanical observer",
+      "description": "A possible interest in noticing plant forms and asking clear questions about their care.",
+      "expressionExamples": [
+        "Asks what a useful observation page should record."
+      ],
+      "compatibleTags": [
+        "botany",
+        "new-beginnings"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Botanical observer",
+      "originOutline": "This is a future-facing choice, not a claim of prior gardening or natural plant magic.",
+      "experienceThemes": [
+        "botany",
+        "new-beginnings"
+      ],
+      "naturalAmbitionTags": [
+        "gardening",
+        "practical-scholarship"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "prospective-vocation"
+    },
+    {
+      "id": "occupation-035",
+      "label": "Prospective instrument student",
+      "description": "A possible direction for exploring music through listening, notation or suitable instruments.",
+      "expressionExamples": [
+        "Asks which form of participation suits her actual capabilities."
+      ],
+      "compatibleTags": [
+        "music",
+        "new-beginnings"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Music learner",
+      "originOutline": "No inherited repertoire, singing ability or instrumental skill is implied by this prospective role.",
+      "experienceThemes": [
+        "music",
+        "new-beginnings"
+      ],
+      "naturalAmbitionTags": [
+        "personal-growth",
+        "autonomy"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "prospective-vocation"
+    },
+    {
+      "id": "occupation-036",
+      "label": "Prospective ceramic student",
+      "description": "A possible interest in pottery forms and the study of ordinary vessels.",
+      "expressionExamples": [
+        "Compares drawings of rim shapes before considering practice."
+      ],
+      "compatibleTags": [
+        "ceramics",
+        "new-beginnings"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Ceramics learner",
+      "originOutline": "No past studio practice is supplied, and a ceramic body does not itself confer ceramic expertise.",
+      "experienceThemes": [
+        "ceramics",
+        "new-beginnings"
+      ],
+      "naturalAmbitionTags": [
+        "craft",
+        "practical-scholarship"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "prospective-vocation"
+    },
+    {
+      "id": "occupation-037",
+      "label": "Community correspondent",
+      "description": "A role concerned with clear, permission-based exchanges of ordinary news and questions.",
+      "expressionExamples": [
+        "Asks what information its subject has agreed may be shared."
+      ],
+      "compatibleTags": [
+        "correspondence",
+        "community"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Community correspondent",
+      "originOutline": "Use either as a prospective direction or as modest lived experience already established for an eligible character.",
+      "experienceThemes": [
+        "correspondence",
+        "community"
+      ],
+      "naturalAmbitionTags": [
+        "privacy",
+        "trust"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "either"
+    },
+    {
+      "id": "occupation-038",
+      "label": "Practical drawing student",
+      "description": "A role centred on using drawings to notice and explain concrete things.",
+      "expressionExamples": [
+        "Chooses whether the drawing is observation, explanation or imagination."
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "practical-scholarship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Drawing student",
+      "originOutline": "It may describe an established young-adult study interest or a new choice; no past study is invented for a golem.",
+      "experienceThemes": [
+        "visual-art",
+        "practical-scholarship"
+      ],
+      "naturalAmbitionTags": [
+        "craft",
+        "personal-growth"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "either"
+    },
+    {
+      "id": "occupation-039",
+      "label": "Small-story teller",
+      "description": "A role focused on short, characterful stories offered to willing listeners.",
+      "expressionExamples": [
+        "Asks whether a listener would enjoy a brief fictional scene."
+      ],
+      "compatibleTags": [
+        "performance",
+        "language"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Storytelling enthusiast",
+      "originOutline": "Treat it as current interest or limited established experience, never an automatic performing career or inherited memory.",
+      "experienceThemes": [
+        "performance",
+        "language"
+      ],
+      "naturalAmbitionTags": [
+        "humour",
+        "friendship"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "either"
+    },
+    {
+      "id": "occupation-040",
+      "label": "Household project planner",
+      "description": "A role interested in making modest shared projects understandable and voluntary.",
+      "expressionExamples": [
+        "Separates the proposed goal from optional contributions."
+      ],
+      "compatibleTags": [
+        "domestic",
+        "collaborative"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Candidate narrative role only; the suggested capability package grants nothing. Use lived history only when compatible with established age and continuity. For golems, either means prospective only unless actual post-awakening play establishes experience.",
+      "occupation": "Project planning enthusiast",
+      "originOutline": "This can be a new interest or a previously established minor responsibility; it confers no authority over residents.",
+      "experienceThemes": [
+        "domestic",
+        "collaborative"
+      ],
+      "naturalAmbitionTags": [
+        "negotiation",
+        "autonomy"
+      ],
+      "suggestedCapabilityPackageId": "unmapped",
+      "historyMode": "either"
+    }
+  ]
+}

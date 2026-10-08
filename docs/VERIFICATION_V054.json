@@ -1,0 +1,27 @@
+{
+  "python": {
+    "total": 570,
+    "fullRunPassed": 569,
+    "obsoletePathAssertionFixed": "test_local_expansion.LocalExpansionTests.test_all_authored_people_portraits_and_oni_requires_ritual",
+    "focusedModuleRetest": {
+      "tests": 8,
+      "passed": 8
+    }
+  },
+  "connectedUi": {
+    "total": 30,
+    "passed": 30
+  },
+  "artwork": {
+    "newAssets": 48,
+    "threePortraitSets": 14,
+    "distinctPortraits": 42,
+    "retiredFiles": 12,
+    "sha256Verified": true,
+    "alphaVerified": true
+  },
+  "renderedBrowser": {
+    "status": "blocked",
+    "reason": "Playwright Chromium executable missing"
+  }
+}

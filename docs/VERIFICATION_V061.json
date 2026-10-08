@@ -1,0 +1,27 @@
+{
+  "version": "0.61",
+  "schemaVersion": 52,
+  "python": {
+    "tests": 677,
+    "seconds": 88.023,
+    "failures": 0,
+    "errors": 0
+  },
+  "connectedUI": {
+    "suites": 37,
+    "failures": 0,
+    "seconds": 160.04
+  },
+  "newQuestTests": 17,
+  "content": {
+    "personalQuests": 14,
+    "objectivesPerQuest": 2,
+    "proceduralTemplates": 6,
+    "proceduralLocations": 6,
+    "proceduralSocialHooks": 4,
+    "obstacleFamilies": 7,
+    "spellApplications": 7,
+    "supportingRituals": 5
+  },
+  "browserReview": "Not performed: previous release documented missing local Chromium and blocked cloud access to the local server. No visual-layout pass claimed."
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "archive": "01-ss-materials-and-properties.zip",
+    "sha256": "be6cda9b8eccade4aa1c8e6e208771a98f447280d9c139326fa46c2356dc2f69",
+    "files": 11,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "02-ss-equipment-and-signature-items.zip",
+    "sha256": "c6501ed383afbc5700ae74280e65b49da039e680926af90aa918f165cffd7761",
+    "files": 11,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "03-ss-artifacts-and-recipes.zip",
+    "sha256": "9827d0df6bc7c7f1a629c974d36ebfe4ab1e8c8a5d6b0b2dc5a2b35558c09dd3",
+    "files": 11,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "04-ss-magic-principles-and-spells.zip",
+    "sha256": "17240bed1868667389adb5b9c79c44a78e1b0166f78cbfaef824984d6baec223",
+    "files": 12,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "05-ss-rituals-and-voluntary-augmentation.zip",
+    "sha256": "eefb4250a80173f07c483a0f4143be7a5490d15c1c415023e1748a99ff266848",
+    "files": 11,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "06-ss-rooms-furnishings-and-synergies.zip",
+    "sha256": "185600e2879da579a410897b7a5bbc2fa5a8ad7484cba3d4463181f35be53ced",
+    "files": 12,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "07-ss-expeditions-and-discoveries.zip",
+    "sha256": "e00eb01c26e8b1003c398e533003e83a8ac503231ed7807b44d13ba425d71f3c",
+    "files": 12,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "08-ss-encounters-and-care.zip",
+    "sha256": "37c9a5d86784d39b230d2cb309bdafa6a4ef9e07b83b33646acd7015805f2ebe",
+    "files": 11,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "09-ss-communities-services-and-visitors.zip",
+    "sha256": "2f0177c7629718049d95e8087ebae06818ec54cad651f5e729573b71101804d8",
+    "files": 12,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "10-ss-personal-arcs-and-relationships.zip",
+    "sha256": "1905bdfac45631a442342baf32a8ff6d57700083d12cb1a027b5cc7820a9f4ae",
+    "files": 11,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "11-ss-household-scenes-and-ambient-life.zip",
+    "sha256": "aecdc9aa160b8c32356ba4283541ee691518752e5f1e191b8227f19df30e48dd",
+    "files": 11,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "12-ss-letters-commissions-and-gifts.zip",
+    "sha256": "2e0718d6dc660aea7b97568fb3e39075e0ae34b355e407e6a5f9e568ad470c59",
+    "files": 12,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "13-ss-private-mystery-foundations.zip",
+    "sha256": "fb8982ca63a683bdab74fd4b772fc6e774fffe760baca8726979ab797a9d90f2",
+    "files": 11,
+    "status": "retained-private-future-campaign",
+    "reason": "Explicit opt-in future-campaign data; not current castle canon."
+  },
+  {
+    "archive": "14-ss-books-food-gardens-and-treasures.zip",
+    "sha256": "8252feccf82669cdae515e55ee547d4518f6baaeff4df523efeb6fb7f5b58d33",
+    "files": 13,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "15-ss-art-and-visual-production.zip",
+    "sha256": "37ec99e2d17450109dd524c4760a553a38eb057edb086f6e4ab6b23ca623b039",
+    "files": 12,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "16-ss-tutorials-explanations-and-qa.zip",
+    "sha256": "8c129847ffde8f015d3c2559710f9a1d04d576ee20601eb41215b2b71ce9199d",
+    "files": 12,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "17-ss-backgrounds-training-and-perks.zip",
+    "sha256": "55f356f4180251227301ab337cfa16f6316cf74c82396ed70dcb1977eb2cfb75",
+    "files": 13,
+    "status": "integrated",
+    "missing": [],
+    "changed": []
+  },
+  {
+    "archive": "Castle Household RPG/stonework-and-spellcraft-content-expansion-handoffs.zip",
+    "sha256": "257c6d0527aaddb580e8bb0684cd086594a6de0dc28e39b967b64160daf9d493",
+    "files": 22,
+    "status": "authoring-reference-preserved-in-docs/source-audit"
+  },
+  {
+    "archive": "Stonework and Spellcraft/stonework-and-spellcraft-public-packs.zip",
+    "sha256": "776b39219e5257cdba440be385655154d6c99f3d4dccae83106b36861d0df24e",
+    "files": 253,
+    "status": "same-bundled-runtime-source"
+  },
+  {
+    "archive": "Stonework and Spellcraft/stonework-spellcraft-content-pack.zip",
+    "sha256": "ec77a86c4833b92d18d7f7c44b913988edce8328b7f37efd6fdc18c29b3d7d11",
+    "files": 36,
+    "status": "bundled-foundations",
+    "mismatch": []
+  },
+  {
+    "archive": "stonework-and-spellcraft-art-delivery.zip",
+    "sha256": "7290536c0d8473b5f202eb31d66ad3df92306a8c50ee36eb8ed427c32eb1d748",
+    "files": 63,
+    "status": "superseded-by-integrated-v053-art"
+  },
+  {
+    "archive": "stonework-and-spellcraft-batch-4-recovery-v0.48.zip",
+    "sha256": "e688b6965c0ebc3486af934f70a979d6997439193fdffc44f1f2b0da46f83516",
+    "files": 9,
+    "status": "superseded-by-final-34-room-art"
+  },
+  {
+    "archive": "stonework-and-spellcraft-codex-integration-kit.zip",
+    "sha256": "15354407a6d845b2710609d01ca326b5b34e31e6f9352512bc69d73727d43a97",
+    "files": 65,
+    "status": "authoring-reference-preserved-in-docs/source-audit"
+  },
+  {
+    "archive": "stonework-and-spellcraft-content-expansion-handoffs.zip",
+    "sha256": "257c6d0527aaddb580e8bb0684cd086594a6de0dc28e39b967b64160daf9d493",
+    "files": 22,
+    "status": "authoring-reference-preserved-in-docs/source-audit"
+  },
+  {
+    "archive": "stonework-and-spellcraft-public-packs.zip",
+    "sha256": "776b39219e5257cdba440be385655154d6c99f3d4dccae83106b36861d0df24e",
+    "files": 253,
+    "status": "same-bundled-runtime-source"
+  },
+  {
+    "archive": "stonework-and-spellcraft-room-art-final-v0.48.zip",
+    "sha256": "67385d690b4c4e4781644e32db97bde08e6d6f0fc4d21b0cb9a6f088a0a5092a",
+    "files": 73,
+    "status": "accepted-34-room-art-integrated"
+  },
+  {
+    "archive": "stonework-and-spellcraft-room-art-handoff-v0.48(1).zip",
+    "sha256": "4d39ce16263762da8d2ebb0074e333a1f18f768fbab3f03ce9f4444876bac722",
+    "files": 4,
+    "status": "superseded-by-final-34-room-art"
+  },
+  {
+    "archive": "stonework-and-spellcraft-room-art-handoff-v0.48(2).zip",
+    "sha256": "4d39ce16263762da8d2ebb0074e333a1f18f768fbab3f03ce9f4444876bac722",
+    "files": 4,
+    "status": "superseded-by-final-34-room-art"
+  },
+  {
+    "archive": "stonework-and-spellcraft-room-art-handoff-v0.48(3).zip",
+    "sha256": "f1fe1f1e55bcfdbc9f79acae5498c5cd6b8b23f869a7261eb013f48eab42e2d6",
+    "files": 3,
+    "status": "superseded-by-final-34-room-art"
+  },
+  {
+    "archive": "stonework-and-spellcraft-room-art-return-v0.48-PARTIAL.zip",
+    "sha256": "4101ad1651e996eb69a195515969bcfa9d9bd0ba8f44741afaa3bd0950f13333",
+    "files": 89,
+    "status": "superseded-by-final-34-room-art"
+  },
+  {
+    "archive": "stonework-spellcraft-content-pack.zip",
+    "sha256": "ec77a86c4833b92d18d7f7c44b913988edce8328b7f37efd6fdc18c29b3d7d11",
+    "files": 36,
+    "status": "bundled-foundations",
+    "mismatch": []
+  }
+]

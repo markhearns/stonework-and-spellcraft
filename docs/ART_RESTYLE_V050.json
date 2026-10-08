@@ -1,0 +1,310 @@
+[
+  {
+    "name": "mira-v2.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve isolated portrait with transparent background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe.",
+    "transparent": true,
+    "oldSha256": "dd5007f42082f3929a3e1bb241b1d1e36b6914643dac344c9abbc95833cc3ed0",
+    "sha256": "16d4bcf468309a3c8935ea083c877f89b640e6381aa7b7897e846d40f07e8acc",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-b6f98094-30ea-4d71-ab60-7380994f9eec.png"
+  },
+  {
+    "name": "mira-shawl-v2.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve isolated portrait with transparent background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe.",
+    "transparent": true,
+    "oldSha256": "d8ddb08acd092aeede057af5f7d5b3814f73bc5b1c6d4cee6c0acadcf6b9f52a",
+    "sha256": "f06261bcb38e1f1a77371c48c12ff569a0b2871743dcf99012e1c1005f3730a9",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-1ba96fd4-70b4-4790-abf0-79676fb48e0c.png"
+  },
+  {
+    "name": "tamsin-v2.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve isolated portrait with transparent background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe.",
+    "transparent": true,
+    "oldSha256": "8c58d17a5d4d4cde7baaacae5ce0c987417c6b1cfcba0b9ece9e4d0c1dd213b4",
+    "sha256": "248430ebc415506dca99c5008517ba068fef08144ce1ca555995da7e1eec0334",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-6ec62504-2f51-4ced-8a07-49e58edaf114.png"
+  },
+  {
+    "name": "tamsin-shawl-v2.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve isolated portrait with transparent background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe.",
+    "transparent": true,
+    "oldSha256": "b4b2cbe5ea58438c6d1d8dd448ace769984275da9d3b71184b1a78df5912716b",
+    "sha256": "18176b56eb92f5a41b5ee5a63d564da97c1b448a78d9d80145b65f5776136a82",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGBA",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-a566b85d-7f70-47da-88b1-a03cc4ff2dce.png"
+  },
+  {
+    "name": "iona-v3.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve existing opaque midnight navy portrait background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe.",
+    "transparent": false,
+    "oldSha256": "6261eb650b2d83a6a7797955dbe6d855d7f9ab6af0ab196202981578eec2f915",
+    "sha256": "1ea6aa81e0e6b9c8345d41d6edbb64b884b476df0a4987043054510250a99fd5",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-648ff619-d49d-4fec-9c08-1d0bf68250fe.png"
+  },
+  {
+    "name": "aurelia-v2.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve existing opaque midnight navy portrait background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe.",
+    "transparent": false,
+    "oldSha256": "6893f7538911ac7d43edac3276e74b621b12fe8ad7a59363cbb7ca8badd2608a",
+    "sha256": "c02bfabb355b87a8d95313133c1d0c1d0048312d59d98ec9e974386104312935",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-61453c47-6bf7-4980-993d-1e1a9960395d.png"
+  },
+  {
+    "name": "neris.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve existing opaque midnight navy portrait background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe.",
+    "transparent": false,
+    "oldSha256": "192d0f45b096463277897ed9dd964c9dd4fcd85818d91f61d90cb0b298e2a0ae",
+    "sha256": "8db3c7d1024093bef7e5f8a92d2cbb9a3720905d754ebce83d5a1f3583b8e08d",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-7be1f25c-c7b3-4233-b664-8950c8b8e6f2.png"
+  },
+  {
+    "name": "aurelia-evening.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve image 1's entire background, camera framing and aspect ratio, no lettering or frame. Output one illustration of exactly the same person, same wardrobe and scene. Natural eye-level perspective and believable proportions. Preserve wings/halo/fin ears as shown, no extra fantasy elements.",
+    "transparent": false,
+    "oldSha256": "eca8932b98c5aa868739d88f0170b97e910639c4a2fba1e68300ad9d6f58c41a",
+    "sha256": "668bddec38ec177ff5fbd424397306ac8d6af99d1dc0c2d5a2418d8596a97d3a",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-a1fe6d33-7d22-481d-859e-5e05305c314b.png"
+  },
+  {
+    "name": "neris-evening.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve image 1's entire background, camera framing and aspect ratio, no lettering or frame. Output one illustration of exactly the same person, same wardrobe and scene. Natural eye-level perspective and believable proportions. Preserve wings/halo/fin ears as shown, no extra fantasy elements.",
+    "transparent": false,
+    "oldSha256": "5c9cf2d31848b0b8bea2441383b6f88865d19be44b1dd24031c14d8ea85ac010",
+    "sha256": "0c0e352330379c5228d6cf7eb54f10d947e4cdb4523a6157f6e16f325cda3e65",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-ecc7019b-76d5-4349-a038-03cf13ecb4db.png"
+  },
+  {
+    "name": "aurelia-lamplit.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve image 1's entire background, camera framing and aspect ratio, no lettering or frame. Output one illustration of exactly the same person, same wardrobe and scene. Natural eye-level perspective and believable proportions. Preserve wings/halo/fin ears as shown, no extra fantasy elements.",
+    "transparent": false,
+    "oldSha256": "e73af43af75b809e8a996fa70b96ca96823404e4a01761836f1c898881b63a4f",
+    "sha256": "3d4d47057904b1c44f8f1a52c44f2548664f1e1a3e302611a52719205b26a39c",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-b42f8b2b-9274-43ad-a5cd-4191ecafe549.png"
+  },
+  {
+    "name": "neris-glasslight.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve image 1's entire background, camera framing and aspect ratio, no lettering or frame. Output one illustration of exactly the same person, same wardrobe and scene. Natural eye-level perspective and believable proportions. Preserve wings/halo/fin ears as shown, no extra fantasy elements.",
+    "transparent": false,
+    "oldSha256": "12efaebe11317ef8b7dd9d1a7ad7b174f63aef11590c0194757faea84b0cf37c",
+    "sha256": "aeadef70960c6e0af76e32cba1e1c1eb3ff7cb59c7546b733906a6eef948a233",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-305169d3-9060-4baf-b827-bf22857e231c.png"
+  },
+  {
+    "name": "sabine.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve existing opaque midnight navy portrait background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe. Preserve original skin colour and all existing ancestry details such as horns, ears, tail, tusks or fangs exactly, where present.",
+    "transparent": false,
+    "oldSha256": "4f5bf4ae3fad34b6523cfe0323105ecbdb2e29797087e8c689a655fbe47c0d78",
+    "sha256": "e88429ae9d2081f5b13744811aa17d352acd2a587b2a8fede55281b60cddfd65",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-db65cf5f-d7be-41d6-82b2-0ecb7274d6e4.png"
+  },
+  {
+    "name": "maren.webp",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve existing opaque midnight navy portrait background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe. Preserve original skin colour and all existing ancestry details such as horns, ears, tail, tusks or fangs exactly, where present.",
+    "transparent": false,
+    "oldSha256": "e296e4c6e8726e357661b574ad854951f4548f683c4430a6fdfd819699782054",
+    "sha256": "88509f4d2b56f37d513b641bb551fa0eb1808beed0525c1f553d2413e9b799cf",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-5938184e-3c78-4397-b88e-aa07b0ad2a94.png"
+  },
+  {
+    "name": "brakka.webp",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve existing opaque midnight navy portrait background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe. Preserve original skin colour and all existing ancestry details such as horns, ears, tail, tusks or fangs exactly, where present.",
+    "transparent": false,
+    "oldSha256": "7d9db57dc3fe1a75634b34a4917620af69635d1cfdf64828e5a07cec22e7a17d",
+    "sha256": "ce47ca1169e120ecd18123a0deb475bcc6fd99ac8d781ce68a23e1a83d364dc6",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-f1f7e426-ac84-41c1-897a-d45f0e995f9e.png"
+  },
+  {
+    "name": "fenna.webp",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve existing opaque midnight navy portrait background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe. Preserve original ears and tail.",
+    "transparent": false,
+    "oldSha256": "6e5d0c043aa9ffa183a91349fd6026ab1315a2913c482d1885fde8657e9195c3",
+    "sha256": "160d98c40fcce388c71f80111d6654dbacef732ca5895e667bf0fe4bd0a4a3b3",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-59e0749f-9c1d-4378-bb0e-5ce671453cca.png"
+  },
+  {
+    "name": "kaede.webp",
+    "prompt": "Use case: style-transfer, identity-preserve. Image 1 is edit target; image 2 is engraving technique reference ONLY. Restyle the character in image 1 as antique engraving\u2013inspired fantasy illustration with intricate etched linework, fine hatching/crosshatching, subtle worn print texture, aged fabrics, natural muted colours, midnight navy and charcoal, muted violet, sparse dull brass. Preserve EXACT character identity, face, hair, eye colour, age, anatomy, pose, clothing, accessories and composition of image 1. Readable welcoming, no glossy CGI/photorealism/glowing spectacle. Preserve existing opaque midnight navy portrait background, no room, no ground, no lettering or frame. Output one portrait of the same person in the same wardrobe. Preserve red skin and horns.",
+    "transparent": false,
+    "oldSha256": "ada392ca29f6670e161ffc8db78e8011fac449fcd39599d7d61f184cf9415809",
+    "sha256": "422fb7bd83a7fd548b408b08478dc5d39c7aa1056c79cbb342aa85d65b8e2120",
+    "dimensions": [
+      1024,
+      1536
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-b948c7a5-ca9e-49b0-8608-dfd624c8df4a.png"
+  },
+  {
+    "name": "rainward-observatory.webp",
+    "prompt": "Use case: style-transfer. Edit image 1, existing Rainward observatory expedition scene; image 2 is style reference only. Preserve scene layout, objects, rain outside window, instrument rack, desk, lamp, room architecture and wide 16:9 composition. Antique engraving\u2013inspired fantasy illustration, intricate etched linework, fine hatching/crosshatching, subtly worn print texture and richly detailed aged materials. Natural eye-level perspective, modest useful stone/timber building, worn objects, historically grounded craftsmanship, understated fantasy. Midnight navy, charcoal, muted violet and natural colours, sparse dull brass. Dim but readable and welcoming. Avoid glossy CGI, photorealism, palatial luxury, glowing magic spectacle, crushing details black. No people, no added lettering.",
+    "transparent": false,
+    "oldSha256": "ac408954c16415e0dd1878b7c8b7fe582a9bf25fba4aed6441b8717d2656b4d4",
+    "sha256": "c2225e8215afe6e797a952725b41f6afb2969aa65a1affc72418e9a0388f8c17",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-d2123313-1169-49f2-9730-0f1533df5ac6.png"
+  },
+  {
+    "name": "ui-v044/castle-emblem.png",
+    "prompt": "Use case: style-transfer. Image 1 is existing castle emblem to restyle, image 2 engraving technique reference only. Retain EXACT recognizable silhouette, layout, compact modest stone castle with square tower and pointed slate roofs, library window, book and ivy. Transparent background with generous margin. Antique engraved fantasy illustration, etched contours and fine crosshatching, subtly worn print texture, navy/charcoal stone and muted violet slate, subdued natural plant colour, sparse dull brass. Welcoming but restrained lanternlight. Preserve readability at 40px. No background scene, no labels, no badge, no extra towers, no glossy CGI.",
+    "transparent": true,
+    "oldSha256": "3b81678fc7a9239db2c846a778b4286aa41c08759b1f2e716b24d8ceb5e6aa88",
+    "sha256": "3bca068c8e0b500aa30d0745964466118e1806cbc1c8bf1964c6b3245c51d6a1",
+    "dimensions": [
+      1225,
+      1284
+    ],
+    "mode": "RGBA",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-c581a22a-f3ae-455a-bb90-52bc61606759.png"
+  },
+  {
+    "name": "ui-v044/workshop-atlas.png",
+    "prompt": "Use case: style-transfer. Edit the existing 4 by 4 icon atlas. Keep EXACT 16 items, EXACT positions and order, every silhouette entirely in its original equal grid cell, no overlap, and generous transparent padding. Do not add/remove items. Preserve original colours and recognizable forms. Change only rendering to antique engraving, intricate etched contours and fine crosshatching, aged wood/metal/fabric, natural muted colours, sparse dull brass. Retain legibility at 40px. No text, grid lines, frames, or background. Transparent background. Output same square atlas.",
+    "transparent": true,
+    "oldSha256": "7f0cbb6203f1b97d064dbebfc19fa7db966f623462bec6cd23bd280b13675162",
+    "sha256": "39a9b225494ad93c558ceb5fe33bf880b9647ec0ecf674005eddec8e79da91b2",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-e2f65b77-98fd-4dab-96b3-4be45f93dccd.png"
+  },
+  {
+    "name": "ui-v044/materials-atlas.png",
+    "prompt": "Use case: style-transfer. Edit the existing 3 by 3 material icon atlas. Keep EXACT 9 items, EXACT positions and order, every silhouette entirely in its original equal grid cell, no overlap, and generous transparent padding. Do not add/remove items. Preserve original material colours and recognizable forms. Change only rendering to antique engraving, intricate etched contours and fine crosshatching, aged natural materials, muted colours, sparse dull brass. No glows. Retain legibility at 40px. No text, grid lines, frames, or background. Transparent background. Output same square atlas.",
+    "transparent": true,
+    "oldSha256": "c545e2063b7b9c4c230d5640ef5259a158a524751b027a452b22f84042573920",
+    "sha256": "820a85c61129d8f1fc539a5d5dc25275e3810aff6f097393d716574f8027b42c",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-0ccbf2ae-8ad6-4e60-ab4f-8caf691f386c.png"
+  },
+  {
+    "name": "ui-v044/botanical-frame.png",
+    "prompt": "Use case: style-transfer. Edit existing transparent decorative frame. Preserve exact thin square frame and tiny four corner botanicals, at same inset and spacing, 88 percent transparent empty centre. Restyle as restrained antique engraving with fine crosshatching, worn muted dull brass ink, trace muted violet, simple etched leaf veins. Understated useful castle aesthetic, no luxury. No new motifs, text, paper, background, or heavy ornament. Real transparency inside and outside frame. Square canvas.",
+    "transparent": true,
+    "oldSha256": "de950e4444747d1c6e92a3b103c239b12f01dcf07f200696550da84e1b6ebe2e",
+    "sha256": "7329b928324958bf63fbf1de731406c7f6125f14ed37ea3b2e01794496c0e808",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGBA",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-86f125f6-9e64-49bb-b696-3ace64d73338.png"
+  },
+  {
+    "name": "ui-v044/midnight-paper.png",
+    "prompt": "Use case: style-transfer. Edit this UI background texture to subtly worn antique print paper, midnight navy-charcoal approx #101321, very subdued fine etched hatching and paper fibres. Quiet, very low contrast, almost uniform flat darkness so pale UI text stays readable. Seamless square repeat appearance with matching edges, no gradient, border, vignette, objects, lettering, decoration or bright speckles. Opaque. No coarse leather texture.",
+    "transparent": false,
+    "oldSha256": "602acf328cbb02964c00886c24202749256a21f6baa8f84099440341636d742b",
+    "sha256": "eca877410e6eae60a7ad0bf41db0160f563f2c06113b00095467b70543b2070d",
+    "dimensions": [
+      1254,
+      1254
+    ],
+    "mode": "RGB",
+    "method": "built-in imagegen style-transfer",
+    "sourceMaster": "exec-eef9c532-6450-4e34-a60a-10cb53f146a6.png"
+  }
+]

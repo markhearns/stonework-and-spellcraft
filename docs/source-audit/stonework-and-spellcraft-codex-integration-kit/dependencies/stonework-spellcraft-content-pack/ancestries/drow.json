@@ -1,0 +1,1864 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "drow",
+  "ancestryName": "Drow",
+  "arrivalMethod": "recruitment",
+  "names": [
+    {
+      "id": "drow-name-001",
+      "name": "Yethes",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-002",
+      "name": "Brethin",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-003",
+      "name": "Jeziel",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-004",
+      "name": "Kelzia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-005",
+      "name": "Othira",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-006",
+      "name": "Retha",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-007",
+      "name": "Chelerra",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-008",
+      "name": "Xelyth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-009",
+      "name": "Teza",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-010",
+      "name": "Ishara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-011",
+      "name": "Azrethes",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-012",
+      "name": "Cethira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-013",
+      "name": "Xeshia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-014",
+      "name": "Suthin",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-015",
+      "name": "Nethia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-016",
+      "name": "Rezerra",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-017",
+      "name": "Niziel",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-018",
+      "name": "Lethena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-019",
+      "name": "Eshes",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-020",
+      "name": "Neshena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-021",
+      "name": "Quelil",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-022",
+      "name": "Shezyth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-023",
+      "name": "Veshyth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-024",
+      "name": "Felzia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-025",
+      "name": "Zilerra",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-026",
+      "name": "Shalira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-027",
+      "name": "Caza",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-028",
+      "name": "Zethara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-029",
+      "name": "Adreleth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-030",
+      "name": "Elshes",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-031",
+      "name": "Heshes",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-032",
+      "name": "Keshena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-033",
+      "name": "Theseth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-034",
+      "name": "Idrelil",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-035",
+      "name": "Dhelin",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-036",
+      "name": "Ezrelerra",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-037",
+      "name": "Vezeth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-038",
+      "name": "Qezil",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-039",
+      "name": "Dazira",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-040",
+      "name": "Belziel",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-041",
+      "name": "Ushara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-042",
+      "name": "Lazena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-043",
+      "name": "Ashelil",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-044",
+      "name": "Ulzeth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-045",
+      "name": "Gethara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-046",
+      "name": "Feshin",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-047",
+      "name": "Dreza",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-048",
+      "name": "Mezyth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-049",
+      "name": "Delziel",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-050",
+      "name": "Kelziel",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-051",
+      "name": "Heshin",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-052",
+      "name": "Xeshiel",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-053",
+      "name": "Drezil",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-054",
+      "name": "Quelia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-055",
+      "name": "Ashelia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-056",
+      "name": "Zetherra",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-057",
+      "name": "Veshira",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-058",
+      "name": "Felziel",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-059",
+      "name": "Ulzes",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-060",
+      "name": "Kesheth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-061",
+      "name": "Yethin",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-062",
+      "name": "Niza",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-063",
+      "name": "Zilyth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-064",
+      "name": "Idrelia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-065",
+      "name": "Elshin",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-066",
+      "name": "Tezil",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-067",
+      "name": "Mezira",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-068",
+      "name": "Cethara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-069",
+      "name": "Ezrelyth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-070",
+      "name": "Dazara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-071",
+      "name": "Suthena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-072",
+      "name": "Isherra",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-073",
+      "name": "Nesheth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-074",
+      "name": "Azrethin",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-075",
+      "name": "Getherra",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-076",
+      "name": "Xelira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-077",
+      "name": "Qezia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-078",
+      "name": "Shalara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-079",
+      "name": "Feshena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-080",
+      "name": "Rezyth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-081",
+      "name": "Belza",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-082",
+      "name": "Eshin",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-083",
+      "name": "Nethiel",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-084",
+      "name": "Chelyth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-085",
+      "name": "Letheth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-086",
+      "name": "Usherra",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-087",
+      "name": "Vezes",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-088",
+      "name": "Theses",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-089",
+      "name": "Adreles",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-090",
+      "name": "Othara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-091",
+      "name": "Lazeth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-092",
+      "name": "Shezira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-093",
+      "name": "Brethena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-094",
+      "name": "Rethil",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-095",
+      "name": "Delza",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-096",
+      "name": "Jeza",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "drow-name-097",
+      "name": "Cazil",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "drow-name-098",
+      "name": "Dhelena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "drow-name-099",
+      "name": "Ushyth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "drow-name-100",
+      "name": "Delzil",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "drow-story-001",
+      "title": "The map above the map",
+      "premise": "She finds a flat sketch inadequate for passages that cross at different heights.",
+      "personalMotivation": "She wants underground directions that a newcomer can actually follow.",
+      "openingHook": "She asks how to show a crossing that is not a junction.",
+      "possibleDevelopments": [
+        "Compare folded layers with a simple sectional drawing.",
+        "Consider a separate verbal description of uncertain connections."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "subterranean",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-002",
+      "title": "The lamp-testing screen",
+      "premise": "She proposes comparing reading lamps but dislikes tests that assume everyone tolerates the same glare.",
+      "personalMotivation": "She values light that serves its reader.",
+      "openingHook": "She asks which discomforts a lamp trial should record.",
+      "possibleDevelopments": [
+        "Draft a voluntary comparison with adjustable shading.",
+        "Keep individual preferences rather than declaring one universal lamp."
+      ],
+      "backgroundTags": [
+        "light"
+      ],
+      "themeTags": [
+        "reading",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-003",
+      "title": "A mushroom's ordinary name",
+      "premise": "Her notes use a precise fungal name that local growers never use.",
+      "personalMotivation": "She wants scientific care without dismissing working knowledge.",
+      "openingHook": "She asks how several names can share one record.",
+      "possibleDevelopments": [
+        "Propose cross-references with clear identification uncertainty.",
+        "Seek a grower's explanation before replacing a familiar label."
+      ],
+      "backgroundTags": [
+        "botany"
+      ],
+      "themeTags": [
+        "subterranean",
+        "language"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-004",
+      "title": "The surface clock",
+      "premise": "She is considering a surface visit and finds descriptions by sunlight less useful than actual meeting arrangements.",
+      "personalMotivation": "She wants coordination without pretending familiarity with a new place.",
+      "openingHook": "She asks what an itinerary should explain to a first-time visitor.",
+      "possibleDevelopments": [
+        "Draft clear meeting points and optional rest arrangements.",
+        "Leave the visit tentative until access and companions are agreed."
+      ],
+      "backgroundTags": [
+        "exploration"
+      ],
+      "themeTags": [
+        "night",
+        "negotiation"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-005",
+      "title": "The drip that ruins the beat",
+      "premise": "She wants to compose around a cavern's irregular dripping without claiming nature keeps perfect time.",
+      "personalMotivation": "She enjoys listening to what resists tidy notation.",
+      "openingHook": "She asks whether an uneven sound can anchor a tune.",
+      "possibleDevelopments": [
+        "Sketch a rhythm with deliberate gaps and variations.",
+        "Consider a written sound study instead of a finished composition."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "subterranean",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-006",
+      "title": "A stone sample too heavy",
+      "premise": "Her proposed teaching collection includes more rock than anyone would want to carry.",
+      "personalMotivation": "She wants useful comparisons rather than an impressive burden.",
+      "openingHook": "She asks which differences genuinely require full samples.",
+      "possibleDevelopments": [
+        "Compare small specimens with drawings of larger structures.",
+        "Reduce the collection to one clearly explained question."
+      ],
+      "backgroundTags": [
+        "stonework"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-007",
+      "title": "The courteous echo",
+      "premise": "She wants to share an underground greeting custom without demanding a loud response in a quiet house.",
+      "personalMotivation": "She values the intention more than acoustic spectacle.",
+      "openingHook": "She asks what a greeting can keep when its echo is absent.",
+      "possibleDevelopments": [
+        "Develop a softly spoken alternative as her own adaptation.",
+        "Discuss asking before demonstrating the original form."
+      ],
+      "backgroundTags": [
+        "tradition"
+      ],
+      "themeTags": [
+        "hospitality",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-008",
+      "title": "The stair-count dispute",
+      "premise": "Two route accounts disagree about stairways, and she suspects they count landings differently.",
+      "personalMotivation": "She wants discrepancies explained rather than blamed on careless travellers.",
+      "openingHook": "She asks how a direction could define what it is counting.",
+      "possibleDevelopments": [
+        "Draft diagrams showing the two possible interpretations.",
+        "Propose observation only after a route is confirmed accessible."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "exploration",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-009",
+      "title": "A sketch without black paint",
+      "premise": "She wants to paint an underground interior without treating every unlit surface as featureless black.",
+      "personalMotivation": "She notices reflected colour in apparently dim places.",
+      "openingHook": "She asks which edges should remain uncertain in a study.",
+      "possibleDevelopments": [
+        "Compare limited-palette sketches using existing reference objects.",
+        "Keep the result an interpretation rather than a documented location."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "subterranean",
+        "light"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-010",
+      "title": "The unwelcome shortcut",
+      "premise": "She likes concise instructions but worries her route notes omit places to stop or turn back.",
+      "personalMotivation": "She wants practical directions to include the freedom not to continue.",
+      "openingHook": "She asks where an unfamiliar traveller might need an exit option.",
+      "possibleDevelopments": [
+        "Add proposed decision points rather than promising an easy route.",
+        "Seek review from someone with different comfort limits."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "autonomy",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-011",
+      "title": "The cave-garden label",
+      "premise": "She wants to describe a cultivated fungus display without implying every drow tends mushrooms.",
+      "personalMotivation": "She wants an interest to remain hers rather than an ancestry assignment.",
+      "openingHook": "She asks how a caption can identify the grower instead of the species.",
+      "possibleDevelopments": [
+        "Write a personal introduction centred on her questions.",
+        "Consider inviting unrelated interests into the same display."
+      ],
+      "backgroundTags": [
+        "gardening"
+      ],
+      "themeTags": [
+        "identity",
+        "community"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-012",
+      "title": "An embroidered elevation",
+      "premise": "She imagines a tactile route sampler but cannot decide how to distinguish depth from distance.",
+      "personalMotivation": "She wants touch and sight to complement each other.",
+      "openingHook": "She asks what raised stitching might mean to an unfamiliar reader.",
+      "possibleDevelopments": [
+        "Create a small sample key before attempting a full map.",
+        "Invite voluntary interpretation without assuming one reader represents everyone."
+      ],
+      "backgroundTags": [
+        "textiles"
+      ],
+      "themeTags": [
+        "cartography",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-013",
+      "title": "The quiet carry-case",
+      "premise": "She designs a case for chalk samples whose clasp rattles more than the contents.",
+      "personalMotivation": "She wants portable study tools that do not disturb company.",
+      "openingHook": "She asks which fastening could be managed without a sharp snap.",
+      "possibleDevelopments": [
+        "Compare cloth ties, fitted lids and padded catches in sketches.",
+        "Consider accepting some noise in exchange for easier access."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "stonework",
+        "negotiation"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-014",
+      "title": "A meal beyond the theme",
+      "premise": "She wants to host a supper and resents the expectation that every dish must represent underground life.",
+      "personalMotivation": "She wants room to be an ordinary cook.",
+      "openingHook": "She asks how to introduce a menu without a cultural lecture.",
+      "possibleDevelopments": [
+        "Plan food around her current tastes and available ingredients.",
+        "Offer one optional story rather than explaining every plate."
+      ],
+      "backgroundTags": [
+        "cooking"
+      ],
+      "themeTags": [
+        "identity",
+        "hospitality"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-015",
+      "title": "The gleam in the seam",
+      "premise": "A metallic vein makes her rock drawing attractive but distracts from the fracture she is studying.",
+      "personalMotivation": "She wants explanation to remain stronger than spectacle.",
+      "openingHook": "She asks what the page is actually trying to show.",
+      "possibleDevelopments": [
+        "Separate an analytical drawing from a colour study.",
+        "Consider a caption that openly names the different purposes."
+      ],
+      "backgroundTags": [
+        "stonework"
+      ],
+      "themeTags": [
+        "visual-art",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-016",
+      "title": "The unreliable whisper",
+      "premise": "She is curious about whispering galleries but dislikes stories that present every sound as a hidden message.",
+      "personalMotivation": "She values observation without manufactured mystery.",
+      "openingHook": "She asks what ordinary explanations deserve testing first.",
+      "possibleDevelopments": [
+        "Outline a harmless sound comparison in a permitted space.",
+        "Keep unanswered effects unresolved rather than inventing a speaker."
+      ],
+      "backgroundTags": [
+        "subterranean"
+      ],
+      "themeTags": [
+        "experimentation",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-017",
+      "title": "The boots on the threshold",
+      "premise": "She sketches a cleaning station for gritty footwear and fears it could become an unwelcoming inspection point.",
+      "personalMotivation": "She wants care for shared floors without policing visitors.",
+      "openingHook": "She asks what makes an offered brush feel like a demand.",
+      "possibleDevelopments": [
+        "Design obvious optional tools beside a forgiving mat.",
+        "Discuss a host's own contribution to cleanup."
+      ],
+      "backgroundTags": [
+        "domestic"
+      ],
+      "themeTags": [
+        "hospitality",
+        "work"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-018",
+      "title": "The dark-paper letter",
+      "premise": "She enjoys pale ink on dark paper but wonders whether the contrast will suit her correspondent.",
+      "personalMotivation": "She wants aesthetic pleasure to be readable.",
+      "openingHook": "She asks how to offer a beautiful format without insisting on it.",
+      "possibleDevelopments": [
+        "Send a format inquiry before a long decorative letter.",
+        "Consider a plain-text companion sheet as part of the design."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "accessibility",
+        "visual-art"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-019",
+      "title": "A balcony she has not seen",
+      "premise": "She wants to draw a surface balcony from a written description and keeps inventing architectural details.",
+      "personalMotivation": "She wants imagination to remain distinguishable from evidence.",
+      "openingHook": "She asks where a sketch ought to admit uncertainty.",
+      "possibleDevelopments": [
+        "Mark conjectural areas explicitly in the drawing.",
+        "Request further description without presuming a future visit."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "exploration",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-020",
+      "title": "The respectful specimen",
+      "premise": "She considers collecting loose mineral fragments but is unsure who manages the site.",
+      "personalMotivation": "She wants curiosity without treating every place as a resource.",
+      "openingHook": "She asks what permission an observation visit should establish.",
+      "possibleDevelopments": [
+        "Draft a request that distinguishes looking from collecting.",
+        "Choose drawings if collecting is unwelcome or unsupported."
+      ],
+      "backgroundTags": [
+        "stonework"
+      ],
+      "themeTags": [
+        "exploration",
+        "sustainability"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-021",
+      "title": "The joke about being lost",
+      "premise": "She writes a comic map with too many helpful arrows and worries it resembles real directions.",
+      "personalMotivation": "She wants absurdity that cannot mislead a traveller.",
+      "openingHook": "She asks how to make the joke unmistakably fictional.",
+      "possibleDevelopments": [
+        "Use an impossible tabletop maze rather than a real route.",
+        "Keep the comic separate from practical records."
+      ],
+      "backgroundTags": [
+        "humour"
+      ],
+      "themeTags": [
+        "cartography",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-022",
+      "title": "An evening in daylight hours",
+      "premise": "She wants to share leisure with people on another schedule without treating her own routine as a defect.",
+      "personalMotivation": "She values company and the right to rest.",
+      "openingHook": "She asks whether an occasional overlap is enough.",
+      "possibleDevelopments": [
+        "Compare several optional meeting windows without requiring permanence.",
+        "Consider exchanging notes when schedules do not align."
+      ],
+      "backgroundTags": [
+        "night"
+      ],
+      "themeTags": [
+        "friendship",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-023",
+      "title": "The polished stepping stone",
+      "premise": "She admires a smooth finish but questions its suitability for a proposed garden path.",
+      "personalMotivation": "She wants attractive surfaces to remain practical.",
+      "openingHook": "She asks what conditions a material test ought to include.",
+      "possibleDevelopments": [
+        "List ordinary concerns such as moisture and footwear.",
+        "Leave installation undecided until knowledgeable review."
+      ],
+      "backgroundTags": [
+        "stonework"
+      ],
+      "themeTags": [
+        "domestic",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-024",
+      "title": "The map that reads uphill",
+      "premise": "She sketches a route from remembered underground travel and finds a flat page hides the slope that made it memorable.",
+      "personalMotivation": "She wants to communicate her own observations without claiming they describe every subterranean settlement.",
+      "openingHook": "She asks how a reader would distinguish a steep climb from a long level passage.",
+      "possibleDevelopments": [
+        "Compare a side profile with annotated distance marks on a separate route sketch.",
+        "Treat remembered sections as provisional until approved fieldwork or reliable records confirm them."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "subterranean",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "drow-story-025",
+      "title": "The ceiling in the room model",
+      "premise": "Her miniature interior has careful walls but no useful way to inspect its overhead clearances.",
+      "personalMotivation": "She wants a model that represents space rather than just floor area.",
+      "openingHook": "She asks where a tall object would meet the unseen ceiling.",
+      "possibleDevelopments": [
+        "Add a removable roof or sectional view.",
+        "Consider a simpler elevation drawing instead of elaborate joinery."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "accessibility",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "drow-appearance-001",
+      "summary": "An adult woman aged 21 with slate grey skin, shoulder-length copper coils, and pale mauve eyes. Her build is broad-shouldered with soft waist curves. Long narrow elven ears.",
+      "skin": "slate grey",
+      "hair": "shoulder-length copper coils",
+      "eyes": "pale mauve",
+      "build": "broad-shouldered with soft waist curves",
+      "ancestryFeatures": [
+        "long narrow elven ears",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a light scatter of freckles over the shoulders"
+      ],
+      "styleTags": [
+        "striking",
+        "freckled"
+      ]
+    },
+    {
+      "id": "drow-appearance-002",
+      "summary": "An adult woman aged 24 with deep charcoal skin, waist-length dark auburn hair, and silver grey eyes. Her build is rounded and full-busted with sturdy legs. Finely pointed elven ears angled slightly upward.",
+      "skin": "deep charcoal",
+      "hair": "waist-length dark auburn hair",
+      "eyes": "silver grey",
+      "build": "rounded and full-busted with sturdy legs",
+      "ancestryFeatures": [
+        "finely pointed elven ears angled slightly upward",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a pale pigment fleck at the left temple"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "drow-appearance-003",
+      "summary": "An adult woman aged 19 with muted violet-grey skin, long pale-gold waves, and warm amber eyes. Her build is tall and broad-hipped with gently defined muscles. Broad elven ears with tapered tips.",
+      "skin": "muted violet-grey",
+      "hair": "long pale-gold waves",
+      "eyes": "warm amber",
+      "build": "tall and broad-hipped with gently defined muscles",
+      "ancestryFeatures": [
+        "broad elven ears with tapered tips",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a softly dimpled chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "drow-appearance-004",
+      "summary": "An adult woman aged 22 with blue-undertoned slate skin, a blunt honey-brown bob, and smoky violet eyes. Her build is tall and voluptuous with a gently rounded abdomen. Swept-back elven ears.",
+      "skin": "blue-undertoned slate",
+      "hair": "a blunt honey-brown bob",
+      "eyes": "smoky violet",
+      "build": "tall and voluptuous with a gently rounded abdomen",
+      "ancestryFeatures": [
+        "swept-back elven ears",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a beauty mark near the right corner of the mouth"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "drow-appearance-005",
+      "summary": "An adult woman aged 25 with warm charcoal grey skin, long dark hair with a silver forelock, and dark garnet eyes. Her build is medium-height with balanced, softly mature curves. Slender elven ears with defined outer ridges.",
+      "skin": "warm charcoal grey",
+      "hair": "long dark hair with a silver forelock",
+      "eyes": "dark garnet",
+      "build": "medium-height with balanced, softly mature curves",
+      "ancestryFeatures": [
+        "slender elven ears with defined outer ridges",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a darker pigment patch along one collarbone"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "drow-appearance-006",
+      "summary": "An adult woman aged 20 with slate grey skin, short deep-plum curls, and pale mauve eyes. Her build is full-bodied with a defined waist and powerful calves. Long narrow elven ears.",
+      "skin": "slate grey",
+      "hair": "short deep-plum curls",
+      "eyes": "pale mauve",
+      "build": "full-bodied with a defined waist and powerful calves",
+      "ancestryFeatures": [
+        "long narrow elven ears",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "soft freckling along the collarbones"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic",
+        "freckled"
+      ]
+    },
+    {
+      "id": "drow-appearance-007",
+      "summary": "An adult woman aged 23 with deep charcoal skin, a dark chestnut crop with a curled fringe, and silver grey eyes. Her build is full-figured with broad hips and a strong back. Finely pointed elven ears angled slightly upward.",
+      "skin": "deep charcoal",
+      "hair": "a dark chestnut crop with a curled fringe",
+      "eyes": "silver grey",
+      "build": "full-figured with broad hips and a strong back",
+      "ancestryFeatures": [
+        "finely pointed elven ears angled slightly upward",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a tiny pale scar at the edge of the left brow"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "drow-appearance-008",
+      "summary": "An adult woman aged 18 with muted violet-grey skin, a wavy black bob, and warm amber eyes. Her build is short and full-figured with rounded shoulders. Broad elven ears with tapered tips.",
+      "skin": "muted violet-grey",
+      "hair": "a wavy black bob",
+      "eyes": "warm amber",
+      "build": "short and full-figured with rounded shoulders",
+      "ancestryFeatures": [
+        "broad elven ears with tapered tips",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a faint darker patch at the left jaw"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "drow-appearance-009",
+      "summary": "An adult woman aged 21 with blue-undertoned slate skin, a straight dark-brown bob, and smoky violet eyes. Her build is compact and softly curvaceous with mature proportions. Swept-back elven ears.",
+      "skin": "blue-undertoned slate",
+      "hair": "a straight dark-brown bob",
+      "eyes": "smoky violet",
+      "build": "compact and softly curvaceous with mature proportions",
+      "ancestryFeatures": [
+        "swept-back elven ears",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a few silver strands at the right temple"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "compact"
+      ]
+    },
+    {
+      "id": "drow-appearance-010",
+      "summary": "An adult woman aged 24 with warm charcoal grey skin, close-cropped ash-brown curls, and dark garnet eyes. Her build is willowy with a full bust and narrow hips. Slender elven ears with defined outer ridges.",
+      "skin": "warm charcoal grey",
+      "hair": "close-cropped ash-brown curls",
+      "eyes": "dark garnet",
+      "build": "willowy with a full bust and narrow hips",
+      "ancestryFeatures": [
+        "slender elven ears with defined outer ridges",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a slightly higher arch to the left eyebrow"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "drow-appearance-011",
+      "summary": "An adult woman aged 19 with slate grey skin, thick dark-brown coils to the shoulders, and pale mauve eyes. Her build is athletic and broad-hipped with a modest bust. Long narrow elven ears.",
+      "skin": "slate grey",
+      "hair": "thick dark-brown coils to the shoulders",
+      "eyes": "pale mauve",
+      "build": "athletic and broad-hipped with a modest bust",
+      "ancestryFeatures": [
+        "long narrow elven ears",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a beauty mark beneath the lower lip"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "drow-appearance-012",
+      "summary": "An adult woman aged 22 with deep charcoal skin, long blue-black curls, and silver grey eyes. Her build is athletic with a full bust and firm thighs. Finely pointed elven ears angled slightly upward.",
+      "skin": "deep charcoal",
+      "hair": "long blue-black curls",
+      "eyes": "silver grey",
+      "build": "athletic with a full bust and firm thighs",
+      "ancestryFeatures": [
+        "finely pointed elven ears angled slightly upward",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "a tiny beauty mark beneath the right eye"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "drow-appearance-013",
+      "summary": "An adult woman aged 25 with muted violet-grey skin, short russet curls, and warm amber eyes. Her build is tall with a broad ribcage and generous hips. Broad elven ears with tapered tips.",
+      "skin": "muted violet-grey",
+      "hair": "short russet curls",
+      "eyes": "warm amber",
+      "build": "tall with a broad ribcage and generous hips",
+      "ancestryFeatures": [
+        "broad elven ears with tapered tips",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "a faint freckle band across the upper cheeks"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "freckled"
+      ]
+    },
+    {
+      "id": "drow-appearance-014",
+      "summary": "An adult woman aged 20 with blue-undertoned slate skin, sleek black hair to the waist, and smoky violet eyes. Her build is compact with thick thighs and a soft abdomen. Swept-back elven ears.",
+      "skin": "blue-undertoned slate",
+      "hair": "sleek black hair to the waist",
+      "eyes": "smoky violet",
+      "build": "compact with thick thighs and a soft abdomen",
+      "ancestryFeatures": [
+        "swept-back elven ears",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "a soft dusting of freckles on the upper arms"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "compact",
+        "freckled"
+      ]
+    },
+    {
+      "id": "drow-appearance-015",
+      "summary": "An adult woman aged 23 with warm charcoal grey skin, long ash-brown ringlets, and dark garnet eyes. Her build is short and sturdily built with a defined waist. Slender elven ears with defined outer ridges.",
+      "skin": "warm charcoal grey",
+      "hair": "long ash-brown ringlets",
+      "eyes": "dark garnet",
+      "build": "short and sturdily built with a defined waist",
+      "ancestryFeatures": [
+        "slender elven ears with defined outer ridges",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "slightly uneven natural eyebrow arches"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "drow-appearance-016",
+      "summary": "An adult woman aged 18 with slate grey skin, long pale-copper waves, and pale mauve eyes. Her build is slim-waisted with broad shoulders and full thighs. Long narrow elven ears.",
+      "skin": "slate grey",
+      "hair": "long pale-copper waves",
+      "eyes": "pale mauve",
+      "build": "slim-waisted with broad shoulders and full thighs",
+      "ancestryFeatures": [
+        "long narrow elven ears",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a pale oval birthmark at the nape"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "drow-appearance-017",
+      "summary": "An adult woman aged 21 with deep charcoal skin, long chestnut waves, and silver grey eyes. Her build is slender with a strong back and softly rounded hips. Finely pointed elven ears angled slightly upward.",
+      "skin": "deep charcoal",
+      "hair": "long chestnut waves",
+      "eyes": "silver grey",
+      "build": "slender with a strong back and softly rounded hips",
+      "ancestryFeatures": [
+        "finely pointed elven ears angled slightly upward",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a narrow pale scar along the chin"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "drow-appearance-018",
+      "summary": "An adult woman aged 24 with muted violet-grey skin, long black hair with a blunt fringe, and warm amber eyes. Her build is lean and long-limbed with a modest bust. Broad elven ears with tapered tips.",
+      "skin": "muted violet-grey",
+      "hair": "long black hair with a blunt fringe",
+      "eyes": "warm amber",
+      "build": "lean and long-limbed with a modest bust",
+      "ancestryFeatures": [
+        "broad elven ears with tapered tips",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a deeper natural crease beneath the lower lip"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "drow-appearance-019",
+      "summary": "An adult woman aged 19 with blue-undertoned slate skin, a silver-blonde crop, and smoky violet eyes. Her build is tall and strongly built with a modest bust. Swept-back elven ears.",
+      "skin": "blue-undertoned slate",
+      "hair": "a silver-blonde crop",
+      "eyes": "smoky violet",
+      "build": "tall and strongly built with a modest bust",
+      "ancestryFeatures": [
+        "swept-back elven ears",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a small birthmark near the right shoulder"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "drow-appearance-020",
+      "summary": "An adult woman aged 22 with warm charcoal grey skin, a chestnut pixie cut, and dark garnet eyes. Her build is medium-height and generously curvaceous with a broad frame. Slender elven ears with defined outer ridges.",
+      "skin": "warm charcoal grey",
+      "hair": "a chestnut pixie cut",
+      "eyes": "dark garnet",
+      "build": "medium-height and generously curvaceous with a broad frame",
+      "ancestryFeatures": [
+        "slender elven ears with defined outer ridges",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a small freckle cluster across the nose"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "freckled"
+      ]
+    },
+    {
+      "id": "drow-appearance-021",
+      "summary": "An adult woman aged 25 with slate grey skin, mid-back silver-white waves, and pale mauve eyes. Her build is medium-height and muscular with mature curves. Long narrow elven ears.",
+      "skin": "slate grey",
+      "hair": "mid-back silver-white waves",
+      "eyes": "pale mauve",
+      "build": "medium-height and muscular with mature curves",
+      "ancestryFeatures": [
+        "long narrow elven ears",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a subtle left cheek dimple"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "drow-appearance-022",
+      "summary": "An adult woman aged 20 with deep charcoal skin, a shoulder-length tawny shag, and silver grey eyes. Her build is long-legged with a soft waist and full hips. Finely pointed elven ears angled slightly upward.",
+      "skin": "deep charcoal",
+      "hair": "a shoulder-length tawny shag",
+      "eyes": "silver grey",
+      "build": "long-legged with a soft waist and full hips",
+      "ancestryFeatures": [
+        "finely pointed elven ears angled slightly upward",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a beauty mark beside the left cheekbone"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "drow-appearance-023",
+      "summary": "An adult woman aged 23 with muted violet-grey skin, mid-back flaxen braids, and warm amber eyes. Her build is tall and slender with mature hips. Broad elven ears with tapered tips.",
+      "skin": "muted violet-grey",
+      "hair": "mid-back flaxen braids",
+      "eyes": "warm amber",
+      "build": "tall and slender with mature hips",
+      "ancestryFeatures": [
+        "broad elven ears with tapered tips",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a dark freckle beside the bridge of the nose"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "freckled"
+      ]
+    },
+    {
+      "id": "drow-appearance-024",
+      "summary": "An adult woman aged 18 with blue-undertoned slate skin, shoulder-length warm-brown twists, and smoky violet eyes. Her build is compact and muscular with soft contours. Swept-back elven ears.",
+      "skin": "blue-undertoned slate",
+      "hair": "shoulder-length warm-brown twists",
+      "eyes": "smoky violet",
+      "build": "compact and muscular with soft contours",
+      "ancestryFeatures": [
+        "swept-back elven ears",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a natural notch in the right eyebrow"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "compact"
+      ]
+    },
+    {
+      "id": "drow-appearance-025",
+      "summary": "An adult woman aged 21 with warm charcoal grey skin, chin-length black curls, and dark garnet eyes. Her build is medium-height with a full bust and straight waist. Slender elven ears with defined outer ridges.",
+      "skin": "warm charcoal grey",
+      "hair": "chin-length black curls",
+      "eyes": "dark garnet",
+      "build": "medium-height with a full bust and straight waist",
+      "ancestryFeatures": [
+        "slender elven ears with defined outer ridges",
+        "subterranean elven appearance distinct from chocolate-brown dark elves"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a small cleft in the chin"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    }
+  ]
+}

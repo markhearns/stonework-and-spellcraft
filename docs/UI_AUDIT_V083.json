@@ -1,0 +1,783 @@
+{
+  "screenCompositions": 62,
+  "fixture": "Established household; composition counts include closed disclosures",
+  "browserRendered": false,
+  "before": {
+    "castle": {
+      "primaryHeadings": 2,
+      "buttonsIncludingDisclosures": 76,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "peopleHub": {
+      "primaryHeadings": 2,
+      "buttonsIncludingDisclosures": 33,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "worldHub": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 3,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "magicHub": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 3,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "studyHub": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 5,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "storyJournal": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 27,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "headquarters": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 22,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "housing": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 157,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "restoration": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 107,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "ledger": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 142,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "stores": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 20,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "containment": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 22,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "workshop": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 163,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "publicWorkshop": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "focus": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 126,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "workroom": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 33,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "equipment": {
+      "primaryHeadings": 2,
+      "buttonsIncludingDisclosures": 61,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "characterProfile": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 15,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "development": {
+      "primaryHeadings": 2,
+      "buttonsIncludingDisclosures": 168,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "customization": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 15,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "householdChapters": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 15,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "workArrangements": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 4,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "householdWork": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 51,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "localEncounters": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 12,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "household": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 169,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "contacts": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "summoning": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 16,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "householdContent": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 7,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "stories": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 18,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "wardrobe": {
+      "primaryHeadings": 2,
+      "buttonsIncludingDisclosures": 53,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "resonance": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "householdSagas": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 18,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "expeditions": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 56,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "requests": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 9,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mystery": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 6,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "research": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 336,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "spells": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 302,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "rituals": {
+      "primaryHeadings": 2,
+      "buttonsIncludingDisclosures": 119,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "phaseTasks": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 78,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "goals": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 10,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "progression": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 3,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "castleChapter": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 36,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "houseShape": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "roomToGrow": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "keepingHearth": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "livingStories": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 41,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "specialists": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 27,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "journal": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 2,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "armoury": {
+      "primaryHeadings": 2,
+      "buttonsIncludingDisclosures": 59,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "armsOfOurOwn": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "room": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 37,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "hqRoom": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 6,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "workingTools": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 23,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:overview": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 19,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:about": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 13,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:talk": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 53,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:relationships": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 25,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:quests": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 15,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:development": {
+      "primaryHeadings": 2,
+      "buttonsIncludingDisclosures": 192,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:preparation": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 14,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:style": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 17,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:space": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 10,
+      "duplicateIds": [],
+      "missingImages": []
+    }
+  },
+  "after": {
+    "castle": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 60,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "peopleHub": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 33,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "worldHub": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 3,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "magicHub": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 3,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "studyHub": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 5,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "storyJournal": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 27,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "headquarters": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 22,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "housing": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 157,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "restoration": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 107,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "ledger": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 142,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "stores": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 20,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "containment": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 22,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "workshop": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 163,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "publicWorkshop": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "focus": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 126,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "workroom": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 33,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "equipment": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 47,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "characterProfile": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 15,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "development": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 153,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "customization": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 15,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "householdChapters": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 15,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "workArrangements": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 4,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "householdWork": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 51,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "localEncounters": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 12,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "household": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 169,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "contacts": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "summoning": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 16,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "householdContent": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 7,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "stories": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 18,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "wardrobe": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 53,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "resonance": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "householdSagas": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 18,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "expeditions": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 56,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "requests": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 9,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mystery": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 6,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "research": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 140,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "spells": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 302,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "rituals": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 119,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "phaseTasks": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 78,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "goals": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 10,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "houseShape": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "roomToGrow": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "keepingHearth": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "armsOfOurOwn": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 1,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "castleChapter": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 36,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "progression": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 3,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "livingStories": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 41,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "specialists": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 27,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "workingTools": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 12,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "journal": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 2,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "armoury": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 47,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "room": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 37,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "hqRoom": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 6,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:overview": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 19,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:about": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 13,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:talk": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 53,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:relationships": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 25,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:quests": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 15,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:development": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 177,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:preparation": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 14,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:style": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 17,
+      "duplicateIds": [],
+      "missingImages": []
+    },
+    "mira:space": {
+      "primaryHeadings": 1,
+      "buttonsIncludingDisclosures": 10,
+      "duplicateIds": [],
+      "missingImages": []
+    }
+  },
+  "notableChanges": {
+    "castle": {
+      "before": 76,
+      "after": 60
+    },
+    "equipment": {
+      "before": 61,
+      "after": 47
+    },
+    "research": {
+      "before": 336,
+      "after": 140
+    },
+    "development": {
+      "before": 168,
+      "after": 153
+    },
+    "mira:development": {
+      "before": 192,
+      "after": 177
+    }
+  },
+  "navigationChecks": {
+    "roomSearch": true,
+    "firstChapterSearch": true,
+    "chapterFiveSearch": true,
+    "arrivalLinkPreserved": true,
+    "armouryAliasSection": true,
+    "characterDevelopmentTabPreserved": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "version": "0.58",
+  "schemaVersion": 49,
+  "python": {
+    "tests": 630,
+    "seconds": 56.318,
+    "failures": 0,
+    "errors": 0
+  },
+  "connectedUI": {
+    "suites": 34,
+    "failures": 0
+  },
+  "syntax": "Python modules and browser JavaScript validated",
+  "scope": "Automated game, persistence, HTTP and headless connected UI; visual browser layout review remains pending."
+}

@@ -1,0 +1,62 @@
+{
+  "release": "0.105",
+  "recoveryDate": "2026-10-08",
+  "source": "Previously saved v0.105 game archive recovered into a new session. No v0.104 rollback was needed.",
+  "sourceSHA256": "992154de1b2dbf0b34708c1dd77b2903233961782946a9302bd9ea9c0f6a8974",
+  "changes": [
+    "Corrected stale START_HERE.md version, save-schema description, new features and verification references.",
+    "Added this independent recovery verification record."
+  ],
+  "implementation": "The recovered archive already contained the requested bestiary, ancestry catalogue, artwork, bounty contracts, fill-bestiary cheat and advanced material integration; source gameplay and artwork were preserved.",
+  "freshChecks": {
+    "python": {
+      "tests": 185,
+      "result": "pass",
+      "modules": [
+        "test_bestiary_v105",
+        "test_field_patrols",
+        "test_patrol_refinement",
+        "test_armoury",
+        "test_equipment_playability",
+        "test_headquarters",
+        "test_headquarters_workers",
+        "test_provisions",
+        "test_signature_field_flow",
+        "test_solo_start",
+        "test_guidance",
+        "test_magic_overhaul",
+        "test_candidate_http",
+        "test_art_release",
+        "test_art_v053",
+        "test_visual_status_v104",
+        "test_writing_v101",
+        "test_all_personal_paths"
+      ]
+    },
+    "ui": {
+      "result": "pass",
+      "scripts": [
+        "test_ui_bestiary_v105.cjs",
+        "test_ui_armoury.cjs",
+        "test_ui_unified.cjs",
+        "test_ui_room_navigation.cjs",
+        "test_ui_guidance.cjs",
+        "test_ui_magic.cjs",
+        "test_ui_status_v103.cjs",
+        "test_ui_visual_status_v104.cjs"
+      ],
+      "method": "Connected headless templates and persisted Python actions"
+    },
+    "javascriptSyntax": "pass",
+    "bestiaryArt": {
+      "files": 70,
+      "hashesDimensionsAndDecoding": "pass",
+      "contactSheetReview": "35 illustrated entries inspected"
+    }
+  },
+  "limits": [
+    "Rendered browser layout review remains outstanding.",
+    "These are targeted regression checks, not the entire historical test suite.",
+    "No live user campaign was available; migration compatibility was exercised using test saves."
+  ]
+}

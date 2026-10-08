@@ -1,0 +1,79 @@
+{
+  "version": "0.94",
+  "schema": 65,
+  "pythonRegression": {
+    "passed": 120,
+    "modules": [
+      "test_field_patrols (25 new tests)",
+      "test_first_patrol",
+      "test_daily_plan",
+      "test_provisions",
+      "test_personal_paths",
+      "test_magic_overhaul",
+      "test_armoury",
+      "test_fieldcraft",
+      "test_armoury_integration"
+    ]
+  },
+  "continuousCampaigns": {
+    "passed": 2,
+    "coverage": "Chapters 1\u20138 with earned funds and normal actions; serialized reload after every action; no cheats or prolonged food shortages.",
+    "routes": [
+      {
+        "route": "meet",
+        "plan": "negotiate",
+        "start": {
+          "day": 90,
+          "phase": "evening",
+          "funds": 37
+        },
+        "end": {
+          "day": 100,
+          "phase": "evening",
+          "funds": 96
+        },
+        "chapter8Advances": 30,
+        "cheats": false
+      },
+      {
+        "route": "solo",
+        "plan": "scout",
+        "start": {
+          "day": 92,
+          "phase": "evening",
+          "funds": 37
+        },
+        "end": {
+          "day": 103,
+          "phase": "evening",
+          "funds": 88
+        },
+        "chapter8Advances": 33,
+        "cheats": false
+      }
+    ]
+  },
+  "uiControllerTests": {
+    "passed": 3,
+    "scripts": [
+      "tests/test_ui_field_patrols.cjs",
+      "tests/test_ui_daily_plan.cjs",
+      "tests/test_ui_first_patrol.cjs"
+    ],
+    "scope": "Real API bridge, templates and controllers in Node VM; not a rendered-browser review."
+  },
+  "syntax": "node --check static/app.js passed",
+  "art": {
+    "files": 2,
+    "format": "WebP",
+    "dimensions": "1200x800",
+    "bytes": 689208,
+    "setting": "Remote wilderness; no neighbouring castles or settlements."
+  },
+  "limitations": [
+    "No browser-rendered layout or screenshot audit performed.",
+    "A field patrol waits for player decisions; it is not unattended automatic combat.",
+    "Spell support is restricted to prepared water, fire, ice, lightning, radiant and healing spells.",
+    "The full historical Python suite was not rerun; targeted regressions and full Chapter 1\u20138 routes were used."
+  ]
+}

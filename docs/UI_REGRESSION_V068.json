@@ -1,0 +1,277 @@
+{
+  "suites": 45,
+  "passed": 45,
+  "seconds": 174.06,
+  "results": [
+    {
+      "suite": "test_ui.cjs",
+      "passed": true,
+      "seconds": 174.06,
+      "output": "PASS: housing restoration, reservation, bedroom choice, room access and reload.\nPASS: rendered spell drafts, all three forms, individual testing/preparation/casting, cancellation, escaped prose, cooperative ritual pause/resume and reload.\nPASS: personal skills, multi-stage expeditions, capability choices, recoverable complication, partial-work return/reload, both finite leads, new recipe/installation and fourth spell.\nPASS: delegated batch forms, protected reserves, budget commitment, pause/resume, explicit top-up, finite completion, exact refund and reload.\nPASS: personal finance forms, morning allowance transfers, individual purchase, expedition arrangement and reload.\nPASS: offered principle and skill lessons, two-person assignment, workroom pause/resume, personal results and persistent history.\nPASS: finite casting plan form, pause/resume, phase-bound count, workroom visibility, completion and persistent reload.\nPASS: personal request acceptance, explicit funding, independent work, pause/resume, note, owned bedroom keepsake, personal-wallet cancellation refund and reload.\nPASS: contact conversation, private accommodation, protected arrival reservation, third resident, independent work/training, personal notebook, eleventh recipe and persistent roster.\nPASS: provider settings hide the saved key; generated draft preview is escaped and nonmutating; retry and explicit acceptance persist dialogue only.\nPASS: resident-specific free text, generated draft recovery/retry and acceptance leave Mira\u2019s conversation and game mechanics unchanged.\nPASS: reviewed journal draft, escaped preview, source events, prose-only acceptance, recovery and reload.\nPASS: text furnishings/effects, no furniture overlays, independent slots, named arrangements, escaped names, deletion without removal and reload.\nPASS: progress-aware moments, defer/restore/join, shared friendship scenes, individual flirtation followup, unchanged time/rewards/work, private panels and persistent rereading.\nPASS: advanced practice prerequisites, training cost, individual preparation, work breakdown, named set restore/reload and safe invalidation after retraining.\nPASS: personal blessing offered with exact costs, two assigned phases, personal capacity, persistent reload and one-phase reversal.\nPASS: authored catalogue, fixed names and effects, free explicit study plan, no runtime spell proposal UI.\nPASS: Iona\u2019s exact-cost atlas, pause/resume, own rewards, personal map case, displayed keepsake, shared scene and treasury-funded gift.\nPASS: authored summoning research, explicit contact costs, visitor exclusion, separate membership decisions, fourth-resident views, departure and persistent same-person return.\nPASS: 24 views at home and with Mira away; all eleven recipes use rendered form fields.\nPASS: rendered focus inscription and capacity forms, prepared effects, escaped names, reload, campaign list/export scope and creation retry after a lost response.\nPASS: neighbour acceptance/deferral/delivery, saved letter, nursery route and survey, capillary crafting and installation, protected delivery control, both invitations and persistent reload.\nPASS: research catalogue, three utility installations, stock-first production, personal study, multi-copy work orders, exact purchases, manual starts and reload; prior connected playthrough remains working.\nThese checks do not measure layout, painting, focus behavior or real browser interaction.\n"
+    },
+    {
+      "suite": "test_ui_arrival.cjs",
+      "passed": true,
+      "seconds": 5.62,
+      "output": "PASS: arrival choices and orientation, direct navigation, active/paused opening guidance, explicit phase labels, blocked Advance and saved arrival memories.\n"
+    },
+    {
+      "suite": "test_ui_arrivals.cjs",
+      "passed": true,
+      "seconds": 6.3,
+      "output": "PASS: common recruitment and porcelain golem review, separated UI paths, pause/resume, capacity wait, fully adult awakening and durable guest state. Headless integration only.\n"
+    },
+    {
+      "suite": "test_ui_art_v053.cjs",
+      "passed": true,
+      "seconds": 0.56,
+      "output": "Integrated art UI passed\n"
+    },
+    {
+      "suite": "test_ui_artwork.cjs",
+      "passed": true,
+      "seconds": 1.65,
+      "output": "PASS: generated raster artwork wired to all core items/materials, navigation and public categories; repeated portrait reduction; core views and labels retained.\n"
+    },
+    {
+      "suite": "test_ui_attributes.cjs",
+      "passed": true,
+      "seconds": 6.95,
+      "output": "PASS: six attributes, six skills, visible qualification reasons, original choices retained, training, authored alternative memory, specialist expedition route and reload.\n"
+    },
+    {
+      "suite": "test_ui_builds.cjs",
+      "passed": true,
+      "seconds": 7.13,
+      "output": "PASS: character development UI training, pause/resume, affinity prerequisites, perk effects, retraining and reload.\n"
+    },
+    {
+      "suite": "test_ui_candidates.cjs",
+      "passed": true,
+      "seconds": 6.97,
+      "output": "PASS: candidate proposal review/recheck, explicit approval, funded contact, generated identity escaping, membership, scoped dialogue, portrait review and departure/reload.\n"
+    },
+    {
+      "suite": "test_ui_cast.cjs",
+      "passed": true,
+      "seconds": 13.16,
+      "output": "PASS: three-candidate routing, unique conversation forms, scoped generated replies, five-person household views, funded projects, saved styles, illustrated moments, room shortcuts, departure and remembered history.\n"
+    },
+    {
+      "suite": "test_ui_castle_chapter.cjs",
+      "passed": true,
+      "seconds": 5.89,
+      "output": "PASS: notebook navigation, returned discovery and reflection persistence, personal knowledge, reserve warning, room presence and seven responsive destination cards.\n"
+    },
+    {
+      "suite": "test_ui_character_quests.cjs",
+      "passed": true,
+      "seconds": 5.28,
+      "output": "PASS: quest discovery, authored story, spell icons and blockers, phase work, pause/resume, reload, hidden endings, flirt choice, exact reward, saved procedural board and daily limit.\n"
+    },
+    {
+      "suite": "test_ui_character_setup.cjs",
+      "passed": true,
+      "seconds": 3.02,
+      "output": "PASS: player identity, escaping, generated preview/acceptance, import acceptance, placeholder/rollback, portrait recovery and arrival continuation.\n"
+    },
+    {
+      "suite": "test_ui_companion_participation.cjs",
+      "passed": true,
+      "seconds": 6.78,
+      "output": "PASS: party comparison, real training invitation, Later/restore, remembered dialogue, proactive suggestions, complementary roles, full beacon return, debrief and persistence.\n"
+    },
+    {
+      "suite": "test_ui_containment.cjs",
+      "passed": true,
+      "seconds": 11.9,
+      "output": "PASS: specialized chamber UI construction, pause/resume, care, release, separate visit/membership, artwork, transferred-case refund and reload.\n"
+    },
+    {
+      "suite": "test_ui_content_packs.cjs",
+      "passed": true,
+      "seconds": 3.18,
+      "output": "PASS: ZIP upload, validation warnings, content browser, explicit activation, imported offline candidate, field editing, escaped output, approval and source preservation.\n"
+    },
+    {
+      "suite": "test_ui_customization.cjs",
+      "passed": true,
+      "seconds": 3.82,
+      "output": "PASS: seven character tabs, appearance brief, saved garment ensemble, atomic preparation, paid personal corner in actual room, companion tastes, leisure routine, illustrated wardrobe, reload.\n"
+    },
+    {
+      "suite": "test_ui_equipment.cjs",
+      "passed": true,
+      "seconds": 4.88,
+      "output": "PASS: equipment ownership/preparation/transfer, recoverable reviewed scene prose and read-only expansion ZIP review.\n"
+    },
+    {
+      "suite": "test_ui_estate.cjs",
+      "passed": true,
+      "seconds": 7.4,
+      "output": "PASS: estate UI private room, bedroom move, room rendering, region filter, annex gating, phased services, fitted capacity and reload.\n"
+    },
+    {
+      "suite": "test_ui_fieldcraft.cjs",
+      "passed": true,
+      "seconds": 3.89,
+      "output": "PASS: tool inscription start/pause/resume/completion, earned resident invitation, workroom visibility, offline spell form guidance and discovery links.\n"
+    },
+    {
+      "suite": "test_ui_guidance.cjs",
+      "passed": true,
+      "seconds": 4.16,
+      "output": "PASS: pinned goals, linked steps, nonmutating preview, completion follow-up, person/material/principle context, recipe filtering, scroll memory and artwork expansion.\n"
+    },
+    {
+      "suite": "test_ui_headquarters.cjs",
+      "passed": true,
+      "seconds": 2.63,
+      "output": "PASS: headquarters navigation, construction, pause/resume, optional chapel scene, prerequisites, art target and gated bedrooms.\n"
+    },
+    {
+      "suite": "test_ui_household_chapters.cjs",
+      "passed": true,
+      "seconds": 4.47,
+      "output": "PASS: connected four-chapter route, remembered wardrobe response, room filtering/revisits, no time/resource costs, saved work previews and restoration, escaping, reload, project assignment impacts.\n"
+    },
+    {
+      "suite": "test_ui_household_content.cjs",
+      "passed": true,
+      "seconds": 4.88,
+      "output": "PASS: full bundled pack, reviewed scene prerequisites, invitation/defer/join, garment review, saved styling, story pattern and persistence after deactivation.\n"
+    },
+    {
+      "suite": "test_ui_household_sagas.cjs",
+      "passed": true,
+      "seconds": 8.06,
+      "output": "PASS: all 12 stories listed, portraits, phase gating, recalled choice, real worker selection, paid project pause/resume, completion, NPC bonds, relationship-aware coda, actual-party field conversation and reload.\n"
+    },
+    {
+      "suite": "test_ui_lantern_adventure.cjs",
+      "passed": true,
+      "seconds": 8.11,
+      "output": "PASS: real four-person departure, field methods and spell art, group and private conversations, no premature replies, all six steps, home rewards, installed legacy, castle visibility and reload.\n"
+    },
+    {
+      "suite": "test_ui_local.cjs",
+      "passed": true,
+      "seconds": 6.2,
+      "output": "PASS: illustrated local meeting, pause/resume, ordinary contact, two-sided membership, ancestry training display, shared-history chapter unlock and durable continuity. Headless only.\n"
+    },
+    {
+      "suite": "test_ui_magic.cjs",
+      "passed": true,
+      "seconds": 2.63,
+      "output": "PASS: authored spell icons, field actions and ordinary alternatives, resolved costs, return, ritual icons, paid shared ritual, advance, reload and cancellation.\n"
+    },
+    {
+      "suite": "test_ui_mystery.cjs",
+      "passed": true,
+      "seconds": 5.71,
+      "output": "PASS: mystery UI investigation, pause/resume, escaped discovered evidence, explicit sharing, final synthesis and reload.\n"
+    },
+    {
+      "suite": "test_ui_outfits.cjs",
+      "passed": true,
+      "seconds": 2.77,
+      "output": "PASS: wardrobe invitations, blocked explanations, portrait previews, selected art across identity panels, save reload, original look, and primary and utility navigation icons.\n"
+    },
+    {
+      "suite": "test_ui_party_journeys.cjs",
+      "passed": true,
+      "seconds": 13.4,
+      "output": "PASS: roster of 14, selection cap, departure preparation, four travellers, actual spell caster, support cast phase, accelerated ordinary route, retreat/resume, romance-aware camp, permanent ritual, completed return, legacy installation, room display and reload.\n"
+    },
+    {
+      "suite": "test_ui_phase_work.cjs",
+      "passed": true,
+      "seconds": 7.37,
+      "output": "PASS: phase board quick actions, phase notifications, dismissal, work agreements, resident gardening and actual expedition companion return.\n"
+    },
+    {
+      "suite": "test_ui_polish.cjs",
+      "passed": true,
+      "seconds": 2.22,
+      "output": "PASS: companion-specific scroll restoration, invitation target/filter recovery, recipient retention, visible phase feedback, decision-first expedition layout and ordinary fieldwork. Headless controller checks.\n"
+    },
+    {
+      "suite": "test_ui_public_content.cjs",
+      "passed": true,
+      "seconds": 2.13,
+      "output": "Public expansion connected UI: staging, review, composition, approval and joining passed.\n"
+    },
+    {
+      "suite": "test_ui_public_integration.cjs",
+      "passed": true,
+      "seconds": 13.96,
+      "output": "Public integration UI: all record types, actual costs, field return, discovery, joined chapter, assigned work, resolution, community, named contact and wardrobe/art production passed.\n"
+    },
+    {
+      "suite": "test_ui_public_workshop.cjs",
+      "passed": true,
+      "seconds": 6.1,
+      "output": "Public workshop connected UI: catalogue, costs, pause, completion, owned reading and field return passed.\n"
+    },
+    {
+      "suite": "test_ui_reconciliation.cjs",
+      "passed": true,
+      "seconds": 0.06,
+      "output": "PASS: keyed identity/reordering, replacement/removal, focused input selection, draft preservation/clearing, expanded details and screen isolation. Tree double, not visual QA.\n"
+    },
+    {
+      "suite": "test_ui_relationships.cjs",
+      "passed": true,
+      "seconds": 5.46,
+      "output": "PASS: relationship UI, hidden future replies, independent bonds, complete household story, promise revision, defer/restore, actual callbacks, personal boundaries, reload and original conversations.\n"
+    },
+    {
+      "suite": "test_ui_resident_future.cjs",
+      "passed": true,
+      "seconds": 12.85,
+      "output": "PASS: eleven specialty cards, remembered resident choices, funded installations, direct project resume, elf leads and branched four-stage field controls.\n"
+    },
+    {
+      "suite": "test_ui_romance.cjs",
+      "passed": true,
+      "seconds": 5.43,
+      "output": "PASS: mutual progression, friendly pause/reopen, later/restore, hidden scenes, phase gate, all milestones, real outfit selection, illustrated date, resource preservation and reload.\n"
+    },
+    {
+      "suite": "test_ui_room_navigation.cjs",
+      "passed": true,
+      "seconds": 4.79,
+      "output": "PASS: persistent room workspaces, in-room research and crafting, funding guidance, explicit copying and navigation without save mutations.\n"
+    },
+    {
+      "suite": "test_ui_social_life.cjs",
+      "passed": true,
+      "seconds": 2.78,
+      "output": "PASS: home invitations, authored responses remain visible, phase-gated callbacks, branches, later/restore, peer conversations, rereading, reload and no resource or assignment changes.\n"
+    },
+    {
+      "suite": "test_ui_solo.cjs",
+      "passed": true,
+      "seconds": 6.1,
+      "output": "Solo title screen, fresh progression, navigation, cheats and new-game controller passed.\n"
+    },
+    {
+      "suite": "test_ui_stories.cjs",
+      "passed": true,
+      "seconds": 5.21,
+      "output": "PASS: offline curated Dryad, saved request recovery, personal story review/recheck, funded work, pause/resume, non-expiring scene and reload. Headless integration only.\n"
+    },
+    {
+      "suite": "test_ui_unified.cjs",
+      "passed": true,
+      "seconds": 3.7,
+      "output": "PASS: six destinations, all resident tabs, combined journal, date identities, search, magic filters, instant travel timing, activity pagination and read-only browsing. Headless integration only.\n"
+    },
+    {
+      "suite": "test_ui_visuals.cjs",
+      "passed": true,
+      "seconds": 1.2,
+      "output": "PASS: unavailable action explanations without mutations, Fenna route, portraits, editable fields, image overrides, native select help and all main view rendering.\n"
+    }
+  ]
+}

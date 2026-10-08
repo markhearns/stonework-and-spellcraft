@@ -1,0 +1,40 @@
+{
+  "version": "0.70",
+  "schemaVersion": 58,
+  "python": {
+    "testsCovered": 793,
+    "outstandingFailures": 0,
+    "initialRun": {
+      "passed": 792,
+      "failures": 1
+    },
+    "resolvedBy": "Updated the upload fixture MIME type to match its optimized WebP input; all 3 campaign tests passed on rerun.",
+    "initialSeconds": 119.918
+  },
+  "ui": {
+    "suites": 46,
+    "passed": 46,
+    "includesDOMTreeDouble": true,
+    "filenameExpectationUpdates": [
+      "test_ui_character_quests.cjs",
+      "test_ui_cast.cjs",
+      "test_ui_castle_chapter.cjs",
+      "test_ui_lantern_adventure.cjs",
+      "test_ui_magic.cjs"
+    ]
+  },
+  "assetValidation": {
+    "rasterFilesDecoded": 156,
+    "alphaPlanesPreservedAfterResizing": 108,
+    "aspectRatiosPreserved": true,
+    "visualSampleReview": "Original versus optimized portraits, rooms, atlas and spell icons compared at display size; no material visual difference observed. Not a rendered browser review."
+  },
+  "assetTotals": {
+    "beforeBytes": 153157222,
+    "bytes": 39294190,
+    "sourceDuplicatesRemovedBytes": 94576104
+  },
+  "browserVisualReview": false,
+  "browserBlocker": "Cloud browser could not access the local server; local browser executables unavailable.",
+  "gameplayRulesChanged": false
+}

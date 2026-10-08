@@ -1,0 +1,14 @@
+{
+  "version": "0.72",
+  "method": "Built-in image generation tool",
+  "prompt": "Use case: logo-brand. Create a polished game logo on a genuinely transparent background for the fantasy household RPG titled exactly \"Stonework and Spellcraft\". A restrained antique engraving-inspired identity: a modest stone castle/workshop with one warmly lit window, an open grimoire and a small artisan's tool subtly combined into a compact emblem above a beautiful exceptionally legible two-line serif wordmark. Text exactly: \"STONEWORK\" then a small \"and\" then \"SPELLCRAFT\". Intricate but controlled etched linework, fine crosshatching, lightly worn print texture. Warm parchment lettering and muted dull-brass outlines with small midnight-violet details, suitable for display on dark navy #101321. Welcoming scholarly fantasy, practical craftsmanship, intimate home, not warfare. Elegant balanced horizontal-ish stacked lockup, generous clear transparent margins, high contrast and strong silhouette, keep lettering readable at 400 pixels wide. No tagline, no background rectangle, no mockup, no glossy CGI, no glowing magic spectacle, no lavish palace, no extra text. Deliver one finished logo only.",
+  "asset": "static/assets/ui/stonework-and-spellcraft-logo-v072.webp",
+  "size": [
+    1536,
+    1024
+  ],
+  "transparent": true,
+  "encoding": "WebP quality 90, preserved alpha; no resizing",
+  "sourceIncluded": false,
+  "review": "Exact title text and engraving-style castle, book and craft tools visually reviewed in the generated image. Integrated into the title screen with an accessible text alternative. All previous artwork retained."
+}

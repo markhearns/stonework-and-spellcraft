@@ -1,0 +1,15 @@
+{
+  "conversations": 106,
+  "responseOptions": 318,
+  "authoredWordsExcludingFollowupBranches": 12471,
+  "categories": {
+    "personal": 42,
+    "pairs": 30,
+    "reactions": 14,
+    "everyday": 14,
+    "gatherings": 6
+  },
+  "people": 14,
+  "peerArcs": 10,
+  "branchingConclusions": 24
+}

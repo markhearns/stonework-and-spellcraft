@@ -1,0 +1,14 @@
+Use case: illustration-story. Generate exactly ONE new image. Output the native master image only; filename/export directions below describe later packaging, not extra panels or images.
+ASSET 03 — Hillfold bindery
+EXACT ID: hillfold-bindery
+RUNTIME: locations/hillfold-bindery.webp
+MASTER: masters/hillfold-bindery.png
+
+GENERATE THIS ONE SUBJECT ONLY
+A modest hill-country bookbinder’s storehouse, seen through its open doorway at natural standing eye level. Dusty kiln shelves, bundles of usable binding cord and a few ordinary clay packing pieces form the main readable details. Include worn practical shelving and a small work surface, with clear walking space and enough daylight to distinguish wood, cord and clay. This is a craft storehouse, not a grand library or a ruined cathedral. No people, keeper portrait, party members, piles of treasure or invented mystery clues.
+
+CURRENT PROJECT AESTHETIC
+Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving–inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.
+
+COMPOSITION AND OUTPUT
+One full environmental illustration, landscape 16:9, opaque background. Preserve the native high-resolution PNG master; export a 1600 x 900 WebP runtime if possible. Keep focal architecture inside the central 80%; do not bake in a UI strip or artificial empty patch. No people, animals, text, logos, watermark, decorative frame or multi-panel sheet. Natural eye-level perspective, not isometric, aerial or map view. Daylight remains readable; the palette does not require night.

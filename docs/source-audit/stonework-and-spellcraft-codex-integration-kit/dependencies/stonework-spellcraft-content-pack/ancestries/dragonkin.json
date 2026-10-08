@@ -1,0 +1,1938 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "dragonkin",
+  "ancestryName": "Dragonkin",
+  "arrivalMethod": "summoning",
+  "names": [
+    {
+      "id": "dragonkin-name-001",
+      "name": "Zaxela",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-002",
+      "name": "Yadrara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-003",
+      "name": "Zadrela",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-004",
+      "name": "Kadria",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-005",
+      "name": "Raxira",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-006",
+      "name": "Zavrira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-007",
+      "name": "Graxis",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-008",
+      "name": "Madrissa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-009",
+      "name": "Darvena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-010",
+      "name": "Vaxia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-011",
+      "name": "Yaxis",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-012",
+      "name": "Cadrara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-013",
+      "name": "Ivarissa",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-014",
+      "name": "Nadra",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-015",
+      "name": "Draxora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-016",
+      "name": "Uvarara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-017",
+      "name": "Ovarara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-018",
+      "name": "Jadrira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-019",
+      "name": "Edrelen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-020",
+      "name": "Braxis",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-021",
+      "name": "Adrekena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-022",
+      "name": "Ladrena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-023",
+      "name": "Fadrine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-024",
+      "name": "Kavreth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-025",
+      "name": "Saxine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-026",
+      "name": "Qadris",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-027",
+      "name": "Tadren",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-028",
+      "name": "Faxen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-029",
+      "name": "Udreth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-030",
+      "name": "Padrine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-031",
+      "name": "Belkia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-032",
+      "name": "Wadrena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-033",
+      "name": "Azrelissa",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-034",
+      "name": "Gavra",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-035",
+      "name": "Tavrara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-036",
+      "name": "Arva",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-037",
+      "name": "Idrela",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-038",
+      "name": "Sadrora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-039",
+      "name": "Laxela",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-040",
+      "name": "Naxissa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-041",
+      "name": "Vadrine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-042",
+      "name": "Paxora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-043",
+      "name": "Cevreth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-044",
+      "name": "Jaxa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-045",
+      "name": "Radren",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-046",
+      "name": "Haxia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-047",
+      "name": "Odrira",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-048",
+      "name": "Hadreth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-049",
+      "name": "Sadrara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-050",
+      "name": "Draxara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-051",
+      "name": "Laxora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-052",
+      "name": "Vadreth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-053",
+      "name": "Fadreth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-054",
+      "name": "Adreken",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-055",
+      "name": "Ladren",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-056",
+      "name": "Nadris",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-057",
+      "name": "Yadrira",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-058",
+      "name": "Kadra",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-059",
+      "name": "Raxela",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-060",
+      "name": "Graxissa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-061",
+      "name": "Gavris",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-062",
+      "name": "Kavrena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-063",
+      "name": "Wadren",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-064",
+      "name": "Uvarira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-065",
+      "name": "Belka",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-066",
+      "name": "Cevrena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-067",
+      "name": "Evarara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-068",
+      "name": "Qadrissa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-069",
+      "name": "Haxa",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-070",
+      "name": "Edreline",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-071",
+      "name": "Naxia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-072",
+      "name": "Zaxora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-073",
+      "name": "Ovarira",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-074",
+      "name": "Ivaria",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-075",
+      "name": "Madria",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-076",
+      "name": "Tadrine",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-077",
+      "name": "Padreth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-078",
+      "name": "Mavora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-079",
+      "name": "Yaxissa",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-080",
+      "name": "Radrine",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-081",
+      "name": "Udrena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-082",
+      "name": "Saxeth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-083",
+      "name": "Jaxis",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-084",
+      "name": "Vaxa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-085",
+      "name": "Arvis",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-086",
+      "name": "Tavrira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-087",
+      "name": "Azrelia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-088",
+      "name": "Idrelis",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-089",
+      "name": "Darven",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-090",
+      "name": "Paxara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-091",
+      "name": "Braxissa",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-092",
+      "name": "Zadrora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-093",
+      "name": "Faxine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-094",
+      "name": "Odrela",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-095",
+      "name": "Zavrela",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-096",
+      "name": "Cadrira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dragonkin-name-097",
+      "name": "Jadrela",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dragonkin-name-098",
+      "name": "Hadrena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dragonkin-name-099",
+      "name": "Cevren",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dragonkin-name-100",
+      "name": "Uvarela",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "dragonkin-story-001",
+      "title": "The scale-friendly collar",
+      "premise": "She sketches a fitted collar that would rub the small scales along her neck.",
+      "personalMotivation": "She wants elegant clothes that respect their wearer.",
+      "openingHook": "She asks where a softer facing could preserve the line.",
+      "possibleDevelopments": [
+        "Compare a lower collar with a shaped, lined opening.",
+        "Keep fit subject to her actual scale placement."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "accessibility",
+        "elegant"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-002",
+      "title": "The hoard that is only notes",
+      "premise": "She keeps extensive craft notes and dislikes every collection being called a hoard.",
+      "personalMotivation": "She wants curiosity described without an ancestry joke.",
+      "openingHook": "She asks what makes an archive different from mere accumulation.",
+      "possibleDevelopments": [
+        "Develop a useful index and a deliberate discard policy.",
+        "Let some notes remain private rather than displaying the collection."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "identity",
+        "privacy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-003",
+      "title": "A tiny dragon on the margin",
+      "premise": "She enjoys drawing exaggerated dragons but does not want the doodles mistaken for self-portraits.",
+      "personalMotivation": "She likes fantasy imagery without collapsing herself into it.",
+      "openingHook": "She asks how a comic caption could clarify the joke.",
+      "possibleDevelopments": [
+        "Make the creature deliberately fictional and unlike her anatomy.",
+        "Keep the doodles separate from portrait references."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "humour",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-004",
+      "title": "The kiln heat she cannot promise",
+      "premise": "She is interested in ceramics and dislikes assumptions that her appearance supplies a heat source.",
+      "personalMotivation": "She wants to learn a craft through approved means.",
+      "openingHook": "She asks which part of a ceramic process she could study ordinarily.",
+      "possibleDevelopments": [
+        "Begin with form, surface and existing reference pieces.",
+        "Leave firing methods and magical capability to separate integration."
+      ],
+      "backgroundTags": [
+        "ceramics"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-005",
+      "title": "The horn-clearance staircase sketch",
+      "premise": "She wants to understand an awkward stair drawing but refuses to treat horns as the problem with low clearance.",
+      "personalMotivation": "She values buildings designed for their inhabitants.",
+      "openingHook": "She asks where the section view hides a collision risk.",
+      "possibleDevelopments": [
+        "Add an explicit clearance study using her established silhouette.",
+        "Keep any architectural change a proposal requiring permission."
+      ],
+      "backgroundTags": [
+        "stonework"
+      ],
+      "themeTags": [
+        "accessibility",
+        "domestic"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-006",
+      "title": "The counting counters that keep rolling",
+      "premise": "She wants a tactile way to explain a ledger but sketches beadlike counters that may wander across the table.",
+      "personalMotivation": "She values a clear demonstration more than an impressive set of objects.",
+      "openingHook": "She asks whether flat shapes or a shallow tray would make the example easier to follow.",
+      "possibleDevelopments": [
+        "Compare paper tokens before planning worked materials.",
+        "Reduce the demonstration to one transaction if the apparatus distracts from the question."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-007",
+      "title": "The miniature bridge dispute",
+      "premise": "She builds paper bridge concepts and is drawn to a dramatic arch that complicates the learning question.",
+      "personalMotivation": "She wants to understand one structural idea at a time.",
+      "openingHook": "She asks whether the arch teaches more than a plain span.",
+      "possibleDevelopments": [
+        "Make separate visual and explanatory models.",
+        "Avoid implying that either model proves a real bridge safe."
+      ],
+      "backgroundTags": [
+        "papercraft"
+      ],
+      "themeTags": [
+        "stonework",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-008",
+      "title": "The song below the roar",
+      "premise": "She likes gentle vocal music and is tired of suggestions that her voice should be thunderous.",
+      "personalMotivation": "She wants expression rather than spectacle.",
+      "openingHook": "She asks a willing listener which phrase sounds most natural.",
+      "possibleDevelopments": [
+        "Explore a restrained arrangement without ancestry-based expectations.",
+        "Keep any vocal ability within what practice establishes."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "identity",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-009",
+      "title": "A ledger of things lent",
+      "premise": "She wants to lend tools more freely but dislikes relying on memory to track their return.",
+      "personalMotivation": "She wants trust supported by clarity.",
+      "openingHook": "She asks how a lending note could avoid sounding accusatory.",
+      "possibleDevelopments": [
+        "Design a voluntary record with owner, borrower and agreed scope.",
+        "Keep gifts and loans clearly distinct."
+      ],
+      "backgroundTags": [
+        "possessions"
+      ],
+      "themeTags": [
+        "trust",
+        "archives"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-010",
+      "title": "The tail-friendly artist's stool",
+      "premise": "She sketches a rotating-looking stool but its back brace would obstruct her scaled tail.",
+      "personalMotivation": "She wants freedom to shift while drawing.",
+      "openingHook": "She asks whether a simpler open stool would serve better.",
+      "possibleDevelopments": [
+        "Compare a stable open-backed seat with the elaborate concept.",
+        "Leave movement mechanisms and construction for later craft review."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "visual-art",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-011",
+      "title": "The treasure in the repair mark",
+      "premise": "She admires a repaired household object more than its untouched equivalent and wants to explain why.",
+      "personalMotivation": "She values evidence of care rather than rarity.",
+      "openingHook": "She asks what a visible repair says without inventing its history.",
+      "possibleDevelopments": [
+        "Describe the workmanship and mark the unknown biography as unknown.",
+        "Consider a small drawing focused on the join."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "sustainability",
+        "visual-art"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-012",
+      "title": "The correspondence on ordinary metal",
+      "premise": "She wants to exchange notes about humble hinges, not precious ornaments.",
+      "personalMotivation": "She finds overlooked mechanisms satisfying.",
+      "openingHook": "She asks which hinge question would interest another maker.",
+      "possibleDevelopments": [
+        "Draft a focused inquiry with a clear sketch.",
+        "Leave expertise and replies unestablished until actual exchange."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "metalwork",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-013",
+      "title": "The joke about guarding biscuits",
+      "premise": "She enjoys a comic scene about fiercely protected biscuits but wants real food sharing to remain uncomplicated.",
+      "personalMotivation": "She likes playful exaggeration without possessive rules.",
+      "openingHook": "She asks how the scene can signal fiction immediately.",
+      "possibleDevelopments": [
+        "Use a tiny illustrated biscuit fortress as the joke.",
+        "Offer ordinary hospitality outside the performance."
+      ],
+      "backgroundTags": [
+        "humour"
+      ],
+      "themeTags": [
+        "baking",
+        "hospitality"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-014",
+      "title": "A walking route with no wings",
+      "premise": "She wants a travel plan that does not assume she can bypass terrain by flying.",
+      "personalMotivation": "She wants useful directions based on her actual wingless form.",
+      "openingHook": "She asks which proposed shortcuts rely on invented anatomy.",
+      "possibleDevelopments": [
+        "Replace unsupported shortcuts with open mapping questions.",
+        "Keep access and any journey pending established gameplay."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "exploration",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-015",
+      "title": "The smooth seam over scales",
+      "premise": "She is considering a fitted sleeve and wonders where a seam should avoid her forearm scales.",
+      "personalMotivation": "She wants attractive clothing that remains comfortable in motion.",
+      "openingHook": "She asks whether the seam could move to the inner arm.",
+      "possibleDevelopments": [
+        "Sketch soft lining and adequate room around the scaled areas.",
+        "Require individual fitting rather than a generic dragonkin pattern."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "accessibility",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-016",
+      "title": "A bedtime story without conquest",
+      "premise": "She writes an adventure in which finding a place matters more than claiming it.",
+      "personalMotivation": "She wants discovery to respect existing inhabitants.",
+      "openingHook": "She asks what the explorer should ask before making plans.",
+      "possibleDevelopments": [
+        "Build the conflict around permission and different uses of the site.",
+        "Let leaving respectfully be a satisfying possible ending."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "exploration",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-017",
+      "title": "The book clasp that overperforms",
+      "premise": "She sketches a book clasp so dramatic that opening a notebook would become a ceremony.",
+      "personalMotivation": "She likes bold design but wants daily use to stay easy.",
+      "openingHook": "She asks which flourish is worth keeping.",
+      "possibleDevelopments": [
+        "Reduce the clasp to a simple functional silhouette.",
+        "Use the full design for an illustration instead."
+      ],
+      "backgroundTags": [
+        "metalwork"
+      ],
+      "themeTags": [
+        "archives",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-018",
+      "title": "An apology without a trial",
+      "premise": "She wants to acknowledge a sharp remark without turning the conversation into a contest over who was right.",
+      "personalMotivation": "She values repair more than winning.",
+      "openingHook": "She asks how to own the remark without scripting forgiveness.",
+      "possibleDevelopments": [
+        "Draft a specific apology with no demanded response.",
+        "Keep further conversation optional for the other person."
+      ],
+      "backgroundTags": [
+        "friendship"
+      ],
+      "themeTags": [
+        "trust",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-019",
+      "title": "The scale pattern in the mosaic",
+      "premise": "She studies repeating scale-like shapes and notices identical tiles make the surface look mechanical.",
+      "personalMotivation": "She wants a handmade rhythm with deliberate variation.",
+      "openingHook": "She asks which irregularities preserve the pattern.",
+      "possibleDevelopments": [
+        "Sketch a limited range of tile shapes.",
+        "Keep the work decorative, not a claim about biological scale growth."
+      ],
+      "backgroundTags": [
+        "stonework"
+      ],
+      "themeTags": [
+        "visual-art",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-020",
+      "title": "The collection she stops collecting",
+      "premise": "She realizes a once-absorbing hobby now feels like maintaining an obligation.",
+      "personalMotivation": "She wants permission to change interests without disowning her past enjoyment.",
+      "openingHook": "She asks what parts still give her pleasure.",
+      "possibleDevelopments": [
+        "Keep a small personally meaningful selection.",
+        "Consider offering surplus materials only through actual agreed exchange."
+      ],
+      "backgroundTags": [
+        "personal-growth"
+      ],
+      "themeTags": [
+        "possessions",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-021",
+      "title": "A fiery title for quiet scholarship",
+      "premise": "Her proposed essay title promises a dramatic revelation while the work is a careful modest comparison.",
+      "personalMotivation": "She wants readers to understand the real contribution.",
+      "openingHook": "She asks which plain title best fits the evidence.",
+      "possibleDevelopments": [
+        "Rename the piece around its narrow question.",
+        "Preserve the dramatic phrase as an optional joke elsewhere."
+      ],
+      "backgroundTags": [
+        "practical-scholarship"
+      ],
+      "themeTags": [
+        "language",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-022",
+      "title": "The evening belt that clears a tail",
+      "premise": "She wants a shaped belt to emphasize her waist without pressing on the base of her tail.",
+      "personalMotivation": "She enjoys confident adult styling that fits her body.",
+      "openingHook": "She asks whether side closures could preserve the silhouette.",
+      "possibleDevelopments": [
+        "Sketch an offset rear section above a secure garment opening.",
+        "Review comfort, opaque coverage and scale contact together."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "sensual",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-023",
+      "title": "The map of modest landmarks",
+      "premise": "She prefers useful landmarks such as a distinctive roofline to heroic monuments in route descriptions.",
+      "personalMotivation": "She wants a guide built for ordinary travellers.",
+      "openingHook": "She asks which landmark remains recognizable from both directions.",
+      "possibleDevelopments": [
+        "Draft a survey checklist without claiming a route has been walked.",
+        "Mark uncertain features rather than making them definitive."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "community",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-024",
+      "title": "The green ink she keeps choosing",
+      "premise": "She notices her art repeatedly uses a favourite green and wonders whether habit is narrowing her work.",
+      "personalMotivation": "She wants experimentation without treating preference as failure.",
+      "openingHook": "She asks whether a limited-palette study could reveal something new.",
+      "possibleDevelopments": [
+        "Try a proposed alternative palette on spare paper.",
+        "Allow the experiment to confirm her original taste."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "experimentation",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "dragonkin-story-025",
+      "title": "A room with somewhere to be unremarkable",
+      "premise": "She imagines a private sitting area and rejects a grand display meant to impress visitors.",
+      "personalMotivation": "She wants a home that permits being off duty.",
+      "openingHook": "She asks what small comfort belongs there before ornament.",
+      "possibleDevelopments": [
+        "Prioritize an ordinary seat, chosen storage and personal privacy.",
+        "Keep the room concept independent of recruitment or romance."
+      ],
+      "backgroundTags": [
+        "domestic"
+      ],
+      "themeTags": [
+        "rest",
+        "belonging"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "dragonkin-appearance-001",
+      "summary": "An adult woman aged 24 with medium olive skin, short russet curls, and rich brown eyes. Her build is medium-height with balanced, softly mature curves. Short backward-swept horns.",
+      "skin": "medium olive",
+      "hair": "short russet curls",
+      "eyes": "rich brown",
+      "build": "medium-height with balanced, softly mature curves",
+      "ancestryFeatures": [
+        "short backward-swept horns",
+        "copper scales along the temples, shoulders and outer forearms",
+        "a tapered copper-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a dark freckle beside the bridge of the nose"
+      ],
+      "styleTags": [
+        "elegant",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-002",
+      "summary": "An adult woman aged 19 with pale beige skin, sleek black hair to the waist, and hazel eyes. Her build is full-bodied with a defined waist and powerful calves. Ridged ivory horns curling outward.",
+      "skin": "pale beige",
+      "hair": "sleek black hair to the waist",
+      "eyes": "hazel",
+      "build": "full-bodied with a defined waist and powerful calves",
+      "ancestryFeatures": [
+        "ridged ivory horns curling outward",
+        "deep teal scales along the temples, shoulders and outer forearms",
+        "a tapered deep teal-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a natural notch in the right eyebrow"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-003",
+      "summary": "An adult woman aged 22 with rich mahogany skin, long ash-brown ringlets, and moss green eyes. Her build is full-figured with broad hips and a strong back. Smooth dark horns arcing upward.",
+      "skin": "rich mahogany",
+      "hair": "long ash-brown ringlets",
+      "eyes": "moss green",
+      "build": "full-figured with broad hips and a strong back",
+      "ancestryFeatures": [
+        "smooth dark horns arcing upward",
+        "slate-blue scales along the temples, shoulders and outer forearms",
+        "a tapered slate-blue-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a small cleft in the chin"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-004",
+      "summary": "An adult woman aged 25 with golden brown skin, long pale-copper waves, and muted gold eyes. Her build is short and full-figured with rounded shoulders. Small bronze-brown horns.",
+      "skin": "golden brown",
+      "hair": "long pale-copper waves",
+      "eyes": "muted gold",
+      "build": "short and full-figured with rounded shoulders",
+      "ancestryFeatures": [
+        "small bronze-brown horns",
+        "bronze scales along the temples, shoulders and outer forearms",
+        "a tapered bronze-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a light scatter of freckles over the shoulders"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-005",
+      "summary": "An adult woman aged 20 with light brown skin, long chestnut waves, and golden brown eyes. Her build is compact and softly curvaceous with mature proportions. Long tapered black horns.",
+      "skin": "light brown",
+      "hair": "long chestnut waves",
+      "eyes": "golden brown",
+      "build": "compact and softly curvaceous with mature proportions",
+      "ancestryFeatures": [
+        "long tapered black horns",
+        "muted garnet scales along the temples, shoulders and outer forearms",
+        "a tapered muted garnet-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a pale pigment fleck at the left temple"
+      ],
+      "styleTags": [
+        "striking",
+        "compact"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-006",
+      "summary": "An adult woman aged 23 with cool dark brown skin, long black hair with a blunt fringe, and dark grey eyes. Her build is willowy with a full bust and narrow hips. Short backward-swept horns.",
+      "skin": "cool dark brown",
+      "hair": "long black hair with a blunt fringe",
+      "eyes": "dark grey",
+      "build": "willowy with a full bust and narrow hips",
+      "ancestryFeatures": [
+        "short backward-swept horns",
+        "copper scales along the temples, shoulders and outer forearms",
+        "a tapered copper-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a softly dimpled chin"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-007",
+      "summary": "An adult woman aged 18 with warm beige skin, a silver-blonde crop, and warm brown eyes. Her build is athletic and broad-hipped with a modest bust. Ridged ivory horns curling outward.",
+      "skin": "warm beige",
+      "hair": "a silver-blonde crop",
+      "eyes": "warm brown",
+      "build": "athletic and broad-hipped with a modest bust",
+      "ancestryFeatures": [
+        "ridged ivory horns curling outward",
+        "deep teal scales along the temples, shoulders and outer forearms",
+        "a tapered deep teal-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a beauty mark near the right corner of the mouth"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-008",
+      "summary": "An adult woman aged 21 with deep brown skin, a chestnut pixie cut, and soft violet eyes. Her build is athletic with a full bust and firm thighs. Smooth dark horns arcing upward.",
+      "skin": "deep brown",
+      "hair": "a chestnut pixie cut",
+      "eyes": "soft violet",
+      "build": "athletic with a full bust and firm thighs",
+      "ancestryFeatures": [
+        "smooth dark horns arcing upward",
+        "slate-blue scales along the temples, shoulders and outer forearms",
+        "a tapered slate-blue-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a darker pigment patch along one collarbone"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-009",
+      "summary": "An adult woman aged 24 with fair with peach undertones skin, mid-back silver-white waves, and grey-green eyes. Her build is tall with a broad ribcage and generous hips. Small bronze-brown horns.",
+      "skin": "fair with peach undertones",
+      "hair": "mid-back silver-white waves",
+      "eyes": "grey-green",
+      "build": "tall with a broad ribcage and generous hips",
+      "ancestryFeatures": [
+        "small bronze-brown horns",
+        "bronze scales along the temples, shoulders and outer forearms",
+        "a tapered bronze-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "soft freckling along the collarbones"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-010",
+      "summary": "An adult woman aged 19 with medium brown skin, a shoulder-length tawny shag, and pale grey eyes. Her build is compact with thick thighs and a soft abdomen. Long tapered black horns.",
+      "skin": "medium brown",
+      "hair": "a shoulder-length tawny shag",
+      "eyes": "pale grey",
+      "build": "compact with thick thighs and a soft abdomen",
+      "ancestryFeatures": [
+        "long tapered black horns",
+        "muted garnet scales along the temples, shoulders and outer forearms",
+        "a tapered muted garnet-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a tiny pale scar at the edge of the left brow"
+      ],
+      "styleTags": [
+        "striking",
+        "compact"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-011",
+      "summary": "An adult woman aged 22 with brown with red undertones skin, mid-back flaxen braids, and black-brown eyes. Her build is short and sturdily built with a defined waist. Short backward-swept horns.",
+      "skin": "brown with red undertones",
+      "hair": "mid-back flaxen braids",
+      "eyes": "black-brown",
+      "build": "short and sturdily built with a defined waist",
+      "ancestryFeatures": [
+        "short backward-swept horns",
+        "copper scales along the temples, shoulders and outer forearms",
+        "a tapered copper-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a faint darker patch at the left jaw"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-012",
+      "summary": "An adult woman aged 25 with pale olive skin, shoulder-length warm-brown twists, and dark hazel eyes. Her build is slim-waisted with broad shoulders and full thighs. Ridged ivory horns curling outward.",
+      "skin": "pale olive",
+      "hair": "shoulder-length warm-brown twists",
+      "eyes": "dark hazel",
+      "build": "slim-waisted with broad shoulders and full thighs",
+      "ancestryFeatures": [
+        "ridged ivory horns curling outward",
+        "deep teal scales along the temples, shoulders and outer forearms",
+        "a tapered deep teal-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a few silver strands at the right temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-013",
+      "summary": "An adult woman aged 20 with bronze-brown skin, chin-length black curls, and sea green eyes. Her build is slender with a strong back and softly rounded hips. Smooth dark horns arcing upward.",
+      "skin": "bronze-brown",
+      "hair": "chin-length black curls",
+      "eyes": "sea green",
+      "build": "slender with a strong back and softly rounded hips",
+      "ancestryFeatures": [
+        "smooth dark horns arcing upward",
+        "slate-blue scales along the temples, shoulders and outer forearms",
+        "a tapered slate-blue-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a slightly higher arch to the left eyebrow"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-014",
+      "summary": "An adult woman aged 23 with deep espresso-brown skin, shoulder-length copper coils, and slate grey eyes. Her build is lean and long-limbed with a modest bust. Small bronze-brown horns.",
+      "skin": "deep espresso-brown",
+      "hair": "shoulder-length copper coils",
+      "eyes": "slate grey",
+      "build": "lean and long-limbed with a modest bust",
+      "ancestryFeatures": [
+        "small bronze-brown horns",
+        "bronze scales along the temples, shoulders and outer forearms",
+        "a tapered bronze-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a beauty mark beneath the lower lip"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-015",
+      "summary": "An adult woman aged 18 with light golden beige skin, waist-length dark auburn hair, and russet brown eyes. Her build is tall and strongly built with a modest bust. Long tapered black horns.",
+      "skin": "light golden beige",
+      "hair": "waist-length dark auburn hair",
+      "eyes": "russet brown",
+      "build": "tall and strongly built with a modest bust",
+      "ancestryFeatures": [
+        "long tapered black horns",
+        "muted garnet scales along the temples, shoulders and outer forearms",
+        "a tapered muted garnet-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a tiny beauty mark beneath the right eye"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-016",
+      "summary": "An adult woman aged 21 with cool medium brown skin, long pale-gold waves, and dark blue eyes. Her build is medium-height and generously curvaceous with a broad frame. Short backward-swept horns.",
+      "skin": "cool medium brown",
+      "hair": "long pale-gold waves",
+      "eyes": "dark blue",
+      "build": "medium-height and generously curvaceous with a broad frame",
+      "ancestryFeatures": [
+        "short backward-swept horns",
+        "copper scales along the temples, shoulders and outer forearms",
+        "a tapered copper-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a faint freckle band across the upper cheeks"
+      ],
+      "styleTags": [
+        "elegant",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-017",
+      "summary": "An adult woman aged 24 with warm dark brown skin, a blunt honey-brown bob, and green flecked with gold eyes. Her build is medium-height and muscular with mature curves. Ridged ivory horns curling outward.",
+      "skin": "warm dark brown",
+      "hair": "a blunt honey-brown bob",
+      "eyes": "green flecked with gold",
+      "build": "medium-height and muscular with mature curves",
+      "ancestryFeatures": [
+        "ridged ivory horns curling outward",
+        "deep teal scales along the temples, shoulders and outer forearms",
+        "a tapered deep teal-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a soft dusting of freckles on the upper arms"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-018",
+      "summary": "An adult woman aged 19 with fair with neutral undertones skin, long dark hair with a silver forelock, and deep brown eyes. Her build is long-legged with a soft waist and full hips. Smooth dark horns arcing upward.",
+      "skin": "fair with neutral undertones",
+      "hair": "long dark hair with a silver forelock",
+      "eyes": "deep brown",
+      "build": "long-legged with a soft waist and full hips",
+      "ancestryFeatures": [
+        "smooth dark horns arcing upward",
+        "slate-blue scales along the temples, shoulders and outer forearms",
+        "a tapered slate-blue-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "slightly uneven natural eyebrow arches"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-019",
+      "summary": "An adult woman aged 22 with tawny brown skin, short deep-plum curls, and copper brown eyes. Her build is tall and slender with mature hips. Small bronze-brown horns.",
+      "skin": "tawny brown",
+      "hair": "short deep-plum curls",
+      "eyes": "copper brown",
+      "build": "tall and slender with mature hips",
+      "ancestryFeatures": [
+        "small bronze-brown horns",
+        "bronze scales along the temples, shoulders and outer forearms",
+        "a tapered bronze-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "a pale oval birthmark at the nape"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-020",
+      "summary": "An adult woman aged 25 with deep umber skin, a dark chestnut crop with a curled fringe, and deep blue eyes. Her build is compact and muscular with soft contours. Long tapered black horns.",
+      "skin": "deep umber",
+      "hair": "a dark chestnut crop with a curled fringe",
+      "eyes": "deep blue",
+      "build": "compact and muscular with soft contours",
+      "ancestryFeatures": [
+        "long tapered black horns",
+        "muted garnet scales along the temples, shoulders and outer forearms",
+        "a tapered muted garnet-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "a narrow pale scar along the chin"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic",
+        "compact"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-021",
+      "summary": "An adult woman aged 20 with warm brown skin, a wavy black bob, and blue-grey eyes. Her build is medium-height with a full bust and straight waist. Short backward-swept horns.",
+      "skin": "warm brown",
+      "hair": "a wavy black bob",
+      "eyes": "blue-grey",
+      "build": "medium-height with a full bust and straight waist",
+      "ancestryFeatures": [
+        "short backward-swept horns",
+        "copper scales along the temples, shoulders and outer forearms",
+        "a tapered copper-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a deeper natural crease beneath the lower lip"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-022",
+      "summary": "An adult woman aged 23 with light olive skin, a straight dark-brown bob, and honey brown eyes. Her build is broad-shouldered with soft waist curves. Ridged ivory horns curling outward.",
+      "skin": "light olive",
+      "hair": "a straight dark-brown bob",
+      "eyes": "honey brown",
+      "build": "broad-shouldered with soft waist curves",
+      "ancestryFeatures": [
+        "ridged ivory horns curling outward",
+        "deep teal scales along the temples, shoulders and outer forearms",
+        "a tapered deep teal-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a small birthmark near the right shoulder"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-023",
+      "summary": "An adult woman aged 18 with dark brown skin, close-cropped ash-brown curls, and olive green eyes. Her build is rounded and full-busted with sturdy legs. Smooth dark horns arcing upward.",
+      "skin": "dark brown",
+      "hair": "close-cropped ash-brown curls",
+      "eyes": "olive green",
+      "build": "rounded and full-busted with sturdy legs",
+      "ancestryFeatures": [
+        "smooth dark horns arcing upward",
+        "slate-blue scales along the temples, shoulders and outer forearms",
+        "a tapered slate-blue-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a small freckle cluster across the nose"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-024",
+      "summary": "An adult woman aged 21 with fair with rosy undertones skin, thick dark-brown coils to the shoulders, and smoky blue eyes. Her build is tall and broad-hipped with gently defined muscles. Small bronze-brown horns.",
+      "skin": "fair with rosy undertones",
+      "hair": "thick dark-brown coils to the shoulders",
+      "eyes": "smoky blue",
+      "build": "tall and broad-hipped with gently defined muscles",
+      "ancestryFeatures": [
+        "small bronze-brown horns",
+        "bronze scales along the temples, shoulders and outer forearms",
+        "a tapered bronze-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a subtle left cheek dimple"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "dragonkin-appearance-025",
+      "summary": "An adult woman aged 24 with copper-brown skin, long blue-black curls, and amber eyes. Her build is tall and voluptuous with a gently rounded abdomen. Long tapered black horns.",
+      "skin": "copper-brown",
+      "hair": "long blue-black curls",
+      "eyes": "amber",
+      "build": "tall and voluptuous with a gently rounded abdomen",
+      "ancestryFeatures": [
+        "long tapered black horns",
+        "muted garnet scales along the temples, shoulders and outer forearms",
+        "a tapered muted garnet-scaled tail",
+        "humanlike face and largely smooth skin; no wings"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a beauty mark beside the left cheekbone"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    }
+  ]
+}

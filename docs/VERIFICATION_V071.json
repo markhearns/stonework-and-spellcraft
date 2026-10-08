@@ -1,0 +1,28 @@
+{
+  "version": "0.71",
+  "schemaVersion": 58,
+  "python": {
+    "testsCovered": 795,
+    "outstandingFailures": 0,
+    "initialPassed": 794,
+    "initialFailures": 1,
+    "resolvedBy": "Updated the old leaf-green/woven-vines appearance assertions to the new sapwood/root-like identity; all five integrated-art tests passed on rerun."
+  },
+  "ui": {
+    "suites": 46,
+    "passed": 46,
+    "initialPassed": 45,
+    "resolvedBy": "Updated the retired tamsin-shawl review-slot expectation to tamsin-outfit-2; the affected UI suite passed on rerun."
+  },
+  "artwork": {
+    "totalFiles": 152,
+    "totalBytes": 35780732,
+    "portraits": 42,
+    "characters": 14,
+    "replacedPortraits": 23,
+    "deletedExtras": 6,
+    "checked": "Canonical file set, all current slots and aliases served, asset checksums, relation-gated selections, full-set contact sheets and Brakka facial close-ups."
+  },
+  "browserVisualReview": false,
+  "browserBlocker": "Rendered browser unavailable in this environment; UI suites use template/controller integration and DOM test doubles."
+}

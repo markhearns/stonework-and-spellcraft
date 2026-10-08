@@ -1,0 +1,48 @@
+{
+  "version": "0.81",
+  "schema": 60,
+  "python": {
+    "suites": 91,
+    "tests": 877,
+    "passed": true
+  },
+  "ui": {
+    "suites": 53,
+    "passed": true,
+    "scope": "Connected headless templates and controllers; not rendered browser review"
+  },
+  "campaignReview": {
+    "continuousRoutes": 2,
+    "chaptersPerRoute": 5,
+    "usesEarnedResourcesAndNormalActions": true,
+    "soloAndVoluntaryCompanion": true
+  },
+  "signatureCoverage": {
+    "authoredResidents": 14,
+    "founder": true,
+    "fittingProofClosingTested": true
+  },
+  "upgrade": {
+    "sourceVersion": "0.80",
+    "targetVersion": "0.81",
+    "existingFieldsPreserved": true,
+    "schema60": true,
+    "migrationBackupPresent": true,
+    "partialResearchPreserved": true,
+    "acceptedPortraitPreserved": true,
+    "portraitBytesPreserved": true,
+    "backupContainsPortrait": true,
+    "reloadIdempotent": true
+  },
+  "art": {
+    "preservedPriorAssets": 210,
+    "preservedBundledArchives": 5,
+    "newOptimizedImages": 36,
+    "newBytes": 1200170
+  },
+  "browser": {
+    "renderedReview": false,
+    "reason": "Local browser unavailable; prior cloud preview was blocked. No bypass attempted."
+  },
+  "testNotes": "Full suite collection plus targeted follow-up coverage of new equipment fixes. No live-model or Docker acceptance claimed."
+}

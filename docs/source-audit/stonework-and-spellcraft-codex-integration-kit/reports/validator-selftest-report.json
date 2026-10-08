@@ -1,0 +1,115 @@
+{
+  "schemaVersion": 1,
+  "testScope": "Content-validator regression tests only; not game runtime tests.",
+  "runtimeTestsExecuted": false,
+  "tests": [
+    {
+      "test": "Delivered packs pass content validation",
+      "passed": true,
+      "expected": "accept"
+    },
+    {
+      "test": "Reject undeclared tag",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject extra content field",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject unresolved baseline reference",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject duplicate global content ID",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject count shortfall",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject unknown ancestry",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject zero work phases",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject unsupported schema version",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject Boolean schema version",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject changed foundational tag meaning",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject self dependency",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject path traversal before opening it",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject advanced starting practice",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject erased source occupation exclusion",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject perk without separate proposal",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject private record made public",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject public dependency on private mystery",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject duplicate JSON key",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject non-JSON NaN constant",
+      "passed": true,
+      "expected": "reject"
+    },
+    {
+      "test": "Reject an empty pack directory",
+      "passed": true,
+      "expected": "reject"
+    }
+  ],
+  "passed": 21,
+  "failed": 0,
+  "privateFixtureTestsIncluded": true
+}

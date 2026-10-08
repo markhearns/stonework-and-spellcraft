@@ -1,0 +1,420 @@
+[
+  {
+    "id": "mira-outfit-2",
+    "kind": "portrait",
+    "who": "mira",
+    "tier": 2,
+    "name": "Hearthside reading",
+    "components": "Soft opaque teal scoop-neck linen blouse with loose sleeves, charcoal knee-length skirt, simple slippers; small book held at her side.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Mira, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Hearthside reading. Clothing: Soft opaque teal scoop-neck linen blouse with loose sleeves, charcoal knee-length skirt, simple slippers; small book held at her side. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/mira-v2.png",
+    "transparent": true
+  },
+  {
+    "id": "mira-outfit-3",
+    "kind": "portrait",
+    "who": "mira",
+    "tier": 3,
+    "name": "Midnight marginalia",
+    "components": "Opaque fitted teal slip dress, delicate dark lace edging over solid fabric, low but covered neckline and a tasteful thigh slit, plum wrap loose around elbows, bare feet; small book.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Mira, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Midnight marginalia. Clothing: Opaque fitted teal slip dress, delicate dark lace edging over solid fabric, low but covered neckline and a tasteful thigh slit, plum wrap loose around elbows, bare feet; small book. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/mira-v2.png",
+    "transparent": true
+  },
+  {
+    "id": "tamsin-outfit-2",
+    "kind": "portrait",
+    "who": "tamsin",
+    "tier": 2,
+    "name": "Kitchen after hours",
+    "components": "Opaque cream off-shoulder peasant blouse, plum knee-length wrap skirt, bare feet, no work apron; feline ears and one fluffy tail.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Tamsin, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Kitchen after hours. Clothing: Opaque cream off-shoulder peasant blouse, plum knee-length wrap skirt, bare feet, no work apron; feline ears and one fluffy tail. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/v053/portraits/tamsin.png",
+    "transparent": true
+  },
+  {
+    "id": "tamsin-outfit-3",
+    "kind": "portrait",
+    "who": "tamsin",
+    "tier": 3,
+    "name": "A private chapter",
+    "components": "Opaque charcoal and plum sweetheart-neckline short dress ending at mid-thigh, fitted waist, soft short open shawl, bare legs and slippers; expressive cat ears and one tail.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Tamsin, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: A private chapter. Clothing: Opaque charcoal and plum sweetheart-neckline short dress ending at mid-thigh, fitted waist, soft short open shawl, bare legs and slippers; expressive cat ears and one tail. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/v053/portraits/tamsin.png",
+    "transparent": true
+  },
+  {
+    "id": "iona-outfit-2",
+    "kind": "portrait",
+    "who": "iona",
+    "tier": 2,
+    "name": "Maps put aside",
+    "components": "Opaque soft navy wrap blouse with a relaxed neckline, rust sash, charcoal calf-length skirt, simple sandals, small folded map.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Iona, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Maps put aside. Clothing: Opaque soft navy wrap blouse with a relaxed neckline, rust sash, charcoal calf-length skirt, simple sandals, small folded map. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/iona-v3.png",
+    "transparent": true
+  },
+  {
+    "id": "iona-outfit-3",
+    "kind": "portrait",
+    "who": "iona",
+    "tier": 3,
+    "name": "An evening detour",
+    "components": "Opaque deep navy halter dress with low covered neckline, open shoulders and a thigh slit, rust tie at waist, bare feet. Preserve two horns and pointed ears.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Iona, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: An evening detour. Clothing: Opaque deep navy halter dress with low covered neckline, open shoulders and a thigh slit, rust tie at waist, bare feet. Preserve two horns and pointed ears. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/iona-v3.png",
+    "transparent": true
+  },
+  {
+    "id": "aurelia-outfit-2",
+    "kind": "portrait",
+    "who": "aurelia",
+    "tier": 2,
+    "name": "After the watch",
+    "components": "Opaque violet sleeveless wrap tunic and soft charcoal calf-length skirt, bare feet, wings naturally folded, halo preserved.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Aurelia, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: After the watch. Clothing: Opaque violet sleeveless wrap tunic and soft charcoal calf-length skirt, bare feet, wings naturally folded, halo preserved. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/aurelia-v2.png",
+    "transparent": true
+  },
+  {
+    "id": "aurelia-outfit-3",
+    "kind": "portrait",
+    "who": "aurelia",
+    "tier": 3,
+    "name": "Lamplight invitation",
+    "components": "Opaque midnight-violet fitted dress with narrow straps, elegant low neckline and thigh slit, dull-brass clasp, bare feet; preserve wings, halo, skin and face.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Aurelia, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Lamplight invitation. Clothing: Opaque midnight-violet fitted dress with narrow straps, elegant low neckline and thigh slit, dull-brass clasp, bare feet; preserve wings, halo, skin and face. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/aurelia-v2.png",
+    "transparent": true
+  },
+  {
+    "id": "neris-outfit-2",
+    "kind": "portrait",
+    "who": "neris",
+    "tier": 2,
+    "name": "Poolside repose",
+    "components": "Opaque indigo cropped wrap top, plum knee-length sarong, simple sandals; preserve blue skin, silver bob and finlike ears.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Neris, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Poolside repose. Clothing: Opaque indigo cropped wrap top, plum knee-length sarong, simple sandals; preserve blue skin, silver bob and finlike ears. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/neris.png",
+    "transparent": true
+  },
+  {
+    "id": "neris-outfit-3",
+    "kind": "portrait",
+    "who": "neris",
+    "tier": 3,
+    "name": "Violet tide",
+    "components": "Opaque violet halter swimsuit-style bodice with secure full chest and pelvis coverage, draped matching short wrap skirt over it, bare feet; elegant confident standing pose, no wet transparent cloth.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Neris, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Violet tide. Clothing: Opaque violet halter swimsuit-style bodice with secure full chest and pelvis coverage, draped matching short wrap skirt over it, bare feet; elegant confident standing pose, no wet transparent cloth. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/neris.png",
+    "transparent": true
+  },
+  {
+    "id": "sabine-outfit-2",
+    "kind": "portrait",
+    "who": "sabine",
+    "tier": 2,
+    "name": "Late correspondence",
+    "components": "Opaque wine-red loose blouse with open collar, fitted charcoal knee skirt, low slippers, discreet fangs, old brass locket.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Sabine, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Late correspondence. Clothing: Opaque wine-red loose blouse with open collar, fitted charcoal knee skirt, low slippers, discreet fangs, old brass locket. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/sabine.png",
+    "transparent": true
+  },
+  {
+    "id": "sabine-outfit-3",
+    "kind": "portrait",
+    "who": "sabine",
+    "tier": 3,
+    "name": "Velvet midnight",
+    "components": "Opaque charcoal short evening dress ending mid-thigh, wine-red lining, sweetheart neckline with solid coverage, lace-edged short sleeves and dark stockings; self-possessed smile, discreet fangs.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Sabine, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Velvet midnight. Clothing: Opaque charcoal short evening dress ending mid-thigh, wine-red lining, sweetheart neckline with solid coverage, lace-edged short sleeves and dark stockings; self-possessed smile, discreet fangs. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/sabine.png",
+    "transparent": true
+  },
+  {
+    "id": "maren-outfit-2",
+    "kind": "portrait",
+    "who": "maren",
+    "tier": 2,
+    "name": "Tools put away",
+    "components": "Opaque plum sleeveless scoop-neck top and charcoal knee-length wrap skirt, simple sandals, no tool apron; preserve horns, bovine ears, strong curvy build and one tufted tail.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Maren, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Tools put away. Clothing: Opaque plum sleeveless scoop-neck top and charcoal knee-length wrap skirt, simple sandals, no tool apron; preserve horns, bovine ears, strong curvy build and one tufted tail. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/maren.webp",
+    "transparent": true
+  },
+  {
+    "id": "maren-outfit-3",
+    "kind": "portrait",
+    "who": "maren",
+    "tier": 3,
+    "name": "A softer strength",
+    "components": "Opaque deep plum fitted short wrap dress ending mid-thigh, low covered neckline, dull-brass fastener, bare legs and sandals; preserve bovine features and mature powerful figure.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Maren, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: A softer strength. Clothing: Opaque deep plum fitted short wrap dress ending mid-thigh, low covered neckline, dull-brass fastener, bare legs and sandals; preserve bovine features and mature powerful figure. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/maren.webp",
+    "transparent": true
+  },
+  {
+    "id": "brakka-outfit-2",
+    "kind": "portrait",
+    "who": "brakka",
+    "tier": 2,
+    "name": "The forge rests",
+    "components": "Opaque charcoal soft cropped wrap top and violet knee-length skirt, bare muscular arms and calves, leather sandals; preserve green skin, tusks, black braid and sturdy build.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Brakka, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: The forge rests. Clothing: Opaque charcoal soft cropped wrap top and violet knee-length skirt, bare muscular arms and calves, leather sandals; preserve green skin, tusks, black braid and sturdy build. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/brakka.webp",
+    "transparent": true
+  },
+  {
+    "id": "brakka-outfit-3",
+    "kind": "portrait",
+    "who": "brakka",
+    "tier": 3,
+    "name": "Tempered violet",
+    "components": "Opaque violet short halter dress ending mid-thigh, secure low neckline, dark waist sash, bare legs and sandals; confident playful smile and strong adult orc build.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Brakka, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Tempered violet. Clothing: Opaque violet short halter dress ending mid-thigh, secure low neckline, dark waist sash, bare legs and sandals; confident playful smile and strong adult orc build. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/brakka.webp",
+    "transparent": true
+  },
+  {
+    "id": "fenna-outfit-2",
+    "kind": "portrait",
+    "who": "fenna",
+    "tier": 2,
+    "name": "Tavern fireside",
+    "components": "Opaque sage off-shoulder blouse, navy knee-length skirt, soft slippers, no field belt; preserve tan smooth humanlike skin, grey wolf ears, silver hair and large fluffy tail.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Fenna, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Tavern fireside. Clothing: Opaque sage off-shoulder blouse, navy knee-length skirt, soft slippers, no field belt; preserve tan smooth humanlike skin, grey wolf ears, silver hair and large fluffy tail. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/fenna.webp",
+    "transparent": true
+  },
+  {
+    "id": "fenna-outfit-3",
+    "kind": "portrait",
+    "who": "fenna",
+    "tier": 3,
+    "name": "Last dance",
+    "components": "Opaque sage fitted cropped bodice with covered sweetheart neckline, navy short wrap skirt ending mid-thigh, violet sash and ankle boots; preserve wolf ears and tail; lively adult confidence.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Fenna, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Last dance. Clothing: Opaque sage fitted cropped bodice with covered sweetheart neckline, navy short wrap skirt ending mid-thigh, violet sash and ankle boots; preserve wolf ears and tail; lively adult confidence. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/fenna.webp",
+    "transparent": true
+  },
+  {
+    "id": "kaede-outfit-2",
+    "kind": "portrait",
+    "who": "kaede",
+    "tier": 2,
+    "name": "After practice",
+    "components": "Opaque midnight-violet wrap top with relaxed low neckline, knee-length charcoal skirt, bare feet, no work belt; preserve red skin, horns, long blue-black hair and powerful curvy adult build.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Kaede, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: After practice. Clothing: Opaque midnight-violet wrap top with relaxed low neckline, knee-length charcoal skirt, bare feet, no work belt; preserve red skin, horns, long blue-black hair and powerful curvy adult build. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/kaede.webp",
+    "transparent": true
+  },
+  {
+    "id": "kaede-outfit-3",
+    "kind": "portrait",
+    "who": "kaede",
+    "tier": 3,
+    "name": "Unhurried confidence",
+    "components": "Opaque deep violet short wrap dress ending mid-thigh, low but covered neckline, broad secure sash, bare legs and sandals; red skin, horns, powerful adult proportions.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Kaede, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Unhurried confidence. Clothing: Opaque deep violet short wrap dress ending mid-thigh, low but covered neckline, broad secure sash, bare legs and sandals; red skin, horns, powerful adult proportions. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/kaede.webp",
+    "transparent": true
+  },
+  {
+    "id": "elowen-outfit-2",
+    "kind": "portrait",
+    "who": "elowen",
+    "tier": 2,
+    "name": "A quiet remedy",
+    "components": "Opaque sage scoop-neck blouse with loose sleeves, soft violet knee-length skirt, simple sandals, honey-blonde practical braid and long pointed ears.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Elowen, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: A quiet remedy. Clothing: Opaque sage scoop-neck blouse with loose sleeves, soft violet knee-length skirt, simple sandals, honey-blonde practical braid and long pointed ears. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/v053/portraits/elowen.png",
+    "transparent": true
+  },
+  {
+    "id": "elowen-outfit-3",
+    "kind": "portrait",
+    "who": "elowen",
+    "tier": 3,
+    "name": "Violet dusk",
+    "components": "Opaque violet fitted slip dress ending just above knee, low covered neckline, narrow straps, sage wrap loose at elbows, bare feet, honey-blonde braid and grey-green eyes.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Elowen, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Violet dusk. Clothing: Opaque violet fitted slip dress ending just above knee, low covered neckline, narrow straps, sage wrap loose at elbows, bare feet, honey-blonde braid and grey-green eyes. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/v053/portraits/elowen.png",
+    "transparent": true
+  },
+  {
+    "id": "nyssara-outfit-2",
+    "kind": "portrait",
+    "who": "nyssara",
+    "tier": 2,
+    "name": "The bench is quiet",
+    "components": "Opaque petrol-blue cropped wrap shirt, soft charcoal knee-length skirt and violet sash, flat sandals, small inscribed focus; preserve slate-violet skin on entire face/body, silver-white hair, pointed ears and copper-brown eyes. She is Drow.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Nyssara, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: The bench is quiet. Clothing: Opaque petrol-blue cropped wrap shirt, soft charcoal knee-length skirt and violet sash, flat sandals, small inscribed focus; preserve slate-violet skin on entire face/body, silver-white hair, pointed ears and copper-brown eyes. She is Drow. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/v053/portraits/nyssara.png",
+    "transparent": true
+  },
+  {
+    "id": "nyssara-outfit-3",
+    "kind": "portrait",
+    "who": "nyssara",
+    "tier": 3,
+    "name": "An intricate invitation",
+    "components": "Opaque midnight-blue short halter dress ending mid-thigh, low covered neckline, violet sash, dull-brass focus pendant, bare legs and sandals; mature drow face and slate-violet skin throughout.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Nyssara, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: An intricate invitation. Clothing: Opaque midnight-blue short halter dress ending mid-thigh, low covered neckline, violet sash, dull-brass focus pendant, bare legs and sandals; mature drow face and slate-violet skin throughout. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/v053/portraits/nyssara.png",
+    "transparent": true
+  },
+  {
+    "id": "sylva-outfit-2",
+    "kind": "portrait",
+    "who": "sylva",
+    "tier": 2,
+    "name": "Leaves at ease",
+    "components": "Relaxed opaque overlapping leaf bodice with open shoulders, supple knee-length layered leaf skirt woven with vines and small flexible bark panels, vine sandals. Skin entirely green including around eyes; no human cloth or leather.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Sylva, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Leaves at ease. Clothing: Relaxed opaque overlapping leaf bodice with open shoulders, supple knee-length layered leaf skirt woven with vines and small flexible bark panels, vine sandals. Skin entirely green including around eyes; no human cloth or leather. Mood: at ease in her home, warm relaxed smile. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/v053/portraits/sylva.png",
+    "transparent": true
+  },
+  {
+    "id": "sylva-outfit-3",
+    "kind": "portrait",
+    "who": "sylva",
+    "tier": 3,
+    "name": "Moonleaf confidence",
+    "components": "Opaque fitted deep-green leaf bodice with secure sweetheart coverage, short layered leaf-and-vine skirt ending mid-thigh with bark waist clasp, vine sandals; plant-made clothing only. Green skin across whole face and body, leaf veins, bark forearms, chestnut hair and sprigs.",
+    "prompt": "Use case: identity-preserve. Create ONE full-figure alternate game wardrobe portrait of Sylva, the clearly ADULT woman in the reference. Preserve her exact recognizable face, eye colour, hair colour, ancestry anatomy, skin colour, body proportions and established personality. Outfit title: Moonleaf confidence. Clothing: Opaque fitted deep-green leaf bodice with secure sweetheart coverage, short layered leaf-and-vine skirt ending mid-thigh with bark waist clasp, vine sandals; plant-made clothing only. Green skin across whole face and body, leaf veins, bark forearms, chestnut hair and sprigs. Mood: daring, knowingly flirtatious, poised and inviting; tasteful fashion portrait. No sexual act, nudity, transparent intimate coverage, explicit arousal detail, lingerie fetish staging or body-part closeups. Natural standing eye-level pose, whole head/horns/ears/wings/tail and both feet within frame with safe margins. Exactly one woman, two arms and two hands. Change outfit and gentle pose only; preserve identity. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n TRUE transparent RGBA background, no setting, text, frame or watermark. Portrait 2:3, ideally 1024x1536. Do not copy the dark background from reference.",
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/v053/portraits/sylva.png",
+    "transparent": true
+  },
+  {
+    "id": "old-service-road",
+    "kind": "location",
+    "prompt": "Use case: illustration-story. One 16:9 landscape illustration. A neglected modest castle maintenance road at a fork. A shallow worked-stone water channel follows the lower slope; worn dry steps rise through old fruit trees on orchard terraces. A plain timber-and-stone roadkeeper shelter sits farther along, with a useful sorting bench barely visible beneath its open bay. No people, no grand ruins, no secret symbols. Natural eye-level approachable path; quiet readable daylight. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Opaque complete background, focal architecture within central 80%, no decorative border or UI overlay.",
+    "transparent": false
+  },
+  {
+    "id": "castle-arrival",
+    "kind": "location",
+    "prompt": "Use case: illustration-story. One 16:9 landscape illustration. The first approach to the player\u2019s modest useful stone-and-timber castle headquarters. Natural standing eye-level along a worn path to a welcoming practical gate and open wooden door. Compact old stone keep, attached domestic wings with plausible small windows, a modest glass conservatory off to one side, timber repairs, ivy and a working courtyard glimpse. Human domestic scale, not a palace or vast fortress. Early morning, inviting readable light; no people, heraldry, writing or imposing grandeur. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Opaque complete background, focal architecture within central 80%, no decorative border or UI overlay.",
+    "transparent": false
+  },
+  {
+    "id": "nav-home",
+    "kind": "ui",
+    "prompt": "Use case: stylized-concept. ONE standalone small navigation icon for a fantasy castle game: a small worn stone castle doorway with a welcoming wooden door. Antique engraved ink illustration, restrained muted brass, natural wood and parchment colours, fine crosshatching but strong simple silhouette legible at 32 pixels. Square composition, object fills central 70%, generous transparent margin. No background, tile, frame, labels, text, writing, glow or extra objects. True transparent RGBA.",
+    "transparent": true
+  },
+  {
+    "id": "nav-phase",
+    "kind": "ui",
+    "prompt": "Use case: stylized-concept. ONE standalone small navigation icon for a fantasy castle game: a simple wooden hourglass with visible pale sand. Antique engraved ink illustration, restrained muted brass, natural wood and parchment colours, fine crosshatching but strong simple silhouette legible at 32 pixels. Square composition, object fills central 70%, generous transparent margin. No background, tile, frame, labels, text, writing, glow or extra objects. True transparent RGBA.",
+    "transparent": true
+  },
+  {
+    "id": "nav-estate",
+    "kind": "ui",
+    "prompt": "Use case: stylized-concept. ONE standalone small navigation icon for a fantasy castle game: a compact pair of crossed old iron keys. Antique engraved ink illustration, restrained muted brass, natural wood and parchment colours, fine crosshatching but strong simple silhouette legible at 32 pixels. Square composition, object fills central 70%, generous transparent margin. No background, tile, frame, labels, text, writing, glow or extra objects. True transparent RGBA.",
+    "transparent": true
+  },
+  {
+    "id": "nav-study",
+    "kind": "ui",
+    "prompt": "Use case: stylized-concept. ONE standalone small navigation icon for a fantasy castle game: one open worn book with a short engraving stylus resting beside it. Antique engraved ink illustration, restrained muted brass, natural wood and parchment colours, fine crosshatching but strong simple silhouette legible at 32 pixels. Square composition, object fills central 70%, generous transparent margin. No background, tile, frame, labels, text, writing, glow or extra objects. True transparent RGBA.",
+    "transparent": true
+  },
+  {
+    "id": "nav-people",
+    "kind": "ui",
+    "prompt": "Use case: stylized-concept. ONE standalone small navigation icon for a fantasy castle game: two simple handcrafted wooden human bust figurines standing together, distinct readable silhouettes. Antique engraved ink illustration, restrained muted brass, natural wood and parchment colours, fine crosshatching but strong simple silhouette legible at 32 pixels. Square composition, object fills central 70%, generous transparent margin. No background, tile, frame, labels, text, writing, glow or extra objects. True transparent RGBA.",
+    "transparent": true
+  },
+  {
+    "id": "nav-expeditions",
+    "kind": "ui",
+    "prompt": "Use case: stylized-concept. ONE standalone small navigation icon for a fantasy castle game: a rolled field map tied with a cord and a plain small compass. Antique engraved ink illustration, restrained muted brass, natural wood and parchment colours, fine crosshatching but strong simple silhouette legible at 32 pixels. Square composition, object fills central 70%, generous transparent margin. No background, tile, frame, labels, text, writing, glow or extra objects. True transparent RGBA.",
+    "transparent": true
+  },
+  {
+    "id": "nav-journal",
+    "kind": "ui",
+    "prompt": "Use case: stylized-concept. ONE standalone small navigation icon for a fantasy castle game: a small closed worn leather journal with one quill tucked into its strap. Antique engraved ink illustration, restrained muted brass, natural wood and parchment colours, fine crosshatching but strong simple silhouette legible at 32 pixels. Square composition, object fills central 70%, generous transparent margin. No background, tile, frame, labels, text, writing, glow or extra objects. True transparent RGBA.",
+    "transparent": true
+  },
+  {
+    "id": "nav-settings",
+    "kind": "ui",
+    "prompt": "Use case: stylized-concept. ONE standalone small navigation icon for a fantasy castle game: a simple dull-brass cog with a short iron adjustment tool beside it. Antique engraved ink illustration, restrained muted brass, natural wood and parchment colours, fine crosshatching but strong simple silhouette legible at 32 pixels. Square composition, object fills central 70%, generous transparent margin. No background, tile, frame, labels, text, writing, glow or extra objects. True transparent RGBA.",
+    "transparent": true
+  },
+  {
+    "id": "mira-default-v054",
+    "who": "mira",
+    "kind": "default",
+    "transparent": true,
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/mira-v2.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Restyle this exact clearly adult woman as the default game portrait of mira. Preserve her recognizable face, hairstyle and colour, skin colour, eyes, ancestry anatomy, mature body proportions, EXACT default clothing and existing props. Do not redesign clothing or change ancestry. Render as finely etched antique fantasy engraving, crisp intricate linework, fine hatching/crosshatching, worn material details and muted natural colour washes. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Remove the old dark paper background and decorative border entirely: TRUE TRANSPARENT RGBA cutout. Full figure, standing natural eye-level, include both feet and all horns/ears/wings/halo/tail with safe padding. If reference cuts off feet, extend the same outfit naturally to plain worn boots. No added text, magic glow, jewellery or extra accessories. Exactly one adult woman, two arms and hands. 2:3 portrait composition."
+  },
+  {
+    "id": "iona-default-v054",
+    "who": "iona",
+    "kind": "default",
+    "transparent": true,
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/iona-v3.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Restyle this exact clearly adult woman as the default game portrait of iona. Preserve her recognizable face, hairstyle and colour, skin colour, eyes, ancestry anatomy, mature body proportions, EXACT default clothing and existing props. Do not redesign clothing or change ancestry. Render as finely etched antique fantasy engraving, crisp intricate linework, fine hatching/crosshatching, worn material details and muted natural colour washes. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Remove the old dark paper background and decorative border entirely: TRUE TRANSPARENT RGBA cutout. Full figure, standing natural eye-level, include both feet and all horns/ears/wings/halo/tail with safe padding. If reference cuts off feet, extend the same outfit naturally to plain worn boots. No added text, magic glow, jewellery or extra accessories. Exactly one adult woman, two arms and hands. 2:3 portrait composition."
+  },
+  {
+    "id": "aurelia-default-v054",
+    "who": "aurelia",
+    "kind": "default",
+    "transparent": true,
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/aurelia-v2.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Restyle this exact clearly adult woman as the default game portrait of aurelia. Preserve her recognizable face, hairstyle and colour, skin colour, eyes, ancestry anatomy, mature body proportions, EXACT default clothing and existing props. Do not redesign clothing or change ancestry. Render as finely etched antique fantasy engraving, crisp intricate linework, fine hatching/crosshatching, worn material details and muted natural colour washes. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Remove the old dark paper background and decorative border entirely: TRUE TRANSPARENT RGBA cutout. Full figure, standing natural eye-level, include both feet and all horns/ears/wings/halo/tail with safe padding. If reference cuts off feet, extend the same outfit naturally to plain worn boots. No added text, magic glow, jewellery or extra accessories. Exactly one adult woman, two arms and hands. 2:3 portrait composition."
+  },
+  {
+    "id": "neris-default-v054",
+    "who": "neris",
+    "kind": "default",
+    "transparent": true,
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/neris.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Restyle this exact clearly adult woman as the default game portrait of neris. Preserve her recognizable face, hairstyle and colour, skin colour, eyes, ancestry anatomy, mature body proportions, EXACT default clothing and existing props. Do not redesign clothing or change ancestry. Render as finely etched antique fantasy engraving, crisp intricate linework, fine hatching/crosshatching, worn material details and muted natural colour washes. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Remove the old dark paper background and decorative border entirely: TRUE TRANSPARENT RGBA cutout. Full figure, standing natural eye-level, include both feet and all horns/ears/wings/halo/tail with safe padding. If reference cuts off feet, extend the same outfit naturally to plain worn boots. No added text, magic glow, jewellery or extra accessories. Exactly one adult woman, two arms and hands. 2:3 portrait composition."
+  },
+  {
+    "id": "sabine-default-v054",
+    "who": "sabine",
+    "kind": "default",
+    "transparent": true,
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/sabine.png",
+    "prompt": "Use case: style-transfer, identity-preserve. Restyle this exact clearly adult woman as the default game portrait of sabine. Preserve her recognizable face, hairstyle and colour, skin colour, eyes, ancestry anatomy, mature body proportions, EXACT default clothing and existing props. Do not redesign clothing or change ancestry. Render as finely etched antique fantasy engraving, crisp intricate linework, fine hatching/crosshatching, worn material details and muted natural colour washes. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Remove the old dark paper background and decorative border entirely: TRUE TRANSPARENT RGBA cutout. Full figure, standing natural eye-level, include both feet and all horns/ears/wings/halo/tail with safe padding. If reference cuts off feet, extend the same outfit naturally to plain worn boots. No added text, magic glow, jewellery or extra accessories. Exactly one adult woman, two arms and hands. 2:3 portrait composition."
+  },
+  {
+    "id": "maren-default-v054",
+    "who": "maren",
+    "kind": "default",
+    "transparent": true,
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/maren.webp",
+    "prompt": "Use case: style-transfer, identity-preserve. Restyle this exact clearly adult woman as the default game portrait of maren. Preserve her recognizable face, hairstyle and colour, skin colour, eyes, ancestry anatomy, mature body proportions, EXACT default clothing and existing props. Do not redesign clothing or change ancestry. Render as finely etched antique fantasy engraving, crisp intricate linework, fine hatching/crosshatching, worn material details and muted natural colour washes. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Remove the old dark paper background and decorative border entirely: TRUE TRANSPARENT RGBA cutout. Full figure, standing natural eye-level, include both feet and all horns/ears/wings/halo/tail with safe padding. If reference cuts off feet, extend the same outfit naturally to plain worn boots. No added text, magic glow, jewellery or extra accessories. Exactly one adult woman, two arms and hands. 2:3 portrait composition."
+  },
+  {
+    "id": "brakka-default-v054",
+    "who": "brakka",
+    "kind": "default",
+    "transparent": true,
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/brakka.webp",
+    "prompt": "Use case: style-transfer, identity-preserve. Restyle this exact clearly adult woman as the default game portrait of brakka. Preserve her recognizable face, hairstyle and colour, skin colour, eyes, ancestry anatomy, mature body proportions, EXACT default clothing and existing props. Do not redesign clothing or change ancestry. Render as finely etched antique fantasy engraving, crisp intricate linework, fine hatching/crosshatching, worn material details and muted natural colour washes. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Remove the old dark paper background and decorative border entirely: TRUE TRANSPARENT RGBA cutout. Full figure, standing natural eye-level, include both feet and all horns/ears/wings/halo/tail with safe padding. If reference cuts off feet, extend the same outfit naturally to plain worn boots. No added text, magic glow, jewellery or extra accessories. Exactly one adult woman, two arms and hands. 2:3 portrait composition."
+  },
+  {
+    "id": "fenna-default-v054",
+    "who": "fenna",
+    "kind": "default",
+    "transparent": true,
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/fenna.webp",
+    "prompt": "Use case: style-transfer, identity-preserve. Restyle this exact clearly adult woman as the default game portrait of fenna. Preserve her recognizable face, hairstyle and colour, skin colour, eyes, ancestry anatomy, mature body proportions, EXACT default clothing and existing props. Do not redesign clothing or change ancestry. Render as finely etched antique fantasy engraving, crisp intricate linework, fine hatching/crosshatching, worn material details and muted natural colour washes. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Remove the old dark paper background and decorative border entirely: TRUE TRANSPARENT RGBA cutout. Full figure, standing natural eye-level, include both feet and all horns/ears/wings/halo/tail with safe padding. If reference cuts off feet, extend the same outfit naturally to plain worn boots. No added text, magic glow, jewellery or extra accessories. Exactly one adult woman, two arms and hands. 2:3 portrait composition."
+  },
+  {
+    "id": "kaede-default-v054",
+    "who": "kaede",
+    "kind": "default",
+    "transparent": true,
+    "reference": "/workspace/scratch/370e0285e9d3/stonework-and-spellcraft/static/assets/kaede.webp",
+    "prompt": "Use case: style-transfer, identity-preserve. Restyle this exact clearly adult woman as the default game portrait of kaede. Preserve her recognizable face, hairstyle and colour, skin colour, eyes, ancestry anatomy, mature body proportions, EXACT default clothing and existing props. Do not redesign clothing or change ancestry. Render as finely etched antique fantasy engraving, crisp intricate linework, fine hatching/crosshatching, worn material details and muted natural colour washes. Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n Remove the old dark paper background and decorative border entirely: TRUE TRANSPARENT RGBA cutout. Full figure, standing natural eye-level, include both feet and all horns/ears/wings/halo/tail with safe padding. If reference cuts off feet, extend the same outfit naturally to plain worn boots. No added text, magic glow, jewellery or extra accessories. Exactly one adult woman, two arms and hands. 2:3 portrait composition."
+  }
+]

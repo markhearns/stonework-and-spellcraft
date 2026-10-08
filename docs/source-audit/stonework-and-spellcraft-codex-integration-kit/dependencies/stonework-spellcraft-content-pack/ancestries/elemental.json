@@ -1,0 +1,1886 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "elemental",
+  "ancestryName": "Elemental",
+  "arrivalMethod": "summoning",
+  "names": [
+    {
+      "id": "elemental-name-001",
+      "name": "Farenena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-002",
+      "name": "Besira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-003",
+      "name": "Vesora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-004",
+      "name": "Talenine",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-005",
+      "name": "Jesara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-006",
+      "name": "Berenen",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-007",
+      "name": "Garenesh",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-008",
+      "name": "Cevya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-009",
+      "name": "Savenine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-010",
+      "name": "Haverara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-011",
+      "name": "Mavena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-012",
+      "name": "Zalenesh",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-013",
+      "name": "Dovelis",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-014",
+      "name": "Sesara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-015",
+      "name": "Aseren",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-016",
+      "name": "Lesen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-017",
+      "name": "Yesa",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-018",
+      "name": "Ulenia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-019",
+      "name": "Nesora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-020",
+      "name": "Valenira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-021",
+      "name": "Fesesh",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-022",
+      "name": "Osenora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-023",
+      "name": "Geven",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-024",
+      "name": "Pavenara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-025",
+      "name": "Walenis",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-026",
+      "name": "Devenena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-027",
+      "name": "Evinia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-028",
+      "name": "Avarya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-029",
+      "name": "Lavenena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-030",
+      "name": "Tesena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-031",
+      "name": "Revaris",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-032",
+      "name": "Orvenya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-033",
+      "name": "Isenela",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-034",
+      "name": "Qesela",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-035",
+      "name": "Nalenine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-036",
+      "name": "Mevarora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-037",
+      "name": "Ovarya",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-038",
+      "name": "Iverira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-039",
+      "name": "Zesia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-040",
+      "name": "Calenira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-041",
+      "name": "Kevaris",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-042",
+      "name": "Irelesh",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-043",
+      "name": "Jalenen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-044",
+      "name": "Darena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-045",
+      "name": "Ralenela",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-046",
+      "name": "Halena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-047",
+      "name": "Uvaria",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-048",
+      "name": "Kalenela",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-049",
+      "name": "Avena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-050",
+      "name": "Valenesh",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-051",
+      "name": "Dovelara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-052",
+      "name": "Kevarara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-053",
+      "name": "Garenia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-054",
+      "name": "Pavenora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-055",
+      "name": "Haverora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-056",
+      "name": "Irelia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-057",
+      "name": "Ovara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-058",
+      "name": "Berenira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-059",
+      "name": "Sesora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-060",
+      "name": "Jesora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-061",
+      "name": "Yesine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-062",
+      "name": "Nalenela",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-063",
+      "name": "Isenya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-064",
+      "name": "Mevarena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-065",
+      "name": "Ulenen",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-066",
+      "name": "Fesia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-067",
+      "name": "Calenesh",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-068",
+      "name": "Osenena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-069",
+      "name": "Nesena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-070",
+      "name": "Talenela",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-071",
+      "name": "Qesya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-072",
+      "name": "Zesen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-073",
+      "name": "Lesira",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-074",
+      "name": "Gevira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-075",
+      "name": "Jalenira",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-076",
+      "name": "Aserira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-077",
+      "name": "Vesena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-078",
+      "name": "Mavenine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-079",
+      "name": "Uvaren",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-080",
+      "name": "Farenis",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-081",
+      "name": "Walenara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-082",
+      "name": "Devenis",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-083",
+      "name": "Kalenya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-084",
+      "name": "Evinen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-085",
+      "name": "Orvena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-086",
+      "name": "Tesis",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-087",
+      "name": "Avenine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-088",
+      "name": "Ceva",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-089",
+      "name": "Avara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-090",
+      "name": "Zalenia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-091",
+      "name": "Besesh",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-092",
+      "name": "Ralenya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-093",
+      "name": "Evarela",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-094",
+      "name": "Iveresh",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-095",
+      "name": "Revarara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-096",
+      "name": "Lavenis",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "elemental-name-097",
+      "name": "Darenine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "elemental-name-098",
+      "name": "Savenela",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "elemental-name-099",
+      "name": "Jalenesh",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "elemental-name-100",
+      "name": "Mevaris",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "elemental-story-001",
+      "title": "The description that stays still",
+      "premise": "She wants a portrait description that captures her changing-looking surface without implying her anatomy changes at will.",
+      "personalMotivation": "Being described accurately matters more than sounding spectacular.",
+      "openingHook": "She asks which details are stable enough for an artist to rely on.",
+      "possibleDevelopments": [
+        "Separate established physical features from lighting impressions.",
+        "Keep transformation and other abilities outside the description."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "identity",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-002",
+      "title": "The tea kept ordinary",
+      "premise": "She would like to host tea without guests assuming her elemental nature prepares it automatically.",
+      "personalMotivation": "She enjoys the deliberate sequence of ordinary hospitality.",
+      "openingHook": "She asks what part of preparing tea is most pleasant to watch.",
+      "possibleDevelopments": [
+        "Plan a gathering using established household facilities.",
+        "Keep any magical preparation dependent on separately approved capabilities."
+      ],
+      "backgroundTags": [
+        "tea"
+      ],
+      "themeTags": [
+        "hospitality",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-003",
+      "title": "A vocabulary for an ember colour",
+      "premise": "She likes an ember-like pigment and dislikes labels that confuse resemblance with actual heat.",
+      "personalMotivation": "She wants vivid language that remains materially honest.",
+      "openingHook": "She asks how to describe the colour without promising warmth.",
+      "possibleDevelopments": [
+        "Compare hue words with notes about ordinary reflected light.",
+        "Use a clearly labelled swatch rather than an asserted magical effect."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "fire",
+        "language"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-004",
+      "title": "The waterline in the sketch",
+      "premise": "She studies ripples and notices her neat repeating pattern looks less like water than a tiled floor.",
+      "personalMotivation": "She wants to preserve irregularity without abandoning clarity.",
+      "openingHook": "She asks which disturbance makes the pattern believable.",
+      "possibleDevelopments": [
+        "Draw several observed-looking variations as candidate studies.",
+        "Keep imagined ripples separate from documented observations."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "water",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-005",
+      "title": "The stone dust question",
+      "premise": "She wants to help plan a material study but is unsure how her crafted-looking surface should be protected.",
+      "personalMotivation": "She wants participation without assumptions of invulnerability.",
+      "openingHook": "She asks what surface information is actually established.",
+      "possibleDevelopments": [
+        "List material-care questions for the approved character description.",
+        "Choose an observational role while suitability remains unclear."
+      ],
+      "backgroundTags": [
+        "stonework"
+      ],
+      "themeTags": [
+        "earth",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-006",
+      "title": "The airy hemline",
+      "premise": "She sketches a light, flowing skirt and finds the nicest movement would undermine reliable coverage.",
+      "personalMotivation": "She wants allure without depending on stillness.",
+      "openingHook": "She asks where an opaque underlayer could sit.",
+      "possibleDevelopments": [
+        "Compare overlapping outer panels over secure coverage.",
+        "Treat all movement as ordinary cloth behaviour, not a wind power."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "air",
+        "sensual"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-007",
+      "title": "A frost pattern on warm paper",
+      "premise": "She wants to draw frost-like geometry without implying the finished page becomes cold.",
+      "personalMotivation": "She likes natural forms as visual subjects.",
+      "openingHook": "She asks which branching rule the drawing seems to suggest.",
+      "possibleDevelopments": [
+        "Explore a limited pattern study using ordinary ink.",
+        "Leave any magical interpretation explicitly unestablished."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-008",
+      "title": "The lamp shade and the shimmer",
+      "premise": "She notices an imagined room scheme would amplify her surface shimmer until fine facial details disappear.",
+      "personalMotivation": "She wants to be seen, not used as an effect.",
+      "openingHook": "She asks how diffuse light might change a portrait setup.",
+      "possibleDevelopments": [
+        "Compare neutral background and reflected-light sketches.",
+        "Keep the preferred lighting a candidate subject to actual review."
+      ],
+      "backgroundTags": [
+        "light"
+      ],
+      "themeTags": [
+        "visual-art",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-009",
+      "title": "The object she will not test on herself",
+      "premise": "She is curious about a material's response to heat or moisture but rejects using her body as a test surface.",
+      "personalMotivation": "She wants curiosity to respect bodily autonomy.",
+      "openingHook": "She asks which ordinary samples could answer the question instead.",
+      "possibleDevelopments": [
+        "Plan a nonbodily comparison with appropriate approved facilities.",
+        "Stop at a written research question if safe testing is unavailable."
+      ],
+      "backgroundTags": [
+        "experimentation"
+      ],
+      "themeTags": [
+        "autonomy",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-010",
+      "title": "A weather poem without prediction",
+      "premise": "She writes weather-inspired verses and worries readers will treat them as elemental forecasts.",
+      "personalMotivation": "She wants expression without false authority.",
+      "openingHook": "She asks how to introduce the poem as imagination.",
+      "possibleDevelopments": [
+        "Add a plain description of its artistic purpose.",
+        "Consider a fictional landscape with no claim about coming conditions."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "weather",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-011",
+      "title": "The careful handshake question",
+      "premise": "She wants social introductions to account for her established form without making everyone fearful.",
+      "personalMotivation": "She values warm company and accurate information.",
+      "openingHook": "She asks how to offer a greeting with or without contact.",
+      "possibleDevelopments": [
+        "Use an equally friendly contact-free introduction.",
+        "Leave any touch dependent on known suitability and explicit agreement."
+      ],
+      "backgroundTags": [
+        "social"
+      ],
+      "themeTags": [
+        "consent",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-012",
+      "title": "The incomplete material chart",
+      "premise": "A chart she drafts has tidy elemental categories that fail to describe mixed ordinary materials.",
+      "personalMotivation": "She wants a useful guide rather than an elegant fiction.",
+      "openingHook": "She asks where a ceramic glaze belongs in her scheme.",
+      "possibleDevelopments": [
+        "Add descriptive properties instead of forcing exclusive categories.",
+        "Consider abandoning the chart for a collection of examples."
+      ],
+      "backgroundTags": [
+        "practical-scholarship"
+      ],
+      "themeTags": [
+        "craft",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-013",
+      "title": "The river's missing bend",
+      "premise": "She sketches water as a decorative straight ribbon and realizes the drawing erases what interested her.",
+      "personalMotivation": "She enjoys a place's irregular character.",
+      "openingHook": "She asks which bend gives the composition its sense of movement.",
+      "possibleDevelopments": [
+        "Create an explicitly imaginative study rather than a false map.",
+        "Plan observation only if an accessible site is later agreed."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "water",
+        "exploration"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-014",
+      "title": "A sturdy box for delicate studies",
+      "premise": "She wants a sample box that protects fine drawings without becoming a heavy cabinet.",
+      "personalMotivation": "She likes small projects that can leave the workroom.",
+      "openingHook": "She asks whether dividers or sleeves would be more useful.",
+      "possibleDevelopments": [
+        "Compare removable paper sleeves with a rigid compartment plan.",
+        "Reduce the intended collection before enlarging the case."
+      ],
+      "backgroundTags": [
+        "papercraft"
+      ],
+      "themeTags": [
+        "craft",
+        "fieldwork"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-015",
+      "title": "The element she does not study",
+      "premise": "She is curious about a subject unrelated to her own elemental appearance and resents surprise about that choice.",
+      "personalMotivation": "She wants interests broader than a visual motif.",
+      "openingHook": "She asks what makes an unfamiliar craft inviting to a beginner.",
+      "possibleDevelopments": [
+        "Select an introductory question without granting competence.",
+        "Let the interest remain tentative rather than a declared vocation."
+      ],
+      "backgroundTags": [
+        "identity"
+      ],
+      "themeTags": [
+        "personal-growth",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-016",
+      "title": "The glaze that changes its neighbour",
+      "premise": "She compares pottery colour sketches and notices the same painted swatch looks different beside two borders.",
+      "personalMotivation": "She wants to understand the contrast before discarding a colour she likes.",
+      "openingHook": "She asks whether the border, rather than the pigment, could explain the disagreement.",
+      "possibleDevelopments": [
+        "Arrange matching samples beside several plain backgrounds.",
+        "Propose a small comparison using available materials, without treating her elemental form as a test instrument."
+      ],
+      "backgroundTags": [
+        "ceramics"
+      ],
+      "themeTags": [
+        "visual-art",
+        "curious"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-017",
+      "title": "A ceramic cup called elemental",
+      "premise": "She is amused by a cup design that claims to embody every element and is uncomfortable to hold.",
+      "personalMotivation": "She wants design claims to answer to ordinary use.",
+      "openingHook": "She asks which symbolic feature is doing the most harm.",
+      "possibleDevelopments": [
+        "Simplify the cup around balance and grip.",
+        "Keep elemental symbolism on a separate decorative study."
+      ],
+      "backgroundTags": [
+        "ceramics"
+      ],
+      "themeTags": [
+        "humour",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-018",
+      "title": "The correspondence of textures",
+      "premise": "She wants to describe her surface to a distant artist without making the letter sound like an inventory specimen.",
+      "personalMotivation": "She wants accuracy with self-chosen emphasis.",
+      "openingHook": "She asks what an artist needs to know and what may stay private.",
+      "possibleDevelopments": [
+        "Separate essential portrait facts from optional personal details.",
+        "Keep sensory guesses out of the description."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "privacy",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-019",
+      "title": "The modest rain collection",
+      "premise": "She proposes observing rain marks on spare clay tiles and is tempted to call it a major theory of weather.",
+      "personalMotivation": "She enjoys small experiments that stay proportionate to evidence.",
+      "openingHook": "She asks what the observations could actually support.",
+      "possibleDevelopments": [
+        "Define a narrow comparison before any trial.",
+        "Preserve inconclusive results without enlarging the claims."
+      ],
+      "backgroundTags": [
+        "ceramics"
+      ],
+      "themeTags": [
+        "weather",
+        "experimentation"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-020",
+      "title": "A tune made of pauses",
+      "premise": "She wants to write a melody around intermittent sounds rather than imitate a constant elemental roar.",
+      "personalMotivation": "She likes quiet detail more than spectacle.",
+      "openingHook": "She asks which silence feels intentional.",
+      "possibleDevelopments": [
+        "Sketch alternative pauses for an optional musical study.",
+        "Consider a spoken rhythm if melody adds little."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "quiet-company",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-021",
+      "title": "The braid that is only a motif",
+      "premise": "She sketches interwoven elemental symbols for a book cover and dislikes the suggestion that it binds forces together.",
+      "personalMotivation": "She wants ornament without mechanical promises.",
+      "openingHook": "She asks what a plain caption could clarify.",
+      "possibleDevelopments": [
+        "Describe the cover as a visual composition only.",
+        "Leave any magical function outside the design candidate."
+      ],
+      "backgroundTags": [
+        "papercraft"
+      ],
+      "themeTags": [
+        "visual-art",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-022",
+      "title": "The practical gardening question",
+      "premise": "She is curious about soil moisture but does not want to become an assumed irrigation device.",
+      "personalMotivation": "She wants chosen work, not a role inferred from ancestry.",
+      "openingHook": "She asks which ordinary observations a beginner can record.",
+      "possibleDevelopments": [
+        "Propose notes using established gardening tools and permissions.",
+        "Keep water manipulation separate from narrative interest."
+      ],
+      "backgroundTags": [
+        "gardening"
+      ],
+      "themeTags": [
+        "work",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-023",
+      "title": "The weather table's empty column",
+      "premise": "She designs an observation sheet and cannot decide where uncertain impressions belong beside measured notes.",
+      "personalMotivation": "She wants a record that admits doubt without making every observation look equally weak.",
+      "openingHook": "She asks how another reader would distinguish a sighting from an interpretation.",
+      "possibleDevelopments": [
+        "Try separate spaces for observations, guesses and unanswered questions.",
+        "Leave a column blank when the available method cannot support a claim."
+      ],
+      "backgroundTags": [
+        "weather"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "experimentation"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-024",
+      "title": "The honest introduction to magic",
+      "premise": "She wants to discuss practical magic while making clear that appearance does not certify expertise.",
+      "personalMotivation": "She values study that begins with questions.",
+      "openingHook": "She asks which parts of a theory need supported demonstrations.",
+      "possibleDevelopments": [
+        "Separate reading interests from approved capability packages.",
+        "Keep all experiments pending the game's rules and actual play."
+      ],
+      "backgroundTags": [
+        "practical-scholarship"
+      ],
+      "themeTags": [
+        "trust",
+        "new-beginnings"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "elemental-story-025",
+      "title": "The room that is not a shrine",
+      "premise": "She imagines a personal room and finds every suggestion turns it into a monument to her element.",
+      "personalMotivation": "She wants somewhere to read, rest and leave a project unfinished.",
+      "openingHook": "She asks what an ordinary comfortable room needs first.",
+      "possibleDevelopments": [
+        "Plan practical furniture before choosing any elemental accents.",
+        "Keep decoration optional and unrelated to whether she belongs."
+      ],
+      "backgroundTags": [
+        "domestic"
+      ],
+      "themeTags": [
+        "belonging",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "elemental-appearance-001",
+      "summary": "An adult woman aged 20 with warm ember-brown skin, short flame-shaped copper locks, and ember amber eyes. Her build is compact and muscular with soft contours. A stable opaque humanoid body with fine ember-like seams.",
+      "skin": "warm ember-brown",
+      "hair": "short flame-shaped copper locks",
+      "eyes": "ember amber",
+      "build": "compact and muscular with soft contours",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with fine ember-like seams",
+        "subtle firelight colour within the iris edges"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a fine asymmetry in the temple markings"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact"
+      ]
+    },
+    {
+      "id": "elemental-appearance-002",
+      "summary": "An adult woman aged 23 with deep coal-grey skin, long ember-red waves, and smouldering copper eyes. Her build is medium-height with a full bust and straight waist. A stable opaque humanoid body with fine ember-like seams.",
+      "skin": "deep coal-grey",
+      "hair": "long ember-red waves",
+      "eyes": "smouldering copper",
+      "build": "medium-height with a full bust and straight waist",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with fine ember-like seams",
+        "subtle firelight colour within the iris edges"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a denser cluster of surface flecks on one shoulder"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "elemental-appearance-003",
+      "summary": "An adult woman aged 18 with glowing copper-red skin, a dark-red bob with ember-like tips, and deep orange eyes. Her build is broad-shouldered with soft waist curves. A stable opaque humanoid body with fine ember-like seams.",
+      "skin": "glowing copper-red",
+      "hair": "a dark-red bob with ember-like tips",
+      "eyes": "deep orange",
+      "build": "broad-shouldered with soft waist curves",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with fine ember-like seams",
+        "subtle firelight colour within the iris edges"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a pale line following one cheekbone"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "elemental-appearance-004",
+      "summary": "An adult woman aged 21 with smoky umber skin, soft bronze curls, and warm gold eyes. Her build is rounded and full-busted with sturdy legs. A stable opaque humanoid body with fine ember-like seams.",
+      "skin": "smoky umber",
+      "hair": "soft bronze curls",
+      "eyes": "warm gold",
+      "build": "rounded and full-busted with sturdy legs",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with fine ember-like seams",
+        "subtle firelight colour within the iris edges"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a small contrasting mark beside the lower lip"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "elemental-appearance-005",
+      "summary": "An adult woman aged 24 with dark basalt-grey skin, long coal-black hair with dim red edges, and dark red eyes. Her build is tall and broad-hipped with gently defined muscles. A stable opaque humanoid body with fine ember-like seams.",
+      "skin": "dark basalt-grey",
+      "hair": "long coal-black hair with dim red edges",
+      "eyes": "dark red",
+      "build": "tall and broad-hipped with gently defined muscles",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with fine ember-like seams",
+        "subtle firelight colour within the iris edges"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a subtle swirl in the surface pattern at the chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "elemental-appearance-006",
+      "summary": "An adult woman aged 19 with muted blue-green skin, long teal waves, and river green eyes. Her build is tall and voluptuous with a gently rounded abdomen. A stable opaque humanoid body with a wet-stone sheen.",
+      "skin": "muted blue-green",
+      "hair": "long teal waves",
+      "eyes": "river green",
+      "build": "tall and voluptuous with a gently rounded abdomen",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with a wet-stone sheen",
+        "fine ripple-like markings at the temples"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a fine asymmetry in the temple markings"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "elemental-appearance-007",
+      "summary": "An adult woman aged 22 with deep river-teal skin, a smooth blue-black bob, and deep blue eyes. Her build is medium-height with balanced, softly mature curves. A stable opaque humanoid body with a wet-stone sheen.",
+      "skin": "deep river-teal",
+      "hair": "a smooth blue-black bob",
+      "eyes": "deep blue",
+      "build": "medium-height with balanced, softly mature curves",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with a wet-stone sheen",
+        "fine ripple-like markings at the temples"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a denser cluster of surface flecks on one shoulder"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "elemental-appearance-008",
+      "summary": "An adult woman aged 25 with pale blue-grey skin, shoulder-length silver-blue curls, and silver-blue eyes. Her build is full-bodied with a defined waist and powerful calves. A stable opaque humanoid body with a wet-stone sheen.",
+      "skin": "pale blue-grey",
+      "hair": "shoulder-length silver-blue curls",
+      "eyes": "silver-blue",
+      "build": "full-bodied with a defined waist and powerful calves",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with a wet-stone sheen",
+        "fine ripple-like markings at the temples"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a pale line following one cheekbone"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "elemental-appearance-009",
+      "summary": "An adult woman aged 20 with dark sea-blue skin, long dark-green hair, and teal eyes. Her build is full-figured with broad hips and a strong back. A stable opaque humanoid body with a wet-stone sheen.",
+      "skin": "dark sea-blue",
+      "hair": "long dark-green hair",
+      "eyes": "teal",
+      "build": "full-figured with broad hips and a strong back",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with a wet-stone sheen",
+        "fine ripple-like markings at the temples"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "a small contrasting mark beside the lower lip"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "elemental-appearance-010",
+      "summary": "An adult woman aged 23 with soft green-grey skin, short blue-grey coils, and grey-green eyes. Her build is short and full-figured with rounded shoulders. A stable opaque humanoid body with a wet-stone sheen.",
+      "skin": "soft green-grey",
+      "hair": "short blue-grey coils",
+      "eyes": "grey-green",
+      "build": "short and full-figured with rounded shoulders",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with a wet-stone sheen",
+        "fine ripple-like markings at the temples"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "a subtle swirl in the surface pattern at the chin"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "elemental-appearance-011",
+      "summary": "An adult woman aged 18 with warm clay-brown skin, dark root-brown curls, and agate brown eyes. Her build is compact and softly curvaceous with mature proportions. A stable opaque humanoid body with fine mineral veining.",
+      "skin": "warm clay-brown",
+      "hair": "dark root-brown curls",
+      "eyes": "agate brown",
+      "build": "compact and softly curvaceous with mature proportions",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with fine mineral veining",
+        "small crystalline facets along the collarbones"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "a fine asymmetry in the temple markings"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact"
+      ]
+    },
+    {
+      "id": "elemental-appearance-012",
+      "summary": "An adult woman aged 21 with deep ochre skin, short russet coils, and ochre eyes. Her build is willowy with a full bust and narrow hips. A stable opaque humanoid body with fine mineral veining.",
+      "skin": "deep ochre",
+      "hair": "short russet coils",
+      "eyes": "ochre",
+      "build": "willowy with a full bust and narrow hips",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with fine mineral veining",
+        "small crystalline facets along the collarbones"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a denser cluster of surface flecks on one shoulder"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "elemental-appearance-013",
+      "summary": "An adult woman aged 24 with pale limestone-beige skin, long stone-grey waves, and moss green eyes. Her build is athletic and broad-hipped with a modest bust. A stable opaque humanoid body with fine mineral veining.",
+      "skin": "pale limestone-beige",
+      "hair": "long stone-grey waves",
+      "eyes": "moss green",
+      "build": "athletic and broad-hipped with a modest bust",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with fine mineral veining",
+        "small crystalline facets along the collarbones"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a pale line following one cheekbone"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "elemental-appearance-014",
+      "summary": "An adult woman aged 19 with rich earth-brown skin, a black-brown bob, and amber eyes. Her build is athletic with a full bust and firm thighs. A stable opaque humanoid body with fine mineral veining.",
+      "skin": "rich earth-brown",
+      "hair": "a black-brown bob",
+      "eyes": "amber",
+      "build": "athletic with a full bust and firm thighs",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with fine mineral veining",
+        "small crystalline facets along the collarbones"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a small contrasting mark beside the lower lip"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "elemental-appearance-015",
+      "summary": "An adult woman aged 22 with mottled slate-brown skin, shoulder-length ochre-brown hair, and dark quartz-grey eyes. Her build is tall with a broad ribcage and generous hips. A stable opaque humanoid body with fine mineral veining.",
+      "skin": "mottled slate-brown",
+      "hair": "shoulder-length ochre-brown hair",
+      "eyes": "dark quartz-grey",
+      "build": "tall with a broad ribcage and generous hips",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with fine mineral veining",
+        "small crystalline facets along the collarbones"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a subtle swirl in the surface pattern at the chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "elemental-appearance-016",
+      "summary": "An adult woman aged 25 with pearl grey skin, long cloud-grey waves, and pale grey eyes. Her build is compact with thick thighs and a soft abdomen. A stable opaque humanoid form with softly feathered outer contours.",
+      "skin": "pearl grey",
+      "hair": "long cloud-grey waves",
+      "eyes": "pale grey",
+      "build": "compact with thick thighs and a soft abdomen",
+      "ancestryFeatures": [
+        "a stable opaque humanoid form with softly feathered outer contours",
+        "faint wind-scroll markings over the shoulders"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a fine asymmetry in the temple markings"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact"
+      ]
+    },
+    {
+      "id": "elemental-appearance-017",
+      "summary": "An adult woman aged 20 with pale sky-blue skin, short silver-white curls, and sky blue eyes. Her build is short and sturdily built with a defined waist. A stable opaque humanoid form with softly feathered outer contours.",
+      "skin": "pale sky-blue",
+      "hair": "short silver-white curls",
+      "eyes": "sky blue",
+      "build": "short and sturdily built with a defined waist",
+      "ancestryFeatures": [
+        "a stable opaque humanoid form with softly feathered outer contours",
+        "faint wind-scroll markings over the shoulders"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a denser cluster of surface flecks on one shoulder"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "elemental-appearance-018",
+      "summary": "An adult woman aged 23 with soft dusk-violet skin, a mist-violet bob, and soft violet eyes. Her build is slim-waisted with broad shoulders and full thighs. A stable opaque humanoid form with softly feathered outer contours.",
+      "skin": "soft dusk-violet",
+      "hair": "a mist-violet bob",
+      "eyes": "soft violet",
+      "build": "slim-waisted with broad shoulders and full thighs",
+      "ancestryFeatures": [
+        "a stable opaque humanoid form with softly feathered outer contours",
+        "faint wind-scroll markings over the shoulders"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a pale line following one cheekbone"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "elemental-appearance-019",
+      "summary": "An adult woman aged 18 with cool ivory-grey skin, fine pearl-white hair, and silver-grey eyes. Her build is slender with a strong back and softly rounded hips. A stable opaque humanoid form with softly feathered outer contours.",
+      "skin": "cool ivory-grey",
+      "hair": "fine pearl-white hair",
+      "eyes": "silver-grey",
+      "build": "slender with a strong back and softly rounded hips",
+      "ancestryFeatures": [
+        "a stable opaque humanoid form with softly feathered outer contours",
+        "faint wind-scroll markings over the shoulders"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a small contrasting mark beside the lower lip"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "elemental-appearance-020",
+      "summary": "An adult woman aged 21 with muted storm-grey skin, long blue-grey coils, and storm blue eyes. Her build is lean and long-limbed with a modest bust. A stable opaque humanoid form with softly feathered outer contours.",
+      "skin": "muted storm-grey",
+      "hair": "long blue-grey coils",
+      "eyes": "storm blue",
+      "build": "lean and long-limbed with a modest bust",
+      "ancestryFeatures": [
+        "a stable opaque humanoid form with softly feathered outer contours",
+        "faint wind-scroll markings over the shoulders"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a subtle swirl in the surface pattern at the chin"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "elemental-appearance-021",
+      "summary": "An adult woman aged 24 with frost-white skin, short white crystal-like locks, and ice blue eyes. Her build is tall and strongly built with a modest bust. A stable opaque humanoid body with delicate frost-like facets.",
+      "skin": "frost-white",
+      "hair": "short white crystal-like locks",
+      "eyes": "ice blue",
+      "build": "tall and strongly built with a modest bust",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with delicate frost-like facets",
+        "fine ice-crystal patterns along the temples"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a fine asymmetry in the temple markings"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "elemental-appearance-022",
+      "summary": "An adult woman aged 19 with blue-grey skin, long silver-blue waves, and silver eyes. Her build is medium-height and generously curvaceous with a broad frame. A stable opaque humanoid body with delicate frost-like facets.",
+      "skin": "blue-grey",
+      "hair": "long silver-blue waves",
+      "eyes": "silver",
+      "build": "medium-height and generously curvaceous with a broad frame",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with delicate frost-like facets",
+        "fine ice-crystal patterns along the temples"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a denser cluster of surface flecks on one shoulder"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "elemental-appearance-023",
+      "summary": "An adult woman aged 22 with pale glacial blue skin, a pale-blue bob, and pale teal eyes. Her build is medium-height and muscular with mature curves. A stable opaque humanoid body with delicate frost-like facets.",
+      "skin": "pale glacial blue",
+      "hair": "a pale-blue bob",
+      "eyes": "pale teal",
+      "build": "medium-height and muscular with mature curves",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with delicate frost-like facets",
+        "fine ice-crystal patterns along the temples"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a pale line following one cheekbone"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "elemental-appearance-024",
+      "summary": "An adult woman aged 25 with soft silver-grey skin, fine frost-grey curls, and blue-grey eyes. Her build is long-legged with a soft waist and full hips. A stable opaque humanoid body with delicate frost-like facets.",
+      "skin": "soft silver-grey",
+      "hair": "fine frost-grey curls",
+      "eyes": "blue-grey",
+      "build": "long-legged with a soft waist and full hips",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with delicate frost-like facets",
+        "fine ice-crystal patterns along the temples"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a small contrasting mark beside the lower lip"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "elemental-appearance-025",
+      "summary": "An adult woman aged 20 with deep ice-blue skin, long white hair with blue edges, and deep glacier-blue eyes. Her build is tall and slender with mature hips. A stable opaque humanoid body with delicate frost-like facets.",
+      "skin": "deep ice-blue",
+      "hair": "long white hair with blue edges",
+      "eyes": "deep glacier-blue",
+      "build": "tall and slender with mature hips",
+      "ancestryFeatures": [
+        "a stable opaque humanoid body with delicate frost-like facets",
+        "fine ice-crystal patterns along the temples"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a subtle swirl in the surface pattern at the chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    }
+  ]
+}

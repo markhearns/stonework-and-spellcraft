@@ -1,0 +1,34 @@
+{
+  "tool": "built-in image generation",
+  "style": "Use case: stylized-concept. Create ONE isolated fantasy game UI icon for Stonework and Spellcraft. Antique engraving-inspired coloured woodcut illustration; crisp etched contours, restrained crosshatching, slightly worn print texture, historically grounded hand craftsmanship. Match a modest stone-and-timber enchanted library workshop, dark academia with warmth. Muted natural materials, parchment highlights, charcoal outlines, sparse dull brass and restrained violet. Readable at 40–56 pixels: bold simple silhouette, few broad internal details, generous transparent margin, centered square composition occupying about 75 percent of canvas. Transparent background with real alpha. No text, numbers, frame, background scenery, glow, glossy CGI, photorealism, watermark or UI mockup. ",
+  "prompts": [
+    {
+      "id": "trust",
+      "subject": "The TRUST icon: two adult human hands clasping in an ordinary equal handshake, wrists with simple weathered linen cuffs, warm natural skin tones. Exactly two anatomically coherent hands. Welcoming, dependable, no weapons or chains."
+    },
+    {
+      "id": "affection",
+      "subject": "The AFFECTION icon: a single small handmade heart carved from warm muted rose-red wood, gently rounded heart silhouette, delicate etched grain and one small ivy leaf at its base. Affection and warmth, not an anatomical organ or a jewel."
+    },
+    {
+      "id": "respect",
+      "subject": "The RESPECT icon: a modest upright laurel wreath with two balanced olive-green leafy branches, open at the top and tied at the bottom by a narrow worn violet ribbon. A clear ceremonial sign of esteem. No medal, no lettering, no crown."
+    },
+    {
+      "id": "morning",
+      "subject": "The MORNING phase icon: a half-risen muted amber sun behind one simple low horizontal bank of distant hills. Several short straight engraved rays only above the half sun. A compact standalone emblem, not a landscape background."
+    },
+    {
+      "id": "afternoon",
+      "subject": "The AFTERNOON phase icon: a full round muted amber sun high and unobscured, with eight short engraved rays evenly spaced around it. An old engraved astronomical sun disc, no face, not glowing."
+    },
+    {
+      "id": "evening",
+      "subject": "The EVENING phase icon: one slender pale parchment crescent moon, facing right, with exactly one small dull-brass four-point star beside it. Etched old astronomical illustration, no face, no surrounding sky."
+    },
+    {
+      "id": "resonance",
+      "subject": "The RESONANCE resource icon: a small aged iron-and-dull-brass castle lantern with a single subdued violet glass pane and a tiny warm cream flame inside. Enclosed straightforward silhouette, one top loop. The pane is coloured glass, not a glowing spectacle. Represents the castle's romantic magical atmosphere."
+    }
+  ]
+}

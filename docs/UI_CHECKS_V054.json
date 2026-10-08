@@ -1,0 +1,153 @@
+[
+  {
+    "suite": "test_ui.cjs",
+    "returncode": 0,
+    "output": "PASS: housing restoration, reservation, bedroom choice, room access and reload.\nPASS: rendered spell drafts, all three forms, individual testing/preparation/casting, cancellation, escaped prose, cooperative ritual pause/resume and reload.\nPASS: personal skills, multi-stage expeditions, capability choices, recoverable complication, partial-work return/reload, both finite leads, new recipe/installation and fourth spell.\nPASS: delegated batch forms, protected reserves, budget commitment, pause/resume, explicit top-up, finite completion, exact refund and reload.\nPASS: personal finance forms, morning allowance transfers, individual purchase, expedition arrangement and reload.\nPASS: offered principle and skill lessons, two-person assignment, workroom pause/resume, personal results and persistent history.\nPASS: finite casting plan form, pause/resume, phase-bound count, workroom visibility, completion and persistent reload.\nPASS: personal request acceptance, explicit funding, independent work, pause/resume, note, owned bedroom keepsake, personal-wallet cancellation refund and reload.\nPASS: contact conversation, private accommodation, protected arrival reservation, third resident, independent work/training, personal notebook, eleventh recipe and persistent roster.\nPASS: provider settings hide the saved key; generated draft preview is escaped and nonmutating; retry and explicit acceptance persist dialogue only.\nPASS: resident-specific free text, generated draft recovery/retry and acceptance leave Mira\u2019s conversation and game mechanics unchanged.\nPASS: reviewed journal draft, escaped preview, source events, prose-only acceptance, recovery and reload.\nPASS: text furnishings/effects, no furniture overlays, independent slots, named arrangements, escaped names, deletion without removal and reload.\nPASS: progress-aware moments, defer/restore/join, shared friendship scenes, individual flirtation followup, unchanged time/rewards/work, private panels and persistent rereading.\nPASS: advanced practice prerequisites, training cost, individual preparation, work breakdown, named set restore/reload and safe invalidation after retraining.\nPASS: personal blessing offered with exact costs, two assigned phases, personal capacity, persistent reload and one-phase reversal.\nPASS: nonmutating structured spell suggestion, escaped preview, authoritative effects, retry/recovery, explicit form review and separate free design save.\nPASS: Iona\u2019s exact-cost atlas, pause/resume, own rewards, personal map case, displayed keepsake, shared scene and treasury-funded gift.\nPASS: authored summoning research, explicit contact costs, visitor exclusion, separate membership decisions, fourth-resident views, departure and persistent same-person return.\nPASS: 24 views at home and with Mira away; all eleven recipes use rendered form fields.\nPASS: rendered focus inscription and capacity forms, prepared effects, escaped names, reload, campaign list/export scope and creation retry after a lost response.\nPASS: neighbour acceptance/deferral/delivery, saved letter, nursery route and survey, capillary crafting and installation, protected delivery control, both invitations and persistent reload.\nPASS: research catalogue, three utility installations, stock-first production, personal study, multi-copy work orders, exact purchases, manual starts and reload; prior connected playthrough remains working.\nThese checks do not measure layout, painting, focus behavior or real browser interaction.\n"
+  },
+  {
+    "suite": "test_ui_arrival.cjs",
+    "returncode": 0,
+    "output": "PASS: arrival choices and orientation, direct navigation, active/paused opening guidance, explicit phase labels, blocked Advance and saved arrival memories.\n"
+  },
+  {
+    "suite": "test_ui_arrivals.cjs",
+    "returncode": 0,
+    "output": "PASS: common recruitment and porcelain golem review, separated UI paths, pause/resume, capacity wait, fully adult awakening and durable guest state. Headless integration only.\n"
+  },
+  {
+    "suite": "test_ui_art_v053.cjs",
+    "returncode": 0,
+    "output": "Integrated art UI passed\n"
+  },
+  {
+    "suite": "test_ui_artwork.cjs",
+    "returncode": 0,
+    "output": "PASS: generated raster artwork wired to all core items/materials, navigation and public categories; repeated portrait reduction; core views and labels retained.\n"
+  },
+  {
+    "suite": "test_ui_builds.cjs",
+    "returncode": 0,
+    "output": "PASS: character development UI training, pause/resume, affinity prerequisites, perk effects, retraining and reload.\n"
+  },
+  {
+    "suite": "test_ui_candidates.cjs",
+    "returncode": 0,
+    "output": "PASS: candidate proposal review/recheck, explicit approval, funded contact, generated identity escaping, membership, scoped dialogue, portrait review and departure/reload.\n"
+  },
+  {
+    "suite": "test_ui_cast.cjs",
+    "returncode": 0,
+    "output": "PASS: three-candidate routing, unique conversation forms, scoped generated replies, five-person household views, funded projects, saved styles, illustrated moments, room shortcuts, departure and remembered history.\n"
+  },
+  {
+    "suite": "test_ui_castle_chapter.cjs",
+    "returncode": 0,
+    "output": "PASS: notebook navigation, returned discovery and reflection persistence, personal knowledge, reserve warning, room presence and seven responsive destination cards.\n"
+  },
+  {
+    "suite": "test_ui_character_setup.cjs",
+    "returncode": 0,
+    "output": "PASS: player identity, escaping, generated preview/acceptance, import acceptance, placeholder/rollback, portrait recovery and arrival continuation.\n"
+  },
+  {
+    "suite": "test_ui_containment.cjs",
+    "returncode": 0,
+    "output": "PASS: specialized chamber UI construction, pause/resume, care, release, separate visit/membership, artwork, transferred-case refund and reload.\n",
+    "note": "Rechecked after updating two portrait filename expectations to the new defaults."
+  },
+  {
+    "suite": "test_ui_content_packs.cjs",
+    "returncode": 0,
+    "output": "PASS: ZIP upload, validation warnings, content browser, explicit activation, imported offline candidate, field editing, escaped output, approval and source preservation.\n"
+  },
+  {
+    "suite": "test_ui_equipment.cjs",
+    "returncode": 0,
+    "output": "PASS: equipment ownership/preparation/transfer, recoverable reviewed scene prose and read-only expansion ZIP review.\n"
+  },
+  {
+    "suite": "test_ui_estate.cjs",
+    "returncode": 0,
+    "output": "PASS: estate UI private room, bedroom move, room rendering, region filter, annex gating, phased services, fitted capacity and reload.\n"
+  },
+  {
+    "suite": "test_ui_fieldcraft.cjs",
+    "returncode": 0,
+    "output": "PASS: tool inscription start/pause/resume/completion, earned resident invitation, workroom visibility, offline spell form guidance and discovery links.\n"
+  },
+  {
+    "suite": "test_ui_guidance.cjs",
+    "returncode": 0,
+    "output": "PASS: pinned goals, linked steps, nonmutating preview, completion follow-up, person/material/principle context, recipe filtering, scroll memory and artwork expansion.\n"
+  },
+  {
+    "suite": "test_ui_headquarters.cjs",
+    "returncode": 0,
+    "output": "PASS: headquarters navigation, construction, pause/resume, optional chapel scene, prerequisites, art target and gated bedrooms.\n"
+  },
+  {
+    "suite": "test_ui_household_content.cjs",
+    "returncode": 0,
+    "output": "PASS: full bundled pack, reviewed scene prerequisites, invitation/defer/join, garment review, saved styling, story pattern and persistence after deactivation.\n"
+  },
+  {
+    "suite": "test_ui_local.cjs",
+    "returncode": 0,
+    "output": "PASS: illustrated local meeting, pause/resume, ordinary contact, two-sided membership, ancestry training display, shared-history chapter unlock and durable continuity. Headless only.\n"
+  },
+  {
+    "suite": "test_ui_mystery.cjs",
+    "returncode": 0,
+    "output": "PASS: mystery UI investigation, pause/resume, escaped discovered evidence, explicit sharing, final synthesis and reload.\n"
+  },
+  {
+    "suite": "test_ui_outfits.cjs",
+    "returncode": 0,
+    "output": "PASS: wardrobe invitations, blocked explanations, portrait previews, selected art across identity panels, save reload, original look, and eight navigation icons.\n"
+  },
+  {
+    "suite": "test_ui_phase_work.cjs",
+    "returncode": 0,
+    "output": "PASS: phase board quick actions, phase notifications, dismissal, work agreements, resident gardening and actual expedition companion return.\n"
+  },
+  {
+    "suite": "test_ui_public_content.cjs",
+    "returncode": 0,
+    "output": "Public expansion connected UI: staging, review, composition, approval and joining passed.\n"
+  },
+  {
+    "suite": "test_ui_public_integration.cjs",
+    "returncode": 0,
+    "output": "Public integration UI: all record types, actual costs, field return, discovery, joined chapter, assigned work, resolution, community, named contact and wardrobe/art production passed.\n"
+  },
+  {
+    "suite": "test_ui_public_workshop.cjs",
+    "returncode": 0,
+    "output": "Public workshop connected UI: catalogue, costs, pause, completion, owned reading and field return passed.\n"
+  },
+  {
+    "suite": "test_ui_resident_future.cjs",
+    "returncode": 0,
+    "output": "PASS: eleven specialty cards, remembered resident choices, funded installations, direct project resume, elf leads and branched four-stage field controls.\n"
+  },
+  {
+    "suite": "test_ui_room_navigation.cjs",
+    "returncode": 0,
+    "output": "PASS: persistent room workspaces, in-room research and crafting, funding guidance, explicit copying and navigation without save mutations.\n"
+  },
+  {
+    "suite": "test_ui_solo.cjs",
+    "returncode": 0,
+    "output": "Solo title screen, fresh progression, navigation, cheats and new-game controller passed.\n"
+  },
+  {
+    "suite": "test_ui_stories.cjs",
+    "returncode": 0,
+    "output": "PASS: offline curated Dryad, saved request recovery, personal story review/recheck, funded work, pause/resume, non-expiring scene and reload. Headless integration only.\n"
+  },
+  {
+    "suite": "test_ui_visuals.cjs",
+    "returncode": 0,
+    "output": "PASS: unavailable action explanations without mutations, Fenna route, portraits, editable fields, image overrides, native select help and all main view rendering.\n"
+  }
+]

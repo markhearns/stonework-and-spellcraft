@@ -1,0 +1,94 @@
+{
+  "version": "0.93",
+  "schema": 65,
+  "scope": "Targeted gameplay/controller suites and four complete post-change earned-resource routes. The full historical regression suite was not rerun. No browser-rendered layout review.",
+  "gameplay": {
+    "distinctTargetedTests": 91,
+    "modules": [
+      "test_daily_plan",
+      "test_guidance",
+      "test_first_hearth",
+      "test_house_shape",
+      "test_room_to_grow",
+      "test_keeping_hearth",
+      "test_first_patrol",
+      "test_candidate_http",
+      "test_household_chapters",
+      "test_roads_we_keep"
+    ],
+    "outstandingFailures": 0,
+    "runs": [
+      {
+        "tests": 66,
+        "seconds": 148.357,
+        "note": "65 passed; one loader error referenced a nonexistent module name. Correct work-arrangement coverage was then run through test_household_chapters."
+      },
+      {
+        "tests": 33,
+        "seconds": 0.79,
+        "passed": true,
+        "modules": [
+          "test_daily_plan",
+          "test_household_chapters",
+          "test_roads_we_keep"
+        ]
+      },
+      {
+        "tests": 15,
+        "passed": true,
+        "modules": [
+          "test_daily_plan",
+          "test_guidance"
+        ],
+        "note": "Final coverage includes forecast reuse and selective rest."
+      }
+    ]
+  },
+  "ui": {
+    "scripts": 8,
+    "passed": 8,
+    "names": [
+      "test_ui_daily_plan.cjs",
+      "test_ui_first_hearth.cjs",
+      "test_ui_house_shape.cjs",
+      "test_ui_room_to_grow.cjs",
+      "test_ui_keeping_hearth.cjs",
+      "test_ui_first_patrol.cjs",
+      "test_ui_legibility.cjs",
+      "test_ui_overview_portraits.cjs"
+    ],
+    "finalDailyPlanRerunPassed": true
+  },
+  "playthroughs": {
+    "ordinaryRoutes": 2,
+    "ordinaryCompletionDays": [
+      92,
+      90
+    ],
+    "downtimeRoutes": 2,
+    "downtimeCompletionDays": [
+      96,
+      94
+    ],
+    "cheatsUsed": false,
+    "starvation": false,
+    "chapterDurationsUnchangedOnOrdinaryRoutes": true
+  },
+  "newTests": [
+    "Treasury target stops ordinary copying without spending or rewards.",
+    "End-of-day food purchasing happens before target completion.",
+    "Pausing, resuming, save/reload and duplicate-request idempotency.",
+    "Invalid or away rest participants leave everyone unchanged.",
+    "Solo rest keeps unlisted assignments.",
+    "Morning resumes paid work without another charge.",
+    "Public state uses one read-only Advance forecast.",
+    "Companion location does not depend on ambient text.",
+    "Activity overview interleaves work and invitations without duplicates.",
+    "Home notices expire without deleting the expedition report."
+  ],
+  "limits": [
+    "No human reading-time measurement.",
+    "No rendered browser acceptance pass.",
+    "Unbounded copying remains available; this release does not rebalance income or change chapter durations."
+  ]
+}

@@ -1,0 +1,386 @@
+{
+  "tool": "built-in image_gen",
+  "transparent": true,
+  "assets": [
+    {
+      "id": "warm-twist",
+      "runtimePath": "v056/spells/warm-twist.png",
+      "sha256": "7c2aa175fca9eeba3a62a6798068a750be73cbd435beb05e6582b37f3074dd66",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "root-song",
+      "runtimePath": "v056/spells/root-song.png",
+      "sha256": "34fa549787a13d81110e27d611e5dadb0466453e62c57a6b1a69520c4a354439",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "luminous-copy",
+      "runtimePath": "v056/spells/luminous-copy.png",
+      "sha256": "5af252be953fa52def17c4bea2c0ef878382f9e5506084aaaa6548495ecb410d",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "clarify-glass",
+      "runtimePath": "v056/spells/clarify-glass.png",
+      "sha256": "aaa500ffa5d015d930f7f6dd2e25f8e9d38a1d4d96f43e7ee3e07fc6c278e187",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "research-lens",
+      "runtimePath": "v056/spells/research-lens.png",
+      "sha256": "dbe3f426f634ae60e709312e00dccec8f0746074184fd9cddc377739ec8796fe",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "craft-hand",
+      "runtimePath": "v056/spells/craft-hand.png",
+      "sha256": "8fee4fe83782c170805d8a1a44bf4e62143174183940ecc397fa70b492d47852",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "copy-lamp",
+      "runtimePath": "v056/spells/copy-lamp.png",
+      "sha256": "67f053118d76dfbbd4427f567c8957ee4423bf5654c7d810e2e8bf62573eeba3",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "focus-guide",
+      "runtimePath": "v056/spells/focus-guide.png",
+      "sha256": "f7bbb4a401baccb02db99f2e98c2d86c3162b747c4e765ba5bc9e7af47503d5c",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "bedroom-ward",
+      "runtimePath": "v056/spells/bedroom-ward.png",
+      "sha256": "897e8e70456fb669622a4083784b4008bbdbdceb0dcea0ecd6c9d67d16d8f115",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "green-frame",
+      "runtimePath": "v056/spells/green-frame.png",
+      "sha256": "6d0d995abd3c14de4f0890a36ddba9c17381ecdf7b03a46104dcf8b699f6cd53",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "foundation-line",
+      "runtimePath": "v056/spells/foundation-line.png",
+      "sha256": "25e91428c40086bc832c8fd477185016ddd06ec741cbc244d5a2c5cbb7207ae8",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "field-compass",
+      "runtimePath": "v056/spells/field-compass.png",
+      "sha256": "2e9d5ed7b8632d1bce3045c62be8c9025d8587413153a3ee5e8934bf45dca8a6",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "water-jet",
+      "runtimePath": "v056/spells/water-jet.png",
+      "sha256": "b6cd15238cd0f30bde82826bb83442b019e809f01e397df9c4ba36eda0d1d195",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "wind-step",
+      "runtimePath": "v056/spells/wind-step.png",
+      "sha256": "04dadfb7923f92f30dff3a3f214b2460414bb7f0e31d1f4dd2df2d2dd91a5744",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "borne-flight",
+      "runtimePath": "v056/spells/borne-flight.png",
+      "sha256": "2e6057f1a2eb9c3d3fa351d8b787c4d60af77b45034d6e8b7bb746fc9d25ee80",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "fire-lance",
+      "runtimePath": "v056/spells/fire-lance.png",
+      "sha256": "861bb3ad8abe62a6bb93471ccc47a0c4366b437404629d8d98919fbb552fa260",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "ice-bind",
+      "runtimePath": "v056/spells/ice-bind.png",
+      "sha256": "9ba5329b446f7e6d0c8921bc7f8a849fd21dd41b9ab46c00dcae74150267a7f4",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "arc-bolt",
+      "runtimePath": "v056/spells/arc-bolt.png",
+      "sha256": "16570804153082263150515b6115a4cd43ed06cc948ebaa5062e8eeaea2eef36",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "dawn-lance",
+      "runtimePath": "v056/spells/dawn-lance.png",
+      "sha256": "c43a3b5d5db146b83c7e0043680aa56b73259754ae3a4de2dd7984a5ceccb417",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "mending-light",
+      "runtimePath": "v056/spells/mending-light.png",
+      "sha256": "1aa2b304362de1263f925fe020147a08b5afbd6dd93043b3fd698705294c058a",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "giant-grasp",
+      "runtimePath": "v056/spells/giant-grasp.png",
+      "sha256": "2f5067e1a7f6243f227a0eaff5fe9eb02d81aef959d3bd3262893377ec5c1879",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "lucid-sight",
+      "runtimePath": "v056/spells/lucid-sight.png",
+      "sha256": "93b8157b77b20314c5d63f1449b94c1527930ec1c74eebda81068f0ee1847d5e",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "borrowed-hour",
+      "runtimePath": "v056/spells/borrowed-hour.png",
+      "sha256": "a7ea1c3211bc4627dd181478ecd0202dbf4f99f97054460724be7e25e05de26e",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "threshold-fold",
+      "runtimePath": "v056/spells/threshold-fold.png",
+      "sha256": "f39b099fb7bdf979c5beb6e56cf8bf267f153c8b834e553e909778d6adaf4628",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "calm-tide",
+      "runtimePath": "v056/spells/calm-tide.png",
+      "sha256": "247ce3159cd06962bcb1c57ce0bd8ac27297ab45245833aaefab61231e58ef9a",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "silver-tongue",
+      "runtimePath": "v056/spells/silver-tongue.png",
+      "sha256": "2905a4c3bbb046f8df058c9b7ef3ce33e9e93ef3803a6de3035a96d6a626a8f9",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "mirror-decoy",
+      "runtimePath": "v056/spells/mirror-decoy.png",
+      "sha256": "46545f24a5aadc152450b8b0c87be261f6d1b53184eebf5b3f8fa1f0b51de855",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "wisp-scout",
+      "runtimePath": "v056/spells/wisp-scout.png",
+      "sha256": "0cdf770605db033c9d7872bb127ef1c4115d126e5f071c76e09e05cd95ae76ff",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "water-walk",
+      "runtimePath": "v056/spells/water-walk.png",
+      "sha256": "d0596dacf9c33a32cec3bf86bffc9e70456c7a160f2b187cd2cc86352ccaf988",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "water-breath",
+      "runtimePath": "v056/spells/water-breath.png",
+      "sha256": "a00139b9920055a9413fb956f26e4ec1042a30b64d5dc9b29c00a88d372b5819",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Spellbook, guidance and matching spell actions"
+    },
+    {
+      "id": "archive-circle",
+      "runtimePath": "v056/spells/archive-circle.png",
+      "sha256": "a6d2b73bc8fb385e9dc13a50bba8540f66075dc3df430ef01414d1a86e39ecdf",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Lasting ritual card"
+    },
+    {
+      "id": "maker-circle",
+      "runtimePath": "v056/spells/maker-circle.png",
+      "sha256": "9068a656856795dc21fa7d69ea4a4afe56095f084614a02e154894d1f7c7ba33",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Lasting ritual card"
+    },
+    {
+      "id": "garden-circle",
+      "runtimePath": "v056/spells/garden-circle.png",
+      "sha256": "8c64d94bd3daa4bdad9197c3f57a284e3a226b5d1118f2682b3ade5f13aacd86",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Lasting ritual card"
+    },
+    {
+      "id": "sanctuary-circle",
+      "runtimePath": "v056/spells/sanctuary-circle.png",
+      "sha256": "e24d44aa75a4cc2b00f27f371f98fd5f736f3a60306a665abd849d3e008220a9",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Lasting ritual card"
+    },
+    {
+      "id": "market-circle",
+      "runtimePath": "v056/spells/market-circle.png",
+      "sha256": "659e0ab5d1fb9c273731c00f8a829eec20c843fcb579cf7295c6f5cd729d40a3",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Lasting ritual card"
+    },
+    {
+      "id": "anchor-circle",
+      "runtimePath": "v056/spells/anchor-circle.png",
+      "sha256": "d0f42904e64d2477599e9194fe3e230884ba686e4e6c7da43e2e0ca9a3fe30ce",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Lasting ritual card"
+    },
+    {
+      "id": "welcome-circle",
+      "runtimePath": "v056/spells/welcome-circle.png",
+      "sha256": "bdaa44ec9deeb0139890e3b59a792fa89bd90bb120e89710396821a4db9e0852",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Lasting ritual card"
+    },
+    {
+      "id": "foundation-circle",
+      "runtimePath": "v056/spells/foundation-circle.png",
+      "sha256": "1bf7c6e3117930258e808fab5decfbfb33898a684379d45b66a99609f7b062ca",
+      "pixels": [
+        1254,
+        1254
+      ],
+      "use": "Lasting ritual card"
+    }
+  ]
+}

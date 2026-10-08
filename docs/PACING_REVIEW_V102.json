@@ -1,0 +1,266 @@
+{
+  "scope": "Two earned fresh campaigns through eight chapters and one paid escort objective. The revised runs follow funding suggestions; other route choices are held consistent. Counts are simulated phases, not human playtime.",
+  "routes": [
+    {
+      "route": 1,
+      "chapters": [
+        {
+          "chapter": 1,
+          "beforePhases": 25,
+          "afterPhases": 25,
+          "beforeCopying": 5,
+          "afterCopying": 0,
+          "afterActivities": {
+            "research": 3,
+            "crafting": 4,
+            "expedition": 3,
+            "facilities": 6,
+            "external-commission": 4,
+            "rest": 3,
+            "mystery": 2
+          }
+        },
+        {
+          "chapter": 2,
+          "beforePhases": 70,
+          "afterPhases": 64,
+          "beforeCopying": 28,
+          "afterCopying": 8,
+          "afterActivities": {
+            "expedition": 9,
+            "external-commission": 14,
+            "research": 3,
+            "house-shape": 18,
+            "commissions": 8,
+            "mystery": 2,
+            "restoration": 3,
+            "garden": 1,
+            "headquarters": 5,
+            "crafting": 1
+          }
+        },
+        {
+          "chapter": 3,
+          "beforePhases": 28,
+          "afterPhases": 25,
+          "beforeCopying": 16,
+          "afterCopying": 3,
+          "afterActivities": {
+            "external-commission": 10,
+            "headquarters": 10,
+            "commissions": 3,
+            "housing": 2
+          }
+        },
+        {
+          "chapter": 4,
+          "beforePhases": 54,
+          "afterPhases": 49,
+          "beforeCopying": 28,
+          "afterCopying": 7,
+          "afterActivities": {
+            "external-commission": 16,
+            "headquarters": 16,
+            "commissions": 7,
+            "containment": 5,
+            "rest": 2,
+            "expedition": 3
+          }
+        },
+        {
+          "chapter": 5,
+          "beforePhases": 45,
+          "afterPhases": 45,
+          "beforeCopying": 4,
+          "afterCopying": 8,
+          "afterActivities": {
+            "equipment-review": 1,
+            "research": 8,
+            "external-commission": 8,
+            "commissions": 8,
+            "headquarters": 5,
+            "equipment-work": 6,
+            "expedition": 9
+          }
+        },
+        {
+          "chapter": 6,
+          "beforePhases": 20,
+          "afterPhases": 20,
+          "beforeCopying": 0,
+          "afterCopying": 0,
+          "afterActivities": {
+            "expedition": 12,
+            "headquarters": 6,
+            "rest": 2
+          }
+        },
+        {
+          "chapter": 7,
+          "beforePhases": 30,
+          "afterPhases": 29,
+          "beforeCopying": 0,
+          "afterCopying": 0,
+          "afterActivities": {
+            "expedition": 18,
+            "rest": 7,
+            "headquarters": 4
+          }
+        },
+        {
+          "chapter": 8,
+          "beforePhases": 37,
+          "afterPhases": 37,
+          "beforeCopying": 0,
+          "afterCopying": 0,
+          "afterActivities": {
+            "field-patrol": 28,
+            "rest": 9
+          }
+        }
+      ],
+      "beforePhases": 309,
+      "afterPhases": 294,
+      "beforeCopying": 81,
+      "afterCopying": 26,
+      "unfedDays": 0,
+      "cheats": false,
+      "watchRoadPhasesSaved": 2,
+      "patrolImprovement": "signals"
+    },
+    {
+      "route": 2,
+      "chapters": [
+        {
+          "chapter": 1,
+          "beforePhases": 25,
+          "afterPhases": 25,
+          "beforeCopying": 5,
+          "afterCopying": 0,
+          "afterActivities": {
+            "research": 3,
+            "crafting": 4,
+            "local-visit": 1,
+            "expedition": 3,
+            "facilities": 6,
+            "external-commission": 4,
+            "rest": 2,
+            "mystery": 2
+          }
+        },
+        {
+          "chapter": 2,
+          "beforePhases": 70,
+          "afterPhases": 64,
+          "beforeCopying": 28,
+          "afterCopying": 8,
+          "afterActivities": {
+            "expedition": 9,
+            "external-commission": 14,
+            "research": 3,
+            "house-shape": 18,
+            "commissions": 8,
+            "mystery": 2,
+            "restoration": 3,
+            "garden": 1,
+            "headquarters": 5,
+            "crafting": 1
+          }
+        },
+        {
+          "chapter": 3,
+          "beforePhases": 33,
+          "afterPhases": 29,
+          "beforeCopying": 19,
+          "afterCopying": 3,
+          "afterActivities": {
+            "external-commission": 12,
+            "headquarters": 10,
+            "commissions": 3,
+            "housing": 4
+          }
+        },
+        {
+          "chapter": 4,
+          "beforePhases": 42,
+          "afterPhases": 37,
+          "beforeCopying": 24,
+          "afterCopying": 5,
+          "afterActivities": {
+            "external-commission": 14,
+            "headquarters": 16,
+            "commissions": 5,
+            "containment": 2
+          }
+        },
+        {
+          "chapter": 5,
+          "beforePhases": 49,
+          "afterPhases": 50,
+          "beforeCopying": 4,
+          "afterCopying": 7,
+          "afterActivities": {
+            "rest": 1,
+            "equipment-review": 1,
+            "research": 8,
+            "external-commission": 10,
+            "commissions": 7,
+            "headquarters": 5,
+            "equipment-work": 6,
+            "expedition": 12
+          }
+        },
+        {
+          "chapter": 6,
+          "beforePhases": 19,
+          "afterPhases": 19,
+          "beforeCopying": 0,
+          "afterCopying": 0,
+          "afterActivities": {
+            "expedition": 11,
+            "headquarters": 6,
+            "rest": 2
+          }
+        },
+        {
+          "chapter": 7,
+          "beforePhases": 25,
+          "afterPhases": 27,
+          "beforeCopying": 0,
+          "afterCopying": 0,
+          "afterActivities": {
+            "expedition": 15,
+            "rest": 8,
+            "headquarters": 4
+          }
+        },
+        {
+          "chapter": 8,
+          "beforePhases": 34,
+          "afterPhases": 34,
+          "beforeCopying": 0,
+          "afterCopying": 0,
+          "afterActivities": {
+            "field-patrol": 26,
+            "rest": 8
+          }
+        }
+      ],
+      "beforePhases": 297,
+      "afterPhases": 285,
+      "beforeCopying": 80,
+      "afterCopying": 23,
+      "unfedDays": 0,
+      "cheats": false,
+      "watchRoadPhasesSaved": 2,
+      "patrolImprovement": "supplies"
+    }
+  ],
+  "limits": [
+    "Chapter 8 totals include the post-chapter paid escort objective and recovery.",
+    "The earlier audit recorded internal Rest assignments during field patrols. Revised activity counts distinguish patrol time from rest.",
+    "Food costs and sleep alignment depend on the phase of day, so later chapters can gain or lose a phase even when their work is unchanged.",
+    "More explicit commission choices can add button clicks while reducing work phases.",
+    "Rendered UI and subjective play pace still need the deferred browser review."
+  ]
+}

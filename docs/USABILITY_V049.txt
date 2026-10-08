@@ -1,0 +1,27 @@
+Stonework and Spellcraft v0.49 — Room workspaces and getting established
+
+Room navigation
+- Entering the usable Library opens its research controls within a persistent Library header. Room activity buttons switch among research, study/training, letters and household content without losing the room context.
+- Other rooms reuse their existing controls for crafting, equipment, garden work, inventories, expedition planning, housing and social systems. Smithy jobs and vault controls remain in their room overview.
+- Room & facilities returns to construction, scene, artwork and amenity controls. Choose another room returns to the catalogue. Leaving for unrelated systems clears the room context.
+- Room workspaces are presentation only: browsing and switching tabs do not alter saves, assign work or advance phases. Existing independent system links still work.
+- Existing activities remain available before later headquarters upgrades. The room header explains this; construction is still needed for additional facilities and bonuses. This avoids locking an older campaign or the first lantern behind a new room requirement.
+- A room view offers Work in this room where a consolidated headquarters room exists. The new work header wraps on narrow screens; buttons have a 44px minimum height on small screens.
+
+Fresh-game guidance
+- Home tracks five optional milestones: hearth wards, first lantern, living wing, returned discovery and willing resident. These guide rather than lock progression; no deadline or recruitment obligation is introduced.
+- After the lantern, suggestions walk through kitchen, washroom, service wards, kettle crafting and installation, then the first waterworks expedition and a local introduction.
+- If the next basic project is unaffordable, guidance shows the shortfall, current copying income and required phases. Assign copying explicitly, Advance to earn money, then fund/resume the next project. No money is granted by guidance.
+- Paid crafting components are recognized as committed; active kettle work does not prompt another purchase. The default kettle suggestion uses sun amber and porous clay; the full crafting controls still allow other eligible components.
+- The last living-wing installation explains that the milestone is recorded on the next Advance, with a link to review other assigned work first.
+- Field guidance distinguishes core and public-pack expeditions and explains that findings must be brought home. Introductions, visits and membership remain separate.
+- Headquarters jobs are now included in the detailed Advance preview, including progress, pause and completion. Existing active work stays ahead of new suggestions on Home.
+
+Compatibility and verification
+- Save schema remains 40. No migration, balance change, new artwork, external service or co-op feature added. Accepted art, character identity, residents, rooms, inventory and existing project progress are preserved.
+- The current antique engraving aesthetic prompt remains unchanged. The v0.48 room art handoff and its asset targets remain valid.
+- New backend checks play through the ordinary fresh-game economy to a living wing, returned waterworks discovery and introduction, without cheats. Connected UI checks exercise room tabs, actual research and crafting, project funding, copying and navigation without save mutations.
+- See verification-v049.json for the final test totals. Rendered desktop/mobile verification remains outstanding. These are headless template/controller checks, not visual-browser approval.
+
+Install
+Keep your complete data directory, extract the updated source and run python server.py as before. Open Estate → Headquarters rooms, or follow Home’s suggested next step.

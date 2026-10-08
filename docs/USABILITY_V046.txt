@@ -1,0 +1,38 @@
+Stonework and Spellcraft v0.46 — arrival, navigation and solo progression
+
+Arrival
+- Newly created fresh games open a dedicated illustrated introduction before the dashboard. Reuses the accepted library illustration; no artwork generation.
+- Two choices, three branches each: your reason for coming and the first thing you notice. Choices save immediately, survive reload and use the normal revision/idempotency protections. No stat bonuses, resource changes, phase costs or path locks.
+- Getting settled explains the scholar, the old castle, starting rooms/resources, research -> first lantern, living-wing facilities, conservatory, expeditions/return, resident visits/membership/work agreements, copying income, Home/This phase/Goals and explicit Advance.
+- Enter without the remaining reflections is optional. Chosen reflections remain remembered; omitted choices are not invented. Journal and direct navigation allow rereading the arrival and guide.
+- An interrupted introduction resumes at the next unchosen step. A lost save response offers Retry safely. Existing saves have no arrival record and are not interrupted.
+
+Navigation and phase usability
+- Go directly to lists destinations grouped by activity. Navigation is read-only.
+- Mobile-width navigation is collapsed behind Navigate; choosing a destination closes it. Desktop secondary tools sit under At your desk. Sidebar scrolling keeps long menus reachable.
+- Home leads with the opening action before goals and task lists. It recognizes active founder projects, paused hearth research, missing research funds and away-state travel.
+- Advance labels its destination phase/day. Home and This phase show actual authoritative preview progress, forecast and paused work with links. Required field decisions expose an unavailable-button explanation instead of an unexplained failed Advance.
+- Phase buttons name commitments and actions. Ready neighbour deliveries disclose exact goods and rewards. Server readiness checks still decide whether a task can execute.
+- New controls use existing focus styling and explanatory disabled buttons. Arrival choices move focus to the updated content. Actual keyboard/touch behavior still needs rendered verification.
+
+Solo content
+Four additional scenes: The shape of a useful answer (hearth research), A room becoming familiar (day two onward at home), A place for the unfinished questions (fresh archive research), More than one place at the table (actual resident membership, not just a visit). Eight solo scenes total, each with two authored reflections. No expiry, mechanical rewards, phase costs or implicit relationships. Original four scenes retain their IDs and saved memories.
+
+Compatibility
+Save schema remains 39. New optional soloLife.arrival is initialized only by fresh campaign creation; migration does not retrofit it into an existing save. soloLife.moments retains existing choices. Co-op remains deferred. No external provider or image service is required. Existing data paths and upgrade procedure remain unchanged. Accepted art overrides/history are not rewritten. All bundled artwork and public source-content bytes match v0.45.
+
+Verification
+486 Python tests passed (479 existing plus seven new tests).
+23 connected headless UI suites passed (22 existing plus the arrival/progression suite). The arrival suite was rerun after final presentation edits.
+JavaScript syntax check passed.
+New rules coverage: all nine arrival combinations, skip at each stage, malformed/out-of-order/repeated choices, no gameplay effects, reload, request retry, stale revision rejection, old-save/art preservation, actual research progression, and real visitor-to-resident gating for the shared-roof scene.
+New UI coverage: introduction before shell, persisted choices and orientation, direct navigation without revision changes, menu state, Home ordering, active/paused work, phase labels, field-choice blocker, travel guidance and rereading.
+
+Rendered verification remains outstanding
+No local Chromium/Chrome/Firefox executable was present. Playwright Chromium installation failed because the returned download was not a valid archive. An isolated test server ran; the cloud browser refused http://127.0.0.1:8080 with net::ERR_BLOCKED_BY_CLIENT. No desktop/mobile page was rendered. Do not interpret the headless results as screenshot, layout, real focus or touch verification. Live providers, Docker and real co-op were not tested.
+
+Next accessible-browser pass
+At 1440x900 and 390x844, create a fresh game, choose both reflections, inspect the final guide, enter Home, expand/collapse navigation, use direct navigation by keyboard, start/pause/resume research, advance across evening into morning, craft the lantern, inspect unavailable controls, travel to a required choice, reload and reread the arrival. Check horizontal overflow, focus visibility/order, disabled explanations, dialog focus restoration, image sizing and touch targets. Use disposable saves.
+
+Install
+Stop the old server. Retain your complete data directory. Replace application files, then run python server.py --data-dir /path/to/existing/data. New game -> Fresh beginning shows the arrival. Continue opens established saves normally.

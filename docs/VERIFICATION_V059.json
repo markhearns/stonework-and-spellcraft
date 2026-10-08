@@ -1,0 +1,20 @@
+{
+  "version": "0.59",
+  "schemaVersion": 50,
+  "python": {
+    "tests": 646,
+    "seconds": 56.236,
+    "failures": 0,
+    "errors": 0
+  },
+  "targetedCompanionRegression": {
+    "tests": 16,
+    "failures": 0,
+    "includes": "Latest actual-contributor, retrained-role and journey-evidence checks"
+  },
+  "connectedUI": {
+    "suites": 35,
+    "failures": 0
+  },
+  "browserReview": "Blocked: missing local Chromium and cloud browser rejects local server. No screenshots or visual-layout pass claimed."
+}

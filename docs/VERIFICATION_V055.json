@@ -1,0 +1,31 @@
+{
+  "release": "0.55",
+  "saveSchema": 46,
+  "python": {
+    "total": 586,
+    "passed": true,
+    "seconds": 47.44,
+    "command": "python -m unittest discover -s tests"
+  },
+  "connectedUi": {
+    "total": 31,
+    "passed": 31,
+    "report": "UI_CHECKS_V055.json",
+    "method": "Connected headless UI/controller checks; no browser/layout testing."
+  },
+  "content": {
+    "authoredCompanions": 14,
+    "personalChapters": 56,
+    "wardrobeInvitations": 28,
+    "residentPairScenes": 16,
+    "specialistConversations": 33,
+    "roomActivityTypes": 13
+  },
+  "artwork": {
+    "baseline": "v0.54",
+    "bundledAssetFiles": 121,
+    "allUnchanged": true,
+    "differences": []
+  },
+  "browserVerification": "Deferred at user request; no rendered, touch or keyboard-layout QA claimed."
+}

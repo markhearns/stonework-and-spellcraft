@@ -1,0 +1,72 @@
+Stonework and Spellcraft — resident room enhancements (v0.52)
+
+1. Maren — Bovinefolk
+   Room: Workshop & material library
+   Enhancement: Maren’s restoration bench
+   Cost: 24 crowns; 3 assigned scholar phases.
+   Benefit: Adds +1 core artifact work per assigned maker at home.
+
+2. Brakka — Orc
+   Room: Smithy & armoury
+   Enhancement: Brakka’s fitted forge stations
+   Cost: 30 crowns; 3 assigned scholar phases.
+   Benefit: New metalware, blade and armour jobs take one fewer assigned phase, to a minimum of one. Already funded work keeps its agreed duration.
+
+3. Fenna — Wolfkin
+   Room: Common room & tavern
+   Enhancement: Fenna’s travellers’ exchange
+   Cost: 22 crowns; 3 assigned scholar phases.
+   Benefit: Each newly completed core expedition lead returns 1 extra binding thread through the tavern’s exchange of route notes and supplies. Once per lead, not per participant; no repeat-visit reward.
+
+4. Iona — Demon
+   Room: Command room & map table
+   Enhancement: Iona’s correspondence and dispatch desk
+   Cost: 26 crowns; 3 assigned scholar phases.
+   Benefit: Adds 2 crowns per assigned scholar copying phase through organised correspondence. No passive income; personal wallets remain separate.
+
+5. Kaede — Oni
+   Room: Training yard
+   Enhancement: Kaede’s controlled-strength circle
+   Cost: 30 crowns; 3 assigned scholar phases.
+   Benefit: Unlocks an advanced control drill: three assigned phases, awarding the scholar 2 advancement once. Practice requires an owned field blade and armour.
+
+6. Tamsin — Catfolk
+   Room: Kitchen & pantry
+   Enhancement: Tamsin’s preserving pantry
+   Cost: 28 crowns; 3 assigned scholar phases.
+   Benefit: Adds 2 crowns to each staffed surplus harvest by preserving produce for sale. No automatic sales or consumption of existing stock.
+
+7. Elowen — High elf
+   Room: Infirmary & apothecary
+   Enhancement: Elowen’s restorative ward alcove
+   Cost: 36 crowns; 3 assigned scholar phases.
+   Benefit: A quiet, warded preparation space adds one prepared-spell slot per household member. Does not teach spells or add practice slots; no injury meter is introduced.
+
+8. Nyssara — Drow
+   Room: Enchanting room
+   Enhancement: Nyssara’s enchantment assay bench
+   Cost: 32 crowns; 3 assigned scholar phases.
+   Benefit: Unlocks repeatable two-phase material jobs: one moon glass or two fireglass for 6 crowns per batch.
+
+9. Neris — Elemental
+   Room: Hot spring baths
+   Enhancement: Neris’s balanced thermal pools
+   Cost: 30 crowns; 3 assigned scholar phases.
+   Benefit: Unlocks a guided thermal-balance study: two assigned phases and 1 scholar advancement, once. Bathing itself remains optional and free.
+
+10. Aurelia — Seraph
+   Room: Guard barracks & watchroom
+   Enhancement: Aurelia’s shuttered watch lanterns
+   Cost: 32 crowns; 3 assigned scholar phases.
+   Benefit: Unlocks a watch drill: two assigned phases and 2 scholar advancement, once. Also prepares an ordinary field briefing here. Does not automatically assign guards.
+
+11. Sylva — Dryad
+   Room: Conservatory & potting benches
+   Enhancement: Sylva’s living propagation beds
+   Cost: 28 crowns; 3 assigned scholar phases.
+   Benefit: Adds 1 silver ivy to each staffed binding-plant harvest. Does not increase unattended root-tender production or surplus-sale income.
+
+All enhancements require the named person to have agreed to live at the castle, their first Resident stories conversation, the completed associated room, and the listed funds. They must remain resident and home during installation. Their own assignment is unchanged. Travel pauses the installation; cancellation refunds committed costs. Completed improvements remain permanent. New jobs have their own visible costs and requirements.
+
+Sylva is a 25-year-old dryad cultivator. Restore the conservatory and return a fern-nursery discovery to find her letter. A normal exotic contact ritual establishes contact; a visit and household membership remain separate agreements.
+

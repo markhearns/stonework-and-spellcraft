@@ -1,0 +1,47 @@
+{
+  "version": "0.80",
+  "schema": 59,
+  "baseline": {
+    "version": "0.79, before review fixes",
+    "pythonTests": 852,
+    "passed": true
+  },
+  "finalPython": {
+    "modules": [
+      "test_first_hearth",
+      "test_house_shape",
+      "test_room_to_grow",
+      "test_keeping_hearth",
+      "test_art_release",
+      "test_candidate_http"
+    ],
+    "tests": 46,
+    "passed": true,
+    "failures": 0,
+    "errors": 0
+  },
+  "newRegressionTests": {
+    "count": 4,
+    "passed": true,
+    "scope": "Two complete fresh-campaign routes through Chapters 1\u20134 plus archived, paused and shared preservation study"
+  },
+  "ui": {
+    "suites": 52,
+    "passed": true
+  },
+  "upgrade": {
+    "sourceVersion": "0.79",
+    "targetVersion": "0.80",
+    "savedStateUnchanged": true,
+    "partialResearchPreserved": true,
+    "acceptedPortraitPreserved": true,
+    "portraitBytesPreserved": true,
+    "backupContainsPortrait": true
+  },
+  "preservedArtwork": 210,
+  "preservedBundledArchives": 5,
+  "browser": {
+    "renderedReview": false,
+    "reason": "No local browser executable; cloud browser previously blocked the local preview. No bypass attempted."
+  }
+}

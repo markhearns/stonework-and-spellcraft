@@ -1,0 +1,125 @@
+{
+  "mode": "built-in image_gen",
+  "edits": [
+    {
+      "id": "kaede",
+      "path": "/assets/portraits/kaede.webp",
+      "prompt": "Use case: identity-preserve. Edit the attached Kaede portrait into a new wardrobe variant. Preserve exact clearly adult 24-year-old oni woman identity: red skin, TWO horns, very tall muscular curvy build, full bust, long dark navy hair, face and warm expression. Same antique engraving style, fine crosshatching, restrained muted violet/brown/dull brass. One full-body standing character, entire feet and horns in frame. Transparent background, no text. Only replace outfit and remove the cup. Barbarian-inspired rugged leather and subtle fur, NOT a dress or long flowing gown, no modern clothing. All chest and pelvic clothing opaque and securely covering. BASE outfit: dark leather sleeveless fitted cuirass over a muted violet sleeveless tunic, broad worn belt, charcoal full-length hide trousers, fur-trimmed sturdy calf boots, simple leather forearm bracers. Small fur shoulder mantle. Protective practical everyday outfit, waist covered.",
+      "bytes": 305304
+    },
+    {
+      "id": "kaede-outfit-2",
+      "path": "/assets/portraits/kaede-outfit-2.webp",
+      "prompt": "Use case: identity-preserve. Edit the attached Kaede portrait into a new wardrobe variant. Preserve exact clearly adult 24-year-old oni woman identity: red skin, TWO horns, very tall muscular curvy build, full bust, long dark navy hair, face and warm expression. Same antique engraving style, fine crosshatching, restrained muted violet/brown/dull brass. One full-body standing character, entire feet and horns in frame. Transparent background, no text. Only replace outfit and remove the cup. Barbarian-inspired rugged leather and subtle fur, NOT a dress or long flowing gown, no modern clothing. All chest and pelvic clothing opaque and securely covering. SECOND relaxed outfit: short sleeveless dark leather cropped vest with deep covered neckline, bare midriff, rugged violet-brown leather knee-length shorts, broad belt, leather bracers, fur-trimmed ankle boots. No mantle. Bare shoulders and lower legs.",
+      "bytes": 310030
+    },
+    {
+      "id": "kaede-outfit-3",
+      "path": "/assets/portraits/kaede-outfit-3.webp",
+      "prompt": "Use case: identity-preserve. Edit the attached Kaede portrait into a new wardrobe variant. Preserve exact clearly adult 24-year-old oni woman identity: red skin, TWO horns, very tall muscular curvy build, full bust, long dark navy hair, face and warm expression. Same antique engraving style, fine crosshatching, restrained muted violet/brown/dull brass. One full-body standing character, entire feet and horns in frame. Transparent background, no text. Only replace outfit and remove the cup. Barbarian-inspired rugged leather and subtle fur, NOT a dress or long flowing gown, no modern clothing. All chest and pelvic clothing opaque and securely covering. THIRD bold outfit: a fitted opaque dark leather halter bustier ending beneath the ribs, bare midriff, fitted upper-thigh leather shorts with a narrow fur-edged waistband, broad worn bronze-buckled belt, leather wrist cuffs, calf-high rugged boots with restrained fur trim. Bare strong thighs and shoulders. NO loincloth, no skirt panels, no dress. Confident relaxed standing pose.",
+      "bytes": 266632
+    },
+    {
+      "id": "aurelia",
+      "path": "/assets/portraits/aurelia.webp",
+      "prompt": "Use case: identity-preserve. Edit only the outfit of this clearly adult 24-year-old seraph woman. Preserve EXACT face, blonde braid, tan skin, curvy figure, two feathered wings, thin halo, held lantern and full-body pose. New practical BASE conservator outfit: high modest square-neck slate-violet long-sleeved fitted linen bodice, muted charcoal ankle-length work skirt with NO thigh slit, worn leather belt with small brass clasp, sturdy flat ankle boots. Sleeves end at wrists. Back tailored for wings. Opaque fabric, no cleavage emphasis. Antique engraved fantasy style and fine crosshatching unchanged. Transparent background, no text, keep all wings, halo and feet in frame.",
+      "bytes": 386544
+    },
+    {
+      "id": "aurelia-outfit-2",
+      "path": "/assets/portraits/aurelia-outfit-2.webp",
+      "prompt": "Use case: identity-preserve. Outfit variant for the exact clearly adult 24-year-old seraph Aurelia in this reference. Preserve face, blonde braid, tan skin, curves, feathered wings and halo. SECOND relaxed outfit: soft plum off-shoulder blouse with short loose elbow-length sleeves, open collarbones and a modestly low covered neckline; fitted waist with thin dull-brass belt; charcoal knee-length wrap skirt, bare lower legs, flat delicate sandals. No full-length dress, no long robe, no high thigh slit, no midriff. Remove lantern, relaxed hands gently folded near waist. Entire figure, feet, halo and wings in frame. Same antique etched fantasy style and crosshatching. Transparent background, no text.",
+      "bytes": 376888
+    },
+    {
+      "id": "neris-outfit-3",
+      "path": "/assets/portraits/neris-outfit-3.webp",
+      "prompt": "Use case: identity-preserve. Replace only this clearly adult 21-year-old water elemental Neris's clothing. Preserve exact face, blue-aqua skin, silver wavy bob, finlike ears, curvy adult physique and friendly standing pose. She works in the castle hot springs. THIRD outfit: tasteful opaque deep indigo and plum two-piece fantasy bathing costume: secure halter swim top with small dull-brass clasp, matching full-coverage high-waisted swim briefs; a very short plum side-tied hip wrap leaves most of her legs visible. Bare midriff, bare shoulders, bare feet. Medieval-fantasy textile construction, no logos, no modern sportswear details, no dress, no shoes. Fully covered bust and pelvis, not transparent or wet-look cloth. Exact antique engraved style, etched crosshatching. Full figure and feet entirely visible. Transparent background, no scene, no text.",
+      "bytes": 237346
+    },
+    {
+      "id": "sabine-outfit-2",
+      "path": "/assets/portraits/sabine-outfit-2.webp",
+      "prompt": "Use case: identity-preserve. Replace only the clothing of this adult 22-year-old vampire woman Sabine. Preserve her pale face, auburn bob, small fangs, adult proportions, sealed letters in hand and same standing pose. SECOND outfit should be medieval-fantasy, not modern officewear: soft deep wine off-shoulder peasant blouse with loose elbow sleeves, fitted black laced waist cincher, dark charcoal knee-length softly gathered skirt with one knee-high side opening, flat leather slippers. Bare collarbones and shoulders, low but covered neckline, lower legs visible. No button-down shirt, no pencil skirt, no modern pumps. Opaque fabric. Antique engraving style, fine hatching, dull-brass jewelry. Full body, feet in frame, transparent background, no text.",
+      "bytes": 215034
+    },
+    {
+      "id": "mira",
+      "path": "/assets/portraits/mira.webp",
+      "prompt": "Use case: identity-preserve. Make a small clothing correction to the attached adult 22-year-old Mira portrait. Keep EXACT face, copper curls, green eyes, curvy adult proportions, book, pose, teal-blue scholar dress and engraving style. Close the dress's high thigh slit completely so its full-length skirt covers both legs down to the boots. Raise neckline slightly to a modest square neckline, retain the existing long sleeves and belt. This is her practical base archivist outfit; later outfits will be more revealing. No new garments, no shawl, no changes to face or hair. Full body, feet visible, transparent background, no text.",
+      "bytes": 309996
+    },
+    {
+      "id": "sylva",
+      "path": "/assets/portraits/sylva.webp",
+      "prompt": "Use case: identity-preserve. Evolve this adult 25-year-old dryad Sylva into a genuinely botanical nonhuman forest spirit, not a human with green body paint. Retain her recognizable gentle feminine face, adult curvy proportions, chestnut hair colour, potted seedling and full-body standing composition. Her body combines smooth pale olive sapwood with real flowing wood-grain and raised bark seams at shoulders, outer arms and shins; graceful elongated leaf-shaped ears; amber eyes with elongated dark pupils; small delicate branching wooden crown growing naturally at the temples; hair interwoven with living willow tendrils, fern fronds, tiny cream blossoms and moss. Her fingers remain usable five-digit hands, with subtly root-shaped woody fingertips. Bare feet have graceful woody root-like toes, firmly connected to the same two legs. BASE garment: opaque layered broad green leaves forming a fitted covered bodice and a calf-length overlapping bark-and-leaf skirt, braided living-vine belt. Natural plant structure, not metal armor, not body paint or a monster. Preserve antique engraving linework, restrained botanical colours. Entire head, branch crown and feet in frame. Transparent background, no scenery, no text. Fully covered chest and pelvis.",
+      "bytes": 430494
+    },
+    {
+      "id": "sabine",
+      "path": "/assets/portraits/sabine.webp",
+      "prompt": "Use case: identity-preserve. Small clothing edit to this exact adult vampire Sabine portrait. Preserve face, auburn bob, fangs, expression, body, seal in hand and antique engraved style. This is her BASE work outfit: close the thigh slit so the layered ankle-length skirt covers both legs down to the boots, and fasten the wine blouse neckline slightly higher while retaining its open collar. Keep the fitted dark brocade waistcoat, rolled sleeves, belt and boots. Modest practical seal-engraver ensemble, no modern garments. Nothing else changes. Full body, transparent background, no text.",
+      "bytes": 332422
+    },
+    {
+      "id": "fenna-outfit-2",
+      "path": "/assets/portraits/fenna-outfit-2.webp",
+      "prompt": "Use case: identity-preserve. Replace only clothing of this adult 22-year-old wolfkin Fenna. Preserve exact face, silver hair, wolf ears, one bushy wolf tail, adult body and full standing pose. SECOND relaxed routekeeper outfit: moss-green sleeveless fitted lace-front crop blouse, low but securely covered neckline, a small strip of bare midriff, charcoal knee-length fitted breeches, plum sash at waist, practical flat leather ankle boots. Bare arms, shoulders and lower legs. No high-neck blouse, no long sleeves, no long skirt, no frills, no modern clothes. Distinct outdoorsy fantasy separates. Antique engraved style and crosshatching. Full figure with tail and feet in frame, transparent background, no text.",
+      "bytes": 230584
+    },
+    {
+      "id": "iona-outfit-2",
+      "path": "/assets/portraits/iona-outfit-2.webp",
+      "prompt": "Use case: identity-preserve. Outfit variant for this exact clearly adult 23-year-old demon surveyor Iona. Preserve face, copper curls, TWO small curved horns, pointed ears, fair freckled skin and adult figure. Same antique engraved fantasy style and restrained navy/rust palette. One full-body standing character, horns and feet entirely in frame. Transparent background, no text. Medieval-fantasy fabrics, no modern garments. SECOND outfit: navy sleeveless soft wrap crop blouse with a low but fully covered neckline, narrow strip of bare midriff, rust sash, charcoal knee-length breeches, flat leather sandals. Keep a small folded map in one hand. No coat, no long skirt, no dress. Bare shoulders, arms and lower legs.",
+      "bytes": 289098
+    },
+    {
+      "id": "iona",
+      "path": "/assets/portraits/iona.webp",
+      "prompt": "Use case: identity-preserve. Outfit variant for this exact clearly adult 23-year-old demon surveyor Iona. Preserve face, copper curls, TWO small curved horns, pointed ears, fair freckled skin and adult figure. Same antique engraved fantasy style and restrained navy/rust palette. One full-body standing character, horns and feet entirely in frame. Transparent background, no text. Medieval-fantasy fabrics, no modern garments. BASE working outfit: fitted dark navy surveyor tunic with a modest lace-up neckline and rolled elbow sleeves, rust leather short waistcoat, charcoal full-length fitted trousers, utility belt and map satchel, flat worn calf boots. Keep rolled map in hand. Practical trail clothing, no skirt or dress, waist covered.",
+      "bytes": 266460
+    },
+    {
+      "id": "iona-outfit-3",
+      "path": "/assets/portraits/iona-outfit-3.webp",
+      "prompt": "Use case: identity-preserve. Outfit variant for this exact clearly adult 23-year-old demon surveyor Iona. Preserve face, copper curls, TWO small curved horns, pointed ears, fair freckled skin and adult figure. Same antique engraved fantasy style and restrained navy/rust palette. One full-body standing character, horns and feet entirely in frame. Transparent background, no text. Medieval-fantasy fabrics, no modern garments. THIRD outfit: opaque navy halter crop top with low covered neckline, short rust-and-charcoal asymmetric wrap overskirt over fitted upper-thigh shorts, bare midriff and legs, flat lace-up leather sandals. Remove map and work bag, one hand lightly at waist. Confident off-duty surveyor. No long dress, no long fabric train. Secure coverage of bust and pelvis.",
+      "bytes": 281286
+    },
+    {
+      "id": "brakka",
+      "path": "/assets/portraits/brakka.webp",
+      "prompt": "Use case: identity-preserve. Image 1 is the APPROVED FACE reference. Image 2 is the full-body CLOTHING and POSE target. Replace ONLY image 2's head/face with the exact adult 25-year-old orc woman's face from image 1. Preserve image 1's broad orc nose, strong feminine jaw and cheekbones, pronounced brow, warm amber eyes, olive green skin, black braid and youthful adult appearance. MOST IMPORTANT copy the open smiling MOUTH and TWO LOWER CANINE TUSKS exactly from image 1: both tusks physically emerge from inside the lower mouth, with roots behind the lower lip, not floating on cheeks. Maintain a slight open smile showing inner mouth and teeth as reference. Do not close the mouth or separate tusks from it. Keep ALL clothing, muscular curvy body, hands, legs and pose from image 2 unchanged. One full-body figure, entire boots/feet and ears in frame, same antique etched fantasy illustration. Transparent background, no text. Do not make a head-only portrait: full-body final game asset.",
+      "bytes": 277064
+    },
+    {
+      "id": "brakka-outfit-2",
+      "path": "/assets/portraits/brakka-outfit-2.webp",
+      "prompt": "Use case: identity-preserve. Image 1 is the APPROVED FACE reference. Image 2 is the full-body CLOTHING and POSE target. Replace ONLY image 2's head/face with the exact adult 25-year-old orc woman's face from image 1. Preserve image 1's broad orc nose, strong feminine jaw and cheekbones, pronounced brow, warm amber eyes, olive green skin, black braid and youthful adult appearance. MOST IMPORTANT copy the open smiling MOUTH and TWO LOWER CANINE TUSKS exactly from image 1: both tusks physically emerge from inside the lower mouth, with roots behind the lower lip, not floating on cheeks. Maintain a slight open smile showing inner mouth and teeth as reference. Do not close the mouth or separate tusks from it. Keep ALL clothing, muscular curvy body, hands, legs and pose from image 2 unchanged. One full-body figure, entire boots/feet and ears in frame, same antique etched fantasy illustration. Transparent background, no text. Do not make a head-only portrait: full-body final game asset.",
+      "bytes": 249552
+    },
+    {
+      "id": "brakka-outfit-3",
+      "path": "/assets/portraits/brakka-outfit-3.webp",
+      "prompt": "Use case: identity-preserve. Image 1 is the APPROVED FACE reference. Image 2 is the full-body CLOTHING and POSE target. Replace ONLY image 2's head/face with the exact adult 25-year-old orc woman's face from image 1. Preserve image 1's broad orc nose, strong feminine jaw and cheekbones, pronounced brow, warm amber eyes, olive green skin, black braid and youthful adult appearance. MOST IMPORTANT copy the open smiling MOUTH and TWO LOWER CANINE TUSKS exactly from image 1: both tusks physically emerge from inside the lower mouth, with roots behind the lower lip, not floating on cheeks. Maintain a slight open smile showing inner mouth and teeth as reference. Do not close the mouth or separate tusks from it. Keep ALL clothing, muscular curvy body, hands, legs and pose from image 2 unchanged. One full-body figure, entire boots/feet and ears in frame, same antique etched fantasy illustration. Transparent background, no text. Do not make a head-only portrait: full-body final game asset.",
+      "bytes": 221292
+    },
+    {
+      "id": "sylva-outfit-2",
+      "path": "/assets/portraits/sylva-outfit-2.webp",
+      "prompt": "Use case: identity-preserve. Edit target/reference: attached character portrait. Replace only clothing with opaque leaf wrap crop top revealing midriff, knee-length overlapping leaf skirt and vine belt. Remove potted plant; relaxed hands. Preserve distinctive living sapwood body, bark grain, branch crown, leaf ears, amber eyes, chestnut hair with fern leaves and cream flowers, root-like feet. Clearly adult 25-year-old dryad. Keep the exact painterly fantasy illustration style, full-body head-to-toe framing, character identity and body proportions. One character only. Transparent background, no text, no nudity, no additional props.",
+      "bytes": 356772
+    },
+    {
+      "id": "sylva-outfit-3",
+      "path": "/assets/portraits/sylva-outfit-3.webp",
+      "prompt": "Use case: identity-preserve. Edit target/reference: attached character portrait. Replace only clothing with opaque leaf halter bustier and short upper-thigh overlapping petal skirt over fully covering woven-leaf shorts, bare midriff and legs. Remove potted plant; relaxed hands. Preserve distinctive living sapwood body, bark grain, branch crown, leaf ears, amber eyes, chestnut hair with fern leaves and cream flowers, root-like feet. Clearly adult 25-year-old dryad. Keep the exact painterly fantasy illustration style, full-body head-to-toe framing, character identity and body proportions. One character only. Transparent background, no text, no nudity, no additional props.",
+      "bytes": 331366
+    },
+    {
+      "id": "fenna-outfit-3",
+      "path": "/assets/portraits/fenna-outfit-3.webp",
+      "prompt": "Use case: identity-preserve. Edit target/reference: attached character portrait. Change clothing to opaque moss-green leather halter crop top with attractive low neckline, upper-thigh charcoal leather shorts, narrow plum hip sash and flat leather boots. Keep same face, silver hair, wolf ears and fluffy tail, proportions and anatomy. Clearly adult 22-year-old wolfkin. Keep the exact painterly fantasy illustration style, full-body head-to-toe framing, character identity and body proportions. One character only. Transparent background, no text, no nudity, no additional props.",
+      "bytes": 201890
+    }
+  ]
+}

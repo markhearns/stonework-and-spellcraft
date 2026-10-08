@@ -1,0 +1,41 @@
+{
+  "version": "0.72",
+  "schemaVersion": 59,
+  "python": {
+    "tests": 811,
+    "passed": 811,
+    "command": "python -m unittest discover -s tests -q",
+    "seconds": 105.725,
+    "newWorkerTests": 16
+  },
+  "ui": {
+    "suites": 47,
+    "passed": 47,
+    "newWorkerSuite": "test_ui_headquarters_workers.cjs",
+    "note": "46 suites passed in initial full run; specialist-presence wording corrected and affected suite passed on rerun."
+  },
+  "syntax": {
+    "javascript": true,
+    "python": true
+  },
+  "migration": {
+    "sourceSchema": 58,
+    "targetSchema": 59,
+    "allPreviousFieldsPreserved": true,
+    "customArtworkBytesPreserved": true,
+    "fundedJobContinues": true,
+    "automaticDatabaseBackup": true
+  },
+  "artwork": {
+    "priorFiles": 152,
+    "priorFilesUnchanged": 152,
+    "newFiles": 1,
+    "logoBytes": 430444,
+    "sourceContentUnchanged": true,
+    "report": "PRESERVATION_V072.json"
+  },
+  "browserVisualReview": false,
+  "browserBlocker": "No Chromium, Chrome, Firefox or bundled browser executable found; no rendered browser review claimed.",
+  "paidProvidersUsedForGameplay": false,
+  "liveCampaignModified": false
+}

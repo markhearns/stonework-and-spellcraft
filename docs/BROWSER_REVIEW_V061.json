@@ -1,0 +1,8 @@
+{
+  "status": "not performed",
+  "visualReviewCompleted": false,
+  "screenshotsInspected": 0,
+  "priorEvidence": "BROWSER_REVIEW_V059.json",
+  "limitation": "Local Chromium was unavailable and cloud browser could not reach the local server. Browser setup has not changed.",
+  "fallback": "37 connected template/controller suites against the Python game store pass."
+}

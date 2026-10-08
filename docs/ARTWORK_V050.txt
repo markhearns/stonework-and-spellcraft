@@ -1,0 +1,31 @@
+Stonework and Spellcraft v0.50 — Engraved castle artwork
+
+Integrated artwork
+- All 34 supplied room WebPs are used, byte-for-byte at their supplied 1600×900 size, across 57 independent room slots. The six original room illustrations are replaced. Repeated bedroom families share defaults while retaining independent overrides.
+- All 22 headquarters spaces now show their artwork in the catalogue, room overview and activity header. Unrestored rooms explicitly label the picture as a restored-room illustration; requirements and construction progress remain authoritative.
+- Ember and Quiet chambers now have individual illustration review/import/rollback slots. Their supplied family art appears in specialized capacity; these remain specialized care rooms, not residential beds.
+- 23 other bundled rasters were restyled with built-in image generation: 17 character portraits/wardrobe variants/personal scenes, Rainward observatory, and five UI assets (two icon atlases, castle emblem, botanical frame, paper texture). Existing identity references, poses, clothing, ancestry details and compositions guided every character edit. Transparent inputs remain RGBA with transparent pixels; native dimensions are unchanged. Four runtime WebP portraits and the observatory were encoded at quality 90; PNG outputs were copied unchanged.
+- The exact user-approved prompt remains in AESTHETIC_PROMPT.txt. The in-game founder portrait brief now includes it. No paid external provider was invoked.
+
+Cleanup and saves
+- Removed 18 superseded files: six old room rasters, seven obsolete portrait versions, the redundant paper-grain SVG, and four unused historical style-only reference PNGs. Old release archives and the supplied source archive are not modified.
+- Fourteen old bundled URLs are served as aliases to current art, including their correct image media types. No duplicate raster files are kept for those aliases. Historical documentation below v0.50 may mention retired file paths; they describe earlier versions.
+- User-assets, accepted imported portraits and rooms, artwork history, identities, inventory, progression and database records are untouched. Per-save overrides take precedence over new bundled defaults. A rollback to a historical bundled URL now displays that asset's current restyle; accepted uploaded versions still restore their exact saved files.
+- Save schema remains 40. Co-op, combat and autonomous guards remain deferred.
+
+Included development
+This release includes the completed v0.49 room workspaces and fresh-game guidance: persistent room activity navigation, optional opening milestones, specific income/funding guidance, committed crafting-material recognition, living-wing and expedition guidance, separate visiting/membership decisions and headquarters work in Advance previews. See USABILITY_V049.txt. No restart is required.
+
+Verification
+526 Python tests pass (the 522-test regression run plus four new art-release checks). All 26 connected headless UI suites pass; headquarters artwork/chamber review navigation was additionally rerun after final changes. New checks exercise all 34 room file URLs and 14 legacy aliases through the real HTTP server, exact supplied room hashes, all active raster hashes, independent chamber imports, save reopening, backups, rollback and read-only preservation of existing overrides/history.
+All supplied images and generated outputs received visual inspection; dimensions and transparency were checked. This is asset review, not rendered application QA. Desktop/mobile browser rendering, focus, scrolling and touch verification remain outstanding under the documented browser-access blocker.
+
+Upgrade
+Extract into a new program folder, then move/copy your complete existing data directory into it while the old server is stopped. Start python server.py as before. Keep the old data backup until the upgraded save opens successfully. Using a new program folder avoids leaving obsolete files behind from earlier ZIP overlays. Do not delete data/assets: those are your accepted imports and rollback images.
+
+Provenance
+ROOM_ART_RETURN_V048.json: supplied source manifest and hashes (its original pending-integration status is historical).
+ROOM_ART_INTEGRATION_V050.json: current slot mappings and integration status.
+ART_RESTYLE_V050.json: final filenames, prompts, method, dimensions and hashes.
+ART_CLEANUP_V050.json: exact deleted bundled/reference files and replacement paths.
+verification-v050.json: automated results and remaining rendered-QA limitation.

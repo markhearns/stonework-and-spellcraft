@@ -1,0 +1,58 @@
+{
+  "version": "0.84",
+  "schema": 60,
+  "scope": "Party preparation, current encounter details, per-visit return receipts and linked follow-ups",
+  "python": {
+    "suites": 93,
+    "tests": 892,
+    "passed": true,
+    "fullSuiteRerun": true
+  },
+  "headlessUI": {
+    "suites": 55,
+    "passed": true,
+    "allUISuitesRerun": true,
+    "renderedBrowser": false
+  },
+  "campaignRoutes": {
+    "count": 2,
+    "chapters": 5,
+    "earnedResources": true,
+    "receiptEquipmentContributionsVerified": true
+  },
+  "upgrade": {
+    "sourceVersion": "0.83",
+    "targetVersion": "0.84",
+    "existingFieldsPreserved": true,
+    "schema60": true,
+    "schemaChangeRequired": false,
+    "partialResearchPreserved": true,
+    "acceptedPortraitPreserved": true,
+    "portraitBytesPreserved": true,
+    "backupContainsPortrait": true,
+    "reloadIdempotent": true
+  },
+  "assets": {
+    "unchangedRuntimeImages": 248,
+    "unchangedBundledArchives": 5,
+    "newImages": 0
+  },
+  "browser": {
+    "renderedReview": false,
+    "reason": "User screenshots deferred; previous local preview blocked."
+  },
+  "changedExistingFiles": [
+    "README.md",
+    "START_HERE.md",
+    "companion_participation.py",
+    "game.py",
+    "server.py",
+    "static/app.js",
+    "static/style.css",
+    "tests/test_candidate_http.py",
+    "tests/test_chapter_five_flow.py",
+    "tests/test_ui_companion_participation.cjs",
+    "tests/test_ui_party_journeys.cjs"
+  ],
+  "newRuntimeModule": "expedition_loop.py"
+}

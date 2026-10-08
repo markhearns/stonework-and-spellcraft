@@ -1,0 +1,126 @@
+{
+  "version": "0.100",
+  "schema": 65,
+  "newBehaviorTests": {
+    "passed": 29,
+    "file": "tests/test_refinements_v100.py",
+    "scope": [
+      "commission quotes, agreement, finite lessons and exact refunds",
+      "routine evening rest, multiple workers, stock targets, follow-up work and manual reassignment",
+      "saved work arrangement resumption and actual work rooms",
+      "all four objectives, peaceful task rewards and bounded advancement",
+      "all three spell conditions, second-worker completion and retreat refunds",
+      "all three companion improvements and first actual retaliation cover",
+      "equipped signature proof, personal refinement, work-only homecoming unlocks",
+      "specific bounded follow-ups and reviewed party preparation",
+      "seven castle clues, preserved lore, restored lamp and optional resonance study",
+      "read-only public views and persistent idempotent API retries"
+    ],
+    "fixtures": "Controlled focused fixtures; the earned campaigns below use ordinary actions and no cheats."
+  },
+  "python": {
+    "initialFullHistoricalRun": {
+      "tests": 1066,
+      "assertionFailures": 20,
+      "failingMethods": 14,
+      "status": "All 14 affected methods pass in focused reruns after fixes. The entire suite was not repeated."
+    },
+    "passingFollowupBatches": [
+      {
+        "tests": 87,
+        "modules": [
+          "test_character_quests",
+          "test_delegation",
+          "test_house_shape",
+          "test_personal_stories",
+          "test_romance",
+          "test_refinements_v100"
+        ],
+        "note": "Before two final new cases were added to test_refinements_v100."
+      },
+      {
+        "tests": 86,
+        "modules": [
+          "test_refinements_v100",
+          "test_art_release",
+          "test_art_v053",
+          "test_candidate_http",
+          "test_field_patrols",
+          "test_patrol_refinement"
+        ]
+      },
+      {
+        "tests": 21,
+        "modules": [
+          "test_dialogue",
+          "test_scene_drafts"
+        ]
+      }
+    ],
+    "notes": [
+      "Batch counts overlap and must not be summed as distinct tests.",
+      "Legacy Advance keeps its original object behavior when no routines are present; new routine execution is staged.",
+      "Artwork assertions now include the existing v0.94 route art and v0.99 replacements; historical manifests are unchanged.",
+      "The old HTTP version assertion now expects v0.100."
+    ]
+  },
+  "ui": {
+    "passed": 4,
+    "scripts": [
+      "test_ui_refinements_v100.cjs",
+      "test_ui_field_patrols.cjs",
+      "test_ui_combat_refinement.cjs",
+      "test_ui_daily_plan.cjs"
+    ],
+    "scope": "Headless Node VM DOM/template/controller checks using real Python game/API persistence. No rendered-browser review.",
+    "syntax": "node --check static/app.js passed"
+  },
+  "campaign": {
+    "test": "test_refinement_campaign_v100.py",
+    "routes": [
+      {
+        "route": "solo",
+        "commissionsCompletedCumulative": 6,
+        "day": 104,
+        "funds": 104,
+        "provisions": 546,
+        "unfedDays": 0,
+        "cheats": false,
+        "objectiveComplete": true,
+        "objectiveId": "escort",
+        "enemyLootAwarded": false
+      },
+      {
+        "route": "meet",
+        "commissionsCompletedCumulative": 12,
+        "day": 100,
+        "funds": 112,
+        "provisions": 490,
+        "unfedDays": 0,
+        "cheats": false,
+        "objectiveComplete": true,
+        "objectiveId": "escort",
+        "enemyLootAwarded": false
+      }
+    ],
+    "reload": "JSON serialization and migration after each ordinary action.",
+    "income": "Six external commissions per route during the later chapters; earlier chapter helpers retain copying.",
+    "result": "Both routes complete all eight chapters, then an objective delivery using task steps, without enemy loot or cheats."
+  },
+  "compatibility": {
+    "baseline": "Actual code extracted from stonework-and-spellcraft-v0.99.zip",
+    "save": "Exact state after migration and public read of an original v0.99 save. New commission completes, previously funded research resumes, and saved private lore is unchanged.",
+    "images": {
+      "checked": 279,
+      "changed": 0,
+      "comparison": "SHA-256 against the v0.99 archive"
+    },
+    "existingData": "Preserve the complete data directory when upgrading; no live save or credentials bundled."
+  },
+  "writing": "Standing plain-English rule recorded in WRITING_GUIDE.md and added to generated dialogue, journal, scene and proposal instructions.",
+  "limitations": [
+    "Rendered browser UI review is deferred at the user\u2019s request.",
+    "Focused fixtures and two earned campaign routes do not establish optimal long-term balance.",
+    "No external language-model provider was contacted for the dialogue prompt change."
+  ]
+}

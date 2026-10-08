@@ -1,0 +1,60 @@
+{
+  "version": "0.92",
+  "schema": 65,
+  "scope": "Full 977-test gameplay run followed by affected-module reruns and 6 new tests; not one uninterrupted final 983-test run. Headless UI integration, not browser-rendered layout review.",
+  "python": {
+    "distinctTestsCovered": 983,
+    "initialFullRun": {
+      "tests": 977,
+      "seconds": 475.746,
+      "failures": 20,
+      "errors": 1
+    },
+    "affectedRerun": {
+      "tests": 204,
+      "seconds": 112.38,
+      "failures": 3,
+      "errors": 0
+    },
+    "finalAffectedRerun": {
+      "tests": 88,
+      "seconds": 8.624,
+      "failures": 0,
+      "errors": 1
+    },
+    "finalArtRerun": {
+      "tests": 5,
+      "passed": true
+    },
+    "outstandingFailures": 0,
+    "resolutions": [
+      "Updated roster/scene counts and age expectations.",
+      "Reassigned shared and peer scenes to remaining characters, retaining participation coverage.",
+      "Registered new bathing assets and removed retired assets from integrity manifests.",
+      "Preserved exact structured public-pack content checks while allowing previously revised display summaries.",
+      "Removed old intermediate Tamsin age reset during legacy migration."
+    ]
+  },
+  "ui": {
+    "scripts": 60,
+    "initialPassed": 57,
+    "initialFailed": 3,
+    "rerunScripts": 4,
+    "rerunPassed": 4,
+    "outstandingFailures": 0,
+    "checks": "All companion room-specialty panels; all 45 bathing character-room combinations; normal portrait restoration; recruitment portrait resolution; existing controller integrations."
+  },
+  "assets": {
+    "newBathingPortraits": 15,
+    "optimizedBytes": 2049762,
+    "format": "WebP, RGBA, 768 x 1152",
+    "allRuntimeReferencesExist": true,
+    "retiredPortraitFilesRemoved": 6,
+    "manifest": "ART_V092.json",
+    "prompts": "BATHING_ART_V092.json"
+  },
+  "limitations": [
+    "Browser-rendered layout review was not performed.",
+    "Bathing artwork uses opaque two-piece wraps; topless generation was rejected by the image service."
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "tool": "built-in image_gen",
+  "assets": [
+    {
+      "id": "warm-twist",
+      "prompt": null,
+      "designBrief": "spindle wrapped in ivy and thread",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "root-song",
+      "prompt": null,
+      "designBrief": "root-covered tuning fork",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "luminous-copy",
+      "prompt": null,
+      "designBrief": "quill and blank parchment",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "clarify-glass",
+      "prompt": null,
+      "designBrief": "rough glass transforming into clear lenses",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "research-lens",
+      "prompt": null,
+      "designBrief": "magnifier over blank pages",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "craft-hand",
+      "prompt": null,
+      "designBrief": "wooden articulated hand and needle",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "copy-lamp",
+      "prompt": null,
+      "designBrief": "oil lamp and quill",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "focus-guide",
+      "prompt": null,
+      "designBrief": "crystal-tipped stylus with brass lattice",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "bedroom-ward",
+      "prompt": null,
+      "designBrief": "corded wood threshold",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "green-frame",
+      "prompt": null,
+      "designBrief": "ivy-covered greenhouse arch",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "foundation-line",
+      "prompt": null,
+      "designBrief": "plumb bob above three stones",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "field-compass",
+      "prompt": null,
+      "designBrief": "compass and blank map",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "water-jet",
+      "prompt": null,
+      "designBrief": "clay vessel pouring directed blue water",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "wind-step",
+      "prompt": null,
+      "designBrief": "boot lifted by air",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "borne-flight",
+      "prompt": null,
+      "designBrief": "wind lifting a cloak",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "fire-lance",
+      "prompt": null,
+      "designBrief": "flame projecting from iron rod",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "ice-bind",
+      "prompt": null,
+      "designBrief": "ring bound in ice crystals",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "arc-bolt",
+      "prompt": null,
+      "designBrief": "lightning between metal conductors",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "dawn-lance",
+      "prompt": null,
+      "designBrief": "sunburst dissolving bone charm",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "mending-light",
+      "prompt": null,
+      "designBrief": "linen bandage and healing leaves",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "giant-grasp",
+      "prompt": null,
+      "designBrief": "stone gauntlet lifting rock",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "lucid-sight",
+      "prompt": "Use case: stylized-concept. Create ONE square game spell icon for Stonework and Spellcraft. Subject: A polished glass lens inside a brass eye-shaped amulet, violet glimmer of insight. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "borrowed-hour",
+      "prompt": null,
+      "designBrief": "hourglass and violet time ribbons",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "threshold-fold",
+      "prompt": null,
+      "designBrief": "two stone portals linked by folded violet ribbon",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "calm-tide",
+      "prompt": "Use case: stylized-concept. Create ONE square game spell icon for Stonework and Spellcraft. Subject: A single blue water droplet hovering over a still pool and a smooth heart-shaped stone. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "silver-tongue",
+      "prompt": "Use case: stylized-concept. Create ONE square game spell icon for Stonework and Spellcraft. Subject: A curling silver speech ribbon, a small brass bell and two worn coins. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "mirror-decoy",
+      "prompt": "Use case: stylized-concept. Create ONE square game spell icon for Stonework and Spellcraft. Subject: An oval antique hand mirror reflecting a mysterious hooded silhouette, representing an illusory distraction. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "wisp-scout",
+      "prompt": null,
+      "designBrief": "gold wisp above viewing lens",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "water-walk",
+      "prompt": null,
+      "designBrief": "boot above concentric water ripples",
+      "note": "Subject brief retained; shared art direction: square transparent colored copperplate engraving, aged materials, navy shadows, violet/brass accents, readable silhouette, no lettering or background scene."
+    },
+    {
+      "id": "water-breath",
+      "prompt": "Use case: stylized-concept. Create ONE square game spell or ritual icon for Stonework and Spellcraft. Subject: An air bubble enclosing a fresh green leaf above a blue crest of water. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "archive-circle",
+      "prompt": "Use case: stylized-concept. Create ONE square game spell or ritual icon for Stonework and Spellcraft. Subject: Three closed blank antique books arranged around a short lit ritual candle. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "maker-circle",
+      "prompt": "Use case: stylized-concept. Create ONE square game spell or ritual icon for Stonework and Spellcraft. Subject: A worn artisan hammer and measuring tools on a wooden block inside a simple brass ring. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "garden-circle",
+      "prompt": "Use case: stylized-concept. Create ONE square game spell or ritual icon for Stonework and Spellcraft. Subject: A clay seed vessel with intertwined ivy roots and a strong emerging shoot inside a woven ring. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "sanctuary-circle",
+      "prompt": "Use case: stylized-concept. Create ONE square game ritual icon for Stonework and Spellcraft. Subject: A tiny stone hearth with a comforting ember, a linen bandage and an olive branch arranged in a circle. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "market-circle",
+      "prompt": "Use case: stylized-concept. Create ONE square game ritual icon for Stonework and Spellcraft. Subject: Balanced antique brass scales, two worn coins and trade weights. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "anchor-circle",
+      "prompt": "Use case: stylized-concept. Create ONE square game ritual icon for Stonework and Spellcraft. Subject: A stone doorway with an old anchor-shaped iron key wrapped in violet cord. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "welcome-circle",
+      "prompt": "Use case: stylized-concept. Create ONE square game ritual icon for Stonework and Spellcraft. Subject: An unlatched wooden door with green leaves and a warm lantern inside a simple ring. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    },
+    {
+      "id": "foundation-circle",
+      "prompt": "Use case: stylized-concept. Create ONE square game ritual icon for Stonework and Spellcraft. Subject: Four fitted foundation stones, a brass plumb bob and a taut loop of survey cord. Antique colored copperplate engraving, dense etched hatching, aged real materials, navy shadows, restrained violet and brass accents. Strong recognizable silhouette readable at 48 pixels, centered with 15% clear margin. Transparent background. No lettering, numbers, frame, logo, cartoon, plastic CGI or background scene.\n",
+      "designBrief": null,
+      "note": "Exact prompt retained"
+    }
+  ]
+}

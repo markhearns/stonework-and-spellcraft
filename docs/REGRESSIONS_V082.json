@@ -1,0 +1,114 @@
+{
+  "python": [
+    {
+      "suite": "test_armoury_http.py",
+      "passed": true,
+      "tests": 1,
+      "seconds": 0.85
+    },
+    {
+      "suite": "test_armoury_integration.py",
+      "passed": true,
+      "tests": 4,
+      "seconds": 4.11
+    },
+    {
+      "suite": "test_equipment.py",
+      "passed": true,
+      "tests": 3,
+      "seconds": 0.26
+    },
+    {
+      "suite": "test_focus.py",
+      "passed": true,
+      "tests": 6,
+      "seconds": 1.28
+    },
+    {
+      "suite": "test_encounters.py",
+      "passed": true,
+      "tests": 8,
+      "seconds": 0.8
+    },
+    {
+      "suite": "test_headquarters_workers.py",
+      "passed": true,
+      "tests": 16,
+      "seconds": 1.02
+    },
+    {
+      "suite": "test_guidance.py",
+      "passed": true,
+      "tests": 5,
+      "seconds": 0.34
+    },
+    {
+      "suite": "test_art_release.py",
+      "passed": true,
+      "tests": 4,
+      "seconds": 0.71
+    },
+    {
+      "suite": "test_candidate_http.py",
+      "passed": true,
+      "tests": 1,
+      "seconds": 0.42
+    },
+    {
+      "suite": "test_armoury.py",
+      "passed": true,
+      "tests": 15,
+      "seconds": 1.2
+    },
+    {
+      "suite": "test_equipment_playability.py",
+      "passed": true,
+      "tests": 6,
+      "seconds": 0.59
+    },
+    {
+      "suite": "test_chapter_five_flow.py",
+      "passed": true,
+      "tests": 1,
+      "seconds": 42.61
+    }
+  ],
+  "headlessUI": [
+    {
+      "suite": "test_ui_armoury.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 2.14
+    },
+    {
+      "suite": "test_ui_equipment.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.73
+    },
+    {
+      "suite": "test_ui_lantern_adventure.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 8.31
+    },
+    {
+      "suite": "test_ui_room_navigation.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.72
+    },
+    {
+      "suite": "test_ui_overview_portraits.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 0.52
+    },
+    {
+      "suite": "test_ui_equipment_playability.cjs",
+      "passed": true,
+      "tests": null,
+      "seconds": 3.86
+    }
+  ]
+}

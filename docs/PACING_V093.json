@@ -1,0 +1,911 @@
+{
+  "before": {
+    "passed": true,
+    "routes": [
+      {
+        "chapters": {
+          "1": {
+            "actions": 44,
+            "advances": 25,
+            "copyingAdvances": 5,
+            "restAdvances": 2,
+            "overnights": 8,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 2,
+            "start": {
+              "day": 1,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 9,
+              "phase": "afternoon"
+            }
+          },
+          "2": {
+            "actions": 130,
+            "advances": 70,
+            "copyingAdvances": 28,
+            "restAdvances": 0,
+            "overnights": 23,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 6,
+            "start": {
+              "day": 9,
+              "phase": "afternoon"
+            },
+            "end": {
+              "day": 32,
+              "phase": "evening"
+            }
+          },
+          "3": {
+            "actions": 41,
+            "advances": 28,
+            "copyingAdvances": 16,
+            "restAdvances": 0,
+            "overnights": 10,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 32,
+              "phase": "evening"
+            },
+            "end": {
+              "day": 42,
+              "phase": "morning"
+            }
+          },
+          "4": {
+            "actions": 92,
+            "advances": 54,
+            "copyingAdvances": 28,
+            "restAdvances": 2,
+            "overnights": 18,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 12,
+            "start": {
+              "day": 42,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 60,
+              "phase": "morning"
+            }
+          },
+          "5": {
+            "actions": 97,
+            "advances": 49,
+            "copyingAdvances": 20,
+            "restAdvances": 0,
+            "overnights": 16,
+            "maxConsecutiveAdvances": 8,
+            "maxActionsWithoutAdvance": 8,
+            "start": {
+              "day": 60,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 76,
+              "phase": "afternoon"
+            }
+          },
+          "6": {
+            "actions": 40,
+            "advances": 20,
+            "copyingAdvances": 0,
+            "restAdvances": 2,
+            "overnights": 7,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 76,
+              "phase": "afternoon"
+            },
+            "end": {
+              "day": 83,
+              "phase": "morning"
+            }
+          },
+          "7": {
+            "actions": 58,
+            "advances": 29,
+            "copyingAdvances": 0,
+            "restAdvances": 7,
+            "overnights": 9,
+            "maxConsecutiveAdvances": 5,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 83,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 92,
+              "phase": "evening"
+            }
+          }
+        }
+      },
+      {
+        "chapters": {
+          "1": {
+            "actions": 46,
+            "advances": 25,
+            "copyingAdvances": 5,
+            "restAdvances": 1,
+            "overnights": 8,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 2,
+            "start": {
+              "day": 1,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 9,
+              "phase": "afternoon"
+            }
+          },
+          "2": {
+            "actions": 130,
+            "advances": 70,
+            "copyingAdvances": 28,
+            "restAdvances": 0,
+            "overnights": 23,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 6,
+            "start": {
+              "day": 9,
+              "phase": "afternoon"
+            },
+            "end": {
+              "day": 32,
+              "phase": "evening"
+            }
+          },
+          "3": {
+            "actions": 46,
+            "advances": 33,
+            "copyingAdvances": 19,
+            "restAdvances": 0,
+            "overnights": 11,
+            "maxConsecutiveAdvances": 7,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 32,
+              "phase": "evening"
+            },
+            "end": {
+              "day": 43,
+              "phase": "evening"
+            }
+          },
+          "4": {
+            "actions": 69,
+            "advances": 42,
+            "copyingAdvances": 24,
+            "restAdvances": 0,
+            "overnights": 14,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 12,
+            "start": {
+              "day": 43,
+              "phase": "evening"
+            },
+            "end": {
+              "day": 57,
+              "phase": "evening"
+            }
+          },
+          "5": {
+            "actions": 114,
+            "advances": 53,
+            "copyingAdvances": 20,
+            "restAdvances": 1,
+            "overnights": 18,
+            "maxConsecutiveAdvances": 8,
+            "maxActionsWithoutAdvance": 11,
+            "start": {
+              "day": 57,
+              "phase": "evening"
+            },
+            "end": {
+              "day": 75,
+              "phase": "afternoon"
+            }
+          },
+          "6": {
+            "actions": 39,
+            "advances": 19,
+            "copyingAdvances": 0,
+            "restAdvances": 2,
+            "overnights": 6,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 75,
+              "phase": "afternoon"
+            },
+            "end": {
+              "day": 81,
+              "phase": "evening"
+            }
+          },
+          "7": {
+            "actions": 56,
+            "advances": 27,
+            "copyingAdvances": 0,
+            "restAdvances": 8,
+            "overnights": 9,
+            "maxConsecutiveAdvances": 5,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 81,
+              "phase": "evening"
+            },
+            "end": {
+              "day": 90,
+              "phase": "evening"
+            }
+          }
+        }
+      }
+    ],
+    "note": "Deterministic route actions and simulated phases, not measured human playtime. Optional reading, exploration and relationship content excluded."
+  },
+  "after": {
+    "passed": true,
+    "routes": [
+      {
+        "chapters": {
+          "1": {
+            "actions": 44,
+            "advances": 25,
+            "copyingAdvances": 5,
+            "restAdvances": 2,
+            "overnights": 8,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 2,
+            "start": {
+              "day": 1,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 9,
+              "phase": "afternoon"
+            }
+          },
+          "2": {
+            "actions": 130,
+            "advances": 70,
+            "copyingAdvances": 28,
+            "restAdvances": 0,
+            "overnights": 23,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 6,
+            "start": {
+              "day": 9,
+              "phase": "afternoon"
+            },
+            "end": {
+              "day": 32,
+              "phase": "evening"
+            }
+          },
+          "3": {
+            "actions": 42,
+            "advances": 28,
+            "copyingAdvances": 16,
+            "restAdvances": 0,
+            "overnights": 10,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 6,
+            "start": {
+              "day": 32,
+              "phase": "evening"
+            },
+            "end": {
+              "day": 42,
+              "phase": "morning"
+            }
+          },
+          "4": {
+            "actions": 96,
+            "advances": 54,
+            "copyingAdvances": 28,
+            "restAdvances": 2,
+            "overnights": 18,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 12,
+            "start": {
+              "day": 42,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 60,
+              "phase": "morning"
+            }
+          },
+          "5": {
+            "actions": 97,
+            "advances": 49,
+            "copyingAdvances": 20,
+            "restAdvances": 0,
+            "overnights": 16,
+            "maxConsecutiveAdvances": 8,
+            "maxActionsWithoutAdvance": 8,
+            "start": {
+              "day": 60,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 76,
+              "phase": "afternoon"
+            }
+          },
+          "6": {
+            "actions": 40,
+            "advances": 20,
+            "copyingAdvances": 0,
+            "restAdvances": 2,
+            "overnights": 7,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 76,
+              "phase": "afternoon"
+            },
+            "end": {
+              "day": 83,
+              "phase": "morning"
+            }
+          },
+          "7": {
+            "actions": 58,
+            "advances": 29,
+            "copyingAdvances": 0,
+            "restAdvances": 7,
+            "overnights": 9,
+            "maxConsecutiveAdvances": 5,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 83,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 92,
+              "phase": "evening"
+            }
+          }
+        }
+      },
+      {
+        "chapters": {
+          "1": {
+            "actions": 46,
+            "advances": 25,
+            "copyingAdvances": 5,
+            "restAdvances": 1,
+            "overnights": 8,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 2,
+            "start": {
+              "day": 1,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 9,
+              "phase": "afternoon"
+            }
+          },
+          "2": {
+            "actions": 130,
+            "advances": 70,
+            "copyingAdvances": 28,
+            "restAdvances": 0,
+            "overnights": 23,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 6,
+            "start": {
+              "day": 9,
+              "phase": "afternoon"
+            },
+            "end": {
+              "day": 32,
+              "phase": "evening"
+            }
+          },
+          "3": {
+            "actions": 47,
+            "advances": 33,
+            "copyingAdvances": 19,
+            "restAdvances": 0,
+            "overnights": 11,
+            "maxConsecutiveAdvances": 7,
+            "maxActionsWithoutAdvance": 6,
+            "start": {
+              "day": 32,
+              "phase": "evening"
+            },
+            "end": {
+              "day": 43,
+              "phase": "evening"
+            }
+          },
+          "4": {
+            "actions": 70,
+            "advances": 42,
+            "copyingAdvances": 24,
+            "restAdvances": 0,
+            "overnights": 14,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 12,
+            "start": {
+              "day": 43,
+              "phase": "evening"
+            },
+            "end": {
+              "day": 57,
+              "phase": "evening"
+            }
+          },
+          "5": {
+            "actions": 114,
+            "advances": 53,
+            "copyingAdvances": 20,
+            "restAdvances": 1,
+            "overnights": 18,
+            "maxConsecutiveAdvances": 8,
+            "maxActionsWithoutAdvance": 11,
+            "start": {
+              "day": 57,
+              "phase": "evening"
+            },
+            "end": {
+              "day": 75,
+              "phase": "afternoon"
+            }
+          },
+          "6": {
+            "actions": 39,
+            "advances": 19,
+            "copyingAdvances": 0,
+            "restAdvances": 2,
+            "overnights": 6,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 75,
+              "phase": "afternoon"
+            },
+            "end": {
+              "day": 81,
+              "phase": "evening"
+            }
+          },
+          "7": {
+            "actions": 56,
+            "advances": 27,
+            "copyingAdvances": 0,
+            "restAdvances": 8,
+            "overnights": 9,
+            "maxConsecutiveAdvances": 5,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 81,
+              "phase": "evening"
+            },
+            "end": {
+              "day": 90,
+              "phase": "evening"
+            }
+          }
+        }
+      }
+    ],
+    "note": "Deterministic route actions and simulated phases, not measured human playtime. Optional reading, exploration and relationship content excluded."
+  },
+  "withDowntime": {
+    "passed": true,
+    "routes": [
+      {
+        "chapters": {
+          "1": {
+            "actions": 48,
+            "advances": 27,
+            "copyingAdvances": 5,
+            "restAdvances": 4,
+            "overnights": 9,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 2,
+            "start": {
+              "day": 1,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 10,
+              "phase": "morning"
+            }
+          },
+          "2": {
+            "actions": 134,
+            "advances": 72,
+            "copyingAdvances": 28,
+            "restAdvances": 2,
+            "overnights": 24,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 6,
+            "start": {
+              "day": 10,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 34,
+              "phase": "morning"
+            }
+          },
+          "3": {
+            "actions": 46,
+            "advances": 30,
+            "copyingAdvances": 16,
+            "restAdvances": 2,
+            "overnights": 10,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 6,
+            "start": {
+              "day": 34,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 44,
+              "phase": "morning"
+            }
+          },
+          "4": {
+            "actions": 101,
+            "advances": 57,
+            "copyingAdvances": 29,
+            "restAdvances": 4,
+            "overnights": 19,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 7,
+            "start": {
+              "day": 44,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 63,
+              "phase": "morning"
+            }
+          },
+          "5": {
+            "actions": 101,
+            "advances": 51,
+            "copyingAdvances": 19,
+            "restAdvances": 3,
+            "overnights": 17,
+            "maxConsecutiveAdvances": 7,
+            "maxActionsWithoutAdvance": 4,
+            "start": {
+              "day": 63,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 80,
+              "phase": "morning"
+            }
+          },
+          "6": {
+            "actions": 43,
+            "advances": 21,
+            "copyingAdvances": 0,
+            "restAdvances": 3,
+            "overnights": 7,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 80,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 87,
+              "phase": "morning"
+            }
+          },
+          "7": {
+            "actions": 58,
+            "advances": 29,
+            "copyingAdvances": 0,
+            "restAdvances": 7,
+            "overnights": 9,
+            "maxConsecutiveAdvances": 5,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 87,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 96,
+              "phase": "evening"
+            }
+          }
+        },
+        "downtime": [
+          {
+            "afterChapter": 1,
+            "start": {
+              "day": 9,
+              "phase": "afternoon"
+            },
+            "restedMorning": 10,
+            "participants": [
+              "founder"
+            ],
+            "conversation": null
+          },
+          {
+            "afterChapter": 2,
+            "start": {
+              "day": 33,
+              "phase": "afternoon"
+            },
+            "restedMorning": 34,
+            "participants": [
+              "founder"
+            ],
+            "conversation": null
+          },
+          {
+            "afterChapter": 3,
+            "start": {
+              "day": 43,
+              "phase": "afternoon"
+            },
+            "restedMorning": 44,
+            "participants": [
+              "founder"
+            ],
+            "conversation": null
+          },
+          {
+            "afterChapter": 4,
+            "start": {
+              "day": 62,
+              "phase": "afternoon"
+            },
+            "restedMorning": 63,
+            "participants": [
+              "founder"
+            ],
+            "conversation": null
+          },
+          {
+            "afterChapter": 5,
+            "start": {
+              "day": 79,
+              "phase": "morning"
+            },
+            "restedMorning": 80,
+            "participants": [
+              "founder"
+            ],
+            "conversation": null
+          },
+          {
+            "afterChapter": 6,
+            "start": {
+              "day": 86,
+              "phase": "evening"
+            },
+            "restedMorning": 87,
+            "participants": [
+              "founder",
+              "velis"
+            ],
+            "conversation": null
+          }
+        ]
+      },
+      {
+        "chapters": {
+          "1": {
+            "actions": 50,
+            "advances": 27,
+            "copyingAdvances": 5,
+            "restAdvances": 3,
+            "overnights": 9,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 2,
+            "start": {
+              "day": 1,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 10,
+              "phase": "morning"
+            }
+          },
+          "2": {
+            "actions": 134,
+            "advances": 72,
+            "copyingAdvances": 28,
+            "restAdvances": 2,
+            "overnights": 24,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 6,
+            "start": {
+              "day": 10,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 34,
+              "phase": "morning"
+            }
+          },
+          "3": {
+            "actions": 52,
+            "advances": 36,
+            "copyingAdvances": 19,
+            "restAdvances": 3,
+            "overnights": 12,
+            "maxConsecutiveAdvances": 7,
+            "maxActionsWithoutAdvance": 6,
+            "start": {
+              "day": 34,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 46,
+              "phase": "morning"
+            }
+          },
+          "4": {
+            "actions": 76,
+            "advances": 45,
+            "copyingAdvances": 24,
+            "restAdvances": 3,
+            "overnights": 15,
+            "maxConsecutiveAdvances": 6,
+            "maxActionsWithoutAdvance": 7,
+            "start": {
+              "day": 46,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 61,
+              "phase": "morning"
+            }
+          },
+          "5": {
+            "actions": 118,
+            "advances": 54,
+            "copyingAdvances": 20,
+            "restAdvances": 2,
+            "overnights": 18,
+            "maxConsecutiveAdvances": 8,
+            "maxActionsWithoutAdvance": 8,
+            "start": {
+              "day": 61,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 79,
+              "phase": "morning"
+            }
+          },
+          "6": {
+            "actions": 44,
+            "advances": 21,
+            "copyingAdvances": 0,
+            "restAdvances": 4,
+            "overnights": 7,
+            "maxConsecutiveAdvances": 3,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 79,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 86,
+              "phase": "morning"
+            }
+          },
+          "7": {
+            "actions": 55,
+            "advances": 26,
+            "copyingAdvances": 0,
+            "restAdvances": 7,
+            "overnights": 8,
+            "maxConsecutiveAdvances": 5,
+            "maxActionsWithoutAdvance": 5,
+            "start": {
+              "day": 86,
+              "phase": "morning"
+            },
+            "end": {
+              "day": 94,
+              "phase": "evening"
+            }
+          }
+        },
+        "downtime": [
+          {
+            "afterChapter": 1,
+            "start": {
+              "day": 9,
+              "phase": "afternoon"
+            },
+            "restedMorning": 10,
+            "participants": [
+              "founder"
+            ],
+            "conversation": null
+          },
+          {
+            "afterChapter": 2,
+            "start": {
+              "day": 33,
+              "phase": "afternoon"
+            },
+            "restedMorning": 34,
+            "participants": [
+              "founder"
+            ],
+            "conversation": null
+          },
+          {
+            "afterChapter": 3,
+            "start": {
+              "day": 45,
+              "phase": "morning"
+            },
+            "restedMorning": 46,
+            "participants": [
+              "founder"
+            ],
+            "conversation": null
+          },
+          {
+            "afterChapter": 4,
+            "start": {
+              "day": 60,
+              "phase": "morning"
+            },
+            "restedMorning": 61,
+            "participants": [
+              "founder"
+            ],
+            "conversation": null
+          },
+          {
+            "afterChapter": 5,
+            "start": {
+              "day": 78,
+              "phase": "evening"
+            },
+            "restedMorning": 79,
+            "participants": [
+              "founder",
+              "maren"
+            ],
+            "conversation": "personal:maren:0"
+          },
+          {
+            "afterChapter": 6,
+            "start": {
+              "day": 85,
+              "phase": "afternoon"
+            },
+            "restedMorning": 86,
+            "participants": [
+              "founder",
+              "maren",
+              "velis"
+            ],
+            "conversation": "personal:maren:1"
+          }
+        ]
+      }
+    ],
+    "withDowntime": true,
+    "note": "Deterministic route actions and simulated phases, not measured human playtime. Downtime mode chooses an available conversation and an evening at home between chapters. Reading time is not measured."
+  }
+}

@@ -1,0 +1,166 @@
+v0.50 status: all 34 requested illustrations have been received and integrated. Ember/Quiet chambers now have individual art slots. The original request follows for provenance; see ARTWORK_V050.txt for current status.
+
+STONEWORK AND SPELLCRAFT — HEADQUARTERS ROOM ART HANDOFF, v0.48
+
+Create the images in asset-requests.json. This replaces the earlier fragmented room-purpose shopping list. Produce 34 independently composed images, not composite sheets. The first six castle-room replacements are common-room, library, conservatory, bedchamber, west-chamber and garden-chamber. Their unchanged current images are in references/. Rainward observatory is an expedition site and is outside this room batch.
+
+STYLE
+Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving–inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.
+
+ROOM-SPECIFIC COMPOSITION CONSTRAINTS
+No people, readable text, interface, decorative frame, logo or watermark. Furnish the room naturally: the app does not need a large empty patch for crude furniture overlays. Keep doorways and walking routes plausible. Private/shared bedroom bed counts are strict. Existing reference images establish room identity and layout; the current aesthetic prompt takes precedence over their older painted rendering.
+
+DELIVERY
+One independent PNG master per request, preferably native 1600x900 or larger at 16:9. Supply a 1600x900 opaque WebP runtime. If native dimensions differ, preserve the actual native original, disclose dimensions and all crop/resize operations; do not claim an enlarged image is a high-resolution master. No crop from a multi-image generation sheet. Do not raster-edit room replacements procedurally. A labelled contact sheet is optional review support, never the master.
+
+Use exact IDs and paths in asset-requests.json. Supply a manifest containing ID, assetTargets, actual native dimensions, runtime dimensions, generation provenance when available, processing, SHA256, unresolved issues and review status. Do not mark images accepted merely because generated. No new lore, ownership, residents or mechanics may be inferred from painted props. Existing character artwork is out of scope.
+
+INTEGRATION
+This handoff requests generation, not automatic acceptance. Keep accepted room overrides and all character artwork authoritative. Generic family images have explicit target IDs but each room must retain independent future overrides. The Ember/Quiet chamber images have empty assetTargets because their current care screen has no individual artwork slot; integration is separate work. All other targets exist in v0.48. Do not invent targets from a filename.
+
+The previously returned original-art review archive contains four expedition scenes and twelve object drafts marked partial. It is a separate delivery, not a source of accepted room replacements. None of its drafts is integrated by this request.
+
+PRIORITY
+1. Six existing room replacements, warehouse, workshop, smithy, chapel and entry hall.
+2. Enchanting room, command room, training yard, infirmary, guard barracks and underground living quarters.
+3. Dungeon level, vault, hot spring, sauna and pool.
+4. Living gallery, bedroom-family images and specialized chamber studies.
+
+ROOM LIST AND BRIEFS
+
+1. Entry hall & reception [entry-hall]
+Sheltered stone entrance, worn reception desk, message board with no legible text, cloak hooks, benches and clear onward doors.
+Targets: entry-hall
+
+2. Common room & tavern [common-room]
+Small hearth, drinks counter with cups and bottles, mismatched comfortable seating, board-game table, book corner and space for informal music. Welcoming modest tavern at home, not a commercial inn.
+Targets: common-room
+
+3. Library & archive [library]
+Book-lined research room with one broad reading table, private desk recess, correspondence trays, compact binding press and study tools. Visually one coherent library, not five rooms.
+Targets: library
+
+4. Kitchen & pantry [kitchen]
+Practical stone range, food preparation bench, pantry shelves, ordinary cookware and shared dining nook.
+Targets: kitchen
+
+5. Washroom & laundry [washroom]
+Private screened washing spaces, basin and warm-water pipes, laundry bench, linen shelves and changing alcove.
+Targets: washroom
+
+6. Conservatory & potting benches [conservatory]
+Weathered timber and glass, stone half-walls, useful herbs and climbing plants, potting bench with soil trays, tool and pot storage, clear working path.
+Targets: conservatory
+
+7. Living quarters [living-quarters]
+Shared residential gallery with several closed bedroom doors, sitting nook and household storage. The view does not assert a bed count or depict occupants.
+Targets: living-quarters
+
+8. Warehouse & stores [warehouse]
+General castle stores: crates, shelving, sacks, labelled-but-unreadable drawers, receiving bench and expedition unpacking space. Broad clear aisles; no treasure hoard.
+Targets: warehouse
+
+9. Workshop & material library [workshop]
+Scarred assembly and repair benches, woodwork tools, material sample drawers, modest book or illustration repair area. No active forge; that is the smithy.
+Targets: workshop
+
+10. Smithy & armoury [smithy]
+Ventilated forge, anvil, quenching trough, metalworking tools, plain metalware, work-in-progress blade and armour, orderly armoury racks. Practical working scale.
+Targets: smithy
+
+11. Enchanting room [enchanting-room]
+Controlled inscription bench with a working tool and armour component, subtle ward apparatus, magical sample basin separated from books, shelves of repairable equipment. Restrained magic, no giant glowing circle.
+Targets: enchanting-room
+
+12. Command room & map table [command-room]
+Large map and planning table with unreadable route marks, field reports, equipment-check bench, modest assignment board and chairs. No throne or invented territorial map.
+Targets: command-room
+
+13. Infirmary & apothecary [infirmary]
+Clean quiet care beds with privacy curtains, apothecary drawers, dried herbs, wash basin and comfortable recovery chair. No patients or medical spectacle.
+Targets: infirmary
+
+14. Training yard [training-yard]
+Sheltered castle courtyard with training posts, sparring space, practice targets, equipment rack and resting bench. No soldiers or combat scene.
+Targets: training-yard
+
+15. Guard barracks & watchroom [guard-barracks]
+Watch desk, duty board without readable text, kit lockers, off-duty table and door leading to a separate dormitory. Do not paint beds into the service-room image.
+Targets: guard-barracks
+
+16. Underground living quarters [underground-quarters]
+Dry habitable lower stone gallery with ventilation shafts, modest reliable lamps, shared sitting nook, separate bedroom doors and no cell bars. Distinctly comfortable underground housing.
+Targets: underground-quarters
+
+17. Dungeon ward & secure workrooms [dungeons]
+Secure lower ward corridor with thick stone, sturdy doors, inspection bench and restrained ward fittings. No people, chains, torture devices or implied prisoners. Specialized chambers are separate views.
+Targets: dungeons
+
+18. Warded vault [vault]
+Late-game secure stone vault, layered mechanical and subtle magical locks, individual padded compartments, modest rare component cases and inspection table. Valuable through care and security, not heaps of gold.
+Targets: vault
+
+19. Hot spring baths [hot-spring]
+Natural thermal grotto integrated into the lower castle: mineral-edged warm pools, gentle steam, stone seating ledges, towels and screened changing alcoves. No bathers.
+Targets: hot-spring
+
+20. Sauna [sauna]
+Timber-lined sauna, tiered benches, stone heater, bucket and ladle, doorway to cool resting vestibule, low readable warm light.
+Targets: sauna
+
+21. Swimming pool [pool]
+Castle swimming hall, pool long enough for lengths, broad shallow entry steps, worn stone paving, towel benches, discreet changing doors and diffused window light.
+Targets: pool
+
+22. Chapel & sanctuary [chapel]
+Small old-stone sanctuary with simple benches, quiet focal table, memorial tokens and restrained lamps. Accommodate personal belief without invented compulsory deity, readable scripture or religious emblem.
+Targets: chapel
+
+23. Guest chamber [bedchamber]
+Exactly TWO separate beds, privacy screen, separate storage, rough stone and modest linen. Existing artwork is style reference; correct the picture to the current two-bed capacity.
+Targets: bedchamber
+
+24. West chamber [west-chamber]
+Exactly ONE bed, small writing desk, chest, closing door and recessed window.
+Targets: west-chamber
+
+25. Garden chamber [garden-chamber]
+Exactly TWO separate beds, personal chests, privacy screen, garden-facing windows and open central aisle.
+Targets: garden-chamber
+
+26. Gallery suites 1–5 [gallery-suite-family]
+Exactly ONE bed in a private castle room, desk, personal chest, closed door. One explicitly representative image for five existing room IDs.
+Targets: gallery-suite-1, gallery-suite-2, gallery-suite-3, gallery-suite-4, gallery-suite-5
+
+27. Upper chambers 1–4 [upper-chamber-family]
+Exactly FOUR separate beds, privacy screens, four storage places and a shared reading nook. One representative image for four room IDs.
+Targets: upper-chamber-1, upper-chamber-2, upper-chamber-3, upper-chamber-4
+
+28. Annex suites 1–5 [annex-suite-family]
+Exactly ONE bed in a modest restored annex room, private desk and storage. One representative image for five room IDs.
+Targets: annex-suite-1, annex-suite-2, annex-suite-3, annex-suite-4, annex-suite-5
+
+29. Annex chambers 1–5 [annex-chamber-family]
+Exactly FOUR separate beds, privacy screens, separate storage and reading table in the annex. One representative image for five room IDs.
+Targets: annex-chamber-1, annex-chamber-2, annex-chamber-3, annex-chamber-4, annex-chamber-5
+
+30. Lower private suite [lower-suite]
+Exactly ONE bed in a dry, ventilated underground chamber. Comfortable linen, desk, personal storage and closing door; no bars.
+Targets: lower-suite
+
+31. Lower shared chamber [lower-chamber]
+Exactly FOUR separate beds in dry lower living quarters, privacy screens, personal storage, ventilation and shared reading space; no bars.
+Targets: lower-chamber
+
+32. Guard dormitory [guard-dormitory]
+Exactly FOUR separate ordinary beds, privacy screens, personal lockers and a sitting nook. No compulsory uniforms or resident figures.
+Targets: guard-dormitory
+
+33. Ember chambers 1–5 [ember-chamber-family]
+Specialized heat-surge care room, heat-safe stone, restrained ward fittings, dignified resting space and visible safe access. No chains or prison imagery. Representative future art; no runtime chamber-art slots yet.
+Targets: Future integration only; no current slot.
+
+34. Quiet chambers 1–5 [quiet-chamber-family]
+Specialized echo/oath-isolation care room, soft sound-damping surfaces, subtle ward fixtures and dignified resting space. No bars or coercive imagery. Representative future art; no runtime chamber-art slots yet.
+Targets: Future integration only; no current slot.
+

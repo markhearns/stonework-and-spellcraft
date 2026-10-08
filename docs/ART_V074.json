@@ -1,0 +1,158 @@
+{
+  "method": "Built-in image generation tool",
+  "cardPrompts": {
+    "ledger": "Landscape 3:2 standalone fantasy game navigation card illustration, no text, no labels, no decorative frame. An open household ledger with neat non-readable ink columns, a small pile of dull coins, a quill, room-plan sketches and a simple brass lamp on a worn oak desk. Close still-life, practical castle household administration. Antique engraving-inspired fantasy illustration, meticulous etched lines and crosshatching, subtly worn print grain. Restrained near-monochrome charcoal and parchment with muted violet shadows and sparse dull brass. Dim but clearly readable, warm scholarly household mood. Natural perspective, believable objects, no glossy CGI, no photorealism, no palatial luxury. Compose a bold clear subject readable as a 320-pixel-wide card.",
+    "spellbook": "Landscape 3:2 standalone fantasy game navigation card illustration, no text, no labels, no decorative frame. A beautiful open heavily used grimoire showing precise hand-inked geometric diagrams and small plant studies, unreadable handwritten notes, loose parchment bookmarks, a little faceted glass and a dim candle on an old library desk. No floating objects or glowing magic. Antique engraving-inspired fantasy illustration, meticulous etched lines and crosshatching, subtly worn print grain. Restrained near-monochrome charcoal and parchment with muted violet shadows and sparse dull brass. Dim but clearly readable, warm scholarly household mood. Natural perspective, believable objects, no glossy CGI, no photorealism, no palatial luxury. Compose a bold clear subject readable as a 320-pixel-wide card.",
+    "rituals": "Landscape 3:2 standalone fantasy game navigation card illustration, no text, no labels, no decorative frame. A quiet castle ritual workroom: a carefully engraved circular working surface in stone with modest brass inlays, three unlit candles, a ceramic bowl and prepared botanical components, worn stone walls and shelving. Calm cooperative practical magic, no people, no glowing spectacle. Antique engraving-inspired fantasy illustration, meticulous etched lines and crosshatching, subtly worn print grain. Restrained near-monochrome charcoal and parchment with muted violet shadows and sparse dull brass. Dim but clearly readable, warm scholarly household mood. Natural perspective, believable objects, no glossy CGI, no photorealism, no palatial luxury. Compose a bold clear subject readable as a 320-pixel-wide card.",
+    "letters": "Standalone landscape 3:2 navigation card art for Stonework and Spellcraft. A close arrangement of folded parchment letters with muted burgundy wax seals, one opened letter of illegible flowing handwriting, a quill, ink pot and a small tied packet on a medieval oak writing desk beside a stone window. Warm invitation and correspondence, no legible words. Antique engraving-inspired fantasy illustration with meticulous etched linework, fine hatching and crosshatching, worn print texture. Charcoal, aged parchment, weathered brown gray, restrained violet shadows and dull brass. Dim but readable and welcoming, handmade scholarly castle atmosphere. Strong central subject readable at 320 pixels wide. Natural proportions, no people, no decorative frame, no logo, no caption, no glossy CGI, no photorealism or glowing magic.",
+    "history": "Standalone landscape 3:2 navigation card art for Stonework and Spellcraft. An old castle archive investigation still life: a rolled architectural parchment showing a tower plan, a worn iron key, a fragment of weathered carved stone, a faded heraldic seal and a small candle illuminating a stone recess. Quiet historical mystery; no skulls, ghosts, hidden lore revelations or readable text. Antique engraving-inspired fantasy illustration with meticulous etched linework, fine hatching and crosshatching, worn print texture. Charcoal, aged parchment, weathered brown gray, restrained violet shadows and dull brass. Dim but readable and welcoming, handmade scholarly castle atmosphere. Strong central subject readable at 320 pixels wide. Natural proportions, no people, no decorative frame, no logo, no caption, no glossy CGI, no photorealism or glowing magic.",
+    "materials": "Standalone landscape 3:2 navigation card art for Stonework and Spellcraft. A craftsman's material library still life: open wooden sample drawers with organized moon-colored glass pieces, amber, clay, skeins of thread, bundles of dried ivy and small weathered metal fittings. A few design folios and a balance scale behind. Clear varied tactile samples, not treasure. Antique engraving-inspired fantasy illustration with meticulous etched linework, fine hatching and crosshatching, worn print texture. Charcoal, aged parchment, weathered brown gray, restrained violet shadows and dull brass. Dim but readable and welcoming, handmade scholarly castle atmosphere. Strong central subject readable at 320 pixels wide. Natural proportions, no people, no decorative frame, no logo, no caption, no readable text, no glossy CGI, no photorealism or glowing magic.",
+    "equipment": "Standalone landscape 3:2 navigation card art for Stonework and Spellcraft. A practical scholar-artisan's personal equipment neatly arranged on a worn wooden bench: a leather tool roll holding fine chisels and an awl, a brass measuring caliper, a bound field notebook, a compact satchel and a simple carved wooden focus rod with restrained metal bands. No weapons, armor or modern objects. Antique engraving-inspired fantasy illustration with meticulous etched linework, fine hatching and crosshatching, worn print texture. Charcoal, aged parchment, weathered brown gray, restrained violet shadows and dull brass. Dim but readable and welcoming, handmade scholarly castle atmosphere. Strong central subject readable at 320 pixels wide. Natural proportions, no people, no decorative frame, no logo, no caption, no readable text, no glossy CGI, no photorealism or glowing magic."
+  },
+  "landscapeBrief": "Panoramic monochrome Gustave Dor\u00e9-inspired castle landscape: inhabited castle on wooded hill, river and stone bridge, distant mountains, detailed etched hatching, low-contrast charcoal, quiet left and center for UI text, no people or typography.",
+  "assets": [
+    {
+      "path": "/assets/ui/card-ledger-v074.webp",
+      "size": [
+        800,
+        533
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 82; method 6; proportional Lanczos resize from original PNG",
+      "bytes": 144456,
+      "sha256": "e1d6a4b6daf5dac891a07f208853b7a9a4dd00d9ca56a1e27cd94d684443c2f4"
+    },
+    {
+      "path": "/assets/ui/card-spellbook-v074.webp",
+      "size": [
+        800,
+        533
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 82; method 6; proportional Lanczos resize from original PNG",
+      "bytes": 132338,
+      "sha256": "6e658e064c773042dbe2cf2dc0903ad4f05ff7d5ad51b59127c3541215045633"
+    },
+    {
+      "path": "/assets/ui/card-rituals-v074.webp",
+      "size": [
+        800,
+        533
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 82; method 6; proportional Lanczos resize from original PNG",
+      "bytes": 130296,
+      "sha256": "e014be0ccf9a88098751f45b8730c9556087aff845f1a3aa960c9a7ecd657d3b"
+    },
+    {
+      "path": "/assets/ui/card-letters-v074.webp",
+      "size": [
+        800,
+        533
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 82; method 6; proportional Lanczos resize from original PNG",
+      "bytes": 141370,
+      "sha256": "a81c23996208e6804b19a7b6c0170151e4136758dc4f4e2c4eee98e842a74eb4"
+    },
+    {
+      "path": "/assets/ui/card-history-v074.webp",
+      "size": [
+        800,
+        533
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 82; method 6; proportional Lanczos resize from original PNG",
+      "bytes": 140214,
+      "sha256": "6c5417d3a5d0259b104e13fdaac85f8453a7e7d307e2117638489ddf62a5155f"
+    },
+    {
+      "path": "/assets/ui/card-materials-v074.webp",
+      "size": [
+        800,
+        533
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 82; method 6; proportional Lanczos resize from original PNG",
+      "bytes": 149290,
+      "sha256": "c0ec08631ef76f3297d2d043f1475843971765f354704f60ae15ff01f82cff74"
+    },
+    {
+      "path": "/assets/ui/card-equipment-v074.webp",
+      "size": [
+        800,
+        533
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 82; method 6; proportional Lanczos resize from original PNG",
+      "bytes": 150980,
+      "sha256": "96a579811390116c229c06cd442f1650f6f036148ef6e90074359ec875649519"
+    },
+    {
+      "path": "/assets/ui/castle-landscape-v074.webp",
+      "size": [
+        2048,
+        683
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 82; method 6; proportional Lanczos resize from original PNG",
+      "bytes": 213034,
+      "sha256": "c19618af4186a24eab452b6b92b16eb5f3b1a2f7b0998d0f0ed72efe3f97ae6e"
+    },
+    {
+      "path": "/assets/ui/stonework-and-spellcraft-logo-v074.webp",
+      "size": [
+        1200,
+        800
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 82; method 6; lossless alpha; proportional Lanczos resize",
+      "bytes": 255138,
+      "sha256": "e685b9345701c1310232fe61b819ffafdfdef1f81e41d7f3f320bd881aca11e6"
+    }
+  ],
+  "cardMapping": {
+    "headquarters": "entry-hall",
+    "ledger": "card-ledger",
+    "stores": "warehouse",
+    "containment": "dungeons",
+    "spells": "card-spellbook",
+    "rituals": "card-rituals",
+    "requests": "card-letters",
+    "mystery": "card-history",
+    "workshop": "workshop",
+    "publicWorkshop": "card-materials",
+    "focus": "enchanting-room",
+    "workroom": "card-ledger",
+    "equipment": "card-equipment"
+  },
+  "landscapePlacement": [
+    "topbar",
+    "mobile phase bar",
+    "system hub heading banners",
+    "title screen"
+  ],
+  "priorArtworkUnchanged": 153,
+  "optimization": {
+    "format": "WebP",
+    "quality": 82,
+    "method": 6,
+    "cardSize": [
+      800,
+      533
+    ],
+    "landscapeSize": [
+      2048,
+      683
+    ],
+    "totalBytes": 1457116,
+    "sourcePNGsBundled": false,
+    "existingAssetsReencoded": false,
+    "logoSize": [
+      1200,
+      800
+    ]
+  },
+  "logoBrief": "Create a distinctive restrained publisher's bookplate style GAME LOGO on a TRANSPARENT background, wide 3:2 composition. Exact lettering on two strongly readable centered lines: 'STONEWORK' then '& SPELLCRAFT'. A small, finely engraved vignette above the lettering depicts one modest weathered stone arched doorway with an open oak door, three uneven stone steps and a glimpse of a quiet desk and book inside. An inhabited useful castle, belonging and practical scholarship, not a royal fortress. The doorway illustration occupies only the top third; the two lines of lettering dominate. Typography: elegant sturdy old-style serif letterpress capitals, simple honest letterforms, slightly irregular printed ink edges, generous clean spacing. Warm pale parchment ink against transparency, with only sparse muted violet and dull brass detail in the doorway. No background rectangle, no shadow halo, no enclosing badge. No decorative swashes, no gold bevels, no metallic gradients, no crowns, no shields, no swords, no floating sparks, no symmetrical collage of props, no extra text, no tagline. Flat printed engraving, not a 3D videogame logo. Crisp silhouette and high legibility when reduced to 200px wide on midnight navy. Leave modest clear margin around the whole design. Apply this project's approved aesthetic precisely to the doorway engraving: Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving\u2013inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.\n",
+  "logoRefinement": "Simplified doorway vignette and transparent negative space; keep exact engraved title. Source aesthetic: AESTHETIC_PROMPT.txt. Final color revision: near-monochrome warm gray parchment, charcoal, weathered timber, faint gray-violet and tarnished brass; unlit lamp, no vibrant yellow or green."
+}

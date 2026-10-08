@@ -1,0 +1,51 @@
+{
+  "version": "0.78",
+  "schemaVersion": 59,
+  "python": {
+    "tests": 852,
+    "initialFullRun": {
+      "run": 852,
+      "passed": false,
+      "failures": [
+        [
+          "test_all_bundled_rasters_have_reviewed_live_uses (test_art_release.ArtReleaseTests.test_all_bundled_rasters_have_reviewed_live_uses)",
+          "Traceback (most recent call last):\n  File \"/workspace/scratch/75908f9bdc38/review/stonework-and-spellcraft/tests/test_art_release.py\", line 33, in test_all_bundled_rasters_have_reviewed_live_uses\n    self.assertEqual(actual,expected)\nAssertionError: Items in the first set but not the second:\nPosixPath('/workspace/scratch/75908f9bdc38/review/stonework-and-spellcraft/static/assets/locations/masquerade-manor.webp')\nPosixPath('/workspace/scratch/75908f9bdc38/review/stonework-and-spellcraft/static/assets/locations/lantern-pavilion.webp')\nPosixPath('/workspace/scratch/75908f9bdc38/review/stonework-and-spellcraft/static/assets/locations/frozen-skybridge.webp')\nPosixPath('/workspace/scratch/75908f9bdc38/review/stonework-and-spellcraft/static/assets/locations/flooded-monastery.webp')\nPosixPath('/workspace/scratch/75908f9bdc38/review/stonework-and-spellcraft/static/assets/locations/stormwatch-beacon.webp')\nPosixPath('/workspace/scratch/75908f9bdc38/review/stonework-and-spellcraft/static/assets/locations/cinder-aqueduct.webp')\n"
+        ]
+      ],
+      "errors": [],
+      "skipped": [],
+      "seconds": 228.89
+    },
+    "finalTargetedArtSuite": {
+      "tests": 4,
+      "passed": true
+    },
+    "finalStatus": "All tests passing after updating the artwork inventory audit; full suite was not repeated after this test-only correction."
+  },
+  "uiControllerSuitesPassed": 51,
+  "uiFinalTargetedRerun": "Chapter 4 connected UI passed after correcting assertion for automatic character-name markup; other 50 suites passed in full run.",
+  "javascriptSyntax": "passed",
+  "chapter4Validation": [
+    "Both defensive installations",
+    "Capture, parley, drive-away and established identity branches",
+    "Normal costs, time, materials and preservation research",
+    "Release, transfer and separate private-room recruitment",
+    "Sabine specialty, both personal quests and interactions",
+    "Atomic rejected actions, pure views, request retry and save reload",
+    "All 14 authored expedition sites have images, also visible during travel"
+  ],
+  "preservation": {
+    "unchangedArtworkFiles": 162,
+    "newOptimizedIllustrations": 6,
+    "unchangedBundledZips": 5,
+    "liveCampaignDataBundled": false
+  },
+  "limits": {
+    "renderedDesktopMobileReview": false,
+    "renderedReviewReason": "No Chromium executable installed. Connected UI/controller tests use DOM doubles and the real Python save/action service.",
+    "newArtworkVisuallyReviewed": true,
+    "liveProviderAcceptance": false,
+    "cooperativeAcceptance": false,
+    "dockerAcceptance": false
+  }
+}

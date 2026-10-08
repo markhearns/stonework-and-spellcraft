@@ -1,0 +1,34 @@
+{
+  "source": "stonework-and-spellcraft-art-return-v0.51-PARTIAL.zip",
+  "runtimeAsset": "static/assets/items-v052/weather-screen.png",
+  "sha256": "5232f631256b07910ec855e4ac2312f861f6b09373f397397fff10c92e2c8e55",
+  "dimensions": [
+    1024,
+    1024
+  ],
+  "mode": "RGBA",
+  "alphaRange": [
+    0,
+    255
+  ],
+  "bounds": [
+    103,
+    102,
+    921,
+    921
+  ],
+  "copiedWithoutModification": true,
+  "review": "Codex inspected supplied image; integrated as bundled icon. No player approval claimed.",
+  "deviations": [
+    "Warmer terracotta trough than requested grey-brown clay",
+    "Short water trickle at the trough outlet"
+  ],
+  "pending": [
+    "icons/cistern-filter.png",
+    "expeditions/quarry-shelter.png",
+    "expeditions/ridge-cistern.png"
+  ],
+  "existingRoomAndCharacterArtwork": "Unchanged",
+  "atlas": "Unchanged",
+  "renderedBrowserQA": "Outstanding"
+}

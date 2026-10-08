@@ -1,0 +1,35 @@
+{
+  "version": "0.98",
+  "result": "passed",
+  "fresh_generated_assets": 21,
+  "visual_review": "All 21 generations inspected; exported face crops reviewed at native scale. Corrected Sylva has green skin, leaf ears and natural woodgrain; rejected human-toned attempt excluded.",
+  "dimensions_match_corresponding_references": true,
+  "transparent_cutouts": 12,
+  "opaque_room_overviews": 9,
+  "http_byte_and_mime_checks": 21,
+  "hash_and_decode_checks": 21,
+  "python_checks": {
+    "tests": 36,
+    "result": "passed",
+    "modules": [
+      "tests.test_bathing_outfits",
+      "tests.test_outfits",
+      "tests.test_companion_almanac"
+    ]
+  },
+  "headless_ui_suites": {
+    "count": 3,
+    "result": "passed",
+    "files": [
+      "tests/test_ui_overview_portraits.cjs",
+      "tests/test_ui_outfits.cjs",
+      "tests/test_ui_almanac.cjs"
+    ]
+  },
+  "schema": 65,
+  "gameplay_changes": false,
+  "limitations": [
+    "Browser-rendered game layout was not reviewed.",
+    "File sizes are approximate matches, not byte-identical to different artwork."
+  ]
+}

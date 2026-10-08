@@ -1,0 +1,425 @@
+{
+  "release": "0.48",
+  "imageCount": 34,
+  "requests": [
+    {
+      "id": "entry-hall",
+      "name": "Entry hall & reception",
+      "assetTargets": [
+        "entry-hall"
+      ],
+      "runtimePath": "rooms/entry-hall.webp",
+      "masterPath": "masters/entry-hall.png",
+      "brief": "Sheltered stone entrance, worn reception desk, message board with no legible text, cloak hooks, benches and clear onward doors.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "common-room",
+      "name": "Common room & tavern",
+      "assetTargets": [
+        "common-room"
+      ],
+      "runtimePath": "rooms/common-room.webp",
+      "masterPath": "masters/common-room.png",
+      "brief": "Small hearth, drinks counter with cups and bottles, mismatched comfortable seating, board-game table, book corner and space for informal music. Welcoming modest tavern at home, not a commercial inn.",
+      "status": "requested",
+      "existingReference": "references/common-room.webp"
+    },
+    {
+      "id": "library",
+      "name": "Library & archive",
+      "assetTargets": [
+        "library"
+      ],
+      "runtimePath": "rooms/library.webp",
+      "masterPath": "masters/library.png",
+      "brief": "Book-lined research room with one broad reading table, private desk recess, correspondence trays, compact binding press and study tools. Visually one coherent library, not five rooms.",
+      "status": "requested",
+      "existingReference": "references/library.webp"
+    },
+    {
+      "id": "kitchen",
+      "name": "Kitchen & pantry",
+      "assetTargets": [
+        "kitchen"
+      ],
+      "runtimePath": "rooms/kitchen.webp",
+      "masterPath": "masters/kitchen.png",
+      "brief": "Practical stone range, food preparation bench, pantry shelves, ordinary cookware and shared dining nook.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "washroom",
+      "name": "Washroom & laundry",
+      "assetTargets": [
+        "washroom"
+      ],
+      "runtimePath": "rooms/washroom.webp",
+      "masterPath": "masters/washroom.png",
+      "brief": "Private screened washing spaces, basin and warm-water pipes, laundry bench, linen shelves and changing alcove.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "conservatory",
+      "name": "Conservatory & potting benches",
+      "assetTargets": [
+        "conservatory"
+      ],
+      "runtimePath": "rooms/conservatory.webp",
+      "masterPath": "masters/conservatory.png",
+      "brief": "Weathered timber and glass, stone half-walls, useful herbs and climbing plants, potting bench with soil trays, tool and pot storage, clear working path.",
+      "status": "requested",
+      "existingReference": "references/conservatory.webp"
+    },
+    {
+      "id": "living-quarters",
+      "name": "Living quarters",
+      "assetTargets": [
+        "living-quarters"
+      ],
+      "runtimePath": "rooms/living-quarters.webp",
+      "masterPath": "masters/living-quarters.png",
+      "brief": "Shared residential gallery with several closed bedroom doors, sitting nook and household storage. The view does not assert a bed count or depict occupants.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "warehouse",
+      "name": "Warehouse & stores",
+      "assetTargets": [
+        "warehouse"
+      ],
+      "runtimePath": "rooms/warehouse.webp",
+      "masterPath": "masters/warehouse.png",
+      "brief": "General castle stores: crates, shelving, sacks, labelled-but-unreadable drawers, receiving bench and expedition unpacking space. Broad clear aisles; no treasure hoard.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "workshop",
+      "name": "Workshop & material library",
+      "assetTargets": [
+        "workshop"
+      ],
+      "runtimePath": "rooms/workshop.webp",
+      "masterPath": "masters/workshop.png",
+      "brief": "Scarred assembly and repair benches, woodwork tools, material sample drawers, modest book or illustration repair area. No active forge; that is the smithy.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "smithy",
+      "name": "Smithy & armoury",
+      "assetTargets": [
+        "smithy"
+      ],
+      "runtimePath": "rooms/smithy.webp",
+      "masterPath": "masters/smithy.png",
+      "brief": "Ventilated forge, anvil, quenching trough, metalworking tools, plain metalware, work-in-progress blade and armour, orderly armoury racks. Practical working scale.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "enchanting-room",
+      "name": "Enchanting room",
+      "assetTargets": [
+        "enchanting-room"
+      ],
+      "runtimePath": "rooms/enchanting-room.webp",
+      "masterPath": "masters/enchanting-room.png",
+      "brief": "Controlled inscription bench with a working tool and armour component, subtle ward apparatus, magical sample basin separated from books, shelves of repairable equipment. Restrained magic, no giant glowing circle.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "command-room",
+      "name": "Command room & map table",
+      "assetTargets": [
+        "command-room"
+      ],
+      "runtimePath": "rooms/command-room.webp",
+      "masterPath": "masters/command-room.png",
+      "brief": "Large map and planning table with unreadable route marks, field reports, equipment-check bench, modest assignment board and chairs. No throne or invented territorial map.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "infirmary",
+      "name": "Infirmary & apothecary",
+      "assetTargets": [
+        "infirmary"
+      ],
+      "runtimePath": "rooms/infirmary.webp",
+      "masterPath": "masters/infirmary.png",
+      "brief": "Clean quiet care beds with privacy curtains, apothecary drawers, dried herbs, wash basin and comfortable recovery chair. No patients or medical spectacle.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "training-yard",
+      "name": "Training yard",
+      "assetTargets": [
+        "training-yard"
+      ],
+      "runtimePath": "rooms/training-yard.webp",
+      "masterPath": "masters/training-yard.png",
+      "brief": "Sheltered castle courtyard with training posts, sparring space, practice targets, equipment rack and resting bench. No soldiers or combat scene.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "guard-barracks",
+      "name": "Guard barracks & watchroom",
+      "assetTargets": [
+        "guard-barracks"
+      ],
+      "runtimePath": "rooms/guard-barracks.webp",
+      "masterPath": "masters/guard-barracks.png",
+      "brief": "Watch desk, duty board without readable text, kit lockers, off-duty table and door leading to a separate dormitory. Do not paint beds into the service-room image.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "underground-quarters",
+      "name": "Underground living quarters",
+      "assetTargets": [
+        "underground-quarters"
+      ],
+      "runtimePath": "rooms/underground-quarters.webp",
+      "masterPath": "masters/underground-quarters.png",
+      "brief": "Dry habitable lower stone gallery with ventilation shafts, modest reliable lamps, shared sitting nook, separate bedroom doors and no cell bars. Distinctly comfortable underground housing.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "dungeons",
+      "name": "Dungeon ward & secure workrooms",
+      "assetTargets": [
+        "dungeons"
+      ],
+      "runtimePath": "rooms/dungeons.webp",
+      "masterPath": "masters/dungeons.png",
+      "brief": "Secure lower ward corridor with thick stone, sturdy doors, inspection bench and restrained ward fittings. No people, chains, torture devices or implied prisoners. Specialized chambers are separate views.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "vault",
+      "name": "Warded vault",
+      "assetTargets": [
+        "vault"
+      ],
+      "runtimePath": "rooms/vault.webp",
+      "masterPath": "masters/vault.png",
+      "brief": "Late-game secure stone vault, layered mechanical and subtle magical locks, individual padded compartments, modest rare component cases and inspection table. Valuable through care and security, not heaps of gold.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "hot-spring",
+      "name": "Hot spring baths",
+      "assetTargets": [
+        "hot-spring"
+      ],
+      "runtimePath": "rooms/hot-spring.webp",
+      "masterPath": "masters/hot-spring.png",
+      "brief": "Natural thermal grotto integrated into the lower castle: mineral-edged warm pools, gentle steam, stone seating ledges, towels and screened changing alcoves. No bathers.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "sauna",
+      "name": "Sauna",
+      "assetTargets": [
+        "sauna"
+      ],
+      "runtimePath": "rooms/sauna.webp",
+      "masterPath": "masters/sauna.png",
+      "brief": "Timber-lined sauna, tiered benches, stone heater, bucket and ladle, doorway to cool resting vestibule, low readable warm light.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "pool",
+      "name": "Swimming pool",
+      "assetTargets": [
+        "pool"
+      ],
+      "runtimePath": "rooms/pool.webp",
+      "masterPath": "masters/pool.png",
+      "brief": "Castle swimming hall, pool long enough for lengths, broad shallow entry steps, worn stone paving, towel benches, discreet changing doors and diffused window light.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "chapel",
+      "name": "Chapel & sanctuary",
+      "assetTargets": [
+        "chapel"
+      ],
+      "runtimePath": "rooms/chapel.webp",
+      "masterPath": "masters/chapel.png",
+      "brief": "Small old-stone sanctuary with simple benches, quiet focal table, memorial tokens and restrained lamps. Accommodate personal belief without invented compulsory deity, readable scripture or religious emblem.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "bedchamber",
+      "name": "Guest chamber",
+      "assetTargets": [
+        "bedchamber"
+      ],
+      "runtimePath": "rooms/bedchamber.webp",
+      "masterPath": "masters/bedchamber.png",
+      "brief": "Exactly TWO separate beds, privacy screen, separate storage, rough stone and modest linen. Existing artwork is style reference; correct the picture to the current two-bed capacity.",
+      "status": "requested",
+      "existingReference": "references/bedchamber.webp"
+    },
+    {
+      "id": "west-chamber",
+      "name": "West chamber",
+      "assetTargets": [
+        "west-chamber"
+      ],
+      "runtimePath": "rooms/west-chamber.webp",
+      "masterPath": "masters/west-chamber.png",
+      "brief": "Exactly ONE bed, small writing desk, chest, closing door and recessed window.",
+      "status": "requested",
+      "existingReference": "references/west-chamber.webp"
+    },
+    {
+      "id": "garden-chamber",
+      "name": "Garden chamber",
+      "assetTargets": [
+        "garden-chamber"
+      ],
+      "runtimePath": "rooms/garden-chamber.webp",
+      "masterPath": "masters/garden-chamber.png",
+      "brief": "Exactly TWO separate beds, personal chests, privacy screen, garden-facing windows and open central aisle.",
+      "status": "requested",
+      "existingReference": "references/garden-chamber.webp"
+    },
+    {
+      "id": "gallery-suite-family",
+      "name": "Gallery suites 1\u20135",
+      "assetTargets": [
+        "gallery-suite-1",
+        "gallery-suite-2",
+        "gallery-suite-3",
+        "gallery-suite-4",
+        "gallery-suite-5"
+      ],
+      "runtimePath": "rooms/gallery-suite-family.webp",
+      "masterPath": "masters/gallery-suite-family.png",
+      "brief": "Exactly ONE bed in a private castle room, desk, personal chest, closed door. One explicitly representative image for five existing room IDs.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "upper-chamber-family",
+      "name": "Upper chambers 1\u20134",
+      "assetTargets": [
+        "upper-chamber-1",
+        "upper-chamber-2",
+        "upper-chamber-3",
+        "upper-chamber-4"
+      ],
+      "runtimePath": "rooms/upper-chamber-family.webp",
+      "masterPath": "masters/upper-chamber-family.png",
+      "brief": "Exactly FOUR separate beds, privacy screens, four storage places and a shared reading nook. One representative image for four room IDs.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "annex-suite-family",
+      "name": "Annex suites 1\u20135",
+      "assetTargets": [
+        "annex-suite-1",
+        "annex-suite-2",
+        "annex-suite-3",
+        "annex-suite-4",
+        "annex-suite-5"
+      ],
+      "runtimePath": "rooms/annex-suite-family.webp",
+      "masterPath": "masters/annex-suite-family.png",
+      "brief": "Exactly ONE bed in a modest restored annex room, private desk and storage. One representative image for five room IDs.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "annex-chamber-family",
+      "name": "Annex chambers 1\u20135",
+      "assetTargets": [
+        "annex-chamber-1",
+        "annex-chamber-2",
+        "annex-chamber-3",
+        "annex-chamber-4",
+        "annex-chamber-5"
+      ],
+      "runtimePath": "rooms/annex-chamber-family.webp",
+      "masterPath": "masters/annex-chamber-family.png",
+      "brief": "Exactly FOUR separate beds, privacy screens, separate storage and reading table in the annex. One representative image for five room IDs.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "lower-suite",
+      "name": "Lower private suite",
+      "assetTargets": [
+        "lower-suite"
+      ],
+      "runtimePath": "rooms/lower-suite.webp",
+      "masterPath": "masters/lower-suite.png",
+      "brief": "Exactly ONE bed in a dry, ventilated underground chamber. Comfortable linen, desk, personal storage and closing door; no bars.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "lower-chamber",
+      "name": "Lower shared chamber",
+      "assetTargets": [
+        "lower-chamber"
+      ],
+      "runtimePath": "rooms/lower-chamber.webp",
+      "masterPath": "masters/lower-chamber.png",
+      "brief": "Exactly FOUR separate beds in dry lower living quarters, privacy screens, personal storage, ventilation and shared reading space; no bars.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "guard-dormitory",
+      "name": "Guard dormitory",
+      "assetTargets": [
+        "guard-dormitory"
+      ],
+      "runtimePath": "rooms/guard-dormitory.webp",
+      "masterPath": "masters/guard-dormitory.png",
+      "brief": "Exactly FOUR separate ordinary beds, privacy screens, personal lockers and a sitting nook. No compulsory uniforms or resident figures.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "ember-chamber-family",
+      "name": "Ember chambers 1\u20135",
+      "assetTargets": [],
+      "runtimePath": "rooms/ember-chamber-family.webp",
+      "masterPath": "masters/ember-chamber-family.png",
+      "brief": "Specialized heat-surge care room, heat-safe stone, restrained ward fittings, dignified resting space and visible safe access. No chains or prison imagery. Representative future art; no runtime chamber-art slots yet.",
+      "status": "requested",
+      "existingReference": null
+    },
+    {
+      "id": "quiet-chamber-family",
+      "name": "Quiet chambers 1\u20135",
+      "assetTargets": [],
+      "runtimePath": "rooms/quiet-chamber-family.webp",
+      "masterPath": "masters/quiet-chamber-family.png",
+      "brief": "Specialized echo/oath-isolation care room, soft sound-damping surfaces, subtle ward fixtures and dignified resting space. No bars or coercive imagery. Representative future art; no runtime chamber-art slots yet.",
+      "status": "requested",
+      "existingReference": null
+    }
+  ]
+}

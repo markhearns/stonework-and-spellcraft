@@ -1,0 +1,155 @@
+{
+  "mode": "built-in imagegen",
+  "assets": [
+    {
+      "character": "mira",
+      "file": "static/assets/portraits/bathing/mira.webp",
+      "size": 126868,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "Use case: identity-preserve. Create one full-body isolated character sprite for a fantasy castle bathhouse. Reference supplies this adult woman's exact face, hair, ancestry traits, proportions and antique engraving style; preserve those. mira, clearly an ADULT woman age 22. Two-piece bathing clothes made from opaque faded-teal woven linen: a simple wrapped chest band with broad cloth ties and matching modest swim shorts. No book or tools. Bare feet. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, subtly worn print texture, muted hand-colouring. No modern bikini hardware, elastic, synthetic shine, lingerie, heels, text or framing. IMPORTANT: only the figure on genuine transparent alpha background. Remove the reference's brown vignette and ALL scenery and glow behind the person. No floor, backdrop, gradient, towel covering her, or props."
+    },
+    {
+      "character": "tamsin",
+      "file": "static/assets/portraits/bathing/tamsin.webp",
+      "size": 127930,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "Use case: identity-preserve. Create one full-body isolated character sprite for a fantasy castle bathhouse. Reference supplies this adult woman's exact face, hair, ancestry traits, proportions and antique engraving style; preserve those. tamsin, clearly an ADULT woman age 20. Two-piece bathing clothes made from opaque plum woven linen: a supportive wrap top with broad straps and matching short tied bathing trousers. Preserve feline ears and one fluffy cat tail; no human extra ears. No books or tools. Bare feet. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, subtly worn print texture, muted hand-colouring. No modern bikini hardware, elastic, synthetic shine, lingerie, heels, text or framing. IMPORTANT: only the figure on genuine transparent alpha background. Remove the reference's brown vignette and ALL scenery and glow behind the person. No floor, backdrop, gradient, towel covering her, or props."
+    },
+    {
+      "character": "iona",
+      "file": "static/assets/portraits/bathing/iona.webp",
+      "size": 139714,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "Use case: identity-preserve. One full-body fantasy bathhouse outfit sprite. Preserve reference iona's face, hair, clearly adult age 23 and body proportions. Preserve demon horns and pointed ears. Replace her current outfit with TWO PIECES of fully opaque rust-red woven linen: a secure broad chest wrap completely covering breasts and nipples, and short tied bathing trousers fully covering pelvis and buttocks. Exposed midriff. Handmade cloth ties, no modern synthetic swimsuit, lingerie, metal bikini or transparent fabric. Barefoot with feet completely visible. Calm friendly standing pose, arms relaxed, hands natural. Remove held props and work equipment. Antique engraving, intricate hatching and subdued hand-colouring matching the reference. No text or border. Isolated figure on true transparent alpha background; no brown glow, vignette, floor or backdrop."
+    },
+    {
+      "character": "aurelia",
+      "file": "static/assets/portraits/bathing/aurelia.webp",
+      "size": 218348,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "Use case: identity-preserve. Create one full-body isolated character sprite for a fantasy castle bathhouse. Reference supplies this adult woman's exact face, hair, ancestry traits, proportions and antique engraving style; preserve those. aurelia, clearly an ADULT woman age 24. Two-piece bathing clothes of opaque slate-violet woven linen: a broad wrapped chest band and modest matching bathing shorts, cut to accommodate her wings. Preserve golden halo and feathered wings. No lantern or other props. Bare feet. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, subtly worn print texture, muted hand-colouring. No modern bikini hardware, elastic, synthetic shine, lingerie, heels, text or framing. IMPORTANT: only the figure on genuine transparent alpha background. Remove the reference's brown vignette and ALL scenery and glow behind the person. No floor, backdrop, gradient, towel covering her, or props."
+    },
+    {
+      "character": "neris",
+      "file": "static/assets/portraits/bathing/neris.webp",
+      "size": 128572,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "Use case: identity-preserve. One full-body fantasy bathhouse outfit sprite. Preserve reference neris's face, hair, clearly adult age 21 and body proportions. Preserve sea-glass teal skin, fin ears and silver-white bob. Replace her current outfit with TWO PIECES of fully opaque plum woven linen: a secure broad chest wrap completely covering breasts and nipples, and short tied bathing trousers fully covering pelvis and buttocks. Exposed midriff. Handmade cloth ties, no modern synthetic swimsuit, lingerie, metal bikini or transparent fabric. Barefoot with feet completely visible. Calm friendly standing pose, arms relaxed, hands natural. Remove held props and work equipment. Antique engraving, intricate hatching and subdued hand-colouring matching the reference. No text or border. Isolated figure on true transparent alpha background; no brown glow, vignette, floor or backdrop."
+    },
+    {
+      "character": "sabine",
+      "file": "static/assets/portraits/bathing/sabine.webp",
+      "size": 115902,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "undefinedsabine, clearly an ADULT woman age 22. Replace outfit with: Opaque wine-coloured linen wrap top with broad straps and a charcoal short tied bathing skirt over matching covered briefs. Preserve auburn bob, pale olive skin, small vampire fangs. Bare feet; remove all work equipment, books, tools, shoes and held props. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, worn print texture, muted hand-colouring. No modern swimwear hardware, elastic, synthetic shine, lingerie, high heels, text or frame. IMPORTANT: only the figure on genuine transparent alpha background. Remove reference brown vignette and ALL scenery, floor and glow behind the person. No backdrop, gradient or props."
+    },
+    {
+      "character": "maren",
+      "file": "static/assets/portraits/bathing/maren.webp",
+      "size": 156040,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "undefinedmaren, clearly an ADULT woman age 24. Replace outfit with: Opaque plum linen crossed wrap top and charcoal tied swim shorts, practical broad cloth ties. Preserve bovine horns, ears and one tufted tail, smooth brown skin, chestnut hair. Bare feet; remove all work equipment, books, tools, shoes and held props. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, worn print texture, muted hand-colouring. No modern swimwear hardware, elastic, synthetic shine, lingerie, high heels, text or frame. IMPORTANT: only the figure on genuine transparent alpha background. Remove reference brown vignette and ALL scenery, floor and glow behind the person. No backdrop, gradient or props."
+    },
+    {
+      "character": "brakka",
+      "file": "static/assets/portraits/bathing/brakka.webp",
+      "size": 125028,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "undefinedbrakka, clearly an ADULT woman age 23. Replace outfit with: Opaque plum linen chest wrap with sturdy broad straps and charcoal short bathing trousers. No skirt or dress. Preserve her orc face, green skin, broad nose, small LOWER tusks connected to mouth, braided black hair, strong but feminine fit adult build. Bare feet; remove all work equipment, books, tools, shoes and held props. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, worn print texture, muted hand-colouring. No modern swimwear hardware, elastic, synthetic shine, lingerie, high heels, text or frame. IMPORTANT: only the figure on genuine transparent alpha background. Remove reference brown vignette and ALL scenery, floor and glow behind the person. No backdrop, gradient or props."
+    },
+    {
+      "character": "fenna",
+      "file": "static/assets/portraits/bathing/fenna.webp",
+      "size": 130490,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "undefinedfenna, clearly an ADULT woman age 22. Replace outfit with: Opaque sage woven linen chest band with broad cloth ties and navy short tied bathing trousers. Preserve wolf ears and fluffy tail, silver-grey hair and warm tan skin. Bare feet; remove all work equipment, books, tools, shoes and held props. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, worn print texture, muted hand-colouring. No modern swimwear hardware, elastic, synthetic shine, lingerie, high heels, text or frame. IMPORTANT: only the figure on genuine transparent alpha background. Remove reference brown vignette and ALL scenery, floor and glow behind the person. No backdrop, gradient or props."
+    },
+    {
+      "character": "kaede",
+      "file": "static/assets/portraits/bathing/kaede.webp",
+      "size": 131630,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "Use case: identity-preserve. One full-body fantasy bathhouse outfit sprite. Preserve reference kaede's face, hair, clearly adult age 24 and body proportions. Preserve terracotta-red oni skin, two horns and long blue-black hair; curvy fit proportions without bulky muscles. Replace her current outfit with TWO PIECES of fully opaque violet woven linen: a secure broad chest wrap completely covering breasts and nipples, and short tied bathing trousers fully covering pelvis and buttocks. Exposed midriff. Handmade cloth ties, no modern synthetic swimsuit, lingerie, metal bikini or transparent fabric. Barefoot with feet completely visible. Calm friendly standing pose, arms relaxed, hands natural. Remove held props and work equipment. Antique engraving, intricate hatching and subdued hand-colouring matching the reference. No text or border. Isolated figure on true transparent alpha background; no brown glow, vignette, floor or backdrop."
+    },
+    {
+      "character": "elowen",
+      "file": "static/assets/portraits/bathing/elowen.webp",
+      "size": 105966,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "undefinedelowen, clearly an ADULT woman age 24. Replace outfit with: Opaque sage woven linen wrap top with broad straps and a violet tied short bathing skirt over opaque briefs. Preserve long pointed elf ears, blonde braid, green eyes. Bare feet; remove all work equipment, books, tools, shoes and held props. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, worn print texture, muted hand-colouring. No modern swimwear hardware, elastic, synthetic shine, lingerie, high heels, text or frame. IMPORTANT: only the figure on genuine transparent alpha background. Remove reference brown vignette and ALL scenery, floor and glow behind the person. No backdrop, gradient or props."
+    },
+    {
+      "character": "nyssara",
+      "file": "static/assets/portraits/bathing/nyssara.webp",
+      "size": 110830,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "undefinednyssara, clearly an ADULT woman age 25. Replace outfit with: Opaque petrol-blue woven linen wrap top and matching short tied bathing trousers with violet waist tie. Preserve slate-violet skin, long pointed elf ears, silver-white waves and copper-brown eyes. Bare feet; remove all work equipment, books, tools, shoes and held props. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, worn print texture, muted hand-colouring. No modern swimwear hardware, elastic, synthetic shine, lingerie, high heels, text or frame. IMPORTANT: only the figure on genuine transparent alpha background. Remove reference brown vignette and ALL scenery, floor and glow behind the person. No backdrop, gradient or props."
+    },
+    {
+      "character": "sylva",
+      "file": "static/assets/portraits/bathing/sylva.webp",
+      "size": 196520,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "Use case: identity-preserve. One full-body fantasy bathhouse outfit sprite. Preserve reference sylva's face, hair, clearly adult age 21 and body proportions. Preserve sapwood skin, wood grain and bark seams, leafy ears, branch crown and chestnut hair with leaves and flowers. Replace her current outfit with TWO PIECES of fully opaque moss-green woven linen: a secure broad chest wrap completely covering breasts and nipples, and short tied bathing trousers fully covering pelvis and buttocks. Exposed midriff. Handmade cloth ties, no modern synthetic swimsuit, lingerie, metal bikini or transparent fabric. Barefoot with feet completely visible. Calm friendly standing pose, arms relaxed, hands natural. Remove held props and work equipment. Antique engraving, intricate hatching and subdued hand-colouring matching the reference. No text or border. Isolated figure on true transparent alpha background; no brown glow, vignette, floor or backdrop."
+    },
+    {
+      "character": "velis",
+      "file": "static/assets/portraits/bathing/velis.webp",
+      "size": 95424,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "undefinedvelis, clearly an ADULT woman age 22. Replace outfit with: Opaque teal woven linen broad wrap top and matching short bathing trousers with rust cloth ties. Preserve dark elf long pointed ears, warm dusky plum-brown skin, auburn hair and amber eyes. Bare feet; remove all work equipment, books, tools, shoes and held props. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, worn print texture, muted hand-colouring. No modern swimwear hardware, elastic, synthetic shine, lingerie, high heels, text or frame. IMPORTANT: only the figure on genuine transparent alpha background. Remove reference brown vignette and ALL scenery, floor and glow behind the person. No backdrop, gradient or props."
+    },
+    {
+      "character": "rhess",
+      "file": "static/assets/portraits/bathing/rhess.webp",
+      "size": 140500,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "prompt": "undefinedrhess, clearly an ADULT woman age 24. Replace outfit with: Two-piece opaque moss-green woven linen bathing clothes: simple broad wrap top and separate short tied bathing trousers, with navel exposed. Preserve bronze scales, swept horns, substantial scaled tail, chestnut waves, amber eyes with VERTICAL REPTILIAN SLIT PUPILS. No spear. Bare feet; remove all work equipment, books, tools, shoes and held props. Relaxed upright stance, neutral friendly expression looking toward viewer, arms relaxed with natural hands. Nonsexual bathing costume study, no seductive pose, no erotic activity, no sexual focus. Full head-to-toe framing, entire feet and ancestry appendages visible. Match finely etched linework, crosshatching, worn print texture, muted hand-colouring. No modern swimwear hardware, elastic, synthetic shine, lingerie, high heels, text or frame. IMPORTANT: only the figure on genuine transparent alpha background. Remove reference brown vignette and ALL scenery, floor and glow behind the person. No backdrop, gradient or props."
+    }
+  ]
+}

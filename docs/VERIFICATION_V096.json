@@ -1,0 +1,33 @@
+{
+  "version": "0.96",
+  "schema": 65,
+  "scope": "Sylva redesign; handmade texture for all Sylva, Velis and Rhess portraits",
+  "replacements": 21,
+  "transparent_cutouts": 12,
+  "opaque_overviews": 9,
+  "all_images_fully_decoded": true,
+  "all_asset_hashes_verified": true,
+  "superseded_image_copies_remaining": 0,
+  "optimized_image_bytes": 4914678,
+  "previous_image_bytes": 5479502,
+  "python": {
+    "passed": 41,
+    "suites": [
+      "tests.test_art_v053",
+      "tests.test_outfits",
+      "tests.test_bathing_outfits",
+      "tests.test_companion_almanac"
+    ],
+    "note": "Almanac suite run with PYTHONPATH=.:tests for its existing fixture import."
+  },
+  "ui": {
+    "passed_suites": 3,
+    "suites": [
+      "tests/test_ui_overview_portraits.cjs",
+      "tests/test_ui_outfits.cjs",
+      "tests/test_ui_artwork.cjs"
+    ],
+    "normal_portrait_tiers_checked": 45
+  },
+  "visual_review": "Each generated asset inspected; optimized transparent cutout composited on a neutral background for alpha-edge review; optimized Sylva overview inspected. Browser-rendered UI layout remains unverified."
+}

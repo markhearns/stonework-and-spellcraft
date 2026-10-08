@@ -1,0 +1,39 @@
+{
+  "version": "0.65",
+  "schemaVersion": 56,
+  "python": {
+    "tests": 745,
+    "seconds": 110.87,
+    "failures": 0,
+    "errors": 0
+  },
+  "connectedUI": {
+    "suites": 41,
+    "seconds": 158.28,
+    "failures": 0
+  },
+  "focusedStoryTests": 18,
+  "content": {
+    "stories": 12,
+    "ensembleScenes": 36,
+    "authoredChoices": 72,
+    "personalCodaOpenings": 14,
+    "centralRoles": {
+      "mira": 3,
+      "neris": 3,
+      "nyssara": 2,
+      "tamsin": 3,
+      "brakka": 3,
+      "iona": 3,
+      "sabine": 3,
+      "fenna": 3,
+      "aurelia": 3,
+      "kaede": 2,
+      "elowen": 2,
+      "sylva": 2,
+      "maren": 2
+    }
+  },
+  "artwork": "Existing approved portraits reused. No new character, wardrobe or room illustrations.",
+  "browserReview": "Not performed: previous missing local Chromium and blocked cloud-to-local access remain unresolved. No visual-layout pass claimed."
+}

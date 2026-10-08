@@ -1,0 +1,50 @@
+{
+  "version": "0.74",
+  "schemaVersion": 59,
+  "javascriptSyntax": "passed",
+  "pythonTests": {
+    "passed": 5,
+    "suites": [
+      "test_art_release.py",
+      "test_candidate_http.py"
+    ]
+  },
+  "uiControllerSuites": {
+    "passed": 3,
+    "suites": [
+      "test_ui_visuals.cjs",
+      "test_ui_unified.cjs",
+      "test_ui_headquarters_workers.cjs"
+    ],
+    "extraAssertions": "All 17 cards across estateHub, magicHub, worldHub and studyHub include an image with an existing file; all 13 requested missing cards covered."
+  },
+  "artwork": {
+    "priorAssetsUnchanged": 153,
+    "newAssets": 9,
+    "totalAssets": 162,
+    "optimization": {
+      "format": "WebP",
+      "quality": 82,
+      "method": 6,
+      "cardSize": [
+        800,
+        533
+      ],
+      "landscapeSize": [
+        2048,
+        683
+      ],
+      "totalBytes": 1457116,
+      "sourcePNGsBundled": false,
+      "existingAssetsReencoded": false,
+      "logoSize": [
+        1200,
+        800
+      ]
+    },
+    "generatedImagesVisuallyReviewed": true
+  },
+  "browserVisualReview": false,
+  "limitation": "No installed browser executable; UI integration is tested with a DOM test double, not a rendered desktop/mobile browser.",
+  "gameplayChanged": false
+}

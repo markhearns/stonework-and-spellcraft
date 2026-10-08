@@ -1,0 +1,84 @@
+{
+  "version": "0.95",
+  "schema": 65,
+  "python": {
+    "passedDistinct": 152,
+    "regressionBatch": 149,
+    "newAdditionalBehaviorChecks": 3,
+    "newRefinementTests": 22,
+    "scope": [
+      "patrol transactions and roles",
+      "preview equals resolved health/damage",
+      "signature funding, pause, cancellation, transfer ownership and re-equip",
+      "homecoming exact party and bounded dialogue",
+      "all authored personal paths",
+      "Chapter 7",
+      "food and sleep",
+      "field magic",
+      "unified armoury and HTTP idempotency"
+    ]
+  },
+  "ui": {
+    "passed": 5,
+    "scripts": [
+      "test_ui_field_patrols.cjs",
+      "test_ui_combat_refinement.cjs",
+      "test_ui_armoury.cjs",
+      "test_ui_personal_paths.cjs",
+      "test_ui_daily_plan.cjs"
+    ],
+    "scope": "Headless Node VM template/controller integration with real API and SQLite; no rendered-browser claim."
+  },
+  "campaign": {
+    "routes": [
+      {
+        "route": "meet",
+        "plan": "negotiate",
+        "start": {
+          "day": 90,
+          "phase": "evening",
+          "funds": 37
+        },
+        "end": {
+          "day": 99,
+          "phase": "evening",
+          "funds": 96
+        },
+        "chapter8Advances": 27,
+        "cheats": false
+      },
+      {
+        "route": "solo",
+        "plan": "scout",
+        "start": {
+          "day": 92,
+          "phase": "evening",
+          "funds": 37
+        },
+        "end": {
+          "day": 102,
+          "phase": "evening",
+          "funds": 88
+        },
+        "chapter8Advances": 30,
+        "cheats": false
+      }
+    ],
+    "additionalSignatureLoop": "Both full routes repeated; the company route then completed a signature fitting/proof, trained Spear watch, earned two enemy types through ordinary patrol actions, funded Shelter, advanced its work and re-equipped the same item. No cheats."
+  },
+  "balance": {
+    "scenarios": 84,
+    "baselineCompleted": 33,
+    "trainedCompleted": 35,
+    "groupCompleted": 48,
+    "groupTotal": 48,
+    "details": "BALANCE_V095.json"
+  },
+  "syntax": "node --check static/app.js passed",
+  "art": "Existing portraits, equipment icons and remote route art reused; no generated assets added.",
+  "limitations": [
+    "No browser-rendered layout review.",
+    "Fixed combat fixtures and a greedy action policy do not establish optimal balance.",
+    "Full historical Python suite not rerun; targeted regressions and earned chapter routes were used."
+  ]
+}

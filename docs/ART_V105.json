@@ -1,0 +1,1233 @@
+{
+  "assets": [
+    {
+      "id": "briarback-boar",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/briarback-boar.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 696434,
+          "sha256": "ccbe8ac826031984e6f023f37ee7e62633ec8af7d9c244c77a1aed66c1ced0a1",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/briarback-boar-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 43770,
+          "sha256": "79146432f99090a2388df8d1b79202a734aaaee213b98237f41d2378a0968a14",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "8dec0d0d064f18bdda28251a613543e1457eb3a982f29beffbda1dc61071ead3",
+      "masterPath": "masters/creatures/briarback-boar.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2683022,
+      "masterSHA256": "6d17f8c93df5a60f9d5aae2ab1a45be80a151c9e110c3982ed0e9301bb5cb661",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "slatehide-lizard",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/slatehide-lizard.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 672396,
+          "sha256": "8f5c0520ab42830d40ef4253234bcb6b3c1f682afa2ecc9607d8908e3c30466d",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/slatehide-lizard-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 42180,
+          "sha256": "75618adf99dd731377bef0288cce4943d57b979a017d494d294d498b1ab29006",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "f43d5eb53864f39b9a99636d242f4156a81335709aeb5d1972e179f9f8dd53a4",
+      "masterPath": "masters/creatures/slatehide-lizard.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2601818,
+      "masterSHA256": "aab4bae221e8062af620f427253bb6df62f7339407b17b8c49e92884e2ea2fe1",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "storm-antler-stag",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/storm-antler-stag.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 621146,
+          "sha256": "19c995d653252bc77fb737c615e4218deb5d7e59b0b82039ac91d012b2fa2660",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/storm-antler-stag-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 39044,
+          "sha256": "2ff0d28770cc49268017808de7e78e24fad69ea2820c8cb96b244ef2a94bedfe",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "f5e2d30cd4c9420764847698c46163283d71c7af6a0f144ae832eaee6484612f",
+      "masterPath": "masters/creatures/storm-antler-stag.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2427608,
+      "masterSHA256": "5f2de1497697125a9a8498176c0aca7456f6dc28b3cc37ff482766707c6035d4",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "giant-marsh-crab",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/giant-marsh-crab.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 669564,
+          "sha256": "df919bb635009c0fe9b6bdea7d6a879e4666196c81f2f8cd57e674e87681a240",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/giant-marsh-crab-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 43334,
+          "sha256": "4260e4b2d54e0a30ee61ecffd320746314bf8661e584c9c3bba477f04c49c27b",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "078ecd444be8952c08312de4a8542cf694a641a72c97e3efe6dbf7258f4f1070",
+      "masterPath": "masters/creatures/giant-marsh-crab.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2520342,
+      "masterSHA256": "f2e31a728b3c9ba920f78cbbcf9aed20d5111c7fadfd22ea594c3e23e0213de7",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "lantern-moth",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/lantern-moth.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 607914,
+          "sha256": "57502c37662885cdf70a72b18ef10fd170de8067c27e274088993a3efbd6d45a",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/lantern-moth-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 41880,
+          "sha256": "5b21c76d141a95b786da4a356af838bc65dbe9d6289498f032ad097ae2a1bf39",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "4faf20d36df986bc4977334e314cdaf08f7ef9338a63c2c71a09e1d25249c932",
+      "masterPath": "masters/creatures/lantern-moth.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2235448,
+      "masterSHA256": "f0ef5a607f55d89257e864b5a414da4de8f5bc9303bd5d7cf7c88debbb856905",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "grave-silk-spider",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/grave-silk-spider.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 615624,
+          "sha256": "7a56496f938c1326ec394551520e45180846aa5a57071cd69a9d5fca9136bf0b",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/grave-silk-spider-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 37166,
+          "sha256": "5045c41f710bdbc336d222cbd5204611a1d442702e37da9d1b5066ff463052a4",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "ebc44ec980da7d9d14a5c15df5ac3c9350616d5df2c00eae045a8716556a0f84",
+      "masterPath": "masters/creatures/grave-silk-spider.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2409454,
+      "masterSHA256": "7e2a61e115f01e69d17fd784889c0e899614a624db2bb7a215f57dbcd84e5c04",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "reed-lurker",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/reed-lurker.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 657996,
+          "sha256": "4d471caacb106b4a8f21e12e6eeff746875c2b144cefb118de752e78dc1ab67f",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/reed-lurker-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 43348,
+          "sha256": "d7a17ee051859506fd5750a96410176b9f7ac8474c67a5d0d1dbb80f177c00e1",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "5794a90d0340295497c057f35e42eabb147b428a403e3d90447052ad06385d10",
+      "masterPath": "masters/creatures/reed-lurker.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2458038,
+      "masterSHA256": "9f00e803ae0a4de10fa75d39fa7b1f71a336443c754b7f5d724c985660598db0",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "hearth-ash-hound",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/hearth-ash-hound.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 649796,
+          "sha256": "19dc89aef4eedb755620e4afa6b8a29b274b93f6a4daadef3bd7266347679c55",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/hearth-ash-hound-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 41482,
+          "sha256": "640b04f8a59d0833d5f2333f347272f78da6de78e9e99e20ae497b82b1963e14",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "aeae3f103a59a323a484e682d99c12d0fd3bde2313179c05237307d6c051c1e8",
+      "masterPath": "masters/creatures/hearth-ash-hound.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2464030,
+      "masterSHA256": "eaae368a23705703790bac4c6532cc060023f6b70f78a8e2644b8b5377420bcc",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "root-mimic",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/root-mimic.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 686800,
+          "sha256": "62f89e90e9167531e9ab6079bd3b88585a501c74710a3aca95cb91f8c1edd936",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/root-mimic-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 44252,
+          "sha256": "de8d7c74dad225d8ef8856404887bcc29a8168b30eb1839278b73f801a725c35",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "ba281478dd10ca945bfd6b30ab237708f0274e0d24455b15b29bdacb0fb2bf15",
+      "masterPath": "masters/creatures/root-mimic.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2600382,
+      "masterSHA256": "d56efd94d16228e443437dee6a513710269feed867030ce7b8f0cc3c26c21292",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "moss-troll",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/moss-troll.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 677556,
+          "sha256": "158b02930dd84baf86fd9f46906179ccde3c23470932284ba040becb2f5a41fd",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/moss-troll-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 42736,
+          "sha256": "d72f8510ac64e3ffc2eae42fa94a5db7f9b91b6a052473798142f200cee4e65c",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "10be8cb6d30d9ea3f5eb01efbf8c172f86ade9740ed4e0d23cc684c2253ad02f",
+      "masterPath": "masters/creatures/moss-troll.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2582372,
+      "masterSHA256": "28a3bc79a4ee71ef3133e0289fbae8ace7b54e1d937e8afa5172086910e5010e",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "ruin-gargoyle",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/ruin-gargoyle.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 622550,
+          "sha256": "582569b93a47591479242b4b929d5210b8e61ccfd3b303f35bbad4ce29feab8b",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/ruin-gargoyle-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 41716,
+          "sha256": "2b1340a60af73fbc3ab0802b96ddbe08fc9dba42e02adf25a50593b3a92b1146",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "07393e8e7c7003b5af06ac6bf16339a2d80ffbb33cd5f590cb03c75888e51df2",
+      "masterPath": "masters/creatures/ruin-gargoyle.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2370444,
+      "masterSHA256": "1905194ded2ddefe5a30eab930d039dcdcec69b301e992a5f9d9fb1ef5387e58",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "restless-sentry",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/restless-sentry.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 616876,
+          "sha256": "b62ad723d5e7e1483f140ce9f62c1ee47f33455b0fab99ceb68a8cf0feaa58f3",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/restless-sentry-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 38876,
+          "sha256": "902205b1716324b8fd452063abac9420ea87820046a1f6be18b7dd9b0951dd81",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "e4ff8c0e1bd534f31a32f6e3778ac660976ce64320da537f681d064d3544d707",
+      "masterPath": "masters/creatures/restless-sentry.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2380232,
+      "masterSHA256": "fddc9914c677427e7725e7ff388cde8bd51961264276243fb5f5615b4f618243",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "wolf",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/wolf.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 666182,
+          "sha256": "f39b22a34d60a9fae019613672e8fa3490864428d6a496474eb86c1bba9dd407",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/wolf-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 42008,
+          "sha256": "698a50b8f273762a6a69f72acd018dfab249e69c63e50ee25347409a79737d66",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "921d22bf49024e1530c9b3147bf8e8c2b14a38df92bc3a81fcb788275a537a58",
+      "masterPath": "masters/creatures/wolf.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2574452,
+      "masterSHA256": "4e8468233c6fe325c47f1c91b5b4e76ce5f307ea782169b5501f27c019918bea",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "griffin",
+      "group": "creatures",
+      "files": [
+        {
+          "path": "static/assets/bestiary/creatures/griffin.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 648370,
+          "sha256": "a34d8b5ce9381b3e80821e9815e515f6ef88f8ed05077f17a3b089f249ba6e8f",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/creatures/griffin-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 39790,
+          "sha256": "bdcb3e618f3c20436c46797bc5632380f50d539e40597c2d88f7da9bbb7bef23",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "f6f2d7a53955719ded14462be2f9c29973d05e31f2724dd364ff707ea81cab4a",
+      "masterPath": "masters/creatures/griffin.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2580102,
+      "masterSHA256": "981f7881f16e107e9485ad6b4437857cfb88d00b1d5d2158b5f3c96dca04b67b",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "human",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/human.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 653086,
+          "sha256": "a6cc13a77d10a16e3e5656c3d61e691df82d0b0c75cf78ec53dcfcd5b2fd9ce8",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/human-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 41380,
+          "sha256": "bb23f6c9d30754f863f0fcca8b32eb5a4c5e407890566f233c48125bcb7f9e8e",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "7b27a0c2f86c27a72b386fd35d16da89de3e555d8dff198d572f3b90b659a56c",
+      "masterPath": "masters/ancestries/human.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2517602,
+      "masterSHA256": "bce69d9b2a63407c26fb824811f8658f0bf0c5af5de1e980f75a561c2fe031fe",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "high-elf",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/high-elf.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 660028,
+          "sha256": "2a1bf240fd81568aab7be34da9bf54eb641cee89319761fbc5a37904cbfdfb58",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/high-elf-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 43092,
+          "sha256": "cdff0e66a91e0f904a9be567493796750f9e33ba91fa34d062a12e9bdacc3769",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "aa7f36553d1b133e487e4fb4cdc2add91af09fa7fa1f677f2ddf1cf5c2ce7bb6",
+      "masterPath": "masters/ancestries/high-elf.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2496140,
+      "masterSHA256": "d20ce9ccfe972bcd8894497932ba70cb2cb561dd00ce5637ebb8216d8986dc5c",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "dark-elf",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/dark-elf.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 631128,
+          "sha256": "a759c4aca330effdc642c3d0f12cb49e82bc8452a291b54823c6773c3de6de6e",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/dark-elf-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 40852,
+          "sha256": "eaab4fa8f979815d071385662d8c4d5b9df88821da09ce24acea5abab29791bb",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "3804e917e66e7a3b85cc68c032598ac64d4120dad1a13eade1088eb789d79c71",
+      "masterPath": "masters/ancestries/dark-elf.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2363642,
+      "masterSHA256": "730150dd7dc0418cfba3b35bb52d6b7e2031b301de0b17ac2df781e9095e8d18",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "drow",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/drow.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 593810,
+          "sha256": "b6dfd0b00a121e11258fb4364ae4ac293d411ce6ae7a348cd7a7abccff832450",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/drow-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 34234,
+          "sha256": "e008a79e8330860e31050bc440c2a096663fc91be8a557fc4676b5dd0a79f50a",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "ec9b9df8b3fcbc9f0532ff383fcaf3bd9ca2f50626f999413611cf5dddac6502",
+      "masterPath": "masters/ancestries/drow.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2410082,
+      "masterSHA256": "9b4dd5ab4b8ed688c0d5edfeb6c5e7562a2a5546dcf77989d75cdc38c7f01174",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "catfolk",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/catfolk.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 618726,
+          "sha256": "3584477ba7db72ab5e4641549ef5230ae405bc3c4305bfc4dfc232e2ec42eeea",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/catfolk-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 40080,
+          "sha256": "3991d47f9e78412848dda7ce3cafa058ad38fc27062f2ee7c0694967a36cfdb9",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "3a089f502e0a3a1ca08b3a9c67abe3f69829e60fe13b479ae2ca4ab951df9a11",
+      "masterPath": "masters/ancestries/catfolk.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2348254,
+      "masterSHA256": "a31fdec8fd25182adfdd109125d3b830eca7123edb9277e6c005c40da7769eb7",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "wolfkin",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/wolfkin.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 667100,
+          "sha256": "9017be0241c7d6cbd94f5a0eea36b32f9b1289b2cb174eecd43fbbe746c81b2b",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/wolfkin-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 44114,
+          "sha256": "0f500530bd2f969616ffe41a4a4ff7538d8aea1ee9bd01dd5a46b277a271121a",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "1995cca82def4d5b07b3d2d46b2d251d7be1664b1e6a31de5b8e32e7c774eaf9",
+      "masterPath": "masters/ancestries/wolfkin.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2516140,
+      "masterSHA256": "4598e72edf79bb6d6303e4685cf412d57f977f9a88753977198bc9fe8a4b237a",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "bovinefolk",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/bovinefolk.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 648772,
+          "sha256": "7ab4d2020c80673c151f04f8f82e1d08100dc5598a9ef68c933bb4c325573032",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/bovinefolk-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 41034,
+          "sha256": "faa4f61608edb127e68709131b1025249b880daf7b44869295e0ffaee2ea5672",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "5f86c996837118ef16e26e888a91551dd98187bf3db0e7b45722b116dea9f5bb",
+      "masterPath": "masters/ancestries/bovinefolk.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2477422,
+      "masterSHA256": "140190acbee9ed4bea92aee5f88faff41a67bfdc97f11f24c543b586e9d8fa7a",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "orc",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/orc.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 648294,
+          "sha256": "f17e7093292f892b85fc47ffd496f0e0e6270a28362f2dbeb50789713ec3e6e9",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/orc-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 40050,
+          "sha256": "608501fedfbf2fe8cdf3182a17eedf70293216d6698a4387bd0fcd82b30fc763",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "1832b82f0cfbec981c5965db53dedf5fc7013848fa17924d1585b4ecd64b6379",
+      "masterPath": "masters/ancestries/orc.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2517426,
+      "masterSHA256": "c26dcb540bf0618fd98a86922e215de6754822f320785cfae38fd7208377a028",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "oni",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/oni.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 650724,
+          "sha256": "ab4638368876d1f70753110cad2770486a412f986c9c6121786acde5a7786156",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/oni-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 41546,
+          "sha256": "de3587a13d1850cb9e67ffcb5e6d6bfba3cdce60ed65f8a5696fed3f5ff26f33",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "f159740fc571720132421101c6c27aebc54f7c1c6a37d8ff648bb2836f09355a",
+      "masterPath": "masters/ancestries/oni.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2517574,
+      "masterSHA256": "25a525691b7b65b5ae9b264cd2fb9c1ff681a05253fb6e116ad901236bd40928",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "kitsune",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/kitsune.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 675516,
+          "sha256": "6b70fc93c291c4dbe3fb08412a4dc711f2577665653f8417fad294fe8d92a0dd",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/kitsune-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 44340,
+          "sha256": "6b968b2afa6a99f5799d735a424a54a34bb79f803bda02cff4eaee42830f534d",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "337973b6c68bd40f4cf5f8e4bd70b693bd207a7425242636e092b5dae03ad926",
+      "masterPath": "masters/ancestries/kitsune.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2545800,
+      "masterSHA256": "f118c8a4b12f80df54246e2f687ba8287aff622f707f7da8051ac0b14ae5d421",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "golem",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/golem.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 592562,
+          "sha256": "a192c74b4c60a076b6e008eae5c7f9158d3d63270acd5830127d90b52657699d",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/golem-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 39106,
+          "sha256": "d23fffde93eeacd740d491594c5f9754dc6fd987ab22f248101a3d63cbd16819",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "da43ddc7d4f39b54957ea928d7b1d31a1391b71d8aad1f26e4183252dbefbae1",
+      "masterPath": "masters/ancestries/golem.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2208906,
+      "masterSHA256": "d9d515099f7b126d58195210d83fac3f0305b01cc80952b669d10bf93619ae70",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "demon",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/demon.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 594296,
+          "sha256": "0558ddd78e71f83919798129b9fe1665b85c947fe64e09aaa3df555c029e3c85",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/demon-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 37650,
+          "sha256": "757fa32bb94a5bd96fa15a45d43cc9c612100846ec9010d86482e1e29c0768cb",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "9a2bb8000f6d6e7a1b317f1f6ed8a1caf56649590b651f5ef20dfd472c18e84a",
+      "masterPath": "masters/ancestries/demon.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2314238,
+      "masterSHA256": "e4a7fa97d13597d8465a2286f64576deb68be7769e46585476d6e391e9b118d4",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "seraph",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/seraph.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 638668,
+          "sha256": "d0ba51e42954db4555d0a404e944d8b2e10a0e23a6c2c3d805431621007265cd",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/seraph-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 39680,
+          "sha256": "8906e000f4441e5a43525875daaf2455a9c8042b26fd81f46a1be5ab5b3e6095",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "bc3aec9c0365272fdb4b682ae0428f6b467be1ff6feb6f9447535c3894772fa9",
+      "masterPath": "masters/ancestries/seraph.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2438896,
+      "masterSHA256": "a6996451b60d00ffffb1e5523a72add56d922fa9a69cfb6dee4a64355b7cf313",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "elemental",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/elemental.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 646792,
+          "sha256": "ee5bd0dad88622d65ab5e0a897371d297e3a49924b950f7023943a353f18bc76",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/elemental-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 42112,
+          "sha256": "697f5e1fdc474abc8c16b88a07a6f2c33ace90b159b0f3f2ba8fea24c9b6eb40",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "6504757e46915f6e2752d58142295ec96c836e82212871e20ab310ebb7d16aa8",
+      "masterPath": "masters/ancestries/elemental.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2494200,
+      "masterSHA256": "0bdfe87244d8eac791b6585d4b5ccb8a5b5a5a420d5002a5c50864babee95a58",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "vampire",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/vampire.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 574820,
+          "sha256": "e2e7465e2b0f1eefd53db71d41ed656ef9002153747dcbeab6c73737b26f834c",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/vampire-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 37200,
+          "sha256": "7efae6a94d6726cb2c8dfcab0bbce2aac0abeaa7e2dfe4c7f782dbb12b9ae8b9",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "08dc569ad508d4c898a8a8fcbebdc48c02abb171c3c7805c0368956c174eb63a",
+      "masterPath": "masters/ancestries/vampire.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2195024,
+      "masterSHA256": "c6e2529e47bce156c18db3d76977f1b57b60356cdee25e756e83616bf43f8841",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "fae",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/fae.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 652420,
+          "sha256": "e7ba5911ed865ce2c945b0b4949bbfc1132be1cd78281f8aec8864d62337da97",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/fae-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 42400,
+          "sha256": "ca40bc9fe2488acd843533c4845ab4a6be16e28d8f90010ce7afebd00ffa7bc0",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "0b2cab512a045b2ab38d3aafa287aad54443657dbfc765b3b008e14e58ebeb06",
+      "masterPath": "masters/ancestries/fae.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2483406,
+      "masterSHA256": "7e9e20f5ee14fd9a629c75ba4b1478f94abdaac254e81428cb6a63e2a7a5bc49",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "djinn",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/djinn.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 623410,
+          "sha256": "9e8324792c7c53f256769cf824c15700261a222368452137438d1b6926eb8832",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/djinn-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 39998,
+          "sha256": "356a79dfb68e705edd499630d8fa75d5a20cc0dd8c8c6d152bd591421daf5c0d",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "cf61947aa304a28f38406fa07a620853ad62a989997e3c6777bf2a3ff06419b5",
+      "masterPath": "masters/ancestries/djinn.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2355320,
+      "masterSHA256": "267d505d513299d2bcef1e12d594def7c8a77097fe818ff151cf807b30f32d18",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "dragonkin",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/dragonkin.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 642968,
+          "sha256": "88aef1c82ed045c938491dcd772b7e9d1528815d3ae898d238ff64322333380e",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/dragonkin-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 41006,
+          "sha256": "ffb2d6b93ff064d75ba347e3378a460fd5a8684409905f7ab5bba29a8cd16f31",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "d7c363fa635e63a632aac091c5651fd8ac6df66ccead236a4ce13295c8d245b3",
+      "masterPath": "masters/ancestries/dragonkin.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2440304,
+      "masterSHA256": "c173e78411eb55dc2394534746ad3f0465a7d8cd81af6e05a67327ebb2e07793",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "dryad",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/dryad.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 658264,
+          "sha256": "6312b3a19387c31bf8590a67a09b55c36ef264438ad0a37e1f457d68de8d55ac",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/dryad-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 44520,
+          "sha256": "66bdef76e3fea80522232b5c051d35e3fdf267068b40ce37075bb3e52b8cbbb9",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "7a3e198154cfa96e960c6da74617090e9f67b234274103b4e8d2e9f19b6d3f98",
+      "masterPath": "masters/ancestries/dryad.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2469880,
+      "masterSHA256": "7ccc4fe74d51c51061c9e332cf200268da1d114e247f39048074edf30665b471",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "nymph",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/nymph.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 677540,
+          "sha256": "ff213c4302b5fc7c9754c918fef1c2dea3585b44dfc2e9ae0b8506fc27bb068d",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/nymph-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 43596,
+          "sha256": "5143becd69b98749cfdae0600b2e4ae63cbd28dddcabcc41bee5f0f20660b572",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "c0911b581f5995a1c4670523b5f9931babfdde558630c6285463550184f997c8",
+      "masterPath": "masters/ancestries/nymph.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2578144,
+      "masterSHA256": "57a1b468b8bd4f4baeadb8b12c759a8a4a08b3b882f867cb352b4af716c22543",
+      "masterRGBAPixelIdentical": true
+    },
+    {
+      "id": "spirit",
+      "group": "ancestries",
+      "files": [
+        {
+          "path": "static/assets/bestiary/ancestries/spirit.webp",
+          "dimensions": [
+            640,
+            640
+          ],
+          "bytes": 649678,
+          "sha256": "a21c3c54640ebaabe8b8b9afcd61dcfdeb933c626eadbcffb4337c829812368c",
+          "displayEncodingPixelIdentical": true
+        },
+        {
+          "path": "static/assets/bestiary/ancestries/spirit-thumb.webp",
+          "dimensions": [
+            160,
+            160
+          ],
+          "bytes": 40256,
+          "sha256": "c5d5e0b52d5db8f0659dbbb55d7539ca393bf907e6b817b2119a1be577624aea",
+          "displayEncodingPixelIdentical": true
+        }
+      ],
+      "sourceSHA256": "6adc6c47066278948959a231e27c59d526155a1e1ff69b8b1970b835b4c82f84",
+      "masterPath": "masters/ancestries/spirit.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 2513118,
+      "masterSHA256": "52d71787d594964349b8890ab2fe2af72a7b732c936508fb10d61edf74cc04c1",
+      "masterRGBAPixelIdentical": true
+    }
+  ],
+  "runtimeBytes": 23947634,
+  "masterBytes": 86089262,
+  "encoding": "Lossless WebP. Runtime images are Lanczos-resized display copies; masters preserve exact full-resolution RGBA pixels.",
+  "priorRuntimeImagesPreserved": 290
+}

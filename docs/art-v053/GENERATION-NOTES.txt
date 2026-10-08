@@ -1,0 +1,7 @@
+Original sixteen scenes/icons and five character portraits generated individually using the built-in image-generation tool. Model identifier was not exposed. Runtime mapping and hashes are in ../ART_INTEGRATION_V053.json. Exact original prompts are under prompts/. Portrait specifications are under portrait-briefs/.
+
+Tamsin base used her accepted tamsin-v2.png reference. Her shawl variant used the accepted shawl reference and new Catfolk base for continuity. Elowen and Sylva used their handoff specifications. Nyssara first used her handoff, then a targeted identity-preserving revision replaced the held raw mineral with an inscribed focus and adjusted pouch tools to her requested enchanter vocation. All five portraits are native 1024x1536 RGBA. Full figures, identity, clothing, alpha and framing were visually/file checked; this is not rendered-browser QA.
+
+No accepted save-owned image overrides or data/assets were deleted. Older accepted Tamsin default portraits remain available for saved links/history. All other accepted character artwork remains byte-for-byte unchanged.
+
+Subsequent user revisions: Sylva received a new botanical body/clothing portrait (exact edit prompt in sylva-revision-prompt.txt). Nyssara’s ancestry was corrected to Drow while retaining the already compatible slate-violet/silver-haired enchanter portrait.

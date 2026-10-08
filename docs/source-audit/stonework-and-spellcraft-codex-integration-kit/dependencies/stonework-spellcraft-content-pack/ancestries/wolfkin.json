@@ -1,0 +1,1888 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "wolfkin",
+  "ancestryName": "Wolfkin",
+  "arrivalMethod": "recruitment",
+  "names": [
+    {
+      "id": "wolfkin-name-001",
+      "name": "Delrenora",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-002",
+      "name": "Ulvenelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-003",
+      "name": "Trevel",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-004",
+      "name": "Gavrenena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-005",
+      "name": "Irvenan",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-006",
+      "name": "Valrenia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-007",
+      "name": "Telrenel",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-008",
+      "name": "Parvenara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-009",
+      "name": "Adrenen",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-010",
+      "name": "Talvenora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-011",
+      "name": "Garvena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-012",
+      "name": "Zavenan",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-013",
+      "name": "Sevrenara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-014",
+      "name": "Revrenel",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-015",
+      "name": "Rilenisa",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-016",
+      "name": "Varenan",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-017",
+      "name": "Belrenine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-018",
+      "name": "Arvenel",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-019",
+      "name": "Wilrenena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-020",
+      "name": "Marvenen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-021",
+      "name": "Keven",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-022",
+      "name": "Kervelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-023",
+      "name": "Velrenena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-024",
+      "name": "Morvenisa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-025",
+      "name": "Brevia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-026",
+      "name": "Yarenine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-027",
+      "name": "Halrenen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-028",
+      "name": "Sarvenara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-029",
+      "name": "Feriline",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-030",
+      "name": "Havrenara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-031",
+      "name": "Melrenine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-032",
+      "name": "Ilrenora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-033",
+      "name": "Levrenia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-034",
+      "name": "Narvena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-035",
+      "name": "Helvenora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-036",
+      "name": "Larenelle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-037",
+      "name": "Calveneth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-038",
+      "name": "Darvenine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-039",
+      "name": "Elvenena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-040",
+      "name": "Ervenisa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-041",
+      "name": "Grevia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-042",
+      "name": "Joreneth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-043",
+      "name": "Corvenan",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-044",
+      "name": "Breleth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-045",
+      "name": "Nelreneth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-046",
+      "name": "Farena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-047",
+      "name": "Orenisa",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-048",
+      "name": "Alvenia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-049",
+      "name": "Osva",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-050",
+      "name": "Edrelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-051",
+      "name": "Velrenine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-052",
+      "name": "Trevisa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-053",
+      "name": "Keva",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-054",
+      "name": "Jorenena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-055",
+      "name": "Telrenisa",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-056",
+      "name": "Nelrenena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-057",
+      "name": "Revrenisa",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-058",
+      "name": "Delrenia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-059",
+      "name": "Osvora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-060",
+      "name": "Varenelle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-061",
+      "name": "Yarenara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-062",
+      "name": "Ilrenia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-063",
+      "name": "Elvenine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-064",
+      "name": "Farenora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-065",
+      "name": "Larenel",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-066",
+      "name": "Brelena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-067",
+      "name": "Levrenen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-068",
+      "name": "Kervel",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-069",
+      "name": "Edrel",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-070",
+      "name": "Darvenara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-071",
+      "name": "Greven",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-072",
+      "name": "Belrenara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-073",
+      "name": "Adrena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-074",
+      "name": "Morvenan",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-075",
+      "name": "Wilrenine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-076",
+      "name": "Marvena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-077",
+      "name": "Corvenelle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-078",
+      "name": "Calvenena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-079",
+      "name": "Rilenan",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-080",
+      "name": "Valrenen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-081",
+      "name": "Halrena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-082",
+      "name": "Irvenelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-083",
+      "name": "Helvenia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-084",
+      "name": "Havreneth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-085",
+      "name": "Narvenora",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-086",
+      "name": "Arvenisa",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-087",
+      "name": "Talvenia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-088",
+      "name": "Breven",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-089",
+      "name": "Garvenora",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-090",
+      "name": "Alvenen",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-091",
+      "name": "Sevreneth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-092",
+      "name": "Zavenelle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-093",
+      "name": "Melrenara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-094",
+      "name": "Ulvenel",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-095",
+      "name": "Orenan",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-096",
+      "name": "Gavrenine",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "wolfkin-name-097",
+      "name": "Ferilara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "wolfkin-name-098",
+      "name": "Parveneth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "wolfkin-name-099",
+      "name": "Sarveneth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "wolfkin-name-100",
+      "name": "Ervenan",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "wolfkin-story-001",
+      "title": "The windward page",
+      "premise": "She wants to sketch outdoors but her proposed board holds the page so firmly that changing sheets becomes awkward.",
+      "personalMotivation": "She wants field tools that support curiosity rather than interrupt it.",
+      "openingHook": "She asks which fastening could be managed with cold fingers.",
+      "possibleDevelopments": [
+        "Compare corner tabs with a removable upper clip.",
+        "Plan an indoor handling trial before any outing."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "fieldwork",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-002",
+      "title": "A route for the return journey",
+      "premise": "Her map proposal is full of destinations and says little about deciding to turn back.",
+      "personalMotivation": "She values exploration that leaves room for changing one's mind.",
+      "openingHook": "She asks what a return note should make clear.",
+      "possibleDevelopments": [
+        "Add tentative retreat points and unanswered access questions.",
+        "Consider a deliberately short first observation route."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "exploration",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-003",
+      "title": "The unfamiliar harmony",
+      "premise": "She wants to join a song for its rhythm, not because anyone expects a wolf-themed chorus.",
+      "personalMotivation": "She wants musical taste to remain individual.",
+      "openingHook": "She asks whether there is a speaking or percussion part.",
+      "possibleDevelopments": [
+        "Explore several participation options without assigning a natural role.",
+        "Leave her free to listen rather than perform."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "identity",
+        "community"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-004",
+      "title": "The tail and the flour sack",
+      "premise": "She sketches a bakery apron whose ties would tangle around a moving tail.",
+      "personalMotivation": "She enjoys practical baking and wants clothing that stays out of the way.",
+      "openingHook": "She asks whether side ties could keep the back clear.",
+      "possibleDevelopments": [
+        "Draw a tail opening separate from the load-bearing waistband.",
+        "Consider an individual fitting before choosing a pattern."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "baking",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-005",
+      "title": "The letter carried too carefully",
+      "premise": "She has drafted a friendly note so cautiously that no warmth remains.",
+      "personalMotivation": "She wants to be considerate without sounding distant.",
+      "openingHook": "She asks which ordinary detail might make the letter feel hers.",
+      "possibleDevelopments": [
+        "Restore one genuine observation instead of adding grand emotion.",
+        "Consider sending a shorter note rather than perfecting the long one."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "friendship",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-006",
+      "title": "A small weather shelter",
+      "premise": "She imagines a portable shelter for field notes, not a complete camp.",
+      "personalMotivation": "She wants to protect her work without overburdening an outing.",
+      "openingHook": "She asks what truly needs cover: the page, the ink or the writer.",
+      "possibleDevelopments": [
+        "Compare a folding page shield with a broader canopy concept.",
+        "Leave construction until materials and use are understood."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "weather",
+        "fieldwork"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-007",
+      "title": "The untidy trail story",
+      "premise": "She wants to tell a journey story but the most memorable part is an ordinary argument about lunch.",
+      "personalMotivation": "She values honest recollection more than manufactured adventure.",
+      "openingHook": "She asks whether a small disagreement can carry a whole tale.",
+      "possibleDevelopments": [
+        "Build the story around differing priorities without assigning a villain.",
+        "Keep other people's private details out of any public version."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "exploration",
+        "privacy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-008",
+      "title": "An invitation without a group",
+      "premise": "She enjoys solitary interests and dislikes being introduced as someone who must want a circle around her.",
+      "personalMotivation": "She wants belonging that permits solitude.",
+      "openingHook": "She asks how to decline a group hobby without rejecting its members.",
+      "possibleDevelopments": [
+        "Draft a warm refusal with no promise to join later.",
+        "Offer individual company only if she actually wants it."
+      ],
+      "backgroundTags": [
+        "identity"
+      ],
+      "themeTags": [
+        "autonomy",
+        "quiet-company"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-009",
+      "title": "The good walking hem",
+      "premise": "She wants a graceful long skirt and worries the first design would snag during ordinary outdoor movement.",
+      "personalMotivation": "She wants practical elegance rather than a forced choice of style.",
+      "openingHook": "She asks what a walking vent could preserve of the silhouette.",
+      "possibleDevelopments": [
+        "Sketch a secure underlayer and adjustable outer hem.",
+        "Keep the intended use modest rather than calling it universal travel wear."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "fieldwork",
+        "elegant"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-010",
+      "title": "The notebook of ordinary smells",
+      "premise": "She is curious about describing a herb garden through scent but rejects assumptions of exceptional senses.",
+      "personalMotivation": "She wants observation, not ancestry-based claims of expertise.",
+      "openingHook": "She asks how uncertain scent notes should be recorded.",
+      "possibleDevelopments": [
+        "Use personal impressions with explicit limits.",
+        "Invite comparisons without treating agreement as proof."
+      ],
+      "backgroundTags": [
+        "gardening"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-011",
+      "title": "A bookmark for the impatient chapter",
+      "premise": "She keeps skipping to practical examples and wonders whether to rearrange her study notes accordingly.",
+      "personalMotivation": "She wants learning methods that match her actual attention.",
+      "openingHook": "She asks whether a worked example can come before the theory.",
+      "possibleDevelopments": [
+        "Draft an example-first outline with links back to definitions.",
+        "Keep the source's order recorded rather than silently rewriting it."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "reading",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-012",
+      "title": "The bench at the edge of company",
+      "premise": "She wants a seat near a gathering where joining conversation remains optional.",
+      "personalMotivation": "She likes companionship without constant participation.",
+      "openingHook": "She asks what makes the edge of a room feel welcoming rather than excluded.",
+      "possibleDevelopments": [
+        "Sketch several seating orientations and clear passage space.",
+        "Discuss personal preferences before assigning anyone a habitual place."
+      ],
+      "backgroundTags": [
+        "domestic"
+      ],
+      "themeTags": [
+        "quiet-company",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-013",
+      "title": "The mapmaker's empty patch",
+      "premise": "She is tempted to decorate an unknown part of a map because the blank looks unfinished.",
+      "personalMotivation": "She wants her work to admit what she does not know.",
+      "openingHook": "She asks whether uncertainty can be made visually deliberate.",
+      "possibleDevelopments": [
+        "Design a clear convention for unsurveyed areas.",
+        "Consider a separate imaginative illustration instead of false detail."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "trust",
+        "visual-art"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-014",
+      "title": "The wooden whistle study",
+      "premise": "She wants to understand a whistle's shape without assuming she can make a reliable instrument immediately.",
+      "personalMotivation": "She enjoys a small practical mystery.",
+      "openingHook": "She asks which dimensions a careful drawing should preserve.",
+      "possibleDevelopments": [
+        "Study an available example only with its owner's permission.",
+        "Plan a nonfunctional model before any sound experiment."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "music",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-015",
+      "title": "A soft answer to a loud room",
+      "premise": "She likes plain speech but finds lively gatherings make every answer sound sharper than intended.",
+      "personalMotivation": "She wants to be understood without abandoning directness.",
+      "openingHook": "She asks whether pausing or moving to a quieter corner would help.",
+      "possibleDevelopments": [
+        "Explore a brief clarification that keeps the original meaning.",
+        "Let her decline the discussion rather than repeatedly compete for volume."
+      ],
+      "backgroundTags": [
+        "social"
+      ],
+      "themeTags": [
+        "negotiation",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-016",
+      "title": "The borrowed trail custom",
+      "premise": "She likes a walking group's pause ritual but does not want to pretend membership in that group.",
+      "personalMotivation": "She values respectful borrowing with clear attribution.",
+      "openingHook": "She asks how to introduce an adapted custom as a personal choice.",
+      "possibleDevelopments": [
+        "Describe the source only as specifically as established facts allow.",
+        "Consider a new version built around her own priorities."
+      ],
+      "backgroundTags": [
+        "tradition"
+      ],
+      "themeTags": [
+        "exploration",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-017",
+      "title": "The bread that travels badly",
+      "premise": "A favourite loaf looks sturdy but crumbles in her proposed field meal plan.",
+      "personalMotivation": "She wants food chosen for the actual occasion.",
+      "openingHook": "She asks whether changing the loaf or changing its wrapping makes more sense.",
+      "possibleDevelopments": [
+        "Compare crumb texture and container shape in a proposed trial.",
+        "Keep the original recipe for meals at a table."
+      ],
+      "backgroundTags": [
+        "baking"
+      ],
+      "themeTags": [
+        "fieldwork",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-018",
+      "title": "An evening of harmless wagers",
+      "premise": "She proposes guessing games but dislikes stakes that pressure someone to participate.",
+      "personalMotivation": "She enjoys uncertainty without creating debts.",
+      "openingHook": "She asks what a wager-free version could still make amusing.",
+      "possibleDevelopments": [
+        "Use private predictions that people may share afterward.",
+        "Let an unanswered guess remain unresolved if play stops."
+      ],
+      "backgroundTags": [
+        "humour"
+      ],
+      "themeTags": [
+        "leisure",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-019",
+      "title": "The earflap compromise",
+      "premise": "She sketches a cold-weather cap whose ear panels block sounds she would rather hear.",
+      "personalMotivation": "She wants warmth with adjustable coverage.",
+      "openingHook": "She asks how a panel could fold away without dangling.",
+      "possibleDevelopments": [
+        "Compare soft ties and a low-profile fastening.",
+        "Treat comfort and hearing preferences as individual fitting questions."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "weather",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-020",
+      "title": "The trail partner who need not match",
+      "premise": "She imagines a shared outing and worries that different interests will be treated as incompatibility.",
+      "personalMotivation": "She wants companionship with room for separate attention.",
+      "openingHook": "She asks whether sketching and plant notes can share a modest route.",
+      "possibleDevelopments": [
+        "Discuss optional pauses before any plan is accepted.",
+        "Consider parallel activities at a common base instead of continuous company."
+      ],
+      "backgroundTags": [
+        "exploration"
+      ],
+      "themeTags": [
+        "friendship",
+        "negotiation"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-021",
+      "title": "A letter of uncertain directions",
+      "premise": "A correspondent's charming description leaves her unsure where an actual meeting would occur.",
+      "personalMotivation": "She wants clarification without mocking expressive writing.",
+      "openingHook": "She asks how to request a plain landmark kindly.",
+      "possibleDevelopments": [
+        "Draft a practical follow-up without assuming a meeting is agreed.",
+        "Keep the original imagery as something to appreciate separately."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "cartography",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-022",
+      "title": "The small repair before the outing",
+      "premise": "She wants to mend a strap and is tempted to let anticipation outrun the repair's uncertain quality.",
+      "personalMotivation": "She wants preparation to be part of adventure rather than an annoyance.",
+      "openingHook": "She asks which signs would justify postponing the plan.",
+      "possibleDevelopments": [
+        "Seek knowledgeable review instead of declaring the repair sound.",
+        "Consider a different activity while suitability remains unresolved."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "exploration",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-023",
+      "title": "The unromantic moon sketch",
+      "premise": "She wants to study moonlit roof shapes and dislikes the expectation of a mystical ancestral connection.",
+      "personalMotivation": "She likes the geometry of a quiet night.",
+      "openingHook": "She asks which contrast is hardest to capture honestly.",
+      "possibleDevelopments": [
+        "Propose a limited-value drawing from an agreed viewpoint.",
+        "Keep the study observational rather than inventing an omen."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "night",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-024",
+      "title": "A comfortable pause in the story",
+      "premise": "She notices every tale she drafts moves quickly and wants to write a scene where nothing urgent happens.",
+      "personalMotivation": "She values the texture of ordinary company.",
+      "openingHook": "She asks what a character might notice while waiting willingly.",
+      "possibleDevelopments": [
+        "Build a short scene around an object and an unresolved thought.",
+        "Let the scene end without a revelation or romance."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "quiet-company",
+        "domestic"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "wolfkin-story-025",
+      "title": "The map rolled the other way",
+      "premise": "She designs a case that protects maps well but makes the most useful sheet hardest to reach.",
+      "personalMotivation": "She wants access organized around use, not visual tidiness.",
+      "openingHook": "She asks which sheet should be available first.",
+      "possibleDevelopments": [
+        "Sketch a removable inner sleeve or separate quick-reference card.",
+        "Consider carrying fewer maps rather than complicating the case."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "craft",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "wolfkin-appearance-001",
+      "summary": "An adult woman aged 25 with dark brown skin, a silver-blonde crop, and slate grey eyes. Her build is full-figured with broad hips and a strong back. Ash-grey wolf ears.",
+      "skin": "dark brown",
+      "hair": "a silver-blonde crop",
+      "eyes": "slate grey",
+      "build": "full-figured with broad hips and a strong back",
+      "ancestryFeatures": [
+        "ash-grey wolf ears",
+        "a full ash-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a few silver strands at the right temple"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-002",
+      "summary": "An adult woman aged 20 with fair with rosy undertones skin, a chestnut pixie cut, and russet brown eyes. Her build is short and full-figured with rounded shoulders. Black wolf ears.",
+      "skin": "fair with rosy undertones",
+      "hair": "a chestnut pixie cut",
+      "eyes": "russet brown",
+      "build": "short and full-figured with rounded shoulders",
+      "ancestryFeatures": [
+        "black wolf ears",
+        "a dense black wolf tail with a grey underside",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a slightly higher arch to the left eyebrow"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-003",
+      "summary": "An adult woman aged 23 with copper-brown skin, mid-back silver-white waves, and dark blue eyes. Her build is compact and softly curvaceous with mature proportions. Cream wolf ears.",
+      "skin": "copper-brown",
+      "hair": "mid-back silver-white waves",
+      "eyes": "dark blue",
+      "build": "compact and softly curvaceous with mature proportions",
+      "ancestryFeatures": [
+        "cream wolf ears",
+        "a plush cream wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a beauty mark beneath the lower lip"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-004",
+      "summary": "An adult woman aged 18 with medium olive skin, a shoulder-length tawny shag, and green flecked with gold eyes. Her build is willowy with a full bust and narrow hips. Brown-grey wolf ears.",
+      "skin": "medium olive",
+      "hair": "a shoulder-length tawny shag",
+      "eyes": "green flecked with gold",
+      "build": "willowy with a full bust and narrow hips",
+      "ancestryFeatures": [
+        "brown-grey wolf ears",
+        "a broad brown-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a tiny beauty mark beneath the right eye"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-005",
+      "summary": "An adult woman aged 21 with pale beige skin, mid-back flaxen braids, and deep brown eyes. Her build is athletic and broad-hipped with a modest bust. Silver wolf ears.",
+      "skin": "pale beige",
+      "hair": "mid-back flaxen braids",
+      "eyes": "deep brown",
+      "build": "athletic and broad-hipped with a modest bust",
+      "ancestryFeatures": [
+        "silver wolf ears",
+        "a long silver wolf tail with a dark tip",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a faint freckle band across the upper cheeks"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-006",
+      "summary": "An adult woman aged 24 with rich mahogany skin, shoulder-length warm-brown twists, and copper brown eyes. Her build is athletic with a full bust and firm thighs. Rust-grey wolf ears.",
+      "skin": "rich mahogany",
+      "hair": "shoulder-length warm-brown twists",
+      "eyes": "copper brown",
+      "build": "athletic with a full bust and firm thighs",
+      "ancestryFeatures": [
+        "rust-grey wolf ears",
+        "a rust-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a soft dusting of freckles on the upper arms"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "freckled"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-007",
+      "summary": "An adult woman aged 19 with golden brown skin, chin-length black curls, and deep blue eyes. Her build is tall with a broad ribcage and generous hips. White wolf ears.",
+      "skin": "golden brown",
+      "hair": "chin-length black curls",
+      "eyes": "deep blue",
+      "build": "tall with a broad ribcage and generous hips",
+      "ancestryFeatures": [
+        "white wolf ears",
+        "a thick white wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "slightly uneven natural eyebrow arches"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-008",
+      "summary": "An adult woman aged 22 with light brown skin, shoulder-length copper coils, and blue-grey eyes. Her build is compact with thick thighs and a soft abdomen. Charcoal wolf ears.",
+      "skin": "light brown",
+      "hair": "shoulder-length copper coils",
+      "eyes": "blue-grey",
+      "build": "compact with thick thighs and a soft abdomen",
+      "ancestryFeatures": [
+        "charcoal wolf ears",
+        "a charcoal wolf tail with a pale tip",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a pale oval birthmark at the nape"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-009",
+      "summary": "An adult woman aged 25 with cool dark brown skin, waist-length dark auburn hair, and honey brown eyes. Her build is short and sturdily built with a defined waist. Tawny-grey wolf ears.",
+      "skin": "cool dark brown",
+      "hair": "waist-length dark auburn hair",
+      "eyes": "honey brown",
+      "build": "short and sturdily built with a defined waist",
+      "ancestryFeatures": [
+        "tawny-grey wolf ears",
+        "a tawny-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a narrow pale scar along the chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-010",
+      "summary": "An adult woman aged 20 with warm beige skin, long pale-gold waves, and olive green eyes. Her build is slim-waisted with broad shoulders and full thighs. Smoke-grey wolf ears.",
+      "skin": "warm beige",
+      "hair": "long pale-gold waves",
+      "eyes": "olive green",
+      "build": "slim-waisted with broad shoulders and full thighs",
+      "ancestryFeatures": [
+        "smoke-grey wolf ears",
+        "a full smoke-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a deeper natural crease beneath the lower lip"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-011",
+      "summary": "An adult woman aged 23 with deep brown skin, a blunt honey-brown bob, and smoky blue eyes. Her build is slender with a strong back and softly rounded hips. Ash-grey wolf ears.",
+      "skin": "deep brown",
+      "hair": "a blunt honey-brown bob",
+      "eyes": "smoky blue",
+      "build": "slender with a strong back and softly rounded hips",
+      "ancestryFeatures": [
+        "ash-grey wolf ears",
+        "a full ash-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a small birthmark near the right shoulder"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-012",
+      "summary": "An adult woman aged 18 with fair with peach undertones skin, long dark hair with a silver forelock, and amber eyes. Her build is lean and long-limbed with a modest bust. Black wolf ears.",
+      "skin": "fair with peach undertones",
+      "hair": "long dark hair with a silver forelock",
+      "eyes": "amber",
+      "build": "lean and long-limbed with a modest bust",
+      "ancestryFeatures": [
+        "black wolf ears",
+        "a dense black wolf tail with a grey underside",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a small freckle cluster across the nose"
+      ],
+      "styleTags": [
+        "striking",
+        "freckled"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-013",
+      "summary": "An adult woman aged 21 with medium brown skin, short deep-plum curls, and rich brown eyes. Her build is tall and strongly built with a modest bust. Cream wolf ears.",
+      "skin": "medium brown",
+      "hair": "short deep-plum curls",
+      "eyes": "rich brown",
+      "build": "tall and strongly built with a modest bust",
+      "ancestryFeatures": [
+        "cream wolf ears",
+        "a plush cream wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a subtle left cheek dimple"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-014",
+      "summary": "An adult woman aged 24 with brown with red undertones skin, a dark chestnut crop with a curled fringe, and hazel eyes. Her build is medium-height and generously curvaceous with a broad frame. Brown-grey wolf ears.",
+      "skin": "brown with red undertones",
+      "hair": "a dark chestnut crop with a curled fringe",
+      "eyes": "hazel",
+      "build": "medium-height and generously curvaceous with a broad frame",
+      "ancestryFeatures": [
+        "brown-grey wolf ears",
+        "a broad brown-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a beauty mark beside the left cheekbone"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-015",
+      "summary": "An adult woman aged 19 with pale olive skin, a wavy black bob, and moss green eyes. Her build is medium-height and muscular with mature curves. Silver wolf ears.",
+      "skin": "pale olive",
+      "hair": "a wavy black bob",
+      "eyes": "moss green",
+      "build": "medium-height and muscular with mature curves",
+      "ancestryFeatures": [
+        "silver wolf ears",
+        "a long silver wolf tail with a dark tip",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a dark freckle beside the bridge of the nose"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-016",
+      "summary": "An adult woman aged 22 with bronze-brown skin, a straight dark-brown bob, and muted gold eyes. Her build is long-legged with a soft waist and full hips. Rust-grey wolf ears.",
+      "skin": "bronze-brown",
+      "hair": "a straight dark-brown bob",
+      "eyes": "muted gold",
+      "build": "long-legged with a soft waist and full hips",
+      "ancestryFeatures": [
+        "rust-grey wolf ears",
+        "a rust-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a natural notch in the right eyebrow"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-017",
+      "summary": "An adult woman aged 25 with deep espresso-brown skin, close-cropped ash-brown curls, and golden brown eyes. Her build is tall and slender with mature hips. White wolf ears.",
+      "skin": "deep espresso-brown",
+      "hair": "close-cropped ash-brown curls",
+      "eyes": "golden brown",
+      "build": "tall and slender with mature hips",
+      "ancestryFeatures": [
+        "white wolf ears",
+        "a thick white wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a small cleft in the chin"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-018",
+      "summary": "An adult woman aged 20 with light golden beige skin, thick dark-brown coils to the shoulders, and dark grey eyes. Her build is compact and muscular with soft contours. Charcoal wolf ears.",
+      "skin": "light golden beige",
+      "hair": "thick dark-brown coils to the shoulders",
+      "eyes": "dark grey",
+      "build": "compact and muscular with soft contours",
+      "ancestryFeatures": [
+        "charcoal wolf ears",
+        "a charcoal wolf tail with a pale tip",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a light scatter of freckles over the shoulders"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact",
+        "freckled"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-019",
+      "summary": "An adult woman aged 23 with cool medium brown skin, long blue-black curls, and warm brown eyes. Her build is medium-height with a full bust and straight waist. Tawny-grey wolf ears.",
+      "skin": "cool medium brown",
+      "hair": "long blue-black curls",
+      "eyes": "warm brown",
+      "build": "medium-height with a full bust and straight waist",
+      "ancestryFeatures": [
+        "tawny-grey wolf ears",
+        "a tawny-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a pale pigment fleck at the left temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-020",
+      "summary": "An adult woman aged 18 with warm dark brown skin, short russet curls, and soft violet eyes. Her build is broad-shouldered with soft waist curves. Smoke-grey wolf ears.",
+      "skin": "warm dark brown",
+      "hair": "short russet curls",
+      "eyes": "soft violet",
+      "build": "broad-shouldered with soft waist curves",
+      "ancestryFeatures": [
+        "smoke-grey wolf ears",
+        "a full smoke-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a softly dimpled chin"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-021",
+      "summary": "An adult woman aged 21 with fair with neutral undertones skin, sleek black hair to the waist, and grey-green eyes. Her build is rounded and full-busted with sturdy legs. Ash-grey wolf ears.",
+      "skin": "fair with neutral undertones",
+      "hair": "sleek black hair to the waist",
+      "eyes": "grey-green",
+      "build": "rounded and full-busted with sturdy legs",
+      "ancestryFeatures": [
+        "ash-grey wolf ears",
+        "a full ash-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "a beauty mark near the right corner of the mouth"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-022",
+      "summary": "An adult woman aged 24 with tawny brown skin, long ash-brown ringlets, and pale grey eyes. Her build is tall and broad-hipped with gently defined muscles. Black wolf ears.",
+      "skin": "tawny brown",
+      "hair": "long ash-brown ringlets",
+      "eyes": "pale grey",
+      "build": "tall and broad-hipped with gently defined muscles",
+      "ancestryFeatures": [
+        "black wolf ears",
+        "a dense black wolf tail with a grey underside",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "a darker pigment patch along one collarbone"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-023",
+      "summary": "An adult woman aged 19 with deep umber skin, long pale-copper waves, and black-brown eyes. Her build is tall and voluptuous with a gently rounded abdomen. Cream wolf ears.",
+      "skin": "deep umber",
+      "hair": "long pale-copper waves",
+      "eyes": "black-brown",
+      "build": "tall and voluptuous with a gently rounded abdomen",
+      "ancestryFeatures": [
+        "cream wolf ears",
+        "a plush cream wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "soft freckling along the collarbones"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque",
+        "freckled"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-024",
+      "summary": "An adult woman aged 22 with warm brown skin, long chestnut waves, and dark hazel eyes. Her build is medium-height with balanced, softly mature curves. Brown-grey wolf ears.",
+      "skin": "warm brown",
+      "hair": "long chestnut waves",
+      "eyes": "dark hazel",
+      "build": "medium-height with balanced, softly mature curves",
+      "ancestryFeatures": [
+        "brown-grey wolf ears",
+        "a broad brown-grey wolf tail",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a tiny pale scar at the edge of the left brow"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "wolfkin-appearance-025",
+      "summary": "An adult woman aged 25 with light olive skin, long black hair with a blunt fringe, and sea green eyes. Her build is full-bodied with a defined waist and powerful calves. Silver wolf ears.",
+      "skin": "light olive",
+      "hair": "long black hair with a blunt fringe",
+      "eyes": "sea green",
+      "build": "full-bodied with a defined waist and powerful calves",
+      "ancestryFeatures": [
+        "silver wolf ears",
+        "a long silver wolf tail with a dark tip",
+        "human face and smooth human skin; fur confined to ears and tails"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a faint darker patch at the left jaw"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    }
+  ]
+}

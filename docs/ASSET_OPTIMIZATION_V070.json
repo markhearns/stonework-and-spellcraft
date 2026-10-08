@@ -1,0 +1,3181 @@
+{
+  "assets": [
+    {
+      "oldPath": "/assets/aurelia-evening.png",
+      "path": "/assets/portraits/aurelia-evening.webp",
+      "beforeBytes": 3910141,
+      "sourceSha256": "668bddec38ec177ff5fbd424397306ac8d6af99d1dc0c2d5a2418d8596a97d3a",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 665502,
+      "sha256": "4883a312d1b485cdbb75fab226317bad1e2a37280468eadb11996bdc6226b334"
+    },
+    {
+      "oldPath": "/assets/aurelia-lamplit.png",
+      "path": "/assets/portraits/aurelia-lamplit.webp",
+      "beforeBytes": 3740022,
+      "sourceSha256": "3d4d47057904b1c44f8f1a52c44f2548664f1e1a3e302611a52719205b26a39c",
+      "beforeSize": [
+        1536,
+        1024
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 647840,
+      "sha256": "7f4785ebe6781b325e0577d5767e95a6d4c7f14716d913625b298036c67ef63b"
+    },
+    {
+      "oldPath": "/assets/mira-shawl-v2.png",
+      "path": "/assets/portraits/mira-shawl.webp",
+      "beforeBytes": 2444490,
+      "sourceSha256": "f06261bcb38e1f1a77371c48c12ff569a0b2871743dcf99012e1c1005f3730a9",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 320474,
+      "sha256": "063708f9b3430e5b408a5b8bc681c842bbf357bbca0c769d9189924c58a630c9"
+    },
+    {
+      "oldPath": "/assets/neris-evening.png",
+      "path": "/assets/portraits/neris-evening.webp",
+      "beforeBytes": 3442735,
+      "sourceSha256": "0c0e352330379c5228d6cf7eb54f10d947e4cdb4523a6157f6e16f325cda3e65",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 508956,
+      "sha256": "3d9488f2ac19535f16696e0ef2f539763e0a4a01e3528bf404a1bdd0c4c6a5b0"
+    },
+    {
+      "oldPath": "/assets/neris-glasslight.png",
+      "path": "/assets/portraits/neris-glasslight.webp",
+      "beforeBytes": 4304189,
+      "sourceSha256": "aeadef70960c6e0af76e32cba1e1c1eb3ff7cb59c7546b733906a6eef948a233",
+      "beforeSize": [
+        1536,
+        1024
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 747556,
+      "sha256": "c71ac4eeac1c26d76a856d0bc354b200f89a26c46809f9df7938411989891605"
+    },
+    {
+      "oldPath": "/assets/object-placeholder.svg",
+      "path": "/assets/placeholders/object-placeholder.svg",
+      "beforeBytes": 510,
+      "sourceSha256": "dddbf35a2784558e38b51c437b3c1aa7faa18ab5b7541a3b06700ed9f02dff16",
+      "bytes": 510,
+      "sha256": "dddbf35a2784558e38b51c437b3c1aa7faa18ab5b7541a3b06700ed9f02dff16"
+    },
+    {
+      "oldPath": "/assets/rainward-observatory.webp",
+      "path": "/assets/rooms/rainward-observatory.webp",
+      "beforeBytes": 598526,
+      "sourceSha256": "c2225e8215afe6e797a952725b41f6afb2969aa65a1affc72418e9a0388f8c17",
+      "beforeSize": [
+        1672,
+        941
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 527684,
+      "sha256": "bc1e5cb72077bdf7c84150c90f52163e4300b089811c50841cba77b71e0e5a77"
+    },
+    {
+      "oldPath": "/assets/rooms/annex-chamber-family.webp",
+      "path": "/assets/rooms/annex-chamber-family.webp",
+      "beforeBytes": 405804,
+      "sourceSha256": "aac54c70b26108cd2b7097cf671aeb6a9405e34b30c9af64f1c1c8a261eeae66",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 405804,
+      "sha256": "aac54c70b26108cd2b7097cf671aeb6a9405e34b30c9af64f1c1c8a261eeae66"
+    },
+    {
+      "oldPath": "/assets/rooms/annex-suite-family.webp",
+      "path": "/assets/rooms/annex-suite-family.webp",
+      "beforeBytes": 479670,
+      "sourceSha256": "eae470c47361b94a3ea86e47fa3661b3633c3a38e158ce6facfed42afd687c01",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 479670,
+      "sha256": "eae470c47361b94a3ea86e47fa3661b3633c3a38e158ce6facfed42afd687c01"
+    },
+    {
+      "oldPath": "/assets/rooms/bedchamber.webp",
+      "path": "/assets/rooms/bedchamber.webp",
+      "beforeBytes": 457202,
+      "sourceSha256": "1a94e45c934000101b2955d473a6a9a0e0514c5d865498549eb4a31fd79d02c4",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 457202,
+      "sha256": "1a94e45c934000101b2955d473a6a9a0e0514c5d865498549eb4a31fd79d02c4"
+    },
+    {
+      "oldPath": "/assets/rooms/chapel.webp",
+      "path": "/assets/rooms/chapel.webp",
+      "beforeBytes": 503176,
+      "sourceSha256": "8c3b4180557389aaa51e5419b7cb3280c0b41602ff9ad03a58b659dea1db6852",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 503176,
+      "sha256": "8c3b4180557389aaa51e5419b7cb3280c0b41602ff9ad03a58b659dea1db6852"
+    },
+    {
+      "oldPath": "/assets/rooms/command-room.webp",
+      "path": "/assets/rooms/command-room.webp",
+      "beforeBytes": 451954,
+      "sourceSha256": "523ca4fb6106e59a0c46d4be578b1a1a94a4860c4a50dfd4e30455557d2f7cde",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 451598,
+      "sha256": "51dd188372b9a5481502f22715fab4937a8b6db247d5964bb7d1774f0a845831"
+    },
+    {
+      "oldPath": "/assets/rooms/common-room.webp",
+      "path": "/assets/rooms/common-room.webp",
+      "beforeBytes": 478172,
+      "sourceSha256": "4a3baa59863e779c1e7318ad9c14cd5b1ea35d0a9e4d2c630bce178203c25086",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 478172,
+      "sha256": "4a3baa59863e779c1e7318ad9c14cd5b1ea35d0a9e4d2c630bce178203c25086"
+    },
+    {
+      "oldPath": "/assets/rooms/conservatory.webp",
+      "path": "/assets/rooms/conservatory.webp",
+      "beforeBytes": 563088,
+      "sourceSha256": "bb757b7457abcac1f03894a0d0dd7b03dc19708fc13f02e387db47e98578b7e8",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 563088,
+      "sha256": "bb757b7457abcac1f03894a0d0dd7b03dc19708fc13f02e387db47e98578b7e8"
+    },
+    {
+      "oldPath": "/assets/rooms/dungeons.webp",
+      "path": "/assets/rooms/dungeons.webp",
+      "beforeBytes": 545870,
+      "sourceSha256": "799a96e731cb5df37a653d0fc99be30e7d14cd8c1e6809de57537d512cec73c7",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 545870,
+      "sha256": "799a96e731cb5df37a653d0fc99be30e7d14cd8c1e6809de57537d512cec73c7"
+    },
+    {
+      "oldPath": "/assets/rooms/ember-chamber-family.webp",
+      "path": "/assets/rooms/ember-chamber-family.webp",
+      "beforeBytes": 536210,
+      "sourceSha256": "1c15a03ea5edaf9f614e382335634b4d724b48da909d94ecae787616f5022713",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 536210,
+      "sha256": "1c15a03ea5edaf9f614e382335634b4d724b48da909d94ecae787616f5022713"
+    },
+    {
+      "oldPath": "/assets/rooms/enchanting-room.webp",
+      "path": "/assets/rooms/enchanting-room.webp",
+      "beforeBytes": 513782,
+      "sourceSha256": "3b4d8c12b661770b98bd0f9604ade70bbc7638ebc329744f1e024c310a33bf45",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 513782,
+      "sha256": "3b4d8c12b661770b98bd0f9604ade70bbc7638ebc329744f1e024c310a33bf45"
+    },
+    {
+      "oldPath": "/assets/rooms/entry-hall.webp",
+      "path": "/assets/rooms/entry-hall.webp",
+      "beforeBytes": 428384,
+      "sourceSha256": "c3f4d1efe8dd81118be818c0883e8da3e8792117793bbf6d1a21f8da7f685290",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 428384,
+      "sha256": "c3f4d1efe8dd81118be818c0883e8da3e8792117793bbf6d1a21f8da7f685290"
+    },
+    {
+      "oldPath": "/assets/rooms/gallery-suite-family.webp",
+      "path": "/assets/rooms/gallery-suite-family.webp",
+      "beforeBytes": 427760,
+      "sourceSha256": "15ccd36488e6561fed392f47f6d5f11a16a7c2c7c421231e8e5ea0ad46c9b598",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 427760,
+      "sha256": "15ccd36488e6561fed392f47f6d5f11a16a7c2c7c421231e8e5ea0ad46c9b598"
+    },
+    {
+      "oldPath": "/assets/rooms/garden-chamber.webp",
+      "path": "/assets/rooms/garden-chamber.webp",
+      "beforeBytes": 473178,
+      "sourceSha256": "36610257782fd08b5190eadae541cc98610ad52de5a8bb1014b2efae53364d22",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 473178,
+      "sha256": "36610257782fd08b5190eadae541cc98610ad52de5a8bb1014b2efae53364d22"
+    },
+    {
+      "oldPath": "/assets/rooms/guard-barracks.webp",
+      "path": "/assets/rooms/guard-barracks.webp",
+      "beforeBytes": 424262,
+      "sourceSha256": "a6dfceffd3bbb1450781f1ff7c853070eeabee246af67d953f5db23b91749794",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 424262,
+      "sha256": "a6dfceffd3bbb1450781f1ff7c853070eeabee246af67d953f5db23b91749794"
+    },
+    {
+      "oldPath": "/assets/rooms/guard-dormitory.webp",
+      "path": "/assets/rooms/guard-dormitory.webp",
+      "beforeBytes": 447260,
+      "sourceSha256": "155b1e90265c738b12f1fb671d82455a7bcdd91b22659a6769ebd8cdb08b4c59",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 447260,
+      "sha256": "155b1e90265c738b12f1fb671d82455a7bcdd91b22659a6769ebd8cdb08b4c59"
+    },
+    {
+      "oldPath": "/assets/rooms/hot-spring.webp",
+      "path": "/assets/rooms/hot-spring.webp",
+      "beforeBytes": 512050,
+      "sourceSha256": "b62798bb06c4d5e743c2abd341453b7b959aa9619430abce7bc2d13cc2500f8b",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 512050,
+      "sha256": "b62798bb06c4d5e743c2abd341453b7b959aa9619430abce7bc2d13cc2500f8b"
+    },
+    {
+      "oldPath": "/assets/rooms/infirmary.webp",
+      "path": "/assets/rooms/infirmary.webp",
+      "beforeBytes": 472308,
+      "sourceSha256": "f6ddb19ac96f4a3cd875a5362ac7e903c2477ce609685ba5d0487e4b847bb5fd",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 472308,
+      "sha256": "f6ddb19ac96f4a3cd875a5362ac7e903c2477ce609685ba5d0487e4b847bb5fd"
+    },
+    {
+      "oldPath": "/assets/rooms/kitchen.webp",
+      "path": "/assets/rooms/kitchen.webp",
+      "beforeBytes": 508598,
+      "sourceSha256": "1b869931125bdd637b1206f739ed7abd029747c1a462fc6c957c040b724779ab",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 508598,
+      "sha256": "1b869931125bdd637b1206f739ed7abd029747c1a462fc6c957c040b724779ab"
+    },
+    {
+      "oldPath": "/assets/rooms/library.webp",
+      "path": "/assets/rooms/library.webp",
+      "beforeBytes": 503596,
+      "sourceSha256": "7dff7e8cd5c3172f8c0060c73d3a1bbcfbd07155800b18ca4d5094dd70dbc920",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 503596,
+      "sha256": "7dff7e8cd5c3172f8c0060c73d3a1bbcfbd07155800b18ca4d5094dd70dbc920"
+    },
+    {
+      "oldPath": "/assets/rooms/living-quarters.webp",
+      "path": "/assets/rooms/living-quarters.webp",
+      "beforeBytes": 545934,
+      "sourceSha256": "df193298a158fe74b039e3dabeab2beb17cade40af0f4de73610c320028868ee",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 545934,
+      "sha256": "df193298a158fe74b039e3dabeab2beb17cade40af0f4de73610c320028868ee"
+    },
+    {
+      "oldPath": "/assets/rooms/lower-chamber.webp",
+      "path": "/assets/rooms/lower-chamber.webp",
+      "beforeBytes": 458424,
+      "sourceSha256": "4c52a11e8023189a4be6599314d461f5f3874d9049160d13bf74b57a7bd5c30c",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 458424,
+      "sha256": "4c52a11e8023189a4be6599314d461f5f3874d9049160d13bf74b57a7bd5c30c"
+    },
+    {
+      "oldPath": "/assets/rooms/lower-suite.webp",
+      "path": "/assets/rooms/lower-suite.webp",
+      "beforeBytes": 493826,
+      "sourceSha256": "b81d555d3061eedea59f0a166b5f36a7c4a722f897f5ddb56dbbbee395fa8cc5",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 493826,
+      "sha256": "b81d555d3061eedea59f0a166b5f36a7c4a722f897f5ddb56dbbbee395fa8cc5"
+    },
+    {
+      "oldPath": "/assets/rooms/pool.webp",
+      "path": "/assets/rooms/pool.webp",
+      "beforeBytes": 488084,
+      "sourceSha256": "ae769ac78cfd889715515907723f79e6aa90967ad3e9fb114d8328066ad2809c",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 488084,
+      "sha256": "ae769ac78cfd889715515907723f79e6aa90967ad3e9fb114d8328066ad2809c"
+    },
+    {
+      "oldPath": "/assets/rooms/quiet-chamber-family.webp",
+      "path": "/assets/rooms/quiet-chamber-family.webp",
+      "beforeBytes": 363162,
+      "sourceSha256": "7f56920d24b952e1f7d14be5ab176d7a4793fa035f6c54e50b59829a78cdcd17",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 363162,
+      "sha256": "7f56920d24b952e1f7d14be5ab176d7a4793fa035f6c54e50b59829a78cdcd17"
+    },
+    {
+      "oldPath": "/assets/rooms/sauna.webp",
+      "path": "/assets/rooms/sauna.webp",
+      "beforeBytes": 430594,
+      "sourceSha256": "e200c6bc66062d1c883ca165dfdb791977cec8ab6a7744ff174d621a835bb957",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 430594,
+      "sha256": "e200c6bc66062d1c883ca165dfdb791977cec8ab6a7744ff174d621a835bb957"
+    },
+    {
+      "oldPath": "/assets/rooms/smithy.webp",
+      "path": "/assets/rooms/smithy.webp",
+      "beforeBytes": 501468,
+      "sourceSha256": "3e5991ba53d2f846c9b99248f922d7673354722074c43500f201d623da481c87",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 501468,
+      "sha256": "3e5991ba53d2f846c9b99248f922d7673354722074c43500f201d623da481c87"
+    },
+    {
+      "oldPath": "/assets/rooms/training-yard.webp",
+      "path": "/assets/rooms/training-yard.webp",
+      "beforeBytes": 503630,
+      "sourceSha256": "1edea89814b466aee426652794b7b942a4d08406b4603ea875fbf9c0de00d253",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 503630,
+      "sha256": "1edea89814b466aee426652794b7b942a4d08406b4603ea875fbf9c0de00d253"
+    },
+    {
+      "oldPath": "/assets/rooms/underground-quarters.webp",
+      "path": "/assets/rooms/underground-quarters.webp",
+      "beforeBytes": 491060,
+      "sourceSha256": "0e0ced00e2a4b8d463d0101ab4e4f3e7e939aec11ca513fa1f9b205f43f1b536",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 491060,
+      "sha256": "0e0ced00e2a4b8d463d0101ab4e4f3e7e939aec11ca513fa1f9b205f43f1b536"
+    },
+    {
+      "oldPath": "/assets/rooms/upper-chamber-family.webp",
+      "path": "/assets/rooms/upper-chamber-family.webp",
+      "beforeBytes": 497836,
+      "sourceSha256": "d13f3e39781f46dbeba1cdaf19cddafd21f2d7fad04e61a5a283fd4fec2e86a9",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 497836,
+      "sha256": "d13f3e39781f46dbeba1cdaf19cddafd21f2d7fad04e61a5a283fd4fec2e86a9"
+    },
+    {
+      "oldPath": "/assets/rooms/vault.webp",
+      "path": "/assets/rooms/vault.webp",
+      "beforeBytes": 476956,
+      "sourceSha256": "7dfdc5f34c3dfa02725ea3dae38f2e1d7e61736125e9133d94559fc0c235f1ab",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 476956,
+      "sha256": "7dfdc5f34c3dfa02725ea3dae38f2e1d7e61736125e9133d94559fc0c235f1ab"
+    },
+    {
+      "oldPath": "/assets/rooms/warehouse.webp",
+      "path": "/assets/rooms/warehouse.webp",
+      "beforeBytes": 465982,
+      "sourceSha256": "723fc158aa8487e9a2ccd90530748cecfc97696e7650d81e621136b559d3b84d",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 465982,
+      "sha256": "723fc158aa8487e9a2ccd90530748cecfc97696e7650d81e621136b559d3b84d"
+    },
+    {
+      "oldPath": "/assets/rooms/washroom.webp",
+      "path": "/assets/rooms/washroom.webp",
+      "beforeBytes": 454014,
+      "sourceSha256": "f661d0719f3180bfc06b0586e1f1aded1f14d8c4c779e5c38ab0e03d169630d2",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 454014,
+      "sha256": "f661d0719f3180bfc06b0586e1f1aded1f14d8c4c779e5c38ab0e03d169630d2"
+    },
+    {
+      "oldPath": "/assets/rooms/west-chamber.webp",
+      "path": "/assets/rooms/west-chamber.webp",
+      "beforeBytes": 425040,
+      "sourceSha256": "56c6ff493310324cc13b79f3a1695908d9172e131a6f75ea8029e06a9b725841",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 425040,
+      "sha256": "56c6ff493310324cc13b79f3a1695908d9172e131a6f75ea8029e06a9b725841"
+    },
+    {
+      "oldPath": "/assets/rooms/workshop.webp",
+      "path": "/assets/rooms/workshop.webp",
+      "beforeBytes": 491880,
+      "sourceSha256": "f413d6f6b6ad9476cd09a344a876e5a54b1845fe151d01482a3c233f98a97a39",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "existing WebP retained",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 491880,
+      "sha256": "f413d6f6b6ad9476cd09a344a876e5a54b1845fe151d01482a3c233f98a97a39"
+    },
+    {
+      "oldPath": "/assets/ui-v044/botanical-frame.png",
+      "path": "/assets/ui/botanical-frame.webp",
+      "beforeBytes": 396178,
+      "sourceSha256": "7329b928324958bf63fbf1de731406c7f6125f14ed37ea3b2e01794496c0e808",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        512,
+        512
+      ],
+      "bytes": 26762,
+      "sha256": "16437bf2125f989ff18ae9c9455fbe861f86dd317c5f00a11131900d4552bc97"
+    },
+    {
+      "oldPath": "/assets/ui-v044/castle-emblem.png",
+      "path": "/assets/ui/castle-emblem.webp",
+      "beforeBytes": 2448917,
+      "sourceSha256": "3bca068c8e0b500aa30d0745964466118e1806cbc1c8bf1964c6b3245c51d6a1",
+      "beforeSize": [
+        1225,
+        1284
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        183,
+        192
+      ],
+      "bytes": 17090,
+      "sha256": "fece3d6689a138bc4811e5050f8bb43b6e60bc9ebba903637f9355c624bb16dc"
+    },
+    {
+      "oldPath": "/assets/ui-v044/materials-atlas.png",
+      "path": "/assets/ui/materials-atlas.webp",
+      "beforeBytes": 2015020,
+      "sourceSha256": "820a85c61129d8f1fc539a5d5dc25275e3810aff6f097393d716574f8027b42c",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        768,
+        768
+      ],
+      "bytes": 219082,
+      "sha256": "c5ad9bf6462527864bc2e35b4951df541c4fc91f552eaad888d6c26c797c821c"
+    },
+    {
+      "oldPath": "/assets/ui-v044/midnight-paper.png",
+      "path": "/assets/ui/midnight-paper.webp",
+      "beforeBytes": 2564858,
+      "sourceSha256": "eca877410e6eae60a7ad0bf41db0160f563f2c06113b00095467b70543b2070d",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        900,
+        900
+      ],
+      "bytes": 168530,
+      "sha256": "122bf52b3561497bbb10b1728402e85996770585bb79a336fe4e25f3a8fc240e"
+    },
+    {
+      "oldPath": "/assets/ui-v044/workshop-atlas.png",
+      "path": "/assets/ui/workshop-atlas.webp",
+      "beforeBytes": 2178209,
+      "sourceSha256": "39a9b225494ad93c558ceb5fe33bf880b9647ec0ecf674005eddec8e79da91b2",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1024
+      ],
+      "bytes": 410588,
+      "sha256": "b72aa380f0e07f7f8df152a3c9ac3f067126fa94155d811af25e1fd1d86d6344"
+    },
+    {
+      "oldPath": "/assets/v053/locations/fern-nursery.webp",
+      "path": "/assets/locations/fern-nursery.webp",
+      "beforeBytes": 917026,
+      "sourceSha256": "66da37392b5a0eeb0793f4409984eb31f295c616a1c249b242e14c4b4d4db541",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 757410,
+      "sha256": "82ea9776244512433b3bc5faa1bb67844a15f0ff49772badac3cceeb7437fdf7"
+    },
+    {
+      "oldPath": "/assets/v053/locations/hillfold-bindery.webp",
+      "path": "/assets/locations/hillfold-bindery.webp",
+      "beforeBytes": 798580,
+      "sourceSha256": "0be54461da4025f3e8037a3d5957f56964397d439c26d869374b5fb2173e5e59",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 613490,
+      "sha256": "d3258d4a354d6d0092774c42d78281c92391140b9d58142c466f80038356f037"
+    },
+    {
+      "oldPath": "/assets/v053/locations/old-waterworks.webp",
+      "path": "/assets/locations/old-waterworks.webp",
+      "beforeBytes": 820598,
+      "sourceSha256": "280c26783b53805c1509cc325a0810a73b27c1ad0630df7aa22e2b394ddfdb26",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 650944,
+      "sha256": "85df9b4470502ecba0153531b9173c3c2461752235426341b583893ce1ace16d"
+    },
+    {
+      "oldPath": "/assets/v053/locations/quarry-shelter.webp",
+      "path": "/assets/locations/quarry-shelter.webp",
+      "beforeBytes": 793174,
+      "sourceSha256": "ea6907816e6acce16a1a927cf5913f5ca47c9f5470a19d5881eb7445b9274af1",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 629328,
+      "sha256": "63db5556b1ff13b2d7d80986bde1c3a83a349a3c49e5e9329556054d6258ee17"
+    },
+    {
+      "oldPath": "/assets/v053/locations/reedbank-waystation.webp",
+      "path": "/assets/locations/reedbank-waystation.webp",
+      "beforeBytes": 889154,
+      "sourceSha256": "f31e378b2cbb1e1a05ce40125ccb6429c80b4acfbc975cc5117622863c77ff45",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 728370,
+      "sha256": "5f25add016fb81b3a06e60177a41cdff6c153688ecf375fb41a5b71090227618"
+    },
+    {
+      "oldPath": "/assets/v053/locations/ridge-cistern.webp",
+      "path": "/assets/locations/ridge-cistern.webp",
+      "beforeBytes": 881550,
+      "sourceSha256": "b34ff35cb2a960129b5cda52fb0af2da341bfc763cfe1a8ff0fb74e3c2f33601",
+      "beforeSize": [
+        1600,
+        900
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 734208,
+      "sha256": "f3629d4371e827b9e7a638c339fbf143bd69733beed0aa7c128c68a9838bfaed"
+    },
+    {
+      "oldPath": "/assets/v053/objects/cistern-filter.png",
+      "path": "/assets/objects/cistern-filter.webp",
+      "beforeBytes": 1413813,
+      "sourceSha256": "a5c48aaec614c30f878f1d7193f40743b084547856692c607f89009c829ef3da",
+      "beforeSize": [
+        1024,
+        1024
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 26042,
+      "sha256": "ea37941b7ce63c0659be81c761cf2d2aa99c009f82740ad27266701ea32055b3"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-art-artifact-concept-margin-dry-book-rest.png",
+      "path": "/assets/objects/ss-art-artifact-concept-margin-dry-book-rest.webp",
+      "beforeBytes": 62194,
+      "sourceSha256": "4ec80f8b3d59d54a515686fabe2a9f0f2fffd2b57e538f39a5e2ac54c3505948",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 16900,
+      "sha256": "feb80dbe25712ded571b007af8030f42e9def383ed99d974472703c9c2fdd1f2"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-eq-equipment-concept-hearth-spoke-staff.png",
+      "path": "/assets/objects/ss-eq-equipment-concept-hearth-spoke-staff.webp",
+      "beforeBytes": 13582,
+      "sourceSha256": "75aaf48baf358a70778a86a736d8906995defa8ca311c01028edac4f8fa7ce98",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 4686,
+      "sha256": "fb378cbfd89a6c3ab098b928567c50660725450381c1eabc6b0390014d3d1515"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-eq-equipment-concept-margin-lantern.png",
+      "path": "/assets/objects/ss-eq-equipment-concept-margin-lantern.webp",
+      "beforeBytes": 48769,
+      "sourceSha256": "d27ac2451ccc662e1f88b223bb33da655aac14211ff984612737513c200fdee0",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 13058,
+      "sha256": "3b16cf859f02dcf895900b8ea5d0a8a22be3da1a4e0def15e50f6e73e1e2c0a6"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-mat-material-chalkstone-slab.png",
+      "path": "/assets/objects/ss-mat-material-chalkstone-slab.webp",
+      "beforeBytes": 52516,
+      "sourceSha256": "5e737bad01fcbffd311d16f7ed742faa20c488540a0ab67f3a141fe7199c3899",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 12350,
+      "sha256": "6c17b050511ef8b053762e5843261cd99080250559a09e63c478f4f6216a73cf"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-mat-material-frosted-window-offcut.png",
+      "path": "/assets/objects/ss-mat-material-frosted-window-offcut.webp",
+      "beforeBytes": 48401,
+      "sourceSha256": "74b0e60f7bf1d273d53a6f5f21e30d6bc61d99b423d1d35d3505bfccf9c8bf82",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 10540,
+      "sha256": "44d0789d355060bf5a70673f96fd74cef351d2975aa8156066b3503e2562edb4"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-mat-material-soapstone-puck.png",
+      "path": "/assets/objects/ss-mat-material-soapstone-puck.webp",
+      "beforeBytes": 54342,
+      "sourceSha256": "04f6276240857f7c10281a6bfad3434a61c83de5cb541998b98f409ce29956e9",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 12478,
+      "sha256": "acbf2d1de72d248ec868d247125215d25f9b52c0fd539f7015cf6d8439b5db6a"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-room-furnishing-concept-removable-note-wing.png",
+      "path": "/assets/objects/ss-room-furnishing-concept-removable-note-wing.webp",
+      "beforeBytes": 36215,
+      "sourceSha256": "c0e13d5e5688a09f1716e5f4f019f54cd1bce07491aaeb6562dcad05f7565b4e",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 10324,
+      "sha256": "7581a307e57e57a52a8aad0b88eafb80c59044f2e740cc9a3184f3a88c1a1e35"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-room-furnishing-concept-tilted-book-support.png",
+      "path": "/assets/objects/ss-room-furnishing-concept-tilted-book-support.webp",
+      "beforeBytes": 48343,
+      "sourceSha256": "e3fb4f2822d2822988ab7e584e2566eef6bd8c7ae3a205ab0e80edfbc5e2004b",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 11174,
+      "sha256": "96bbfddfc469327b3887f48c2a29e340c42672c4f32bf7e8cff396216bc4361b"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-shelf-food-or-drink-mushroom-and-barley-pot.png",
+      "path": "/assets/objects/ss-shelf-food-or-drink-mushroom-and-barley-pot.webp",
+      "beforeBytes": 68096,
+      "sourceSha256": "0c7880eedd4f4e36dd23768f9b188d897b4166052a2ef64c464d42aef19e08a0",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 16508,
+      "sha256": "fa49040e7b2e0caaea549ffb88fb9394b3c6a038c42d1c0f577302a1af0daf0d"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-shelf-food-or-drink-pear-and-toasted-oat-bowl.png",
+      "path": "/assets/objects/ss-shelf-food-or-drink-pear-and-toasted-oat-bowl.webp",
+      "beforeBytes": 68261,
+      "sourceSha256": "d12e16c5d1ff727a1b55267b929e2772bdaffcb97186ce2a4d14d623907736e3",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 17806,
+      "sha256": "b1d4f31d0bcbddff49bcb1578a8f7482d68da74ab07a28780539bbc7058bdb33"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-shelf-garden-specimen-folded-rain-reed.png",
+      "path": "/assets/objects/ss-shelf-garden-specimen-folded-rain-reed.webp",
+      "beforeBytes": 60678,
+      "sourceSha256": "26373834683ef3c556d7ba0af42d119dd110ff0667b969b579212579e2849eb6",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 21846,
+      "sha256": "35ac270d01107f66909342f3f1317f3b54da9f46744ad8606a5e2a9be4130023"
+    },
+    {
+      "oldPath": "/assets/v053/objects/ss-shelf-garden-specimen-lantern-edge-leaf.png",
+      "path": "/assets/objects/ss-shelf-garden-specimen-lantern-edge-leaf.webp",
+      "beforeBytes": 59296,
+      "sourceSha256": "606e141a8392e49d945ab5cc9f93fd4cc7eb8c1604654a6b0d6b0dd38b62e324",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 17986,
+      "sha256": "cbe189614136a31a57b9845f4e458df4be32a9e92a6d7d55c89974210881e13c"
+    },
+    {
+      "oldPath": "/assets/v053/objects/weather-screen.png",
+      "path": "/assets/objects/weather-screen.webp",
+      "beforeBytes": 1760616,
+      "sourceSha256": "c9fe3ec3d5261dea6ddd12dbc8769488c658e2cf41385f4c16c76edabe681419",
+      "beforeSize": [
+        1024,
+        1024
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        256,
+        256
+      ],
+      "bytes": 27270,
+      "sha256": "55888265b6d7e3b312142c4303cc798ed5666407b64ad7867634fadf47fc3735"
+    },
+    {
+      "oldPath": "/assets/v053/portraits/elowen.png",
+      "path": "/assets/portraits/elowen.webp",
+      "beforeBytes": 2115430,
+      "sourceSha256": "6a80c117a8f7441dbe19ea0544690546b1044594a990522db3cdd8b240e9c376",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 258292,
+      "sha256": "758f5e1d904fe5025fdeb32f27494e1092901e39960f48c5b51e8fc9304fd5f3"
+    },
+    {
+      "oldPath": "/assets/v053/portraits/nyssara.png",
+      "path": "/assets/portraits/nyssara.webp",
+      "beforeBytes": 1997194,
+      "sourceSha256": "df346213dec45011eafd91ccf4f2151c0d8f8ed2dd5aa339bc2fdeb977675061",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 240524,
+      "sha256": "e81abecb719423b21ddc2d5d86e6f2d6cd1f5ef6ee7955a0b52226108c50e515"
+    },
+    {
+      "oldPath": "/assets/v053/portraits/sylva.png",
+      "path": "/assets/portraits/sylva.webp",
+      "beforeBytes": 2224865,
+      "sourceSha256": "01a35f74d3c823bd2677b05242238a3361edf24ed2900d53c363cf53324315a0",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 322844,
+      "sha256": "c9677de2927cbf9eba11a7cbeaab53ab8b8c66cae3e98bdae3d090b18452e6bf"
+    },
+    {
+      "oldPath": "/assets/v053/portraits/tamsin-shawl.png",
+      "path": "/assets/portraits/tamsin-shawl.webp",
+      "beforeBytes": 2375606,
+      "sourceSha256": "90e7a685e0c51c8f6b434e02c361f6f663198b6c47b2cc36863b42b0397a8d59",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 321254,
+      "sha256": "c2c7862299264d3922b3264fc1a8076807d7b1c55e68e8a00f600ef3f2fc6418"
+    },
+    {
+      "oldPath": "/assets/v053/portraits/tamsin.png",
+      "path": "/assets/portraits/tamsin.webp",
+      "beforeBytes": 2257272,
+      "sourceSha256": "915874ec67caa6c750698f27f706f913dcc4f9d2688f3c4b672a1d5c3a9d5df1",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 293892,
+      "sha256": "b82350c36d43e3ff1467c29106fae83001568351327da1337b023a19dcb0449b"
+    },
+    {
+      "oldPath": "/assets/v054/locations/castle-arrival.webp",
+      "path": "/assets/locations/castle-arrival.webp",
+      "beforeBytes": 821280,
+      "sourceSha256": "70d88f3ba32466772a5c0bee767ac24568fd0e12091ccced0b0d85e64ea84187",
+      "beforeSize": [
+        1672,
+        941
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 663948,
+      "sha256": "1efc6ea8291a3f4e07e1ca18453697efc36667f100a3ee58fb43c0dcb4dc5d4f"
+    },
+    {
+      "oldPath": "/assets/v054/locations/old-service-road.webp",
+      "path": "/assets/locations/old-service-road.webp",
+      "beforeBytes": 890504,
+      "sourceSha256": "f49522f060772d66284d6e0c45a3b79a2181b4da71c2657d22b578002620c2d4",
+      "beforeSize": [
+        1672,
+        941
+      ],
+      "alpha": false,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1600,
+        900
+      ],
+      "bytes": 734316,
+      "sha256": "bd0308318c6ec7f6630d102cb7102130430424f0cf466056c7fb225e49286285"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/aurelia-outfit-2.webp",
+      "path": "/assets/portraits/aurelia-outfit-2.webp",
+      "beforeBytes": 406956,
+      "sourceSha256": "3d0c536ed97291366d95dad1cddcbd90f998e586137fdb24d7dba300c14357d6",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 372974,
+      "sha256": "0aa9fa88680f1511ca166e54642e45f00c146bb324ea222c651ba52bfdf17004"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/aurelia-outfit-3.webp",
+      "path": "/assets/portraits/aurelia-outfit-3.webp",
+      "beforeBytes": 463250,
+      "sourceSha256": "4f0389a0c1267cdfa3942f9c9e2a43fe12221a61bc2d7c83140bdd1e782f1799",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 423754,
+      "sha256": "72353095c731c7090e1fdbba52cf5f15336b3586a6de80af28728629f08605f7"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/aurelia.webp",
+      "path": "/assets/portraits/aurelia.webp",
+      "beforeBytes": 449480,
+      "sourceSha256": "f5e1503409e0942d706cff3b999f21b24a1ca56f142060d8267fe1714b73777f",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 411332,
+      "sha256": "302c61ba28766c892e560254f947a7d85bf89ff41f54f696ed70fa975b2ac206"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/brakka-outfit-2.webp",
+      "path": "/assets/portraits/brakka-outfit-2.webp",
+      "beforeBytes": 288260,
+      "sourceSha256": "a91050ddde0e4c9bec03c1e55374bef9aa0ec65d48123404232661e8722a4dff",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 261560,
+      "sha256": "59defd741da3b463aa106b80edeaa8dfda66c4d68db4fa7fda78dac4a95c63a4"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/brakka-outfit-3.webp",
+      "path": "/assets/portraits/brakka-outfit-3.webp",
+      "beforeBytes": 244376,
+      "sourceSha256": "686206db02933f92d6e85356e5cc18bb457a3645dfb47ca966c1f6b586fa7138",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 227536,
+      "sha256": "85b608e112f2126e3d19bbc1fed829eb3af1eb187d0755e67a29e94c7107c24e"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/brakka.webp",
+      "path": "/assets/portraits/brakka.webp",
+      "beforeBytes": 344692,
+      "sourceSha256": "750feb2c4a30bac80f20a835ce80ed55072cc29905201be0d2a3542f500f5f0c",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 312246,
+      "sha256": "f939a989705a47c490cffd6a4376873a78410c6963645ffd9d9f0599c5b809ee"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/elowen-outfit-2.webp",
+      "path": "/assets/portraits/elowen-outfit-2.webp",
+      "beforeBytes": 233576,
+      "sourceSha256": "546c17e65f82ef0e30d88151eec052955d8c164169cc254d2183f81c7db3ccd9",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 212474,
+      "sha256": "77fd67cb6d9719a23f0211fd0f6f3a4d5c2a282b9a97f1bbf59a3b50b03a7de2"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/elowen-outfit-3.webp",
+      "path": "/assets/portraits/elowen-outfit-3.webp",
+      "beforeBytes": 249986,
+      "sourceSha256": "acd3c6e1de3a52552726ad3f3c167dceccf1faed138a52a514b06aa34213fcba",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 229462,
+      "sha256": "2c96ae6b95a7cd104e6284075d9b5ff2685cfc51621318fcf1b6b96ab92d8e61"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/fenna-outfit-2.webp",
+      "path": "/assets/portraits/fenna-outfit-2.webp",
+      "beforeBytes": 335436,
+      "sourceSha256": "a3cf0e1ec8bfa0612faf33273c0d816c42aa7a19acc299210b9f8e1bfa193e46",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 303278,
+      "sha256": "e31bb9c8a6bec11b4206806847c897dfd6e4ac29af96718226e270358ebca34f"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/fenna-outfit-3.webp",
+      "path": "/assets/portraits/fenna-outfit-3.webp",
+      "beforeBytes": 345312,
+      "sourceSha256": "fcb05d0c9402a841415e8308cd5993c8ab4e20b4d54038fa96802315be23bdbe",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 314748,
+      "sha256": "94de24c9babba258a4a19cc24c6d08c930924fd52622dbbd8f842899f607e4b3"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/fenna.webp",
+      "path": "/assets/portraits/fenna.webp",
+      "beforeBytes": 338390,
+      "sourceSha256": "84242795440b701f1d5dc9c41e4b6ef5a849a56400fb3c6cb592b580e1c96e8f",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 305328,
+      "sha256": "37f5fb5de32ba8fe3b699bd26e4f98bc0b1ab0072a7cdc8d1b916995b8117368"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/iona-outfit-2.webp",
+      "path": "/assets/portraits/iona-outfit-2.webp",
+      "beforeBytes": 314410,
+      "sourceSha256": "c764ac591784bbe7fe4f378442fe2f1337b06af6c96b208999098c6a0179c1e6",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 280050,
+      "sha256": "b84e13a4a67ef2f30054e54348d0d6478f974a224615a6da9a6072cc11ee37a5"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/iona-outfit-3.webp",
+      "path": "/assets/portraits/iona-outfit-3.webp",
+      "beforeBytes": 318382,
+      "sourceSha256": "77f2521718c73345a746691932f2779954ed96e0a76bcb9953dfd8e5365b0d9e",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 281432,
+      "sha256": "df8eeb39c7e43c2436c2a93d0c3a1c2fec46db5adb4777b1775ddb390028554c"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/iona.webp",
+      "path": "/assets/portraits/iona.webp",
+      "beforeBytes": 389924,
+      "sourceSha256": "80f2e47bb4973ad5f89819ba2fb1a5cb7c29bc17318e425d8e90a96f38bc9f78",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 349626,
+      "sha256": "390edba377a76e08119c8734cd4031d1d893e017b73e3424b165d9f51ac43ac5"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/kaede-outfit-2.webp",
+      "path": "/assets/portraits/kaede-outfit-2.webp",
+      "beforeBytes": 278744,
+      "sourceSha256": "348d0d7306606eb20fd080fd18c8354a0f28a1a241f44e6847419c240c5e73e8",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 251104,
+      "sha256": "ce26204306f0642ce4aead54d7d9eb501d175af1c393c143d8effee039a5563e"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/kaede-outfit-3.webp",
+      "path": "/assets/portraits/kaede-outfit-3.webp",
+      "beforeBytes": 283920,
+      "sourceSha256": "2b37daa36a6e9f3aa2dda49b030242c374ff9da68448083496eb74a3c3958651",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 254958,
+      "sha256": "b576bf3a1724c41340437c054eca87e59382e4b2c51e1a500c73576400d2effa"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/kaede.webp",
+      "path": "/assets/portraits/kaede.webp",
+      "beforeBytes": 348126,
+      "sourceSha256": "fec368f70018459592cee99b4af256a592823b58582817016f0ecf940fcb0ce3",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 307846,
+      "sha256": "c4c8c9d769c632908ec2298d60d5a69ff13d8ce194c05d529ebe762c82e42fb8"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/maren-outfit-2.webp",
+      "path": "/assets/portraits/maren-outfit-2.webp",
+      "beforeBytes": 322762,
+      "sourceSha256": "89769da0f57975be76a75c428cb67a1384cdebdd79eea115c8bf7ac23c15c887",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 289898,
+      "sha256": "6d75b0fc1d5ea85eff3898a8e326aea4eb77ebbfffecd0b26722a64babddf0c3"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/maren-outfit-3.webp",
+      "path": "/assets/portraits/maren-outfit-3.webp",
+      "beforeBytes": 284278,
+      "sourceSha256": "3d5d4321c0d83d03005469f44907b799b73dacee9edf5d2b4ac99f531536a6f9",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 254706,
+      "sha256": "706243939951bdc3a01cd2b3f585ebb4d52e5b4c1e2a45602e2e5504f6171de7"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/maren.webp",
+      "path": "/assets/portraits/maren.webp",
+      "beforeBytes": 387770,
+      "sourceSha256": "b8acfb3fcf57a2c7df6b34bab7b9d404538d2aa152b415ca8bb36d0a4a12355e",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 343726,
+      "sha256": "eaae8a3d1b6954072321563482703e14bb95b95822f4a01611cf136affe50541"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/mira-outfit-2.webp",
+      "path": "/assets/portraits/mira-outfit-2.webp",
+      "beforeBytes": 277640,
+      "sourceSha256": "c7856dd3b1a3fcf8ea825974f629ae6e9b2e681e14f9715f0665ecefb290e797",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 248434,
+      "sha256": "786021f817a48e87c4726179ad648d8097301eebcecb41bcb3d3825ac80f5567"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/mira-outfit-3.webp",
+      "path": "/assets/portraits/mira-outfit-3.webp",
+      "beforeBytes": 345230,
+      "sourceSha256": "037b4c0227eb5c1bcc89f4af3b997b2691b9f6233aef776b23074d01e76f0a2e",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 305736,
+      "sha256": "0fb77bf3f81cef423b95b58efaa5919c910b23b0d23b1708e6f5fbd3738469ca"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/mira.webp",
+      "path": "/assets/portraits/mira.webp",
+      "beforeBytes": 366806,
+      "sourceSha256": "d87f007cca458018db63911ca5a3db14ca7ef9c927aef5e6a2fcbd12f4552704",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 328932,
+      "sha256": "a547705d9d1668287a1902391017ffa2bd1dc28b3700842c645e7b7a34b9c82d"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/neris-outfit-2.webp",
+      "path": "/assets/portraits/neris-outfit-2.webp",
+      "beforeBytes": 286406,
+      "sourceSha256": "1abcdc65654bf8076c6c2ebe3783d3d6457ba68043c727820d4a7004625efb1f",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 257752,
+      "sha256": "21083bd6e1147caa19d89b83d9146ea9b9b4ff97908cb574c9468394f8e1f605"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/neris-outfit-3.webp",
+      "path": "/assets/portraits/neris-outfit-3.webp",
+      "beforeBytes": 279956,
+      "sourceSha256": "891933b790ec00878a1981f64cef3606df503f8049dc3a8f3e4787f054b1555c",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 256456,
+      "sha256": "0ee47a24ce114347a7f39d7a513aa4a91cef0bd9270581bf958f0192ad5695ec"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/neris.webp",
+      "path": "/assets/portraits/neris.webp",
+      "beforeBytes": 303982,
+      "sourceSha256": "39b0badd3c56c93f68558646d22b44be50b36f997c49271d7497e6939bbb5c43",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 271466,
+      "sha256": "caf40c62cd496d62b1de918d9452dde2a089e1447f0354a6aa9792a4e267e324"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/nyssara-outfit-2.webp",
+      "path": "/assets/portraits/nyssara-outfit-2.webp",
+      "beforeBytes": 265042,
+      "sourceSha256": "0a32fbce5d89554b46c1fe5d08119b2e02fe587a94e4c22602998cec5e204f18",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 239942,
+      "sha256": "fd69888e3923d96e9e88b9ca9c1ed30b0c77c3447970bd90a36891a377dbe81a"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/nyssara-outfit-3.webp",
+      "path": "/assets/portraits/nyssara-outfit-3.webp",
+      "beforeBytes": 233784,
+      "sourceSha256": "28160e67b32b6aeb0589d736d57c70fc573fd05c8fa1d3e69e65af3d6e53c16c",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 210242,
+      "sha256": "c0f3ad91fdc56c05ada97fe46b0f42674114901324ddb0ba88af8182edca3478"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/sabine-outfit-2.webp",
+      "path": "/assets/portraits/sabine-outfit-2.webp",
+      "beforeBytes": 223836,
+      "sourceSha256": "542bee2e670a93d23ce213252dc9c18b24a8facd2dd727463e311d46381be6ca",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 202472,
+      "sha256": "36cc7357a9726d57779d9917465818fb01b126e4e6b35700623e491dacfa0bf1"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/sabine-outfit-3.webp",
+      "path": "/assets/portraits/sabine-outfit-3.webp",
+      "beforeBytes": 252328,
+      "sourceSha256": "f2cabfe67171ac1e282abf9541fc8dbfd57d42401926e6b20cc32beeeb301596",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 231596,
+      "sha256": "8a94c52341c975c0bc97f39c29062213e0acf6897fd0647e12f50169dc7ad301"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/sabine.webp",
+      "path": "/assets/portraits/sabine.webp",
+      "beforeBytes": 383380,
+      "sourceSha256": "fbf53b6a84f7e6ab4fe2ade9d69673ca04f164b500e6d514dbb91c19deb3ed63",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 336718,
+      "sha256": "e78d8bf4f7456fdaa1bad9bd5ea85f4c9ef25d21ad253ebed73f5941cd8037cc"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/sylva-outfit-2.webp",
+      "path": "/assets/portraits/sylva-outfit-2.webp",
+      "beforeBytes": 373434,
+      "sourceSha256": "b3f5bba251be0bb994f574ae12de28d40433ab2ea7d3c11e5f3f0dee5151c5b5",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 341470,
+      "sha256": "b5a59e13d98eaab3ac0cc9a4bb8b755cb71a07239bbbbde303217c0f628d3acb"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/sylva-outfit-3.webp",
+      "path": "/assets/portraits/sylva-outfit-3.webp",
+      "beforeBytes": 310164,
+      "sourceSha256": "d5435c8f88bf11f3ba41ebdf35a7db58bb23baedfba64ab22dfa5f2559eddb6e",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 283922,
+      "sha256": "507348cee4dd60447a25cba79d7a5ecfa55724b7502881d77bcf7d5affeeb68b"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/tamsin-outfit-2.webp",
+      "path": "/assets/portraits/tamsin-outfit-2.webp",
+      "beforeBytes": 290294,
+      "sourceSha256": "d4b343693db5fddd0e48810dd35031d2336ad6406712641db730639400f7fb79",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 258618,
+      "sha256": "6a8cf3d67ed921de58a014691c1e26cd0465d500a47f53f0069d66c6c902d6bb"
+    },
+    {
+      "oldPath": "/assets/v054/portraits/tamsin-outfit-3.webp",
+      "path": "/assets/portraits/tamsin-outfit-3.webp",
+      "beforeBytes": 249904,
+      "sourceSha256": "75977f7dba763a65545ad5f73abbb7523e48b1405a2e0e5f96562d25e2152a54",
+      "beforeSize": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        1024,
+        1536
+      ],
+      "bytes": 230068,
+      "sha256": "b535f35a789281635a8ec9eb827d196988c1b684127aac3b5463ff2f5dde30ec"
+    },
+    {
+      "oldPath": "/assets/v054/ui/nav-estate.webp",
+      "path": "/assets/ui/nav-estate.webp",
+      "beforeBytes": 18802,
+      "sourceSha256": "88d86236a3bf39f20a328110104f1e3609bb281447865d50dce602d0c6a31add",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 8092,
+      "sha256": "0c36db5bdc93ffb8125688aaed6e571edc88b4d56a884f44fb13c0b4f1c48699"
+    },
+    {
+      "oldPath": "/assets/v054/ui/nav-expeditions.webp",
+      "path": "/assets/ui/nav-expeditions.webp",
+      "beforeBytes": 19842,
+      "sourceSha256": "1940278ae275276c368dc9f0e65b94064e92ed8e83ea9792ac955b5f1e47570a",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 6894,
+      "sha256": "8f75ab1eb5b9ae6b94105153bf99bd55440f5bf662991ad892b08407aff5dfde"
+    },
+    {
+      "oldPath": "/assets/v054/ui/nav-home.webp",
+      "path": "/assets/ui/nav-home.webp",
+      "beforeBytes": 22854,
+      "sourceSha256": "449108ab8e9c0e61f3cca97d15a167c094d30a113cf93bec31daddf832e44f71",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 7566,
+      "sha256": "f5092dd256c65404129c99c592e3aa3a83ab6015fed965c9c63418b8f15b926b"
+    },
+    {
+      "oldPath": "/assets/v054/ui/nav-journal.webp",
+      "path": "/assets/ui/nav-journal.webp",
+      "beforeBytes": 24980,
+      "sourceSha256": "3389fe9a099faf15a616eee062cb9e78bdc8d28fd14b492d26435b4db5a5fa8e",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 7918,
+      "sha256": "b53c1d7529922c2a19efd91d281d0ff7a8363e6cdac84097a56ea73cf98d4e23"
+    },
+    {
+      "oldPath": "/assets/v054/ui/nav-people.webp",
+      "path": "/assets/ui/nav-people.webp",
+      "beforeBytes": 20194,
+      "sourceSha256": "68f9b5e7c08f4c336fbd097c4932a4b2ea7425112e6e151593b0276033538767",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 7260,
+      "sha256": "d463911fc593335fe7dd37ce569e0a016a51aad63157700dd454539daab1e2c0"
+    },
+    {
+      "oldPath": "/assets/v054/ui/nav-phase.webp",
+      "path": "/assets/ui/nav-phase.webp",
+      "beforeBytes": 22748,
+      "sourceSha256": "3189770959799641c13f345357c0f728d48571cc314386b181e80aacc067ca9b",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 8110,
+      "sha256": "c3d994fda905e862532c337b774d57555b2b1a761337ecebe87d955041725e19"
+    },
+    {
+      "oldPath": "/assets/v054/ui/nav-settings.webp",
+      "path": "/assets/ui/nav-settings.webp",
+      "beforeBytes": 16714,
+      "sourceSha256": "a26f3448ba678704f7fca282a56e4320e5d2d3649e464c769edba9105a114e9c",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 5900,
+      "sha256": "08d32abe80f505555ce6d0fbb4606860e4eea08fafe7fec36f0527a43035a8c8"
+    },
+    {
+      "oldPath": "/assets/v054/ui/nav-study.webp",
+      "path": "/assets/ui/nav-study.webp",
+      "beforeBytes": 16818,
+      "sourceSha256": "2416b0bbd86dbe8b39d3565fc3e98e3c0803b7cf2ee6a3c91f099078b8d92451",
+      "beforeSize": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 6130,
+      "sha256": "9cc8a23b4465165a2d27fd787cbb3b9203716abb5613b67e6fd824cd896587aa"
+    },
+    {
+      "oldPath": "/assets/v056/spells/anchor-circle.png",
+      "path": "/assets/spells/anchor-circle.webp",
+      "beforeBytes": 2505984,
+      "sourceSha256": "d0f42904e64d2477599e9194fe3e230884ba686e4e6c7da43e2e0ca9a3fe30ce",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16938,
+      "sha256": "0eaf28da30d047d8101837d79141e749c8edbc4fed3e20fd56d562144297bba3"
+    },
+    {
+      "oldPath": "/assets/v056/spells/arc-bolt.png",
+      "path": "/assets/spells/arc-bolt.webp",
+      "beforeBytes": 1091731,
+      "sourceSha256": "16570804153082263150515b6115a4cd43ed06cc948ebaa5062e8eeaea2eef36",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 14298,
+      "sha256": "9cbbdc175eaf2e46fd87816cd3cef83882436b1e1bcad4b8f8c1ffb5b85e9596"
+    },
+    {
+      "oldPath": "/assets/v056/spells/archive-circle.png",
+      "path": "/assets/spells/archive-circle.webp",
+      "beforeBytes": 2028411,
+      "sourceSha256": "a6d2b73bc8fb385e9dc13a50bba8540f66075dc3df430ef01414d1a86e39ecdf",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 15168,
+      "sha256": "877cb6260c5efeee1763718ba632b68bf008b99461d448da78e58232bf9bd203"
+    },
+    {
+      "oldPath": "/assets/v056/spells/bedroom-ward.png",
+      "path": "/assets/spells/bedroom-ward.webp",
+      "beforeBytes": 2829195,
+      "sourceSha256": "897e8e70456fb669622a4083784b4008bbdbdceb0dcea0ecd6c9d67d16d8f115",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18010,
+      "sha256": "500864fa09f435b16f6be259c4ec0baad8214f92f58832b905ef665436ddcad0"
+    },
+    {
+      "oldPath": "/assets/v056/spells/borne-flight.png",
+      "path": "/assets/spells/borne-flight.webp",
+      "beforeBytes": 2631820,
+      "sourceSha256": "2e6057f1a2eb9c3d3fa351d8b787c4d60af77b45034d6e8b7bb746fc9d25ee80",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 23964,
+      "sha256": "9bcb2ba20ad04863189377ddfd027924e8ea115450b787732034ed59f4c56052"
+    },
+    {
+      "oldPath": "/assets/v056/spells/borrowed-hour.png",
+      "path": "/assets/spells/borrowed-hour.webp",
+      "beforeBytes": 2003350,
+      "sourceSha256": "a7ea1c3211bc4627dd181478ecd0202dbf4f99f97054460724be7e25e05de26e",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19330,
+      "sha256": "e822289e38f0de9a6829ec75bcb11fafc590b1c2d723d388b58aec4f30a4fcef"
+    },
+    {
+      "oldPath": "/assets/v056/spells/calm-tide.png",
+      "path": "/assets/spells/calm-tide.webp",
+      "beforeBytes": 1540382,
+      "sourceSha256": "247ce3159cd06962bcb1c57ce0bd8ac27297ab45245833aaefab61231e58ef9a",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 11866,
+      "sha256": "c534f5ce8d121f3dee53954f74b2a130ec1d78a29a6ccd31977bf831be814f3b"
+    },
+    {
+      "oldPath": "/assets/v056/spells/clarify-glass.png",
+      "path": "/assets/spells/clarify-glass.webp",
+      "beforeBytes": 1816077,
+      "sourceSha256": "aaa500ffa5d015d930f7f6dd2e25f8e9d38a1d4d96f43e7ee3e07fc6c278e187",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16720,
+      "sha256": "cf54e30943726297f5df0f9388a5f445322b55fe60cad165b6fa20ca34e51e1a"
+    },
+    {
+      "oldPath": "/assets/v056/spells/copy-lamp.png",
+      "path": "/assets/spells/copy-lamp.webp",
+      "beforeBytes": 1809015,
+      "sourceSha256": "67f053118d76dfbbd4427f567c8957ee4423bf5654c7d810e2e8bf62573eeba3",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 14722,
+      "sha256": "7e4e013a49cc6b491571295e981876c17733a25b3bd6bf80997f2f857cb95bea"
+    },
+    {
+      "oldPath": "/assets/v056/spells/craft-hand.png",
+      "path": "/assets/spells/craft-hand.webp",
+      "beforeBytes": 1881213,
+      "sourceSha256": "8fee4fe83782c170805d8a1a44bf4e62143174183940ecc397fa70b492d47852",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 14864,
+      "sha256": "5098b6f47996514a2ad4768b973c945c8209ea186abdb33f6bed46c2e6f2f9f0"
+    },
+    {
+      "oldPath": "/assets/v056/spells/dawn-lance.png",
+      "path": "/assets/spells/dawn-lance.webp",
+      "beforeBytes": 1842504,
+      "sourceSha256": "c43a3b5d5db146b83c7e0043680aa56b73259754ae3a4de2dd7984a5ceccb417",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20732,
+      "sha256": "e6d6037389f684782dbf1ab3e6a4bd021e26df01437bc26294bf80707b843e3a"
+    },
+    {
+      "oldPath": "/assets/v056/spells/field-compass.png",
+      "path": "/assets/spells/field-compass.webp",
+      "beforeBytes": 2507339,
+      "sourceSha256": "2e9d5ed7b8632d1bce3045c62be8c9025d8587413153a3ee5e8934bf45dca8a6",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16956,
+      "sha256": "d899a2aec39b6ad90b59bbac7d7e75c279f39e6fc6aba024d8658c8de74d477e"
+    },
+    {
+      "oldPath": "/assets/v056/spells/fire-lance.png",
+      "path": "/assets/spells/fire-lance.webp",
+      "beforeBytes": 601687,
+      "sourceSha256": "861bb3ad8abe62a6bb93471ccc47a0c4366b437404629d8d98919fbb552fa260",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 9156,
+      "sha256": "d4bbc2b9b5ea77402921e686f9ae351ce7bd84f1fe3fb4ea5f8525b5f0d6620e"
+    },
+    {
+      "oldPath": "/assets/v056/spells/focus-guide.png",
+      "path": "/assets/spells/focus-guide.webp",
+      "beforeBytes": 842551,
+      "sourceSha256": "f7bbb4a401baccb02db99f2e98c2d86c3162b747c4e765ba5bc9e7af47503d5c",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 9066,
+      "sha256": "7ef5d2434f7b8a48671acb61b4db53123b3c192caad118e6dc9d9809e2d2c85f"
+    },
+    {
+      "oldPath": "/assets/v056/spells/foundation-circle.png",
+      "path": "/assets/spells/foundation-circle.webp",
+      "beforeBytes": 2140940,
+      "sourceSha256": "1bf7c6e3117930258e808fab5decfbfb33898a684379d45b66a99609f7b062ca",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 14692,
+      "sha256": "0273ce591a9f0f3a6bed4de559ded3743325b6ec804d5b349c1ff621745c5b3d"
+    },
+    {
+      "oldPath": "/assets/v056/spells/foundation-line.png",
+      "path": "/assets/spells/foundation-line.webp",
+      "beforeBytes": 1520493,
+      "sourceSha256": "25e91428c40086bc832c8fd477185016ddd06ec741cbc244d5a2c5cbb7207ae8",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 11470,
+      "sha256": "ce1e0e178f7ea8a1bba3d03839b28944833751b4f6cb0bbe939eb2d2980afa68"
+    },
+    {
+      "oldPath": "/assets/v056/spells/garden-circle.png",
+      "path": "/assets/spells/garden-circle.webp",
+      "beforeBytes": 2445697,
+      "sourceSha256": "8c64d94bd3daa4bdad9197c3f57a284e3a226b5d1118f2682b3ade5f13aacd86",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 21842,
+      "sha256": "bde9919b94415ad037d9d6f7315847886e3dad5d85de2068af9d275b929121b4"
+    },
+    {
+      "oldPath": "/assets/v056/spells/giant-grasp.png",
+      "path": "/assets/spells/giant-grasp.webp",
+      "beforeBytes": 2100505,
+      "sourceSha256": "2f5067e1a7f6243f227a0eaff5fe9eb02d81aef959d3bd3262893377ec5c1879",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 15466,
+      "sha256": "e438f7e1f9d4742b2d9ccb102c69c83b2d7cb728522a119b7a54041635d5b035"
+    },
+    {
+      "oldPath": "/assets/v056/spells/green-frame.png",
+      "path": "/assets/spells/green-frame.webp",
+      "beforeBytes": 2191405,
+      "sourceSha256": "6d0d995abd3c14de4f0890a36ddba9c17381ecdf7b03a46104dcf8b699f6cd53",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20436,
+      "sha256": "c4757f08e740b062c455ef312445372dc161e6e66f645d8b173d4066d16ed65b"
+    },
+    {
+      "oldPath": "/assets/v056/spells/ice-bind.png",
+      "path": "/assets/spells/ice-bind.webp",
+      "beforeBytes": 2167920,
+      "sourceSha256": "9ba5329b446f7e6d0c8921bc7f8a849fd21dd41b9ab46c00dcae74150267a7f4",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17636,
+      "sha256": "031712dda715a7ca64b655275b7fd803e5147cadba6770216d5241fb99924c1d"
+    },
+    {
+      "oldPath": "/assets/v056/spells/lucid-sight.png",
+      "path": "/assets/spells/lucid-sight.webp",
+      "beforeBytes": 1662344,
+      "sourceSha256": "93b8157b77b20314c5d63f1449b94c1527930ec1c74eebda81068f0ee1847d5e",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 12510,
+      "sha256": "31d85e5de5360a3d61e4cf4f84807741d6a4bc460f0b770f72813013dafd2672"
+    },
+    {
+      "oldPath": "/assets/v056/spells/luminous-copy.png",
+      "path": "/assets/spells/luminous-copy.webp",
+      "beforeBytes": 2587645,
+      "sourceSha256": "5af252be953fa52def17c4bea2c0ef878382f9e5506084aaaa6548495ecb410d",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16292,
+      "sha256": "633bf363fbbe3b2f75bf31889d64a3239d53bda3cdf4dd61a3293223d92454a7"
+    },
+    {
+      "oldPath": "/assets/v056/spells/maker-circle.png",
+      "path": "/assets/spells/maker-circle.webp",
+      "beforeBytes": 2561552,
+      "sourceSha256": "9068a656856795dc21fa7d69ea4a4afe56095f084614a02e154894d1f7c7ba33",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20698,
+      "sha256": "133bdc8655ac77e796447227a12f015d5c4e850193fb1a9bd3e814fce3e2fb56"
+    },
+    {
+      "oldPath": "/assets/v056/spells/market-circle.png",
+      "path": "/assets/spells/market-circle.webp",
+      "beforeBytes": 1684867,
+      "sourceSha256": "659e0ab5d1fb9c273731c00f8a829eec20c843fcb579cf7295c6f5cd729d40a3",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 18576,
+      "sha256": "c7b3ef820f83945ccc1673baa8a94594c1b5f7cb6d961619978ec62132f22f59"
+    },
+    {
+      "oldPath": "/assets/v056/spells/mending-light.png",
+      "path": "/assets/spells/mending-light.webp",
+      "beforeBytes": 2192440,
+      "sourceSha256": "1aa2b304362de1263f925fe020147a08b5afbd6dd93043b3fd698705294c058a",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 16330,
+      "sha256": "7a9e00951d73571613a1abfd59a8072f742d04540a1d22d95a5d3dcb8673766b"
+    },
+    {
+      "oldPath": "/assets/v056/spells/mirror-decoy.png",
+      "path": "/assets/spells/mirror-decoy.webp",
+      "beforeBytes": 1797101,
+      "sourceSha256": "46545f24a5aadc152450b8b0c87be261f6d1b53184eebf5b3f8fa1f0b51de855",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 14128,
+      "sha256": "fd555321f7186ffc8346983457e68a36add43f2ef3da23d20e1db1fcdb10b3aa"
+    },
+    {
+      "oldPath": "/assets/v056/spells/research-lens.png",
+      "path": "/assets/spells/research-lens.webp",
+      "beforeBytes": 2448486,
+      "sourceSha256": "dbe3f426f634ae60e709312e00dccec8f0746074184fd9cddc377739ec8796fe",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 15458,
+      "sha256": "53e3c3c596861967fcdd2f762907452b6d6bacb207dd0976c2e016d5b9ad6fd6"
+    },
+    {
+      "oldPath": "/assets/v056/spells/root-song.png",
+      "path": "/assets/spells/root-song.webp",
+      "beforeBytes": 1605023,
+      "sourceSha256": "34fa549787a13d81110e27d611e5dadb0466453e62c57a6b1a69520c4a354439",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 20018,
+      "sha256": "9fcaab7c5259922231f9983d8de25f58c0bdf2c6d57821a5f5fc41076b3c10f5"
+    },
+    {
+      "oldPath": "/assets/v056/spells/sanctuary-circle.png",
+      "path": "/assets/spells/sanctuary-circle.webp",
+      "beforeBytes": 2890225,
+      "sourceSha256": "e24d44aa75a4cc2b00f27f371f98fd5f736f3a60306a665abd849d3e008220a9",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 22556,
+      "sha256": "ea89f7d4aa2aa524f361cfd4a67477e9e5818db80c4b1ca7e675083a54d9c4f8"
+    },
+    {
+      "oldPath": "/assets/v056/spells/silver-tongue.png",
+      "path": "/assets/spells/silver-tongue.webp",
+      "beforeBytes": 2147115,
+      "sourceSha256": "2905a4c3bbb046f8df058c9b7ef3ce33e9e93ef3803a6de3035a96d6a626a8f9",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17616,
+      "sha256": "0246bb10c4fff9b5ed5a80a18a4248b255fc92b74ccd4792ec099fcc3d56a2c9"
+    },
+    {
+      "oldPath": "/assets/v056/spells/threshold-fold.png",
+      "path": "/assets/spells/threshold-fold.webp",
+      "beforeBytes": 1700745,
+      "sourceSha256": "f39b099fb7bdf979c5beb6e56cf8bf267f153c8b834e553e909778d6adaf4628",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 12782,
+      "sha256": "f6aa3f7627b008ec5c916e0b69d1f2229cc8920bd0490d0a7a6e0b6ea28e5a36"
+    },
+    {
+      "oldPath": "/assets/v056/spells/warm-twist.png",
+      "path": "/assets/spells/warm-twist.webp",
+      "beforeBytes": 1311918,
+      "sourceSha256": "7c2aa175fca9eeba3a62a6798068a750be73cbd435beb05e6582b37f3074dd66",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 15688,
+      "sha256": "6986a027cd8f6e12d7f2d6a04c67c512546e7406d8a7506fe66755eb74a02f33"
+    },
+    {
+      "oldPath": "/assets/v056/spells/water-breath.png",
+      "path": "/assets/spells/water-breath.webp",
+      "beforeBytes": 2256470,
+      "sourceSha256": "a00139b9920055a9413fb956f26e4ec1042a30b64d5dc9b29c00a88d372b5819",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17654,
+      "sha256": "1565a8b36ba609d2a79217eca19c0e7572614f0eae5db7da6ecbe8ae0f616219"
+    },
+    {
+      "oldPath": "/assets/v056/spells/water-jet.png",
+      "path": "/assets/spells/water-jet.webp",
+      "beforeBytes": 1388081,
+      "sourceSha256": "b6cd15238cd0f30bde82826bb83442b019e809f01e397df9c4ba36eda0d1d195",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 14872,
+      "sha256": "236e3bd669baf3ca0c0f8b22ed8939de8f7d3b2a703334f2333f462d520d81d1"
+    },
+    {
+      "oldPath": "/assets/v056/spells/water-walk.png",
+      "path": "/assets/spells/water-walk.webp",
+      "beforeBytes": 1823841,
+      "sourceSha256": "d0596dacf9c33a32cec3bf86bffc9e70456c7a160f2b187cd2cc86352ccaf988",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 17716,
+      "sha256": "6ef889010eb105699093638e61b90435702bd1b73e0755034246190bea0ecc25"
+    },
+    {
+      "oldPath": "/assets/v056/spells/welcome-circle.png",
+      "path": "/assets/spells/welcome-circle.webp",
+      "beforeBytes": 2741200,
+      "sourceSha256": "bdaa44ec9deeb0139890e3b59a792fa89bd90bb120e89710396821a4db9e0852",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 19308,
+      "sha256": "2ad6591a12a72df4871ad72a53eab744fe1c2f4dae032be6fb1490ffa6aded22"
+    },
+    {
+      "oldPath": "/assets/v056/spells/wind-step.png",
+      "path": "/assets/spells/wind-step.webp",
+      "beforeBytes": 2234948,
+      "sourceSha256": "04dadfb7923f92f30dff3a3f214b2460414bb7f0e31d1f4dd2df2d2dd91a5744",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 24296,
+      "sha256": "dc5d117780e9a7124dc54f4668a40ca1176f008218f3fa16774739593bf1bc2c"
+    },
+    {
+      "oldPath": "/assets/v056/spells/wisp-scout.png",
+      "path": "/assets/spells/wisp-scout.webp",
+      "beforeBytes": 1463620,
+      "sourceSha256": "0cdf770605db033c9d7872bb127ef1c4115d126e5f071c76e09e05cd95ae76ff",
+      "beforeSize": [
+        1254,
+        1254
+      ],
+      "alpha": true,
+      "encoding": "WebP quality 90; lossless alpha; Lanczos when resized",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 13620,
+      "sha256": "2ed2b6307b50aca9bf5458c2f87f30129fe9ac93cbd4e92f00efb39f10ca29b7"
+    },
+    {
+      "oldPath": "/assets/visitor-placeholder.svg",
+      "path": "/assets/placeholders/visitor-placeholder.svg",
+      "beforeBytes": 496,
+      "sourceSha256": "bd80356c19ced4fd6ee025ea35ff0cb3191fb2f3eef303207669e97c9b9f042e",
+      "bytes": 496,
+      "sha256": "bd80356c19ced4fd6ee025ea35ff0cb3191fb2f3eef303207669e97c9b9f042e"
+    }
+  ],
+  "mapping": {
+    "/assets/aurelia-evening.png": "/assets/portraits/aurelia-evening.webp",
+    "/assets/aurelia-lamplit.png": "/assets/portraits/aurelia-lamplit.webp",
+    "/assets/mira-shawl-v2.png": "/assets/portraits/mira-shawl.webp",
+    "/assets/neris-evening.png": "/assets/portraits/neris-evening.webp",
+    "/assets/neris-glasslight.png": "/assets/portraits/neris-glasslight.webp",
+    "/assets/object-placeholder.svg": "/assets/placeholders/object-placeholder.svg",
+    "/assets/rainward-observatory.webp": "/assets/rooms/rainward-observatory.webp",
+    "/assets/ui-v044/botanical-frame.png": "/assets/ui/botanical-frame.webp",
+    "/assets/ui-v044/castle-emblem.png": "/assets/ui/castle-emblem.webp",
+    "/assets/ui-v044/materials-atlas.png": "/assets/ui/materials-atlas.webp",
+    "/assets/ui-v044/midnight-paper.png": "/assets/ui/midnight-paper.webp",
+    "/assets/ui-v044/workshop-atlas.png": "/assets/ui/workshop-atlas.webp",
+    "/assets/v053/locations/fern-nursery.webp": "/assets/locations/fern-nursery.webp",
+    "/assets/v053/locations/hillfold-bindery.webp": "/assets/locations/hillfold-bindery.webp",
+    "/assets/v053/locations/old-waterworks.webp": "/assets/locations/old-waterworks.webp",
+    "/assets/v053/locations/quarry-shelter.webp": "/assets/locations/quarry-shelter.webp",
+    "/assets/v053/locations/reedbank-waystation.webp": "/assets/locations/reedbank-waystation.webp",
+    "/assets/v053/locations/ridge-cistern.webp": "/assets/locations/ridge-cistern.webp",
+    "/assets/v053/objects/cistern-filter.png": "/assets/objects/cistern-filter.webp",
+    "/assets/v053/objects/ss-art-artifact-concept-margin-dry-book-rest.png": "/assets/objects/ss-art-artifact-concept-margin-dry-book-rest.webp",
+    "/assets/v053/objects/ss-eq-equipment-concept-hearth-spoke-staff.png": "/assets/objects/ss-eq-equipment-concept-hearth-spoke-staff.webp",
+    "/assets/v053/objects/ss-eq-equipment-concept-margin-lantern.png": "/assets/objects/ss-eq-equipment-concept-margin-lantern.webp",
+    "/assets/v053/objects/ss-mat-material-chalkstone-slab.png": "/assets/objects/ss-mat-material-chalkstone-slab.webp",
+    "/assets/v053/objects/ss-mat-material-frosted-window-offcut.png": "/assets/objects/ss-mat-material-frosted-window-offcut.webp",
+    "/assets/v053/objects/ss-mat-material-soapstone-puck.png": "/assets/objects/ss-mat-material-soapstone-puck.webp",
+    "/assets/v053/objects/ss-room-furnishing-concept-removable-note-wing.png": "/assets/objects/ss-room-furnishing-concept-removable-note-wing.webp",
+    "/assets/v053/objects/ss-room-furnishing-concept-tilted-book-support.png": "/assets/objects/ss-room-furnishing-concept-tilted-book-support.webp",
+    "/assets/v053/objects/ss-shelf-food-or-drink-mushroom-and-barley-pot.png": "/assets/objects/ss-shelf-food-or-drink-mushroom-and-barley-pot.webp",
+    "/assets/v053/objects/ss-shelf-food-or-drink-pear-and-toasted-oat-bowl.png": "/assets/objects/ss-shelf-food-or-drink-pear-and-toasted-oat-bowl.webp",
+    "/assets/v053/objects/ss-shelf-garden-specimen-folded-rain-reed.png": "/assets/objects/ss-shelf-garden-specimen-folded-rain-reed.webp",
+    "/assets/v053/objects/ss-shelf-garden-specimen-lantern-edge-leaf.png": "/assets/objects/ss-shelf-garden-specimen-lantern-edge-leaf.webp",
+    "/assets/v053/objects/weather-screen.png": "/assets/objects/weather-screen.webp",
+    "/assets/v053/portraits/elowen.png": "/assets/portraits/elowen.webp",
+    "/assets/v053/portraits/nyssara.png": "/assets/portraits/nyssara.webp",
+    "/assets/v053/portraits/sylva.png": "/assets/portraits/sylva.webp",
+    "/assets/v053/portraits/tamsin-shawl.png": "/assets/portraits/tamsin-shawl.webp",
+    "/assets/v053/portraits/tamsin.png": "/assets/portraits/tamsin.webp",
+    "/assets/v054/locations/castle-arrival.webp": "/assets/locations/castle-arrival.webp",
+    "/assets/v054/locations/old-service-road.webp": "/assets/locations/old-service-road.webp",
+    "/assets/v054/portraits/aurelia-outfit-2.webp": "/assets/portraits/aurelia-outfit-2.webp",
+    "/assets/v054/portraits/aurelia-outfit-3.webp": "/assets/portraits/aurelia-outfit-3.webp",
+    "/assets/v054/portraits/aurelia.webp": "/assets/portraits/aurelia.webp",
+    "/assets/v054/portraits/brakka-outfit-2.webp": "/assets/portraits/brakka-outfit-2.webp",
+    "/assets/v054/portraits/brakka-outfit-3.webp": "/assets/portraits/brakka-outfit-3.webp",
+    "/assets/v054/portraits/brakka.webp": "/assets/portraits/brakka.webp",
+    "/assets/v054/portraits/elowen-outfit-2.webp": "/assets/portraits/elowen-outfit-2.webp",
+    "/assets/v054/portraits/elowen-outfit-3.webp": "/assets/portraits/elowen-outfit-3.webp",
+    "/assets/v054/portraits/fenna-outfit-2.webp": "/assets/portraits/fenna-outfit-2.webp",
+    "/assets/v054/portraits/fenna-outfit-3.webp": "/assets/portraits/fenna-outfit-3.webp",
+    "/assets/v054/portraits/fenna.webp": "/assets/portraits/fenna.webp",
+    "/assets/v054/portraits/iona-outfit-2.webp": "/assets/portraits/iona-outfit-2.webp",
+    "/assets/v054/portraits/iona-outfit-3.webp": "/assets/portraits/iona-outfit-3.webp",
+    "/assets/v054/portraits/iona.webp": "/assets/portraits/iona.webp",
+    "/assets/v054/portraits/kaede-outfit-2.webp": "/assets/portraits/kaede-outfit-2.webp",
+    "/assets/v054/portraits/kaede-outfit-3.webp": "/assets/portraits/kaede-outfit-3.webp",
+    "/assets/v054/portraits/kaede.webp": "/assets/portraits/kaede.webp",
+    "/assets/v054/portraits/maren-outfit-2.webp": "/assets/portraits/maren-outfit-2.webp",
+    "/assets/v054/portraits/maren-outfit-3.webp": "/assets/portraits/maren-outfit-3.webp",
+    "/assets/v054/portraits/maren.webp": "/assets/portraits/maren.webp",
+    "/assets/v054/portraits/mira-outfit-2.webp": "/assets/portraits/mira-outfit-2.webp",
+    "/assets/v054/portraits/mira-outfit-3.webp": "/assets/portraits/mira-outfit-3.webp",
+    "/assets/v054/portraits/mira.webp": "/assets/portraits/mira.webp",
+    "/assets/v054/portraits/neris-outfit-2.webp": "/assets/portraits/neris-outfit-2.webp",
+    "/assets/v054/portraits/neris-outfit-3.webp": "/assets/portraits/neris-outfit-3.webp",
+    "/assets/v054/portraits/neris.webp": "/assets/portraits/neris.webp",
+    "/assets/v054/portraits/nyssara-outfit-2.webp": "/assets/portraits/nyssara-outfit-2.webp",
+    "/assets/v054/portraits/nyssara-outfit-3.webp": "/assets/portraits/nyssara-outfit-3.webp",
+    "/assets/v054/portraits/sabine-outfit-2.webp": "/assets/portraits/sabine-outfit-2.webp",
+    "/assets/v054/portraits/sabine-outfit-3.webp": "/assets/portraits/sabine-outfit-3.webp",
+    "/assets/v054/portraits/sabine.webp": "/assets/portraits/sabine.webp",
+    "/assets/v054/portraits/sylva-outfit-2.webp": "/assets/portraits/sylva-outfit-2.webp",
+    "/assets/v054/portraits/sylva-outfit-3.webp": "/assets/portraits/sylva-outfit-3.webp",
+    "/assets/v054/portraits/tamsin-outfit-2.webp": "/assets/portraits/tamsin-outfit-2.webp",
+    "/assets/v054/portraits/tamsin-outfit-3.webp": "/assets/portraits/tamsin-outfit-3.webp",
+    "/assets/v054/ui/nav-estate.webp": "/assets/ui/nav-estate.webp",
+    "/assets/v054/ui/nav-expeditions.webp": "/assets/ui/nav-expeditions.webp",
+    "/assets/v054/ui/nav-home.webp": "/assets/ui/nav-home.webp",
+    "/assets/v054/ui/nav-journal.webp": "/assets/ui/nav-journal.webp",
+    "/assets/v054/ui/nav-people.webp": "/assets/ui/nav-people.webp",
+    "/assets/v054/ui/nav-phase.webp": "/assets/ui/nav-phase.webp",
+    "/assets/v054/ui/nav-settings.webp": "/assets/ui/nav-settings.webp",
+    "/assets/v054/ui/nav-study.webp": "/assets/ui/nav-study.webp",
+    "/assets/v056/spells/anchor-circle.png": "/assets/spells/anchor-circle.webp",
+    "/assets/v056/spells/arc-bolt.png": "/assets/spells/arc-bolt.webp",
+    "/assets/v056/spells/archive-circle.png": "/assets/spells/archive-circle.webp",
+    "/assets/v056/spells/bedroom-ward.png": "/assets/spells/bedroom-ward.webp",
+    "/assets/v056/spells/borne-flight.png": "/assets/spells/borne-flight.webp",
+    "/assets/v056/spells/borrowed-hour.png": "/assets/spells/borrowed-hour.webp",
+    "/assets/v056/spells/calm-tide.png": "/assets/spells/calm-tide.webp",
+    "/assets/v056/spells/clarify-glass.png": "/assets/spells/clarify-glass.webp",
+    "/assets/v056/spells/copy-lamp.png": "/assets/spells/copy-lamp.webp",
+    "/assets/v056/spells/craft-hand.png": "/assets/spells/craft-hand.webp",
+    "/assets/v056/spells/dawn-lance.png": "/assets/spells/dawn-lance.webp",
+    "/assets/v056/spells/field-compass.png": "/assets/spells/field-compass.webp",
+    "/assets/v056/spells/fire-lance.png": "/assets/spells/fire-lance.webp",
+    "/assets/v056/spells/focus-guide.png": "/assets/spells/focus-guide.webp",
+    "/assets/v056/spells/foundation-circle.png": "/assets/spells/foundation-circle.webp",
+    "/assets/v056/spells/foundation-line.png": "/assets/spells/foundation-line.webp",
+    "/assets/v056/spells/garden-circle.png": "/assets/spells/garden-circle.webp",
+    "/assets/v056/spells/giant-grasp.png": "/assets/spells/giant-grasp.webp",
+    "/assets/v056/spells/green-frame.png": "/assets/spells/green-frame.webp",
+    "/assets/v056/spells/ice-bind.png": "/assets/spells/ice-bind.webp",
+    "/assets/v056/spells/lucid-sight.png": "/assets/spells/lucid-sight.webp",
+    "/assets/v056/spells/luminous-copy.png": "/assets/spells/luminous-copy.webp",
+    "/assets/v056/spells/maker-circle.png": "/assets/spells/maker-circle.webp",
+    "/assets/v056/spells/market-circle.png": "/assets/spells/market-circle.webp",
+    "/assets/v056/spells/mending-light.png": "/assets/spells/mending-light.webp",
+    "/assets/v056/spells/mirror-decoy.png": "/assets/spells/mirror-decoy.webp",
+    "/assets/v056/spells/research-lens.png": "/assets/spells/research-lens.webp",
+    "/assets/v056/spells/root-song.png": "/assets/spells/root-song.webp",
+    "/assets/v056/spells/sanctuary-circle.png": "/assets/spells/sanctuary-circle.webp",
+    "/assets/v056/spells/silver-tongue.png": "/assets/spells/silver-tongue.webp",
+    "/assets/v056/spells/threshold-fold.png": "/assets/spells/threshold-fold.webp",
+    "/assets/v056/spells/warm-twist.png": "/assets/spells/warm-twist.webp",
+    "/assets/v056/spells/water-breath.png": "/assets/spells/water-breath.webp",
+    "/assets/v056/spells/water-jet.png": "/assets/spells/water-jet.webp",
+    "/assets/v056/spells/water-walk.png": "/assets/spells/water-walk.webp",
+    "/assets/v056/spells/welcome-circle.png": "/assets/spells/welcome-circle.webp",
+    "/assets/v056/spells/wind-step.png": "/assets/spells/wind-step.webp",
+    "/assets/v056/spells/wisp-scout.png": "/assets/spells/wisp-scout.webp",
+    "/assets/visitor-placeholder.svg": "/assets/placeholders/visitor-placeholder.svg"
+  },
+  "sourceArtArchive": "stonework-and-spellcraft-development-v0.69.zip",
+  "excludedSourceArt": [
+    {
+      "path": "docs/art-room-masters/annex-chamber-family.png",
+      "bytes": 1268371,
+      "sha256": "11c96698d84f5464823fe6d063e2703ce00adc5d9c30e678c9f1dd9bad7928e4"
+    },
+    {
+      "path": "docs/art-room-masters/annex-suite-family.png",
+      "bytes": 1290111,
+      "sha256": "6d650e1635aecc24ad46aaf14d5c729dfc36e04840ad4154e5258a4801184d1b"
+    },
+    {
+      "path": "docs/art-room-masters/bedchamber.png",
+      "bytes": 1324269,
+      "sha256": "cbf73cfd36ab3ad457186d601644cdba7ae3edf0ca26c5ef5a9dfe1a46823729"
+    },
+    {
+      "path": "docs/art-room-masters/chapel.png",
+      "bytes": 1344187,
+      "sha256": "8722d97a3b2e79707d980256bfda0d3b3b0f130ca6175ed810db114fa0f61826"
+    },
+    {
+      "path": "docs/art-room-masters/command-room.png",
+      "bytes": 1275110,
+      "sha256": "18d1f0081dab51640a5d45850f92a098b2d9ed1692cfcf869e87dd100deff90e"
+    },
+    {
+      "path": "docs/art-room-masters/common-room.png",
+      "bytes": 1337724,
+      "sha256": "f2b6e0beea40da1b875e4da233af38e9e1c42f138e99c87973d9b67bd4c3f651"
+    },
+    {
+      "path": "docs/art-room-masters/conservatory.png",
+      "bytes": 1291134,
+      "sha256": "a4bb2644a387b0b7ea43dcf3f13bd4890edbed4488af8853769800c55a228395"
+    },
+    {
+      "path": "docs/art-room-masters/dungeons.png",
+      "bytes": 1409819,
+      "sha256": "2e46adf5e1382cfdb268df05a35ff20aeb9ded447aadb73c9efb6d2b6d556982"
+    },
+    {
+      "path": "docs/art-room-masters/ember-chamber-family.png",
+      "bytes": 1359166,
+      "sha256": "3e6a1081138cab32718589bcdb4d3431b1b3b1b4ec514faa66d6f034f3dd4448"
+    },
+    {
+      "path": "docs/art-room-masters/enchanting-room.png",
+      "bytes": 1347730,
+      "sha256": "7f565e2cca73225249dca5ff44c196d368f1809b955869b8fd6e55f9f3f32549"
+    },
+    {
+      "path": "docs/art-room-masters/entry-hall.png",
+      "bytes": 1316517,
+      "sha256": "4d127c4ffbc36e1f3f370c5ec4a994588d5dc6f0af38dea1ab714a28722b8b40"
+    },
+    {
+      "path": "docs/art-room-masters/gallery-suite-family.png",
+      "bytes": 1300989,
+      "sha256": "4633e9de573d5153f8c1c78a04ec8a4c935d4f23d3192f886083841fa412f65c"
+    },
+    {
+      "path": "docs/art-room-masters/garden-chamber.png",
+      "bytes": 1318971,
+      "sha256": "9b12bb337b358a724504788904fb9cce6b2b69ac142dddc53a371edca722d60a"
+    },
+    {
+      "path": "docs/art-room-masters/guard-barracks.png",
+      "bytes": 1317570,
+      "sha256": "2c9059af525dc2ff5a0acc999be877a2e97ae00072f0b227cfd2a5051e93f6fd"
+    },
+    {
+      "path": "docs/art-room-masters/guard-dormitory.png",
+      "bytes": 1328751,
+      "sha256": "4b640ba136a1835d7c3f045bbeea01a1f05a61997467c826fd44715dbb66831d"
+    },
+    {
+      "path": "docs/art-room-masters/hot-spring.png",
+      "bytes": 1303559,
+      "sha256": "c76cfd23bbaf808041afcb238b97b7d8c274b56f7494b5cb45027abb16fd6a1c"
+    },
+    {
+      "path": "docs/art-room-masters/infirmary.png",
+      "bytes": 1320616,
+      "sha256": "d3ce0f72357ced39d2416a54207085e8a78e2bdbcd1e5c3a972b8a5c0306a12a"
+    },
+    {
+      "path": "docs/art-room-masters/kitchen.png",
+      "bytes": 1310865,
+      "sha256": "2fedd9419a9081912020ae27b841809a97f0a1ba8e1df0b4094c106e18748e38"
+    },
+    {
+      "path": "docs/art-room-masters/library.png",
+      "bytes": 1349994,
+      "sha256": "55f36792cb9e76061076187ae04e98c1fc6d32008cb852e8c5e002205f8d937e"
+    },
+    {
+      "path": "docs/art-room-masters/living-quarters.png",
+      "bytes": 1355804,
+      "sha256": "8b1daf264487ab0d61a029fd83126fb6e9a5f1bc27facf94277c1bc7c357da8f"
+    },
+    {
+      "path": "docs/art-room-masters/lower-chamber.png",
+      "bytes": 1347989,
+      "sha256": "ddb2cd837affc45efcb47deef2f1feeecb80fbf5bafbd1e3f9ec835714acb979"
+    },
+    {
+      "path": "docs/art-room-masters/lower-suite.png",
+      "bytes": 1361884,
+      "sha256": "c3ab5c4d7ccfa824a471e4b70db996cebc8fc7c540f8bb19f77687e9db771aff"
+    },
+    {
+      "path": "docs/art-room-masters/pool.png",
+      "bytes": 1295843,
+      "sha256": "908cb339d0b29a95c6fe1f771346498afe6c7f46b5469898c76ac0f146fae38b"
+    },
+    {
+      "path": "docs/art-room-masters/quiet-chamber-family.png",
+      "bytes": 1305821,
+      "sha256": "f6dbf04af784af617d731a2538b90a4f392b8df5dcc6ba2508e719968986758f"
+    },
+    {
+      "path": "docs/art-room-masters/sauna.png",
+      "bytes": 1240390,
+      "sha256": "b44042699ee852042dcd2b3725c7a4d988ad481453619aaf3435b6e344eb4587"
+    },
+    {
+      "path": "docs/art-room-masters/smithy.png",
+      "bytes": 1349074,
+      "sha256": "bce3faffa4d7b68f9f2ffa965340f7b7e66da517d843fa509f5c951444eba436"
+    },
+    {
+      "path": "docs/art-room-masters/training-yard.png",
+      "bytes": 1322765,
+      "sha256": "9715daf9d77ea9fdf218d484f61a3d5f639b33017d324472e6a04e9511063007"
+    },
+    {
+      "path": "docs/art-room-masters/underground-quarters.png",
+      "bytes": 1378296,
+      "sha256": "915e0ba5979913f24cca0dd3d294fc207f819f1bb942ad3c243f1b5d1acaf50c"
+    },
+    {
+      "path": "docs/art-room-masters/upper-chamber-family.png",
+      "bytes": 1339341,
+      "sha256": "2a8773c6ce60049dc4e03e2f1078147f1304854bd1d6928db7ea9fe2827a1b1e"
+    },
+    {
+      "path": "docs/art-room-masters/vault.png",
+      "bytes": 1360004,
+      "sha256": "be755788fd7d36c875bf0226682fd18312ef43049e45fee1bcfb1156caa760b2"
+    },
+    {
+      "path": "docs/art-room-masters/warehouse.png",
+      "bytes": 1348455,
+      "sha256": "df97118721f53a0c00e54d5aa8590ca0f44efc37e9b48495494f72d10f30ddbe"
+    },
+    {
+      "path": "docs/art-room-masters/washroom.png",
+      "bytes": 1274515,
+      "sha256": "c9396c6c91aff0ea9c961ccdbe512734d75aa20e6d7809f3e6abcd307d1f3c4c"
+    },
+    {
+      "path": "docs/art-room-masters/west-chamber.png",
+      "bytes": 1299568,
+      "sha256": "49af427a5332d18bdabcba73e27d3f2f4fbab7ffe6f31d049c79ffd041eac0ee"
+    },
+    {
+      "path": "docs/art-room-masters/workshop.png",
+      "bytes": 1329738,
+      "sha256": "afecbb26259b4c5bd74c35e81c2aeb0ea46045ac9a5931b376f5ed65768821b3"
+    },
+    {
+      "path": "docs/art-v053/masters/fern-nursery.png",
+      "bytes": 3918569,
+      "sha256": "7c20352b9dd938153ee0618a321d238d9a184003e63902856a9849c3b80ef90e"
+    },
+    {
+      "path": "docs/art-v053/masters/hillfold-bindery.png",
+      "bytes": 3462267,
+      "sha256": "2efd37f4a73ba7c22f0d736867b742b3e65e4b940f8340f54032d1d2a89ebef3"
+    },
+    {
+      "path": "docs/art-v053/masters/old-waterworks.png",
+      "bytes": 3678168,
+      "sha256": "cd29fdb251db35d09d487a3b3ad80e678ff043523f94409cd2b0985f6a380f9b"
+    },
+    {
+      "path": "docs/art-v053/masters/quarry-shelter.png",
+      "bytes": 3551291,
+      "sha256": "2efb82ccc9f064845dfb5daa3c141d6ba82af42e12cb490549db17c8d03eafbc"
+    },
+    {
+      "path": "docs/art-v053/masters/reedbank-waystation.png",
+      "bytes": 3831197,
+      "sha256": "b3dfc99e492480a17cb72d1fd4f31374412b07ad6d607a95c03a27f20364e6b2"
+    },
+    {
+      "path": "docs/art-v053/masters/ridge-cistern.png",
+      "bytes": 3863587,
+      "sha256": "89858e182b82baafbc15ab705d4504c9215e7342958d3bcdd0b9d5ef99830671"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-art-artifact-concept-margin-dry-book-rest.png",
+      "bytes": 2125051,
+      "sha256": "2c8e07f1a242bba0352ebfa04f50a5a8cf3f1cca733cdd577b784f13a10e885f"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-eq-equipment-concept-hearth-spoke-staff.png",
+      "bytes": 363533,
+      "sha256": "3a57a3a671b7fb7fc75f58c0f20360b0dba4537ad7710c9f2dbc0654fb4d58b3"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-eq-equipment-concept-margin-lantern.png",
+      "bytes": 1833679,
+      "sha256": "bb53b51be4e7d07658705d74c8ad3779ad34ef70510e8e091a3c2a1a4b77ab03"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-mat-material-chalkstone-slab.png",
+      "bytes": 1989265,
+      "sha256": "d806e1be23cd3ac45993893ff57487ba7f8184412c58e64cbd6e6a87d454cab9"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-mat-material-frosted-window-offcut.png",
+      "bytes": 2035683,
+      "sha256": "20103fceb680ac964c3a9ea18d24a591a7841e3ce6aa006bfe3b708386fdbd36"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-mat-material-soapstone-puck.png",
+      "bytes": 2049533,
+      "sha256": "70c021d830f2650636142f565a933d889ed68bee01e7c7834f21333f4e05457f"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-room-furnishing-concept-removable-note-wing.png",
+      "bytes": 1230812,
+      "sha256": "9b0d37878b9fe6554fafd8ab81f28225f5ab249854c758517fc131b897dbe0bc"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-room-furnishing-concept-tilted-book-support.png",
+      "bytes": 1673448,
+      "sha256": "5263cf106da9d6c65d0c4b68e0b7f15a45d3152bf8f0189f7003c5b0de085986"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-shelf-food-or-drink-mushroom-and-barley-pot.png",
+      "bytes": 2435573,
+      "sha256": "baaec2eeb9d01006a9f4b1870adfc9761d14aba697e66fc47db9398afd40a4d2"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-shelf-food-or-drink-pear-and-toasted-oat-bowl.png",
+      "bytes": 2294566,
+      "sha256": "52515f264d664175775a4fa6446cc343a9754dc9d022dc377214026d491d2461"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-shelf-garden-specimen-folded-rain-reed.png",
+      "bytes": 1964075,
+      "sha256": "ef521d6b97800d9253a4c236c9aa61d61150129fe1704ef9a65f71c11222e94f"
+    },
+    {
+      "path": "docs/art-v053/masters/ss-shelf-garden-specimen-lantern-edge-leaf.png",
+      "bytes": 1945580,
+      "sha256": "3701d162ee331d048d4e777be98e411c729c318b474d75dabd79cf807b4d0994"
+    },
+    {
+      "path": "docs/art-v053/portrait-briefs/references/tamsin-shawl-v2.png",
+      "bytes": 2649201,
+      "sha256": "18176b56eb92f5a41b5ee5a63d564da97c1b448a78d9d80145b65f5776136a82"
+    },
+    {
+      "path": "docs/art-v053/portrait-briefs/references/tamsin-v2.png",
+      "bytes": 2656086,
+      "sha256": "248430ebc415506dca99c5008517ba068fef08144ce1ca555995da7e1eec0334"
+    }
+  ],
+  "totals": {
+    "beforeBytes": 153157222,
+    "bytes": 39294190,
+    "sourceDuplicatesRemovedBytes": 94576104
+  },
+  "validation": {
+    "rasterFilesDecoded": 156,
+    "alphaPlanesPreservedAfterResizing": 108,
+    "aspectRatiosPreserved": true,
+    "visualSampleReview": "Original versus optimized portraits, rooms, atlas and spell icons compared at display size; no material visual difference observed. Not a rendered browser review."
+  }
+}

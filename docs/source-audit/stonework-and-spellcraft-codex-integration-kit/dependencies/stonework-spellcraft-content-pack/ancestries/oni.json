@@ -1,0 +1,1918 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "oni",
+  "ancestryName": "Oni",
+  "arrivalMethod": "summoning",
+  "names": [
+    {
+      "id": "oni-name-001",
+      "name": "Sorayo",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-002",
+      "name": "Tadayo",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-003",
+      "name": "Rikami",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-004",
+      "name": "Okayo",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-005",
+      "name": "Harayo",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-006",
+      "name": "Kenana",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-007",
+      "name": "Kiraya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-008",
+      "name": "Kabano",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-009",
+      "name": "Dayae",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-010",
+      "name": "Urana",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-011",
+      "name": "Fuyura",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-012",
+      "name": "Asara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-013",
+      "name": "Nikano",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-014",
+      "name": "Akine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-015",
+      "name": "Sadari",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-016",
+      "name": "Ranami",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-017",
+      "name": "Karika",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-018",
+      "name": "Takano",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-019",
+      "name": "Funaka",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-020",
+      "name": "Terayo",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-021",
+      "name": "Ragako",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-022",
+      "name": "Sanana",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-023",
+      "name": "Erie",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-024",
+      "name": "Ganane",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-025",
+      "name": "Renara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-026",
+      "name": "Zanako",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-027",
+      "name": "Nomaka",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-028",
+      "name": "Hanaya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-029",
+      "name": "Kanari",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-030",
+      "name": "Menase",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-031",
+      "name": "Kurari",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-032",
+      "name": "Akana",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-033",
+      "name": "Sakae",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-034",
+      "name": "Komako",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-035",
+      "name": "Minoko",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-036",
+      "name": "Arose",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-037",
+      "name": "Tomae",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-038",
+      "name": "Chikaka",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-039",
+      "name": "Nakami",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-040",
+      "name": "Irose",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-041",
+      "name": "Manari",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-042",
+      "name": "Jinano",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-043",
+      "name": "Inase",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-044",
+      "name": "Ikane",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-045",
+      "name": "Runaya",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-046",
+      "name": "Narami",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-047",
+      "name": "Benara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-048",
+      "name": "Hirane",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-049",
+      "name": "Yaraya",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-050",
+      "name": "Nagara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-051",
+      "name": "Hanano",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-052",
+      "name": "Asae",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-053",
+      "name": "Benae",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-054",
+      "name": "Dayari",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-055",
+      "name": "Takana",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-056",
+      "name": "Tomari",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-057",
+      "name": "Ganara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-058",
+      "name": "Inako",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-059",
+      "name": "Fuyue",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-060",
+      "name": "Runano",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-061",
+      "name": "Akaka",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-062",
+      "name": "Kabana",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-063",
+      "name": "Okami",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-064",
+      "name": "Iroko",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-065",
+      "name": "Yarano",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-066",
+      "name": "Tadami",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-067",
+      "name": "Kenaka",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-068",
+      "name": "Uraka",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-069",
+      "name": "Nakase",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-070",
+      "name": "Funaya",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-071",
+      "name": "Eriri",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-072",
+      "name": "Aroko",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-073",
+      "name": "Nagae",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-074",
+      "name": "Sadane",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-075",
+      "name": "Nikana",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-076",
+      "name": "Hirara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-077",
+      "name": "Sakari",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-078",
+      "name": "Harami",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-079",
+      "name": "Ragayo",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-080",
+      "name": "Kanane",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-081",
+      "name": "Kirano",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-082",
+      "name": "Sorami",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-083",
+      "name": "Kariya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-084",
+      "name": "Chikaya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-085",
+      "name": "Sanaka",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-086",
+      "name": "Menako",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-087",
+      "name": "Ranase",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-088",
+      "name": "Nomaya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-089",
+      "name": "Renae",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-090",
+      "name": "Zanayo",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-091",
+      "name": "Terami",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-092",
+      "name": "Jinana",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-093",
+      "name": "Kurane",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-094",
+      "name": "Narase",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-095",
+      "name": "Rikase",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-096",
+      "name": "Komayo",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "oni-name-097",
+      "name": "Manane",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "oni-name-098",
+      "name": "Minoyo",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "oni-name-099",
+      "name": "Sanaya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "oni-name-100",
+      "name": "Runana",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "oni-story-001",
+      "title": "The porcelain cup with a broad handle",
+      "premise": "She likes a delicate cup but wants its handle comfortable for her hand.",
+      "personalMotivation": "She wants refinement designed for her rather than denied to her.",
+      "openingHook": "She asks whether a broader handle can keep the cup's light appearance.",
+      "possibleDevelopments": [
+        "Compare curved handle profiles in a drawing.",
+        "Leave material strength and final sizing for craft review."
+      ],
+      "backgroundTags": [
+        "ceramics"
+      ],
+      "themeTags": [
+        "tea",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-002",
+      "title": "The love poem that laughs once",
+      "premise": "She writes an affectionate poem and wants one comic line to relieve its solemnity.",
+      "personalMotivation": "She likes sensual warmth that can smile at itself.",
+      "openingHook": "She asks which line sounds too grand for the feeling.",
+      "possibleDevelopments": [
+        "Replace an abstract declaration with a specific, optional compliment.",
+        "Keep the poem unsent until she chooses to share it."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "flirtation",
+        "humour"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-003",
+      "title": "The horned silhouette in the theatre",
+      "premise": "She is offered a villain-shaped role in a fictional performance and wants to try its meticulous stage manager instead.",
+      "personalMotivation": "She likes the practical work behind a show.",
+      "openingHook": "She asks what makes that backstage character worth a scene.",
+      "possibleDevelopments": [
+        "Write a comic problem involving misplaced props rather than violence.",
+        "Keep actual performance roles open to willing participants."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "identity",
+        "work"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-004",
+      "title": "The full-bust pattern study",
+      "premise": "She wants a flattering fitted top that accommodates her large bust without flattening her shape or relying on strain.",
+      "personalMotivation": "She wants comfort and bold adult style together.",
+      "openingHook": "She asks where shaping seams and adjustable closures belong.",
+      "possibleDevelopments": [
+        "Sketch supportive opaque construction with adequate room.",
+        "Require an individual fit rather than changing her body to match a pattern."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "sensual",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-005",
+      "title": "The small garden bell",
+      "premise": "She wants to design a modest garden bell and keeps making its frame larger than the sound study needs.",
+      "personalMotivation": "She enjoys learning when restraint improves a design.",
+      "openingHook": "She asks what the simplest useful frame could be.",
+      "possibleDevelopments": [
+        "Separate the acoustic question from decorative scale.",
+        "Keep any prototype and installation pending practical review."
+      ],
+      "backgroundTags": [
+        "metalwork"
+      ],
+      "themeTags": [
+        "gardening",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-006",
+      "title": "The apology in the recipe margin",
+      "premise": "She finds her own recipe draft repeatedly apologizes for being uncomplicated.",
+      "personalMotivation": "She wants pleasure without a performance of sophistication.",
+      "openingHook": "She asks whether the recipe can simply be good at one thing.",
+      "possibleDevelopments": [
+        "Remove defensive notes and clarify the actual method.",
+        "Keep an optional variation separate from the base recipe."
+      ],
+      "backgroundTags": [
+        "cooking"
+      ],
+      "themeTags": [
+        "personal-growth",
+        "language"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-007",
+      "title": "The embroidery thread argument",
+      "premise": "She prefers bold thread while a proposed fine pattern depends on subtle lines.",
+      "personalMotivation": "She wants to understand the material tradeoff, not just insist on her favourite.",
+      "openingHook": "She asks which detail survives at a larger scale.",
+      "possibleDevelopments": [
+        "Enlarge or simplify the motif in a sample drawing.",
+        "Choose a different project for the heavier thread."
+      ],
+      "backgroundTags": [
+        "textiles"
+      ],
+      "themeTags": [
+        "craft",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-008",
+      "title": "An invitation to read aloud badly",
+      "premise": "She imagines a playful evening of intentionally overdramatic readings but worries it could become mockery of beginners.",
+      "personalMotivation": "She enjoys theatrical silliness without targeting anyone's skill.",
+      "openingHook": "She asks how the invitation can make the fiction clear.",
+      "possibleDevelopments": [
+        "Use purpose-written absurd passages rather than someone's earnest work.",
+        "Keep ordinary listening an equally welcome choice."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "humour",
+        "consent"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-009",
+      "title": "The broad chair that stays elegant",
+      "premise": "She wants a chair comfortable for her powerful, generously curvy build without making it look like a throne.",
+      "personalMotivation": "She wants ordinary furniture that fits.",
+      "openingHook": "She asks which proportions need room and which can stay visually light.",
+      "possibleDevelopments": [
+        "Sketch an open-backed, broad seat with clear movement space.",
+        "Leave construction and load suitability to later review."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "accessibility",
+        "domestic"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-010",
+      "title": "The modest route description",
+      "premise": "She wants a walking guide that does not turn every hill into a challenge to toughness.",
+      "personalMotivation": "She values observation over proving endurance.",
+      "openingHook": "She asks what someone taking an easy walk would need to know.",
+      "possibleDevelopments": [
+        "Add surfaces, pauses and uncertain access to the proposed notes.",
+        "Keep the route untravelled until gameplay establishes otherwise."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "exploration",
+        "rest"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-011",
+      "title": "The little book of loud colours",
+      "premise": "She collects colour combinations and notices bold pairings can still feel restful when used sparingly.",
+      "personalMotivation": "She wants a palette with more range than constant intensity.",
+      "openingHook": "She asks which small accent changes the whole page.",
+      "possibleDevelopments": [
+        "Create limited swatches with deliberately quiet backgrounds.",
+        "Consider a personal reference book rather than a universal design rule."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "identity",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-012",
+      "title": "The promise not to lift it",
+      "premise": "She wants to help plan a move while making clear she has not volunteered to do all the carrying.",
+      "personalMotivation": "She values coordination as real work.",
+      "openingHook": "She asks how a planning offer can avoid an assumed physical task.",
+      "possibleDevelopments": [
+        "Draft separate requests for planning and actual labour.",
+        "Leave each person's participation individually agreed."
+      ],
+      "backgroundTags": [
+        "work"
+      ],
+      "themeTags": [
+        "boundaries",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-013",
+      "title": "The sweet bun with a serious name",
+      "premise": "She invents a grand martial name for a very soft bun and enjoys the contrast.",
+      "personalMotivation": "She likes harmless absurdity without making violence the meal's theme.",
+      "openingHook": "She asks which exaggerated title is funny without sounding threatening.",
+      "possibleDevelopments": [
+        "Write a clearly comic menu caption.",
+        "Keep real food information plain and accessible."
+      ],
+      "backgroundTags": [
+        "baking"
+      ],
+      "themeTags": [
+        "humour",
+        "language"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-014",
+      "title": "A careful note to a teacher",
+      "premise": "She wants feedback on a beginner drawing but fears the question sounds like asking for a whole course.",
+      "personalMotivation": "She wants to respect another person's time without shrinking her curiosity.",
+      "openingHook": "She asks which single problem can be stated clearly.",
+      "possibleDevelopments": [
+        "Draft a bounded request with room for refusal.",
+        "Keep further instruction separate from any first reply."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "visual-art",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-015",
+      "title": "The horn ornament that can be refused",
+      "premise": "She admires a horn ornament design but wants its fitting to remain a personal choice, not a public activity.",
+      "personalMotivation": "She values bodily autonomy in decorative details.",
+      "openingHook": "She asks whether a loose visual mock-up would answer the style question.",
+      "possibleDevelopments": [
+        "Use drawings rather than unsolicited handling.",
+        "Keep any actual fitting explicitly agreed and reversible."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "consent",
+        "privacy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-016",
+      "title": "The argument over a crooked shelf",
+      "premise": "She is inclined to rebuild a slightly uneven shelf, while another possible approach is simply to document and monitor it.",
+      "personalMotivation": "She wants proportionate judgment rather than an automatic dramatic fix.",
+      "openingHook": "She asks what is known about the shelf's actual condition.",
+      "possibleDevelopments": [
+        "Separate cosmetic unevenness from unresolved structural questions.",
+        "Seek qualified review before claiming repair is necessary or complete."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-017",
+      "title": "The soft song after the joke",
+      "premise": "She wants a comic performance to end with a sincere quiet song rather than one more punchline.",
+      "personalMotivation": "She likes emotional variety without warning the audience what to feel.",
+      "openingHook": "She asks how the transition could remain natural.",
+      "possibleDevelopments": [
+        "Try a shorter comic ending before the musical phrase.",
+        "Keep the sincerity unmocked if the song is shared."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "performance",
+        "affection"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-018",
+      "title": "The letter that changes its mind",
+      "premise": "She begins a letter recommending a project and realizes writing has clarified why she no longer wants it.",
+      "personalMotivation": "She wants revision to be a valid outcome of thought.",
+      "openingHook": "She asks whether the letter should now become a question.",
+      "possibleDevelopments": [
+        "Draft an honest account of the changed preference.",
+        "Keep previous commitments unchanged unless explicitly renegotiated."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "personal-growth",
+        "promises"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-019",
+      "title": "A fitted dress with room to sit",
+      "premise": "She wants an alluring dress for her large-busted, powerful figure that remains comfortable when seated.",
+      "personalMotivation": "She wants an evening garment for actual company, not a frozen pose.",
+      "openingHook": "She asks what a fitting should test beyond standing.",
+      "possibleDevelopments": [
+        "Plan secure bust coverage, shaped seams and a comfortable waist.",
+        "Keep final styling entirely her choice."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "sensual",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-020",
+      "title": "The stone flower's missing softness",
+      "premise": "She sketches a carved flower and finds the petal edges look harsher than she intended.",
+      "personalMotivation": "She wants to learn how material and form suggest softness.",
+      "openingHook": "She asks which contour could do more than surface polish.",
+      "possibleDevelopments": [
+        "Compare rounded transitions in a drawing study.",
+        "Leave actual carving technique to supported practice and review."
+      ],
+      "backgroundTags": [
+        "stonework"
+      ],
+      "themeTags": [
+        "visual-art",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-021",
+      "title": "The celebration without a contest",
+      "premise": "She wants a lively household occasion and rejects suggestions that she organize feats of strength.",
+      "personalMotivation": "She enjoys fun that does not make her body the programme.",
+      "openingHook": "She asks which shared hobby could anchor the gathering.",
+      "possibleDevelopments": [
+        "Plan optional food, stories or a collective art activity.",
+        "Avoid competitive stakes and penalties for sitting out."
+      ],
+      "backgroundTags": [
+        "celebration"
+      ],
+      "themeTags": [
+        "identity",
+        "community"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-022",
+      "title": "A notebook that fits the hand",
+      "premise": "She finds tiny fashionable notebooks awkward and wants a compact book with a broader writing area.",
+      "personalMotivation": "She wants portable tools sized for actual use.",
+      "openingHook": "She asks which fold or binding preserves the widest page.",
+      "possibleDevelopments": [
+        "Compare a landscape format with a simple foldout.",
+        "Keep elaborate closures out of the first design."
+      ],
+      "backgroundTags": [
+        "papercraft"
+      ],
+      "themeTags": [
+        "archives",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-023",
+      "title": "The pastry brush's grand retirement",
+      "premise": "She writes a mock farewell speech for a worn practice brush and worries it will sound like ridiculing careful repair.",
+      "personalMotivation": "She likes giving ordinary objects comic dignity.",
+      "openingHook": "She asks where the joke should stop before practical advice begins.",
+      "possibleDevelopments": [
+        "Keep the speech clearly fictional and separate from disposal decisions.",
+        "Consider a display drawing rather than discarding any real tool."
+      ],
+      "backgroundTags": [
+        "humour"
+      ],
+      "themeTags": [
+        "craft",
+        "sustainability"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-024",
+      "title": "The neighbourly question she cannot answer",
+      "premise": "She is asked in a hypothetical letter to advise on a craft she only recently began.",
+      "personalMotivation": "She wants to be welcoming without pretending expertise.",
+      "openingHook": "She asks what useful response can acknowledge that limit.",
+      "possibleDevelopments": [
+        "Share only established observations and suggest specific unanswered questions.",
+        "Avoid endorsing a technique she has not validated."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "trust",
+        "community"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "oni-story-025",
+      "title": "The room with a delicate object",
+      "premise": "She imagines a personal room containing one small fragile ornament and dislikes the assumption that it will inevitably break around her.",
+      "personalMotivation": "She wants care to be judged by choices, not physique.",
+      "openingHook": "She asks where the object could be appreciated without obstructing daily use.",
+      "possibleDevelopments": [
+        "Sketch a stable, reachable display location.",
+        "Keep ownership, acquisition and placement unestablished until play."
+      ],
+      "backgroundTags": [
+        "domestic"
+      ],
+      "themeTags": [
+        "identity",
+        "possessions"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "oni-appearance-001",
+      "summary": "An adult woman aged 21 with warm terracotta-red skin, mid-back flaxen braids, and dark grey eyes. Her build is tall and powerfully muscular with generous mature curves, broad hips and a large bust. Two thick ivory horns curving upward.",
+      "skin": "warm terracotta-red",
+      "hair": "mid-back flaxen braids",
+      "eyes": "dark grey",
+      "build": "tall and powerfully muscular with generous mature curves, broad hips and a large bust",
+      "ancestryFeatures": [
+        "two thick ivory horns curving upward",
+        "subtle ivory lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a faint darker patch at the left jaw"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "oni-appearance-002",
+      "summary": "An adult woman aged 24 with deep blue-grey skin, shoulder-length warm-brown twists, and warm brown eyes. Her build is imposing and broad-shouldered with a large bust, full waist and heavy thighs. Two short ridged black horns.",
+      "skin": "deep blue-grey",
+      "hair": "shoulder-length warm-brown twists",
+      "eyes": "warm brown",
+      "build": "imposing and broad-shouldered with a large bust, full waist and heavy thighs",
+      "ancestryFeatures": [
+        "two short ridged black horns",
+        "slightly pointed ears",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a few silver strands at the right temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "oni-appearance-003",
+      "summary": "An adult woman aged 19 with rich copper-brown skin, chin-length black curls, and soft violet eyes. Her build is strong and statuesque with a large bust, rounded hips and defined arms. Two long bronze-brown horns swept back.",
+      "skin": "rich copper-brown",
+      "hair": "chin-length black curls",
+      "eyes": "soft violet",
+      "build": "strong and statuesque with a large bust, rounded hips and defined arms",
+      "ancestryFeatures": [
+        "two long bronze-brown horns swept back",
+        "small, neatly tapered lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a slightly higher arch to the left eyebrow"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "oni-appearance-004",
+      "summary": "An adult woman aged 22 with muted violet skin, shoulder-length copper coils, and grey-green eyes. Her build is broad-framed and voluptuous with powerful legs and a large bust. A pair of outward-curving dark horns.",
+      "skin": "muted violet",
+      "hair": "shoulder-length copper coils",
+      "eyes": "grey-green",
+      "build": "broad-framed and voluptuous with powerful legs and a large bust",
+      "ancestryFeatures": [
+        "a pair of outward-curving dark horns",
+        "broad pointed ears",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a beauty mark beneath the lower lip"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "oni-appearance-005",
+      "summary": "An adult woman aged 25 with olive-gold skin, waist-length dark auburn hair, and pale grey eyes. Her build is solidly muscular with pronounced mature curves, a soft abdomen and a large bust. Two stout red-black horns with pale tips.",
+      "skin": "olive-gold",
+      "hair": "waist-length dark auburn hair",
+      "eyes": "pale grey",
+      "build": "solidly muscular with pronounced mature curves, a soft abdomen and a large bust",
+      "ancestryFeatures": [
+        "two stout red-black horns with pale tips",
+        "short cream lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a tiny beauty mark beneath the right eye"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "oni-appearance-006",
+      "summary": "An adult woman aged 20 with warm terracotta-red skin, long pale-gold waves, and black-brown eyes. Her build is tall and powerfully muscular with generous mature curves, broad hips and a large bust. Two thick ivory horns curving upward.",
+      "skin": "warm terracotta-red",
+      "hair": "long pale-gold waves",
+      "eyes": "black-brown",
+      "build": "tall and powerfully muscular with generous mature curves, broad hips and a large bust",
+      "ancestryFeatures": [
+        "two thick ivory horns curving upward",
+        "subtle ivory lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a faint freckle band across the upper cheeks"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque",
+        "freckled"
+      ]
+    },
+    {
+      "id": "oni-appearance-007",
+      "summary": "An adult woman aged 23 with deep blue-grey skin, a blunt honey-brown bob, and dark hazel eyes. Her build is imposing and broad-shouldered with a large bust, full waist and heavy thighs. Two short ridged black horns.",
+      "skin": "deep blue-grey",
+      "hair": "a blunt honey-brown bob",
+      "eyes": "dark hazel",
+      "build": "imposing and broad-shouldered with a large bust, full waist and heavy thighs",
+      "ancestryFeatures": [
+        "two short ridged black horns",
+        "slightly pointed ears",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a soft dusting of freckles on the upper arms"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "freckled"
+      ]
+    },
+    {
+      "id": "oni-appearance-008",
+      "summary": "An adult woman aged 18 with rich copper-brown skin, long dark hair with a silver forelock, and sea green eyes. Her build is strong and statuesque with a large bust, rounded hips and defined arms. Two long bronze-brown horns swept back.",
+      "skin": "rich copper-brown",
+      "hair": "long dark hair with a silver forelock",
+      "eyes": "sea green",
+      "build": "strong and statuesque with a large bust, rounded hips and defined arms",
+      "ancestryFeatures": [
+        "two long bronze-brown horns swept back",
+        "small, neatly tapered lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "slightly uneven natural eyebrow arches"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "oni-appearance-009",
+      "summary": "An adult woman aged 21 with muted violet skin, short deep-plum curls, and slate grey eyes. Her build is broad-framed and voluptuous with powerful legs and a large bust. A pair of outward-curving dark horns.",
+      "skin": "muted violet",
+      "hair": "short deep-plum curls",
+      "eyes": "slate grey",
+      "build": "broad-framed and voluptuous with powerful legs and a large bust",
+      "ancestryFeatures": [
+        "a pair of outward-curving dark horns",
+        "broad pointed ears",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a pale oval birthmark at the nape"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "oni-appearance-010",
+      "summary": "An adult woman aged 24 with olive-gold skin, a dark chestnut crop with a curled fringe, and russet brown eyes. Her build is solidly muscular with pronounced mature curves, a soft abdomen and a large bust. Two stout red-black horns with pale tips.",
+      "skin": "olive-gold",
+      "hair": "a dark chestnut crop with a curled fringe",
+      "eyes": "russet brown",
+      "build": "solidly muscular with pronounced mature curves, a soft abdomen and a large bust",
+      "ancestryFeatures": [
+        "two stout red-black horns with pale tips",
+        "short cream lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a narrow pale scar along the chin"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "oni-appearance-011",
+      "summary": "An adult woman aged 19 with warm terracotta-red skin, a wavy black bob, and dark blue eyes. Her build is tall and powerfully muscular with generous mature curves, broad hips and a large bust. Two thick ivory horns curving upward.",
+      "skin": "warm terracotta-red",
+      "hair": "a wavy black bob",
+      "eyes": "dark blue",
+      "build": "tall and powerfully muscular with generous mature curves, broad hips and a large bust",
+      "ancestryFeatures": [
+        "two thick ivory horns curving upward",
+        "subtle ivory lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a deeper natural crease beneath the lower lip"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "oni-appearance-012",
+      "summary": "An adult woman aged 22 with deep blue-grey skin, a straight dark-brown bob, and green flecked with gold eyes. Her build is imposing and broad-shouldered with a large bust, full waist and heavy thighs. Two short ridged black horns.",
+      "skin": "deep blue-grey",
+      "hair": "a straight dark-brown bob",
+      "eyes": "green flecked with gold",
+      "build": "imposing and broad-shouldered with a large bust, full waist and heavy thighs",
+      "ancestryFeatures": [
+        "two short ridged black horns",
+        "slightly pointed ears",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a small birthmark near the right shoulder"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "oni-appearance-013",
+      "summary": "An adult woman aged 25 with rich copper-brown skin, close-cropped ash-brown curls, and deep brown eyes. Her build is strong and statuesque with a large bust, rounded hips and defined arms. Two long bronze-brown horns swept back.",
+      "skin": "rich copper-brown",
+      "hair": "close-cropped ash-brown curls",
+      "eyes": "deep brown",
+      "build": "strong and statuesque with a large bust, rounded hips and defined arms",
+      "ancestryFeatures": [
+        "two long bronze-brown horns swept back",
+        "small, neatly tapered lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a small freckle cluster across the nose"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "oni-appearance-014",
+      "summary": "An adult woman aged 20 with muted violet skin, thick dark-brown coils to the shoulders, and copper brown eyes. Her build is broad-framed and voluptuous with powerful legs and a large bust. A pair of outward-curving dark horns.",
+      "skin": "muted violet",
+      "hair": "thick dark-brown coils to the shoulders",
+      "eyes": "copper brown",
+      "build": "broad-framed and voluptuous with powerful legs and a large bust",
+      "ancestryFeatures": [
+        "a pair of outward-curving dark horns",
+        "broad pointed ears",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a subtle left cheek dimple"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "oni-appearance-015",
+      "summary": "An adult woman aged 23 with olive-gold skin, long blue-black curls, and deep blue eyes. Her build is solidly muscular with pronounced mature curves, a soft abdomen and a large bust. Two stout red-black horns with pale tips.",
+      "skin": "olive-gold",
+      "hair": "long blue-black curls",
+      "eyes": "deep blue",
+      "build": "solidly muscular with pronounced mature curves, a soft abdomen and a large bust",
+      "ancestryFeatures": [
+        "two stout red-black horns with pale tips",
+        "short cream lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a beauty mark beside the left cheekbone"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "oni-appearance-016",
+      "summary": "An adult woman aged 18 with warm terracotta-red skin, short russet curls, and blue-grey eyes. Her build is tall and powerfully muscular with generous mature curves, broad hips and a large bust. Two thick ivory horns curving upward.",
+      "skin": "warm terracotta-red",
+      "hair": "short russet curls",
+      "eyes": "blue-grey",
+      "build": "tall and powerfully muscular with generous mature curves, broad hips and a large bust",
+      "ancestryFeatures": [
+        "two thick ivory horns curving upward",
+        "subtle ivory lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a dark freckle beside the bridge of the nose"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque",
+        "freckled"
+      ]
+    },
+    {
+      "id": "oni-appearance-017",
+      "summary": "An adult woman aged 21 with deep blue-grey skin, sleek black hair to the waist, and honey brown eyes. Her build is imposing and broad-shouldered with a large bust, full waist and heavy thighs. Two short ridged black horns.",
+      "skin": "deep blue-grey",
+      "hair": "sleek black hair to the waist",
+      "eyes": "honey brown",
+      "build": "imposing and broad-shouldered with a large bust, full waist and heavy thighs",
+      "ancestryFeatures": [
+        "two short ridged black horns",
+        "slightly pointed ears",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a natural notch in the right eyebrow"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "oni-appearance-018",
+      "summary": "An adult woman aged 24 with rich copper-brown skin, long ash-brown ringlets, and olive green eyes. Her build is strong and statuesque with a large bust, rounded hips and defined arms. Two long bronze-brown horns swept back.",
+      "skin": "rich copper-brown",
+      "hair": "long ash-brown ringlets",
+      "eyes": "olive green",
+      "build": "strong and statuesque with a large bust, rounded hips and defined arms",
+      "ancestryFeatures": [
+        "two long bronze-brown horns swept back",
+        "small, neatly tapered lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a small cleft in the chin"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "oni-appearance-019",
+      "summary": "An adult woman aged 19 with muted violet skin, long pale-copper waves, and smoky blue eyes. Her build is broad-framed and voluptuous with powerful legs and a large bust. A pair of outward-curving dark horns.",
+      "skin": "muted violet",
+      "hair": "long pale-copper waves",
+      "eyes": "smoky blue",
+      "build": "broad-framed and voluptuous with powerful legs and a large bust",
+      "ancestryFeatures": [
+        "a pair of outward-curving dark horns",
+        "broad pointed ears",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a light scatter of freckles over the shoulders"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "freckled"
+      ]
+    },
+    {
+      "id": "oni-appearance-020",
+      "summary": "An adult woman aged 22 with olive-gold skin, long chestnut waves, and amber eyes. Her build is solidly muscular with pronounced mature curves, a soft abdomen and a large bust. Two stout red-black horns with pale tips.",
+      "skin": "olive-gold",
+      "hair": "long chestnut waves",
+      "eyes": "amber",
+      "build": "solidly muscular with pronounced mature curves, a soft abdomen and a large bust",
+      "ancestryFeatures": [
+        "two stout red-black horns with pale tips",
+        "short cream lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a pale pigment fleck at the left temple"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "oni-appearance-021",
+      "summary": "An adult woman aged 25 with warm terracotta-red skin, long black hair with a blunt fringe, and rich brown eyes. Her build is tall and powerfully muscular with generous mature curves, broad hips and a large bust. Two thick ivory horns curving upward.",
+      "skin": "warm terracotta-red",
+      "hair": "long black hair with a blunt fringe",
+      "eyes": "rich brown",
+      "build": "tall and powerfully muscular with generous mature curves, broad hips and a large bust",
+      "ancestryFeatures": [
+        "two thick ivory horns curving upward",
+        "subtle ivory lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a softly dimpled chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "oni-appearance-022",
+      "summary": "An adult woman aged 20 with deep blue-grey skin, a silver-blonde crop, and hazel eyes. Her build is imposing and broad-shouldered with a large bust, full waist and heavy thighs. Two short ridged black horns.",
+      "skin": "deep blue-grey",
+      "hair": "a silver-blonde crop",
+      "eyes": "hazel",
+      "build": "imposing and broad-shouldered with a large bust, full waist and heavy thighs",
+      "ancestryFeatures": [
+        "two short ridged black horns",
+        "slightly pointed ears",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a beauty mark near the right corner of the mouth"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "oni-appearance-023",
+      "summary": "An adult woman aged 23 with rich copper-brown skin, a chestnut pixie cut, and moss green eyes. Her build is strong and statuesque with a large bust, rounded hips and defined arms. Two long bronze-brown horns swept back.",
+      "skin": "rich copper-brown",
+      "hair": "a chestnut pixie cut",
+      "eyes": "moss green",
+      "build": "strong and statuesque with a large bust, rounded hips and defined arms",
+      "ancestryFeatures": [
+        "two long bronze-brown horns swept back",
+        "small, neatly tapered lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "a darker pigment patch along one collarbone"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "oni-appearance-024",
+      "summary": "An adult woman aged 18 with muted violet skin, mid-back silver-white waves, and muted gold eyes. Her build is broad-framed and voluptuous with powerful legs and a large bust. A pair of outward-curving dark horns.",
+      "skin": "muted violet",
+      "hair": "mid-back silver-white waves",
+      "eyes": "muted gold",
+      "build": "broad-framed and voluptuous with powerful legs and a large bust",
+      "ancestryFeatures": [
+        "a pair of outward-curving dark horns",
+        "broad pointed ears",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "soft freckling along the collarbones"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "freckled"
+      ]
+    },
+    {
+      "id": "oni-appearance-025",
+      "summary": "An adult woman aged 21 with olive-gold skin, a shoulder-length tawny shag, and golden brown eyes. Her build is solidly muscular with pronounced mature curves, a soft abdomen and a large bust. Two stout red-black horns with pale tips.",
+      "skin": "olive-gold",
+      "hair": "a shoulder-length tawny shag",
+      "eyes": "golden brown",
+      "build": "solidly muscular with pronounced mature curves, a soft abdomen and a large bust",
+      "ancestryFeatures": [
+        "two stout red-black horns with pale tips",
+        "short cream lower tusks",
+        "humanlike adult feminine facial structure"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "a tiny pale scar at the edge of the left brow"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    }
+  ]
+}

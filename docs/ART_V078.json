@@ -1,0 +1,72 @@
+{
+  "assets": [
+    {
+      "id": "cinder-aqueduct",
+      "prompt": "Use case: stylized-concept. Asset type: landscape expedition location illustration for Stonework and Spellcraft. Wide 3:2 landscape composition, natural eye-level perspective. Antique engraving-inspired dark fantasy illustration: intricate etched linework, fine hatching and crosshatching, subtly worn print texture, detailed aged materials. Modest useful stone-and-timber architecture, historically grounded craftsmanship, believable scale. Midnight navy and charcoal, muted violet, natural stone, wood, plant and fabric colours, sparse dull brass. Dim but clearly readable, atmospheric. No people, readable text, interface, decorative frame, logo or watermark. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushed black detail. An old stone aqueduct traverses a narrow volcanic ravine. Eye-level view from a worn maintenance landing toward cracked low arches and a rusted sluice regulator, shallow water channels, scorched masonry, faint warm embers low below. A damaged but plausible crossing offers a route for repair. Ash-grey rock and restrained rust-red accents; no lava spectacle.",
+      "method": "built-in image generation",
+      "path": "static/assets/locations/cinder-aqueduct.webp",
+      "sourceBytes": 3968153,
+      "bytes": 411954,
+      "width": 1440,
+      "height": 960,
+      "sha256": "d9513e6fdb90d6c1a376a078c42b205a0b0c189e81a759971a26ec9b24ac2d89"
+    },
+    {
+      "id": "stormwatch-beacon",
+      "prompt": "Use case: stylized-concept. Asset type: landscape expedition location illustration for Stonework and Spellcraft. Wide 3:2 landscape composition, natural eye-level perspective. Antique engraving-inspired dark fantasy illustration: intricate etched linework, fine hatching and crosshatching, subtly worn print texture, detailed aged materials. Modest useful stone-and-timber architecture, historically grounded craftsmanship, believable scale. Midnight navy and charcoal, muted violet, natural stone, wood, plant and fabric colours, sparse dull brass. Dim but clearly readable, atmospheric. No people, readable text, interface, decorative frame, logo or watermark. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushed black detail. A modest coastal warning beacon after a storm. Squat weathered stone watchtower on a rocky headland, its shuttered lantern housing damaged, worn stair and winch, soaked timber landing, ropes and driftwood. Grey-green sea and distant headland beyond, subdued storm clouds thinning toward pale light. A practical repair expedition, not a colossal lighthouse.",
+      "method": "built-in image generation",
+      "path": "static/assets/locations/stormwatch-beacon.webp",
+      "sourceBytes": 4007528,
+      "bytes": 400636,
+      "width": 1440,
+      "height": 960,
+      "sha256": "03e7745b5ad1cde4e5f3019e3a33758b3e91866e14d717a0d84d29e276c46dc7"
+    },
+    {
+      "id": "lantern-pavilion",
+      "prompt": "Use case: stylized-concept. Asset type: landscape expedition location illustration for Stonework and Spellcraft. Wide 3:2 landscape composition, natural eye-level perspective. Antique engraving-inspired dark fantasy illustration: intricate etched linework, fine hatching and crosshatching, subtly worn print texture, detailed aged materials. Modest useful stone-and-timber architecture, historically grounded craftsmanship, believable scale. Midnight navy and charcoal, muted violet, natural stone, wood, plant and fabric colours, sparse dull brass. Dim but clearly readable, atmospheric. No people, readable text, interface, decorative frame, logo or watermark. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushed black detail. A forgotten small woodland festival pavilion of timber and stone, quiet leafy glade, weathered roof, empty benches and a low stage, a single beautiful old unlit festival lantern hanging beneath the eaves, a closed worn songbook on a protected lectern. Ivy at the base, fallen leaves on the path, softly filtered late-afternoon light. Intimate, welcoming, handmade craft.",
+      "method": "built-in image generation",
+      "path": "static/assets/locations/lantern-pavilion.webp",
+      "sourceBytes": 4287562,
+      "bytes": 506754,
+      "width": 1440,
+      "height": 960,
+      "sha256": "b5ddb8dfd74937686b130f8bf10263e3d33a59e310debc2ba97a6259ed085e14"
+    },
+    {
+      "id": "flooded-monastery",
+      "prompt": "Use case: stylized-concept. Asset type: landscape expedition location illustration for Stonework and Spellcraft. Wide 3:2 landscape composition, natural eye-level perspective. Antique engraving-inspired dark fantasy illustration: intricate etched linework, fine hatching and crosshatching, subtly worn print texture, detailed aged materials. Modest useful stone-and-timber architecture, historically grounded craftsmanship, believable scale. Midnight navy and charcoal, muted violet, natural stone, wood, plant and fabric colours, sparse dull brass. Dim but clearly readable, atmospheric. No people, readable text, interface, decorative frame, logo or watermark. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushed black detail. A modest hillside monastery courtyard beneath steady rain, shallow floodwater reflecting low arcades, mossy stone steps and a half-submerged bronze bell visible through clear water beside a broken wooden bell frame. Plausible raised walking ledges and drains lead to the quiet archive doorway. Blue-grey rain, damp foliage and a little muted violet; contemplative rather than horror.",
+      "method": "built-in image generation",
+      "path": "static/assets/locations/flooded-monastery.webp",
+      "sourceBytes": 3966596,
+      "bytes": 405706,
+      "width": 1440,
+      "height": 960,
+      "sha256": "86bb157f03d871b8a806579c6912ee5cca0e7e4cf8cdbf684c2692327a4ba0b0"
+    },
+    {
+      "id": "frozen-skybridge",
+      "prompt": "Use case: stylized-concept. Asset type: landscape expedition location illustration for Stonework and Spellcraft. Wide 3:2 landscape composition, natural eye-level perspective. Antique engraving-inspired dark fantasy illustration: intricate etched linework, fine hatching and crosshatching, subtly worn print texture, detailed aged materials. Modest useful stone-and-timber architecture, historically grounded craftsmanship, believable scale. Midnight navy and charcoal, muted violet, natural stone, wood, plant and fabric colours, sparse dull brass. Dim but clearly readable, atmospheric. No people, readable text, interface, decorative frame, logo or watermark. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushed black detail. An abandoned highland crossing joining two small weather stations. View from a safe stone approach toward a narrow, structurally plausible stone-and-timber bridge with icebound railings and a frozen winch, wind-scoured cairns, sparse snow, misty blue-grey hills below. Beside the nearer gate a small inert brass signal automaton resembles a weather instrument on legs, no humanoid face. Crisp restrained cold light, finely etched frost.",
+      "method": "built-in image generation",
+      "path": "static/assets/locations/frozen-skybridge.webp",
+      "sourceBytes": 3804835,
+      "bytes": 367498,
+      "width": 1440,
+      "height": 960,
+      "sha256": "b22ced75e60ac26700a18b538d0256f27b289b27fe6eb5b22ff3003002b05b7b"
+    },
+    {
+      "id": "masquerade-manor",
+      "prompt": "Use case: stylized-concept. Asset type: landscape expedition location illustration for Stonework and Spellcraft. Wide 3:2 landscape composition, natural eye-level perspective. Antique engraving-inspired dark fantasy illustration: intricate etched linework, fine hatching and crosshatching, subtly worn print texture, detailed aged materials. Modest useful stone-and-timber architecture, historically grounded craftsmanship, believable scale. Midnight navy and charcoal, muted violet, natural stone, wood, plant and fabric colours, sparse dull brass. Dim but clearly readable, atmospheric. No people, readable text, interface, decorative frame, logo or watermark. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushed black detail. An old modest manor after its last dance. Eye-level view across a weathered ballroom, worn timber floor, simple draped curtains, a few abandoned masks on a side table, an empty musician's chair, a cracked mirror and a half-open discreet servant passage beside the main doors. Faded plum fabric, candle stubs, cool moonlit dust. Suggest an unfinished invitation through one sealed envelope with no writing; no figures or ghosts, no palace opulence.",
+      "method": "built-in image generation",
+      "path": "static/assets/locations/masquerade-manor.webp",
+      "sourceBytes": 3171114,
+      "bytes": 263596,
+      "width": 1440,
+      "height": 960,
+      "sha256": "db9c6d2744c4400c44e98c735b76549b24d4c5cab8892f335488dc7c1674891b"
+    }
+  ],
+  "generation": "built-in image tool",
+  "encoding": "WebP quality 82, method 6; 1440 \u00d7 960; metadata stripped"
+}

@@ -1,0 +1,937 @@
+{
+  "designVersion": "1.0",
+  "basedOnRelease": "0.80",
+  "runtimeImplemented": true,
+  "slots": [
+    "head",
+    "shirt",
+    "pants",
+    "hand1",
+    "hand2",
+    "boots",
+    "ring",
+    "necklace",
+    "accessory"
+  ],
+  "activeChannels": 4,
+  "newEquipmentScoreCap": 2,
+  "items": [
+    {
+      "id": "cloth-cap",
+      "name": "Cloth work cap",
+      "slots": [
+        "head"
+      ],
+      "alternateHand": false,
+      "materials": "cloth",
+      "baseCostCrowns": 4,
+      "workPhases": 1,
+      "room": "workshop",
+      "tags": [
+        "wearable"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-cloth-cap",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "steel-helmet",
+      "name": "Fitted steel helmet",
+      "slots": [
+        "head"
+      ],
+      "alternateHand": false,
+      "materials": "steel",
+      "baseCostCrowns": 12,
+      "workPhases": 2,
+      "room": "smithy",
+      "tags": [
+        "wearable",
+        "protection"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-steel-helmet",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-circlet",
+      "name": "Plain focus circlet",
+      "slots": [
+        "head"
+      ],
+      "alternateHand": false,
+      "materials": "steel and cloth",
+      "baseCostCrowns": 6,
+      "workPhases": 1,
+      "room": "workshop",
+      "tags": [
+        "wearable",
+        "focus"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-focus-circlet",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "work-shirt",
+      "name": "Cloth work shirt",
+      "slots": [
+        "shirt"
+      ],
+      "alternateHand": false,
+      "materials": "cloth",
+      "baseCostCrowns": 6,
+      "workPhases": 1,
+      "room": "workshop",
+      "tags": [
+        "wearable"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-work-shirt",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "leather-coat",
+      "name": "Fitted leather armour",
+      "slots": [
+        "shirt"
+      ],
+      "alternateHand": false,
+      "materials": "leather",
+      "baseCostCrowns": 24,
+      "workPhases": 4,
+      "room": "workshop",
+      "tags": [
+        "wearable",
+        "protection",
+        "flexible"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-leather-coat",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "mail-shirt",
+      "name": "Steel mail shirt",
+      "slots": [
+        "shirt"
+      ],
+      "alternateHand": false,
+      "materials": "steel chain",
+      "baseCostCrowns": 24,
+      "workPhases": 4,
+      "room": "smithy",
+      "tags": [
+        "wearable",
+        "protection",
+        "flexible"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-mail-shirt",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "breastplate",
+      "name": "Fitted steel breastplate",
+      "slots": [
+        "shirt"
+      ],
+      "alternateHand": false,
+      "materials": "steel plate",
+      "baseCostCrowns": 24,
+      "workPhases": 4,
+      "room": "smithy",
+      "tags": [
+        "wearable",
+        "protection",
+        "brace"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-breastplate",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "work-trousers",
+      "name": "Cloth work trousers",
+      "slots": [
+        "pants"
+      ],
+      "alternateHand": false,
+      "materials": "cloth",
+      "baseCostCrowns": 6,
+      "workPhases": 1,
+      "room": "workshop",
+      "tags": [
+        "wearable"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-work-trousers",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "work-skirt",
+      "name": "Practical cloth skirt",
+      "slots": [
+        "pants"
+      ],
+      "alternateHand": false,
+      "materials": "cloth",
+      "baseCostCrowns": 6,
+      "workPhases": 1,
+      "room": "workshop",
+      "tags": [
+        "wearable"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-work-skirt",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "leg-armour",
+      "name": "Fitted steel leg armour",
+      "slots": [
+        "pants"
+      ],
+      "alternateHand": false,
+      "materials": "steel plate and leather",
+      "baseCostCrowns": 16,
+      "workPhases": 3,
+      "room": "smithy",
+      "tags": [
+        "wearable",
+        "protection",
+        "brace"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-leg-armour",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "work-dress",
+      "name": "Practical cloth dress",
+      "slots": [
+        "shirt",
+        "pants"
+      ],
+      "alternateHand": false,
+      "materials": "cloth",
+      "baseCostCrowns": 10,
+      "workPhases": 2,
+      "room": "workshop",
+      "tags": [
+        "wearable"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-work-dress",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "field-boots",
+      "name": "Leather field boots",
+      "slots": [
+        "boots"
+      ],
+      "alternateHand": false,
+      "materials": "leather",
+      "baseCostCrowns": 8,
+      "workPhases": 2,
+      "room": "workshop",
+      "tags": [
+        "wearable",
+        "footwear"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-field-boots",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "armoured-boots",
+      "name": "Fitted armoured boots",
+      "slots": [
+        "boots"
+      ],
+      "alternateHand": false,
+      "materials": "steel plate and leather",
+      "baseCostCrowns": 12,
+      "workPhases": 2,
+      "room": "smithy",
+      "tags": [
+        "wearable",
+        "footwear",
+        "protection"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-armoured-boots",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "plain-ring",
+      "name": "Plain inscribable ring",
+      "slots": [
+        "ring"
+      ],
+      "alternateHand": false,
+      "materials": "steel",
+      "baseCostCrowns": 5,
+      "workPhases": 1,
+      "room": "workshop",
+      "tags": [
+        "wearable",
+        "focus"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-plain-ring",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "plain-pendant",
+      "name": "Plain focus pendant",
+      "slots": [
+        "necklace"
+      ],
+      "alternateHand": false,
+      "materials": "steel and glass",
+      "baseCostCrowns": 6,
+      "workPhases": 1,
+      "room": "workshop",
+      "tags": [
+        "wearable",
+        "focus"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-plain-pendant",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "steel-sword",
+      "name": "Steel field sword",
+      "slots": [
+        "hand1"
+      ],
+      "alternateHand": true,
+      "materials": "steel and leather",
+      "baseCostCrowns": 16,
+      "workPhases": 3,
+      "room": "smithy",
+      "tags": [
+        "weapon",
+        "disarm",
+        "controlled-impact"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-steel-sword",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "steel-knife",
+      "name": "Steel utility knife",
+      "slots": [
+        "hand1"
+      ],
+      "alternateHand": true,
+      "materials": "steel and wood",
+      "baseCostCrowns": 8,
+      "workPhases": 2,
+      "room": "smithy",
+      "tags": [
+        "weapon",
+        "tool",
+        "disarm"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-steel-knife",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "steel-spear",
+      "name": "Steel-headed spear",
+      "slots": [
+        "hand1",
+        "hand2"
+      ],
+      "alternateHand": false,
+      "materials": "steel and wood",
+      "baseCostCrowns": 16,
+      "workPhases": 3,
+      "room": "smithy",
+      "tags": [
+        "weapon",
+        "disarm",
+        "controlled-impact"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-steel-spear",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "field-staff",
+      "name": "Steel-shod field staff",
+      "slots": [
+        "hand1",
+        "hand2"
+      ],
+      "alternateHand": false,
+      "materials": "wood and steel",
+      "baseCostCrowns": 12,
+      "workPhases": 2,
+      "room": "workshop",
+      "tags": [
+        "weapon",
+        "focus",
+        "controlled-impact"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-field-staff",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "field-shield",
+      "name": "Wood and steel field shield",
+      "slots": [
+        "hand1"
+      ],
+      "alternateHand": true,
+      "materials": "wood, steel and leather",
+      "baseCostCrowns": 14,
+      "workPhases": 3,
+      "room": "smithy",
+      "tags": [
+        "shield",
+        "cover"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-field-shield",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "steel-kanabo",
+      "name": "Steel two-handed club",
+      "slots": [
+        "hand1",
+        "hand2"
+      ],
+      "alternateHand": false,
+      "materials": "steel and leather",
+      "baseCostCrowns": 16,
+      "workPhases": 3,
+      "room": "smithy",
+      "tags": [
+        "weapon",
+        "controlled-impact",
+        "disarm"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-steel-kanabo",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "repair-hammer",
+      "name": "Steel repair hammer",
+      "slots": [
+        "hand1"
+      ],
+      "alternateHand": true,
+      "materials": "steel and wood",
+      "baseCostCrowns": 10,
+      "workPhases": 2,
+      "room": "smithy",
+      "tags": [
+        "tool",
+        "controlled-impact",
+        "calibration"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-repair-hammer",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "working-axe",
+      "name": "Steel working axe",
+      "slots": [
+        "hand1"
+      ],
+      "alternateHand": true,
+      "materials": "steel and wood",
+      "baseCostCrowns": 12,
+      "workPhases": 2,
+      "room": "smithy",
+      "tags": [
+        "weapon",
+        "tool",
+        "controlled-impact"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-working-axe",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "field-lantern",
+      "name": "Hooded field lantern",
+      "slots": [
+        "hand1"
+      ],
+      "alternateHand": true,
+      "materials": "iron and glass",
+      "baseCostCrowns": 10,
+      "workPhases": 2,
+      "room": "workshop",
+      "tags": [
+        "tool",
+        "focus"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-field-lantern",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "scholars-folio",
+      "name": "Scholar’s working folio",
+      "slots": [
+        "accessory"
+      ],
+      "alternateHand": false,
+      "materials": "cloth, paper and leather",
+      "baseCostCrowns": null,
+      "workPhases": 3,
+      "room": "workshop",
+      "tags": [
+        "tool",
+        "archive"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-scholars-folio",
+      "recipePolicy": "existing-v080-vessel-and-binding-recipe",
+      "status": "implemented",
+      "legacyEnchantments": [
+        "legacy-cross-reference"
+      ]
+    },
+    {
+      "id": "makers-gauge",
+      "name": "Maker’s alignment gauge",
+      "slots": [
+        "accessory"
+      ],
+      "alternateHand": false,
+      "materials": "steel and wood",
+      "baseCostCrowns": null,
+      "workPhases": 3,
+      "room": "workshop",
+      "tags": [
+        "tool",
+        "calibration"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-makers-gauge",
+      "recipePolicy": "existing-v080-vessel-and-binding-recipe",
+      "status": "implemented",
+      "legacyEnchantments": [
+        "legacy-true-measure"
+      ]
+    },
+    {
+      "id": "field-kit",
+      "name": "Compact field kit",
+      "slots": [
+        "accessory"
+      ],
+      "alternateHand": false,
+      "materials": "cloth, leather and steel",
+      "baseCostCrowns": 10,
+      "workPhases": 2,
+      "room": "workshop",
+      "tags": [
+        "tool",
+        "field",
+        "wearable"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-field-kit",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "engraving-tool",
+      "name": "Steel engraving tool",
+      "slots": [
+        "hand1"
+      ],
+      "alternateHand": true,
+      "materials": "steel and wood",
+      "baseCostCrowns": 8,
+      "workPhases": 2,
+      "room": "smithy",
+      "tags": [
+        "tool",
+        "calibration",
+        "seals"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-engraving-tool",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "ward-key",
+      "name": "Steel ward key",
+      "slots": [
+        "hand1"
+      ],
+      "alternateHand": true,
+      "materials": "steel",
+      "baseCostCrowns": 8,
+      "workPhases": 2,
+      "room": "smithy",
+      "tags": [
+        "tool",
+        "seals",
+        "focus"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-ward-key",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    },
+    {
+      "id": "focus-clasp",
+      "name": "Neck-worn focus clasp",
+      "slots": [
+        "necklace"
+      ],
+      "alternateHand": false,
+      "materials": "steel and cloth",
+      "baseCostCrowns": 6,
+      "workPhases": 1,
+      "room": "workshop",
+      "tags": [
+        "wearable",
+        "focus"
+      ],
+      "enchantable": true,
+      "initialStorageCapacity": 1,
+      "iconId": "equipment-focus-clasp",
+      "recipePolicy": "ordinary-materials-included-in-crown-cost",
+      "status": "implemented"
+    }
+  ],
+  "newEnchantments": [
+    {
+      "id": "sure-footing",
+      "name": "Sure footing",
+      "requiredPersonalPrinciple": "water-guidance",
+      "hostAnyTag": [
+        "footwear"
+      ],
+      "stackingGroup": "footing",
+      "effectKind": "score",
+      "rankOneAmount": 1,
+      "rankTwoAmount": 2,
+      "channelCostByRank": {
+        "1": 1,
+        "2": 2
+      },
+      "install": {
+        "crowns": 8,
+        "componentProperties": [
+          "vessel",
+          "binding"
+        ],
+        "workPhases": 2
+      },
+      "consumer": "North watch road: rain-cut steps; tagged existing balance/crossing routes",
+      "limits": "No benefit to climbing dialogue or every Fieldcraft check.",
+      "status": "implemented"
+    },
+    {
+      "id": "clear-measure",
+      "name": "Clear measure",
+      "requiredPersonalPrinciple": "field-calibration",
+      "hostAnyTag": [
+        "calibration"
+      ],
+      "stackingGroup": "calibration",
+      "effectKind": "score",
+      "rankOneAmount": 1,
+      "rankTwoAmount": 2,
+      "channelCostByRank": {
+        "1": 1,
+        "2": 2
+      },
+      "install": {
+        "crowns": 8,
+        "componentProperties": [
+          "vessel",
+          "binding"
+        ],
+        "workPhases": 2
+      },
+      "consumer": "North watch road: gate calibration; tagged Stormwatch lens calibration",
+      "limits": "No extra inscription work and no bonus to all Artifice.",
+      "status": "implemented"
+    },
+    {
+      "id": "measured-force",
+      "name": "Measured force",
+      "requiredPersonalPrinciple": "clear-instruction",
+      "hostAnyTag": [
+        "controlled-impact",
+        "disarm"
+      ],
+      "stackingGroup": "controlled-force",
+      "effectKind": "score",
+      "rankOneAmount": 1,
+      "rankTwoAmount": 2,
+      "channelCostByRank": {
+        "1": 1,
+        "2": 2
+      },
+      "install": {
+        "crowns": 8,
+        "componentProperties": [
+          "vessel",
+          "binding"
+        ],
+        "workPhases": 2
+      },
+      "consumer": "North watch road: gate bracing and solo sentinel disarm; Kaede yard proof; Field patrol strikes: +1 damage per active rank, up to 2.",
+      "limits": "No bonus to threatening people or uncontrolled damage.",
+      "status": "implemented"
+    },
+    {
+      "id": "seal-hand",
+      "name": "Seal hand",
+      "requiredPersonalPrinciple": "reference-binding",
+      "hostAnyTag": [
+        "seals",
+        "focus"
+      ],
+      "stackingGroup": "seal-work",
+      "effectKind": "score",
+      "rankOneAmount": 1,
+      "rankTwoAmount": 2,
+      "channelCostByRank": {
+        "1": 1,
+        "2": 2
+      },
+      "install": {
+        "crowns": 8,
+        "componentProperties": [
+          "vessel",
+          "binding"
+        ],
+        "workPhases": 2
+      },
+      "consumer": "North watch road: warning seal isolation",
+      "limits": "No capture, recruitment or automatic dungeon speed bonus.",
+      "status": "implemented"
+    },
+    {
+      "id": "warded-cover",
+      "name": "Warded cover",
+      "requiredPersonalPrinciple": "steady-hearth-wards",
+      "hostAnyTag": [
+        "shield",
+        "protection",
+        "focus"
+      ],
+      "stackingGroup": "cover",
+      "effectKind": "method",
+      "rankOneAmount": null,
+      "rankTwoAmount": null,
+      "channelCostByRank": {
+        "1": 1
+      },
+      "install": {
+        "crowns": 8,
+        "componentProperties": [
+          "vessel",
+          "binding"
+        ],
+        "workPhases": 2
+      },
+      "consumer": "North watch road: two-person sentinel cover role, alternate to physical shield; Field patrols: +1 personal cover against retaliation.",
+      "limits": "No second action, blanket immunity or solo replacement for two participants.",
+      "status": "implemented"
+    },
+    {
+      "id": "steady-channel",
+      "name": "Steady channel",
+      "requiredPersonalPrinciple": "reference-binding",
+      "hostAnyTag": [
+        "focus"
+      ],
+      "stackingGroup": "channel-control",
+      "effectKind": "score",
+      "rankOneAmount": 1,
+      "rankTwoAmount": 2,
+      "channelCostByRank": {
+        "1": 1,
+        "2": 2
+      },
+      "install": {
+        "crowns": 8,
+        "componentProperties": [
+          "vessel",
+          "binding"
+        ],
+        "workPhases": 2
+      },
+      "consumer": "North watch road: solo sentinel disarm; tagged Stormwatch echo channel role",
+      "limits": "No spell granted, no casting costs waived.",
+      "status": "implemented"
+    },
+    {
+      "id": "weather-seal",
+      "name": "Weather seal",
+      "requiredPersonalPrinciple": "water-guidance",
+      "hostAnyTag": [
+        "wearable"
+      ],
+      "stackingGroup": "wet-exposure",
+      "effectKind": "score",
+      "rankOneAmount": 1,
+      "rankTwoAmount": 2,
+      "channelCostByRank": {
+        "1": 1,
+        "2": 2
+      },
+      "install": {
+        "crowns": 8,
+        "componentProperties": [
+          "vessel",
+          "binding"
+        ],
+        "workPhases": 2
+      },
+      "consumer": "Existing field encounter flood: wade route, Vitality/Athletics, when tagged wet-exposure",
+      "limits": "No underwater breathing and no universal environmental immunity.",
+      "status": "implemented"
+    },
+    {
+      "id": "heat-ward",
+      "name": "Heat ward",
+      "requiredPersonalPrinciple": "steady-hearth-wards",
+      "hostAnyTag": [
+        "wearable",
+        "shield"
+      ],
+      "stackingGroup": "heat-exposure",
+      "effectKind": "score",
+      "rankOneAmount": 1,
+      "rankTwoAmount": 2,
+      "channelCostByRank": {
+        "1": 1,
+        "2": 2
+      },
+      "install": {
+        "crowns": 8,
+        "componentProperties": [
+          "vessel",
+          "binding"
+        ],
+        "workPhases": 2
+      },
+      "consumer": "Existing field encounter fire: firebreak route, Might/Athletics, when tagged heat-exposure; supervised yard proof",
+      "limits": "No immunity to combat fire or free warming-lantern production.",
+      "status": "implemented"
+    }
+  ],
+  "legacyEffectAdapters": [
+    {
+      "id": "legacy-scholarly-thread",
+      "source": "game.signatureFocuses",
+      "effect": "+1 existing assigned research/living-index work",
+      "group": "focus-research"
+    },
+    {
+      "id": "legacy-steady-hand",
+      "source": "game.signatureFocuses",
+      "effect": "+1 existing assigned artifact crafting",
+      "group": "focus-craft"
+    },
+    {
+      "id": "legacy-field-case",
+      "source": "game.signatureFocuses",
+      "effect": "+1 binding thread per party per new qualifying salvage lead",
+      "group": "party-salvage"
+    },
+    {
+      "id": "legacy-copying-line",
+      "source": "game.signatureFocuses",
+      "effect": "+2 crowns per existing eligible copying phase",
+      "group": "focus-copying"
+    },
+    {
+      "id": "legacy-cross-reference",
+      "source": "equipment.personalEquipment",
+      "effect": "Replace folio base +1 work with +2 matching work",
+      "group": "working-tool"
+    },
+    {
+      "id": "legacy-true-measure",
+      "source": "equipment.personalEquipment",
+      "effect": "Replace gauge base +1 work with +2 matching work",
+      "group": "working-tool"
+    },
+    {
+      "id": "legacy-field-ward",
+      "source": "headquarters.stock",
+      "effect": "Existing public-site investigation duration 2 to 1",
+      "group": "field-investigation"
+    }
+  ],
+  "releaseVersion": "0.81"
+}

@@ -1,0 +1,46 @@
+{
+  "version": "0.99",
+  "result": "passed",
+  "replacement_assets": 28,
+  "per_character": {
+    "standard": 3,
+    "overview": 3,
+    "bathing": 1
+  },
+  "characters": [
+    "sylva",
+    "velis",
+    "rhess",
+    "iona"
+  ],
+  "image_decode_dimension_hash_and_replacement_checks": 28,
+  "http_byte_and_mime_checks": 28,
+  "health_version": "0.99",
+  "transparent_exports": 16,
+  "opaque_exports": 12,
+  "asset_bytes": 10952706,
+  "python_checks": {
+    "tests": 36,
+    "result": "passed",
+    "modules": [
+      "tests.test_bathing_outfits",
+      "tests.test_outfits",
+      "tests.test_companion_almanac"
+    ]
+  },
+  "headless_ui_suites": {
+    "count": 3,
+    "result": "passed",
+    "files": [
+      "tests/test_ui_overview_portraits.cjs",
+      "tests/test_ui_outfits.cjs",
+      "tests/test_ui_almanac.cjs"
+    ]
+  },
+  "visual_review": "All 28 accepted generated images inspected. Representative exported face crops reviewed at native scale. Sylva conservatory views checked for floor contact; Iona checked for dark hair, horns and one spaded tail.",
+  "schema": 65,
+  "gameplay_changes": false,
+  "limitations": [
+    "Browser-rendered game layout was not reviewed. Existing campaign-owned appearance descriptions and custom artwork overrides are preserved."
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "version": "0.86",
+  "schema": 61,
+  "residentImagesAudited": 90,
+  "replacedImages": 36,
+  "transparentReplacements": 18,
+  "velisTransparentOutfits": 3,
+  "unchangedRuntimeImages": 222,
+  "optimizedReplacementBytes": 8382756,
+  "checks": [
+    {
+      "suite": "test_portrait_generation",
+      "passed": true,
+      "output": "........\n----------------------------------------------------------------------\nRan 8 tests in 0.182s\n\nOK\n"
+    },
+    {
+      "suite": "test_customization",
+      "passed": true,
+      "output": "......................\n----------------------------------------------------------------------\nRan 22 tests in 0.244s\n\nOK\n"
+    },
+    {
+      "suite": "test_founder_setup",
+      "passed": true,
+      "output": ".......\n----------------------------------------------------------------------\nRan 7 tests in 0.236s\n\nOK\n"
+    },
+    {
+      "suite": "test_outfits",
+      "passed": true,
+      "output": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.128s\n\nOK\n"
+    },
+    {
+      "suite": "test_candidate_http",
+      "passed": true,
+      "output": ".\n----------------------------------------------------------------------\nRan 1 test in 0.293s\n\nOK\n"
+    },
+    {
+      "suite": "test_ui_outfits",
+      "passed": true,
+      "output": "PASS: wardrobe invitations, blocked explanations, portrait previews, selected art across identity panels, save reload, original look, and primary and utility navigation icons.\n"
+    },
+    {
+      "suite": "test_ui_overview_portraits",
+      "passed": true,
+      "output": "PASS: 42 portrait tiers, overview layout, selected art, override rollback and read-only rendering\n"
+    },
+    {
+      "suite": "test_ui_customization",
+      "passed": true,
+      "output": "PASS: seven character tabs, appearance brief, saved garment ensemble, atomic preparation, paid personal corner in actual room, companion tastes, leisure routine, illustrated wardrobe, reload.\n"
+    },
+    {
+      "suite": "test_ui_artwork",
+      "passed": true,
+      "output": "PASS: generated raster artwork wired to all core items/materials, navigation and public categories; repeated portrait reduction; core views and labels retained.\n"
+    },
+    {
+      "suite": "test_art_release",
+      "passed": true,
+      "output": "....\n----------------------------------------------------------------------\nRan 4 tests in 0.543s\n\nOK\n"
+    }
+  ],
+  "renderedBrowserReview": false,
+  "visualReview": "Original contact sheets, generated full-size images and optimized contact sheets on a contrasting background. All replacements reviewed for footwear, face and alpha.",
+  "changedFiles": [
+    "README.md",
+    "character_customization.py",
+    "founder_setup.py",
+    "server.py",
+    "static/app.js",
+    "static/assets/portraits/aurelia-outfit-2.webp",
+    "static/assets/portraits/aurelia-outfit-3.webp",
+    "static/assets/portraits/aurelia.webp",
+    "static/assets/portraits/brakka-outfit-3.webp",
+    "static/assets/portraits/fenna-outfit-2.webp",
+    "static/assets/portraits/fenna-outfit-3.webp",
+    "static/assets/portraits/fenna.webp",
+    "static/assets/portraits/kaede-outfit-2.webp",
+    "static/assets/portraits/kaede-outfit-3.webp",
+    "static/assets/portraits/kaede.webp",
+    "static/assets/portraits/maren-outfit-2.webp",
+    "static/assets/portraits/maren-outfit-3.webp",
+    "static/assets/portraits/mira.webp",
+    "static/assets/portraits/neris.webp",
+    "static/assets/portraits/overview/aurelia-outfit-2.webp",
+    "static/assets/portraits/overview/aurelia-outfit-3.webp",
+    "static/assets/portraits/overview/aurelia.webp",
+    "static/assets/portraits/overview/brakka-outfit-3.webp",
+    "static/assets/portraits/overview/fenna-outfit-2.webp",
+    "static/assets/portraits/overview/fenna-outfit-3.webp",
+    "static/assets/portraits/overview/fenna.webp",
+    "static/assets/portraits/overview/kaede-outfit-2.webp",
+    "static/assets/portraits/overview/kaede-outfit-3.webp",
+    "static/assets/portraits/overview/kaede.webp",
+    "static/assets/portraits/overview/maren-outfit-2.webp",
+    "static/assets/portraits/overview/maren-outfit-3.webp",
+    "static/assets/portraits/overview/mira.webp",
+    "static/assets/portraits/overview/neris-outfit-2.webp",
+    "static/assets/portraits/overview/sabine-outfit-3.webp",
+    "static/assets/portraits/overview/velis-outfit-2.webp",
+    "static/assets/portraits/overview/velis-outfit-3.webp",
+    "static/assets/portraits/overview/velis.webp",
+    "static/assets/portraits/sabine-outfit-3.webp",
+    "static/assets/portraits/velis-outfit-2.webp",
+    "static/assets/portraits/velis-outfit-3.webp",
+    "static/assets/portraits/velis.webp",
+    "static/index.html",
+    "tests/test_art_release.py",
+    "tests/test_candidate_http.py"
+  ]
+}

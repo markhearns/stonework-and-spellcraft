@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image generation",
+  "style": "Use case: stylized-concept. Asset type: ONE isolated small UI status icon for Stonework and Spellcraft, matching antique engraving-inspired coloured woodcut fantasy illustration. Crisp etched contours, fine restrained crosshatching, worn print texture, aged natural materials. Dark academia with warmth, understated practical magic. Natural muted wood/fabric colours, parchment beige, charcoal outlines, sparse dull brass and muted violet. Bold simple silhouette readable at 32–48px, centered square composition occupying 75 percent of canvas with generous transparent margin. Real transparent alpha background. No scene, no frame, no text or letters, no glossy CGI, no photorealism, no glowing spectacle, no watermark. ",
+  "prompts": [
+    {
+      "id": "ready",
+      "subject": "A single round dull sage-green sealing-wax seal bearing one deeply incised simple check mark; irregular hand-pressed wax edge, a small aged brass rim. The check mark is a visual mark, not lettering. Icon means ready to proceed."
+    },
+    {
+      "id": "paused",
+      "subject": "A small antique wood-and-brass hourglass lying horizontally on its side, pale sand settled quietly along the bottom of both glass bulbs; no falling sand. Restrained etched glass highlights. Icon means work put aside, paused."
+    },
+    {
+      "id": "choice",
+      "subject": "A miniature old wooden signpost with exactly two broad blank directional arms branching left and right, short sturdy stem, weathered oak and dull brass fasteners. No landscape or soil, no lettering. Clear Y-like silhouette. Icon means a decision is needed."
+    },
+    {
+      "id": "invitation",
+      "subject": "One modest folded parchment envelope, sealed with a small muted violet wax seal, a corner of warm cream paper visible. Slightly worn paper fibres and natural folds. No text, no heart motif. Icon means an optional invitation to talk."
+    }
+  ]
+}

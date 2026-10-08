@@ -1,0 +1,1913 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "fae",
+  "ancestryName": "Fae",
+  "arrivalMethod": "summoning",
+  "names": [
+    {
+      "id": "fae-name-001",
+      "name": "Welieya",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-002",
+      "name": "Brelori",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-003",
+      "name": "Wievori",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-004",
+      "name": "Cerira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-005",
+      "name": "Zelia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-006",
+      "name": "Gleva",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-007",
+      "name": "Eilieya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-008",
+      "name": "Nevia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-009",
+      "name": "Vievelle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-010",
+      "name": "Melieth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-011",
+      "name": "Yeliara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-012",
+      "name": "Uliara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-013",
+      "name": "Olis",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-014",
+      "name": "Beliena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-015",
+      "name": "Uveleth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-016",
+      "name": "Leris",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-017",
+      "name": "Seline",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-018",
+      "name": "Drelen",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-019",
+      "name": "Keliena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-020",
+      "name": "Yevielle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-021",
+      "name": "Pievori",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-022",
+      "name": "Tieven",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-023",
+      "name": "Jevelle",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-024",
+      "name": "Felia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-025",
+      "name": "Qelira",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-026",
+      "name": "Jelien",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-027",
+      "name": "Irine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-028",
+      "name": "Teliara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-029",
+      "name": "Kleveya",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-030",
+      "name": "Heliara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-031",
+      "name": "Rievena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-032",
+      "name": "Nerielle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-033",
+      "name": "Lievis",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-034",
+      "name": "Peliori",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-035",
+      "name": "Zevis",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-036",
+      "name": "Heva",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-037",
+      "name": "Erela",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-038",
+      "name": "Aeline",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-039",
+      "name": "Sieveth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-040",
+      "name": "Evira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-041",
+      "name": "Mievia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-042",
+      "name": "Relira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-043",
+      "name": "Ivelena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-044",
+      "name": "Velieya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-045",
+      "name": "Ovelori",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-046",
+      "name": "Gelieth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-047",
+      "name": "Yeviena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-048",
+      "name": "Yelia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-049",
+      "name": "Felieya",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-050",
+      "name": "Sievori",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-051",
+      "name": "Relielle",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-052",
+      "name": "Frelra",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-053",
+      "name": "Meliori",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-054",
+      "name": "Wievine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-055",
+      "name": "Jevena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-056",
+      "name": "Veliara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-057",
+      "name": "Tievra",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-058",
+      "name": "Evielle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-059",
+      "name": "Ulia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-060",
+      "name": "Selis",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-061",
+      "name": "Zevieth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-062",
+      "name": "Drelra",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-063",
+      "name": "Lerieth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-064",
+      "name": "Klevara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-065",
+      "name": "Weliara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-066",
+      "name": "Cerielle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-067",
+      "name": "Belien",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-068",
+      "name": "Eiliara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-069",
+      "name": "Glevia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-070",
+      "name": "Breline",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-071",
+      "name": "Helia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-072",
+      "name": "Kelien",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-073",
+      "name": "Geliori",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-074",
+      "name": "Mieveya",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-075",
+      "name": "Pievine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-076",
+      "name": "Aelis",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-077",
+      "name": "Uvelori",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-078",
+      "name": "Neriena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-079",
+      "name": "Ceveya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-080",
+      "name": "Lieveth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-081",
+      "name": "Qelielle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-082",
+      "name": "Zelieya",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-083",
+      "name": "Rieven",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-084",
+      "name": "Jelira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-085",
+      "name": "Vievena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-086",
+      "name": "Olieth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-087",
+      "name": "Hevia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-088",
+      "name": "Oveline",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-089",
+      "name": "Erelia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-090",
+      "name": "Peline",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-091",
+      "name": "Nerien",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-092",
+      "name": "Jeven",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-093",
+      "name": "Eviena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-094",
+      "name": "Wievis",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-095",
+      "name": "Sievine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-096",
+      "name": "Velia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "fae-name-097",
+      "name": "Qeliena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "fae-name-098",
+      "name": "Heveya",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "fae-name-099",
+      "name": "Zeliara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "fae-name-100",
+      "name": "Geline",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "fae-story-001",
+      "title": "The invitation folded inside out",
+      "premise": "She designs an elaborate folded invitation, then realizes its clever opening hides the actual question.",
+      "personalMotivation": "She wants delight to make communication easier, not obscure it.",
+      "openingHook": "She offers a paper model with the important line on the wrong face.",
+      "possibleDevelopments": [
+        "Move the invitation to the first visible panel.",
+        "Reserve the folding surprise for a clearly optional flourish."
+      ],
+      "backgroundTags": [
+        "papercraft"
+      ],
+      "themeTags": [
+        "humour",
+        "hospitality"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-002",
+      "title": "A word that should mean less",
+      "premise": "She likes a poetic word whose local meaning is much stronger than the feeling she intends.",
+      "personalMotivation": "She wants expressive language without accidental promises.",
+      "openingHook": "She asks which simpler phrase would be more honest.",
+      "possibleDevelopments": [
+        "Compare a lyrical version with a direct explanation.",
+        "Keep any commitment limited to what she explicitly chooses."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "promises",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-003",
+      "title": "The iridescent portrait problem",
+      "premise": "A portrait idea makes every part of her glow equally, flattening her distinctive markings.",
+      "personalMotivation": "She wants otherworldliness to retain detail.",
+      "openingHook": "She asks where an artist should leave ordinary matte surfaces.",
+      "possibleDevelopments": [
+        "Separate restrained iridescent accents from opaque skin and cloth.",
+        "Review the face as the main point of recognition."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "identity",
+        "light"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-004",
+      "title": "The teacup that nearly rhymes",
+      "premise": "She invents little names for cups and wants a playful catalogue without replacing their practical labels.",
+      "personalMotivation": "She enjoys language attached to familiar objects.",
+      "openingHook": "She asks which name suggests the cup's shape rather than a joke alone.",
+      "possibleDevelopments": [
+        "Write a small fictional catalogue for leisure reading.",
+        "Keep inventory names and ownership records unchanged."
+      ],
+      "backgroundTags": [
+        "tea"
+      ],
+      "themeTags": [
+        "wordplay",
+        "possessions"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-005",
+      "title": "A dance step with an exit",
+      "premise": "She is designing a group dance and dislikes a formation that makes leaving conspicuous.",
+      "personalMotivation": "She wants exuberance without social entrapment.",
+      "openingHook": "She asks how someone could step aside naturally.",
+      "possibleDevelopments": [
+        "Sketch an open formation that welcomes watching instead.",
+        "Keep partner contact separately agreed rather than implied by participation."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "consent",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-006",
+      "title": "The midnight flower that is paper",
+      "premise": "She wants to make a paper flower that looks unusual without pretending it is a new magical species.",
+      "personalMotivation": "She likes imaginative craft clearly identified as craft.",
+      "openingHook": "She asks what fold would make the silhouette distinctive.",
+      "possibleDevelopments": [
+        "Build a labelled decorative model from spare paper.",
+        "Consider a botanical study alongside it to distinguish invention from observation."
+      ],
+      "backgroundTags": [
+        "papercraft"
+      ],
+      "themeTags": [
+        "botany",
+        "visual-art"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-007",
+      "title": "The borrowed proverb's missing half",
+      "premise": "She remembers only part of a proverb and is tempted to invent the rest as though certain.",
+      "personalMotivation": "She wants a good story without false attribution.",
+      "openingHook": "She asks whether a new ending should carry her own name.",
+      "possibleDevelopments": [
+        "Present the fragment and her adaptation separately.",
+        "Seek a source later without promising that one exists."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "tradition",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-008",
+      "title": "An impossible hat on paper",
+      "premise": "She draws an amusingly impractical hat and wants to preserve the joke without making a wearer suffer it.",
+      "personalMotivation": "She enjoys fashion as playful imagination.",
+      "openingHook": "She asks which feature should remain exaggerated.",
+      "possibleDevelopments": [
+        "Keep the design as an illustration or stage prop candidate.",
+        "Develop a separate comfortable accessory inspired by one small detail."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "humour",
+        "visual-art"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-009",
+      "title": "The travelling game board",
+      "premise": "She proposes a folding board that friends could lend between homes, but its notes may grow longer than the rules.",
+      "personalMotivation": "She likes an object that gathers suggestions without becoming difficult for a newcomer to use.",
+      "openingHook": "She asks whether each borrower should annotate the board or a separate booklet.",
+      "possibleDevelopments": [
+        "Keep stable rules on the board and optional variants on removable sheets.",
+        "Plan a borrowing convention before asking anyone to contribute an object."
+      ],
+      "backgroundTags": [
+        "leisure"
+      ],
+      "themeTags": [
+        "community",
+        "possessions"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-010",
+      "title": "A garden party for imperfect weather",
+      "premise": "She imagines a gathering built around listening to light rain, not pretending rain would ruin it.",
+      "personalMotivation": "She wants atmosphere without making anyone uncomfortable.",
+      "openingHook": "She asks which indoor listening place could preserve the idea.",
+      "possibleDevelopments": [
+        "Plan optional sheltered company with no obligation to stay.",
+        "Choose another activity if conditions or preferences do not suit."
+      ],
+      "backgroundTags": [
+        "weather"
+      ],
+      "themeTags": [
+        "hospitality",
+        "rest"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-011",
+      "title": "The tiny brass theatre ticket",
+      "premise": "She likes keepsake tickets but worries a durable token would imply a promise of repeated performances.",
+      "personalMotivation": "She wants mementos without ongoing claims on her time.",
+      "openingHook": "She asks what wording could mark one optional occasion.",
+      "possibleDevelopments": [
+        "Design a decorative sample with no admission rights or rewards.",
+        "Consider a simple illustrated programme instead."
+      ],
+      "backgroundTags": [
+        "metalwork"
+      ],
+      "themeTags": [
+        "performance",
+        "promises"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-012",
+      "title": "The question in the compliment",
+      "premise": "She notices her playful compliments often hide requests for reassurance.",
+      "personalMotivation": "She wants to separate giving praise from asking for care.",
+      "openingHook": "She asks how to say both things plainly when needed.",
+      "possibleDevelopments": [
+        "Draft an appreciative line that demands nothing back.",
+        "Discuss a separate direct request only if she chooses to make one."
+      ],
+      "backgroundTags": [
+        "flirtation"
+      ],
+      "themeTags": [
+        "personal-growth",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-013",
+      "title": "The name of a colour nobody agrees on",
+      "premise": "She enjoys an iridescent pigment precisely because observers describe it differently.",
+      "personalMotivation": "She wants disagreement preserved as a feature of the study.",
+      "openingHook": "She asks how to label a swatch without settling the argument.",
+      "possibleDevelopments": [
+        "Record several descriptions with their lighting context.",
+        "Avoid declaring one observer's perception incorrect."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "light",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-014",
+      "title": "The four-colour knot",
+      "premise": "She designs a decorative knot to mark shared baskets, then learns the colour sequence is difficult to distinguish in dim light.",
+      "personalMotivation": "She wants attractive household labels that do not demand the same perception from every reader.",
+      "openingHook": "She asks whether shape or a stitched mark could carry the distinction as well.",
+      "possibleDevelopments": [
+        "Compare knot shapes and plain written labels alongside the colour samples.",
+        "Keep an ordinary label when the decorative system would add more work than clarity."
+      ],
+      "backgroundTags": [
+        "textiles"
+      ],
+      "themeTags": [
+        "accessibility",
+        "domestic"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-015",
+      "title": "The joke told in earnest ink",
+      "premise": "She writes an absurd botanical description in such scholarly prose that it could be mistaken for reference material.",
+      "personalMotivation": "She wants parody that cannot poison useful records.",
+      "openingHook": "She asks where the fictional label should appear.",
+      "possibleDevelopments": [
+        "Put the piece in a clearly separate humour collection.",
+        "Use impossible invented plant details that do not resemble practical advice."
+      ],
+      "backgroundTags": [
+        "humour"
+      ],
+      "themeTags": [
+        "archives",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-016",
+      "title": "The kite with a beautiful imbalance",
+      "premise": "She sketches an iridescent kite whose elaborate tail makes the design pleasing but may overwhelm its small frame.",
+      "personalMotivation": "She wants a workable experiment rather than calling an untested drawing a flying object.",
+      "openingHook": "She asks which parts are necessary and which are decorative.",
+      "possibleDevelopments": [
+        "Compare a simpler paper model with the ornate concept before planning a trial.",
+        "Keep the full design as a wall illustration if the flying experiment points elsewhere."
+      ],
+      "backgroundTags": [
+        "papercraft"
+      ],
+      "themeTags": [
+        "air",
+        "experimentation"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-017",
+      "title": "The thank-you that is not a debt",
+      "premise": "She likes elaborate gratitude and worries it makes a modest kindness sound like a binding exchange.",
+      "personalMotivation": "She wants warmth without invisible obligations.",
+      "openingHook": "She asks how a gracious note can explicitly close the matter.",
+      "possibleDevelopments": [
+        "Draft thanks that require no return visit or gift.",
+        "Choose a smaller gesture if elaboration obscures sincerity."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "affection",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-018",
+      "title": "The hedge in the wrong season",
+      "premise": "She writes a small tale around a flowering hedge, then notices her draft places the bloom in an implausible season.",
+      "personalMotivation": "She wants the story's atmosphere without disguising a mistake as otherworldly mystery.",
+      "openingHook": "She asks whether the scene needs a different plant, a different season or an openly fanciful setting.",
+      "possibleDevelopments": [
+        "Check an appropriate reference before revising the natural details.",
+        "Keep a clearly invented botanical setting if that better serves the story."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "botany",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-019",
+      "title": "The varnish over the glitter",
+      "premise": "She sketches a subtly sparkling book cover and worries loose particles would migrate into the pages.",
+      "personalMotivation": "She wants a tactile finish that respects the book.",
+      "openingHook": "She asks whether the shimmer belongs beneath a stable surface.",
+      "possibleDevelopments": [
+        "Compare painted highlights with a textured sample concept.",
+        "Leave material suitability to later craft review."
+      ],
+      "backgroundTags": [
+        "papercraft"
+      ],
+      "themeTags": [
+        "craft",
+        "sustainability"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-020",
+      "title": "A tale with no cruel bargain",
+      "premise": "She writes a fae story and rejects the assumption that its central choice must punish trusting someone.",
+      "personalMotivation": "She wants wit without treating kindness as foolish.",
+      "openingHook": "She asks what misunderstanding could be resolved honestly.",
+      "possibleDevelopments": [
+        "Build tension around unclear expectations rather than concealed terms.",
+        "Allow clarification to be satisfying rather than an anticlimax."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "trust",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-021",
+      "title": "The small festival that changes shape",
+      "premise": "She imagines a seasonal celebration but dislikes making a new custom immediately obligatory.",
+      "personalMotivation": "She wants tradition to grow from willing repetition.",
+      "openingHook": "She asks how to describe it as an experiment.",
+      "possibleDevelopments": [
+        "Offer a single optional gathering with room for alternatives.",
+        "Let participants choose not to repeat it without declaring failure."
+      ],
+      "backgroundTags": [
+        "celebration"
+      ],
+      "themeTags": [
+        "tradition",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-022",
+      "title": "A lace pattern borrowed from frost",
+      "premise": "She wants a delicate lace motif but the finest details would be hard to mend.",
+      "personalMotivation": "She values beauty that can survive ordinary life.",
+      "openingHook": "She asks which features give the pattern its character.",
+      "possibleDevelopments": [
+        "Simplify the motif around a few repairable repeats.",
+        "Keep an intricate version as an illustration rather than everyday clothing."
+      ],
+      "backgroundTags": [
+        "textiles"
+      ],
+      "themeTags": [
+        "craft",
+        "sustainability"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-023",
+      "title": "The apparent secret in the margin",
+      "premise": "She enjoys decorative marginal symbols and worries readers will assume they encode private messages.",
+      "personalMotivation": "She wants ornament without manufactured intrigue.",
+      "openingHook": "She asks how to make their decorative purpose clear.",
+      "possibleDevelopments": [
+        "Include a plain note identifying them as visual motifs.",
+        "Keep genuine private information out of shared decorative pages."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "privacy",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-024",
+      "title": "The puppet with the unplanned whistle",
+      "premise": "She sketches a bird puppet whose hollow beak might whistle whenever its mouth opens, undermining a solemn scene.",
+      "personalMotivation": "She enjoys accidental comedy but wants to choose its place in the performance.",
+      "openingHook": "She asks whether the bird should become a comic interruption or receive a different beak.",
+      "possibleDevelopments": [
+        "Compare a silent paper model with a deliberately comic script.",
+        "Keep the noisy version as a separate character rather than forcing it into the original scene."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "craft",
+        "humour"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    },
+    {
+      "id": "fae-story-025",
+      "title": "A closing line she does not own",
+      "premise": "She keeps using a friend's elegant farewell and wonders when admiration becomes imitation.",
+      "personalMotivation": "She wants her correspondence to sound genuinely hers.",
+      "openingHook": "She asks which part of the phrase she actually likes.",
+      "possibleDevelopments": [
+        "Develop a different line from her own rhythm and imagery.",
+        "Consider an ordinary goodbye instead of a signature flourish."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "identity",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "fae-appearance-001",
+      "summary": "An adult woman aged 22 with fair with neutral undertones skin, a blunt honey-brown bob, and copper brown eyes. Her build is rounded and full-busted with sturdy legs. Leaf-shaped translucent ear edges.",
+      "skin": "fair with neutral undertones",
+      "hair": "a blunt honey-brown bob",
+      "eyes": "copper brown",
+      "build": "rounded and full-busted with sturdy legs",
+      "ancestryFeatures": [
+        "leaf-shaped translucent ear edges",
+        "pearl-like freckling across the temples",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "a small birthmark near the right shoulder"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "fae-appearance-002",
+      "summary": "An adult woman aged 25 with tawny brown skin, long dark hair with a silver forelock, and deep blue eyes. Her build is tall and broad-hipped with gently defined muscles. Small double-pointed ears.",
+      "skin": "tawny brown",
+      "hair": "long dark hair with a silver forelock",
+      "eyes": "deep blue",
+      "build": "tall and broad-hipped with gently defined muscles",
+      "ancestryFeatures": [
+        "small double-pointed ears",
+        "faint violet iridescence at the cheekbones",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "a small freckle cluster across the nose"
+      ],
+      "styleTags": [
+        "striking",
+        "freckled"
+      ]
+    },
+    {
+      "id": "fae-appearance-003",
+      "summary": "An adult woman aged 20 with deep umber skin, short deep-plum curls, and blue-grey eyes. Her build is tall and voluptuous with a gently rounded abdomen. Finely scalloped otherworldly ears.",
+      "skin": "deep umber",
+      "hair": "short deep-plum curls",
+      "eyes": "blue-grey",
+      "build": "tall and voluptuous with a gently rounded abdomen",
+      "ancestryFeatures": [
+        "finely scalloped otherworldly ears",
+        "tiny gold-green markings around the eyes",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "a subtle left cheek dimple"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "fae-appearance-004",
+      "summary": "An adult woman aged 23 with warm brown skin, a dark chestnut crop with a curled fringe, and honey brown eyes. Her build is medium-height with balanced, softly mature curves. Long ears with opalescent tips.",
+      "skin": "warm brown",
+      "hair": "a dark chestnut crop with a curled fringe",
+      "eyes": "honey brown",
+      "build": "medium-height with balanced, softly mature curves",
+      "ancestryFeatures": [
+        "long ears with opalescent tips",
+        "subtle blue opalescence along the collarbones",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a beauty mark beside the left cheekbone"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "fae-appearance-005",
+      "summary": "An adult woman aged 18 with light olive skin, a wavy black bob, and olive green eyes. Her build is full-bodied with a defined waist and powerful calves. Slender crescent-curved ears.",
+      "skin": "light olive",
+      "hair": "a wavy black bob",
+      "eyes": "olive green",
+      "build": "full-bodied with a defined waist and powerful calves",
+      "ancestryFeatures": [
+        "slender crescent-curved ears",
+        "fine silver markings at the brows",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a dark freckle beside the bridge of the nose"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "fae-appearance-006",
+      "summary": "An adult woman aged 21 with dark brown skin, a straight dark-brown bob, and smoky blue eyes. Her build is full-figured with broad hips and a strong back. Leaf-shaped translucent ear edges.",
+      "skin": "dark brown",
+      "hair": "a straight dark-brown bob",
+      "eyes": "smoky blue",
+      "build": "full-figured with broad hips and a strong back",
+      "ancestryFeatures": [
+        "leaf-shaped translucent ear edges",
+        "pearl-like freckling across the temples",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a natural notch in the right eyebrow"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "fae-appearance-007",
+      "summary": "An adult woman aged 24 with fair with rosy undertones skin, close-cropped ash-brown curls, and amber eyes. Her build is short and full-figured with rounded shoulders. Small double-pointed ears.",
+      "skin": "fair with rosy undertones",
+      "hair": "close-cropped ash-brown curls",
+      "eyes": "amber",
+      "build": "short and full-figured with rounded shoulders",
+      "ancestryFeatures": [
+        "small double-pointed ears",
+        "faint violet iridescence at the cheekbones",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a small cleft in the chin"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "fae-appearance-008",
+      "summary": "An adult woman aged 19 with copper-brown skin, thick dark-brown coils to the shoulders, and rich brown eyes. Her build is compact and softly curvaceous with mature proportions. Finely scalloped otherworldly ears.",
+      "skin": "copper-brown",
+      "hair": "thick dark-brown coils to the shoulders",
+      "eyes": "rich brown",
+      "build": "compact and softly curvaceous with mature proportions",
+      "ancestryFeatures": [
+        "finely scalloped otherworldly ears",
+        "tiny gold-green markings around the eyes",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a light scatter of freckles over the shoulders"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact",
+        "freckled"
+      ]
+    },
+    {
+      "id": "fae-appearance-009",
+      "summary": "An adult woman aged 22 with medium olive skin, long blue-black curls, and hazel eyes. Her build is willowy with a full bust and narrow hips. Long ears with opalescent tips.",
+      "skin": "medium olive",
+      "hair": "long blue-black curls",
+      "eyes": "hazel",
+      "build": "willowy with a full bust and narrow hips",
+      "ancestryFeatures": [
+        "long ears with opalescent tips",
+        "subtle blue opalescence along the collarbones",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a pale pigment fleck at the left temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "fae-appearance-010",
+      "summary": "An adult woman aged 25 with pale beige skin, short russet curls, and moss green eyes. Her build is athletic and broad-hipped with a modest bust. Slender crescent-curved ears.",
+      "skin": "pale beige",
+      "hair": "short russet curls",
+      "eyes": "moss green",
+      "build": "athletic and broad-hipped with a modest bust",
+      "ancestryFeatures": [
+        "slender crescent-curved ears",
+        "fine silver markings at the brows",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a softly dimpled chin"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "fae-appearance-011",
+      "summary": "An adult woman aged 20 with rich mahogany skin, sleek black hair to the waist, and muted gold eyes. Her build is athletic with a full bust and firm thighs. Leaf-shaped translucent ear edges.",
+      "skin": "rich mahogany",
+      "hair": "sleek black hair to the waist",
+      "eyes": "muted gold",
+      "build": "athletic with a full bust and firm thighs",
+      "ancestryFeatures": [
+        "leaf-shaped translucent ear edges",
+        "pearl-like freckling across the temples",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a beauty mark near the right corner of the mouth"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "fae-appearance-012",
+      "summary": "An adult woman aged 23 with golden brown skin, long ash-brown ringlets, and golden brown eyes. Her build is tall with a broad ribcage and generous hips. Small double-pointed ears.",
+      "skin": "golden brown",
+      "hair": "long ash-brown ringlets",
+      "eyes": "golden brown",
+      "build": "tall with a broad ribcage and generous hips",
+      "ancestryFeatures": [
+        "small double-pointed ears",
+        "faint violet iridescence at the cheekbones",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a darker pigment patch along one collarbone"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "fae-appearance-013",
+      "summary": "An adult woman aged 18 with light brown skin, long pale-copper waves, and dark grey eyes. Her build is compact with thick thighs and a soft abdomen. Finely scalloped otherworldly ears.",
+      "skin": "light brown",
+      "hair": "long pale-copper waves",
+      "eyes": "dark grey",
+      "build": "compact with thick thighs and a soft abdomen",
+      "ancestryFeatures": [
+        "finely scalloped otherworldly ears",
+        "tiny gold-green markings around the eyes",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "soft freckling along the collarbones"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact",
+        "freckled"
+      ]
+    },
+    {
+      "id": "fae-appearance-014",
+      "summary": "An adult woman aged 21 with cool dark brown skin, long chestnut waves, and warm brown eyes. Her build is short and sturdily built with a defined waist. Long ears with opalescent tips.",
+      "skin": "cool dark brown",
+      "hair": "long chestnut waves",
+      "eyes": "warm brown",
+      "build": "short and sturdily built with a defined waist",
+      "ancestryFeatures": [
+        "long ears with opalescent tips",
+        "subtle blue opalescence along the collarbones",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a tiny pale scar at the edge of the left brow"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "fae-appearance-015",
+      "summary": "An adult woman aged 24 with warm beige skin, long black hair with a blunt fringe, and soft violet eyes. Her build is slim-waisted with broad shoulders and full thighs. Slender crescent-curved ears.",
+      "skin": "warm beige",
+      "hair": "long black hair with a blunt fringe",
+      "eyes": "soft violet",
+      "build": "slim-waisted with broad shoulders and full thighs",
+      "ancestryFeatures": [
+        "slender crescent-curved ears",
+        "fine silver markings at the brows",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a faint darker patch at the left jaw"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "fae-appearance-016",
+      "summary": "An adult woman aged 19 with deep brown skin, a silver-blonde crop, and grey-green eyes. Her build is slender with a strong back and softly rounded hips. Leaf-shaped translucent ear edges.",
+      "skin": "deep brown",
+      "hair": "a silver-blonde crop",
+      "eyes": "grey-green",
+      "build": "slender with a strong back and softly rounded hips",
+      "ancestryFeatures": [
+        "leaf-shaped translucent ear edges",
+        "pearl-like freckling across the temples",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a few silver strands at the right temple"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "fae-appearance-017",
+      "summary": "An adult woman aged 22 with fair with peach undertones skin, a chestnut pixie cut, and pale grey eyes. Her build is lean and long-limbed with a modest bust. Small double-pointed ears.",
+      "skin": "fair with peach undertones",
+      "hair": "a chestnut pixie cut",
+      "eyes": "pale grey",
+      "build": "lean and long-limbed with a modest bust",
+      "ancestryFeatures": [
+        "small double-pointed ears",
+        "faint violet iridescence at the cheekbones",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a slightly higher arch to the left eyebrow"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "fae-appearance-018",
+      "summary": "An adult woman aged 25 with medium brown skin, mid-back silver-white waves, and black-brown eyes. Her build is tall and strongly built with a modest bust. Finely scalloped otherworldly ears.",
+      "skin": "medium brown",
+      "hair": "mid-back silver-white waves",
+      "eyes": "black-brown",
+      "build": "tall and strongly built with a modest bust",
+      "ancestryFeatures": [
+        "finely scalloped otherworldly ears",
+        "tiny gold-green markings around the eyes",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a beauty mark beneath the lower lip"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "fae-appearance-019",
+      "summary": "An adult woman aged 20 with brown with red undertones skin, a shoulder-length tawny shag, and dark hazel eyes. Her build is medium-height and generously curvaceous with a broad frame. Long ears with opalescent tips.",
+      "skin": "brown with red undertones",
+      "hair": "a shoulder-length tawny shag",
+      "eyes": "dark hazel",
+      "build": "medium-height and generously curvaceous with a broad frame",
+      "ancestryFeatures": [
+        "long ears with opalescent tips",
+        "subtle blue opalescence along the collarbones",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a tiny beauty mark beneath the right eye"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "fae-appearance-020",
+      "summary": "An adult woman aged 23 with pale olive skin, mid-back flaxen braids, and sea green eyes. Her build is medium-height and muscular with mature curves. Slender crescent-curved ears.",
+      "skin": "pale olive",
+      "hair": "mid-back flaxen braids",
+      "eyes": "sea green",
+      "build": "medium-height and muscular with mature curves",
+      "ancestryFeatures": [
+        "slender crescent-curved ears",
+        "fine silver markings at the brows",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a faint freckle band across the upper cheeks"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "fae-appearance-021",
+      "summary": "An adult woman aged 18 with bronze-brown skin, shoulder-length warm-brown twists, and slate grey eyes. Her build is long-legged with a soft waist and full hips. Leaf-shaped translucent ear edges.",
+      "skin": "bronze-brown",
+      "hair": "shoulder-length warm-brown twists",
+      "eyes": "slate grey",
+      "build": "long-legged with a soft waist and full hips",
+      "ancestryFeatures": [
+        "leaf-shaped translucent ear edges",
+        "pearl-like freckling across the temples",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a soft dusting of freckles on the upper arms"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "freckled"
+      ]
+    },
+    {
+      "id": "fae-appearance-022",
+      "summary": "An adult woman aged 21 with deep espresso-brown skin, chin-length black curls, and russet brown eyes. Her build is tall and slender with mature hips. Small double-pointed ears.",
+      "skin": "deep espresso-brown",
+      "hair": "chin-length black curls",
+      "eyes": "russet brown",
+      "build": "tall and slender with mature hips",
+      "ancestryFeatures": [
+        "small double-pointed ears",
+        "faint violet iridescence at the cheekbones",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "slightly uneven natural eyebrow arches"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "fae-appearance-023",
+      "summary": "An adult woman aged 24 with light golden beige skin, shoulder-length copper coils, and dark blue eyes. Her build is compact and muscular with soft contours. Finely scalloped otherworldly ears.",
+      "skin": "light golden beige",
+      "hair": "shoulder-length copper coils",
+      "eyes": "dark blue",
+      "build": "compact and muscular with soft contours",
+      "ancestryFeatures": [
+        "finely scalloped otherworldly ears",
+        "tiny gold-green markings around the eyes",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a pale oval birthmark at the nape"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact"
+      ]
+    },
+    {
+      "id": "fae-appearance-024",
+      "summary": "An adult woman aged 19 with cool medium brown skin, waist-length dark auburn hair, and green flecked with gold eyes. Her build is medium-height with a full bust and straight waist. Long ears with opalescent tips.",
+      "skin": "cool medium brown",
+      "hair": "waist-length dark auburn hair",
+      "eyes": "green flecked with gold",
+      "build": "medium-height with a full bust and straight waist",
+      "ancestryFeatures": [
+        "long ears with opalescent tips",
+        "subtle blue opalescence along the collarbones",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a narrow pale scar along the chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "fae-appearance-025",
+      "summary": "An adult woman aged 22 with warm dark brown skin, long pale-gold waves, and deep brown eyes. Her build is broad-shouldered with soft waist curves. Slender crescent-curved ears.",
+      "skin": "warm dark brown",
+      "hair": "long pale-gold waves",
+      "eyes": "deep brown",
+      "build": "broad-shouldered with soft waist curves",
+      "ancestryFeatures": [
+        "slender crescent-curved ears",
+        "fine silver markings at the brows",
+        "fully adult humanoid facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a deeper natural crease beneath the lower lip"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    }
+  ]
+}

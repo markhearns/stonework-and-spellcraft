@@ -1,0 +1,8 @@
+{
+  "status": "not performed",
+  "visualReviewCompleted": false,
+  "screenshotsInspected": 0,
+  "priorEvidence": "BROWSER_REVIEW_V059.json",
+  "limitation": "Previously documented missing local Chromium and blocked cloud-to-local access. No new browser attempt claimed.",
+  "fallback": "41 connected template/controller suites against the real Python store pass."
+}

@@ -1,0 +1,1917 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "spirit",
+  "ancestryName": "Spirit",
+  "arrivalMethod": "summoning",
+  "names": [
+    {
+      "id": "spirit-name-001",
+      "name": "Mevenine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-002",
+      "name": "Keliris",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-003",
+      "name": "Olirora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-004",
+      "name": "Seliris",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-005",
+      "name": "Uliren",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-006",
+      "name": "Velirelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-007",
+      "name": "Uvenia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-008",
+      "name": "Gevinen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-009",
+      "name": "Yevenielle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-010",
+      "name": "Melirelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-011",
+      "name": "Bevinara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-012",
+      "name": "Felirya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-013",
+      "name": "Ovenora",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-014",
+      "name": "Revenara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-015",
+      "name": "Helirine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-016",
+      "name": "Welira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-017",
+      "name": "Devenen",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-018",
+      "name": "Kevenia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-019",
+      "name": "Areline",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-020",
+      "name": "Havenia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-021",
+      "name": "Pelirielle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-022",
+      "name": "Delirelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-023",
+      "name": "Tevenis",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-024",
+      "name": "Jelirya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-025",
+      "name": "Pevena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-026",
+      "name": "Avenen",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-027",
+      "name": "Qevenielle",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-028",
+      "name": "Celirya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-029",
+      "name": "Telirya",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-030",
+      "name": "Wevenena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-031",
+      "name": "Caveneth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-032",
+      "name": "Evinora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-033",
+      "name": "Gelirora",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-034",
+      "name": "Leliris",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-035",
+      "name": "Favenia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-036",
+      "name": "Levenara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-037",
+      "name": "Vevenielle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-038",
+      "name": "Alirena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-039",
+      "name": "Belirara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-040",
+      "name": "Nelira",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-041",
+      "name": "Zelireth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-042",
+      "name": "Elirelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-043",
+      "name": "Ilirena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-044",
+      "name": "Sevenen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-045",
+      "name": "Jevinine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-046",
+      "name": "Relireth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-047",
+      "name": "Nevena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-048",
+      "name": "Zevenine",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-049",
+      "name": "Yelirena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-050",
+      "name": "Selirelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-051",
+      "name": "Celireth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-052",
+      "name": "Nevenora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-053",
+      "name": "Kelirelle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-054",
+      "name": "Sevenena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-055",
+      "name": "Kevenara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-056",
+      "name": "Vevenya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-057",
+      "name": "Ulirena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-058",
+      "name": "Alira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-059",
+      "name": "Zelirine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-060",
+      "name": "Lelirelle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-061",
+      "name": "Ovenen",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-062",
+      "name": "Qevenya",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-063",
+      "name": "Nelirora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-064",
+      "name": "Revenis",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-065",
+      "name": "Wevena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-066",
+      "name": "Zevenielle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-067",
+      "name": "Cavenine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-068",
+      "name": "Levenis",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-069",
+      "name": "Uvenara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-070",
+      "name": "Beliris",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-071",
+      "name": "Pevenora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-072",
+      "name": "Oliren",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-073",
+      "name": "Jelireth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-074",
+      "name": "Veliria",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-075",
+      "name": "Helirielle",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-076",
+      "name": "Arelielle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-077",
+      "name": "Bevinis",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-078",
+      "name": "Favenara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-079",
+      "name": "Ivenine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-080",
+      "name": "Felireth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-081",
+      "name": "Deliria",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-082",
+      "name": "Pelirya",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-083",
+      "name": "Relirine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-084",
+      "name": "Welirora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-085",
+      "name": "Eliria",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-086",
+      "name": "Ilira",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-087",
+      "name": "Tevenelle",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-088",
+      "name": "Havenara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-089",
+      "name": "Mevenielle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-090",
+      "name": "Telireth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-091",
+      "name": "Meliria",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-092",
+      "name": "Gevinena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-093",
+      "name": "Jevinielle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-094",
+      "name": "Yevenya",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-095",
+      "name": "Yelira",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-096",
+      "name": "Geliren",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "spirit-name-097",
+      "name": "Leliria",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "spirit-name-098",
+      "name": "Belirelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "spirit-name-099",
+      "name": "Wevenora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "spirit-name-100",
+      "name": "Favenis",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "spirit-story-001",
+      "title": "The portrait with a clear edge",
+      "premise": "She wants a softly ghostly portrait that still shows a coherent opaque adult body.",
+      "personalMotivation": "She wants atmosphere without being erased by it.",
+      "openingHook": "She asks which contours an artist must not dissolve.",
+      "possibleDevelopments": [
+        "Separate gentle edge-light from body and garment opacity.",
+        "Keep the finished image subject to recognition and anatomy review."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "identity",
+        "light"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-002",
+      "title": "The biography with no missing tragedy",
+      "premise": "She wants an introduction that does not invite strangers to invent a death story for her.",
+      "personalMotivation": "She wants her present life to be sufficient.",
+      "openingHook": "She asks what a friendly introduction can omit.",
+      "possibleDevelopments": [
+        "Focus on chosen interests and current goals.",
+        "Leave origins and any past experiences to established character facts."
+      ],
+      "backgroundTags": [
+        "identity"
+      ],
+      "themeTags": [
+        "privacy",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-003",
+      "title": "The quiet bell catalogue",
+      "premise": "She likes the different tones of small bells but dislikes using them to stage a haunting.",
+      "personalMotivation": "She enjoys sound as sound.",
+      "openingHook": "She asks how a simple listening study could be labelled.",
+      "possibleDevelopments": [
+        "Compare permitted ordinary objects without attributing unexplained voices.",
+        "Keep any performance clearly fictional and optional."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-004",
+      "title": "A letter that needs an address",
+      "premise": "She wants to send ordinary correspondence and is amused by suggestions that a spirit should not need practical arrangements.",
+      "personalMotivation": "She values tangible continuity with other people.",
+      "openingHook": "She asks what contact details must actually be agreed.",
+      "possibleDevelopments": [
+        "Draft the letter while leaving delivery unresolved.",
+        "Use established communication methods rather than invented spectral travel."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "identity",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-005",
+      "title": "The chair that is still a chair",
+      "premise": "She wants comfortable seating and rejects furniture plans based on unestablished assumptions of intangibility.",
+      "personalMotivation": "She wants her actual body treated as real.",
+      "openingHook": "She asks which physical facts the drawing should use.",
+      "possibleDevelopments": [
+        "Design around her established form and ordinary support needs.",
+        "Resolve any special interaction rules outside the content seed."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "accessibility",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-006",
+      "title": "The poem about a future morning",
+      "premise": "She is writing a poem about something she hopes to do rather than something supposedly lost.",
+      "personalMotivation": "She wants aspiration to lead the story.",
+      "openingHook": "She asks which detail makes the hope feel concrete.",
+      "possibleDevelopments": [
+        "Build the poem around a modest chosen activity.",
+        "Keep the imagined morning separate from actual time advancement."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "personal-growth",
+        "new-beginnings"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-007",
+      "title": "The luminous margin problem",
+      "premise": "She sketches pale decorations for dark paper and notices the border competes with the writing.",
+      "personalMotivation": "She wants visual atmosphere that supports reading.",
+      "openingHook": "She asks where the page needs a quiet area.",
+      "possibleDevelopments": [
+        "Reduce the border's contrast in a sample layout.",
+        "Keep a decorative display version separate from working notes."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "visual-art",
+        "reading"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-008",
+      "title": "The visitor's practical question",
+      "premise": "She would like people to ask what she enjoys, not whether she can pass through walls.",
+      "personalMotivation": "She wants a conversation beyond unsupported folklore.",
+      "openingHook": "She asks which hobby would make a better starting point.",
+      "possibleDevelopments": [
+        "Offer a chosen interest without demonstrating any power.",
+        "Correct mechanical assumptions plainly when needed."
+      ],
+      "backgroundTags": [
+        "social"
+      ],
+      "themeTags": [
+        "identity",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-009",
+      "title": "The repaired music box study",
+      "premise": "She is curious about a small musical mechanism and dislikes the assumption it must contain someone's memory.",
+      "personalMotivation": "She enjoys ordinary workmanship.",
+      "openingHook": "She asks which parts a careful diagram could show.",
+      "possibleDevelopments": [
+        "Study a permitted object without inventing its provenance.",
+        "Keep any repair or ownership transfer pending play."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "music",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-010",
+      "title": "A soft evening colour",
+      "premise": "She wants clothing in a warm earthy colour rather than an automatic white or grey palette.",
+      "personalMotivation": "She wants style to be separate from ghostly presentation.",
+      "openingHook": "She asks which opaque fabric keeps the colour rich under soft light.",
+      "possibleDevelopments": [
+        "Compare restrained warm swatches against her established appearance.",
+        "Preserve bodily and garment coverage in any candidate portrait."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "sensual",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-011",
+      "title": "The harmless ghost story problem",
+      "premise": "She writes a fictional haunting and wonders whether the joke depends too heavily on frightening an unwilling audience.",
+      "personalMotivation": "She wants storytelling offered, not inflicted.",
+      "openingHook": "She asks how an invitation can state the tone honestly.",
+      "possibleDevelopments": [
+        "Offer an optional reading with room to stop.",
+        "Consider a comic mystery with an ordinary explanation."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "humour",
+        "consent"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-012",
+      "title": "The index of things she likes now",
+      "premise": "She wants a small personal catalogue organized by present interests rather than origin.",
+      "personalMotivation": "She wants identity to remain open to change.",
+      "openingHook": "She asks whether a notebook needs permanent categories.",
+      "possibleDevelopments": [
+        "Use movable or revisable headings.",
+        "Leave room for interests she later chooses not to pursue."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "identity",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-013",
+      "title": "The missing reply address",
+      "premise": "She wants to answer a cheerful craft circular whose sender supplied a workshop name but no delivery address.",
+      "personalMotivation": "She likes the idea of correspondence that does not require a dramatic introduction.",
+      "openingHook": "She asks what can be established from the circular without inventing a route or recipient.",
+      "possibleDevelopments": [
+        "Look for an approved public listing or a permitted intermediary.",
+        "Keep an unsent draft while deciding whether the exchange is worth pursuing."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "community",
+        "exploration"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-014",
+      "title": "A garden plan with no memorial",
+      "premise": "She wants to sketch a garden and is tired of every suggestion turning it into a place of mourning.",
+      "personalMotivation": "She wants living leisure without a prescribed sadness.",
+      "openingHook": "She asks which ordinary activity the garden should support.",
+      "possibleDevelopments": [
+        "Plan a reading corner or voluntary herb study concept.",
+        "Keep the location and any construction unestablished."
+      ],
+      "backgroundTags": [
+        "gardening"
+      ],
+      "themeTags": [
+        "rest",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-015",
+      "title": "The knock that remains polite",
+      "premise": "She wants room-entry etiquette to be explicit, regardless of anyone's imagined abilities.",
+      "personalMotivation": "She values privacy that does not depend on locks or assumptions.",
+      "openingHook": "She asks what a respectful visitor does before entering.",
+      "possibleDevelopments": [
+        "Draft an ordinary ask-and-wait convention.",
+        "Never treat a supernatural trait as permission to bypass a boundary."
+      ],
+      "backgroundTags": [
+        "privacy"
+      ],
+      "themeTags": [
+        "boundaries",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-016",
+      "title": "The archive of unanswered invitations",
+      "premise": "She likes keeping invitations but worries unanswered ones look like failures in a tidy record.",
+      "personalMotivation": "She wants possibility without pressure.",
+      "openingHook": "She asks how an invitation could remain open on the page.",
+      "possibleDevelopments": [
+        "Use a neutral pending category without deadlines.",
+        "Allow a declined invitation to close without a penalty or moral judgment."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "hospitality",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-017",
+      "title": "The painting of warm hands",
+      "premise": "She wants a close portrait study with ordinary tactile detail rather than spectral exaggeration.",
+      "personalMotivation": "She wants her chosen visual identity taken seriously.",
+      "openingHook": "She asks which established surface details the artist can rely on.",
+      "possibleDevelopments": [
+        "Use the appearance bundle without inventing temperature or touch sensations.",
+        "Keep physical contact outside the art discussion unless agreed."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "identity",
+        "consent"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-018",
+      "title": "The pause between letters",
+      "premise": "She enjoys quiet correspondence and does not want a delayed response framed as disappearance.",
+      "personalMotivation": "She wants relationships that tolerate ordinary gaps.",
+      "openingHook": "She asks how to state that replies may be unhurried.",
+      "possibleDevelopments": [
+        "Draft a reassuring convention without promising constant availability.",
+        "Let friendship continue without attention decay or urgent follow-up."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "friendship",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-019",
+      "title": "A tune not remembered from elsewhere",
+      "premise": "She is considering composing a melody and rejects the suggestion that it must be recovered from a past life.",
+      "personalMotivation": "She wants authorship in the present.",
+      "openingHook": "She asks which short musical question she could begin with.",
+      "possibleDevelopments": [
+        "Sketch an original phrase as a prospective exercise.",
+        "Do not invent a previous incarnation or inherited repertoire."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "identity",
+        "new-beginnings"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-020",
+      "title": "The lantern that should not resemble a shrine",
+      "premise": "She likes a simple lantern design but its surround has become excessively ceremonial.",
+      "personalMotivation": "She wants ordinary useful light.",
+      "openingHook": "She asks what the frame could lose and still feel handmade.",
+      "possibleDevelopments": [
+        "Remove symbolic ornament from the working design.",
+        "Keep any elaborate version as a separate art study."
+      ],
+      "backgroundTags": [
+        "light"
+      ],
+      "themeTags": [
+        "craft",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-021",
+      "title": "A letter introducing her work",
+      "premise": "She wants to approach a craft circle without making her ancestry the opening subject.",
+      "personalMotivation": "She wants to be considered for her interests and actual experience.",
+      "openingHook": "She asks which question would show genuine curiosity.",
+      "possibleDevelopments": [
+        "Draft a modest introduction without claiming expertise.",
+        "Leave acceptance, membership and work arrangements unresolved."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "craft",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-022",
+      "title": "The secret she does not have",
+      "premise": "She is frustrated by a fictional character sketch that assumes a spirit must conceal knowledge of the castle.",
+      "personalMotivation": "She wants a role without invented privileged access.",
+      "openingHook": "She asks what an interesting uncertainty could replace the secret.",
+      "possibleDevelopments": [
+        "Give the character an ordinary unanswered craft question.",
+        "Remove all claims about castle history or hidden ownership."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "identity",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-023",
+      "title": "The room-temperature colour chart",
+      "premise": "She wants to compare warm and cool paint colours without implying those words describe her physical temperature.",
+      "personalMotivation": "She values clear distinctions between metaphor and fact.",
+      "openingHook": "She asks which labels might confuse an artist.",
+      "possibleDevelopments": [
+        "Separate colour terminology from established surface properties.",
+        "Use plain descriptions in portrait-facing notes."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "language",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-024",
+      "title": "A celebration of something small",
+      "premise": "She wants to mark a modest personal choice without treating it as a supernatural rebirth.",
+      "personalMotivation": "She wants an ordinary occasion of her own.",
+      "openingHook": "She asks whether tea and a short note would be enough.",
+      "possibleDevelopments": [
+        "Offer an optional gathering only after an actual milestone exists.",
+        "Keep the significance hers to define."
+      ],
+      "backgroundTags": [
+        "celebration"
+      ],
+      "themeTags": [
+        "personal-growth",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    },
+    {
+      "id": "spirit-story-025",
+      "title": "The lantern drawing with two shadows",
+      "premise": "She finds her proposed illustration gives a room two incompatible shadow directions and likes both compositions.",
+      "personalMotivation": "She wants to learn lighting as a drawing problem, without treating her own luminosity as a reliable lamp.",
+      "openingHook": "She asks which imagined light source the picture should actually use.",
+      "possibleDevelopments": [
+        "Compare two separate studies instead of combining contradictory shadows.",
+        "Leave any depiction of her glow faithful to the approved appearance rather than assigning illumination powers."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "light",
+        "experimentation"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Summoning does not establish obedience, prior acquaintance, powers or an obligation to stay.",
+        "Keep any lived history within an adult age of 18–25; do not presume an ancient life or traumatic death."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "spirit-appearance-001",
+      "summary": "An adult woman aged 25 with softly luminous warm brown skin, long dark hair with a silver forelock, and green flecked with gold eyes. Her build is tall and strongly built with a modest bust. A faint pearl outline around the body.",
+      "skin": "softly luminous warm brown",
+      "hair": "long dark hair with a silver forelock",
+      "eyes": "green flecked with gold",
+      "build": "tall and strongly built with a modest bust",
+      "ancestryFeatures": [
+        "a faint pearl outline around the body",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a small cleft in the chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "spirit-appearance-002",
+      "summary": "An adult woman aged 20 with softly luminous deep brown skin, short deep-plum curls, and deep brown eyes. Her build is medium-height and generously curvaceous with a broad frame. A soft violet radiance at the edges of the hair.",
+      "skin": "softly luminous deep brown",
+      "hair": "short deep-plum curls",
+      "eyes": "deep brown",
+      "build": "medium-height and generously curvaceous with a broad frame",
+      "ancestryFeatures": [
+        "a soft violet radiance at the edges of the hair",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a light scatter of freckles over the shoulders"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "spirit-appearance-003",
+      "summary": "An adult woman aged 23 with softly luminous fair beige skin, a dark chestnut crop with a curled fringe, and copper brown eyes. Her build is medium-height and muscular with mature curves. A cool silver halo along the shoulders.",
+      "skin": "softly luminous fair beige",
+      "hair": "a dark chestnut crop with a curled fringe",
+      "eyes": "copper brown",
+      "build": "medium-height and muscular with mature curves",
+      "ancestryFeatures": [
+        "a cool silver halo along the shoulders",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a pale pigment fleck at the left temple"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "spirit-appearance-004",
+      "summary": "An adult woman aged 18 with softly luminous olive skin, a wavy black bob, and deep blue eyes. Her build is long-legged with a soft waist and full hips. A dim amber glow outlining the hands.",
+      "skin": "softly luminous olive",
+      "hair": "a wavy black bob",
+      "eyes": "deep blue",
+      "build": "long-legged with a soft waist and full hips",
+      "ancestryFeatures": [
+        "a dim amber glow outlining the hands",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a softly dimpled chin"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "spirit-appearance-005",
+      "summary": "An adult woman aged 21 with softly luminous cool umber skin, a straight dark-brown bob, and blue-grey eyes. Her build is tall and slender with mature hips. A pale blue contour along the jaw and arms.",
+      "skin": "softly luminous cool umber",
+      "hair": "a straight dark-brown bob",
+      "eyes": "blue-grey",
+      "build": "tall and slender with mature hips",
+      "ancestryFeatures": [
+        "a pale blue contour along the jaw and arms",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a beauty mark near the right corner of the mouth"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "spirit-appearance-006",
+      "summary": "An adult woman aged 24 with softly luminous warm brown skin, close-cropped ash-brown curls, and honey brown eyes. Her build is compact and muscular with soft contours. A faint pearl outline around the body.",
+      "skin": "softly luminous warm brown",
+      "hair": "close-cropped ash-brown curls",
+      "eyes": "honey brown",
+      "build": "compact and muscular with soft contours",
+      "ancestryFeatures": [
+        "a faint pearl outline around the body",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a darker pigment patch along one collarbone"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact"
+      ]
+    },
+    {
+      "id": "spirit-appearance-007",
+      "summary": "An adult woman aged 19 with softly luminous deep brown skin, thick dark-brown coils to the shoulders, and olive green eyes. Her build is medium-height with a full bust and straight waist. A soft violet radiance at the edges of the hair.",
+      "skin": "softly luminous deep brown",
+      "hair": "thick dark-brown coils to the shoulders",
+      "eyes": "olive green",
+      "build": "medium-height with a full bust and straight waist",
+      "ancestryFeatures": [
+        "a soft violet radiance at the edges of the hair",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "soft freckling along the collarbones"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "spirit-appearance-008",
+      "summary": "An adult woman aged 22 with softly luminous fair beige skin, long blue-black curls, and smoky blue eyes. Her build is broad-shouldered with soft waist curves. A cool silver halo along the shoulders.",
+      "skin": "softly luminous fair beige",
+      "hair": "long blue-black curls",
+      "eyes": "smoky blue",
+      "build": "broad-shouldered with soft waist curves",
+      "ancestryFeatures": [
+        "a cool silver halo along the shoulders",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a tiny pale scar at the edge of the left brow"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "spirit-appearance-009",
+      "summary": "An adult woman aged 25 with softly luminous olive skin, short russet curls, and amber eyes. Her build is rounded and full-busted with sturdy legs. A dim amber glow outlining the hands.",
+      "skin": "softly luminous olive",
+      "hair": "short russet curls",
+      "eyes": "amber",
+      "build": "rounded and full-busted with sturdy legs",
+      "ancestryFeatures": [
+        "a dim amber glow outlining the hands",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a faint darker patch at the left jaw"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "spirit-appearance-010",
+      "summary": "An adult woman aged 20 with softly luminous cool umber skin, sleek black hair to the waist, and rich brown eyes. Her build is tall and broad-hipped with gently defined muscles. A pale blue contour along the jaw and arms.",
+      "skin": "softly luminous cool umber",
+      "hair": "sleek black hair to the waist",
+      "eyes": "rich brown",
+      "build": "tall and broad-hipped with gently defined muscles",
+      "ancestryFeatures": [
+        "a pale blue contour along the jaw and arms",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a few silver strands at the right temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "spirit-appearance-011",
+      "summary": "An adult woman aged 23 with softly luminous warm brown skin, long ash-brown ringlets, and hazel eyes. Her build is tall and voluptuous with a gently rounded abdomen. A faint pearl outline around the body.",
+      "skin": "softly luminous warm brown",
+      "hair": "long ash-brown ringlets",
+      "eyes": "hazel",
+      "build": "tall and voluptuous with a gently rounded abdomen",
+      "ancestryFeatures": [
+        "a faint pearl outline around the body",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a slightly higher arch to the left eyebrow"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "spirit-appearance-012",
+      "summary": "An adult woman aged 18 with softly luminous deep brown skin, long pale-copper waves, and moss green eyes. Her build is medium-height with balanced, softly mature curves. A soft violet radiance at the edges of the hair.",
+      "skin": "softly luminous deep brown",
+      "hair": "long pale-copper waves",
+      "eyes": "moss green",
+      "build": "medium-height with balanced, softly mature curves",
+      "ancestryFeatures": [
+        "a soft violet radiance at the edges of the hair",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a beauty mark beneath the lower lip"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "spirit-appearance-013",
+      "summary": "An adult woman aged 21 with softly luminous fair beige skin, long chestnut waves, and muted gold eyes. Her build is full-bodied with a defined waist and powerful calves. A cool silver halo along the shoulders.",
+      "skin": "softly luminous fair beige",
+      "hair": "long chestnut waves",
+      "eyes": "muted gold",
+      "build": "full-bodied with a defined waist and powerful calves",
+      "ancestryFeatures": [
+        "a cool silver halo along the shoulders",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a tiny beauty mark beneath the right eye"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "spirit-appearance-014",
+      "summary": "An adult woman aged 24 with softly luminous olive skin, long black hair with a blunt fringe, and golden brown eyes. Her build is full-figured with broad hips and a strong back. A dim amber glow outlining the hands.",
+      "skin": "softly luminous olive",
+      "hair": "long black hair with a blunt fringe",
+      "eyes": "golden brown",
+      "build": "full-figured with broad hips and a strong back",
+      "ancestryFeatures": [
+        "a dim amber glow outlining the hands",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "a faint freckle band across the upper cheeks"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic",
+        "freckled"
+      ]
+    },
+    {
+      "id": "spirit-appearance-015",
+      "summary": "An adult woman aged 19 with softly luminous cool umber skin, a silver-blonde crop, and dark grey eyes. Her build is short and full-figured with rounded shoulders. A pale blue contour along the jaw and arms.",
+      "skin": "softly luminous cool umber",
+      "hair": "a silver-blonde crop",
+      "eyes": "dark grey",
+      "build": "short and full-figured with rounded shoulders",
+      "ancestryFeatures": [
+        "a pale blue contour along the jaw and arms",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "a soft dusting of freckles on the upper arms"
+      ],
+      "styleTags": [
+        "elegant",
+        "freckled"
+      ]
+    },
+    {
+      "id": "spirit-appearance-016",
+      "summary": "An adult woman aged 22 with softly luminous warm brown skin, a chestnut pixie cut, and warm brown eyes. Her build is compact and softly curvaceous with mature proportions. A faint pearl outline around the body.",
+      "skin": "softly luminous warm brown",
+      "hair": "a chestnut pixie cut",
+      "eyes": "warm brown",
+      "build": "compact and softly curvaceous with mature proportions",
+      "ancestryFeatures": [
+        "a faint pearl outline around the body",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "slightly uneven natural eyebrow arches"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact"
+      ]
+    },
+    {
+      "id": "spirit-appearance-017",
+      "summary": "An adult woman aged 25 with softly luminous deep brown skin, mid-back silver-white waves, and soft violet eyes. Her build is willowy with a full bust and narrow hips. A soft violet radiance at the edges of the hair.",
+      "skin": "softly luminous deep brown",
+      "hair": "mid-back silver-white waves",
+      "eyes": "soft violet",
+      "build": "willowy with a full bust and narrow hips",
+      "ancestryFeatures": [
+        "a soft violet radiance at the edges of the hair",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a pale oval birthmark at the nape"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "spirit-appearance-018",
+      "summary": "An adult woman aged 20 with softly luminous fair beige skin, a shoulder-length tawny shag, and grey-green eyes. Her build is athletic and broad-hipped with a modest bust. A cool silver halo along the shoulders.",
+      "skin": "softly luminous fair beige",
+      "hair": "a shoulder-length tawny shag",
+      "eyes": "grey-green",
+      "build": "athletic and broad-hipped with a modest bust",
+      "ancestryFeatures": [
+        "a cool silver halo along the shoulders",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a narrow pale scar along the chin"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "spirit-appearance-019",
+      "summary": "An adult woman aged 23 with softly luminous olive skin, mid-back flaxen braids, and pale grey eyes. Her build is athletic with a full bust and firm thighs. A dim amber glow outlining the hands.",
+      "skin": "softly luminous olive",
+      "hair": "mid-back flaxen braids",
+      "eyes": "pale grey",
+      "build": "athletic with a full bust and firm thighs",
+      "ancestryFeatures": [
+        "a dim amber glow outlining the hands",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a deeper natural crease beneath the lower lip"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "spirit-appearance-020",
+      "summary": "An adult woman aged 18 with softly luminous cool umber skin, shoulder-length warm-brown twists, and black-brown eyes. Her build is tall with a broad ribcage and generous hips. A pale blue contour along the jaw and arms.",
+      "skin": "softly luminous cool umber",
+      "hair": "shoulder-length warm-brown twists",
+      "eyes": "black-brown",
+      "build": "tall with a broad ribcage and generous hips",
+      "ancestryFeatures": [
+        "a pale blue contour along the jaw and arms",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a small birthmark near the right shoulder"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "spirit-appearance-021",
+      "summary": "An adult woman aged 21 with softly luminous warm brown skin, chin-length black curls, and dark hazel eyes. Her build is compact with thick thighs and a soft abdomen. A faint pearl outline around the body.",
+      "skin": "softly luminous warm brown",
+      "hair": "chin-length black curls",
+      "eyes": "dark hazel",
+      "build": "compact with thick thighs and a soft abdomen",
+      "ancestryFeatures": [
+        "a faint pearl outline around the body",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a small freckle cluster across the nose"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact",
+        "freckled"
+      ]
+    },
+    {
+      "id": "spirit-appearance-022",
+      "summary": "An adult woman aged 24 with softly luminous deep brown skin, shoulder-length copper coils, and sea green eyes. Her build is short and sturdily built with a defined waist. A soft violet radiance at the edges of the hair.",
+      "skin": "softly luminous deep brown",
+      "hair": "shoulder-length copper coils",
+      "eyes": "sea green",
+      "build": "short and sturdily built with a defined waist",
+      "ancestryFeatures": [
+        "a soft violet radiance at the edges of the hair",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a subtle left cheek dimple"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "spirit-appearance-023",
+      "summary": "An adult woman aged 19 with softly luminous fair beige skin, waist-length dark auburn hair, and slate grey eyes. Her build is slim-waisted with broad shoulders and full thighs. A cool silver halo along the shoulders.",
+      "skin": "softly luminous fair beige",
+      "hair": "waist-length dark auburn hair",
+      "eyes": "slate grey",
+      "build": "slim-waisted with broad shoulders and full thighs",
+      "ancestryFeatures": [
+        "a cool silver halo along the shoulders",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a beauty mark beside the left cheekbone"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "spirit-appearance-024",
+      "summary": "An adult woman aged 22 with softly luminous olive skin, long pale-gold waves, and russet brown eyes. Her build is slender with a strong back and softly rounded hips. A dim amber glow outlining the hands.",
+      "skin": "softly luminous olive",
+      "hair": "long pale-gold waves",
+      "eyes": "russet brown",
+      "build": "slender with a strong back and softly rounded hips",
+      "ancestryFeatures": [
+        "a dim amber glow outlining the hands",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a dark freckle beside the bridge of the nose"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic",
+        "freckled"
+      ]
+    },
+    {
+      "id": "spirit-appearance-025",
+      "summary": "An adult woman aged 25 with softly luminous cool umber skin, a blunt honey-brown bob, and dark blue eyes. Her build is lean and long-limbed with a modest bust. A pale blue contour along the jaw and arms.",
+      "skin": "softly luminous cool umber",
+      "hair": "a blunt honey-brown bob",
+      "eyes": "dark blue",
+      "build": "lean and long-limbed with a modest bust",
+      "ancestryFeatures": [
+        "a pale blue contour along the jaw and arms",
+        "an opaque, clearly adult humanoid form with softly ghostly edges"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a natural notch in the right eyebrow"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    }
+  ]
+}

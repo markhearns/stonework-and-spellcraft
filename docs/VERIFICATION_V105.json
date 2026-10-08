@@ -1,0 +1,74 @@
+{
+  "release": "0.105",
+  "saveSchema": 66,
+  "python": {
+    "result": "pass",
+    "uniqueTargetedTests": 185,
+    "modules": {
+      "test_bestiary_v105": 11,
+      "test_field_patrols": 25,
+      "test_patrol_refinement": 22,
+      "test_armoury": 15,
+      "test_equipment_playability": 6,
+      "test_headquarters": 16,
+      "test_headquarters_workers": 16,
+      "test_provisions": 9,
+      "test_signature_field_flow": 1,
+      "test_solo_start": 5,
+      "test_guidance": 5,
+      "test_magic_overhaul": 22,
+      "test_candidate_http": 1,
+      "test_art_release": 4,
+      "test_art_v053": 5,
+      "test_visual_status_v104": 6,
+      "test_writing_v101": 7,
+      "test_all_personal_paths": 9
+    },
+    "scope": "Targeted gameplay, migration, artwork and existing-system regressions. Not a certification of the entire historical test suite.",
+    "artworkExportRepairsVerified": true
+  },
+  "ui": {
+    "result": "pass",
+    "scripts": [
+      "test_ui_bestiary_v105.cjs",
+      "test_ui_armoury.cjs",
+      "test_ui_unified.cjs",
+      "test_ui_room_navigation.cjs",
+      "test_ui_guidance.cjs",
+      "test_ui_magic.cjs",
+      "test_ui_status_v103.cjs",
+      "test_ui_visual_status_v104.cjs"
+    ],
+    "method": "Headless templates and real persisted Python API action controllers; no rendered browser review.",
+    "bountyRepeatNavigationRetested": true
+  },
+  "javascriptSyntax": "pass",
+  "compatibilityAndArt": {
+    "priorRuntimeImagesUnchanged": 290,
+    "oldSQLiteCampaigns": 2,
+    "saveMigrationOnlyAddsRareInventoryZeros": true,
+    "automaticBackup": true,
+    "reloadExact": true,
+    "publicViewsReadOnly": true,
+    "oldFundedEnchantmentCompletesWithoutNewCosts": true,
+    "oldInFlightBoarEncounterSupported": true,
+    "newArtworkHTTPByteAndMimeChecks": 70,
+    "masterPixelsVerified": true,
+    "runtimeEncodingPixelsVerified": true
+  },
+  "assetBytes": {
+    "display": 23947634,
+    "masters": 86089262
+  },
+  "limits": [
+    "Rendered browser review remains deferred.",
+    "Runtime images are resized display copies; lossless full-resolution masters remain in a separate optional archive."
+  ],
+  "packaging": {
+    "masterArchive": "stonework-and-spellcraft-bestiary-masters-v0.105.zip",
+    "gameContainsMasters": false,
+    "priorRuntimeImagesUnchanged": 290,
+    "newIllustrations": 35,
+    "newRuntimeFiles": 70
+  }
+}

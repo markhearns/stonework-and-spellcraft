@@ -1,0 +1,74 @@
+{
+  "version": "0.88",
+  "schema": 63,
+  "personalPaths": {
+    "residents": [
+      "rhess",
+      "kaede",
+      "sabine"
+    ],
+    "branches": 9,
+    "talents": 27,
+    "techniqueSlots": 3,
+    "passiveSlots": 2,
+    "repeatableYardExercises": 5
+  },
+  "python": {
+    "suites": 98,
+    "tests": 937,
+    "passed": true
+  },
+  "ui": {
+    "suites": 58,
+    "passed": true,
+    "scope": "Headless templates/controllers, saved API actions and SQLite reload. No rendered browser review."
+  },
+  "campaignFlow": "Existing two seven-chapter earned-resource routes passed. New builds optional; existing routes preserved.",
+  "upgrade": {
+    "source": "actual v0.87 archive",
+    "fromSchema": 62,
+    "toSchema": 63,
+    "exactPreservationOutsideNewState": true,
+    "upgradeBackup": true,
+    "acceptedArtworkAndHistoryPreserved": true
+  },
+  "runtimeArtwork": {
+    "unchanged": 268,
+    "changed": [],
+    "newImagesRequired": false
+  },
+  "finalChecks": [
+    {
+      "suite": "test_personal_paths.py",
+      "kind": "python",
+      "passed": true,
+      "tests": 17,
+      "seconds": 6.53
+    },
+    {
+      "suite": "test_candidate_http.py",
+      "kind": "python",
+      "passed": true,
+      "tests": 1,
+      "seconds": 0.45
+    },
+    {
+      "suite": "test_ui_personal_paths.cjs",
+      "kind": "ui",
+      "passed": true,
+      "tests": null,
+      "seconds": 4.06
+    },
+    {
+      "suite": "test_ui_candidates.cjs",
+      "kind": "ui",
+      "passed": true,
+      "tests": null,
+      "seconds": 6.61
+    }
+  ],
+  "initialRunNotes": [
+    "Health endpoint assertion was updated from release 0.87 to 0.88 and passed.",
+    "Existing generated-candidate UI suite had an intermittent null dialogue draft; two subsequent isolated runs passed."
+  ]
+}

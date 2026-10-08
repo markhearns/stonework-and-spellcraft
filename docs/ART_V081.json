@@ -1,0 +1,439 @@
+{
+  "release": "0.81",
+  "generated": true,
+  "optimizedFormat": "WebP",
+  "assets": [
+    {
+      "id": "equipment-armoured-boots",
+      "path": "static/assets/equipment/equipment-armoured-boots.webp",
+      "sha256": "6939f19e222a47b82ae8853eefee7f37d96d6d9f25001c28f7eb72ded8cb3942",
+      "bytes": 18708,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-breastplate",
+      "path": "static/assets/equipment/equipment-breastplate.webp",
+      "sha256": "d149af989d7d0eba49700e1c62f4990b28310a0b9ab513923bf39b4a15d34312",
+      "bytes": 19790,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-cloth-cap",
+      "path": "static/assets/equipment/equipment-cloth-cap.webp",
+      "sha256": "ff70012ee9dc339ecc30ede16f8d5a20a6dcc57b2bb52f5df7ab6c58662dee1a",
+      "bytes": 17866,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-engraving-tool",
+      "path": "static/assets/equipment/equipment-engraving-tool.webp",
+      "sha256": "931a2fa78cde44c9ef14fc56f9c0e09a1e19a8c43c8d1d038b6a464d56f14aa7",
+      "bytes": 10238,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-field-boots",
+      "path": "static/assets/equipment/equipment-field-boots.webp",
+      "sha256": "f5702bc1bb505e42b8e732fe700ff6c6acad2130d7b7678d4e0de55592e9597f",
+      "bytes": 17780,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-field-kit",
+      "path": "static/assets/equipment/equipment-field-kit.webp",
+      "sha256": "988f53f2fb021dc5961f83fe5cbb65313a07490683c3c2cfffada1489be04bc5",
+      "bytes": 26406,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-field-lantern",
+      "path": "static/assets/equipment/equipment-field-lantern.webp",
+      "sha256": "b78b104ba2bda098d6b55f3c024cfbed52e85874a301ed889ff0f1778a4c84ca",
+      "bytes": 16882,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-field-shield",
+      "path": "static/assets/equipment/equipment-field-shield.webp",
+      "sha256": "ee112968364b1c9f1020ee2168b8c3fcb40c915ee3ee232b54870a5da6542e40",
+      "bytes": 19338,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-field-staff",
+      "path": "static/assets/equipment/equipment-field-staff.webp",
+      "sha256": "5b3bfba949fbbdfa442751a88d5f0e90a7e67aebbd8ef03c2068ceb1a1561457",
+      "bytes": 10238,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-focus-circlet",
+      "path": "static/assets/equipment/equipment-focus-circlet.webp",
+      "sha256": "118a03857241f7538ff974076bdd66df769ceb98f2685e039fe78ec5c569d2f2",
+      "bytes": 15016,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-focus-clasp",
+      "path": "static/assets/equipment/equipment-focus-clasp.webp",
+      "sha256": "7df371d256f9abb96fb5e37897c7eac03b3aab38dc8f5a1780e58d88950c40ac",
+      "bytes": 18294,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-leather-coat",
+      "path": "static/assets/equipment/equipment-leather-coat.webp",
+      "sha256": "90ab333455339605bed566246cd29b1a0016921176a7116e47cc5068e5b9e610",
+      "bytes": 25524,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-leg-armour",
+      "path": "static/assets/equipment/equipment-leg-armour.webp",
+      "sha256": "3a61b1ada51b7e244cf3659f4caa6a4951970ee8b4f21faa7f54a33636570708",
+      "bytes": 15902,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-mail-shirt",
+      "path": "static/assets/equipment/equipment-mail-shirt.webp",
+      "sha256": "2e991fa9998a372b3eebe9c6de04a4c7f57e59a54dff429abf364e09763436b6",
+      "bytes": 25366,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-makers-gauge",
+      "path": "static/assets/equipment/equipment-makers-gauge.webp",
+      "sha256": "0c00370b14a677f42d1171ff8773d8e62a8a05403946ddf8f29a242d8b197f1e",
+      "bytes": 11984,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-plain-pendant",
+      "path": "static/assets/equipment/equipment-plain-pendant.webp",
+      "sha256": "4d6dfe0f7c31b9a7ebc12c222aaa94cb069dc7ca3b7030efd6eccb354a40acd2",
+      "bytes": 14970,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-plain-ring",
+      "path": "static/assets/equipment/equipment-plain-ring.webp",
+      "sha256": "05eeeb996a4652e0f7701f8564c1bbd3e1f35a876abfd7a12a1485164dc59dfa",
+      "bytes": 15630,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-repair-hammer",
+      "path": "static/assets/equipment/equipment-repair-hammer.webp",
+      "sha256": "be9d209007336eb7cb5742f61f2df9e87288622b4b198bd7aac53d2377505e9f",
+      "bytes": 12866,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-scholars-folio",
+      "path": "static/assets/equipment/equipment-scholars-folio.webp",
+      "sha256": "657a840497859c5853f3948e69105731ab1734861adf4d892f2738d310d73eb8",
+      "bytes": 24716,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-steel-helmet",
+      "path": "static/assets/equipment/equipment-steel-helmet.webp",
+      "sha256": "aa31040c90a790f470ac5ec497eeb22e5ab58d31597c178333c57961afc50967",
+      "bytes": 16238,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-steel-kanabo",
+      "path": "static/assets/equipment/equipment-steel-kanabo.webp",
+      "sha256": "257d2db91951bfa3383465f231567321afebb359b85b65fc5c6ebdc59fbbddcf",
+      "bytes": 11310,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-steel-knife",
+      "path": "static/assets/equipment/equipment-steel-knife.webp",
+      "sha256": "639d94b4051d2b5856d0e57e30a1b9626eca424f70a2e994c0088395df776dd5",
+      "bytes": 10140,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-steel-spear",
+      "path": "static/assets/equipment/equipment-steel-spear.webp",
+      "sha256": "d014629fe19cc3384c320a7ed980f3d5df5900ed30415cc6feb590627f29aba2",
+      "bytes": 9766,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-steel-sword",
+      "path": "static/assets/equipment/equipment-steel-sword.webp",
+      "sha256": "3c80c6aa53e16b9dfb070ccd5e0a1d90fcc2b42c91c8b7b8d40d201e5317249e",
+      "bytes": 4870,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-ward-key",
+      "path": "static/assets/equipment/equipment-ward-key.webp",
+      "sha256": "e04e4b260f4817e435d30d5d61b2f4a7e0daa11b9dcfafc5833cb07ba7705f50",
+      "bytes": 14624,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-work-dress",
+      "path": "static/assets/equipment/equipment-work-dress.webp",
+      "sha256": "b5aaf07930b6126b5edefca35bf07e5ce981153cb305d6bf6dcfa395d2af2ef9",
+      "bytes": 17350,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-work-shirt",
+      "path": "static/assets/equipment/equipment-work-shirt.webp",
+      "sha256": "9f4f16ba424208bfe1b56de58dac3d3c1f970ff464819ce167c13d84db407ccd",
+      "bytes": 23864,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-work-skirt",
+      "path": "static/assets/equipment/equipment-work-skirt.webp",
+      "sha256": "db862fdc3a72a3c08fd389f942d2970663fe45d08135f78556b07530b618231b",
+      "bytes": 17466,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-work-trousers",
+      "path": "static/assets/equipment/equipment-work-trousers.webp",
+      "sha256": "8c47cc4c4a684e0bff663afa95d418546214d74a8646ce595b4f610467fbbe0e",
+      "bytes": 18208,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "equipment-working-axe",
+      "path": "static/assets/equipment/equipment-working-axe.webp",
+      "sha256": "c0d1ed77f195de6ae5cc71bbaa7587ddf9aabb6197918e2513d0c1a694ac10d3",
+      "bytes": 13548,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "signature-founder",
+      "path": "static/assets/equipment/signature-founder.webp",
+      "sha256": "a46c4d04438090f5ec8958fafdbf4c4c52d751551f8255cffbba9a591e2946bc",
+      "bytes": 7770,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "signature-kaede",
+      "path": "static/assets/equipment/signature-kaede.webp",
+      "sha256": "b6bbdc4d0fd7416022f1e9400128816db0eeabe4cd897806cdbc123b0bd13cb9",
+      "bytes": 8854,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "signature-nyssara",
+      "path": "static/assets/equipment/signature-nyssara.webp",
+      "sha256": "0a111b028c0fc293b5745e08c392763efc4bd629e517affd44ad71270ab9c949",
+      "bytes": 7366,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "signature-sabine",
+      "path": "static/assets/equipment/signature-sabine.webp",
+      "sha256": "ce531a333fd3cd91b93cb5514b004fe673d5d376f775ee012482743af58de495",
+      "bytes": 10252,
+      "size": [
+        256,
+        256
+      ],
+      "alpha": true,
+      "use": "Equipment catalogue and signature overview"
+    },
+    {
+      "id": "north-watch-road",
+      "path": "static/assets/expeditions/north-watch-road.webp",
+      "sha256": "9ed2b661868b4dca09d664c069be648c7d61617a28339f8323d5a8a93ed756ba",
+      "bytes": 387850,
+      "size": [
+        1440,
+        960
+      ],
+      "alpha": false,
+      "use": "Chapter 5 or North watch road feature"
+    },
+    {
+      "id": "arms-of-our-own",
+      "path": "static/assets/ui/arms-of-our-own.webp",
+      "sha256": "a17f2dea85bbd869e14f9125ad9b1947982262d2769d13223378883b559a3aa2",
+      "bytes": 283180,
+      "size": [
+        1280,
+        720
+      ],
+      "alpha": false,
+      "use": "Chapter 5 or North watch road feature"
+    }
+  ]
+}

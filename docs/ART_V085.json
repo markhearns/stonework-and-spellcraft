@@ -1,0 +1,96 @@
+{
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "source": "exec-989d945a-6f1b-4e9c-b7ee-cc0b6881b846.png",
+      "asset": "portraits/overview/velis.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 236022,
+      "sha256": "69289a72c3b18409540990433a13e4e0746a29c999ca7287d2760fea8944be60",
+      "path": "static/assets/portraits/overview/velis.webp"
+    },
+    {
+      "source": "exec-989d945a-6f1b-4e9c-b7ee-cc0b6881b846.png",
+      "asset": "portraits/velis.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 68532,
+      "sha256": "96e31f4d4d7b52784d6af63aa69b9854bdbc0d28b0d3e6416280727d4d24bec0",
+      "path": "static/assets/portraits/velis.webp"
+    },
+    {
+      "source": "exec-199c7527-1ccf-4710-95ef-9d740c46075d.png",
+      "asset": "portraits/overview/velis-outfit-2.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 220792,
+      "sha256": "849b00f3d7502f069f0625facec470e5740750e1d11c4cb7f8105bb7f767e027",
+      "path": "static/assets/portraits/overview/velis-outfit-2.webp"
+    },
+    {
+      "source": "exec-199c7527-1ccf-4710-95ef-9d740c46075d.png",
+      "asset": "portraits/velis-outfit-2.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 60844,
+      "sha256": "a17292b6dc43ccd9366712369817d9d58e6dcc6c335ade0b495f37a120de9742",
+      "path": "static/assets/portraits/velis-outfit-2.webp"
+    },
+    {
+      "source": "exec-f53b0297-5a2a-4246-9f84-ffc79cebee28.png",
+      "asset": "portraits/overview/velis-outfit-3.webp",
+      "width": 768,
+      "height": 1152,
+      "bytes": 206672,
+      "sha256": "a7b23615e5b24dc57bc88df059b064979933d8330c4a4670f4323daa2fad8406",
+      "path": "static/assets/portraits/overview/velis-outfit-3.webp"
+    },
+    {
+      "source": "exec-f53b0297-5a2a-4246-9f84-ffc79cebee28.png",
+      "asset": "portraits/velis-outfit-3.webp",
+      "width": 512,
+      "height": 512,
+      "bytes": 58746,
+      "sha256": "7045ec56df6734f277875772ce723dc2bf000bbe9657cc24aadbb36bc970571a",
+      "path": "static/assets/portraits/velis-outfit-3.webp"
+    },
+    {
+      "source": "exec-57129512-43e4-4759-a2ef-d7bcdfbe469b.png",
+      "asset": "rooms/supply-office.webp",
+      "width": 1280,
+      "height": 853,
+      "bytes": 376840,
+      "sha256": "65a5c98f83a760055dedac6f05e97076bfa13a6d6bbc8ef3aa25de5475117d3c",
+      "path": "static/assets/rooms/supply-office.webp"
+    },
+    {
+      "source": "exec-b4727b8e-694b-4398-aa3b-149f7fce3e05.png",
+      "asset": "expeditions/hollow-road.webp",
+      "width": 1280,
+      "height": 853,
+      "bytes": 444122,
+      "sha256": "bacedc9d52bca63c8f2bb3f16510c577282eab0b3683a96c8aad121818711c0b",
+      "path": "static/assets/expeditions/hollow-road.webp"
+    },
+    {
+      "source": "exec-1e227d1c-2d2a-485c-b7bb-4af52ce63cfe.png",
+      "asset": "ui/provisions.webp",
+      "width": 160,
+      "height": 160,
+      "bytes": 4478,
+      "sha256": "dd3f9dfd86f71764f2635c17c73165ed0d0b15246eaffcf7be4726d9a8a67179",
+      "path": "static/assets/ui/provisions.webp"
+    },
+    {
+      "source": "exec-1b891e27-146e-469a-b6ac-f297cebbc449.png",
+      "asset": "equipment/signature-velis.webp",
+      "width": 320,
+      "height": 320,
+      "bytes": 3078,
+      "sha256": "0a35103c224e99687c26b4b47c4cc208a220b026545ee5285dfd72a7c7bf43f9",
+      "path": "static/assets/equipment/signature-velis.webp"
+    }
+  ],
+  "totalBytes": 1680126
+}

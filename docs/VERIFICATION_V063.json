@@ -1,0 +1,24 @@
+{
+  "version": "0.63",
+  "schemaVersion": 54,
+  "python": {
+    "tests": 705,
+    "seconds": 84.272,
+    "failures": 0,
+    "errors": 0
+  },
+  "connectedUI": {
+    "suites": 39,
+    "failures": 0,
+    "seconds": 149.29
+  },
+  "newLanternTests": 13,
+  "content": {
+    "optionalCompanions": 3,
+    "stages": 6,
+    "methods": 23,
+    "legacyPurposes": 3
+  },
+  "artwork": "Existing generated reading-lantern illustration and companion portraits reused. No new illustrations generated.",
+  "browserReview": "Not performed: prior missing local Chromium and blocked cloud-to-local access remain unresolved. No visual-layout pass claimed."
+}

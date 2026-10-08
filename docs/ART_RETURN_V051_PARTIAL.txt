@@ -1,0 +1,61 @@
+STONEWORK AND SPELLCRAFT — ART RETURN v0.51
+STATUS: PARTIAL / NOT A COMPLETE FOUR-ASSET DELIVERY
+
+One selected weather-screen candidate is supplied for player review.
+No image is represented as approved. Three requested assets remain missing.
+Do not treat this package as completion of the v0.51 art handoff.
+
+DELIVERED REVIEW CANDIDATE
+icons/weather-screen.png
+  Actual dimensions: 1024 x 1024 pixels.
+  Format: RGBA PNG; genuine alpha transparency.
+  Transparent margins (left, top, right, bottom): 103, 102, 103, 103 pixels.
+  Export: isolated object from one independently generated weather-screen image.
+  Not extracted from a multi-asset collage.
+  Size of generated source: 1536 x 1024 pixels.
+  Processing: removed alpha <= 4 background specks, trimmed transparent excess,
+  uniformly downscaled in premultiplied-alpha space, centered on a transparent
+  square canvas. No stretching, invented detail, or important-object clipping.
+  Subject/style notes for review: includes a short trickle at the trough outlet;
+  the trough is warmer terracotta than the specified grey-brown clay.
+  These details have not been approved by the player.
+
+PRESERVED SOURCE MASTER
+masters/weather-screen-source.png
+  Actual dimensions: 1536 x 1024 pixels.
+  Format: original RGBA PNG with alpha transparency.
+  Unmodified generated source for the same selected weather-screen candidate.
+  This is not a second delivered item or an alternative design.
+
+NOT DELIVERED — NO ACCEPTABLE INDEPENDENT FINAL
+icons/cistern-filter.png
+  Required: 1024 x 1024 RGBA PNG, true transparency; solid clay vessel,
+  open gravel-and-root basin, contained roots, integrated outlet; no cutaway.
+expeditions/quarry-shelter.png
+  Required: opaque 16:9 scene; wet exposed floor, dry protected papers,
+  overlapping shutters and a repair chest.
+expeditions/ridge-cistern.png
+  Required: opaque 16:9 scene matching Quarry shelter dimensions;
+  plausible settling channels and a dry shelf of spare clay fittings.
+
+RETRY RESULT / UNRESOLVED ISSUE
+Attempts to target the other assets returned weather-screen variants or
+composite sheets. The composite cistern-filter depictions also used cutaway
+views, contrary to the brief. These outputs are not being supplied as finals.
+The exact internal reason for the generator's task mismatch is unverified.
+No placeholder, mislabeled image, or cropped collage is being passed off as
+an independently generated completed asset.
+
+BRIEFS
+The seven original text instructions from the supplied v0.51 archive are
+included unchanged in briefs/. They are source instructions, not a transcript
+of the generator's internally constructed prompt. The delivered weather-screen
+candidate uses the original weather-screen description. Attempts at the
+missing filter added explicit single-object, solid-wall, no-cutaway constraints;
+these attempts did not produce a valid final and are not included as artwork.
+
+INTEGRATION
+weather-screen is the recipe/utility-artifact ID; installation room: Library.
+Review the candidate before wiring its individual icon into the application.
+Do not overwrite the workshop atlas. The other three art slots remain pending.
+No application code or previously accepted artwork was changed or deleted.

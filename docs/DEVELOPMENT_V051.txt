@@ -1,0 +1,41 @@
+Stonework and Spellcraft v0.51 — A castle worth coming home to
+
+PLAYABLE CONTENT
+The Castle notebook is available through Go directly to, the Library, Common room, Conservatory and Chapel. Home introduces it after the first lantern so the first research remains the opening focus.
+
+Weatherproofing the castle is an optional six-step solo route:
+1. Complete the first hearth study, survey Quarry shelter, and bring the observations home.
+2. Research Weather sealing: 10 crowns, two assigned phases, personal Hearth wards knowledge and the returned survey.
+3. Craft a Weather screen: vessel + binding components, two base work phases. Install it in the Library for +1 crown per assigned copying phase. Extra copies do not stack.
+4. Survey the old waterworks and return to reveal Ridge cistern; survey the cistern and return.
+5. Research Settling flow: 12 crowns, three assigned phases, personal Water guidance knowledge and the returned survey.
+6. Craft a Cistern filter: vessel + botanical components, two base work phases. Install it in the restored Conservatory for +1 silver ivy per staffed ivy harvest. No benefit to automatic tending or surplus sales; extra copies do not stack.
+
+Both new destinations also have a separate, finite salvage lead. Rewards and advancement arrive only on returning home; completed leads cannot be farmed. Existing survey aids, expedition companions, ownership agreements and equipment effects still apply. Surveys provide observations, not automatically learned research principles. No companion, generated content or paid service is required to finish the chapter.
+
+Six saved reflections open through actual progress: the returned quarry notes, fitted weather screen, fitted cistern filter, and restored chapel. Three are private and three invite a present resident. Each offers two responses, never expires and spends no phase, money or resources. They do not change relationships or work agreements. Available reflections appear among phase invitations. Selected reflections remain readable after reload.
+
+ROOMS AND PEOPLE
+Headquarters room pages show phase-sensitive atmosphere and actual people at home, with their current activities. Crafting uses a restored workshop when available and the library workbench before that; construction and fitted room jobs identify their actual space. Personal learning remains library work. Absent people do not appear. Reading a room page does not teleport or assign anyone. Existing ordinary room views also expose the presence panel.
+
+Household work explains each person's assignment, location, personal knowledge, three practical skills, and funded projects with links back to their controls. New research commitments retain the selected lead for accurate project guidance; assigned co-researchers also see the active shared work. Recruitment, garden/fieldwork agreements and assignment choices remain explicit.
+
+NAVIGATION AND OPENING
+Seven destination cards replace the overlapping fixed-position expedition buttons. Each lists the actual unlock requirement and number of returned leads. Hillfold bindery now explains the solo archive-study route as well as Mira's route.
+
+The first-lantern screen warns if explicit crafting draws on reserved components and links to Stores. The established rule is unchanged: reserve targets protect sales and automated commitments; deliberate manual crafting may use reserved stock. The kettle guidance no longer sends the player to buy materials they already hold in reserves.
+
+TIME AND BALANCE
+All work remains driven by explicit Advance. Existing pace and costs are preserved. The new solo route was played through in an integration test using normal earned income, purchased components, returned surveys and installed artifacts, without testing tools or residents. It supplements the tested opening route to the living wing and first local introduction. This is automated progression evidence, not a timed human first-hour usability session.
+
+SAVES AND ART
+Schema 41 additively initializes chapter discoveries/memories, two research records and two artifact records. Migration is idempotent and creates the existing automatic pre-migration database backup. Funded work, assignments, treasury, stock, accepted portraits, room overrides and artwork history are preserved. No art bytes were generated, replaced or removed in this release. The two new recipes reuse existing decorative atlas symbols; their exact names and effects are in text. The antique engraving aesthetic remains unchanged. Co-op, combat and autonomous guards remain deferred.
+
+VERIFICATION
+536 Python tests; 27 connected headless UI suites. See verification-v051.json.
+New coverage: earned-economy solo chapter completion, return-only discovery gates, finite salvage/advancement, scene validation and no reward/time effects, real present residents, harvest stacking limits, actual room presence, read-only views, selected research lead attribution, schema-40 backup and migration, notebook navigation and saved reflections.
+
+Rendered desktop/mobile QA remains OUTSTANDING. Chromium installation again returned an invalid ZIP, and no page was rendered. scripts/browser_review.cjs provides an isolated local review runner for 1440, 390 and 320 px widths. It is syntax-checked but not executed here. See BROWSER_REVIEW_STATUS.md for setup and the required manual screenshot/focus/touch review.
+
+INSTALL
+Extract into a new program folder. With the server stopped, carry over the complete existing data directory, including data/assets and all campaign slots. Run python server.py. No new runtime dependency or account is required. Playwright is optional development tooling only.

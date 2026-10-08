@@ -1,0 +1,96 @@
+{
+  "version": "0.89",
+  "schema": 64,
+  "personalPaths": {
+    "namedResidents": 16,
+    "includesScholar": true,
+    "authoredBuilds": 17,
+    "branches": 51,
+    "talents": 153,
+    "techniques": 102,
+    "passives": 51,
+    "techniqueSlots": 3,
+    "passiveSlots": 2,
+    "repeatableYardExercises": 5
+  },
+  "workspace": {
+    "sections": [
+      "Loadout",
+      "Personal paths",
+      "Training"
+    ],
+    "selectedTalentDetails": 1,
+    "selectedBranchTalents": 3,
+    "persistentCurrentTraining": true,
+    "directSlotReplacement": true,
+    "completeBuildRestoration": "talents, physical equipment, spells, practices, tool and focus configurations"
+  },
+  "python": {
+    "suites": 99,
+    "tests": 946,
+    "passed": true
+  },
+  "ui": {
+    "suites": 59,
+    "passed": true,
+    "scope": "Headless templates/controllers, parsed markup structure for all 17 characters, saved API actions and SQLite reload. No rendered browser review."
+  },
+  "campaignFlow": "Existing seven-chapter earned-resource flow checks passed. Personal builds remain optional; travel, food and sleep gates are preserved.",
+  "upgrade": {
+    "source": "actual v0.88 archive",
+    "fromSchema": 63,
+    "toSchema": 64,
+    "exactPreservationOutsideSchemaAndRevision": true,
+    "upgradeBackup": true,
+    "acceptedArtworkAndHistoryPreserved": true,
+    "originalPendingCounterResolves": true,
+    "olderSavedPreparationAndPendingTrainingPreserved": true
+  },
+  "runtimeArtwork": {
+    "unchanged": 268,
+    "changed": [],
+    "newImagesRequired": false
+  },
+  "finalChecks": [
+    {
+      "suite": "test_all_personal_paths.py",
+      "kind": "python",
+      "tests": 9,
+      "passed": true
+    },
+    {
+      "suite": "test_personal_paths.py",
+      "kind": "python",
+      "tests": 17,
+      "passed": true
+    },
+    {
+      "suite": "test_planning.py",
+      "kind": "python",
+      "tests": 9,
+      "passed": true
+    },
+    {
+      "suite": "test_ui_personal_paths.cjs",
+      "kind": "ui",
+      "passed": true
+    },
+    {
+      "suite": "test_ui_build_workspace.cjs",
+      "kind": "ui",
+      "passed": true
+    },
+    {
+      "suite": "test_ui.cjs",
+      "kind": "ui",
+      "passed": true
+    }
+  ],
+  "reviewFindingsResolved": [
+    "Mira archive project start and project/source links now open Quests & stories directly.",
+    "The long-play Node/Python test bridge now accepts full-cast responses above its former 1 MiB subprocess limit.",
+    "Duplicate relationship, quest, preparation and expanded talent controls removed from Build.",
+    "Full preparation snapshots restore equipment and talents atomically, while older snapshots keep their original meaning.",
+    "Legacy UI tests now visit the dedicated quest, relationship and conversation sections instead of expecting duplicates in Build."
+  ]
+}

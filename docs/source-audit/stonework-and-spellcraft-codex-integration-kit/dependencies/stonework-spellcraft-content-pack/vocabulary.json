@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "tags": [
+    {
+      "id": "reflective",
+      "definition": "Considers an observation before responding."
+    },
+    {
+      "id": "direct",
+      "definition": "Communicates with clear, unembellished statements."
+    },
+    {
+      "id": "playful",
+      "definition": "Enjoys light, mutually welcome mischief."
+    },
+    {
+      "id": "warm",
+      "definition": "Expresses approachable affection or hospitality."
+    },
+    {
+      "id": "reserved",
+      "definition": "Prefers a measured or initially private presentation."
+    },
+    {
+      "id": "bold",
+      "definition": "Readily takes expressive initiative without overriding others."
+    },
+    {
+      "id": "patient",
+      "definition": "Allows room for practice, thought and unhurried decisions."
+    },
+    {
+      "id": "precise",
+      "definition": "Notices distinctions and values careful wording or workmanship."
+    },
+    {
+      "id": "curious",
+      "definition": "Enjoys open questions and unfamiliar approaches."
+    },
+    {
+      "id": "independent",
+      "definition": "Values self-directed choices and a life beyond pleasing others."
+    },
+    {
+      "id": "collaborative",
+      "definition": "Enjoys shared effort while retaining individual agency."
+    },
+    {
+      "id": "resourceful",
+      "definition": "Looks for workable uses of available materials and knowledge."
+    },
+    {
+      "id": "steadfast",
+      "definition": "Tries to follow through on considered commitments."
+    },
+    {
+      "id": "improvisational",
+      "definition": "Experiments with adjustments rather than requiring a fixed plan."
+    },
+    {
+      "id": "modest",
+      "definition": "Does not require public recognition to value an achievement."
+    },
+    {
+      "id": "expressive",
+      "definition": "Communicates readily through words or visible expression."
+    },
+    {
+      "id": "quiet-company",
+      "definition": "Enjoys companionship without a demand for conversation."
+    },
+    {
+      "id": "dry-humour",
+      "definition": "Finds amusement in restrained understatement."
+    },
+    {
+      "id": "wordplay",
+      "definition": "Enjoys language-based jokes without depending on catchphrases."
+    },
+    {
+      "id": "lyrical",
+      "definition": "Has a flowing sound or a restrained poetic quality."
+    },
+    {
+      "id": "crisp",
+      "definition": "Has a compact, clearly articulated sound or visual finish."
+    },
+    {
+      "id": "rounded",
+      "definition": "Has a soft, rounded sound or silhouette."
+    },
+    {
+      "id": "plain",
+      "definition": "Has an uncomplicated, readily legible presentation."
+    },
+    {
+      "id": "elegant",
+      "definition": "Has visual grace or an uncluttered, refined presentation."
+    },
+    {
+      "id": "cute",
+      "definition": "Suggests charming adult visual appeal, never childhood or immaturity."
+    },
+    {
+      "id": "sensual",
+      "definition": "Suggests confident, non-explicit adult allure, not willingness or consent."
+    },
+    {
+      "id": "striking",
+      "definition": "Has visually distinctive features or strong contrasts."
+    },
+    {
+      "id": "soft-featured",
+      "definition": "Has gentle facial contours or soft visual transitions."
+    },
+    {
+      "id": "angular",
+      "definition": "Has defined planes or sharply articulated visual features."
+    },
+    {
+      "id": "athletic",
+      "definition": "Has visibly developed musculature or a firm physical silhouette."
+    },
+    {
+      "id": "curvaceous",
+      "definition": "Has pronounced mature body curves."
+    },
+    {
+      "id": "compact",
+      "definition": "Has a relatively short, fully adult physical silhouette."
+    },
+    {
+      "id": "statuesque",
+      "definition": "Has a tall or imposing adult physical silhouette."
+    },
+    {
+      "id": "freckled",
+      "definition": "Has visible small pigment or surface-speckle markings."
+    },
+    {
+      "id": "craft",
+      "definition": "Concerns making, repairing or understanding handmade objects."
+    },
+    {
+      "id": "textiles",
+      "definition": "Concerns cloth, stitching, weaving and garment construction."
+    },
+    {
+      "id": "woodwork",
+      "definition": "Concerns carving, joinery and other wood crafts."
+    },
+    {
+      "id": "stonework",
+      "definition": "Concerns carved stone, masonry and related crafts."
+    },
+    {
+      "id": "metalwork",
+      "definition": "Concerns worked metal and careful fitting of metal parts."
+    },
+    {
+      "id": "ceramics",
+      "definition": "Concerns clay, glaze and fired or crafted ceramic forms."
+    },
+    {
+      "id": "papercraft",
+      "definition": "Concerns paper, binding, folding and related material practices."
+    },
+    {
+      "id": "practical-scholarship",
+      "definition": "Studies ideas through useful examples and careful notes."
+    },
+    {
+      "id": "archives",
+      "definition": "Concerns records, indexing and responsible preservation."
+    },
+    {
+      "id": "language",
+      "definition": "Concerns words, translation and differences in expression."
+    },
+    {
+      "id": "correspondence",
+      "definition": "Concerns letters and mutually agreed exchanges of writing."
+    },
+    {
+      "id": "cartography",
+      "definition": "Concerns maps and the questions involved in representing places."
+    },
+    {
+      "id": "exploration",
+      "definition": "Concerns proposed observation or travel beyond familiar settings."
+    },
+    {
+      "id": "gardening",
+      "definition": "Concerns cultivated plants and their care."
+    },
+    {
+      "id": "botany",
+      "definition": "Concerns careful observation and classification of plants."
+    },
+    {
+      "id": "cooking",
+      "definition": "Concerns food preparation as a household or craft practice."
+    },
+    {
+      "id": "baking",
+      "definition": "Concerns breads, pastries and other oven-based kitchen crafts."
+    },
+    {
+      "id": "tea",
+      "definition": "Concerns the preparation and enjoyment of warm infusions."
+    },
+    {
+      "id": "music",
+      "definition": "Concerns listening, rhythm, song or instruments."
+    },
+    {
+      "id": "performance",
+      "definition": "Concerns agreed presentations, storytelling or theatre."
+    },
+    {
+      "id": "visual-art",
+      "definition": "Concerns drawing, painting and visual composition."
+    },
+    {
+      "id": "weather",
+      "definition": "Concerns ordinary observations of wind, rain and changing skies."
+    },
+    {
+      "id": "water",
+      "definition": "Concerns water-associated craft, observation or visual motifs; grants no powers."
+    },
+    {
+      "id": "light",
+      "definition": "Concerns illumination and related visual observations; grants no powers."
+    },
+    {
+      "id": "fire",
+      "definition": "Concerns fire-associated craft or visual motifs; grants no powers."
+    },
+    {
+      "id": "air",
+      "definition": "Concerns air-associated observation or visual motifs; grants no powers."
+    },
+    {
+      "id": "earth",
+      "definition": "Concerns earth-associated materials or visual motifs; grants no powers."
+    },
+    {
+      "id": "forest",
+      "definition": "Concerns wooded environments and local woodland practices."
+    },
+    {
+      "id": "subterranean",
+      "definition": "Concerns underground environments and their ordinary practical conditions."
+    },
+    {
+      "id": "night",
+      "definition": "Concerns nocturnal schedules or evening atmosphere."
+    },
+    {
+      "id": "community",
+      "definition": "Concerns connections between people and mutually agreed public projects."
+    },
+    {
+      "id": "hospitality",
+      "definition": "Concerns welcoming others without imposing debts or obligations."
+    },
+    {
+      "id": "privacy",
+      "definition": "Concerns control over one's information and private spaces."
+    },
+    {
+      "id": "autonomy",
+      "definition": "Concerns freely chosen participation and self-direction."
+    },
+    {
+      "id": "consent",
+      "definition": "Concerns specific, ongoing and revocable agreement."
+    },
+    {
+      "id": "friendship",
+      "definition": "Concerns non-romantic companionship and care."
+    },
+    {
+      "id": "affection",
+      "definition": "Concerns welcome expressions of warmth without presuming romance."
+    },
+    {
+      "id": "flirtation",
+      "definition": "Concerns playful romantic or sensual expression, not blanket consent."
+    },
+    {
+      "id": "trust",
+      "definition": "Concerns earned reliability and appropriate confidence."
+    },
+    {
+      "id": "promises",
+      "definition": "Concerns the scope and fulfilment of explicitly made commitments."
+    },
+    {
+      "id": "possessions",
+      "definition": "Concerns ownership, borrowing and care of personal objects."
+    },
+    {
+      "id": "work",
+      "definition": "Concerns duties, practice and reasonable limits on labour."
+    },
+    {
+      "id": "rest",
+      "definition": "Concerns leisure, recovery and time without obligations."
+    },
+    {
+      "id": "personal-growth",
+      "definition": "Concerns changes in understanding or self-directed goals."
+    },
+    {
+      "id": "revision",
+      "definition": "Concerns improving, reconsidering or reducing a previous plan."
+    },
+    {
+      "id": "experimentation",
+      "definition": "Concerns bounded trials whose outcomes remain unestablished."
+    },
+    {
+      "id": "accessibility",
+      "definition": "Concerns adapting environments to different bodies or preferences."
+    },
+    {
+      "id": "tradition",
+      "definition": "Concerns one person's chosen cultural practices, not ancestry-wide rules."
+    },
+    {
+      "id": "belonging",
+      "definition": "Concerns finding a place while retaining a separate identity."
+    },
+    {
+      "id": "negotiation",
+      "definition": "Concerns clarifying differences and seeking an agreed arrangement."
+    },
+    {
+      "id": "sustainability",
+      "definition": "Concerns care for materials, places and future use."
+    },
+    {
+      "id": "humour",
+      "definition": "Concerns situations that may invite shared amusement without humiliation."
+    },
+    {
+      "id": "celebration",
+      "definition": "Concerns optional acknowledgement of meaningful occasions."
+    },
+    {
+      "id": "domestic",
+      "definition": "Concerns ordinary inhabited household life."
+    },
+    {
+      "id": "leisure",
+      "definition": "Suitable for unhurried off-duty activities."
+    },
+    {
+      "id": "evening",
+      "definition": "Suitable for evening gatherings or private leisure."
+    },
+    {
+      "id": "social",
+      "definition": "Suitable for company or a shared gathering."
+    },
+    {
+      "id": "fieldwork",
+      "definition": "Suitable for proposed practical observation outside a workroom."
+    },
+    {
+      "id": "workshop",
+      "definition": "Suitable for hands-on indoor work."
+    },
+    {
+      "id": "reading",
+      "definition": "Suitable for study and unhurried reading."
+    },
+    {
+      "id": "formal",
+      "definition": "Suitable for a more deliberately dressed occasion without requiring opulence."
+    },
+    {
+      "id": "relaxed",
+      "definition": "Has an easy, unrestrictive presentation."
+    },
+    {
+      "id": "tailoring",
+      "definition": "Concerns fit, garment adjustment and anatomical accommodation."
+    },
+    {
+      "id": "identity",
+      "definition": "Concerns self-description and personally chosen presentation."
+    },
+    {
+      "id": "new-beginnings",
+      "definition": "Concerns prospective interests and first choices without invented history."
+    },
+    {
+      "id": "boundaries",
+      "definition": "Concerns clearly communicated limits that are not challenges to overcome."
+    }
+  ]
+}

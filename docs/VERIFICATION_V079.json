@@ -1,0 +1,15 @@
+{
+  "version": "0.79",
+  "schema": 59,
+  "pythonTests": 43,
+  "pythonPassed": true,
+  "uiSuites": 52,
+  "uiPassed": true,
+  "portraitCount": 42,
+  "portraitBytes": 14156588,
+  "preservedArtwork": 168,
+  "limits": [
+    "UI checks use headless DOM doubles; rendered desktop/mobile layout was not verified. No local browser executable is available.",
+    "Full historical Python suite was not rerun; checks cover artwork, outfits, portrait generation, HTTP and companion profiles."
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "path": "static/assets/common-room.webp",
+    "sha256": "0d8c51cf5777a3251d4668049e7896613c24525d1b578126f739af07637ff1b7",
+    "replacement": "/assets/rooms/common-room.webp"
+  },
+  {
+    "path": "static/assets/library.webp",
+    "sha256": "8a5ee3ab158ca873200221b8e159b4dab02f9e43c82b74fd5bb56e5cc1c2e346",
+    "replacement": "/assets/rooms/library.webp"
+  },
+  {
+    "path": "static/assets/bedchamber.webp",
+    "sha256": "b57eb6d47bcfb963a9d7779848c491c9161a6e4098c25b4e3ef7c7eb51c9c562",
+    "replacement": "/assets/rooms/bedchamber.webp"
+  },
+  {
+    "path": "static/assets/conservatory.webp",
+    "sha256": "3bb9040a126a6a8961d4d44b30859f5d808b3b6bcdf403347c1af9a2a9949c79",
+    "replacement": "/assets/rooms/conservatory.webp"
+  },
+  {
+    "path": "static/assets/west-chamber.webp",
+    "sha256": "7df98a81e5239f7ceae20e02e9db913d44592d810116c1e3096e84c2a5901b0b",
+    "replacement": "/assets/rooms/west-chamber.webp"
+  },
+  {
+    "path": "static/assets/garden-chamber.webp",
+    "sha256": "c75a35e832d649501b792a7c12586056547a995d38e3ce33d4fdfb7b075fffbf",
+    "replacement": "/assets/rooms/garden-chamber.webp"
+  },
+  {
+    "path": "static/assets/mira.webp",
+    "sha256": "877e044f69903a3f6a7ac26e7081aa3f19e2d943db1fa72ac84edf25865302b4",
+    "replacement": "/assets/mira-v2.png"
+  },
+  {
+    "path": "static/assets/mira-shawl.webp",
+    "sha256": "dcd5203d8a739b86a653eb5727f3737731db5aaee36d1cdedb22231a697bb9f4",
+    "replacement": "/assets/mira-shawl-v2.png"
+  },
+  {
+    "path": "static/assets/tamsin.webp",
+    "sha256": "ed76236d34aeeb8969a2cee0be9542349538d3e4b807822843a22bcedf59d49d",
+    "replacement": "/assets/tamsin-v2.png"
+  },
+  {
+    "path": "static/assets/tamsin-shawl.webp",
+    "sha256": "9134664234474a68174a0eafe77aeed3486dd65095d607f97ebe74104dbd9f42",
+    "replacement": "/assets/tamsin-shawl-v2.png"
+  },
+  {
+    "path": "static/assets/iona.png",
+    "sha256": "71fb80e3ef4bc0a45225af19e23c5f86fb8eba3c83b3565ad6f23f45619b8b99",
+    "replacement": "/assets/iona-v3.png"
+  },
+  {
+    "path": "static/assets/iona-v2.png",
+    "sha256": "cd4ad0c2c62a3dcfb41120a8a0f5acda6681f42af46263611bb116eea1dede04",
+    "replacement": "/assets/iona-v3.png"
+  },
+  {
+    "path": "static/assets/aurelia.png",
+    "sha256": "7a5efbdf8bfb9dd1bfd857ef1c8737f0c0efbf8c9eba5d3f5e6d65f16e04e7d3",
+    "replacement": "/assets/aurelia-v2.png"
+  },
+  {
+    "path": "static/assets/paper-grain.svg",
+    "sha256": "5cce24331f3befefaba0ee4467fa070064e5bffba83351cf72fee0310f746b4d",
+    "replacement": "/assets/ui-v044/midnight-paper.png"
+  },
+  {
+    "path": "docs/character-style-references/eris_study_01.png",
+    "sha256": "c9c638789c0f179cb22dbeceec23e975030fb76b206773fd9118e406af621a21",
+    "reason": "Superseded style-only reference; original remains in previous release archive."
+  },
+  {
+    "path": "docs/character-style-references/eris-character-sheet-library-workshop.png",
+    "sha256": "5374a8d3b66bcac2ae695ca2bca3ba64b6712292db619d572f0d0ec1f5afabce",
+    "reason": "Superseded style-only reference; original remains in previous release archive."
+  },
+  {
+    "path": "docs/character-style-references/selene_study_03.png",
+    "sha256": "4419b2db5f070c7dd12c4fd2f72cfe2dfcae9b66ed51dbfedba27f34e69d5777",
+    "reason": "Superseded style-only reference; original remains in previous release archive."
+  },
+  {
+    "path": "docs/character-style-references/selene_study_01.png",
+    "sha256": "80453b47c12c47ee9187398698f934724d2189277e43232a9b8e053e9c5760b3",
+    "reason": "Superseded style-only reference; original remains in previous release archive."
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "version": "0.73",
+  "schemaVersion": 59,
+  "javascriptSyntax": "passed",
+  "pythonTests": {
+    "passed": 5,
+    "suites": [
+      "test_candidate_http.py",
+      "test_art_release.py"
+    ]
+  },
+  "uiControllerSuites": {
+    "passed": 3,
+    "suites": [
+      "test_ui_visuals.cjs",
+      "test_ui_unified.cjs",
+      "test_ui_character_setup.cjs"
+    ]
+  },
+  "existingArtwork": {
+    "files": 153,
+    "unchanged": 153
+  },
+  "changedExistingFiles": [
+    "stonework-and-spellcraft/README.md",
+    "stonework-and-spellcraft/START_HERE.md",
+    "stonework-and-spellcraft/server.py",
+    "stonework-and-spellcraft/static/app.js",
+    "stonework-and-spellcraft/static/style.css",
+    "stonework-and-spellcraft/tests/test_candidate_http.py"
+  ],
+  "browserVisualReview": false,
+  "limitation": "No installed browser executable; controller integration does not verify rendered geometry. CSS frame-size and baseline conflicts were inspected and corrected.",
+  "gameplayChanged": false
+}

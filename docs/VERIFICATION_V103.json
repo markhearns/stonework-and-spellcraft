@@ -1,0 +1,63 @@
+{
+  "release": "0.103",
+  "saveSchema": 65,
+  "gameplayRulesChanged": false,
+  "python": {
+    "result": "pass",
+    "tests": 51,
+    "modules": [
+      "test_romance",
+      "test_intimacy",
+      "test_relationships",
+      "test_writing_v101",
+      "test_candidate_http"
+    ]
+  },
+  "ui": {
+    "result": "pass",
+    "scripts": [
+      "test_ui_status_v103.cjs",
+      "test_ui_romance.cjs",
+      "test_ui_relationships.cjs",
+      "test_ui_intimacy.cjs",
+      "test_ui_armoury.cjs",
+      "test_ui_build_workspace.cjs",
+      "test_ui_overview_portraits.cjs",
+      "test_ui_unified.cjs",
+      "test_ui_house_shape.cjs",
+      "test_ui_daily_plan.cjs",
+      "test_ui_pacing_v102.cjs"
+    ],
+    "method": "Headless templates and click controllers against persisted Python API state. No rendered browser review."
+  },
+  "compatibilityAndArt": {
+    "priorAssetsUnchanged": 279,
+    "newIcons": 7,
+    "fullResolutionMasterPixelIdentity": true,
+    "displayEncodingPixelIdentityAfterResampling": true,
+    "transparentEdges": true,
+    "servedAssetByteAndMimeChecks": 7,
+    "v102SQLiteCampaigns": 2,
+    "exactStatePreserved": true,
+    "publicViewsReadOnly": true,
+    "reloadExact": true,
+    "pausedMilestonesPreserved": true,
+    "saveSchema": 65
+  },
+  "assetBytes": {
+    "display": 89600,
+    "masters": 6197538,
+    "sourcePNGs": 9634008
+  },
+  "limits": [
+    "Rendered browser review remains deferred.",
+    "Display copies are downsampled; pixel-identical full-resolution masters are kept in a separate optional archive."
+  ],
+  "packaging": {
+    "masterImagesIncluded": false,
+    "masterArchive": "stonework-and-spellcraft-icon-masters-v0.103.zip",
+    "masterBytesRemovedFromGame": 6197538,
+    "runtimeImagesUnchanged": 286,
+    "packagingScript": "scripts/package_game.py"
+  }
+}

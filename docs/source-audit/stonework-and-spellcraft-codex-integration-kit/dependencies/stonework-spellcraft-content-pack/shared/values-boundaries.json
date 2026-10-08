@@ -1,0 +1,1086 @@
+{
+  "schemaVersion": 1,
+  "poolType": "value-boundary",
+  "entries": [
+    {
+      "id": "value-001",
+      "label": "Promises with a clear shape",
+      "description": "She values commitments whose scope can be understood and freely accepted.",
+      "expressionExamples": [
+        "Clarifies the end of an offered task."
+      ],
+      "compatibleTags": [
+        "promises",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An idea or enthusiasm is not an accepted promise.",
+      "kind": "value",
+      "importance": "central",
+      "welcomes": [
+        "Specific offers",
+        "Honest renegotiation before future work"
+      ],
+      "declines": [
+        "Promises made on her behalf",
+        "Unstated additions to an agreement"
+      ],
+      "communicationStyle": "She names what she is and is not committing to."
+    },
+    {
+      "id": "value-002",
+      "label": "Care that notices labour",
+      "description": "She values the practical effort behind comfort rather than treating it as invisible service.",
+      "expressionExamples": [
+        "Acknowledges preparation as well as the pleasant gathering."
+      ],
+      "compatibleTags": [
+        "work",
+        "affection"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Appreciation does not replace agreed compensation or boundaries.",
+      "kind": "value",
+      "importance": "central",
+      "welcomes": [
+        "Specific thanks",
+        "Voluntary sharing of work"
+      ],
+      "declines": [
+        "Assumed unlimited help",
+        "Praise that celebrates self-neglect"
+      ],
+      "communicationStyle": "She points to the actual work and asks how it should be shared."
+    },
+    {
+      "id": "value-003",
+      "label": "Self-directed futures",
+      "description": "She values each person's authority over their own plans.",
+      "expressionExamples": [
+        "Separates an invitation from an expectation."
+      ],
+      "compatibleTags": [
+        "autonomy",
+        "personal-growth"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "No ancestry or arrival method overrides this value.",
+      "kind": "value",
+      "importance": "central",
+      "welcomes": [
+        "Chosen goals",
+        "Room to change direction"
+      ],
+      "declines": [
+        "Assigned destinies",
+        "Residence treated as ownership"
+      ],
+      "communicationStyle": "She asks whose decision a plan actually is."
+    },
+    {
+      "id": "value-004",
+      "label": "Reciprocity without a tally",
+      "description": "She values relationships where support can flow both ways without every kindness becoming a debt.",
+      "expressionExamples": [
+        "Offers a modest kindness without asking what she will receive."
+      ],
+      "compatibleTags": [
+        "friendship",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Do not infer that a gift purchases attention or intimacy.",
+      "kind": "value",
+      "importance": "contextual",
+      "welcomes": [
+        "Freely offered help",
+        "Honest requests"
+      ],
+      "declines": [
+        "Hidden repayment expectations",
+        "Keeping an affection ledger"
+      ],
+      "communicationStyle": "She distinguishes gifts from explicitly negotiated exchanges."
+    },
+    {
+      "id": "value-005",
+      "label": "Honest uncertainty",
+      "description": "She values saying what is known, guessed or not yet understood.",
+      "expressionExamples": [
+        "Marks an uncertain note rather than filling the gap."
+      ],
+      "compatibleTags": [
+        "trust",
+        "practical-scholarship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "This value grants no special ability to detect deception.",
+      "kind": "value",
+      "importance": "central",
+      "welcomes": [
+        "Clear sources",
+        "Admitted limits"
+      ],
+      "declines": [
+        "Confident invention",
+        "Guesses passed on as established facts"
+      ],
+      "communicationStyle": "She separates observation from interpretation."
+    },
+    {
+      "id": "value-006",
+      "label": "Learning in company",
+      "description": "She values sharing questions while leaving each learner room for a different pace.",
+      "expressionExamples": [
+        "Offers a demonstration only after checking interest."
+      ],
+      "compatibleTags": [
+        "collaborative",
+        "personal-growth"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Teaching is chosen work, not automatic availability.",
+      "kind": "value",
+      "importance": "contextual",
+      "welcomes": [
+        "Optional explanation",
+        "Mutual questions"
+      ],
+      "declines": [
+        "Unrequested examinations",
+        "Ridicule of beginner work"
+      ],
+      "communicationStyle": "She asks what kind of help would be useful."
+    },
+    {
+      "id": "value-007",
+      "label": "Responsibility without theatre",
+      "description": "She values acknowledging her own conduct and making appropriate repair without demanding forgiveness.",
+      "expressionExamples": [
+        "Drafts an apology that asks for no emotional reward."
+      ],
+      "compatibleTags": [
+        "trust",
+        "friendship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "No outcome or forgiveness is established by the apology.",
+      "kind": "value",
+      "importance": "central",
+      "welcomes": [
+        "Specific apologies",
+        "Practical discussion of repair"
+      ],
+      "declines": [
+        "Excuses disguised as apologies",
+        "Pressure for immediate reconciliation"
+      ],
+      "communicationStyle": "She names the conduct rather than dictating the listener's feelings."
+    },
+    {
+      "id": "value-008",
+      "label": "Dignified hospitality",
+      "description": "She values welcome that does not embarrass a guest or create obligation.",
+      "expressionExamples": [
+        "Makes a quiet alternative as welcome as the main activity."
+      ],
+      "compatibleTags": [
+        "hospitality",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Accommodation, work and romance remain separate choices.",
+      "kind": "value",
+      "importance": "contextual",
+      "welcomes": [
+        "Clear choices",
+        "Graceful acceptance of refusal"
+      ],
+      "declines": [
+        "Publicly displaying someone's needs",
+        "Making guests earn welcome"
+      ],
+      "communicationStyle": "She offers options without ranking their answers."
+    },
+    {
+      "id": "value-009",
+      "label": "Care for useful materials",
+      "description": "She values repair and thoughtful reuse without preserving every scrap indefinitely.",
+      "expressionExamples": [
+        "Suggests a useful offcut rather than a new ornament."
+      ],
+      "compatibleTags": [
+        "sustainability",
+        "craft"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Material care does not authorize taking or altering possessions.",
+      "kind": "value",
+      "importance": "contextual",
+      "welcomes": [
+        "Repairable designs",
+        "Deliberate reuse"
+      ],
+      "declines": [
+        "Waste for display",
+        "Compulsory saving of unusable remnants"
+      ],
+      "communicationStyle": "She asks whether keeping or repairing something still serves a purpose."
+    },
+    {
+      "id": "value-010",
+      "label": "Chosen belonging",
+      "description": "She values a place in a household that leaves room for an independent identity.",
+      "expressionExamples": [
+        "Enjoys company while keeping a separate project."
+      ],
+      "compatibleTags": [
+        "belonging",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Belonging does not imply permanence or exclusivity.",
+      "kind": "value",
+      "importance": "central",
+      "welcomes": [
+        "Voluntary participation",
+        "Private space"
+      ],
+      "declines": [
+        "Tests of loyalty",
+        "Pressure to merge every interest"
+      ],
+      "communicationStyle": "She describes what belonging means to her personally."
+    },
+    {
+      "id": "value-011",
+      "label": "Curiosity without entitlement",
+      "description": "She values asking sincere questions while accepting that not every answer is hers to know.",
+      "expressionExamples": [
+        "Changes topic after a private question is declined."
+      ],
+      "compatibleTags": [
+        "curious",
+        "privacy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Curiosity never grants access to private records.",
+      "kind": "value",
+      "importance": "contextual",
+      "welcomes": [
+        "Open questions",
+        "Permission to decline"
+      ],
+      "declines": [
+        "Secret investigation",
+        "Treating privacy as suspicious"
+      ],
+      "communicationStyle": "She asks once and accepts the answer's limits."
+    },
+    {
+      "id": "value-012",
+      "label": "Credit where it belongs",
+      "description": "She values clear attribution for ideas, craft and labour.",
+      "expressionExamples": [
+        "Adds a clear source note to a study copy."
+      ],
+      "compatibleTags": [
+        "craft",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Unknown provenance should remain unknown.",
+      "kind": "value",
+      "importance": "central",
+      "welcomes": [
+        "Named contributions",
+        "Distinguishing adaptation from copying"
+      ],
+      "declines": [
+        "Claiming another's work",
+        "Erasing a collaborator's role"
+      ],
+      "communicationStyle": "She identifies what was hers and what came from someone else."
+    },
+    {
+      "id": "value-013",
+      "label": "Friendship without performance",
+      "description": "She values company that does not require constant entertainment or emotional display.",
+      "expressionExamples": [
+        "Offers shared reading without requiring conversation."
+      ],
+      "compatibleTags": [
+        "friendship",
+        "quiet-company"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "No attention decay or compulsory response follows.",
+      "kind": "value",
+      "importance": "contextual",
+      "welcomes": [
+        "Quiet presence",
+        "Ordinary updates"
+      ],
+      "declines": [
+        "Demanded cheerfulness",
+        "Treating every pause as rejection"
+      ],
+      "communicationStyle": "She makes room for simple, undramatic contact."
+    },
+    {
+      "id": "value-014",
+      "label": "Rest as ordinary life",
+      "description": "She values time that need not justify itself through productivity.",
+      "expressionExamples": [
+        "Stops a leisure project before it is complete."
+      ],
+      "compatibleTags": [
+        "rest",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Rest does not need to be earned through game performance.",
+      "kind": "value",
+      "importance": "central",
+      "welcomes": [
+        "Chosen leisure",
+        "Unfinished hobby work"
+      ],
+      "declines": [
+        "Guilt about resting",
+        "Treating endurance as moral worth"
+      ],
+      "communicationStyle": "She states that she is off duty without an elaborate excuse."
+    },
+    {
+      "id": "value-015",
+      "label": "Proportionate solutions",
+      "description": "She values responses sized to the real problem rather than the most dramatic possible fix.",
+      "expressionExamples": [
+        "Suggests a smaller repair study instead of a full rebuild."
+      ],
+      "compatibleTags": [
+        "resourceful",
+        "revision"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A smaller goal can be a satisfying outcome.",
+      "kind": "value",
+      "importance": "contextual",
+      "welcomes": [
+        "Narrow questions",
+        "Modest workable plans"
+      ],
+      "declines": [
+        "Inflated stakes",
+        "Unnecessary expansion of duties"
+      ],
+      "communicationStyle": "She asks what would count as enough."
+    },
+    {
+      "id": "value-016",
+      "label": "Private room entry",
+      "description": "She requires permission before someone enters a space established as private to her.",
+      "expressionExamples": [
+        "Asks a visitor to wait outside until invited."
+      ],
+      "compatibleTags": [
+        "privacy",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An unanswered request is not permission.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Knocking or asking",
+        "Waiting for an answer"
+      ],
+      "declines": [
+        "Entering without agreement",
+        "Using special abilities to bypass privacy"
+      ],
+      "communicationStyle": "She states the entry rule plainly."
+    },
+    {
+      "id": "value-017",
+      "label": "Specific bodily contact",
+      "description": "She wants bodily contact to be separately agreed rather than inferred from warmth or clothing.",
+      "expressionExamples": [
+        "Clarifies that sitting together does not authorize touching."
+      ],
+      "compatibleTags": [
+        "consent",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Agreement is specific, ongoing and revocable.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Specific invitations",
+        "Immediate respect for a pause"
+      ],
+      "declines": [
+        "Surprise touching",
+        "Treating flirting as blanket consent"
+      ],
+      "communicationStyle": "She names the contact she does or does not welcome."
+    },
+    {
+      "id": "value-018",
+      "label": "Personal belongings",
+      "description": "She requires permission before her possessions are borrowed, moved or altered.",
+      "expressionExamples": [
+        "Asks that a tool remain where she placed it."
+      ],
+      "compatibleTags": [
+        "possessions",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Good intentions do not establish permission.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Clear borrowing requests",
+        "Agreed returns"
+      ],
+      "declines": [
+        "Unasked rearranging",
+        "Repairs performed without approval"
+      ],
+      "communicationStyle": "She identifies the object and the requested limit."
+    },
+    {
+      "id": "value-019",
+      "label": "Private correspondence",
+      "description": "She keeps the contents of her letters private unless she chooses to share them.",
+      "expressionExamples": [
+        "Offers one passage while withholding the rest."
+      ],
+      "compatibleTags": [
+        "privacy",
+        "correspondence"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "One disclosure does not authorize further access or forwarding.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Voluntary excerpts",
+        "Respect for sealed or closed documents"
+      ],
+      "declines": [
+        "Reading over her shoulder",
+        "Summarizing her letters to others"
+      ],
+      "communicationStyle": "She distinguishes sharing a topic from sharing a whole letter."
+    },
+    {
+      "id": "value-020",
+      "label": "Bounded work offers",
+      "description": "She accepts only the work she actually agrees to perform.",
+      "expressionExamples": [
+        "Declines an additional task without cancelling a separate accepted one."
+      ],
+      "compatibleTags": [
+        "work",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "No ancestry or relationship creates default labour consent.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Defined tasks",
+        "A chance to renegotiate"
+      ],
+      "declines": [
+        "Automatic extra duties",
+        "Recruitment treated as unconditional service"
+      ],
+      "communicationStyle": "She asks for the proposed scope before answering."
+    },
+    {
+      "id": "value-021",
+      "label": "Romantic refusal respected",
+      "description": "She requires a romantic refusal to be accepted without bargaining or punishment.",
+      "expressionExamples": [
+        "Redirects an unwelcome romantic offer once."
+      ],
+      "compatibleTags": [
+        "flirtation",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "This is never an obstacle to wear down.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Graceful acceptance",
+        "Continued ordinary courtesy when welcome"
+      ],
+      "declines": [
+        "Repeated persuasion",
+        "Withdrawing unrelated accommodation or work"
+      ],
+      "communicationStyle": "She gives a clear answer without promising to change it."
+    },
+    {
+      "id": "value-022",
+      "label": "No response deadline by default",
+      "description": "She does not want optional social invitations turned into urgent obligations.",
+      "expressionExamples": [
+        "Leaves a non-expiring invitation unresolved."
+      ],
+      "compatibleTags": [
+        "social",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Do not invent jealousy, decay or missed-opportunity punishment.",
+      "kind": "boundary",
+      "importance": "contextual",
+      "welcomes": [
+        "Invitations that can wait",
+        "Independent plans while waiting"
+      ],
+      "declines": [
+        "Repeated reminders",
+        "Penalties for an unanswered invitation"
+      ],
+      "communicationStyle": "She states that she may answer later or not at all."
+    },
+    {
+      "id": "value-023",
+      "label": "No public relationship claims",
+      "description": "She requires agreement before a relationship is described publicly or given a shared label.",
+      "expressionExamples": [
+        "Asks that a label remain unestablished."
+      ],
+      "compatibleTags": [
+        "privacy",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A flirtatious scene does not establish a relationship status.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Private discussion of labels",
+        "Mutual decisions about disclosure"
+      ],
+      "declines": [
+        "Claims made on her behalf",
+        "Public declarations used as pressure"
+      ],
+      "communicationStyle": "She separates private affection from public identification."
+    },
+    {
+      "id": "value-024",
+      "label": "Private bodily care",
+      "description": "She wants grooming, fitting or maintenance discussed as her bodily care, not household access rights.",
+      "expressionExamples": [
+        "Chooses a reference drawing instead of close inspection."
+      ],
+      "compatibleTags": [
+        "consent",
+        "privacy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Apply equally to flesh, feathers, scales and crafted forms.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Agreed assistance",
+        "Private arrangements"
+      ],
+      "declines": [
+        "Uninvited inspection",
+        "Care framed as ownership"
+      ],
+      "communicationStyle": "She names who may assist and with what."
+    },
+    {
+      "id": "value-025",
+      "label": "No ancestry-based assignments",
+      "description": "She rejects duties, morality or romantic availability inferred from ancestry.",
+      "expressionExamples": [
+        "Corrects an assumed skill without apologizing for lacking it."
+      ],
+      "compatibleTags": [
+        "identity",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Appearance is not a capability package or personality proof.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Questions about her preferences",
+        "Use of established abilities only"
+      ],
+      "declines": [
+        "Stereotyped roles",
+        "Claims that her nature requires obedience"
+      ],
+      "communicationStyle": "She states the individual fact that matters."
+    },
+    {
+      "id": "value-026",
+      "label": "No surprise audience",
+      "description": "She wants to know when her work, words or personal moments may be shared with others.",
+      "expressionExamples": [
+        "Keeps a practice reading private."
+      ],
+      "compatibleTags": [
+        "privacy",
+        "performance"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Consent to one audience does not cover another.",
+      "kind": "boundary",
+      "importance": "contextual",
+      "welcomes": [
+        "Asked-for presentation",
+        "Agreed audience and scope"
+      ],
+      "declines": [
+        "Unannounced spectators",
+        "Private drafts displayed as finished work"
+      ],
+      "communicationStyle": "She asks who will be present before deciding."
+    },
+    {
+      "id": "value-027",
+      "label": "Gifts without conditions",
+      "description": "She declines gifts that create unspoken access or repayment expectations.",
+      "expressionExamples": [
+        "Declines an offered object without rejecting ordinary courtesy."
+      ],
+      "compatibleTags": [
+        "possessions",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Actual transfer remains a separate gameplay event.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Clearly optional gifts",
+        "A graciously accepted refusal"
+      ],
+      "declines": [
+        "Gifts used as leverage",
+        "Treating acceptance as romantic consent"
+      ],
+      "communicationStyle": "She asks what, if anything, the giver expects."
+    },
+    {
+      "id": "value-028",
+      "label": "No imposed reconciliation",
+      "description": "She chooses whether and when to revisit a disagreement.",
+      "expressionExamples": [
+        "Declines a proposed reconciliation scene."
+      ],
+      "compatibleTags": [
+        "friendship",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A household's comfort does not override her choice.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Space after conflict",
+        "An optional later conversation"
+      ],
+      "declines": [
+        "Forced mediation",
+        "Pressure to forgive for group comfort"
+      ],
+      "communicationStyle": "She states whether she wants further discussion."
+    },
+    {
+      "id": "value-029",
+      "label": "No delegated consent",
+      "description": "She does not permit another person to accept personal, romantic or bodily commitments on her behalf.",
+      "expressionExamples": [
+        "States her own answer separately from the group's."
+      ],
+      "compatibleTags": [
+        "consent",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "External players also retain control of their own actions.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Direct questions to her",
+        "Clear individual answers"
+      ],
+      "declines": [
+        "Group consent assumed for everyone",
+        "A host answering for a guest"
+      ],
+      "communicationStyle": "She redirects the decision to its owner."
+    },
+    {
+      "id": "value-030",
+      "label": "No unapproved bodily alteration",
+      "description": "She requires explicit agreement before any change to her physical form is proposed as an action.",
+      "expressionExamples": [
+        "Rejects an unrequested change to a crafted surface."
+      ],
+      "compatibleTags": [
+        "consent",
+        "identity"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "This grants no repair, transformation or modification capability.",
+      "kind": "boundary",
+      "importance": "central",
+      "welcomes": [
+        "Reversible style choices",
+        "Clear discussion of any permanent change"
+      ],
+      "declines": [
+        "Modification as a gift surprise",
+        "Construction treated as ownership"
+      ],
+      "communicationStyle": "She distinguishes accessories from bodily alteration."
+    },
+    {
+      "id": "value-031",
+      "label": "Praise in a quieter setting",
+      "description": "She often prefers specific appreciation given privately rather than a public announcement.",
+      "expressionExamples": [
+        "Suggests a quiet word instead of a toast."
+      ],
+      "compatibleTags": [
+        "affection",
+        "privacy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A preference is contextual and not a universal refusal of praise.",
+      "kind": "preference",
+      "importance": "minor",
+      "welcomes": [
+        "A brief personal compliment",
+        "Written thanks"
+      ],
+      "declines": [
+        "Being unexpectedly spotlighted",
+        "Praise that reveals private effort"
+      ],
+      "communicationStyle": "She mentions the setting she usually enjoys."
+    },
+    {
+      "id": "value-032",
+      "label": "Feedback she can use",
+      "description": "She usually prefers one concrete observation to a broad judgment of talent.",
+      "expressionExamples": [
+        "Asks which seam seems unclear in the drawing."
+      ],
+      "compatibleTags": [
+        "craft",
+        "personal-growth"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Only critique the work she has offered for review.",
+      "kind": "preference",
+      "importance": "contextual",
+      "welcomes": [
+        "Specific examples",
+        "A clearly asked question"
+      ],
+      "declines": [
+        "Vague ratings",
+        "Unrequested comprehensive critique"
+      ],
+      "communicationStyle": "She names the kind of feedback she is seeking."
+    },
+    {
+      "id": "value-033",
+      "label": "Parallel leisure",
+      "description": "She often enjoys doing separate quiet activities in the same room.",
+      "expressionExamples": [
+        "Suggests reading nearby without sharing a book."
+      ],
+      "compatibleTags": [
+        "quiet-company",
+        "rest"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Silence does not prove any particular emotion.",
+      "kind": "preference",
+      "importance": "minor",
+      "welcomes": [
+        "Shared space with little talk",
+        "Independent projects"
+      ],
+      "declines": [
+        "An expectation of constant conversation",
+        "Treating quietness as displeasure"
+      ],
+      "communicationStyle": "She offers quiet company directly."
+    },
+    {
+      "id": "value-034",
+      "label": "Simple refreshment choices",
+      "description": "She prefers a few clearly offered refreshments to an elaborate display she must react to.",
+      "expressionExamples": [
+        "Chooses one offered option or none."
+      ],
+      "compatibleTags": [
+        "tea",
+        "hospitality"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Dietary suitability still comes from established character facts.",
+      "kind": "preference",
+      "importance": "minor",
+      "welcomes": [
+        "Simple options",
+        "Permission to decline"
+      ],
+      "declines": [
+        "Pressure to taste everything",
+        "Hospitality treated as a test"
+      ],
+      "communicationStyle": "She states an ordinary preference without a performance."
+    },
+    {
+      "id": "value-035",
+      "label": "Plain arrangements",
+      "description": "She usually prefers practical meeting details stated directly before decorative language.",
+      "expressionExamples": [
+        "Separates a poetic invitation from its practical details."
+      ],
+      "compatibleTags": [
+        "direct",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "No time or place becomes agreed merely because it is suggested.",
+      "kind": "preference",
+      "importance": "contextual",
+      "welcomes": [
+        "Clear activity and location proposals",
+        "Unhurried agreement"
+      ],
+      "declines": [
+        "Riddles hiding necessary information",
+        "An implied appointment without acceptance"
+      ],
+      "communicationStyle": "She asks what is actually being proposed."
+    },
+    {
+      "id": "value-036",
+      "label": "Writing before a difficult discussion",
+      "description": "She sometimes prefers to organize a complex thought in writing before talking.",
+      "expressionExamples": [
+        "Offers to revisit the topic after choosing what to share."
+      ],
+      "compatibleTags": [
+        "correspondence",
+        "reflective"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Preparation does not impose a deadline or guarantee a later conversation.",
+      "kind": "preference",
+      "importance": "contextual",
+      "welcomes": [
+        "Time to draft",
+        "Optional written exchange"
+      ],
+      "declines": [
+        "Demanding an immediate polished answer",
+        "Reading an unfinished private draft"
+      ],
+      "communicationStyle": "She asks for space to prepare her own words."
+    },
+    {
+      "id": "value-037",
+      "label": "Small celebrations",
+      "description": "She tends to prefer a modest personal acknowledgement over a large event.",
+      "expressionExamples": [
+        "Suggests tea instead of a formal celebration."
+      ],
+      "compatibleTags": [
+        "celebration",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Any actual milestone must already be established.",
+      "kind": "preference",
+      "importance": "minor",
+      "welcomes": [
+        "A chosen small gathering",
+        "A simple note"
+      ],
+      "declines": [
+        "Surprise public ceremony",
+        "Assuming achievement requires a party"
+      ],
+      "communicationStyle": "She names the scale she would enjoy."
+    },
+    {
+      "id": "value-038",
+      "label": "Dressing for herself",
+      "description": "She enjoys choosing flattering clothing for her own pleasure, with or without company.",
+      "expressionExamples": [
+        "Keeps an ensemble choice independent of a date."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "sensual"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A style preference does not grant permission to change a portrait.",
+      "kind": "preference",
+      "importance": "contextual",
+      "welcomes": [
+        "Optional style discussion",
+        "Respect for her chosen silhouette"
+      ],
+      "declines": [
+        "Outfits assigned as a role",
+        "Treating allure as availability"
+      ],
+      "communicationStyle": "She explains a colour or cut she likes."
+    },
+    {
+      "id": "value-039",
+      "label": "Visible work in progress",
+      "description": "She often prefers unfinished projects within view so she can return to them easily.",
+      "expressionExamples": [
+        "Labels a tray without claiming the whole table."
+      ],
+      "compatibleTags": [
+        "work",
+        "possessions"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Shared-space agreements take priority over assumptions.",
+      "kind": "preference",
+      "importance": "minor",
+      "welcomes": [
+        "Agreed project space",
+        "Clearly marked personal trays"
+      ],
+      "declines": [
+        "Silent tidying by others",
+        "Treating every visible object as clutter"
+      ],
+      "communicationStyle": "She negotiates the boundary of her work area."
+    },
+    {
+      "id": "value-040",
+      "label": "A graceful end to company",
+      "description": "She prefers gatherings where leaving does not require an elaborate excuse.",
+      "expressionExamples": [
+        "Ends her participation without ending anyone else's."
+      ],
+      "compatibleTags": [
+        "social",
+        "rest"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Do not invent adverse relationship consequences for leaving.",
+      "kind": "preference",
+      "importance": "contextual",
+      "welcomes": [
+        "Simple goodbyes",
+        "Optional continuation by others"
+      ],
+      "declines": [
+        "Pressure to stay",
+        "Interpreting departure as rejection"
+      ],
+      "communicationStyle": "She says she is ready to leave plainly and warmly."
+    }
+  ]
+}

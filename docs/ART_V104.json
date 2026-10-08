@@ -1,0 +1,93 @@
+{
+  "assets": [
+    {
+      "id": "ready",
+      "path": "static/assets/status/ready.webp",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 16934,
+      "sha256": "d6afb7c6bcaa0592ea5f080441e3ad90bed69d19fd1202772a4e115108b13860",
+      "masterArchivePath": "masters/ready.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 1429708,
+      "masterSHA256": "829e84ececde1bbe6d1af1d773da107bbb6910f4c12ab74725ae5f80d250633a",
+      "sourceSHA256": "63ccec455d4eeb79f927a1fe32ba6c5144b42b12e5b6229c268e1113b879701b",
+      "sourceBytes": 2357485,
+      "masterRGBAPixelIdentical": true,
+      "displayEncodingPixelIdentical": true
+    },
+    {
+      "id": "paused",
+      "path": "static/assets/status/paused.webp",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 15108,
+      "sha256": "1e84af53fce059dd8f64f9cdeff2e04d63531fe9011903588d2374f98051fe50",
+      "masterArchivePath": "masters/paused.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 1097856,
+      "masterSHA256": "c9e088b2355b589f2439d71063a0165cbe0d6a78aec5ef5ec2dd556a7c571db1",
+      "sourceSHA256": "01639d4be6276b3cc67a5bcac7ff21730ba493905a66fff1b36b4588dbf37c92",
+      "sourceBytes": 1738570,
+      "masterRGBAPixelIdentical": true,
+      "displayEncodingPixelIdentical": true
+    },
+    {
+      "id": "choice",
+      "path": "static/assets/status/choice.webp",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 9222,
+      "sha256": "5851b8a7d60a7262faf7d0db62f849b0cb752d73850d9e64e974b9bf083bf3fe",
+      "masterArchivePath": "masters/choice.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 631436,
+      "masterSHA256": "e7a3d0651f2367e4ec807209574a5d6a32e7bf49e6bbbf4befbd452670689842",
+      "sourceSHA256": "7d66629ebbc10933d6776357ab7de8abdd6501024093e1f96d2cfeabd9746f0a",
+      "sourceBytes": 1017961,
+      "masterRGBAPixelIdentical": true,
+      "displayEncodingPixelIdentical": true
+    },
+    {
+      "id": "invitation",
+      "path": "static/assets/status/invitation.webp",
+      "dimensions": [
+        128,
+        128
+      ],
+      "bytes": 14110,
+      "sha256": "27e929a2ea32f8689627f2620dca3d4b2ca172b71450fb3d91ed350b7a934c40",
+      "masterArchivePath": "masters/invitation.webp",
+      "masterDimensions": [
+        1254,
+        1254
+      ],
+      "masterBytes": 1193954,
+      "masterSHA256": "96507f3a694c3854929276a509b642c0c5f8ac3d51046a806145917dcf287d56",
+      "sourceSHA256": "5a97a0d2999e6f896aeaad9aa2b563296a5709beb802e0392fa398cae3f62fc1",
+      "sourceBytes": 1864716,
+      "masterRGBAPixelIdentical": true,
+      "displayEncodingPixelIdentical": true
+    }
+  ],
+  "totalDisplayBytes": 55374,
+  "totalMasterBytes": 4352954,
+  "masterArchive": "stonework-and-spellcraft-icon-masters-v0.104.zip",
+  "mastersBundledWithGame": false,
+  "encoding": "Lossless WebP. Display copies are Lanczos-resampled to 128 pixels, then encoded without further pixel changes. Full-resolution masters preserve source RGBA pixels and remain outside the game."
+}

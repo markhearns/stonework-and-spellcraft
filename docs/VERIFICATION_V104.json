@@ -1,0 +1,61 @@
+{
+  "release": "0.104",
+  "saveSchema": 65,
+  "gameplayRulesChanged": false,
+  "python": {
+    "result": "pass",
+    "tests": 109,
+    "modules": {
+      "test_guidance.py": 5,
+      "test_armoury.py": 15,
+      "test_visual_status_v104.py": 6,
+      "test_field_patrols.py": 25,
+      "test_magic_overhaul.py": 22,
+      "test_candidate_http.py": 1,
+      "test_party_journeys.py": 28,
+      "test_writing_v101.py": 7
+    }
+  },
+  "ui": {
+    "result": "pass",
+    "scripts": [
+      "test_ui_armoury.cjs",
+      "test_ui_unified.cjs",
+      "test_ui_visual_status_v104.cjs",
+      "test_ui_room_navigation.cjs",
+      "test_ui_guidance.cjs",
+      "test_ui_magic.cjs",
+      "test_ui_status_v103.cjs"
+    ],
+    "method": "Headless templates and click controllers against persisted Python API state. No rendered browser review."
+  },
+  "javascriptSyntax": "pass",
+  "compatibilityAndArt": {
+    "priorAssetsUnchanged": 286,
+    "newIcons": 4,
+    "fullResolutionMasterPixelIdentity": true,
+    "displayEncodingPixelIdentityAfterResampling": true,
+    "transparentEdges": true,
+    "servedAssetByteAndMimeChecks": 4,
+    "v103SQLiteCampaigns": 2,
+    "exactStatePreserved": true,
+    "publicViewsReadOnly": true,
+    "reloadExact": true,
+    "pausedMilestonesPreserved": true,
+    "saveSchema": 65
+  },
+  "assetBytes": {
+    "display": 55374,
+    "masters": 4352954
+  },
+  "limits": [
+    "Rendered browser review remains deferred.",
+    "Display copies are downsampled; lossless full-resolution masters are kept in a separate optional archive."
+  ],
+  "packaging": {
+    "masterImagesIncluded": false,
+    "masterArchive": "stonework-and-spellcraft-icon-masters-v0.104.zip",
+    "runtimeImages": 290,
+    "packagingScript": "scripts/package_game.py"
+  }
+}

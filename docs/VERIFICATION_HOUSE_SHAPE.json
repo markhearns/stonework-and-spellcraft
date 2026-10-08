@@ -1,0 +1,112 @@
+{
+  "version": "0.76-dev",
+  "releaseOnHold": true,
+  "schemaVersion": 59,
+  "python": {
+    "broadSuitePassed": 834,
+    "finalChapterSuitePassed": 11,
+    "uniqueTestsVerified": 835,
+    "note": "Broad run includes the first ten chapter-two tests; the final focused run includes the established-research compatibility test and all follow-up changes."
+  },
+  "uiControllerSuitesPassed": 49,
+  "javascriptSyntax": "passed",
+  "playthroughs": [
+    {
+      "path": "scholarship",
+      "design": "index",
+      "advances": 24,
+      "fundsAtEnd": 0,
+      "contributions": {
+        "founder": 6
+      },
+      "benefitUse": "An ordinary shared research phase used the fitted archive.",
+      "complete": true
+    },
+    {
+      "path": "scholarship",
+      "design": "table",
+      "advances": 22,
+      "fundsAtEnd": 8,
+      "contributions": {
+        "founder": 6
+      },
+      "benefitUse": "An ordinary copying phase used the fitted desk\u2019s income bonus.",
+      "complete": true
+    },
+    {
+      "path": "cultivation",
+      "design": "nursery",
+      "advances": 35,
+      "fundsAtEnd": 2,
+      "contributions": {
+        "founder": 6
+      },
+      "benefitUse": "An ordinary staffed harvest used the fitted growing beds.",
+      "complete": true
+    },
+    {
+      "path": "cultivation",
+      "design": "kitchen",
+      "advances": 33,
+      "fundsAtEnd": 0,
+      "contributions": {
+        "founder": 6
+      },
+      "benefitUse": "An ordinary staffed harvest used the fitted growing beds.",
+      "complete": true
+    },
+    {
+      "path": "craftsmanship",
+      "design": "production",
+      "advances": 35,
+      "fundsAtEnd": 13,
+      "contributions": {
+        "founder": 6
+      },
+      "benefitUse": "An ordinary artifact-crafting phase used the fitted assembly bench.",
+      "complete": true
+    },
+    {
+      "path": "craftsmanship",
+      "design": "alcove",
+      "advances": 34,
+      "fundsAtEnd": 18,
+      "contributions": {
+        "founder": 6
+      },
+      "benefitUse": "An ordinary copying phase used the fitted desk\u2019s income bonus.",
+      "complete": true
+    }
+  ],
+  "preservation": {
+    "artworkFilesUnchanged": 162,
+    "bundledContentFilesUnchanged": 2,
+    "modifiedExistingFiles": [
+      "party_journeys.py",
+      "dialogue.py",
+      "progression.py",
+      "game.py",
+      "server.py",
+      "START_HERE.md",
+      "guidance.py",
+      "phase_tasks.py",
+      "README.md",
+      "room_life.py",
+      "static/app.js",
+      "static/style.css",
+      "tests/test_candidate_http.py",
+      "docs/DESIGN_PROGRESS.md",
+      "docs/IMPLEMENTATION_STATUS.md"
+    ],
+    "liveCampaignFilesBundled": false,
+    "optionalStateCreatedOnRead": false
+  },
+  "visualChanges": "Existing representative illustrations retained. Installed design descriptions, benefits and contribution receipts appear in room workspaces.",
+  "browserVisualReview": false,
+  "browserLimitation": "No installed browser executable in this environment, as verified during the preceding checkpoint. No rendered desktop/mobile review claimed.",
+  "otherLimits": [
+    "No live-provider acceptance test",
+    "No co-op-agent integration test",
+    "No Docker-runtime test"
+  ]
+}

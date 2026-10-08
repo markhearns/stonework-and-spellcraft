@@ -1,0 +1,1158 @@
+{
+  "version": 1,
+  "creatures": {
+    "briarback-boar": {
+      "id": "briarback-boar",
+      "name": "Briarback boar",
+      "category": "creature",
+      "habitat": "Woodland",
+      "appearance": "A heavy boar with coarse dark bristles and thorny growths along its shoulders.",
+      "signs": "Cloven prints, churned soil and bark scraped at shoulder height.",
+      "behaviour": "Charges when surprised or when its young are approached. Give it a clear route away.",
+      "advice": "Put a tree between you and its tusks, then drive it away.",
+      "materialsNote": "Recover usable binding thread from the overturned supply cart. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "boar",
+      "art": "/assets/bestiary/creatures/briarback-boar.webp",
+      "thumbnail": "/assets/bestiary/creatures/briarback-boar-thumb.webp"
+    },
+    "slatehide-lizard": {
+      "id": "slatehide-lizard",
+      "name": "Slatehide lizard",
+      "category": "creature",
+      "habitat": "Quarry",
+      "appearance": "A low, broad reptile with overlapping grey plates and an olive belly.",
+      "signs": "A tail furrow between four-footed tracks; warm stones polished by resting bodies.",
+      "behaviour": "Basks near a sheltered nest and faces intruders with its plated back.",
+      "advice": "Lure it away from its nest before crossing the exposed ledge.",
+      "materialsNote": "Mineral-rich clay is scraped from the lizard’s abandoned ledge. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "slatehide-lizard",
+      "art": "/assets/bestiary/creatures/slatehide-lizard.webp",
+      "thumbnail": "/assets/bestiary/creatures/slatehide-lizard-thumb.webp"
+    },
+    "storm-antler-stag": {
+      "id": "storm-antler-stag",
+      "name": "Storm-antler stag",
+      "category": "creature",
+      "habitat": "Upland",
+      "appearance": "A tawny deer whose dark branching antlers hold a small electrical charge.",
+      "signs": "Split hoofprints and scorched tips on low branches after storms.",
+      "behaviour": "Usually flees. A cornered stag lowers its antlers and discharges at close range.",
+      "advice": "Keep your distance and guide it toward open ground.",
+      "materialsNote": "Recover a moon-glass fragment exposed where the stag’s charge struck the old boundary stones. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "storm-antler-stag",
+      "art": "/assets/bestiary/creatures/storm-antler-stag.webp",
+      "thumbnail": "/assets/bestiary/creatures/storm-antler-stag-thumb.webp"
+    },
+    "giant-marsh-crab": {
+      "id": "giant-marsh-crab",
+      "name": "Giant marsh crab",
+      "category": "creature",
+      "habitat": "Wetland",
+      "appearance": "A mud-brown crab with reeds caught in its shell joints and one enlarged claw.",
+      "signs": "Broad drag marks, broken reeds and shell fragments along muddy banks.",
+      "behaviour": "Defends a feeding place and seizes anything pushed within reach.",
+      "advice": "Place bait away from the crossing to draw it off.",
+      "materialsNote": "Clean porous clay is gathered from the bank after the crossing is safe. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "giant-marsh-crab",
+      "art": "/assets/bestiary/creatures/giant-marsh-crab.webp",
+      "thumbnail": "/assets/bestiary/creatures/giant-marsh-crab-thumb.webp"
+    },
+    "lantern-moth": {
+      "id": "lantern-moth",
+      "name": "Lantern moth",
+      "category": "creature",
+      "habitat": "Woodland",
+      "appearance": "A large moth with parchment-coloured wings and softly lit amber markings.",
+      "signs": "Wing dust on lamp glass and matching bite marks on soft leaves.",
+      "behaviour": "Follows strong lights. Disturbed moths beat dust into the air and obscure movement.",
+      "advice": "Shade the party’s lamps and set a small decoy light off the path.",
+      "materialsNote": "Warm resin left beneath the feeding tree can be cleaned into sun amber. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "lantern-moth",
+      "art": "/assets/bestiary/creatures/lantern-moth.webp",
+      "thumbnail": "/assets/bestiary/creatures/lantern-moth-thumb.webp"
+    },
+    "grave-silk-spider": {
+      "id": "grave-silk-spider",
+      "name": "Grave-silk spider",
+      "category": "creature",
+      "habitat": "Ruins",
+      "appearance": "A pale living spider with long legs and dense white silk. It is not undead.",
+      "signs": "Low trip threads, wrapped beetles and thick silk around sheltered corners.",
+      "behaviour": "Waits behind web anchors, then rushes whatever disturbs a trip line.",
+      "advice": "Trace its silk anchors and clear a route around the web.",
+      "materialsNote": "Ordinary abandoned silk is cleaned and spun into binding thread; the rare intact strands are kept separately. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "grave-silk-spider",
+      "art": "/assets/bestiary/creatures/grave-silk-spider.webp",
+      "thumbnail": "/assets/bestiary/creatures/grave-silk-spider-thumb.webp"
+    },
+    "reed-lurker": {
+      "id": "reed-lurker",
+      "name": "Reed lurker",
+      "category": "creature",
+      "habitat": "Wetland",
+      "appearance": "A long olive amphibian with four strong legs and reed-like growths above its eyes.",
+      "signs": "A sliding belly track into water and reeds bent toward a concealed resting hollow.",
+      "behaviour": "Waits in shallow water, then lunges and pulls prey toward the bank.",
+      "advice": "Cross on firm high ground instead of entering the shallows.",
+      "materialsNote": "Silver ivy grows along the bank that the creature had made unsafe to reach. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "reed-lurker",
+      "art": "/assets/bestiary/creatures/reed-lurker.webp",
+      "thumbnail": "/assets/bestiary/creatures/reed-lurker-thumb.webp"
+    },
+    "hearth-ash-hound": {
+      "id": "hearth-ash-hound",
+      "name": "Hearth-ash hound",
+      "category": "creature",
+      "habitat": "Ruins",
+      "appearance": "A lean elemental hound of charcoal and cracked fired clay, with embers in the fissures.",
+      "signs": "Warm paw-shaped ash marks near old kilns and unusually fast-burning fuel.",
+      "behaviour": "Follows heat and fresh fuel. It circles an active fire before pouncing.",
+      "advice": "Water and ice are effective; fire cannot damage it. Smother nearby fuel to draw it off.",
+      "materialsNote": "Recover fireglass formed in the heat of the occupied kiln. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "ember-hound",
+      "art": "/assets/bestiary/creatures/hearth-ash-hound.webp",
+      "thumbnail": "/assets/bestiary/creatures/hearth-ash-hound-thumb.webp"
+    },
+    "root-mimic": {
+      "id": "root-mimic",
+      "name": "Root mimic",
+      "category": "creature",
+      "habitat": "Woodland",
+      "appearance": "A knot of mobile roots that resembles a fallen stump while resting.",
+      "signs": "Freshly turned soil beneath a log that has no matching broken tree nearby.",
+      "behaviour": "Reaches for movement nearby and restrains intruders with flexible roots.",
+      "advice": "Find the main anchoring root and draw the smaller roots away from the path.",
+      "materialsNote": "Recover living silver-ivy cuttings caught in the moving root mass. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "root-mimic",
+      "art": "/assets/bestiary/creatures/root-mimic.webp",
+      "thumbnail": "/assets/bestiary/creatures/root-mimic-thumb.webp"
+    },
+    "moss-troll": {
+      "id": "moss-troll",
+      "name": "Moss troll",
+      "category": "creature",
+      "habitat": "Upland",
+      "appearance": "A broad, heavy person with stony skin, mossy shoulders and a blunt expressive face.",
+      "signs": "Large bare footprints, stacked boundary stones and a cooking place near shelter.",
+      "behaviour": "Can speak and negotiate. Some guard a bridge or demand that travellers respect a boundary.",
+      "advice": "Ask what it is protecting and agree safe passage. Hostility belongs to the situation, not its species.",
+      "materialsNote": "Gather silver ivy from the bridge bank after the crossing is settled. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "moss-troll",
+      "art": "/assets/bestiary/creatures/moss-troll.webp",
+      "thumbnail": "/assets/bestiary/creatures/moss-troll-thumb.webp"
+    },
+    "ruin-gargoyle": {
+      "id": "ruin-gargoyle",
+      "name": "Ruin gargoyle",
+      "category": "creature",
+      "habitat": "Ruins",
+      "appearance": "A carved stone guardian with chipped wings and animal features chosen by its sculptor.",
+      "signs": "Repeated scrape marks around a gate and matching carved symbols on nearby posts.",
+      "behaviour": "Repeats its maker’s boundary command; it does not hunt for food.",
+      "advice": "Read the boundary marks and follow the permitted route. Lightning is effective against its construct body.",
+      "materialsNote": "Recover loose clay and moon-glass fragments from the damaged ward post. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "ruin-gargoyle",
+      "art": "/assets/bestiary/creatures/ruin-gargoyle.webp",
+      "thumbnail": "/assets/bestiary/creatures/ruin-gargoyle-thumb.webp"
+    },
+    "restless-sentry": {
+      "id": "restless-sentry",
+      "name": "Restless sentry",
+      "category": "creature",
+      "habitat": "Ruins",
+      "appearance": "An animated skeleton in worn practical armour, still carrying an old watch weapon.",
+      "signs": "Regular boot scrapes, a repeating patrol route and fragments of an old watch roster.",
+      "behaviour": "Repeats a duty from the abandoned post and challenges movement across its route.",
+      "advice": "Use the old watch orders to secure passage. Magic that harms undead is effective.",
+      "materialsNote": "Recover an intact moon-glass setting from the abandoned watch equipment. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "restless-sentry",
+      "art": "/assets/bestiary/creatures/restless-sentry.webp",
+      "thumbnail": "/assets/bestiary/creatures/restless-sentry-thumb.webp"
+    },
+    "wolf": {
+      "id": "wolf",
+      "name": "Grey wolf",
+      "category": "creature",
+      "habitat": "Woodland",
+      "appearance": "A grey woodland predator with a thick coat and a lean, four-legged build.",
+      "signs": "Four-toed prints, narrow tracks and chewed remains beside covered resting places.",
+      "behaviour": "Wolves test a group’s edges and look for isolated or weakened targets.",
+      "advice": "Keep the group together and leave the wolves an escape route.",
+      "materialsNote": "Gather silver ivy from the cleared path. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "wolf",
+      "art": "/assets/bestiary/creatures/wolf.webp",
+      "thumbnail": "/assets/bestiary/creatures/wolf-thumb.webp"
+    },
+    "griffin": {
+      "id": "griffin",
+      "name": "Ridge griffin",
+      "category": "creature",
+      "habitat": "Upland",
+      "appearance": "A ridge predator with eagle forequarters, folded feathered wings and lion hindquarters.",
+      "signs": "Large talon marks, tawny fur and fallen flight feathers around high nesting ledges.",
+      "behaviour": "Defends a claimed perch and dives at anyone approaching the nest.",
+      "advice": "Watch its circling route and pass below the nesting ledge.",
+      "materialsNote": "Recover moon-glass cargo dropped on the now-accessible ridge path. A separate rare component is used for advanced equipment or permanent castle improvements.",
+      "enemyId": "griffin",
+      "art": "/assets/bestiary/creatures/griffin.webp",
+      "thumbnail": "/assets/bestiary/creatures/griffin-thumb.webp"
+    }
+  },
+  "ancestries": {
+    "bovinefolk": {
+      "id": "bovinefolk",
+      "name": "Bovinefolk",
+      "category": "ancestry",
+      "appearance": "Bovine horns, bovine ears and a slender tufted tail, a human face and smooth human skin without body fur.",
+      "nature": "People with horns, bovine ears and a tufted tail, a human face and smooth skin without body fur.",
+      "accommodation": "Allow clearance for horns and a tail opening in clothes; do not assume a particular occupation or temperament.",
+      "arrival": "recruitment",
+      "art": "/assets/bestiary/ancestries/bovinefolk.webp",
+      "thumbnail": "/assets/bestiary/ancestries/bovinefolk-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "orc": {
+      "id": "orc",
+      "name": "Orc",
+      "category": "ancestry",
+      "appearance": "Green skin, strong features, small tusks rooted in the lower jaw, and a sturdy build.",
+      "nature": "Green-skinned people with strong features and small lower tusks. Builds and personal tastes vary.",
+      "accommodation": "Fit mouthguards around tusks and clothing to the individual’s build.",
+      "arrival": "recruitment",
+      "art": "/assets/bestiary/ancestries/orc.webp",
+      "thumbnail": "/assets/bestiary/ancestries/orc-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "wolfkin": {
+      "id": "wolfkin",
+      "name": "Wolfkin",
+      "category": "ancestry",
+      "appearance": "Expressive wolf ears and a fluffy wolf tail, a human face and smooth human skin.",
+      "nature": "Human-faced people with expressive wolf ears and a thick wolf tail. They are people, distinct from the wolves found on patrols.",
+      "accommodation": "Provide room for the tail in clothing and seats; helmets must fit the ears.",
+      "arrival": "recruitment",
+      "art": "/assets/bestiary/ancestries/wolfkin.webp",
+      "thumbnail": "/assets/bestiary/ancestries/wolfkin-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "oni": {
+      "id": "oni",
+      "name": "Oni",
+      "category": "ancestry",
+      "appearance": "Two strong horns and a powerful imposing frame with mature generous curves and a large bust.",
+      "nature": "Horned people with sturdy, often generously curved builds. Skin colours include muted red, copper-brown and dusky blue.",
+      "accommodation": "Check horn clearance, sturdy seating and comfortable clothing; no special room surcharge is added.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/oni.webp",
+      "thumbnail": "/assets/bestiary/ancestries/oni-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "human": {
+      "id": "human",
+      "name": "Human",
+      "category": "ancestry",
+      "appearance": "Individual, wholly human features.",
+      "nature": "Human communities include travellers, craft workers and scholars. People vary widely in build, skin colour and family traditions.",
+      "accommodation": "Ordinary rooms and clothes suit most people; ask about individual preferences.",
+      "arrival": "recruitment",
+      "art": "/assets/bestiary/ancestries/human.webp",
+      "thumbnail": "/assets/bestiary/ancestries/human-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "high-elf": {
+      "id": "high-elf",
+      "name": "High elf",
+      "category": "ancestry",
+      "appearance": "Long pointed ears and woodland-inspired personal adornments.",
+      "nature": "Fair-skinned elves whose long pointed ears and woodland adornments often reflect ties to forest settlements. Individual occupations and loyalties vary.",
+      "accommodation": "Leave room for long ears in helmets and hoods.",
+      "arrival": "recruitment",
+      "art": "/assets/bestiary/ancestries/high-elf.webp",
+      "thumbnail": "/assets/bestiary/ancestries/high-elf-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "dark-elf": {
+      "id": "dark-elf",
+      "name": "Dark elf",
+      "category": "ancestry",
+      "appearance": "Rich chocolate-brown skin, pointed ears and fine expressive features.",
+      "nature": "Chocolate-brown-skinned elves with pointed ears. Their settlements and occupations are varied; they are distinct from subterranean drow.",
+      "accommodation": "Fit helmets and hoods around their ears.",
+      "arrival": "recruitment",
+      "art": "/assets/bestiary/ancestries/dark-elf.webp",
+      "thumbnail": "/assets/bestiary/ancestries/dark-elf-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "drow": {
+      "id": "drow",
+      "name": "Drow",
+      "category": "ancestry",
+      "appearance": "Slate, charcoal or violet-grey skin, pointed ears and eyes adapted to dim surroundings.",
+      "nature": "Elves from subterranean communities, with slate, charcoal or violet-grey skin and eyes suited to dim surroundings.",
+      "accommodation": "Offer adjustable lamplight and sheltered sleeping space; room eligibility still follows the person’s stated needs.",
+      "arrival": "recruitment",
+      "art": "/assets/bestiary/ancestries/drow.webp",
+      "thumbnail": "/assets/bestiary/ancestries/drow-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "catfolk": {
+      "id": "catfolk",
+      "name": "Catfolk",
+      "category": "ancestry",
+      "appearance": "Expressive feline ears and a softly furred tail.",
+      "nature": "Human-faced people with feline ears and a softly furred tail. Their skin is otherwise humanlike.",
+      "accommodation": "Use seating, clothes and headwear that leave ears and tail comfortable.",
+      "arrival": "recruitment",
+      "art": "/assets/bestiary/ancestries/catfolk.webp",
+      "thumbnail": "/assets/bestiary/ancestries/catfolk-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "kitsune": {
+      "id": "kitsune",
+      "name": "Kitsune",
+      "category": "ancestry",
+      "appearance": "Fox ears and one luxuriant fox tail; tail count conveys no free magical power.",
+      "nature": "Fox-eared people with a luxuriant fox tail. Tail count does not grant an automatic magical rank.",
+      "accommodation": "Headwear and clothing need ear and tail clearance.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/kitsune.webp",
+      "thumbnail": "/assets/bestiary/ancestries/kitsune-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "golem": {
+      "id": "golem",
+      "name": "Golem",
+      "category": "ancestry",
+      "appearance": "A carefully crafted adult feminine form with fine visible maker’s joins.",
+      "nature": "Sentient people awakened in deliberately crafted adult bodies. Clay, porcelain, stone, wood and metal are supported construction materials. Their maker is not their owner.",
+      "accommodation": "Use the chosen body material and the individual’s accommodation request when preparing a room.",
+      "arrival": "construction",
+      "art": "/assets/bestiary/ancestries/golem.webp",
+      "thumbnail": "/assets/bestiary/ancestries/golem-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "demon": {
+      "id": "demon",
+      "name": "Demon",
+      "category": "ancestry",
+      "appearance": "Small swept horns and a slender expressive tail.",
+      "nature": "Otherworldly people whose traits may include horns, tails and leathery wings. Appearance does not determine morality, consent or profession.",
+      "accommodation": "Allow room for horns, tails and wings; follow the individual’s stated accommodation needs.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/demon.webp",
+      "thumbnail": "/assets/bestiary/ancestries/demon-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "seraph": {
+      "id": "seraph",
+      "name": "Seraph",
+      "category": "ancestry",
+      "appearance": "Soft feathered wings with subtly luminous edges.",
+      "nature": "Otherworldly people with feathered wings. Skin colours and occupations vary; wings do not establish authority over anyone else.",
+      "accommodation": "Leave enough space to fold and care for wings. Flight routes still require a listed ability or spell.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/seraph.webp",
+      "thumbnail": "/assets/bestiary/ancestries/seraph-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "elemental": {
+      "id": "elemental",
+      "name": "Elemental",
+      "category": "ancestry",
+      "appearance": "Mineral-flecked skin and a faint inner shimmer.",
+      "nature": "People whose bodies express an element, including water, fire, air or mineral earth. The illustration shows one water elemental, not every possible form.",
+      "accommodation": "Choose surroundings with the person’s stated elemental needs in mind. Their approved ability package determines practical magic.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/elemental.webp",
+      "thumbnail": "/assets/bestiary/ancestries/elemental-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "vampire": {
+      "id": "vampire",
+      "name": "Vampire",
+      "category": "ancestry",
+      "appearance": "Delicate fangs and attentive luminous eyes.",
+      "nature": "People with small fangs and distinctive attentive eyes. Feeding needs and personal boundaries must be discussed with the individual.",
+      "accommodation": "Follow the individual’s care and room requirements. This reference adds no hidden feeding timer or automatic damage.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/vampire.webp",
+      "thumbnail": "/assets/bestiary/ancestries/vampire-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "fae": {
+      "id": "fae",
+      "name": "Fae",
+      "category": "ancestry",
+      "appearance": "Leaflike ears and small iridescent markings.",
+      "nature": "Otherworldly people with leaflike ears or iridescent markings. Fae traditions differ between communities and individuals.",
+      "accommodation": "Ask about preferred surroundings and personal boundaries; no universal bargain or compulsion is assumed.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/fae.webp",
+      "thumbnail": "/assets/bestiary/ancestries/fae-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "djinn": {
+      "id": "djinn",
+      "name": "Djinn",
+      "category": "ancestry",
+      "appearance": "A gentle smoke-like shimmer around her hair.",
+      "nature": "Otherworldly people whose hair or silhouette may carry a faint smoke-like shimmer. They have their own lives and reasons to visit.",
+      "accommodation": "Agree accommodation and work directly. Summoning does not create ownership or compulsory service.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/djinn.webp",
+      "thumbnail": "/assets/bestiary/ancestries/djinn-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "dragonkin": {
+      "id": "dragonkin",
+      "name": "Dragonkin",
+      "category": "ancestry",
+      "appearance": "Small curved horns and fine scales at her temples.",
+      "nature": "People with curved horns and fine scales, sometimes with a scaled tail. Features vary without determining their learned discipline.",
+      "accommodation": "Fit clothes around horns, scales and any tail; discuss heat preferences individually.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/dragonkin.webp",
+      "thumbnail": "/assets/bestiary/ancestries/dragonkin-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "dryad": {
+      "id": "dryad",
+      "name": "Dryad",
+      "category": "ancestry",
+      "appearance": "Living bark skin, leaf-shaped ears and growing vines or twigs; personal forms and colours vary.",
+      "nature": "Plant-bodied people with living bark, leaflike ears and growing vines or twigs. They are living people, not humans wearing leaves.",
+      "accommodation": "Offer suitable light and space for living growth, guided by the individual’s room request.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/dryad.webp",
+      "thumbnail": "/assets/bestiary/ancestries/dryad-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "nymph": {
+      "id": "nymph",
+      "name": "Nymph",
+      "category": "ancestry",
+      "appearance": "Dew-bright markings and a soft natural shimmer.",
+      "nature": "People with a close affinity for springs, groves or other natural places, sometimes marked by a dew-like sheen.",
+      "accommodation": "Discuss the surroundings they prefer; a natural affinity does not replace individual needs.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/nymph.webp",
+      "thumbnail": "/assets/bestiary/ancestries/nymph-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    },
+    "spirit": {
+      "id": "spirit",
+      "name": "Spirit",
+      "category": "ancestry",
+      "appearance": "A pearly translucent glow at the edges of her silhouette.",
+      "nature": "People whose bodies can have softly translucent edges. Each has a distinct identity, interests and boundaries.",
+      "accommodation": "Ask which physical surroundings are comfortable. Translucence grants no unlisted passage through walls or immunity.",
+      "arrival": "summoning",
+      "art": "/assets/bestiary/ancestries/spirit.webp",
+      "thumbnail": "/assets/bestiary/ancestries/spirit-thumb.webp",
+      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+    }
+  },
+  "encounters": {
+    "wolf": {
+      "name": "Hungry wolves",
+      "kind": "animal",
+      "enemy": "living",
+      "hp": 6,
+      "attack": 2,
+      "crowns": 3,
+      "food": 6,
+      "materials": {
+        "silver-ivy": 1
+      },
+      "text": "Wolves block the track near an abandoned food sack. Keep an escape route open.",
+      "bestiaryId": "wolf",
+      "art": "/assets/bestiary/creatures/wolf.webp",
+      "thumbnail": "/assets/bestiary/creatures/wolf-thumb.webp",
+      "patterns": [
+        [
+          "Snap at the front",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Circle and lunge",
+          1,
+          0,
+          "rotate"
+        ],
+        [
+          "Harass the injured",
+          0,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Drive away without a fight",
+        "attribute": "dexterity",
+        "skill": "fieldcraft",
+        "threshold": 9
+      },
+      "materialsNote": "Gather silver ivy from the cleared path."
+    },
+    "boar": {
+      "name": "Briarback boar",
+      "kind": "animal",
+      "enemy": "living",
+      "hp": 8,
+      "attack": 2,
+      "crowns": 3,
+      "food": 8,
+      "materials": {
+        "binding-thread": 1
+      },
+      "text": "A boar charges from the undergrowth. Drive it off before recovering the scattered supplies.",
+      "bestiaryId": "briarback-boar",
+      "art": "/assets/bestiary/creatures/briarback-boar.webp",
+      "thumbnail": "/assets/bestiary/creatures/briarback-boar-thumb.webp",
+      "patterns": [
+        [
+          "Shoulder charge",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Heavy rush",
+          1,
+          0,
+          "rotate"
+        ],
+        [
+          "Turn and gore",
+          0,
+          1,
+          "rotate"
+        ]
+      ],
+      "approach": {
+        "name": "Drive away without a fight",
+        "attribute": "dexterity",
+        "skill": "fieldcraft",
+        "threshold": 9
+      },
+      "materialsNote": "Recover usable binding thread from the overturned supply cart."
+    },
+    "thief": {
+      "name": "Roadside thieves",
+      "kind": "human",
+      "enemy": "living",
+      "hp": 7,
+      "attack": 2,
+      "crowns": 6,
+      "food": 3,
+      "materials": {
+        "binding-thread": 1
+      },
+      "text": "Thieves have cut a wagon harness and are carrying away its cargo. The merchants offer a recovery fee.",
+      "patterns": [
+        [
+          "Test the front",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Slip around the guard",
+          0,
+          1,
+          "rotate"
+        ],
+        [
+          "Press the weak point",
+          0,
+          0,
+          "weak"
+        ]
+      ],
+      "roleId": "thief",
+      "ancestryId": "human",
+      "bestiaryId": "human",
+      "art": "/assets/bestiary/ancestries/human.webp",
+      "thumbnail": "/assets/bestiary/ancestries/human-thumb.webp"
+    },
+    "bandit": {
+      "name": "Armed bandits",
+      "kind": "human",
+      "enemy": "living",
+      "hp": 10,
+      "attack": 3,
+      "crowns": 8,
+      "food": 4,
+      "materials": {
+        "moon-glass": 1
+      },
+      "text": "Bandits demand a toll at a narrow crossing. Their leader watches for anyone breaking formation.",
+      "patterns": [
+        [
+          "Probe the guard",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Committed swing",
+          1,
+          0,
+          "rotate"
+        ],
+        [
+          "Flanking cut",
+          0,
+          1,
+          "weak"
+        ]
+      ],
+      "roleId": "bandit",
+      "ancestryId": "human",
+      "bestiaryId": "human",
+      "art": "/assets/bestiary/ancestries/human.webp",
+      "thumbnail": "/assets/bestiary/ancestries/human-thumb.webp"
+    },
+    "griffin": {
+      "name": "Ridge griffin",
+      "kind": "mythical",
+      "enemy": "living",
+      "hp": 13,
+      "attack": 3,
+      "crowns": 10,
+      "food": 4,
+      "materials": {
+        "moon-glass": 2
+      },
+      "text": "A griffin has claimed the ridge above a mineral outcrop. Secure passage; there is no need to kill it.",
+      "bestiaryId": "griffin",
+      "art": "/assets/bestiary/creatures/griffin.webp",
+      "thumbnail": "/assets/bestiary/creatures/griffin-thumb.webp",
+      "patterns": [
+        [
+          "Raking talons",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Diving strike",
+          1,
+          1,
+          "rotate"
+        ],
+        [
+          "Follow the wounded",
+          0,
+          1,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Pass beneath the nesting ledge",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 10
+      },
+      "materialsNote": "Recover moon-glass cargo dropped on the now-accessible ridge path."
+    },
+    "ember-hound": {
+      "name": "Hearth-ash hound",
+      "kind": "mythical",
+      "enemy": "ember",
+      "hp": 12,
+      "attack": 3,
+      "crowns": 10,
+      "food": 4,
+      "materials": {
+        "fireglass": 2
+      },
+      "text": "A hound with a coal-bright mane stalks the old boundary. Water and ice are more effective than fire.",
+      "bestiaryId": "hearth-ash-hound",
+      "art": "/assets/bestiary/creatures/hearth-ash-hound.webp",
+      "thumbnail": "/assets/bestiary/creatures/hearth-ash-hound-thumb.webp",
+      "patterns": [
+        [
+          "Burning bite",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Flare and pounce",
+          1,
+          1,
+          "rotate"
+        ],
+        [
+          "Searing pursuit",
+          0,
+          1,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Smother the exposed kiln fuel",
+        "attribute": "intelligence",
+        "skill": "scholarship",
+        "threshold": 10
+      },
+      "materialsNote": "Recover fireglass formed in the heat of the occupied kiln."
+    },
+    "slatehide-lizard": {
+      "name": "Slatehide lizard",
+      "kind": "animal",
+      "enemy": "living",
+      "hp": 9,
+      "attack": 2,
+      "crowns": 4,
+      "food": 4,
+      "materials": {
+        "porous-clay": 2
+      },
+      "text": "The creature blocks a quarry ledge beside scattered supplies. Secure a safe route for the work party.",
+      "bestiaryId": "slatehide-lizard",
+      "art": "/assets/bestiary/creatures/slatehide-lizard.webp",
+      "thumbnail": "/assets/bestiary/creatures/slatehide-lizard-thumb.webp",
+      "patterns": [
+        [
+          "Plated shoulder shove",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Tail sweep",
+          0,
+          1,
+          "rotate"
+        ],
+        [
+          "Snap at an exposed hand",
+          1,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Lure it away from the quarry ledge",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 8
+      },
+      "armour": 1,
+      "materialsNote": "Mineral-rich clay is scraped from the lizard’s abandoned ledge."
+    },
+    "storm-antler-stag": {
+      "name": "Storm-antler stag",
+      "kind": "mythical",
+      "enemy": "living",
+      "hp": 10,
+      "attack": 2,
+      "crowns": 4,
+      "food": 4,
+      "materials": {
+        "moon-glass": 1
+      },
+      "text": "The creature controls a ridge crossing used by travellers. Secure passage through its territory.",
+      "bestiaryId": "storm-antler-stag",
+      "art": "/assets/bestiary/creatures/storm-antler-stag.webp",
+      "thumbnail": "/assets/bestiary/creatures/storm-antler-stag-thumb.webp",
+      "patterns": [
+        [
+          "Warning antler thrust",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Close electrical discharge",
+          1,
+          1,
+          "rotate"
+        ],
+        [
+          "Kick while turning",
+          0,
+          0,
+          "front"
+        ]
+      ],
+      "approach": {
+        "name": "Guide it toward open ground",
+        "attribute": "dexterity",
+        "skill": "fieldcraft",
+        "threshold": 9
+      },
+      "materialsNote": "Recover a moon-glass fragment exposed where the stag’s charge struck the old boundary stones."
+    },
+    "giant-marsh-crab": {
+      "name": "Giant marsh crab",
+      "kind": "animal",
+      "enemy": "living",
+      "hp": 8,
+      "attack": 2,
+      "crowns": 4,
+      "food": 4,
+      "materials": {
+        "porous-clay": 1
+      },
+      "text": "The creature holds a shallow crossing used by supply carriers. Find safe passage.",
+      "bestiaryId": "giant-marsh-crab",
+      "art": "/assets/bestiary/creatures/giant-marsh-crab.webp",
+      "thumbnail": "/assets/bestiary/creatures/giant-marsh-crab-thumb.webp",
+      "patterns": [
+        [
+          "Grasping claw",
+          0,
+          1,
+          "front"
+        ],
+        [
+          "Heavy claw swing",
+          1,
+          0,
+          "rotate"
+        ],
+        [
+          "Sideways rush",
+          0,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Bait it away from the crossing",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 8
+      },
+      "materialsNote": "Clean porous clay is gathered from the bank after the crossing is safe."
+    },
+    "lantern-moth": {
+      "name": "Lantern moth",
+      "kind": "animal",
+      "enemy": "living",
+      "hp": 6,
+      "attack": 1,
+      "crowns": 4,
+      "food": 4,
+      "materials": {
+        "sun-amber": 1
+      },
+      "text": "The creature blocks a woodland track beside abandoned supplies. Secure the track without approaching a nest.",
+      "bestiaryId": "lantern-moth",
+      "art": "/assets/bestiary/creatures/lantern-moth.webp",
+      "thumbnail": "/assets/bestiary/creatures/lantern-moth-thumb.webp",
+      "patterns": [
+        [
+          "Wing-dust rush",
+          0,
+          1,
+          "front"
+        ],
+        [
+          "Follow the lantern",
+          0,
+          0,
+          "rotate"
+        ],
+        [
+          "Blinding wingbeat",
+          1,
+          0,
+          "rotate"
+        ]
+      ],
+      "approach": {
+        "name": "Lead it away with a shaded lantern",
+        "attribute": "intelligence",
+        "skill": "scholarship",
+        "threshold": 8
+      },
+      "materialsNote": "Warm resin left beneath the feeding tree can be cleaned into sun amber."
+    },
+    "grave-silk-spider": {
+      "name": "Grave-silk spider",
+      "kind": "animal",
+      "enemy": "living",
+      "hp": 8,
+      "attack": 2,
+      "crowns": 4,
+      "food": 4,
+      "materials": {
+        "binding-thread": 2
+      },
+      "text": "The creature guards a ruined outbuilding beside recoverable supplies. Secure safe access.",
+      "bestiaryId": "grave-silk-spider",
+      "art": "/assets/bestiary/creatures/grave-silk-spider.webp",
+      "thumbnail": "/assets/bestiary/creatures/grave-silk-spider-thumb.webp",
+      "patterns": [
+        [
+          "Rush along a trip line",
+          1,
+          0,
+          "front"
+        ],
+        [
+          "Silk snare",
+          0,
+          1,
+          "rotate"
+        ],
+        [
+          "Bite an isolated target",
+          0,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Trace a safe route around its web",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 8
+      },
+      "materialsNote": "Ordinary abandoned silk is cleaned and spun into binding thread; the rare intact strands are kept separately."
+    },
+    "reed-lurker": {
+      "name": "Reed lurker",
+      "kind": "animal",
+      "enemy": "living",
+      "hp": 9,
+      "attack": 2,
+      "crowns": 4,
+      "food": 4,
+      "materials": {
+        "silver-ivy": 1
+      },
+      "text": "The creature holds a shallow crossing used by supply carriers. Find safe passage.",
+      "bestiaryId": "reed-lurker",
+      "art": "/assets/bestiary/creatures/reed-lurker.webp",
+      "thumbnail": "/assets/bestiary/creatures/reed-lurker-thumb.webp",
+      "patterns": [
+        [
+          "Lunge from the shallows",
+          1,
+          0,
+          "front"
+        ],
+        [
+          "Pull toward the bank",
+          0,
+          1,
+          "rotate"
+        ],
+        [
+          "Sweep the wet ground",
+          0,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Find a dry route above the bank",
+        "attribute": "dexterity",
+        "skill": "fieldcraft",
+        "threshold": 9
+      },
+      "materialsNote": "Silver ivy grows along the bank that the creature had made unsafe to reach."
+    },
+    "root-mimic": {
+      "name": "Root mimic",
+      "kind": "animal",
+      "enemy": "living",
+      "hp": 9,
+      "attack": 2,
+      "crowns": 4,
+      "food": 4,
+      "materials": {
+        "silver-ivy": 2
+      },
+      "text": "The creature blocks a woodland track beside abandoned supplies. Secure the track without approaching a nest.",
+      "bestiaryId": "root-mimic",
+      "art": "/assets/bestiary/creatures/root-mimic.webp",
+      "thumbnail": "/assets/bestiary/creatures/root-mimic-thumb.webp",
+      "patterns": [
+        [
+          "Grasping roots",
+          0,
+          1,
+          "front"
+        ],
+        [
+          "Pull off balance",
+          1,
+          0,
+          "rotate"
+        ],
+        [
+          "Reach around the guard",
+          0,
+          1,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Divert its roots from the path",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 9
+      },
+      "materialsNote": "Recover living silver-ivy cuttings caught in the moving root mass."
+    },
+    "moss-troll": {
+      "name": "Moss troll",
+      "kind": "person",
+      "enemy": "living",
+      "hp": 12,
+      "attack": 3,
+      "crowns": 8,
+      "food": 4,
+      "materials": {
+        "silver-ivy": 1
+      },
+      "text": "The creature controls a ridge crossing used by travellers. Secure passage through its territory.",
+      "bestiaryId": "moss-troll",
+      "art": "/assets/bestiary/creatures/moss-troll.webp",
+      "thumbnail": "/assets/bestiary/creatures/moss-troll-thumb.webp",
+      "patterns": [
+        [
+          "Drive intruders back",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Heavy open-handed blow",
+          1,
+          0,
+          "rotate"
+        ],
+        [
+          "Sweep the crossing",
+          0,
+          1,
+          "front"
+        ]
+      ],
+      "approach": {
+        "name": "Agree passage through its territory",
+        "attribute": "charisma",
+        "skill": "diplomacy",
+        "threshold": 9
+      },
+      "materialsNote": "Gather silver ivy from the bridge bank after the crossing is settled."
+    },
+    "ruin-gargoyle": {
+      "name": "Ruin gargoyle",
+      "kind": "construct",
+      "enemy": "construct",
+      "hp": 11,
+      "attack": 3,
+      "crowns": 8,
+      "food": 4,
+      "materials": {
+        "porous-clay": 2,
+        "moon-glass": 1
+      },
+      "text": "The creature guards a ruined outbuilding beside recoverable supplies. Secure safe access.",
+      "bestiaryId": "ruin-gargoyle",
+      "art": "/assets/bestiary/creatures/ruin-gargoyle.webp",
+      "thumbnail": "/assets/bestiary/creatures/ruin-gargoyle-thumb.webp",
+      "patterns": [
+        [
+          "Stone paw strike",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Chipped wing sweep",
+          0,
+          1,
+          "rotate"
+        ],
+        [
+          "Guardian’s lunge",
+          1,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Read and follow the boundary command",
+        "attribute": "intelligence",
+        "skill": "scholarship",
+        "threshold": 10
+      },
+      "materialsNote": "Recover loose clay and moon-glass fragments from the damaged ward post."
+    },
+    "restless-sentry": {
+      "name": "Restless sentry",
+      "kind": "undead",
+      "enemy": "undead",
+      "hp": 10,
+      "attack": 2,
+      "crowns": 4,
+      "food": 4,
+      "materials": {
+        "moon-glass": 1
+      },
+      "text": "The creature guards a ruined outbuilding beside recoverable supplies. Secure safe access.",
+      "bestiaryId": "restless-sentry",
+      "art": "/assets/bestiary/creatures/restless-sentry.webp",
+      "thumbnail": "/assets/bestiary/creatures/restless-sentry-thumb.webp",
+      "patterns": [
+        [
+          "Challenge with the spear",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Watchman’s thrust",
+          0,
+          1,
+          "rotate"
+        ],
+        [
+          "Marching shield shove",
+          1,
+          0,
+          "front"
+        ]
+      ],
+      "approach": {
+        "name": "Present the old watch orders",
+        "attribute": "intelligence",
+        "skill": "scholarship",
+        "threshold": 9
+      },
+      "materialsNote": "Recover an intact moon-glass setting from the abandoned watch equipment."
+    }
+  }
+}

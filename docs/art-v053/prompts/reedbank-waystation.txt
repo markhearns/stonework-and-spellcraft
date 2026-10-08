@@ -1,0 +1,14 @@
+Use case: illustration-story. Generate exactly ONE new image. Output the native master image only; filename/export directions below describe later packaging, not extra panels or images.
+ASSET 02 — Reedbank waystation
+EXACT ID: reedbank-waystation
+RUNTIME: locations/reedbank-waystation.webp
+MASTER: masters/reedbank-waystation.png
+
+GENERATE THIS ONE SUBJECT ONLY
+A small disused brook-side supply stop under a low weathered timber roof, viewed at natural standing eye level. Show open shelter bays, a simple storage ledge and several intact ordinary clay storage jars clearly visible beneath the eaves. Reeds and the brook establish its setting; an approachable footpath passes the shelter. Worn stone footings and useful joinery, quiet natural daylight. Keep the scale intimate and utilitarian. No village, fortified inn, shop signage, magical jar glow or hidden-story symbols.
+
+CURRENT PROJECT AESTHETIC
+Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving–inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.
+
+COMPOSITION AND OUTPUT
+One full environmental illustration, landscape 16:9, opaque background. Preserve the native high-resolution PNG master; export a 1600 x 900 WebP runtime if possible. Keep focal architecture inside the central 80%; do not bake in a UI strip or artificial empty patch. No people, animals, text, logos, watermark, decorative frame or multi-panel sheet. Natural eye-level perspective, not isometric, aerial or map view. Daylight remains readable; the palette does not require night.

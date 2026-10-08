@@ -1,0 +1,135 @@
+{
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "id": "rhess",
+      "path": "static/assets/portraits/rhess.webp",
+      "source": "exec-ef577d02-e637-4d38-9bba-33c442cca938.png",
+      "prompt": "Use case: identity-preserve. Same clearly ADULT dragonkin Rhess, 25, as reference: preserve youthful adult face, copper skin bronze scales, long chestnut hair, horns, substantial tail, amber irises with narrow vertical REPTILIAN SLIT pupils. Antique engraved fantasy linework, warm muted natural colours, opaque clothing, no text or border. Full body including entire horns and feet with generous margin above horns. No high heels wedges or platforms. Two separate garments, visible bare midriff and navel. Keep exact everyday cropped leather vest and moss trousers outfit and steel spear, flat boots. Reframe to include horns completely with clear margin above. Genuine alpha transparent background.",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha": true,
+      "bytes": 162956,
+      "sha256": "d694c66d573ee9d167e08c3b9d96219212c1ca057409730988ca97b048cc7a68"
+    },
+    {
+      "id": "rhess-outfit-2",
+      "path": "static/assets/portraits/rhess-outfit-2.webp",
+      "source": "exec-0482a715-9c51-4b4a-9155-3e4933aed8bd.png",
+      "prompt": "Use case: identity-preserve. Same clearly ADULT dragonkin Rhess, 25, as reference: preserve youthful adult face, copper skin bronze scales, long chestnut hair, horns, substantial tail, amber irises with narrow vertical REPTILIAN SLIT pupils. Antique engraved fantasy linework, warm muted natural colours, opaque clothing, no text or border. Full body including entire horns and feet with generous margin above horns. No high heels wedges or platforms. Two separate garments, visible bare midriff and navel. Relaxed outfit: opaque sleeveless moss-green cropped wrap top, separate charcoal mid-thigh fitted shorts, flat calf boots. No spear. Warm amused expression, hand on hip. Genuine alpha transparent background.",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha": true,
+      "bytes": 142150,
+      "sha256": "56d6be0222d1292f492ca49e9cc221d368da2f603bbfda94ecab33d0a67a8ace"
+    },
+    {
+      "id": "rhess-outfit-3",
+      "path": "static/assets/portraits/rhess-outfit-3.webp",
+      "source": "exec-139a50ca-ad69-4975-9873-3f410c0b7e63.png",
+      "prompt": "Use case: identity-preserve. Same clearly ADULT dragonkin Rhess, 25, as reference: preserve youthful adult face, copper skin bronze scales, long chestnut hair, horns, substantial tail, amber irises with narrow vertical REPTILIAN SLIT pupils. Antique engraved fantasy linework, warm muted natural colours, opaque clothing, no text or border. Full body including entire horns and feet with generous margin above horns. No high heels wedges or platforms. Two separate garments, visible bare midriff and navel. Affectionate confident evening outfit: opaque deep wine-red halter crop top and separate short dark-bronze wrap skirt, tasteful low neckline, navel fully visible, flat strappy sandals. No spear. Relaxed hand near hair, affectionate conversational smile. Genuine alpha transparent background.",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha": true,
+      "bytes": 136710,
+      "sha256": "9a554937d4783354f6631d0905c4caf38fdf910a7da51a91c814d784c5ee84a6"
+    },
+    {
+      "id": "overview-rhess",
+      "path": "static/assets/portraits/overview/rhess.webp",
+      "source": "exec-2810be78-a3ca-443f-ade3-a741c23fabde.png",
+      "prompt": "Use case: identity-preserve. Same clearly ADULT dragonkin Rhess, 25, as reference: preserve youthful adult face, copper skin bronze scales, long chestnut hair, horns, substantial tail, amber irises with narrow vertical REPTILIAN SLIT pupils. Antique engraved fantasy linework, warm muted natural colours, opaque clothing, no text or border. Full body including entire horns and feet with generous margin above horns. No high heels wedges or platforms. Two separate garments, visible bare midriff and navel. Keep exact everyday cropped leather vest, trousers and flat boots outfit. In her modest stone watchtower map room, timber shutters open on distant road, brass signal lantern, steel spear against wall, worn desk with route map. Close conversational full-body view, she rests one hand at the table looking at viewer, no other people.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 330348,
+      "sha256": "21f96f9b6cae23e296ce5fd3fdd9a4e42a18d1cde159ee105bc0c5f8fafc62a7"
+    },
+    {
+      "id": "overview-rhess-outfit-2",
+      "path": "static/assets/portraits/overview/rhess-outfit-2.webp",
+      "source": "exec-b30c1f4f-ec9f-497a-b81c-e120fe820ef2.png",
+      "prompt": "Use case: identity-preserve. Place exactly this clearly adult dragonkin Rhess in her modest stone watchtower signal room beside a worn map desk, timber shutters overlooking a road, warm brass lantern, plain stone and timber. Preserve EXACT face, amber eyes with sharp vertical slit pupils, horns, hair, scales, tail, adult proportions and the exact two-piece outfit from reference including exposed navel and flat footwear. Full-body close conversational portrait looking at viewer, entire horns and feet in frame with margin. She holds a cup, friendly amused smile. Antique engraving etched linework crosshatching, muted rich natural colours, no text no other people.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 476232,
+      "sha256": "1d04e67d91174dcaef6528b3e3f8aa024f272ba2083dabe7cfd256292668b0a4"
+    },
+    {
+      "id": "overview-rhess-outfit-3",
+      "path": "static/assets/portraits/overview/rhess-outfit-3.webp",
+      "source": "exec-42fc9fb4-729c-4932-995f-31df8975bb63.png",
+      "prompt": "Use case: identity-preserve. Place exactly this clearly adult dragonkin Rhess in her modest stone watchtower signal room beside a worn map desk, timber shutters overlooking a road, warm brass lantern, plain stone and timber. Preserve EXACT face, amber eyes with sharp vertical slit pupils, horns, hair, scales, tail, adult proportions and the exact two-piece outfit from reference including exposed navel and flat footwear. Full-body close conversational portrait looking at viewer, entire horns and feet in frame with margin. Affectionate confident smile, one hand on desk, relaxed pose. Antique engraving etched linework crosshatching, muted rich natural colours, no text no other people.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 520844,
+      "sha256": "3ffcb770c77b627b4f83ca2d5dfb83d886cdd3dcaab616060f052e1718f136ba"
+    },
+    {
+      "id": "watchtower",
+      "path": "static/assets/rooms/watchtower.webp",
+      "source": "exec-b5f85d4e-1edf-4dbf-9616-918c8c4aafa2.png",
+      "prompt": "Use case: stylized-concept. Fantasy game illustration. Inside a modest restored stone watchtower signal room: worn map table, brass shuttered lantern, timber shutters opening towards a winding road, two chairs, hooks and practical storage. Warm restful late afternoon. No people. Antique engraving-inspired etched linework, fine crosshatching, worn natural materials, muted wood charcoal navy bronze colours, readable warm light, no glossy CGI or excessive magical glow, no text frame or watermark. Landscape composition, natural eye-level view.",
+      "size": [
+        960,
+        640
+      ],
+      "alpha": false,
+      "bytes": 196554,
+      "sha256": "17d78eea98a3c28419101c96c38ef7711edaf8807045aa0a0a225e1190ef87f9"
+    },
+    {
+      "id": "watchtower-trail",
+      "path": "static/assets/expeditions/watchtower-trail.webp",
+      "source": "exec-ad5f1d62-69f5-4b22-bf2d-f701394b133f.png",
+      "prompt": "Use case: stylized-concept. Fantasy game illustration. Winding forest road beside an abandoned tidy campsite, distant small weathered stone watchtower with one signal lantern, subtle footprints and warning stones. No people. Antique engraving-inspired etched linework, fine crosshatching, worn natural materials, muted wood charcoal navy bronze colours, readable warm light, no glossy CGI or excessive magical glow, no text frame or watermark. Landscape composition, natural eye-level view.",
+      "size": [
+        960,
+        640
+      ],
+      "alpha": false,
+      "bytes": 237072,
+      "sha256": "a482732ca9fe37a5f60eed9370dd5df444fe4d7665495be8ce9234e872e28631"
+    },
+    {
+      "id": "broken-wardstones",
+      "path": "static/assets/expeditions/broken-wardstones.webp",
+      "source": "exec-c3a16055-d053-4ff0-b252-52f0e8850c3a.png",
+      "prompt": "Use case: stylized-concept. Fantasy game illustration. Ancient cracked boundary stones beside a shallow forest ford, an inactive hulking weathered stone guardian beyond the crossing, old carved ward marks without readable letters, moss and a safe path. No people. Antique engraving-inspired etched linework, fine crosshatching, worn natural materials, muted wood charcoal navy bronze colours, readable warm light, no glossy CGI or excessive magical glow, no text frame or watermark. Landscape composition, natural eye-level view.",
+      "size": [
+        960,
+        640
+      ],
+      "alpha": false,
+      "bytes": 276204,
+      "sha256": "04493ae08251e520e4c334674913e41985d7834d7cf3f051fbf2e231bcf66323"
+    },
+    {
+      "id": "signature-rhess",
+      "path": "static/assets/equipment/signature-rhess.webp",
+      "source": "exec-996ca0e1-fe08-47bc-8e2e-9816567cdd59.png",
+      "prompt": "Use case: stylized-concept. Fantasy game illustration. One full-length practical steel-tipped spear with ashwood shaft, subtle brass grip mark and small bronze dragon scale fitting. Isolated transparent background, game equipment icon, diagonally arranged with all ends visible. Antique engraving-inspired etched linework, fine crosshatching, worn natural materials, muted wood charcoal navy bronze colours, readable warm light, no glossy CGI or excessive magical glow, no text frame or watermark. Square full-object icon with true alpha transparency.",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 4546,
+      "sha256": "17cc945a9e23350b8e36f7b980f26769ed4c7da299ed0454128c9d7f833a5e81"
+    }
+  ]
+}

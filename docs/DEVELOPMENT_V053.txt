@@ -1,0 +1,24 @@
+Stonework and Spellcraft v0.53 — integrated artwork and archive audit
+
+Integrated defaults
+- Old waterworks, Reedbank waystation, Hillfold bindery and Fern nursery.
+- Supplied Quarry shelter and Ridge cistern illustrations.
+- Twelve exact-ID catalogue object icons, also used by owned instances.
+- Supplied weather-screen and cistern-filter icons; superseded partial image removed with old URL alias retained.
+- Tamsin Catfolk base and shawl, Elowen, Nyssara and Sylva portraits.
+- Individual review/override slots for every new asset. Owned object overrides stay attached to instance identity and continue to win over catalogue defaults.
+
+Identity corrections
+Nyssara is a drow enchanter from a subterranean craft settlement. Her introduction, role, ambition, shared scenes and portrait support enchanting. Her material preparation facility remains in the Enchanting Room. Sylva has leaf-green skin, botanical features and plant-made clothing. Schema 44 updates authored profiles and pending authored candidates while preserving previous identity fields, earned knowledge, possessions, memories and art. Other generated people are not rewritten. Existing accepted portraits and save-owned artwork remain authoritative; old Tamsin bundled portraits are retained for saved references.
+
+Source audit
+All sixteen public pack archives match the shipped public bundle byte-for-byte at member level. Both foundations copies match the bundled 3,595-record foundations. The 1,918 public runtime records (1,599 content plus 319 proposals/adapters) match validated sources. No public record lacks a workflow. Two final room-art returns match all 34 live room images; 34 native room masters are preserved. Earlier sheet-based artwork, partial room returns and the partial weather-screen pack are superseded. Exact generation prompts, native source images and provenance are kept inside this project. Authoring reference material is retained in docs/source-audit. The runtime public-packs ZIP is still required by the program and is not deleted.
+
+Private mystery content
+Pack 13 is explicitly opt-in future-campaign data. It is kept as a separate source archive, not loaded into existing saves, public catalogue, character prompts or game-client assets. This release does not claim that private alternatives have been made playable.
+
+Cleanup
+ARCHIVE_CLEANUP_V053.json records cleanup outcomes: 47 redundant delivery/handoff/source archives moved to trash; seven uploaded copies returned permission denied (403) and remain. The main project archive is updated in place; the separate private future-campaign pack is retained. Save data and user-assets are never part of cleanup.
+
+Verification
+See verification-v053.json for executed Python/UI results. No browser executable is available; rendered desktop/mobile appearance, real keyboard focus and touch checks remain outstanding. A browser-review runner remains included for a machine with Playwright Chromium.

@@ -1,0 +1,26 @@
+Stonework and Spellcraft — 22 multi-use headquarters room types
+
+1. Entry hall & reception — Arrivals, visitor reception, notices and waiting benches.
+2. Common room & tavern — Drinks, board games, music, shared meals and informal company.
+3. Library & archive — Research, correspondence, private study, shared reading and bookbinding.
+4. Kitchen & pantry — Cooking, dining, food storage and household provisioning.
+5. Washroom & laundry — Private washing, laundry, linen storage and changing.
+6. Conservatory & potting benches — Growing, potting, botanical study and garden stores.
+7. Living quarters — Private and shared bedrooms, sitting areas and personal storage. Existing chambers and annex rooms keep their own identities.
+8. Warehouse & stores — General storage, receiving, expedition unpacking and stock reserves.
+9. Workshop & material library — Assembly, repairs, sample drawers, woodwork and small artistic work.
+10. Smithy & armoury — Forge metalware, arms and armour; repair and store field equipment.
+11. Enchanting room — Create magical equipment, inscribe owned gear, test spells and improve working tools.
+12. Command room & map table — Expedition planning, maps, field reports and household assignments.
+13. Infirmary & apothecary — Quiet care, medicines, botanical supplies and voluntary recuperation.
+14. Training yard — Guard drills, sparring, field practice and physical training.
+15. Guard barracks & watchroom — Duty planning, kit lockers, off-duty seating and separately fitted sleeping places.
+16. Underground living quarters — Ventilated lower living wing with dry passages, shared sitting space and separate private/shared bedrooms.
+17. Dungeon ward & secure workrooms — Lower secure rooms, ward maintenance and access to specialized Ember and Quiet chambers.
+18. Warded vault — Late-game storage for rare components and treasured crafted objects, with an inspection table.
+19. Hot spring baths — Thermal grotto, bathing pools, resting ledges and private changing alcoves.
+20. Sauna — Heated timber benches, cooling vestibule and private changing.
+21. Swimming pool — Swimming, exercise, poolside rest and changing spaces.
+22. Chapel & sanctuary — Worship, quiet reflection, memorials and personal observances without an imposed faith.
+
+Bedrooms are individually fitted within living areas. Small reading, correspondence, potting and material-storage purposes remain integrated into larger rooms. Enhancements do not add duplicate room types.

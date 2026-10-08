@@ -1,0 +1,187 @@
+{
+  "version": "0.58",
+  "saveSchema": 49,
+  "attributes": {
+    "might": {
+      "name": "Might",
+      "description": "Strength, leverage and physical force. Combines with Athletics for lifting, hauling and forceful expedition routes."
+    },
+    "dexterity": {
+      "name": "Dexterity",
+      "description": "Agility and precision. Combines with Fieldcraft for crossings and Artifice for mechanisms. At 8: +1 crafting work."
+    },
+    "vitality": {
+      "name": "Vitality",
+      "description": "Physical endurance and resilience. Combines with Athletics for sustained effort and safe endurance routes; at 8: receiving first aid or resting restores one extra health (maximum 6)."
+    },
+    "intelligence": {
+      "name": "Intelligence",
+      "description": "Reasoning, knowledge and understanding. Combines with Scholarship for ciphers and Artifice for engineering. At 8: +1 research/archive work."
+    },
+    "resolve": {
+      "name": "Resolve",
+      "description": "Willpower, concentration and composure. Combines with Channeling for magical control. At 8: +1 personal spell preparation slot."
+    },
+    "charisma": {
+      "name": "Charisma",
+      "description": "Persuasion, expression and social presence. Combines with Diplomacy for additional conversational and negotiation approaches. Never replaces ordinary responses."
+    }
+  },
+  "skills": {
+    "athletics": {
+      "name": "Athletics",
+      "maxRank": 2,
+      "description": "Training in lifting, climbing and endurance. Each rank adds 2 to relevant optional expedition approach scores."
+    },
+    "diplomacy": {
+      "name": "Diplomacy",
+      "maxRank": 2,
+      "description": "Negotiation, tact and persuasive delivery. Each rank adds 2 to optional social approach scores. Ordinary conversation choices always remain."
+    },
+    "channeling": {
+      "name": "Channeling",
+      "maxRank": 2,
+      "description": "Practised magical control. Each rank adds 2 to concentration routes. At combined Resolve + twice Channeling of 9, prepared field boosts gain one charge."
+    },
+    "scholarship": {
+      "name": "Scholarship",
+      "maxRank": 2,
+      "description": "Each added rank gives +1 work contribution per assigned phase of shared research or living-index study. Does not accelerate personal learning, spell tests or rituals."
+    },
+    "artifice": {
+      "name": "Artifice",
+      "maxRank": 2,
+      "description": "Each added rank gives +1 work contribution when this person is the assigned artifact maker. Does not accelerate focus work, spell tests or ritual contributions."
+    },
+    "fieldcraft": {
+      "name": "Fieldcraft",
+      "maxRank": 2,
+      "description": "Rank 1 reduces ordinary two-phase surveys to one phase (does not stack with lanterns or field notes) and opens careful channel work at Rainward. Rank 2 opens precise lens handling there without a lantern. No automatic extra rewards."
+    }
+  },
+  "startingProfiles": {
+    "founder": {
+      "might": 5,
+      "dexterity": 5,
+      "vitality": 5,
+      "intelligence": 5,
+      "resolve": 5,
+      "charisma": 5
+    },
+    "mira": {
+      "might": 3,
+      "dexterity": 5,
+      "vitality": 4,
+      "intelligence": 7,
+      "resolve": 6,
+      "charisma": 5
+    },
+    "tamsin": {
+      "might": 5,
+      "dexterity": 5,
+      "vitality": 6,
+      "intelligence": 4,
+      "resolve": 4,
+      "charisma": 6
+    },
+    "iona": {
+      "might": 4,
+      "dexterity": 6,
+      "vitality": 5,
+      "intelligence": 5,
+      "resolve": 4,
+      "charisma": 6
+    },
+    "aurelia": {
+      "might": 6,
+      "dexterity": 5,
+      "vitality": 6,
+      "intelligence": 4,
+      "resolve": 6,
+      "charisma": 3
+    },
+    "neris": {
+      "might": 3,
+      "dexterity": 7,
+      "vitality": 4,
+      "intelligence": 7,
+      "resolve": 5,
+      "charisma": 4
+    },
+    "sabine": {
+      "might": 3,
+      "dexterity": 5,
+      "vitality": 4,
+      "intelligence": 6,
+      "resolve": 5,
+      "charisma": 7
+    },
+    "maren": {
+      "might": 5,
+      "dexterity": 7,
+      "vitality": 5,
+      "intelligence": 6,
+      "resolve": 4,
+      "charisma": 3
+    },
+    "brakka": {
+      "might": 7,
+      "dexterity": 4,
+      "vitality": 7,
+      "intelligence": 4,
+      "resolve": 5,
+      "charisma": 3
+    },
+    "fenna": {
+      "might": 3,
+      "dexterity": 7,
+      "vitality": 4,
+      "intelligence": 5,
+      "resolve": 4,
+      "charisma": 7
+    },
+    "kaede": {
+      "might": 5,
+      "dexterity": 7,
+      "vitality": 5,
+      "intelligence": 4,
+      "resolve": 6,
+      "charisma": 3
+    },
+    "elowen": {
+      "might": 3,
+      "dexterity": 4,
+      "vitality": 5,
+      "intelligence": 6,
+      "resolve": 5,
+      "charisma": 7
+    },
+    "nyssara": {
+      "might": 3,
+      "dexterity": 6,
+      "vitality": 4,
+      "intelligence": 7,
+      "resolve": 6,
+      "charisma": 4
+    },
+    "sylva": {
+      "might": 4,
+      "dexterity": 4,
+      "vitality": 6,
+      "intelligence": 6,
+      "resolve": 6,
+      "charisma": 4
+    }
+  },
+  "aqueductAddedMethods": 25,
+  "otherExpeditionAddedMethods": 7,
+  "additionalConversationResponses": 38,
+  "unchangedOriginalConversationResponses": 318,
+  "scoring": {
+    "formula": "attribute + 2 * skill rank + 2 for one capable present expedition helper",
+    "expeditionThreshold": 9,
+    "conversationThreshold": 8,
+    "helperThreshold": 6,
+    "matchingAqueductSpellBonus": 3
+  }
+}

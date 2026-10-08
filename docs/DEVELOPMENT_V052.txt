@@ -1,0 +1,22 @@
+Stonework and Spellcraft v0.52 — residents with a place in the castle
+
+RESIDENTS AND ROOMS
+Eleven named residents have distinct room enhancements. See RESIDENT_ROOM_ENHANCEMENTS_V052.txt for the exact mapping, costs and working effects. Brakka belongs to the smithy, Fenna to the tavern, Iona to the command room, Kaede to the training yard, Tamsin to the kitchen, Elowen to the infirmary, Nyssara to the enchanting room, Neris to the hot spring, Aurelia to the barracks, Sylva to the conservatory, and Maren to the workshop.
+
+LIFE AT HOME
+24 authored scenes: two each for the eleven specialists and demonstration resident Mira. First choices are remembered and echoed in follow-ups. Follow-ups require actual shared research work, or one shared review phase of a personally known common principle. Merely assigning a character after the project is already complete does not grant participation. Shared reviews restore prior assignments only for the next phase, preventing double work.
+Optional invitations do not expire, spend time, grant resources or force relationship changes. Phase/day routines only select available rooms and never override actual work or away states. Resting residents have brief ambient greetings.
+
+SOLO EXPEDITION
+Old service road opens after returned Quarry shelter and Ridge cistern surveys. Four encounters branch through the water channel or orchard; fieldcraft, personally known Water guidance and a packed lantern provide relevant alternatives. Work, route and choices survive early return and reload. The final packing choice and route determine the components returned. Rewards are awarded only after returning home, once; contributor advancement excludes non-participants.
+A returned sorting-bench plan enables one optional workshop installation: 18 crowns, two phases, +1 core artifact work. Fenna’s fitted tavern exchange adds its once-per-returned-lead binding thread, never per person or repeat visit.
+
+NAVIGATION
+Projects & next improvements separates funded work from future construction. Resume reuses authoritative action validation and never re-charges costs. Unaffordable rooms show a crown shortfall and copying phases required. Resident stories and specialists have direct navigation and links from room workspaces. Specialist absence pauses installations but does not disable cancellation/refunds. Recruitment guidance points to the actual study or expedition required.
+
+SAVES
+Schema 43 is additive. GameStore makes the normal pre-migration database backup. Retain the whole data directory, including data/assets. Completed facilities, ongoing projects, personal ownership and accepted artwork remain saved. Existing funded projects retain agreed durations even when Brakka’s forge speeds up new jobs. Prototype schema-42 Brakka/Tamsin/Kaede facilities retain their original effects; this compatibility allowance does not grant them to new games. No images were generated, replaced or deleted in this release. One supplied weather-screen icon was added unchanged; existing character/room artwork and the item atlas are untouched. Co-op, combat and autonomous guards remain deferred.
+
+VERIFICATION
+See verification-v052.json for final Python and connected headless UI counts. These are not rendered browser tests. Chromium installation again failed with an invalid downloaded archive; browser_review.cjs includes the new pages but remains unexecuted. Desktop/mobile layout, cropping, focus and touch verification remain outstanding.
+

@@ -1,0 +1,14 @@
+Use case: stylized-concept. Generate exactly ONE isolated game item illustration on true transparent background, no scene. Output one 1024x1024 master image only; filenames and smaller export sizes below describe later packaging, never multiple panels.
+ASSET 05 — Hearth-spoke staff
+EXACT ID: ss-eq-equipment-concept-hearth-spoke-staff
+RUNTIME: objects/ss-eq-equipment-concept-hearth-spoke-staff.png
+MASTER: masters/ss-eq-equipment-concept-hearth-spoke-staff.png
+
+GENERATE THIS ONE SUBJECT ONLY
+One plain dark wooden hearth-spoke staff with a guarded amber recess below a thumb-worn grip. Repairable physical joins, darker protected recesses, gentle polish at the grip and understated soapstone at the working assembly. Show the complete staff diagonally if necessary, without cutting off either end. Use the compact seated-use shaft option; do not add an alternative staff or a comparison layout. No energy glow or ornamental sceptre head.
+
+CURRENT PROJECT AESTHETIC
+Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving–inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.
+
+COMPOSITION AND OUTPUT
+One complete object or inseparable assembly on true transparent alpha. Square 1024 x 1024 PNG master, plus 256 x 256 sRGB PNG runtime if export is available. Keep 10–15% clear margin; make the silhouette legible at 32–48 px. No hands, people, pedestal, labels, frame, checkerboard background, opaque paper field or detached scenery. No collage or multiple views. Texture belongs within the object.

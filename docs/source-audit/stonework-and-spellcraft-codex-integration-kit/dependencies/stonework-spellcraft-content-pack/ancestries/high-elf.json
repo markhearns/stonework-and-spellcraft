@@ -1,0 +1,1861 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "high-elf",
+  "ancestryName": "High elf",
+  "arrivalMethod": "recruitment",
+  "names": [
+    {
+      "id": "high-elf-name-001",
+      "name": "Avenara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-002",
+      "name": "Ylara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-003",
+      "name": "Tavaiel",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-004",
+      "name": "Haelara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-005",
+      "name": "Aerora",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-006",
+      "name": "Eileth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-007",
+      "name": "Valinyne",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-008",
+      "name": "Orinena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-009",
+      "name": "Faelyne",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-010",
+      "name": "Veliel",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-011",
+      "name": "Rilaeth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-012",
+      "name": "Lethora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-013",
+      "name": "Taliel",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-014",
+      "name": "Elia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-015",
+      "name": "Levaeya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-016",
+      "name": "Cela",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-017",
+      "name": "Elenine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-018",
+      "name": "Ilareri",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-019",
+      "name": "Evareya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-020",
+      "name": "Aelara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-021",
+      "name": "Caelia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-022",
+      "name": "Saeline",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-023",
+      "name": "Nethyne",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-024",
+      "name": "Thirena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-025",
+      "name": "Saleri",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-026",
+      "name": "Nala",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-027",
+      "name": "Felaien",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-028",
+      "name": "Thaliel",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-029",
+      "name": "Pelaien",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-030",
+      "name": "Faliniel",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-031",
+      "name": "Ilenora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-032",
+      "name": "Laitheri",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-033",
+      "name": "Maelena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-034",
+      "name": "Naraena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-035",
+      "name": "Raeleth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-036",
+      "name": "Ylenien",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-037",
+      "name": "Melara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-038",
+      "name": "Halinyne",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-039",
+      "name": "Taeline",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-040",
+      "name": "Daeien",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-041",
+      "name": "Oreleth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-042",
+      "name": "Silaria",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-043",
+      "name": "Lioreya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-044",
+      "name": "Alareri",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-045",
+      "name": "Reline",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-046",
+      "name": "Zareleth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-047",
+      "name": "Laereya",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-048",
+      "name": "Calaia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-049",
+      "name": "Galadora",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-050",
+      "name": "Ulena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-051",
+      "name": "Falinien",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-052",
+      "name": "Felayne",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-053",
+      "name": "Meleth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-054",
+      "name": "Calaeri",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-055",
+      "name": "Aerara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-056",
+      "name": "Evarora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-057",
+      "name": "Halina",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-058",
+      "name": "Uleniel",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-059",
+      "name": "Relena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-060",
+      "name": "Laerora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-061",
+      "name": "Maelia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-062",
+      "name": "Thiria",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-063",
+      "name": "Ylenyne",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-064",
+      "name": "Silareri",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-065",
+      "name": "Talien",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-066",
+      "name": "Tavaien",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-067",
+      "name": "Orinia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-068",
+      "name": "Ilenara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-069",
+      "name": "Valina",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-070",
+      "name": "Eileya",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-071",
+      "name": "Naliel",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-072",
+      "name": "Oreleya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-073",
+      "name": "Ylariel",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-074",
+      "name": "Elieri",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-075",
+      "name": "Elenena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-076",
+      "name": "Galadara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-077",
+      "name": "Levaora",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-078",
+      "name": "Daeyne",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-079",
+      "name": "Saelena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-080",
+      "name": "Saline",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-081",
+      "name": "Ilarine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-082",
+      "name": "Faela",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-083",
+      "name": "Lethara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-084",
+      "name": "Rilaeya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-085",
+      "name": "Alarine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-086",
+      "name": "Aveneth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-087",
+      "name": "Netha",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-088",
+      "name": "Zareleya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-089",
+      "name": "Pelayne",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-090",
+      "name": "Taelena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-091",
+      "name": "Velien",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-092",
+      "name": "Raeleya",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-093",
+      "name": "Celiel",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-094",
+      "name": "Laithine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-095",
+      "name": "Naraia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-096",
+      "name": "Aeleth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "high-elf-name-097",
+      "name": "Thalien",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "high-elf-name-098",
+      "name": "Liorora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "high-elf-name-099",
+      "name": "Caeleri",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "high-elf-name-100",
+      "name": "Haeleth",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "high-elf-story-001",
+      "title": "Leaves between the pages",
+      "premise": "Her woodland reading circle used leaves as place markers, but she questions their effect on paper.",
+      "personalMotivation": "She wants to preserve a cherished custom without damaging books.",
+      "openingHook": "She asks whether the memory matters more than the leaf.",
+      "possibleDevelopments": [
+        "Compare loose protective sleeves with illustrated leaf markers.",
+        "Consider explaining the change in a letter to the circle."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "forest",
+        "tradition"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-002",
+      "title": "The path that changes its name",
+      "premise": "She finds woodland route names change with the season and confuse unfamiliar walkers.",
+      "personalMotivation": "She wants local knowledge to welcome outsiders.",
+      "openingHook": "She offers examples of names that are clear only to insiders.",
+      "possibleDevelopments": [
+        "Propose a map key recording seasonal alternatives.",
+        "Explore who should be consulted before standardizing a place name."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "forest",
+        "community"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-003",
+      "title": "A branch for every visitor",
+      "premise": "She designs a carved welcome stand whose branching hooks crowd one another.",
+      "personalMotivation": "She wants a woodland motif that serves an actual purpose.",
+      "openingHook": "She asks which shapes would catch sleeves or straps.",
+      "possibleDevelopments": [
+        "Sketch fewer branches with more generous spacing.",
+        "Consider moving the elaborate carving to a separate panel."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "hospitality",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-004",
+      "title": "The sapling correspondence",
+      "premise": "She wants to exchange observations with a distant grower but fears treating different soils as equivalent.",
+      "personalMotivation": "She enjoys comparison more than universal answers.",
+      "openingHook": "She asks what context a plant diary ought to include.",
+      "possibleDevelopments": [
+        "Draft a shared observation sheet with space for local differences.",
+        "Consider exchanging questions before offering advice."
+      ],
+      "backgroundTags": [
+        "gardening"
+      ],
+      "themeTags": [
+        "correspondence",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-005",
+      "title": "An indoor rain song",
+      "premise": "A song she learned in an open grove sounds crowded inside a small room.",
+      "personalMotivation": "She wants the song to adapt without pretending the room is a forest.",
+      "openingHook": "She asks what part survives when the echo changes.",
+      "possibleDevelopments": [
+        "Propose a quieter arrangement for willing listeners.",
+        "Write a note acknowledging it as her own adaptation."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "forest",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-006",
+      "title": "The useful acorn",
+      "premise": "She wants to study acorn forms for fasteners without making an uncomfortable ornamental clasp.",
+      "personalMotivation": "She enjoys carrying woodland shapes into daily craft.",
+      "openingHook": "She shows an exaggerated drawing of a rather impractical button.",
+      "possibleDevelopments": [
+        "Test the shape with a paper garment model.",
+        "Consider an acorn motif on a flat, usable clasp."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "craft",
+        "humour"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-007",
+      "title": "A greeting without a test",
+      "premise": "Her preferred woodland greeting requires botanical knowledge newcomers may not share.",
+      "personalMotivation": "She wants hospitality without an entrance examination.",
+      "openingHook": "She asks how to explain a greeting without correcting its recipient.",
+      "possibleDevelopments": [
+        "Offer an ordinary alternative alongside the traditional form.",
+        "Explore which part of the custom she personally values."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "hospitality",
+        "tradition"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-008",
+      "title": "The canopy argument",
+      "premise": "She sketches a shade garden but keeps favouring beautiful plants over available light.",
+      "personalMotivation": "She wants a living plan rather than a flattering drawing.",
+      "openingHook": "She asks where a pleasing design stops being a responsible one.",
+      "possibleDevelopments": [
+        "List conditions that would need observation before planting.",
+        "Consider a smaller trial plot as a complete achievement."
+      ],
+      "backgroundTags": [
+        "gardening"
+      ],
+      "themeTags": [
+        "forest",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-009",
+      "title": "Unfinished rings",
+      "premise": "She practices woodcut patterns inspired by growth rings but dislikes pretending they reveal a person's fate.",
+      "personalMotivation": "She values natural forms without invented certainty.",
+      "openingHook": "She asks whether a pattern can be meaningful without predicting anything.",
+      "possibleDevelopments": [
+        "Write a plain description of the design's inspiration.",
+        "Consider a voluntary display of different interpretations."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "visual-art",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-010",
+      "title": "The forest meal indoors",
+      "premise": "She wants to share a woodland picnic custom without assuming everyone can sit comfortably on the floor.",
+      "personalMotivation": "She wants the company, not the posture, to define the tradition.",
+      "openingHook": "She asks which elements could move to a table.",
+      "possibleDevelopments": [
+        "Plan accessible seating choices before any invitation.",
+        "Discuss keeping the food presentation while changing the setting."
+      ],
+      "backgroundTags": [
+        "cooking"
+      ],
+      "themeTags": [
+        "tradition",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-011",
+      "title": "A footnote for the moss",
+      "premise": "A botanical sketchbook gives moss a decorative border but no careful description.",
+      "personalMotivation": "She notices the small living things that prettier specimens eclipse.",
+      "openingHook": "She asks what would make a neglected specimen worth a page.",
+      "possibleDevelopments": [
+        "Propose a focused observation study with explicit uncertainty.",
+        "Consider collaborating with someone who notices different details."
+      ],
+      "backgroundTags": [
+        "botany"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "collaborative"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-012",
+      "title": "The lantern branch",
+      "premise": "She sketches a hanging lamp shaped like a branch but worries its silhouette casts confusing shadows.",
+      "personalMotivation": "She wants gentle light that remains useful for reading.",
+      "openingHook": "She asks whether a beautiful lamp can be an inconsiderate one.",
+      "possibleDevelopments": [
+        "Compare paper silhouettes before any construction.",
+        "Reduce the branching frame or reserve it for ambient decoration."
+      ],
+      "backgroundTags": [
+        "light"
+      ],
+      "themeTags": [
+        "woodwork",
+        "reading"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-013",
+      "title": "One tree in the story",
+      "premise": "She writes a woodland tale in which the landscape is more vivid than the people.",
+      "personalMotivation": "She wants affection for place to leave room for individual lives.",
+      "openingHook": "She asks which character seems to have a choice of her own.",
+      "possibleDevelopments": [
+        "Revise a scene around a practical disagreement.",
+        "Let a character leave the woodland without making departure a betrayal."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "forest",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-014",
+      "title": "The pine-resin seal",
+      "premise": "She is considering a scented letter seal but worries the recipient may dislike strong smells.",
+      "personalMotivation": "She wants a personal touch that respects another person's space.",
+      "openingHook": "She asks how to make a letter distinctive without scent.",
+      "possibleDevelopments": [
+        "Compare embossed paper, simple ink and removable wrapping.",
+        "Draft an inquiry before sending aromatic materials."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "boundaries",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-015",
+      "title": "A calendar with blank days",
+      "premise": "She wants a woodland observation calendar that does not shame gaps in attention.",
+      "personalMotivation": "She values noticing things without turning leisure into duty.",
+      "openingHook": "She asks what an honest blank page should mean.",
+      "possibleDevelopments": [
+        "Design optional entries rather than a daily completion grid.",
+        "Consider notes on absence and uncertainty as valid observations."
+      ],
+      "backgroundTags": [
+        "botany"
+      ],
+      "themeTags": [
+        "rest",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-016",
+      "title": "The ceremonial apron",
+      "premise": "A family sewing pattern is elegant but inconvenient around a busy worktable.",
+      "personalMotivation": "She wants inherited craft to be wearable in ordinary life.",
+      "openingHook": "She asks permission to discuss an adaptation, not a replacement.",
+      "possibleDevelopments": [
+        "Sketch a practical version while recording the original separately.",
+        "Consider keeping ceremony and work versions side by side."
+      ],
+      "backgroundTags": [
+        "textiles"
+      ],
+      "themeTags": [
+        "tradition",
+        "work"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-017",
+      "title": "A borrowed forest word",
+      "premise": "She enjoys a local word for filtered sunlight and cannot find a satisfying translation.",
+      "personalMotivation": "She wants to share the observation rather than guard the vocabulary.",
+      "openingHook": "She asks what the word makes another listener picture.",
+      "possibleDevelopments": [
+        "Compare several imperfect translations with their limitations.",
+        "Write a brief description instead of declaring one exact equivalent."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "forest",
+        "light"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-018",
+      "title": "The wrong kind of stillness",
+      "premise": "She hopes to sketch quietly outdoors but dislikes the assumption that silence is effortless for her.",
+      "personalMotivation": "She wants her preferences to be personal, not ancestral expectations.",
+      "openingHook": "She asks whether a proposed outing can include conversation breaks.",
+      "possibleDevelopments": [
+        "Agree on a flexible plan with optional quiet periods.",
+        "Consider indoor sketching if outdoor stillness is not enjoyable."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "identity",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-019",
+      "title": "The carved seed library",
+      "premise": "She imagines storage drawers with seed-shaped handles that may all feel alike in dim light.",
+      "personalMotivation": "She wants tactile beauty to help identification.",
+      "openingHook": "She asks which differences a hand could recognize reliably.",
+      "possibleDevelopments": [
+        "Propose distinct contours and plain written labels together.",
+        "Invite voluntary feedback before carving final handles."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "accessibility",
+        "gardening"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-020",
+      "title": "The rainproof invitation",
+      "premise": "She wants a woodland gathering plan with an indoor alternative that does not feel like defeat.",
+      "personalMotivation": "She values the people more than a perfect atmosphere.",
+      "openingHook": "She asks how an invitation can make both versions appealing.",
+      "possibleDevelopments": [
+        "Describe separate pleasures of outdoor and indoor company.",
+        "Leave the choice open until conditions and preferences are known."
+      ],
+      "backgroundTags": [
+        "hospitality"
+      ],
+      "themeTags": [
+        "weather",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-021",
+      "title": "A border left wild",
+      "premise": "Her garden drawing has an untended edge, but she has not explained whose work it will require.",
+      "personalMotivation": "She wants a thoughtful landscape rather than romantic neglect.",
+      "openingHook": "She asks what care a supposedly wild corner still needs.",
+      "possibleDevelopments": [
+        "List maintenance questions for a knowledgeable gardener.",
+        "Consider a contained observation patch instead of a broad promise."
+      ],
+      "backgroundTags": [
+        "gardening"
+      ],
+      "themeTags": [
+        "work",
+        "sustainability"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-022",
+      "title": "The woodland joke book",
+      "premise": "She collects jokes about confusing plants but worries the humour excludes beginners.",
+      "personalMotivation": "She likes laughter that teaches without examining anyone.",
+      "openingHook": "She asks which joke still works without knowing the species.",
+      "possibleDevelopments": [
+        "Add visual context rather than a corrective explanation.",
+        "Consider a comic sketch about her own overcomplicated labels."
+      ],
+      "backgroundTags": [
+        "humour"
+      ],
+      "themeTags": [
+        "botany",
+        "community"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-023",
+      "title": "A tune not for everything",
+      "premise": "Others might expect her woodland music to accompany every quiet activity, and she wants to avoid that role.",
+      "personalMotivation": "She wants to choose when music is work and when it is pleasure.",
+      "openingHook": "She asks how to offer a performance without becoming background sound.",
+      "possibleDevelopments": [
+        "Draft an invitation with a clear beginning and ending.",
+        "Discuss listening as an activity that deserves willing attention."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "work",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-024",
+      "title": "The crooked walking stick",
+      "premise": "She admires a fallen branch's shape but questions whether preserving every bend makes a useful aid.",
+      "personalMotivation": "She wants natural character without sacrificing comfort.",
+      "openingHook": "She asks how much alteration still honours a material.",
+      "possibleDevelopments": [
+        "Compare drawings of different handle angles.",
+        "Choose a decorative study instead of an aid if suitability remains uncertain."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "accessibility",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "high-elf-story-025",
+      "title": "Roots in the letterhead",
+      "premise": "She considers using a woodland motif on her personal stationery but fears being reduced to her birthplace.",
+      "personalMotivation": "She wants continuity with room for new interests.",
+      "openingHook": "She asks what else a letterhead could say about her.",
+      "possibleDevelopments": [
+        "Combine a modest leaf detail with a personally chosen craft motif.",
+        "Consider plain stationery until her preference becomes clearer."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "identity",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "high-elf-appearance-001",
+      "summary": "An adult woman aged 19 with fair ivory skin, long chestnut waves, and deep brown eyes. Her build is tall and slender with mature hips. Long tapered elven ears.",
+      "skin": "fair ivory",
+      "hair": "long chestnut waves",
+      "eyes": "deep brown",
+      "build": "tall and slender with mature hips",
+      "ancestryFeatures": [
+        "long tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a beauty mark beside the left cheekbone"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-002",
+      "summary": "An adult woman aged 22 with fair peach-beige skin, long black hair with a blunt fringe, and copper brown eyes. Her build is compact and muscular with soft contours. Slender pointed elven ears.",
+      "skin": "fair peach-beige",
+      "hair": "long black hair with a blunt fringe",
+      "eyes": "copper brown",
+      "build": "compact and muscular with soft contours",
+      "ancestryFeatures": [
+        "slender pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a dark freckle beside the bridge of the nose"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "compact",
+        "freckled"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-003",
+      "summary": "An adult woman aged 25 with fair cool beige skin, a silver-blonde crop, and deep blue eyes. Her build is medium-height with a full bust and straight waist. Gently swept-back elven ears.",
+      "skin": "fair cool beige",
+      "hair": "a silver-blonde crop",
+      "eyes": "deep blue",
+      "build": "medium-height with a full bust and straight waist",
+      "ancestryFeatures": [
+        "gently swept-back elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a natural notch in the right eyebrow"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-004",
+      "summary": "An adult woman aged 20 with fair rosy cream skin, a chestnut pixie cut, and blue-grey eyes. Her build is broad-shouldered with soft waist curves. Broad-based elven ears tapering to fine points.",
+      "skin": "fair rosy cream",
+      "hair": "a chestnut pixie cut",
+      "eyes": "blue-grey",
+      "build": "broad-shouldered with soft waist curves",
+      "ancestryFeatures": [
+        "broad-based elven ears tapering to fine points",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a small cleft in the chin"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-005",
+      "summary": "An adult woman aged 23 with fair pale-gold beige skin, mid-back silver-white waves, and honey brown eyes. Her build is rounded and full-busted with sturdy legs. Upright, finely pointed elven ears.",
+      "skin": "fair pale-gold beige",
+      "hair": "mid-back silver-white waves",
+      "eyes": "honey brown",
+      "build": "rounded and full-busted with sturdy legs",
+      "ancestryFeatures": [
+        "upright, finely pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a light scatter of freckles over the shoulders"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "freckled"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-006",
+      "summary": "An adult woman aged 18 with fair ivory skin, a shoulder-length tawny shag, and olive green eyes. Her build is tall and broad-hipped with gently defined muscles. Long tapered elven ears.",
+      "skin": "fair ivory",
+      "hair": "a shoulder-length tawny shag",
+      "eyes": "olive green",
+      "build": "tall and broad-hipped with gently defined muscles",
+      "ancestryFeatures": [
+        "long tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a pale pigment fleck at the left temple"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-007",
+      "summary": "An adult woman aged 21 with fair peach-beige skin, mid-back flaxen braids, and smoky blue eyes. Her build is tall and voluptuous with a gently rounded abdomen. Slender pointed elven ears.",
+      "skin": "fair peach-beige",
+      "hair": "mid-back flaxen braids",
+      "eyes": "smoky blue",
+      "build": "tall and voluptuous with a gently rounded abdomen",
+      "ancestryFeatures": [
+        "slender pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a softly dimpled chin"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-008",
+      "summary": "An adult woman aged 24 with fair cool beige skin, shoulder-length warm-brown twists, and amber eyes. Her build is medium-height with balanced, softly mature curves. Gently swept-back elven ears.",
+      "skin": "fair cool beige",
+      "hair": "shoulder-length warm-brown twists",
+      "eyes": "amber",
+      "build": "medium-height with balanced, softly mature curves",
+      "ancestryFeatures": [
+        "gently swept-back elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a beauty mark near the right corner of the mouth"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-009",
+      "summary": "An adult woman aged 19 with fair rosy cream skin, chin-length black curls, and rich brown eyes. Her build is full-bodied with a defined waist and powerful calves. Broad-based elven ears tapering to fine points.",
+      "skin": "fair rosy cream",
+      "hair": "chin-length black curls",
+      "eyes": "rich brown",
+      "build": "full-bodied with a defined waist and powerful calves",
+      "ancestryFeatures": [
+        "broad-based elven ears tapering to fine points",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a darker pigment patch along one collarbone"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-010",
+      "summary": "An adult woman aged 22 with fair pale-gold beige skin, shoulder-length copper coils, and hazel eyes. Her build is full-figured with broad hips and a strong back. Upright, finely pointed elven ears.",
+      "skin": "fair pale-gold beige",
+      "hair": "shoulder-length copper coils",
+      "eyes": "hazel",
+      "build": "full-figured with broad hips and a strong back",
+      "ancestryFeatures": [
+        "upright, finely pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "soft freckling along the collarbones"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "freckled"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-011",
+      "summary": "An adult woman aged 25 with fair ivory skin, waist-length dark auburn hair, and moss green eyes. Her build is short and full-figured with rounded shoulders. Long tapered elven ears.",
+      "skin": "fair ivory",
+      "hair": "waist-length dark auburn hair",
+      "eyes": "moss green",
+      "build": "short and full-figured with rounded shoulders",
+      "ancestryFeatures": [
+        "long tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a tiny pale scar at the edge of the left brow"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-012",
+      "summary": "An adult woman aged 20 with fair peach-beige skin, long pale-gold waves, and muted gold eyes. Her build is compact and softly curvaceous with mature proportions. Slender pointed elven ears.",
+      "skin": "fair peach-beige",
+      "hair": "long pale-gold waves",
+      "eyes": "muted gold",
+      "build": "compact and softly curvaceous with mature proportions",
+      "ancestryFeatures": [
+        "slender pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a faint darker patch at the left jaw"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "compact"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-013",
+      "summary": "An adult woman aged 23 with fair cool beige skin, a blunt honey-brown bob, and golden brown eyes. Her build is willowy with a full bust and narrow hips. Gently swept-back elven ears.",
+      "skin": "fair cool beige",
+      "hair": "a blunt honey-brown bob",
+      "eyes": "golden brown",
+      "build": "willowy with a full bust and narrow hips",
+      "ancestryFeatures": [
+        "gently swept-back elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a few silver strands at the right temple"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-014",
+      "summary": "An adult woman aged 18 with fair rosy cream skin, long dark hair with a silver forelock, and dark grey eyes. Her build is athletic and broad-hipped with a modest bust. Broad-based elven ears tapering to fine points.",
+      "skin": "fair rosy cream",
+      "hair": "long dark hair with a silver forelock",
+      "eyes": "dark grey",
+      "build": "athletic and broad-hipped with a modest bust",
+      "ancestryFeatures": [
+        "broad-based elven ears tapering to fine points",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a slightly higher arch to the left eyebrow"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-015",
+      "summary": "An adult woman aged 21 with fair pale-gold beige skin, short deep-plum curls, and warm brown eyes. Her build is athletic with a full bust and firm thighs. Upright, finely pointed elven ears.",
+      "skin": "fair pale-gold beige",
+      "hair": "short deep-plum curls",
+      "eyes": "warm brown",
+      "build": "athletic with a full bust and firm thighs",
+      "ancestryFeatures": [
+        "upright, finely pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a beauty mark beneath the lower lip"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-016",
+      "summary": "An adult woman aged 24 with fair ivory skin, a dark chestnut crop with a curled fringe, and soft violet eyes. Her build is tall with a broad ribcage and generous hips. Long tapered elven ears.",
+      "skin": "fair ivory",
+      "hair": "a dark chestnut crop with a curled fringe",
+      "eyes": "soft violet",
+      "build": "tall with a broad ribcage and generous hips",
+      "ancestryFeatures": [
+        "long tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a tiny beauty mark beneath the right eye"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-017",
+      "summary": "An adult woman aged 19 with fair peach-beige skin, a wavy black bob, and grey-green eyes. Her build is compact with thick thighs and a soft abdomen. Slender pointed elven ears.",
+      "skin": "fair peach-beige",
+      "hair": "a wavy black bob",
+      "eyes": "grey-green",
+      "build": "compact with thick thighs and a soft abdomen",
+      "ancestryFeatures": [
+        "slender pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a faint freckle band across the upper cheeks"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "compact",
+        "freckled"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-018",
+      "summary": "An adult woman aged 22 with fair cool beige skin, a straight dark-brown bob, and pale grey eyes. Her build is short and sturdily built with a defined waist. Gently swept-back elven ears.",
+      "skin": "fair cool beige",
+      "hair": "a straight dark-brown bob",
+      "eyes": "pale grey",
+      "build": "short and sturdily built with a defined waist",
+      "ancestryFeatures": [
+        "gently swept-back elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a soft dusting of freckles on the upper arms"
+      ],
+      "styleTags": [
+        "striking",
+        "freckled"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-019",
+      "summary": "An adult woman aged 25 with fair rosy cream skin, close-cropped ash-brown curls, and black-brown eyes. Her build is slim-waisted with broad shoulders and full thighs. Broad-based elven ears tapering to fine points.",
+      "skin": "fair rosy cream",
+      "hair": "close-cropped ash-brown curls",
+      "eyes": "black-brown",
+      "build": "slim-waisted with broad shoulders and full thighs",
+      "ancestryFeatures": [
+        "broad-based elven ears tapering to fine points",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "slightly uneven natural eyebrow arches"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-020",
+      "summary": "An adult woman aged 20 with fair pale-gold beige skin, thick dark-brown coils to the shoulders, and dark hazel eyes. Her build is slender with a strong back and softly rounded hips. Upright, finely pointed elven ears.",
+      "skin": "fair pale-gold beige",
+      "hair": "thick dark-brown coils to the shoulders",
+      "eyes": "dark hazel",
+      "build": "slender with a strong back and softly rounded hips",
+      "ancestryFeatures": [
+        "upright, finely pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "a pale oval birthmark at the nape"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-021",
+      "summary": "An adult woman aged 23 with fair ivory skin, long blue-black curls, and sea green eyes. Her build is lean and long-limbed with a modest bust. Long tapered elven ears.",
+      "skin": "fair ivory",
+      "hair": "long blue-black curls",
+      "eyes": "sea green",
+      "build": "lean and long-limbed with a modest bust",
+      "ancestryFeatures": [
+        "long tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "a narrow pale scar along the chin"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-022",
+      "summary": "An adult woman aged 18 with fair peach-beige skin, short russet curls, and slate grey eyes. Her build is tall and strongly built with a modest bust. Slender pointed elven ears.",
+      "skin": "fair peach-beige",
+      "hair": "short russet curls",
+      "eyes": "slate grey",
+      "build": "tall and strongly built with a modest bust",
+      "ancestryFeatures": [
+        "slender pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "a deeper natural crease beneath the lower lip"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-023",
+      "summary": "An adult woman aged 21 with fair cool beige skin, sleek black hair to the waist, and russet brown eyes. Her build is medium-height and generously curvaceous with a broad frame. Gently swept-back elven ears.",
+      "skin": "fair cool beige",
+      "hair": "sleek black hair to the waist",
+      "eyes": "russet brown",
+      "build": "medium-height and generously curvaceous with a broad frame",
+      "ancestryFeatures": [
+        "gently swept-back elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a small birthmark near the right shoulder"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-024",
+      "summary": "An adult woman aged 24 with fair rosy cream skin, long ash-brown ringlets, and dark blue eyes. Her build is medium-height and muscular with mature curves. Broad-based elven ears tapering to fine points.",
+      "skin": "fair rosy cream",
+      "hair": "long ash-brown ringlets",
+      "eyes": "dark blue",
+      "build": "medium-height and muscular with mature curves",
+      "ancestryFeatures": [
+        "broad-based elven ears tapering to fine points",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a small freckle cluster across the nose"
+      ],
+      "styleTags": [
+        "elegant",
+        "freckled"
+      ]
+    },
+    {
+      "id": "high-elf-appearance-025",
+      "summary": "An adult woman aged 19 with fair pale-gold beige skin, long pale-copper waves, and green flecked with gold eyes. Her build is long-legged with a soft waist and full hips. Upright, finely pointed elven ears.",
+      "skin": "fair pale-gold beige",
+      "hair": "long pale-copper waves",
+      "eyes": "green flecked with gold",
+      "build": "long-legged with a soft waist and full hips",
+      "ancestryFeatures": [
+        "upright, finely pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a subtle left cheek dimple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    }
+  ]
+}

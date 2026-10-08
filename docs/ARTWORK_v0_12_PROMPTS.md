@@ -1,0 +1,27 @@
+> v0.50 update: the historical notes below describe earlier releases. Current bundled art uses the approved antique engraving aesthetic; obsolete raster versions and old style-only reference copies have been removed. See ARTWORK_V050.txt and ART_RESTYLE_V050.json. Saved user artwork remains untouched.
+
+# v0.12 — fieldwork and resident artwork provenance
+
+Built-in image generation, not an API-key fallback. Three images were inspected directly, then converted to WebP quality 90 without cropping or repainting. Character PNG transparency was retained. All runtime assets are local; generation is not required for hosting. The four supplied character references remain style guidance only, not replacement character identities. This pass inspected `character-style-references/selene_study_01.png` for rendering style.
+
+## Rainward observatory
+
+Asset: `static/assets/rainward-observatory.webp`. Original generation: `generated_images/exec-50d2279f-3df3-47b1-a524-a5929088217b.png` outside the distributable.
+
+> Use case: stylized-concept. Asset type: landscape location illustration for Stonework and Spellcraft, a handmade fantasy household game. Show the interior of Rainward observatory, a modest abandoned weather station above a brook, not a grand astronomical palace. Natural eye-level view from an open wooden door: low plain stone walls, damp slate floor, one narrow partly shuttered window with a rainwater channel, an old wooden rack holding a few cloudy glass lenses in simple brass mounting rings, a stiff small handwheel, a battered desk with loose unlabeled weather diagrams and a bound ledger, exposed rafters, a small warm lamp. The instrument is handmade optical weather apparatus, no modern telescope, no glowing computer, no giant orrery. Visibly illustrated in uneven graphite and fine ink with matte gouache and watercolor washes on midnight grainy paper. Dry-brush edges, modest detail, hand-drawn texture. Mostly dim navy, slate and grey-violet shadows, faded wood and tiny worn gold details. Small amber light and faint lavender rainlight keep the room legible. Quiet discovery, practical magic, worn and recoverable rather than ruined or threatening. Wide 16:9 composition. No people, readable text, logos, ornate border, excessive ornament, opulence, bright golden lighting, glossy 3D, plastic or fantasy splash-art clutter.
+
+## Tamsin — work clothes
+
+Asset: `static/assets/tamsin.webp`. Original generation: `generated_images/exec-30b5246a-633e-4b57-bb8b-c63c0f05d278.png`. Transparent background requested.
+
+> Use case: stylized-concept. Asset: transparent-background character portrait for a fantasy household RPG. A new fictional adult woman named Tamsin, age 35, a practical independent bookbinder, clearly adult proportions and face. Do not depict Selene or Eris. Beautiful approachable face with expressive soft anime-influenced grey-green eyes, a closed-mouth knowing smile, a few faint freckles, chin-length slightly wavy chestnut-auburn bob tucked behind one ear. Fine, irregular ink linework, visible graphite construction accents, detailed hand-drawn hair, matte soft gouache and watercolor shading, subtle colored-pencil grain. Handmade archival illustration, not glossy CGI or a plastic anime finish. Three-quarter standing pose, framed from head to just below knees, relaxed shoulders, holding one small worn closed clothbound book against her waist with both natural hands, exactly two arms and hands. Fantasy historical clothing only: warm ivory linen blouse with sleeves rolled to the forearms and a modest open collar, fitted faded umber waistcoat, charcoal-violet work skirt to below the knee, a simple worn leather work apron tied at her waist, a small old brass bodkin securely in its apron loop. No modern clothing, technology or tools. Muted midnight navy, warm violet and earth-brown palette, small soft lamplight accents, restrained saturation. No background scenery, shadow rectangle, text, labels, border or watermark. Isolate the complete silhouette on genuinely transparent background, with room around hair and hands. Keep the atmosphere quietly mischievous, competent and warm; not glamorous or opulent.
+
+## Tamsin — shawl variant
+
+Asset: `static/assets/tamsin-shawl.webp`. Original generation: `generated_images/exec-d876c56c-fab4-46f9-abec-1014ad367404.png`. Image edit referenced the original Tamsin PNG; transparent background requested.
+
+> Edit this existing portrait of Tamsin, the adult 35-year-old fantasy bookbinder. Keep her exact face, auburn bob, eye colour, expression, body, pose, book, hands, waistcoat, apron, skirt, framing and hand-drawn pencil/ink/gouache style unchanged. Add only a simple worn muted-plum wool shawl resting around her shoulders and draping behind her upper arms, soft dry-brush cloth texture, no gold ornament. Her forearms and both hands holding the book remain exactly visible as before. This is an optional outer-layer garment variant for the same person, not a redesign. Preserve genuinely transparent background and all existing alpha; no scenery, black rectangle, text or labels. Keep the same subdued light and non-opulent palette.
+
+## Integration
+
+Each image has its own semantic asset ID, accepted override and rollback history. The shawl changes only Tamsin’s selected appearance. The observatory image is an illustration rather than an exact tactical layout. Visual inspection found modest materials, muted light and stable portrait identity; real browser composition remains unverified.

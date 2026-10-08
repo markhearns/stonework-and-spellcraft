@@ -1,0 +1,17 @@
+{
+  "version": "0.60",
+  "schemaVersion": 51,
+  "python": {
+    "tests": 660,
+    "seconds": 62.132,
+    "failures": 0,
+    "errors": 0
+  },
+  "connectedUI": {
+    "suites": 36,
+    "failures": 0,
+    "seconds": 141.5
+  },
+  "newRelationshipTests": 14,
+  "browserReview": "Not repeated: prior release documented missing local Chromium and blocked cloud access to the local server. No visual-layout pass claimed."
+}

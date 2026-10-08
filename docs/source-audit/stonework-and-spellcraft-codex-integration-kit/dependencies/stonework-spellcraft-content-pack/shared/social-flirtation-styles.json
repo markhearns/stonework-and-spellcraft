@@ -1,0 +1,781 @@
+{
+  "schemaVersion": 1,
+  "poolType": "social-flirtation-style",
+  "entries": [
+    {
+      "id": "social-001",
+      "label": "Companionable quiet",
+      "description": "She offers presence without requiring conversation or romantic interpretation.",
+      "expressionExamples": [
+        "Would you enjoy company while we each do our own thing?",
+        "There is no need to keep talking for my sake."
+      ],
+      "compatibleTags": [
+        "quiet-company",
+        "friendship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "social",
+      "suitableContexts": [
+        "Shared reading or separate leisure",
+        "A quiet room both people may use"
+      ],
+      "signalsToProceed": [
+        "A clear welcome to quiet company",
+        "Comfortable voluntary continuation of the shared activity"
+      ],
+      "signalsToPause": [
+        "A request for solitude",
+        "Repeated efforts to end the interaction"
+      ],
+      "boundaryResponse": "She accepts the request for space and does not seek reassurance or invent rejection."
+    },
+    {
+      "id": "social-002",
+      "label": "Shared curiosity",
+      "description": "She connects through a genuine question about something the other person has chosen to share.",
+      "expressionExamples": [
+        "What part of that question is most interesting to you?",
+        "Would you like another pair of eyes, or are you enjoying working alone?"
+      ],
+      "compatibleTags": [
+        "curious",
+        "collaborative"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "social",
+      "suitableContexts": [
+        "A voluntarily shown project",
+        "A conversation about an expressed interest"
+      ],
+      "signalsToProceed": [
+        "An answer that invites further questions",
+        "A direct request for collaborative attention"
+      ],
+      "signalsToPause": [
+        "A private or closed topic",
+        "An answer indicating no further discussion is wanted"
+      ],
+      "boundaryResponse": "She stops questioning and leaves the interest with its owner."
+    },
+    {
+      "id": "social-003",
+      "label": "Specific practical appreciation",
+      "description": "She notices a concrete, established act of care or workmanship without turning praise into intimacy.",
+      "expressionExamples": [
+        "That label makes the choice much clearer.",
+        "I appreciate the care in that detail."
+      ],
+      "compatibleTags": [
+        "affection",
+        "craft"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "social",
+      "suitableContexts": [
+        "Work voluntarily presented for comment",
+        "An actually established considerate action"
+      ],
+      "signalsToProceed": [
+        "A welcome response to the particular praise",
+        "An invitation to discuss the work further"
+      ],
+      "signalsToPause": [
+        "Discomfort with being praised",
+        "A request to keep attention off the person or work"
+      ],
+      "boundaryResponse": "She acknowledges the preference and changes focus without defending the compliment."
+    },
+    {
+      "id": "social-004",
+      "label": "Dry domestic humour",
+      "description": "She finds amusement in ordinary objects and situations rather than other people's embarrassment.",
+      "expressionExamples": [
+        "The brush has acquired a very grand title for such modest duties.",
+        "The cupboard design may be more ambitious than its contents."
+      ],
+      "compatibleTags": [
+        "dry-humour",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "social",
+      "suitableContexts": [
+        "A light conversation about a shared practical subject",
+        "An optional comic exchange"
+      ],
+      "signalsToProceed": [
+        "Reciprocal joking that stays welcome",
+        "A clear invitation to continue the playful topic"
+      ],
+      "signalsToPause": [
+        "A serious correction or concern",
+        "Lack of reciprocal engagement with the joke"
+      ],
+      "boundaryResponse": "She returns to plain conversation and does not insist that someone appreciate the joke."
+    },
+    {
+      "id": "social-005",
+      "label": "Gentle check-in",
+      "description": "She asks whether company, listening or space is wanted without deciding what another person feels.",
+      "expressionExamples": [
+        "Would you prefer company or a little room to yourself?",
+        "You do not need to explain the answer."
+      ],
+      "compatibleTags": [
+        "warm",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "social",
+      "suitableContexts": [
+        "An existing conversation where checking preferences is appropriate",
+        "A freely chosen pause between activities"
+      ],
+      "signalsToProceed": [
+        "A direct request for the offered kind of contact",
+        "Voluntary sharing within the person's chosen scope"
+      ],
+      "signalsToPause": [
+        "A request for space",
+        "A short answer that closes the subject"
+      ],
+      "boundaryResponse": "She accepts the answer and does not turn care into an interrogation."
+    },
+    {
+      "id": "social-006",
+      "label": "Animated anecdote",
+      "description": "She offers a brief clearly fictional or appropriately shareable story with room for the listener to decline.",
+      "expressionExamples": [
+        "I have a very small story about an excessively important spoon.",
+        "Would a short, ridiculous tale suit the moment?"
+      ],
+      "compatibleTags": [
+        "performance",
+        "playful"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "social",
+      "suitableContexts": [
+        "A relaxed social setting",
+        "An explicitly invited story exchange"
+      ],
+      "signalsToProceed": [
+        "An explicit welcome to the story",
+        "Voluntary questions or contributions while listening"
+      ],
+      "signalsToPause": [
+        "A request to stop or shorten the story",
+        "Attention returning to another activity without invitation to continue"
+      ],
+      "boundaryResponse": "She ends or shortens the story without demanding a reaction."
+    },
+    {
+      "id": "social-007",
+      "label": "Friendly disagreement",
+      "description": "She treats differing tastes as something to understand rather than a contest to win.",
+      "expressionExamples": [
+        "I prefer the plain version. What do you like about the other?",
+        "We can leave this as two good preferences."
+      ],
+      "compatibleTags": [
+        "negotiation",
+        "warm"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "social",
+      "suitableContexts": [
+        "A mutually welcomed discussion of a nonprivate topic",
+        "An offered design comparison"
+      ],
+      "signalsToProceed": [
+        "A willing explanation of the alternative view",
+        "A direct invitation to compare reasons"
+      ],
+      "signalsToPause": [
+        "A statement that the debate is no longer enjoyable",
+        "A boundary or personal value being treated as a puzzle"
+      ],
+      "boundaryResponse": "She stops debating and respects the distinction between preference and boundary."
+    },
+    {
+      "id": "social-008",
+      "label": "Easy hospitality",
+      "description": "She offers a modest choice and makes refusal unremarkable.",
+      "expressionExamples": [
+        "There is a quiet seat here, or we can leave the visit for another time.",
+        "The offer is simple company, not an obligation."
+      ],
+      "compatibleTags": [
+        "hospitality",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "social",
+      "suitableContexts": [
+        "A room she is entitled to host in",
+        "An agreed visit or optional invitation"
+      ],
+      "signalsToProceed": [
+        "A direct acceptance of the specific invitation",
+        "A voluntarily expressed preference among the offered options"
+      ],
+      "signalsToPause": [
+        "A decline or wish to leave",
+        "Signs that the offer is being accepted only to avoid pressure"
+      ],
+      "boundaryResponse": "She makes room for refusal or departure and does not attach unrelated consequences."
+    },
+    {
+      "id": "social-009",
+      "label": "Bold, specific compliment",
+      "description": "She expresses attraction plainly through a concrete compliment rather than a claim on the recipient.",
+      "expressionExamples": [
+        "That look is difficult not to admire. Is a compliment welcome?",
+        "I find your confidence attractive; I am not asking you to do anything with that."
+      ],
+      "compatibleTags": [
+        "flirtation",
+        "bold"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "flirtatious",
+      "suitableContexts": [
+        "A mutually established flirtatious exchange",
+        "A context where personal compliments have been welcomed"
+      ],
+      "signalsToProceed": [
+        "An explicit welcome to flirtatious compliments",
+        "Voluntary reciprocal flirtation within the same scope"
+      ],
+      "signalsToPause": [
+        "A decline or change of subject",
+        "An ambiguous response without reciprocal interest"
+      ],
+      "boundaryResponse": "She stops the flirtation, accepts the boundary and returns to ordinary courtesy if welcome."
+    },
+    {
+      "id": "social-010",
+      "label": "Dry teasing invitation",
+      "description": "She uses a restrained playful line that leaves its romantic meaning clear and optional.",
+      "expressionExamples": [
+        "I had a perfectly sensible remark ready. You are making it harder to remember.",
+        "Would you enjoy being flirted with a little, or shall I behave?"
+      ],
+      "compatibleTags": [
+        "flirtation",
+        "dry-humour"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "flirtatious",
+      "suitableContexts": [
+        "An already mutually playful conversation",
+        "A private or suitably discreet setting both welcome"
+      ],
+      "signalsToProceed": [
+        "A clear answer welcoming the tease",
+        "Reciprocal teasing that remains comfortable"
+      ],
+      "signalsToPause": [
+        "A request for straightforward conversation",
+        "Any uncertainty about whether the flirtation is welcome"
+      ],
+      "boundaryResponse": "She drops the tease immediately and does not frame the refusal as spoiling the fun."
+    },
+    {
+      "id": "social-011",
+      "label": "Self-chosen glamour",
+      "description": "She takes pleasure in a flattering outfit and may invite appreciative attention without promising closeness.",
+      "expressionExamples": [
+        "I chose this because I enjoy the silhouette. Would you like to hear about the detail at the back?",
+        "The dress pleases me; your welcome admiration is a pleasant addition."
+      ],
+      "compatibleTags": [
+        "sensual",
+        "tailoring"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "flirtatious",
+      "suitableContexts": [
+        "An optional styling conversation",
+        "A social occasion where admiration is mutually welcome"
+      ],
+      "signalsToProceed": [
+        "An explicit invitation to continue discussing or admiring the outfit",
+        "Mutual flirtation that stays within agreed visual attention"
+      ],
+      "signalsToPause": [
+        "A wish to keep the topic nonpersonal",
+        "Attention becoming intrusive or entitlement to touch"
+      ],
+      "boundaryResponse": "She closes or redirects the exchange and keeps control of her clothing and personal space."
+    },
+    {
+      "id": "social-012",
+      "label": "Unhurried direct interest",
+      "description": "She lets attraction be clear without creating urgency or demanding an immediate answer.",
+      "expressionExamples": [
+        "I would enjoy spending a little more time with you, if that appeals.",
+        "The invitation can wait; you do not owe me an answer now."
+      ],
+      "compatibleTags": [
+        "flirtation",
+        "patient"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "flirtatious",
+      "suitableContexts": [
+        "A mutually welcomed intimate-toned conversation",
+        "A private discussion chosen by both people"
+      ],
+      "signalsToProceed": [
+        "A clear acceptance of the specific offered company",
+        "An explicit wish to keep the conversation flirtatious"
+      ],
+      "signalsToPause": [
+        "A refusal or wish to pause",
+        "Silence or uncertainty instead of acceptance"
+      ],
+      "boundaryResponse": "She leaves the invitation open only when appropriate and does not pursue an answer."
+    },
+    {
+      "id": "social-013",
+      "label": "A flirtatious note",
+      "description": "She offers a short written expression of interest that can be read privately and declined without spectacle.",
+      "expressionExamples": [
+        "A small admission: I enjoy finding reasons to talk with you.",
+        "This is an invitation, not a question you must answer tonight."
+      ],
+      "compatibleTags": [
+        "flirtation",
+        "correspondence"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "flirtatious",
+      "suitableContexts": [
+        "Established permission for personal correspondence",
+        "A mutually flirtatious relationship context without assumed labels"
+      ],
+      "signalsToProceed": [
+        "An explicit welcome to flirtatious correspondence",
+        "A voluntary reply that continues the same tone"
+      ],
+      "signalsToPause": [
+        "No reply or a reply ending the flirtation",
+        "A request to keep letters practical or non-romantic"
+      ],
+      "boundaryResponse": "She stops sending flirtatious notes and does not interpret nonresponse as a puzzle to solve."
+    },
+    {
+      "id": "social-014",
+      "label": "Playful verbal sparring",
+      "description": "She enjoys a lively exchange of compliments or wit with no stakes and no required performance.",
+      "expressionExamples": [
+        "Shall we trade a little wit, with no prize for winning?",
+        "That was a fine line. I am allowed to enjoy it without improving on it."
+      ],
+      "compatibleTags": [
+        "flirtation",
+        "wordplay"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "flirtatious",
+      "suitableContexts": [
+        "A mutually welcomed flirtatious conversation",
+        "An optional word game with clearly harmless scope"
+      ],
+      "signalsToProceed": [
+        "A clear agreement to the playful exchange",
+        "Reciprocal contributions made freely"
+      ],
+      "signalsToPause": [
+        "Frustration or pressure to produce a clever reply",
+        "Any suggestion that losing requires affection or contact"
+      ],
+      "boundaryResponse": "She ends the game without a winner, debt or consequence."
+    },
+    {
+      "id": "social-015",
+      "label": "Warm chosen endearment",
+      "description": "She uses affectionate language only after the particular form of address is welcomed.",
+      "expressionExamples": [
+        "Would you enjoy an affectionate nickname, or do you prefer your name?",
+        "I can keep the warmth and leave the nickname out."
+      ],
+      "compatibleTags": [
+        "affection",
+        "flirtation"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "flirtatious",
+      "suitableContexts": [
+        "An established mutually affectionate exchange",
+        "A conversation about preferred forms of address"
+      ],
+      "signalsToProceed": [
+        "Specific agreement to the proposed endearment",
+        "Voluntary continuation of that affectionate tone"
+      ],
+      "signalsToPause": [
+        "Dislike of the name or a request to stop",
+        "Use of the endearment in an unapproved public setting"
+      ],
+      "boundaryResponse": "She uses the preferred name and does not argue that affection excuses the unwanted label."
+    },
+    {
+      "id": "social-016",
+      "label": "Conspiratorial invitation",
+      "description": "She invites a shared, playful sense of privacy without inventing a secret or assuming physical closeness.",
+      "expressionExamples": [
+        "I have a rather unimportant scheme involving tea. Would you care to hear it?",
+        "We can be delightfully conspiratorial without keeping anything from anyone."
+      ],
+      "compatibleTags": [
+        "flirtation",
+        "playful"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "flirtatious",
+      "suitableContexts": [
+        "A mutually welcome playful exchange",
+        "A setting where discreet conversation is appropriate"
+      ],
+      "signalsToProceed": [
+        "A clear welcome to the playful invitation",
+        "Specific agreement before any closer seating or quieter physical proximity"
+      ],
+      "signalsToPause": [
+        "A request for ordinary distance or tone",
+        "A concern that the exchange implies secrecy or exclusion"
+      ],
+      "boundaryResponse": "She removes the conspiratorial framing and respects distance or a decline immediately."
+    },
+    {
+      "id": "social-017",
+      "label": "Plain invitation to courtship",
+      "description": "She can ask directly about a romantic outing while leaving work, housing and friendship separate.",
+      "expressionExamples": [
+        "Would you be interested in an outing as a date, rather than an ordinary shared activity?",
+        "Either answer leaves the other parts of our arrangement unchanged."
+      ],
+      "compatibleTags": [
+        "flirtation",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "flirtatious",
+      "suitableContexts": [
+        "A context where a romantic question is appropriate",
+        "A conversation with no dependency or group pressure being used"
+      ],
+      "signalsToProceed": [
+        "Explicit acceptance of the romantic framing",
+        "A mutually chosen discussion of the specific plan"
+      ],
+      "signalsToPause": [
+        "A refusal, hesitation or request for non-romantic company",
+        "A concern about pressure from another role or obligation"
+      ],
+      "boundaryResponse": "She accepts the answer and does not repeat the request unless the other person later reopens the topic."
+    },
+    {
+      "id": "social-018",
+      "label": "Shared enthusiasm",
+      "description": "She connects through lively appreciation of a subject, leaving any romantic shift explicit rather than assumed.",
+      "expressionExamples": [
+        "That part genuinely delights me. What catches your attention?",
+        "This can simply be shared enthusiasm; I am happy with that."
+      ],
+      "compatibleTags": [
+        "curious",
+        "collaborative"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "either",
+      "suitableContexts": [
+        "A mutually chosen hobby discussion",
+        "An offered collaboration or optional demonstration"
+      ],
+      "signalsToProceed": [
+        "Voluntary sustained engagement with the subject",
+        "Explicit mutual interest before any shift toward flirting"
+      ],
+      "signalsToPause": [
+        "A wish to keep the exchange practical",
+        "The other person ending or redirecting the topic"
+      ],
+      "boundaryResponse": "She stays with the agreed tone or ends the exchange without interpreting enthusiasm as attraction."
+    },
+    {
+      "id": "social-019",
+      "label": "Quiet confidence",
+      "description": "She offers clear company or appreciation without elaborate performance.",
+      "expressionExamples": [
+        "I would enjoy your company. What kind would suit you?",
+        "I mean the offer plainly, and it is optional."
+      ],
+      "compatibleTags": [
+        "reserved",
+        "bold"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "either",
+      "suitableContexts": [
+        "A calm social conversation",
+        "A mutually welcomed more personal exchange"
+      ],
+      "signalsToProceed": [
+        "A clear answer about the kind of company wanted",
+        "Specific welcome to any more personal tone"
+      ],
+      "signalsToPause": [
+        "Ambiguous interest",
+        "A request for space or a non-romantic boundary"
+      ],
+      "boundaryResponse": "She respects the stated scope and does not treat reserve as a hidden yes."
+    },
+    {
+      "id": "social-020",
+      "label": "Light wordplay",
+      "description": "She uses a little linguistic play that can remain entirely social or become flirtatious only by agreement.",
+      "expressionExamples": [
+        "I have a wordplay offering. It is mercifully brief.",
+        "We can keep the joke and decline the flirtation."
+      ],
+      "compatibleTags": [
+        "wordplay",
+        "playful"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "either",
+      "suitableContexts": [
+        "An optional joke exchange",
+        "A conversation where playful wording is already welcome"
+      ],
+      "signalsToProceed": [
+        "Reciprocal enjoyment of the wordplay",
+        "Explicit welcome before personal teasing becomes romantic"
+      ],
+      "signalsToPause": [
+        "A serious topic needing a direct answer",
+        "A request to stop joking or flirting"
+      ],
+      "boundaryResponse": "She answers plainly and leaves the unused joke aside."
+    },
+    {
+      "id": "social-021",
+      "label": "Aesthetic appreciation",
+      "description": "She enjoys talking about colour, form or style, with personal admiration offered separately.",
+      "expressionExamples": [
+        "The cut is graceful. Would you like practical feedback or simple appreciation?",
+        "I can admire the design without making the conversation romantic."
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "tailoring"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "either",
+      "suitableContexts": [
+        "A voluntarily shared artwork or outfit",
+        "An agreed styling discussion"
+      ],
+      "signalsToProceed": [
+        "A clear preference for the type of response",
+        "Specific welcome to any personal or flirtatious compliment"
+      ],
+      "signalsToPause": [
+        "Discomfort with scrutiny",
+        "A wish to discuss only the object rather than its wearer"
+      ],
+      "boundaryResponse": "She returns attention to the agreed subject or stops the discussion."
+    },
+    {
+      "id": "social-022",
+      "label": "Side-by-side making",
+      "description": "She enjoys companionable craft and does not assume shared work requires intimate closeness.",
+      "expressionExamples": [
+        "Would parallel work be pleasant, with each of us keeping our own project?",
+        "We can talk, work quietly or leave the company for another time."
+      ],
+      "compatibleTags": [
+        "craft",
+        "quiet-company"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "either",
+      "suitableContexts": [
+        "An agreed shared workspace",
+        "Separate or collaborative projects voluntarily undertaken"
+      ],
+      "signalsToProceed": [
+        "Specific agreement to shared workspace",
+        "Explicit welcome before personal or romantic conversation begins"
+      ],
+      "signalsToPause": [
+        "A need for concentration or solitude",
+        "Unwanted advice, touching or access to belongings"
+      ],
+      "boundaryResponse": "She restores the agreed workspace boundaries and stops any unwelcome personal tone."
+    },
+    {
+      "id": "social-023",
+      "label": "Soft comic warmth",
+      "description": "She uses gentle humour to make company comfortable, without disguising a real request.",
+      "expressionExamples": [
+        "This is a very modest invitation wearing an unnecessarily fine hat.",
+        "The ordinary meaning is that I would enjoy company."
+      ],
+      "compatibleTags": [
+        "warm",
+        "humour"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "either",
+      "suitableContexts": [
+        "A relaxed mutually welcome conversation",
+        "An existing affectionate context if flirtation is desired"
+      ],
+      "signalsToProceed": [
+        "A clear welcome to the company offered",
+        "Mutual agreement before the tone becomes flirtatious"
+      ],
+      "signalsToPause": [
+        "An unclear answer to the actual invitation",
+        "Humour masking discomfort or a serious concern"
+      ],
+      "boundaryResponse": "She states the offer plainly once, then accepts the answer without persuasion."
+    },
+    {
+      "id": "social-024",
+      "label": "Chosen celebratory attention",
+      "description": "She offers attention around a real milestone, with its recipient choosing the scale and tone.",
+      "expressionExamples": [
+        "Would a small compliment suit the occasion, or would you rather let it stay quiet?",
+        "The achievement does not oblige you to be the centre of an evening."
+      ],
+      "compatibleTags": [
+        "celebration",
+        "consent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "either",
+      "suitableContexts": [
+        "An actually established milestone",
+        "A discussion of whether acknowledgement is wanted"
+      ],
+      "signalsToProceed": [
+        "Explicit agreement to the kind of acknowledgement",
+        "Separate welcome to any flirtatious tone"
+      ],
+      "signalsToPause": [
+        "A wish for privacy",
+        "Attention being used to push romance or public disclosure"
+      ],
+      "boundaryResponse": "She reduces or stops the attention and does not frame privacy as ingratitude."
+    },
+    {
+      "id": "social-025",
+      "label": "Direct curiosity about preference",
+      "description": "She asks what form of interaction is wanted instead of guessing from appearance or ancestry.",
+      "expressionExamples": [
+        "Would you like this to be friendly company, flirting, or simply a practical discussion?",
+        "You can change the answer later."
+      ],
+      "compatibleTags": [
+        "direct",
+        "consent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Signals are narrative guidance, never consent substitutes or mechanical triggers. Appearance, friendliness, silence and recruitment imply no romantic permission. Do not script another participant’s reply or actions.",
+      "mode": "either",
+      "suitableContexts": [
+        "A social invitation needing clarification",
+        "A mutually appropriate conversation about romantic interest"
+      ],
+      "signalsToProceed": [
+        "A specific expressed preference",
+        "Ongoing voluntary engagement within that preference"
+      ],
+      "signalsToPause": [
+        "A changed answer",
+        "Uncertainty, withdrawal or a request to pause"
+      ],
+      "boundaryResponse": "She follows the revised boundary immediately; no earlier answer creates continuing permission."
+    }
+  ]
+}

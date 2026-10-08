@@ -1,0 +1,1893 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "orc",
+  "ancestryName": "Orc",
+  "arrivalMethod": "recruitment",
+  "names": [
+    {
+      "id": "orc-name-001",
+      "name": "Orvia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-002",
+      "name": "Garvuma",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-003",
+      "name": "Mogra",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-004",
+      "name": "Boreth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-005",
+      "name": "Igrela",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-006",
+      "name": "Negeth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-007",
+      "name": "Irgesh",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-008",
+      "name": "Ragen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-009",
+      "name": "Zargen",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-010",
+      "name": "Kagela",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-011",
+      "name": "Hegia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-012",
+      "name": "Nargela",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-013",
+      "name": "Wargra",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-014",
+      "name": "Belgra",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-015",
+      "name": "Garara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-016",
+      "name": "Dagona",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-017",
+      "name": "Selgina",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-018",
+      "name": "Eshesh",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-019",
+      "name": "Zurga",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-020",
+      "name": "Regona",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-021",
+      "name": "Vaga",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-022",
+      "name": "Delgesh",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-023",
+      "name": "Taga",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-024",
+      "name": "Harguma",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-025",
+      "name": "Legen",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-026",
+      "name": "Bageth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-027",
+      "name": "Zogeth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-028",
+      "name": "Torga",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-029",
+      "name": "Egrona",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-030",
+      "name": "Ugrra",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-031",
+      "name": "Jageth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-032",
+      "name": "Agraina",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-033",
+      "name": "Gogina",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-034",
+      "name": "Bragina",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-035",
+      "name": "Rorguma",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-036",
+      "name": "Korgen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-037",
+      "name": "Yegesh",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-038",
+      "name": "Jorvesh",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-039",
+      "name": "Akrra",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-040",
+      "name": "Drogia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-041",
+      "name": "Kelmina",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-042",
+      "name": "Vegen",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-043",
+      "name": "Felgona",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-044",
+      "name": "Morgona",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-045",
+      "name": "Saguma",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-046",
+      "name": "Urgela",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-047",
+      "name": "Vorgia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-048",
+      "name": "Lagela",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-049",
+      "name": "Graluma",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-050",
+      "name": "Ogria",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-051",
+      "name": "Sagia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-052",
+      "name": "Hegina",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-053",
+      "name": "Legra",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-054",
+      "name": "Zogesh",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-055",
+      "name": "Yeguma",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-056",
+      "name": "Boresh",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-057",
+      "name": "Hargia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-058",
+      "name": "Lageth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-059",
+      "name": "Agra",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-060",
+      "name": "Rorgia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-061",
+      "name": "Gralia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-062",
+      "name": "Kageth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-063",
+      "name": "Torgen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-064",
+      "name": "Drogina",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-065",
+      "name": "Negesh",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-066",
+      "name": "Zargra",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-067",
+      "name": "Braga",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-068",
+      "name": "Wargona",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-069",
+      "name": "Regela",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-070",
+      "name": "Mogren",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-071",
+      "name": "Felgela",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-072",
+      "name": "Ogrina",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-073",
+      "name": "Selga",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-074",
+      "name": "Garaona",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-075",
+      "name": "Kelma",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-076",
+      "name": "Morgela",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-077",
+      "name": "Eshuma",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-078",
+      "name": "Igreth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-079",
+      "name": "Urgeth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-080",
+      "name": "Ragra",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-081",
+      "name": "Nargeth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-082",
+      "name": "Zurgen",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-083",
+      "name": "Ugrona",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-084",
+      "name": "Irguma",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-085",
+      "name": "Vegra",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-086",
+      "name": "Vagen",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-087",
+      "name": "Belgona",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-088",
+      "name": "Akrona",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-089",
+      "name": "Jagesh",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-090",
+      "name": "Orvina",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-091",
+      "name": "Tagen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-092",
+      "name": "Jorvuma",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-093",
+      "name": "Garvia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-094",
+      "name": "Korgra",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-095",
+      "name": "Vorgina",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-096",
+      "name": "Goga",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "orc-name-097",
+      "name": "Delguma",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "orc-name-098",
+      "name": "Bagesh",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "orc-name-099",
+      "name": "Egrela",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "orc-name-100",
+      "name": "Dagela",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "orc-story-001",
+      "title": "The pastry crimper's challenge",
+      "premise": "A practice pastry border defeats her because she keeps correcting it after the dough grows soft.",
+      "personalMotivation": "Finishing something delicate matters more to her than appearing naturally capable.",
+      "openingHook": "She offers a drawing of the increasingly elaborate border.",
+      "possibleDevelopments": [
+        "Explore a simpler repeatable edge in a proposed baking trial.",
+        "Decide whether an uneven but intact border is enough."
+      ],
+      "backgroundTags": [
+        "baking"
+      ],
+      "themeTags": [
+        "craft",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-002",
+      "title": "A green pigment argument",
+      "premise": "She is amused that a portrait manual calls every green mixture either sickly or monstrous.",
+      "personalMotivation": "She wants a useful colour vocabulary rather than an argument with the book.",
+      "openingHook": "She asks for words that describe green skin without judging it.",
+      "possibleDevelopments": [
+        "Draft neutral swatch labels with room for undertones.",
+        "Consider an annotated correction for her own reference copy."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "identity",
+        "language"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-003",
+      "title": "The treaty of the washbasin",
+      "premise": "She imagines a shared workshop cleanup routine but finds every rule sounds accusatory.",
+      "personalMotivation": "She wants people to solve a nuisance before it becomes personal.",
+      "openingHook": "She asks which request would sound fair to a tired worker.",
+      "possibleDevelopments": [
+        "Separate care of shared tools from personal tidiness preferences.",
+        "Propose an arrangement open to revision by willing participants."
+      ],
+      "backgroundTags": [
+        "domestic"
+      ],
+      "themeTags": [
+        "negotiation",
+        "work"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-004",
+      "title": "The tiny book of enormous errors",
+      "premise": "She wants a pocket notebook of beginner mistakes, including her own overconfident measuring.",
+      "personalMotivation": "A useful laugh helps her admit uncertainty.",
+      "openingHook": "She presents a proposed title with deliberately grand lettering.",
+      "possibleDevelopments": [
+        "Choose mistakes that can be described without naming other people.",
+        "Pair each comic entry with a modest practical observation."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "humour",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-005",
+      "title": "A shield-shaped bread board",
+      "premise": "She likes the silhouette of a shield but wants the object to belong unambiguously in a kitchen.",
+      "personalMotivation": "She enjoys familiar shapes without making everything martial.",
+      "openingHook": "She asks which details turn a motif into a stereotype.",
+      "possibleDevelopments": [
+        "Sketch comfortable grips and a plain working surface.",
+        "Keep the decorative outline while removing heraldic claims."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "cooking",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-006",
+      "title": "The patient debate club",
+      "premise": "She likes disagreement and worries a proposed discussion evening would reward the quickest interruption.",
+      "personalMotivation": "Thoughtful argument is one of her pleasures.",
+      "openingHook": "She asks how a slower speaker could keep a turn.",
+      "possibleDevelopments": [
+        "Try an optional topic with pauses for thought.",
+        "Consider written questions before any spoken discussion."
+      ],
+      "backgroundTags": [
+        "community"
+      ],
+      "themeTags": [
+        "negotiation",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-007",
+      "title": "The little silver clasp",
+      "premise": "She is considering a first metalwork project and cannot decide whether to repair or redesign an awkward fastening.",
+      "personalMotivation": "Understanding the old maker's choices interests her.",
+      "openingHook": "She asks what the clasp's wear might reveal.",
+      "possibleDevelopments": [
+        "Make a drawing that distinguishes wear from intended shape.",
+        "Seek review before attempting changes to a valued object."
+      ],
+      "backgroundTags": [
+        "metalwork"
+      ],
+      "themeTags": [
+        "craft",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-008",
+      "title": "A compliment with teeth",
+      "premise": "She enjoys bold compliments but wants her humour understood as an invitation, not a challenge.",
+      "personalMotivation": "She likes being direct without making others perform confidence.",
+      "openingHook": "She asks how a teasing line could leave an easy exit.",
+      "possibleDevelopments": [
+        "Explore a version that does not demand a clever reply.",
+        "Consider a plain compliment when the mood is uncertain."
+      ],
+      "backgroundTags": [
+        "flirtation"
+      ],
+      "themeTags": [
+        "humour",
+        "consent"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-009",
+      "title": "The orchard stool correspondence",
+      "premise": "A friend proposes an orchard stool, while her reply keeps drifting into unrelated furniture ideas.",
+      "personalMotivation": "She wants to answer the actual question before showing off.",
+      "openingHook": "She asks which part of her draft is genuinely useful.",
+      "possibleDevelopments": [
+        "Separate direct feedback from optional additional sketches.",
+        "Ask the friend's priorities before expanding the project."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "woodwork",
+        "collaborative"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-010",
+      "title": "The quiet strength of a chorus",
+      "premise": "She wants to sing softly and dislikes feedback focused only on how loud she could become.",
+      "personalMotivation": "She wants control and expression to matter more than volume.",
+      "openingHook": "She asks a willing listener to attend to phrasing rather than force.",
+      "possibleDevelopments": [
+        "Plan a short, optional comparison of different dynamics.",
+        "Consider a duet only after both singers choose the arrangement."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "identity",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-011",
+      "title": "A fair description of endurance",
+      "premise": "She writes an introduction for herself and keeps reducing it to how much work she can tolerate.",
+      "personalMotivation": "She wants to name pleasures as confidently as capabilities.",
+      "openingHook": "She asks what belongs in an introduction besides usefulness.",
+      "possibleDevelopments": [
+        "Include a chosen hobby and something she hopes to explore.",
+        "Remove any promise of unlimited labour."
+      ],
+      "backgroundTags": [
+        "identity"
+      ],
+      "themeTags": [
+        "work",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-012",
+      "title": "The herb label that frightened guests",
+      "premise": "Her dramatic calligraphy makes ordinary herb names look like warnings from a forbidden grimoire.",
+      "personalMotivation": "She finds the accident funny but wants the labels readable.",
+      "openingHook": "She offers a sketch of an unnecessarily ominous parsley label.",
+      "possibleDevelopments": [
+        "Create a plain practical set beside the comic versions.",
+        "Use the elaborate lettering for a clearly fictional performance prop."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "humour",
+        "gardening"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-013",
+      "title": "A promise smaller than pride",
+      "premise": "She considers helping with a repair but suspects the full job exceeds her present knowledge.",
+      "personalMotivation": "She wants a promise she can actually honour.",
+      "openingHook": "She asks how to offer investigation instead of completion.",
+      "possibleDevelopments": [
+        "Draft a bounded offer to inspect and report uncertainties.",
+        "Leave further work dependent on advice and renewed agreement."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "promises",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-014",
+      "title": "The recipe that forgot the pan",
+      "premise": "She finds a brief cooking note that names ingredients but omits the vessel its writer took for granted.",
+      "personalMotivation": "She enjoys practical mysteries that reveal how much ordinary expertise goes unstated.",
+      "openingHook": "She asks which clues in the text point to boiling, baking or a covered pot.",
+      "possibleDevelopments": [
+        "Compare the wording with suitable references without treating an inference as a recipe.",
+        "Rewrite the note as a list of questions for an experienced, willing cook."
+      ],
+      "backgroundTags": [
+        "cooking"
+      ],
+      "themeTags": [
+        "archives",
+        "curious"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-015",
+      "title": "An inkstone with room for error",
+      "premise": "She sketches an inkstone tray whose tidy compartments leave no place for drips.",
+      "personalMotivation": "She likes tools that acknowledge the realities of practice.",
+      "openingHook": "She asks where the inevitable spill would go.",
+      "possibleDevelopments": [
+        "Add a removable catch area to the drawing.",
+        "Compare easy cleaning with ornamental complexity."
+      ],
+      "backgroundTags": [
+        "stonework"
+      ],
+      "themeTags": [
+        "archives",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-016",
+      "title": "The poem she refuses to explain",
+      "premise": "She writes a tender poem and is reluctant to share it with people expecting bluntness.",
+      "personalMotivation": "She wants to choose how much of herself becomes public.",
+      "openingHook": "She asks whether a poem can stay private and still be finished.",
+      "possibleDevelopments": [
+        "Discuss a private reading only if she wishes.",
+        "Consider sharing its craft problem rather than its personal content."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "privacy",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-017",
+      "title": "The bean pole disagreement",
+      "premise": "Her garden support design favours sturdy straight lines while a collaborator's imagined version uses flexible branches.",
+      "personalMotivation": "She wants a disagreement about methods to stay productive.",
+      "openingHook": "She asks which conditions would favour each approach.",
+      "possibleDevelopments": [
+        "Plan a small comparison rather than declaring one superior.",
+        "Consider using different supports for different purposes."
+      ],
+      "backgroundTags": [
+        "gardening"
+      ],
+      "themeTags": [
+        "collaborative",
+        "experimentation"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-018",
+      "title": "The ridiculous formal title",
+      "premise": "She invents an elaborate title for a mundane cleaning brush and considers making a comic catalogue.",
+      "personalMotivation": "She enjoys household absurdity that does not mock its workers.",
+      "openingHook": "She asks which ordinary object deserves equally pompous treatment.",
+      "possibleDevelopments": [
+        "Write fictional entries that remain separate from useful labels.",
+        "Invite contributions without assigning anyone the task of being funny."
+      ],
+      "backgroundTags": [
+        "humour"
+      ],
+      "themeTags": [
+        "archives",
+        "domestic"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-019",
+      "title": "A map of places to ask",
+      "premise": "She wants a local guide organized around who welcomes questions rather than who is most prestigious.",
+      "personalMotivation": "She values approachable expertise.",
+      "openingHook": "She asks how a guide can avoid promising someone's availability.",
+      "possibleDevelopments": [
+        "Draft opt-in entries with clear contact preferences.",
+        "Consider a list of questions to ask instead of naming people."
+      ],
+      "backgroundTags": [
+        "community"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-020",
+      "title": "The tusk-friendly cup study",
+      "premise": "She notices some cup rims feel awkward around her small tusks and wants to compare shapes.",
+      "personalMotivation": "A comfortable everyday object is worth careful attention.",
+      "openingHook": "She asks whether a flatter lip might change the experience.",
+      "possibleDevelopments": [
+        "Draw several rim profiles without claiming a universal solution.",
+        "Invite individual testing only with suitable existing cups."
+      ],
+      "backgroundTags": [
+        "ceramics"
+      ],
+      "themeTags": [
+        "tea",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-021",
+      "title": "The repaired festival banner",
+      "premise": "She likes visible patches but worries a banner's old wording no longer describes its intended gathering.",
+      "personalMotivation": "She wants continuity without preserving an unsuitable message.",
+      "openingHook": "She asks what should be repaired and what should be rewritten.",
+      "possibleDevelopments": [
+        "Separate the fabric's history from the event's current purpose.",
+        "Consider a new removable text panel."
+      ],
+      "backgroundTags": [
+        "textiles"
+      ],
+      "themeTags": [
+        "celebration",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-022",
+      "title": "A rest day with a project in it",
+      "premise": "She wants to carve for pleasure but catches herself measuring leisure by productivity.",
+      "personalMotivation": "Making things relaxes her until she turns it into a quota.",
+      "openingHook": "She asks whether stopping halfway can be the point.",
+      "possibleDevelopments": [
+        "Choose a small exploratory form with no finish requirement.",
+        "Consider keeping a box specifically for enjoyable unfinished pieces."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "rest",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-023",
+      "title": "The recommendation she cannot give",
+      "premise": "A friend asks her to endorse a craft she has only seen in drawings.",
+      "personalMotivation": "She wants to be supportive without pretending firsthand knowledge.",
+      "openingHook": "She asks how an honest recommendation might distinguish evidence.",
+      "possibleDevelopments": [
+        "Draft praise for the drawing while withholding claims about performance.",
+        "Offer useful questions the friend could ask directly."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "trust",
+        "friendship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-024",
+      "title": "The apron in a surprising colour",
+      "premise": "She wants a pale, soft-coloured work apron and anticipates jokes about impracticality.",
+      "personalMotivation": "Her taste need not prove toughness.",
+      "openingHook": "She asks which removable protections could preserve the design she likes.",
+      "possibleDevelopments": [
+        "Plan washable panels without changing the chosen colour scheme.",
+        "Accept visible wear as one possible part of the garment's life."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "identity",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "orc-story-025",
+      "title": "A shared task with separate standards",
+      "premise": "She enjoys collaboration but finds it difficult to leave another maker's harmless irregularities alone.",
+      "personalMotivation": "She wants partnership rather than disguised supervision.",
+      "openingHook": "She asks which differences actually affect the object's purpose.",
+      "possibleDevelopments": [
+        "Agree on essential fit while leaving decorative choices individual.",
+        "Consider making complementary pieces instead of one uniform object."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "collaborative",
+        "negotiation"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "orc-appearance-001",
+      "summary": "An adult woman aged 24 with deep forest green skin, waist-length dark auburn hair, and olive green eyes. Her build is sturdy and broad-shouldered with full hips. Small ivory lower tusks.",
+      "skin": "deep forest green",
+      "hair": "waist-length dark auburn hair",
+      "eyes": "olive green",
+      "build": "sturdy and broad-shouldered with full hips",
+      "ancestryFeatures": [
+        "small ivory lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "a tiny pale scar at the edge of the left brow"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "orc-appearance-002",
+      "summary": "An adult woman aged 19 with warm olive green skin, long pale-gold waves, and smoky blue eyes. Her build is thickset and muscular with mature curves. Short cream tusks curving above the lower lip.",
+      "skin": "warm olive green",
+      "hair": "long pale-gold waves",
+      "eyes": "smoky blue",
+      "build": "thickset and muscular with mature curves",
+      "ancestryFeatures": [
+        "short cream tusks curving above the lower lip",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "a faint darker patch at the left jaw"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "orc-appearance-003",
+      "summary": "An adult woman aged 22 with jade green skin, a blunt honey-brown bob, and amber eyes. Her build is tall and powerfully built with a full bust. Subtle blunt lower tusks.",
+      "skin": "jade green",
+      "hair": "a blunt honey-brown bob",
+      "eyes": "amber",
+      "build": "tall and powerfully built with a full bust",
+      "ancestryFeatures": [
+        "subtle blunt lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a few silver strands at the right temple"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "orc-appearance-004",
+      "summary": "An adult woman aged 25 with dark moss green skin, long dark hair with a silver forelock, and rich brown eyes. Her build is compact with a strong back and heavy thighs. Small outward-angled lower tusks.",
+      "skin": "dark moss green",
+      "hair": "long dark hair with a silver forelock",
+      "eyes": "rich brown",
+      "build": "compact with a strong back and heavy thighs",
+      "ancestryFeatures": [
+        "small outward-angled lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a slightly higher arch to the left eyebrow"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact"
+      ]
+    },
+    {
+      "id": "orc-appearance-005",
+      "summary": "An adult woman aged 20 with muted sage green skin, short deep-plum curls, and hazel eyes. Her build is broad-framed and generously curvaceous. Short, smoothly tapered ivory tusks.",
+      "skin": "muted sage green",
+      "hair": "short deep-plum curls",
+      "eyes": "hazel",
+      "build": "broad-framed and generously curvaceous",
+      "ancestryFeatures": [
+        "short, smoothly tapered ivory tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a beauty mark beneath the lower lip"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "orc-appearance-006",
+      "summary": "An adult woman aged 23 with deep forest green skin, a dark chestnut crop with a curled fringe, and moss green eyes. Her build is sturdy and broad-shouldered with full hips. Small ivory lower tusks.",
+      "skin": "deep forest green",
+      "hair": "a dark chestnut crop with a curled fringe",
+      "eyes": "moss green",
+      "build": "sturdy and broad-shouldered with full hips",
+      "ancestryFeatures": [
+        "small ivory lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a tiny beauty mark beneath the right eye"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "orc-appearance-007",
+      "summary": "An adult woman aged 18 with warm olive green skin, a wavy black bob, and muted gold eyes. Her build is thickset and muscular with mature curves. Short cream tusks curving above the lower lip.",
+      "skin": "warm olive green",
+      "hair": "a wavy black bob",
+      "eyes": "muted gold",
+      "build": "thickset and muscular with mature curves",
+      "ancestryFeatures": [
+        "short cream tusks curving above the lower lip",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a faint freckle band across the upper cheeks"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "freckled"
+      ]
+    },
+    {
+      "id": "orc-appearance-008",
+      "summary": "An adult woman aged 21 with jade green skin, a straight dark-brown bob, and golden brown eyes. Her build is tall and powerfully built with a full bust. Subtle blunt lower tusks.",
+      "skin": "jade green",
+      "hair": "a straight dark-brown bob",
+      "eyes": "golden brown",
+      "build": "tall and powerfully built with a full bust",
+      "ancestryFeatures": [
+        "subtle blunt lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a soft dusting of freckles on the upper arms"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic",
+        "freckled"
+      ]
+    },
+    {
+      "id": "orc-appearance-009",
+      "summary": "An adult woman aged 24 with dark moss green skin, close-cropped ash-brown curls, and dark grey eyes. Her build is compact with a strong back and heavy thighs. Small outward-angled lower tusks.",
+      "skin": "dark moss green",
+      "hair": "close-cropped ash-brown curls",
+      "eyes": "dark grey",
+      "build": "compact with a strong back and heavy thighs",
+      "ancestryFeatures": [
+        "small outward-angled lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "slightly uneven natural eyebrow arches"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact"
+      ]
+    },
+    {
+      "id": "orc-appearance-010",
+      "summary": "An adult woman aged 19 with muted sage green skin, thick dark-brown coils to the shoulders, and warm brown eyes. Her build is broad-framed and generously curvaceous. Short, smoothly tapered ivory tusks.",
+      "skin": "muted sage green",
+      "hair": "thick dark-brown coils to the shoulders",
+      "eyes": "warm brown",
+      "build": "broad-framed and generously curvaceous",
+      "ancestryFeatures": [
+        "short, smoothly tapered ivory tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a pale oval birthmark at the nape"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "orc-appearance-011",
+      "summary": "An adult woman aged 22 with deep forest green skin, long blue-black curls, and soft violet eyes. Her build is sturdy and broad-shouldered with full hips. Small ivory lower tusks.",
+      "skin": "deep forest green",
+      "hair": "long blue-black curls",
+      "eyes": "soft violet",
+      "build": "sturdy and broad-shouldered with full hips",
+      "ancestryFeatures": [
+        "small ivory lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a narrow pale scar along the chin"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "orc-appearance-012",
+      "summary": "An adult woman aged 25 with warm olive green skin, short russet curls, and grey-green eyes. Her build is thickset and muscular with mature curves. Short cream tusks curving above the lower lip.",
+      "skin": "warm olive green",
+      "hair": "short russet curls",
+      "eyes": "grey-green",
+      "build": "thickset and muscular with mature curves",
+      "ancestryFeatures": [
+        "short cream tusks curving above the lower lip",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a deeper natural crease beneath the lower lip"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "orc-appearance-013",
+      "summary": "An adult woman aged 20 with jade green skin, sleek black hair to the waist, and pale grey eyes. Her build is tall and powerfully built with a full bust. Subtle blunt lower tusks.",
+      "skin": "jade green",
+      "hair": "sleek black hair to the waist",
+      "eyes": "pale grey",
+      "build": "tall and powerfully built with a full bust",
+      "ancestryFeatures": [
+        "subtle blunt lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a small birthmark near the right shoulder"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "orc-appearance-014",
+      "summary": "An adult woman aged 23 with dark moss green skin, long ash-brown ringlets, and black-brown eyes. Her build is compact with a strong back and heavy thighs. Small outward-angled lower tusks.",
+      "skin": "dark moss green",
+      "hair": "long ash-brown ringlets",
+      "eyes": "black-brown",
+      "build": "compact with a strong back and heavy thighs",
+      "ancestryFeatures": [
+        "small outward-angled lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a small freckle cluster across the nose"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact",
+        "freckled"
+      ]
+    },
+    {
+      "id": "orc-appearance-015",
+      "summary": "An adult woman aged 18 with muted sage green skin, long pale-copper waves, and dark hazel eyes. Her build is broad-framed and generously curvaceous. Short, smoothly tapered ivory tusks.",
+      "skin": "muted sage green",
+      "hair": "long pale-copper waves",
+      "eyes": "dark hazel",
+      "build": "broad-framed and generously curvaceous",
+      "ancestryFeatures": [
+        "short, smoothly tapered ivory tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a subtle left cheek dimple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "orc-appearance-016",
+      "summary": "An adult woman aged 21 with deep forest green skin, long chestnut waves, and sea green eyes. Her build is sturdy and broad-shouldered with full hips. Small ivory lower tusks.",
+      "skin": "deep forest green",
+      "hair": "long chestnut waves",
+      "eyes": "sea green",
+      "build": "sturdy and broad-shouldered with full hips",
+      "ancestryFeatures": [
+        "small ivory lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a beauty mark beside the left cheekbone"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "orc-appearance-017",
+      "summary": "An adult woman aged 24 with warm olive green skin, long black hair with a blunt fringe, and slate grey eyes. Her build is thickset and muscular with mature curves. Short cream tusks curving above the lower lip.",
+      "skin": "warm olive green",
+      "hair": "long black hair with a blunt fringe",
+      "eyes": "slate grey",
+      "build": "thickset and muscular with mature curves",
+      "ancestryFeatures": [
+        "short cream tusks curving above the lower lip",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a dark freckle beside the bridge of the nose"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "freckled"
+      ]
+    },
+    {
+      "id": "orc-appearance-018",
+      "summary": "An adult woman aged 19 with jade green skin, a silver-blonde crop, and russet brown eyes. Her build is tall and powerfully built with a full bust. Subtle blunt lower tusks.",
+      "skin": "jade green",
+      "hair": "a silver-blonde crop",
+      "eyes": "russet brown",
+      "build": "tall and powerfully built with a full bust",
+      "ancestryFeatures": [
+        "subtle blunt lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a natural notch in the right eyebrow"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "orc-appearance-019",
+      "summary": "An adult woman aged 22 with dark moss green skin, a chestnut pixie cut, and dark blue eyes. Her build is compact with a strong back and heavy thighs. Small outward-angled lower tusks.",
+      "skin": "dark moss green",
+      "hair": "a chestnut pixie cut",
+      "eyes": "dark blue",
+      "build": "compact with a strong back and heavy thighs",
+      "ancestryFeatures": [
+        "small outward-angled lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a small cleft in the chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact"
+      ]
+    },
+    {
+      "id": "orc-appearance-020",
+      "summary": "An adult woman aged 25 with muted sage green skin, mid-back silver-white waves, and green flecked with gold eyes. Her build is broad-framed and generously curvaceous. Short, smoothly tapered ivory tusks.",
+      "skin": "muted sage green",
+      "hair": "mid-back silver-white waves",
+      "eyes": "green flecked with gold",
+      "build": "broad-framed and generously curvaceous",
+      "ancestryFeatures": [
+        "short, smoothly tapered ivory tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a light scatter of freckles over the shoulders"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "freckled"
+      ]
+    },
+    {
+      "id": "orc-appearance-021",
+      "summary": "An adult woman aged 20 with deep forest green skin, a shoulder-length tawny shag, and deep brown eyes. Her build is sturdy and broad-shouldered with full hips. Small ivory lower tusks.",
+      "skin": "deep forest green",
+      "hair": "a shoulder-length tawny shag",
+      "eyes": "deep brown",
+      "build": "sturdy and broad-shouldered with full hips",
+      "ancestryFeatures": [
+        "small ivory lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a pale pigment fleck at the left temple"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "orc-appearance-022",
+      "summary": "An adult woman aged 23 with warm olive green skin, mid-back flaxen braids, and copper brown eyes. Her build is thickset and muscular with mature curves. Short cream tusks curving above the lower lip.",
+      "skin": "warm olive green",
+      "hair": "mid-back flaxen braids",
+      "eyes": "copper brown",
+      "build": "thickset and muscular with mature curves",
+      "ancestryFeatures": [
+        "short cream tusks curving above the lower lip",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a softly dimpled chin"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "orc-appearance-023",
+      "summary": "An adult woman aged 18 with jade green skin, shoulder-length warm-brown twists, and deep blue eyes. Her build is tall and powerfully built with a full bust. Subtle blunt lower tusks.",
+      "skin": "jade green",
+      "hair": "shoulder-length warm-brown twists",
+      "eyes": "deep blue",
+      "build": "tall and powerfully built with a full bust",
+      "ancestryFeatures": [
+        "subtle blunt lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a beauty mark near the right corner of the mouth"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "orc-appearance-024",
+      "summary": "An adult woman aged 21 with dark moss green skin, chin-length black curls, and blue-grey eyes. Her build is compact with a strong back and heavy thighs. Small outward-angled lower tusks.",
+      "skin": "dark moss green",
+      "hair": "chin-length black curls",
+      "eyes": "blue-grey",
+      "build": "compact with a strong back and heavy thighs",
+      "ancestryFeatures": [
+        "small outward-angled lower tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a darker pigment patch along one collarbone"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact"
+      ]
+    },
+    {
+      "id": "orc-appearance-025",
+      "summary": "An adult woman aged 24 with muted sage green skin, shoulder-length copper coils, and honey brown eyes. Her build is broad-framed and generously curvaceous. Short, smoothly tapered ivory tusks.",
+      "skin": "muted sage green",
+      "hair": "shoulder-length copper coils",
+      "eyes": "honey brown",
+      "build": "broad-framed and generously curvaceous",
+      "ancestryFeatures": [
+        "short, smoothly tapered ivory tusks",
+        "slightly pointed ears",
+        "a humanlike face with a strong jaw"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "soft freckling along the collarbones"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "freckled"
+      ]
+    }
+  ]
+}

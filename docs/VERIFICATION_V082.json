@@ -1,0 +1,48 @@
+{
+  "version": "0.82",
+  "schema": 60,
+  "scope": "Chapter 5 playability, economy and feedback pass",
+  "baseline": {
+    "version": "0.81",
+    "fullPythonTests": 877,
+    "fullHeadlessUISuites": 53,
+    "rerunInFullForThisRelease": false
+  },
+  "targetedPython": {
+    "suites": 12,
+    "tests": 70,
+    "passed": true
+  },
+  "targetedUI": {
+    "suites": 6,
+    "passed": true,
+    "renderedBrowser": false
+  },
+  "campaignRoutes": {
+    "count": 2,
+    "chapters": 5,
+    "earnedResources": true,
+    "minimumFieldPhasesSavedPerRoute": 2
+  },
+  "upgrade": {
+    "sourceVersion": "0.81",
+    "targetVersion": "0.82",
+    "existingFieldsPreserved": true,
+    "schema60": true,
+    "schemaChangeRequired": false,
+    "partialResearchPreserved": true,
+    "acceptedPortraitPreserved": true,
+    "portraitBytesPreserved": true,
+    "backupContainsPortrait": true,
+    "reloadIdempotent": true
+  },
+  "unchangedAssets": 246,
+  "unchangedBundledArchives": 5,
+  "browser": {
+    "attempted": true,
+    "url": "http://127.0.0.1:8082",
+    "result": "ERR_BLOCKED_BY_CLIENT",
+    "renderedReview": false,
+    "bypassAttempted": false
+  }
+}

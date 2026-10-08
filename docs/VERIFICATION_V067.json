@@ -1,0 +1,27 @@
+{
+  "version": "0.67",
+  "schemaVersion": 57,
+  "python": {
+    "tests": 773,
+    "seconds": 109.551,
+    "failures": 0,
+    "errors": 0
+  },
+  "browserVisualReview": false,
+  "saveMigration": "No schema change; preserve complete data directory including data/assets.",
+  "artwork": {
+    "unchangedFilesComparedWithV066": 159,
+    "spellIconPngsPreserved": 38
+  },
+  "verificationScope": "Real JavaScript templates/controllers against Python store; reconciliation tree double. No rendered browser or mobile layout inspection.",
+  "uiRegression": {
+    "suites": 44,
+    "failures": 0,
+    "includesReconciliationTreeDouble": true,
+    "targetedRechecks": [
+      "test_ui.cjs",
+      "test_ui_outfits.cjs",
+      "test_ui_unified.cjs"
+    ]
+  }
+}

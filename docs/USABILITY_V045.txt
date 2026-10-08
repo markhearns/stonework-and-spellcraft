@@ -1,0 +1,19 @@
+Stonework and Spellcraft v0.45 — usability and solo content
+
+Changes
+- Phase-board filters with counts: All, New this phase, Ready now, Paused work, Invitations. Required choices remain visible in every filter; the Home summary stays unfiltered.
+- Keyboard focus returns to the activated filter after rendering. Empty filtered results explain how to see the other tasks.
+- Four fresh-campaign milestone scenes, each with two authored reflections. Prerequisites: first crafted warming lantern, conservatory restored, a waterworks discovery returned, first neighbour delivery. They require the scholar at home, never expire, grant no resource/stat rewards, and consume no time. Choices are saved once and journaled.
+- Phase invitations open the selected scene; choosing a reflection reveals remembered prose. Scenes reuse the existing library/conservatory illustrations.
+- Corrected category artwork for actual public material records.
+
+Compatibility
+Save schema remains 39. Existing fresh-campaign saves need no restart; completed milestones become eligible. The optional soloLife.moments dictionary is created on first selection. Demonstration campaigns keep their existing content. Co-op remains deferred. Existing artwork and public source archives are unchanged.
+
+Verification
+479 Python tests passed, including three new scene tests for real fresh progression, prerequisites, invalid inputs, away-state rejection, save serialization/reload, no costs/rewards, no expiry and no repeat selection.
+All 22 connected headless UI suites passed. The guidance suite additionally checks filter counts/selection, read-only filtering, scene navigation and selection through the real server action flow, and required expedition choices under the Invitations filter. It was rerun after the final interaction changes.
+These are template/controller integration checks, not rendered browser layout tests. Desktop/mobile appearance, touch targets and real keyboard focus still need visual/browser review. No new artwork was generated for this release.
+
+Install
+Extract the archive into stonework-and-spellcraft/. Keep your existing data directory when upgrading. Run python server.py as before. Choose New game for the clean solo beginning, or continue an existing fresh campaign.

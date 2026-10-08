@@ -1,0 +1,33 @@
+Stonework and Spellcraft v0.47 — character creation
+
+Player-facing flow
+1. New game -> Fresh beginning -> Your character.
+2. Save a name (1–40 characters) and adult human age (integer, 18–120). Pronouns, appearance notes, a background choice and background notes are optional.
+3. Keep the placeholder, import an image to preview/accept, or request a generated image draft after configuring the optional image provider.
+4. Continue to the existing two-choice arrival and getting-settled guide.
+5. Edit later from Settings & artwork -> Your character. The arrival links back to setup too.
+
+Background choices
+Leave the past open, independent scholar, former apprentice, bookbinder/archivist, travelling researcher, craftsperson, or custom background. These are descriptive and editable. No knowledge, practice, attribute, inventory or resource change is granted. The protagonist remains an adult human scholar. Mechanical ancestry/class/specialty choices have not been added.
+
+Identity and compatibility
+Player details live on people.founder, keeping the stable founder ID and all possessions, skills, research, history and accepted art. NPC generation receives the actual saved player name, age and pronouns rather than the former fixed 40-year-old description. Background notes are not automatically shared with NPCs. Existing saves are not forced into character setup. Editing a legacy save initializes its setup record as already finished. Save schema stays 39. portrait_drafts is an additive database table for request recovery, not a state-schema migration.
+
+Portraits
+Existing imported-image review, acceptance and rollback remain authoritative. The setup preview does not change the accepted portrait. Selecting the placeholder keeps the previous accepted image in history. Imported PNG/JPEG/WebP files use the existing 6 MB limit and server-side signature checks. Art is never inferred from a name or automatically replaced because profile details changed.
+
+Generation
+Optional OpenRouter Image API transport at https://openrouter.ai/api/v1/images. Documentation consulted 5 October 2026: https://openrouter.ai/docs/guides/overview/multimodal/image-generation
+Requests contain a configured model, the displayed saved-profile portrait brief, one image, PNG preference and non-streaming output. There is a 90-second transport timeout and bounded response size. Raster PNG/JPEG/WebP replies use the existing upload validation. SVG, remote-image URLs and invalid image data are not imported. No external URLs returned by the provider are fetched.
+Only name, adult age, pronouns and appearance plus the fixed art direction enter the prompt. No campaign history, hidden lore, API key, possessions or private background notes enter it. Server-wide image settings are separate from text settings and default disabled. The key file has owner-only POSIX permissions and is excluded from campaign backups.
+
+Recovery and review
+Generation records a processing request before contacting the provider. Same-ID retries return that record/result rather than contact the provider again. Conflicting payload reuse is rejected. Only one processing portrait request per campaign is permitted. Recovery lists recent drafts. An explicit put-aside action abandons a processing record but does not cancel or refund the provider operation; a late response cannot resurrect it. Failures never replace art or change game state. Acceptance is campaign-scoped, revision-checked, one-time and idempotent under the existing action request ID. Changed campaigns require fresh review by downloading/importing the draft or a new deliberate generation request. Accepted images enter existing art history and restorable backups. Unaccepted draft image files may not be included in an exported campaign backup.
+
+Verification
+501 Python tests passed: 486 previous tests plus 7 player-profile tests and 8 image-generation tests. Covers invalid inputs, atomicity, defaults, legacy saves, saved identity in dialogue, private-context exclusions, no gameplay changes, placeholder/rollback, generated preview, safe retries, acceptance/history/backup, stale revisions, cross-campaign isolation, settings/key handling, malformed/unsupported replies, concurrent processing/recovery/abandonment, bounded transport and actual local HTTP routes with a fixture transport.
+24 connected headless UI suites passed: 23 previous suites plus the player-setup/portrait suite. The arrival suite now exercises the preceding setup step. New suite covers saved name/age, escaped text, generation preview and acceptance, imported acceptance, placeholder/rollback, recovery and continuation into arrival. Generated images in these tests are small deterministic fixtures; no paid service was contacted.
+JavaScript syntax checks passed. A final rerun of relevant identity and UI checks followed presentation adjustments.
+
+Limits
+Live provider compatibility, image quality/billing and rendered desktop/mobile layouts are unverified. The prior local-browser binary download and cloud-browser access failures remain documented in BROWSER_REVIEW_STATUS.md. No new bundled artwork, co-op, general image-generation pipeline or ancestry mechanics is claimed.

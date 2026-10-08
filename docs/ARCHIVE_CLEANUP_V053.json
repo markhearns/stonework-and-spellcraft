@@ -1,0 +1,438 @@
+{
+  "status": "completed-with-seven-permission-errors",
+  "retained": "Main development release and separate opt-in private mystery source pack",
+  "archives": [
+    {
+      "library_file_id": "libfile_c6daf7bb4bdc81918958431753311986",
+      "name": "stonework-and-spellcraft-original-art-engraving.zip",
+      "path": "/Stonework and Spellcraft/stonework-and-spellcraft-original-art-engraving.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_a0cffcde76d08191835276061c002ceb",
+      "name": "stonework-and-spellcraft-art-return-v0.51.zip",
+      "path": "/Stonework and Spellcraft/stonework-and-spellcraft-art-return-v0.51.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "failed",
+      "error": "Permission denied (403); no retry attempted."
+    },
+    {
+      "library_file_id": "libfile_9812bbd4dbe48191a37124942bb74057",
+      "name": "stonework-and-spellcraft-art-handoff.zip",
+      "path": "/Stonework and Spellcraft/stonework-and-spellcraft-art-handoff.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "failed",
+      "error": "Permission denied (403); no retry attempted."
+    },
+    {
+      "library_file_id": "libfile_18b21c3061b08191837c3ae5603d1a28",
+      "name": "stonework-and-spellcraft-art-return-v0.51.zip",
+      "path": "/stonework-and-spellcraft-art-return-v0.51.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_3404cfa4e7ec8191b66db5a40d3c3829",
+      "name": "stonework-and-spellcraft-portrait-handoff-v0.52.zip",
+      "path": "/stonework-and-spellcraft-portrait-handoff-v0.52.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_b7080476cef88191b392b19c5130fc95",
+      "name": "stonework-and-spellcraft-portrait-handoff-v0.52.zip",
+      "path": "/Stonework and Spellcraft/stonework-and-spellcraft-portrait-handoff-v0.52.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_54886ce6e8008191a9674d6b813aacb6",
+      "name": "stonework-and-spellcraft-art-return-v0.51-PARTIAL.zip",
+      "path": "/Stonework and Spellcraft/stonework-and-spellcraft-art-return-v0.51-PARTIAL.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "failed",
+      "error": "Permission denied (403); no retry attempted."
+    },
+    {
+      "library_file_id": "libfile_c93ebdfdfc9081919511d76389c790ce",
+      "name": "stonework-and-spellcraft-art-return-v0.51-PARTIAL.zip",
+      "path": "/stonework-and-spellcraft-art-return-v0.51-PARTIAL.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_d0828c98f4b881918bcdddc68b34baee",
+      "name": "stonework-and-spellcraft-art-handoff-v0.51.zip",
+      "path": "/stonework-and-spellcraft-art-handoff-v0.51.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_fa02e9a71bdc819183f874feb451dec4",
+      "name": "stonework-and-spellcraft-art-handoff-v0.51.zip",
+      "path": "/Stonework and Spellcraft/stonework-and-spellcraft-art-handoff-v0.51.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_9031c95281ac81919e0884f50bc3ec3f",
+      "name": "stonework-and-spellcraft-room-art-final-v0.48.zip",
+      "path": "/Stonework and Spellcraft/stonework-and-spellcraft-room-art-final-v0.48.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "failed",
+      "error": "Permission denied (403); no retry attempted."
+    },
+    {
+      "library_file_id": "libfile_f291c1fd9f0c8191b97a60a6c23a9808",
+      "name": "stonework-and-spellcraft-batch-4-recovery-v0.48.zip",
+      "path": "/stonework-and-spellcraft-batch-4-recovery-v0.48.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_606bdaa4fae08191bd2017dd8f340b77",
+      "name": "stonework-and-spellcraft-room-art-return-v0.48-PARTIAL.zip",
+      "path": "/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_4bc8287a977c819191a412c09c1c8ed4",
+      "name": "stonework-and-spellcraft-room-art-final-v0.48.zip",
+      "path": "/stonework-and-spellcraft-room-art-final-v0.48.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_f0b8914390ec8191b78e1f76146b29a3",
+      "name": "stonework-and-spellcraft-room-art-handoff-v0.48.zip",
+      "path": "/stonework-and-spellcraft-room-art-handoff-v0.48.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_6d62322c3a808191a1318cf2233b5782",
+      "name": "stonework-and-spellcraft-room-art-handoff-v0.48(3).zip",
+      "path": "/stonework-and-spellcraft-room-art-handoff-v0.48(3).zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_7d9cb96a1e388191a321fc2e7293170c",
+      "name": "stonework-and-spellcraft-room-art-handoff-v0.48(2).zip",
+      "path": "/stonework-and-spellcraft-room-art-handoff-v0.48(2).zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_24f27c3b8c3881918fd7eef3ed025c0d",
+      "name": "stonework-and-spellcraft-room-art-handoff-v0.48(1).zip",
+      "path": "/stonework-and-spellcraft-room-art-handoff-v0.48(1).zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_e3b81f6e02c481919da8336d64129a0d",
+      "name": "stonework-and-spellcraft-original-art-codex-review.zip",
+      "path": "/Stonework and Spellcraft/stonework-and-spellcraft-original-art-codex-review.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "failed",
+      "error": "Permission denied (403); no retry attempted."
+    },
+    {
+      "library_file_id": "libfile_e7e9863574a48191a9bd0ce4ac0f779e",
+      "name": "stonework-and-spellcraft-original-art-codex-review.zip",
+      "path": "/stonework-and-spellcraft-original-art-codex-review.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_f146a073fd288191b6688b3ea3111cd3",
+      "name": "stonework-and-spellcraft-art-delivery.zip",
+      "path": "/stonework-and-spellcraft-art-delivery.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_8c94b5563efc819187cbba1f04c26ad3",
+      "name": "stonework-and-spellcraft-development-v0.45.zip",
+      "path": "/stonework-and-spellcraft-development-v0.45.zip",
+      "reason": "Superseded program release; new v0.53 retains source and compatibility.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_c7a922cca2a08191b12c713e35c909a9",
+      "name": "stonework-and-spellcraft-art-handoff(1).zip",
+      "path": "/stonework-and-spellcraft-art-handoff(1).zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_d8a29ec8dcf08191b4252be71f595f50",
+      "name": "stonework-and-spellcraft-art-handoff.zip",
+      "path": "/stonework-and-spellcraft-art-handoff.zip",
+      "reason": "Art integrated, references preserved, or draft/partial superseded by final art.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_6ff94402f31081919ee0b7cdfd3d2159",
+      "name": "stonework-and-spellcraft-development-v0.44.zip",
+      "path": "/stonework-and-spellcraft-development-v0.44.zip",
+      "reason": "Superseded program release; new v0.53 retains source and compatibility.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_ba7035f4b3948191a48c4a6257c2805b",
+      "name": "stonework-and-spellcraft-development-v0.43.zip",
+      "path": "/stonework-and-spellcraft-development-v0.43.zip",
+      "reason": "Superseded program release; new v0.53 retains source and compatibility.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_264dbae5487c8191962bc9f0537d9c23",
+      "name": "stonework-and-spellcraft-development-v0.42.zip",
+      "path": "/stonework-and-spellcraft-development-v0.42.zip",
+      "reason": "Superseded program release; new v0.53 retains source and compatibility.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_42be72e25d608191864f4853ed11448d",
+      "name": "stonework-and-spellcraft-development-v0.41.zip",
+      "path": "/stonework-and-spellcraft-development-v0.41.zip",
+      "reason": "Superseded program release; new v0.53 retains source and compatibility.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_f5c8c2f841ac819183e8de25fc9792b2",
+      "name": "stonework-and-spellcraft-development-v0.40.zip",
+      "path": "/stonework-and-spellcraft-development-v0.40.zip",
+      "reason": "Superseded program release; new v0.53 retains source and compatibility.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_791ad35202d081918178b74dd0a39e8c",
+      "name": "stonework-and-spellcraft-development-v0.39.zip",
+      "path": "/stonework-and-spellcraft-development-v0.39.zip",
+      "reason": "Superseded program release; new v0.53 retains source and compatibility.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_8780bfa73d688191a77d5f7ee9d57e4a",
+      "name": "stonework-and-spellcraft-development-v0.38.zip",
+      "path": "/Castle Household RPG/stonework-and-spellcraft-development-v0.38.zip",
+      "reason": "Superseded program release; new v0.53 retains source and compatibility.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_a1ba5b59163c81919020c9f39d3da4a9",
+      "name": "stonework-and-spellcraft-public-packs.zip",
+      "path": "/Stonework and Spellcraft/stonework-and-spellcraft-public-packs.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "failed",
+      "error": "Permission denied (403); no retry attempted."
+    },
+    {
+      "library_file_id": "libfile_4c5d81515a0c8191a8f88e8718499882",
+      "name": "stonework-and-spellcraft-codex-integration-kit.zip",
+      "path": "/stonework-and-spellcraft-codex-integration-kit.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_ef7f8eaa59108191a0b5143c49a37468",
+      "name": "stonework-and-spellcraft-public-packs.zip",
+      "path": "/stonework-and-spellcraft-public-packs.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_5de8059b83a4819196c7282a3b8f2d89",
+      "name": "stonework-and-spellcraft-content-expansion-handoffs.zip",
+      "path": "/stonework-and-spellcraft-content-expansion-handoffs.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_43613b45d7f48191b3eef5ac6bb712fe",
+      "name": "stonework-and-spellcraft-content-expansion-handoffs.zip",
+      "path": "/Castle Household RPG/stonework-and-spellcraft-content-expansion-handoffs.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_b8d803eba46c8191827bf9dbd73939bf",
+      "name": "stonework-spellcraft-content-pack.zip",
+      "path": "/Stonework and Spellcraft/stonework-spellcraft-content-pack.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "failed",
+      "error": "Permission denied (403); no retry attempted."
+    },
+    {
+      "library_file_id": "libfile_cc559adcee8c81918d680c5234c98799",
+      "name": "stonework-spellcraft-content-pack.zip",
+      "path": "/stonework-spellcraft-content-pack.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_5ccde60c1d608191a069c5f1aeb216d9",
+      "name": "17-ss-backgrounds-training-and-perks.zip",
+      "path": "/17-ss-backgrounds-training-and-perks.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_b48fe675667481918416ab12b9bf1228",
+      "name": "16-ss-tutorials-explanations-and-qa.zip",
+      "path": "/16-ss-tutorials-explanations-and-qa.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_72e6ac6b64c881918be4356c186df4fb",
+      "name": "15-ss-art-and-visual-production.zip",
+      "path": "/15-ss-art-and-visual-production.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_7f2e0a92aa388191abcab69bcaa5f807",
+      "name": "14-ss-books-food-gardens-and-treasures.zip",
+      "path": "/14-ss-books-food-gardens-and-treasures.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_ffa2a46ecbc48191a1ec90c34f793df0",
+      "name": "12-ss-letters-commissions-and-gifts.zip",
+      "path": "/12-ss-letters-commissions-and-gifts.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_6c21f6e18c4881919d41415f08096619",
+      "name": "11-ss-household-scenes-and-ambient-life.zip",
+      "path": "/11-ss-household-scenes-and-ambient-life.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_aec37e4cf7488191bcefb8c78b0b62ef",
+      "name": "10-ss-personal-arcs-and-relationships.zip",
+      "path": "/10-ss-personal-arcs-and-relationships.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_4a6f8462782c8191921118c5e7220389",
+      "name": "09-ss-communities-services-and-visitors.zip",
+      "path": "/09-ss-communities-services-and-visitors.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_ad72f79760148191a558be5327521bef",
+      "name": "08-ss-encounters-and-care.zip",
+      "path": "/08-ss-encounters-and-care.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_7f9556d9ef7881918f897c7d43b61447",
+      "name": "07-ss-expeditions-and-discoveries.zip",
+      "path": "/07-ss-expeditions-and-discoveries.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_e0284e7ed2388191b06075fb9455b48a",
+      "name": "06-ss-rooms-furnishings-and-synergies.zip",
+      "path": "/06-ss-rooms-furnishings-and-synergies.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_a37d26ab0ee48191b692d67eb17c1e5b",
+      "name": "05-ss-rituals-and-voluntary-augmentation.zip",
+      "path": "/05-ss-rituals-and-voluntary-augmentation.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_62d37b6545848191b9415fd9dacd0b42",
+      "name": "04-ss-magic-principles-and-spells.zip",
+      "path": "/04-ss-magic-principles-and-spells.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_5e32a3be0e708191bb85274b07b97ba5",
+      "name": "03-ss-artifacts-and-recipes.zip",
+      "path": "/03-ss-artifacts-and-recipes.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_69a9eb8dce7c8191b9fc0f9b92559af1",
+      "name": "02-ss-equipment-and-signature-items.zip",
+      "path": "/02-ss-equipment-and-signature-items.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    },
+    {
+      "library_file_id": "libfile_a146e3c22c7c8191a145e3d6cb9e5fb7",
+      "name": "01-ss-materials-and-properties.zip",
+      "path": "/01-ss-materials-and-properties.zip",
+      "reason": "Exact runtime content or authoring references preserved in project.",
+      "status": "succeeded",
+      "result": "Moved to trash"
+    }
+  ]
+}

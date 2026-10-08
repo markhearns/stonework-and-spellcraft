@@ -1,0 +1,31 @@
+{
+  "version": "0.66",
+  "schemaVersion": 57,
+  "python": {
+    "tests": 773,
+    "seconds": 106.092,
+    "failures": 0,
+    "errors": 0
+  },
+  "connectedUI": {
+    "suites": 42,
+    "failures": 0,
+    "initialRunSeconds": 66.0,
+    "targetedRecheckSeconds": 151.75
+  },
+  "focusedJourneyTests": 28,
+  "content": {
+    "destinations": 3,
+    "obstacles": 18,
+    "decisions": 21,
+    "methodChoices": 99,
+    "authoredCompanions": 14,
+    "distinctDestinationRemarks": 42,
+    "personalCampOpenings": 14,
+    "pairExchanges": 7
+  },
+  "migration": "56 to 57 adds empty partyJourneys; old in-flight companionId saves preserved",
+  "browserVisualReview": false,
+  "artwork": "Existing portraits and spell icons reused; no new destination painting claimed.",
+  "finalPackingRegression": "Passed connected journey after preserving the packed-lantern checkbox across roster edits."
+}

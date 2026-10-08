@@ -1,0 +1,483 @@
+{
+  "version": "0.99",
+  "generator": "built-in image_gen",
+  "export_policy": "Match existing dimensions. WebP quality 90\u201397, targeting within 15% of the larger corresponding Tamsin/Elowen reference while preserving fine lines. No sharpening or noise filters.",
+  "assets": [
+    {
+      "path": "static/assets/portraits/bathing/iona.webp",
+      "source_png": "exec-c1eb5dc4-e674-407e-b8b1-41f4a1f78f92.png",
+      "source_sha256": "917c0de9a04a1e891ff6080133df990eb4b7e94998c9bf549f61ff7aabaa80c9",
+      "sha256": "3b442f7dac003f1561dbd245ba4f32df7126fbcd1be6603e74d08c97af8db7d4",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 152592,
+      "webp_quality": 90,
+      "alpha": true,
+      "reference_bytes": [
+        127930,
+        105966
+      ]
+    },
+    {
+      "path": "static/assets/portraits/bathing/rhess.webp",
+      "source_png": "exec-3dc6341a-a798-4537-bfcb-5b31d7e5fdc7.png",
+      "source_sha256": "7634dddb5872c88b38deb156f7c6c39491e1e909d71cba7c3f8a194d5a780955",
+      "sha256": "402e6c60511732ae49a96449f2e93a03edc98dcb1c996634f75aee65b1a04cb7",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 208054,
+      "webp_quality": 90,
+      "alpha": true,
+      "reference_bytes": [
+        127930,
+        105966
+      ]
+    },
+    {
+      "path": "static/assets/portraits/bathing/sylva.webp",
+      "source_png": "exec-e94a7dc0-4aca-41df-96bc-b4d1703e5b3a.png",
+      "source_sha256": "ad8a7bfb128c21541e5b45b28456a791d5fa0042a658f281cdd19acdd5c053bf",
+      "sha256": "10fe7401b66d4f4581962b96f31ff95d7a4fc58e07b11dcb7faa61f7ebc50262",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 171350,
+      "webp_quality": 90,
+      "alpha": true,
+      "reference_bytes": [
+        127930,
+        105966
+      ]
+    },
+    {
+      "path": "static/assets/portraits/bathing/velis.webp",
+      "source_png": "exec-356d6bc3-bb1d-4bd1-b13d-1b813e07ad35.png",
+      "source_sha256": "6402d5e8d4b4c5ab3d4b750eeabf8c18ac17ad66f08457175f2043daac4c663b",
+      "sha256": "56f67aac623a677bafe30e0eb99e993246f23794b1a7e6bef1566488e7117500",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 146036,
+      "webp_quality": 91,
+      "alpha": true,
+      "reference_bytes": [
+        127930,
+        105966
+      ]
+    },
+    {
+      "path": "static/assets/portraits/iona-outfit-2.webp",
+      "source_png": "exec-1ba6b47d-e2d4-4f24-b96c-996909948a74.png",
+      "source_sha256": "fcaf054fce6993bf86e64a1f355ec93730314330efb957ee02451735091b46c2",
+      "sha256": "c0423f5554f41ca38fab1e29392a27fa7ff1caa49da7102a3a29e3dd416174b9",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 294880,
+      "webp_quality": 92,
+      "alpha": true,
+      "reference_bytes": [
+        258618,
+        212474
+      ]
+    },
+    {
+      "path": "static/assets/portraits/iona-outfit-3.webp",
+      "source_png": "exec-88e2b847-eb06-453a-ab72-08f31aad8b3b.png",
+      "source_sha256": "562ecc74d42fd2311029873e961c8985e3b2f1eb0e58b26b5d327ff3f118d977",
+      "sha256": "320dd641c4921eead27840fc7fbf776261bcfa440a8fb9b89335fe4cdc154eb8",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 254246,
+      "webp_quality": 90,
+      "alpha": true,
+      "reference_bytes": [
+        230068,
+        229462
+      ]
+    },
+    {
+      "path": "static/assets/portraits/iona.webp",
+      "source_png": "exec-3b3c488d-7ed0-4922-b9d9-9ea819a74408.png",
+      "source_sha256": "104003cada719b52cab0a55cd0375f478c0415f4e55888bbc0ddcf5e2631d68e",
+      "sha256": "4737f065bbaf8fdac3756391e46e0e97c968964766c09f79f620fc4f303c5c07",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 331568,
+      "webp_quality": 95,
+      "alpha": true,
+      "reference_bytes": [
+        293892,
+        258292
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/iona-outfit-2.webp",
+      "source_png": "exec-d0a1a732-f98e-4ca3-aa17-306ef4d9bc3b.png",
+      "source_sha256": "56cf05ffd3e55aad09ee9d03e8d591c2427e54b835d460f73dc7d45ac5808097",
+      "sha256": "d3f6a28341aab196b4384244df72cdc30602b7d715721add44d91818e336b72b",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 492806,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        371610,
+        393784
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/iona-outfit-3.webp",
+      "source_png": "exec-4175697b-d655-4387-921e-8ffffda3f845.png",
+      "source_sha256": "7f55bf0eb5586c82f3dae6e100860ddc3afdfb614a0a29a42d052e353c488f95",
+      "sha256": "735c59fdcb88019939b1b45895f9bdbbdedfe6d6176fbc69f0844101ff49f9e8",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 528820,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        316532,
+        366534
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/iona.webp",
+      "source_png": "exec-073d6b2b-1105-4b5a-b816-96a14dd81b88.png",
+      "source_sha256": "45cc9ce9a3df4242990360fe24dbced0bbaeab861273e276422604aff9dd3a47",
+      "sha256": "3a712664a33d6e8057e800ba814a5ed85876216336d1e4a47394dbd08b20a193",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 503864,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        314044,
+        370738
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/rhess-outfit-2.webp",
+      "source_png": "exec-807e3281-9c7c-4bb4-a578-15989e3003a8.png",
+      "source_sha256": "978ffb18059635fa5be7b3952a368e62f089801b100d0df19968acdbf49e42a8",
+      "sha256": "edbba99570bc490c860ddcb23558ba118a437b325617d012e1174da27526384b",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 605206,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        371610,
+        393784
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/rhess-outfit-3.webp",
+      "source_png": "exec-825cf950-8e0a-4766-9285-6dfea87a938b.png",
+      "source_sha256": "5aedc8e15acadc1a582e01941353fadb800c9d95395935178465c471706a11a4",
+      "sha256": "6107a7c1a55b5178496669653a190710b3528d597ece72fb4312961b2b511b26",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 606178,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        316532,
+        366534
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/rhess.webp",
+      "source_png": "exec-af3de679-f633-44b2-aa9e-16679830fb5c.png",
+      "source_sha256": "4e9c73339995fc46c7c4b23241ade1b24d9a745ce748f218dd11b3860864c8af",
+      "sha256": "6722eeb0d26df3ecc32e8de3fd0c9a20ffbdd74d76377ee68743c33a0a8db3dd",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 530502,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        314044,
+        370738
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/sylva-outfit-2.webp",
+      "source_png": "exec-52a635b7-3690-4595-b83e-547f6c5b61b5.png",
+      "source_sha256": "6a7b0b2cdfa14bae793968a4ac45aba2ade129a85e69a7ffef9e517bbe574479",
+      "sha256": "37a554bceff0d1303851d485c94bfe399d52fd0f15e2ea280874a4fd3e3768a7",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 659910,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        371610,
+        393784
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/sylva-outfit-3.webp",
+      "source_png": "exec-790df054-85d5-418e-908d-1fee1c34557c.png",
+      "source_sha256": "fbca37bac04234ebddd59ebfb1becb39eae27acb774f102e2773161ee6c50563",
+      "sha256": "3a4c1a0ef3a432df1b768d5d4e72af9cb25be4ec8d589dee12dc749b146b761d",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 649442,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        316532,
+        366534
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/sylva.webp",
+      "source_png": "exec-e572eb3a-b8c0-41e3-97c9-3158678656b6.png",
+      "source_sha256": "0c38dd8588ce33e70da41924a7b250d485435f1040e6f6d7089ac7bcf9a4c49d",
+      "sha256": "ff2ea85c9d3cb0fc45a80279d1c4c0b12b254d29301d0c3aeb71832c3f4ef2df",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 559904,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        314044,
+        370738
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/velis-outfit-2.webp",
+      "source_png": "exec-5f7d4ea5-1f60-4708-8094-488551f23ada.png",
+      "source_sha256": "61652e46344257c51cdbf6b9b2148a98fc92a39648d8403db8cadb8abf2c23a1",
+      "sha256": "482d6620f43522e59639bc18e65d9055386c0672cf6c513fe3999ac297bdbc4e",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 529192,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        371610,
+        393784
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/velis-outfit-3.webp",
+      "source_png": "exec-c71b31b8-2286-4306-9953-d2f109a32a8e.png",
+      "source_sha256": "3a1fb990d4725a71b82b3bdaca9772db03dbe03d5a22e6a94ca8aaf2ccac36aa",
+      "sha256": "ea776c9820644ac777fc8b45000b87c4b64ad8981884e9f91261dfd218771712",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 549126,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        316532,
+        366534
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/velis.webp",
+      "source_png": "exec-cc572a8f-c6b1-4aba-8989-137b32144449.png",
+      "source_sha256": "3920d8f41a245252d0f9642d83e58f6121c80473468d30fb7f04fcfa1611a461",
+      "sha256": "979412b5372d58ff6086a77b0bdbf0498620be385bc2550100d9654477ef3738",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 466064,
+      "webp_quality": 90,
+      "alpha": false,
+      "reference_bytes": [
+        314044,
+        370738
+      ]
+    },
+    {
+      "path": "static/assets/portraits/rhess-outfit-2.webp",
+      "source_png": "exec-1867fdbf-6f22-4451-b041-8bff9c88adae.png",
+      "source_sha256": "f47a24776c471e5c90bc6952c6527ee2b9ba4d5b832561965b856561737bf3b7",
+      "sha256": "4381319877f8da62f9d9fde950a657d4670dd45a4e6dfc04efe510a085f6dea0",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 298082,
+      "webp_quality": 90,
+      "alpha": true,
+      "reference_bytes": [
+        258618,
+        212474
+      ]
+    },
+    {
+      "path": "static/assets/portraits/rhess-outfit-3.webp",
+      "source_png": "exec-267df43f-2195-4516-89df-72bcad3efb64.png",
+      "source_sha256": "5a887913a47eed5e47a4cd7836e4d54aef4044127898db10eae1ba704cd894ba",
+      "sha256": "2cf9d9bb14e55c365e1c36019f25e2b5af3f252d27e5b26e45668023866f44be",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 295604,
+      "webp_quality": 90,
+      "alpha": true,
+      "reference_bytes": [
+        230068,
+        229462
+      ]
+    },
+    {
+      "path": "static/assets/portraits/rhess.webp",
+      "source_png": "exec-daf6f123-746d-49e8-a6cc-3bf952b90619.png",
+      "source_sha256": "0035a791a4c8c1b678289592f02b13354cc8494042c8cd27305b9f3d068b6d73",
+      "sha256": "afc95f771a251a210fcc3897d8d25fdff21fccd3824d4cce6e8ea66089861737",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 334898,
+      "webp_quality": 90,
+      "alpha": true,
+      "reference_bytes": [
+        293892,
+        258292
+      ]
+    },
+    {
+      "path": "static/assets/portraits/sylva-outfit-2.webp",
+      "source_png": "exec-8373cbe1-5fc9-4f67-8b8f-1d2938e31308.png",
+      "source_sha256": "3c5b9ccb96a702a644273d851bf74a6ecf4ea33196d992e96ece288b30d00095",
+      "sha256": "7b77579918e81b349e50be5e9c0892c171379c5b650d7baa0c1f8c310ef7597a",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 291522,
+      "webp_quality": 90,
+      "alpha": true,
+      "reference_bytes": [
+        258618,
+        212474
+      ]
+    },
+    {
+      "path": "static/assets/portraits/sylva-outfit-3.webp",
+      "source_png": "exec-e118ed61-108a-4f59-b993-700f128af5fb.png",
+      "source_sha256": "93923c28e72970b68ded61f3b543d72115b426965047164af99338577d8127ac",
+      "sha256": "b393355ed898fa1b2b0cd4ba22f6f57e487f0462b25132c15b4881cef0a6f064",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 287700,
+      "webp_quality": 90,
+      "alpha": true,
+      "reference_bytes": [
+        230068,
+        229462
+      ]
+    },
+    {
+      "path": "static/assets/portraits/sylva.webp",
+      "source_png": "exec-efd51aaa-84f4-422c-b9d5-7fbfb504f47e.png",
+      "source_sha256": "3aa038f7be0555da0fa340dde881bc25d45d32a5ea01a8230e23b3446d1d1058",
+      "sha256": "3f918c2af33e4cd0ae10cea71461531d8a86b10d7a8e66ab301af387709259a6",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 316496,
+      "webp_quality": 91,
+      "alpha": true,
+      "reference_bytes": [
+        293892,
+        258292
+      ]
+    },
+    {
+      "path": "static/assets/portraits/velis-outfit-2.webp",
+      "source_png": "exec-a86ffe3c-5ae1-43f1-a7be-636eac396248.png",
+      "source_sha256": "6eaa27938d8245e0ca2f991a05e337177f809c8b1f3a0b3a451a494628aa47cf",
+      "sha256": "3deb2db625f6e2e4b7c02bbea18a9ac2ad7eaa4c77bc40f44e3ccb7061d623c7",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 292068,
+      "webp_quality": 93,
+      "alpha": true,
+      "reference_bytes": [
+        258618,
+        212474
+      ]
+    },
+    {
+      "path": "static/assets/portraits/velis-outfit-3.webp",
+      "source_png": "exec-cecdc398-3641-41ce-a924-f5cca805df2b.png",
+      "source_sha256": "3422dcc01f232e6d4562ed686fdb5e250b9d526b1fdf862987222dca0a6c344e",
+      "sha256": "41654924f0a2f8145a6f639bf9d55000cf8571f7ddbb4123f13c8b0dc3000164",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 260060,
+      "webp_quality": 93,
+      "alpha": true,
+      "reference_bytes": [
+        230068,
+        229462
+      ]
+    },
+    {
+      "path": "static/assets/portraits/velis.webp",
+      "source_png": "exec-6cdbd4e0-1b3a-47f4-b620-dd8ead89ef34.png",
+      "source_sha256": "53f0bac2fc5ed2b60fe074332293ca5c77af03a2d43157b68404981c0a151f70",
+      "sha256": "c8cfa6276d0b2d6990a01e02dd74b2586fbff75bbd0a08c6f80014391e2a7643",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 336536,
+      "webp_quality": 95,
+      "alpha": true,
+      "reference_bytes": [
+        293892,
+        258292
+      ]
+    }
+  ]
+}

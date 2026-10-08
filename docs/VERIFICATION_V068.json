@@ -1,0 +1,24 @@
+{
+  "version": "0.68",
+  "schemaVersion": 57,
+  "python": {
+    "tests": 773,
+    "failures": 0,
+    "errors": 0,
+    "seconds": 124.368
+  },
+  "ui": {
+    "suites": 45,
+    "passed": 45,
+    "seconds": 174.06,
+    "includesDOMTreeDouble": true
+  },
+  "browserVisualReview": false,
+  "browserBlocker": "Cloud browser returned ERR_BLOCKED_BY_CLIENT for the disposable localhost server. Local Playwright Chromium and Firefox binaries are absent.",
+  "browserScript": "Expanded fresh and established scenarios at 1440, 390 and 320 pixels; syntax checked, not executed here.",
+  "artwork": {
+    "unchangedComparedWithV067": 159,
+    "spellIconPngs": 38
+  },
+  "gameplayRulesChanged": false
+}

@@ -1,0 +1,12 @@
+services:
+  castle:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    volumes:
+      - castle-data:/data
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+volumes:
+  castle-data:

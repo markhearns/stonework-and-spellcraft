@@ -1,0 +1,8 @@
+OUTPUT: elowen.png
+CHARACTER/ART SLOT: elowen
+
+Clearly adult high elf woman, long pointed ears, warm ivory skin, grey-green eyes, honey-blonde hair in a loose practical braid; muted sage blouse, charcoal fitted waistcoat, long violet skirt and worn boots. Small plain brass clasps; no crown, glowing eyes or ceremonial luxury. Age 24. A composed, quietly warm high elf ward conservator associated with the Infirmary & Apothecary. Carry a small plain field case or folded ward notebook. Do not add a medical uniform or religious symbols.
+
+Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving–inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.
+
+1024 x 1536 transparent RGBA PNG. One full adult figure, no background or text.

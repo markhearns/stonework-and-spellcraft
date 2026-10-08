@@ -1,0 +1,73 @@
+{
+  "version": "0.97",
+  "result": "passed",
+  "artwork": {
+    "assets_checked": 21,
+    "per_character": 7,
+    "native_dimensions": [
+      1024,
+      1536
+    ],
+    "encoding": "lossless WebP (VP8L)",
+    "source_and_output_visible_pixels_identical": true,
+    "source_png_and_output_file_hashes_verified": true,
+    "transparent_cutouts": 12,
+    "opaque_overviews": 9,
+    "all_21_served_byte_identically_over_http": true,
+    "health_version": "0.97"
+  },
+  "compression_comparison": {
+    "method": "Compare v0.96 default WebP against the original PNG resized to the identical 768x1152 dimensions. RGB errors measured where alpha exceeds 240. Visually inspect paired face crops at 1:1 scale.",
+    "finding": "Lossy exports show blotchy colour and lost fine detail compared with the same-size source. Resolution alone does not explain the degradation.",
+    "measurements": [
+      {
+        "who": "sylva",
+        "comparison_dimensions": [
+          768,
+          1152
+        ],
+        "rgb_rmse_opaque_pixels": 7.627,
+        "rgb_mean_absolute_error": 5.847,
+        "pixels_with_any_channel_error_over_12_percent": 22.9
+      },
+      {
+        "who": "velis",
+        "comparison_dimensions": [
+          768,
+          1152
+        ],
+        "rgb_rmse_opaque_pixels": 7.847,
+        "rgb_mean_absolute_error": 5.999,
+        "pixels_with_any_channel_error_over_12_percent": 24.5
+      },
+      {
+        "who": "rhess",
+        "comparison_dimensions": [
+          768,
+          1152
+        ],
+        "rgb_rmse_opaque_pixels": 8.308,
+        "rgb_mean_absolute_error": 6.339,
+        "pixels_with_any_channel_error_over_12_percent": 28.42
+      }
+    ]
+  },
+  "checks": [
+    {
+      "command": "node tests/test_ui_overview_portraits.cjs",
+      "result": "passed",
+      "coverage": "45 portrait tiers, overview layout markup, selected art, override rollback and read-only rendering"
+    },
+    {
+      "command": "PYTHONPATH=.:tests python -m unittest tests.test_art_release.ArtReleaseTests.test_all_room_slots_and_retired_urls_are_served tests.test_art_release.ArtReleaseTests.test_existing_overrides_and_history_are_read_only_in_public_state",
+      "result": "passed",
+      "tests": 2
+    }
+  ],
+  "limitations": [
+    "Browser-rendered layout review was not performed.",
+    "Historical release manifest test was not run: it predates the later asset releases."
+  ],
+  "gameplay_changes": false,
+  "schema": 65
+}

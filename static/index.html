@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101626"><title>Stonework and Spellcraft</title><link rel="icon" type="image/webp" href="/assets/ui/castle-emblem.webp"><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body>
+<div id="app"><div class="loading"><img class="castle-emblem" src="/assets/ui/castle-emblem.webp" alt="" width="64" height="64"><h1>Opening Stonework and Spellcraft…</h1><p>Connecting to your castle.</p></div></div>
+<div id="toast" role="status" aria-live="polite"></div>
+<dialog id="advance-dialog" aria-label="Phase results"><form method="dialog"><button class="close" aria-label="Close">×</button></form><div id="advance-content"></div></dialog>
+
+<dialog id="unavailable-dialog" aria-labelledby="unavailable-title"><form method="dialog"><button class="close" aria-label="Close explanation">×</button></form><p class="eyebrow">WHAT IS NEEDED</p><h2 id="unavailable-title">Why this is unavailable</h2><p id="unavailable-content"></p><div id="unavailable-actions" class="room-actions"></div></dialog>
+<dialog id="context-dialog" aria-labelledby="context-title"><form method="dialog"><button class="close" aria-label="Close details">×</button></form><h2 id="context-title"></h2><div id="context-content"></div></dialog>
+</body></html>

@@ -1,0 +1,15 @@
+Generate exactly ONE independent room image: Guard dormitory.
+Asset ID for the filename only: guard-dormitory. Do NOT print the asset ID or any label in the artwork.
+
+Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving–inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black. No people, readable text, interface, decorative frame, logo or watermark. Furnish the room naturally: the app does not need a large empty patch for crude furniture overlays. Keep doorways and walking routes plausible. Private/shared bedroom bed counts are strict.
+
+ROOM BRIEF
+Exactly FOUR separate ordinary beds, privacy screens, personal lockers and a sitting nook. No compulsory uniforms or resident figures.
+
+COMPOSITION CHECKS
+Depict exactly FOUR ordinary separate single beds, with four clearly identifiable sleeping places and privacy screens. Include four personal wooden lockers and a comfortable sitting nook, a wood door and simple window. This is residential accommodation, not an armoury or watchroom. Do not include uniforms, occupants, military ranks or compulsory-duty cues; avoid rows of matching helmets and uniforms. No bunk beds.
+
+OUTPUT
+One uninterrupted 16:9 landscape scene. NOT a contact sheet, grid, collage, comparison, diptych or multi-room montage. No captions, readable text, slogans, signature, frame, watermark, people or animals. Use the ORIGINAL engraved Batch 1-3 images as style references only; do not use later photographic/CGI/composite attempts. Do not merely crop or enlarge a panel from a sheet.
+
+Return the actual original PNG. Preserve native dimensions. Then provide an opaque 1600x900 WebP and record all resizing/cropping. Generation is not acceptance. Target mapping: ["guard-dormitory"].

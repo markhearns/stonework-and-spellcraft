@@ -1,0 +1,3280 @@
+{
+  "kind": "84 deterministic combat fixtures: 7 party configurations \u00d7 6 enemy types \u00d7 baseline/trained builds. No peaceful shortcuts. Each action commits through the normal rules and reloads the save. This is not an earned-campaign audit.",
+  "scenarios": [
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "wolf",
+      "trained": false,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "founder": 3
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "boar",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "founder": 1
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "thief",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "founder": 2
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "bandit",
+      "trained": false,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "founder": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "griffin",
+      "trained": false,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "founder": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "ember-hound",
+      "trained": false,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "founder": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "wolf",
+      "trained": false,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "kaede": 3
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "boar",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "kaede": 1
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "thief",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "kaede": 2
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "bandit",
+      "trained": false,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "kaede": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "griffin",
+      "trained": false,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "kaede": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "ember-hound",
+      "trained": false,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "kaede": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "wolf",
+      "trained": false,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "sabine": 3
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "boar",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "sabine": 1
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "thief",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "sabine": 2
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "bandit",
+      "trained": false,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "sabine": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "griffin",
+      "trained": false,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "sabine": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "ember-hound",
+      "trained": false,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "sabine": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "wolf",
+      "trained": false,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "rhess": 6,
+        "kaede": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "boar",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "rhess": 5,
+        "kaede": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "thief",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "rhess": 6,
+        "kaede": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "bandit",
+      "trained": false,
+      "completed": true,
+      "advances": 7,
+      "health": {
+        "rhess": 4,
+        "kaede": 2
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 10,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 5
+        }
+      },
+      "loot": {
+        "crowns": 8,
+        "food": 4,
+        "materials": {
+          "moon-glass": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "griffin",
+      "trained": false,
+      "completed": true,
+      "advances": 9,
+      "health": {
+        "rhess": 0,
+        "kaede": 1
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 12,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 6
+        },
+        "kaede": {
+          "damage": 1,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "moon-glass": 2
+        }
+      },
+      "foodUsed": 12
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "ember-hound",
+      "trained": false,
+      "completed": true,
+      "advances": 8,
+      "health": {
+        "rhess": 1,
+        "kaede": 1
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 12,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 6
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "fireglass": 2
+        }
+      },
+      "foodUsed": 12
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "wolf",
+      "trained": false,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "sabine": 6,
+        "tamsin": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "boar",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "sabine": 5,
+        "tamsin": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "thief",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "sabine": 6,
+        "tamsin": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "bandit",
+      "trained": false,
+      "completed": true,
+      "advances": 7,
+      "health": {
+        "sabine": 4,
+        "tamsin": 2
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 10,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 5
+        }
+      },
+      "loot": {
+        "crowns": 8,
+        "food": 4,
+        "materials": {
+          "moon-glass": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "griffin",
+      "trained": false,
+      "completed": true,
+      "advances": 9,
+      "health": {
+        "sabine": 0,
+        "tamsin": 1
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 12,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 6
+        },
+        "tamsin": {
+          "damage": 1,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "moon-glass": 2
+        }
+      },
+      "foodUsed": 12
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "ember-hound",
+      "trained": false,
+      "completed": true,
+      "advances": 8,
+      "health": {
+        "sabine": 1,
+        "tamsin": 1
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 12,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 6
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "fireglass": 2
+        }
+      },
+      "foodUsed": 12
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "wolf",
+      "trained": false,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "rhess": 6,
+        "elowen": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "boar",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "rhess": 5,
+        "elowen": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "thief",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "rhess": 6,
+        "elowen": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "bandit",
+      "trained": false,
+      "completed": true,
+      "advances": 7,
+      "health": {
+        "rhess": 4,
+        "elowen": 2
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 10,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 5
+        }
+      },
+      "loot": {
+        "crowns": 8,
+        "food": 4,
+        "materials": {
+          "moon-glass": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "griffin",
+      "trained": false,
+      "completed": true,
+      "advances": 9,
+      "health": {
+        "rhess": 0,
+        "elowen": 1
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 12,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 6
+        },
+        "elowen": {
+          "damage": 1,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "moon-glass": 2
+        }
+      },
+      "foodUsed": 12
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "ember-hound",
+      "trained": false,
+      "completed": true,
+      "advances": 8,
+      "health": {
+        "rhess": 1,
+        "elowen": 1
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 12,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 6
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "fireglass": 2
+        }
+      },
+      "foodUsed": 12
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "wolf",
+      "trained": false,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "founder": 6,
+        "rhess": 5,
+        "elowen": 6,
+        "nyssara": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 10
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "boar",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "founder": 6,
+        "rhess": 5,
+        "elowen": 5,
+        "nyssara": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 10
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "thief",
+      "trained": false,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "founder": 6,
+        "rhess": 5,
+        "elowen": 6,
+        "nyssara": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 10
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "bandit",
+      "trained": false,
+      "completed": true,
+      "advances": 7,
+      "health": {
+        "founder": 4,
+        "rhess": 2,
+        "elowen": 6,
+        "nyssara": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 10,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 5
+        }
+      },
+      "loot": {
+        "crowns": 8,
+        "food": 4,
+        "materials": {
+          "moon-glass": 1
+        }
+      },
+      "foodUsed": 10
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "griffin",
+      "trained": false,
+      "completed": true,
+      "advances": 9,
+      "health": {
+        "founder": 0,
+        "rhess": 1,
+        "elowen": 6,
+        "nyssara": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 12,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 6
+        },
+        "rhess": {
+          "damage": 1,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "moon-glass": 2
+        }
+      },
+      "foodUsed": 15
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "ember-hound",
+      "trained": false,
+      "completed": true,
+      "advances": 8,
+      "health": {
+        "founder": 1,
+        "rhess": 1,
+        "elowen": 6,
+        "nyssara": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 12,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 6
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "fireglass": 2
+        }
+      },
+      "foodUsed": 15
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "wolf",
+      "trained": true,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "founder": 4
+      },
+      "methods": [
+        "Damage",
+        "Protection",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "boar",
+      "trained": true,
+      "completed": true,
+      "advances": 7,
+      "health": {
+        "founder": 2
+      },
+      "methods": [
+        "Damage",
+        "Protection",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 5
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "thief",
+      "trained": true,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "founder": 4
+      },
+      "methods": [
+        "Damage",
+        "Protection",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "bandit",
+      "trained": true,
+      "completed": false,
+      "advances": 6,
+      "health": {
+        "founder": 0
+      },
+      "methods": [
+        "Protection",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "griffin",
+      "trained": true,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "founder": 0
+      },
+      "methods": [
+        "Protection",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "founder"
+      ],
+      "enemy": "ember-hound",
+      "trained": true,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "founder": 0
+      },
+      "methods": [
+        "Protection",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "founder": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "wolf",
+      "trained": true,
+      "completed": true,
+      "advances": 4,
+      "health": {
+        "kaede": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 2
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 3
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "boar",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "kaede": 4
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "thief",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "kaede": 4
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "bandit",
+      "trained": true,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "kaede": 1
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 10,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 8,
+        "food": 4,
+        "materials": {
+          "moon-glass": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "griffin",
+      "trained": true,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "kaede": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "kaede"
+      ],
+      "enemy": "ember-hound",
+      "trained": true,
+      "completed": false,
+      "advances": 5,
+      "health": {
+        "kaede": 0
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "wolf",
+      "trained": true,
+      "completed": true,
+      "advances": 4,
+      "health": {
+        "sabine": 6
+      },
+      "methods": [
+        "Control",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 2
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 3
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "boar",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "sabine": 5
+      },
+      "methods": [
+        "Control",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "thief",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "sabine": 5
+      },
+      "methods": [
+        "Control",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "bandit",
+      "trained": true,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "sabine": 1
+      },
+      "methods": [
+        "Control",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 10,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 8,
+        "food": 4,
+        "materials": {
+          "moon-glass": 1
+        }
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "griffin",
+      "trained": true,
+      "completed": false,
+      "advances": 6,
+      "health": {
+        "sabine": 0
+      },
+      "methods": [
+        "Control",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 9,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "sabine"
+      ],
+      "enemy": "ember-hound",
+      "trained": true,
+      "completed": false,
+      "advances": 6,
+      "health": {
+        "sabine": 0
+      },
+      "methods": [
+        "Control",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 9,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 4
+        }
+      },
+      "loot": {
+        "crowns": 0,
+        "food": 0,
+        "materials": {}
+      },
+      "foodUsed": 6
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "wolf",
+      "trained": true,
+      "completed": true,
+      "advances": 4,
+      "health": {
+        "rhess": 6,
+        "kaede": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 3,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        },
+        "kaede": {
+          "damage": 3,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "boar",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "rhess": 6,
+        "kaede": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 2
+        },
+        "kaede": {
+          "damage": 3,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "thief",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "rhess": 6,
+        "kaede": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 2
+        },
+        "kaede": {
+          "damage": 3,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "bandit",
+      "trained": true,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "rhess": 3,
+        "kaede": 6
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 2
+        },
+        "kaede": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 2
+        }
+      },
+      "loot": {
+        "crowns": 8,
+        "food": 4,
+        "materials": {
+          "moon-glass": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "griffin",
+      "trained": true,
+      "completed": true,
+      "advances": 7,
+      "health": {
+        "rhess": 3,
+        "kaede": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Damage",
+        "Protection",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 7,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        },
+        "kaede": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 2
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "moon-glass": 2
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "kaede"
+      ],
+      "enemy": "ember-hound",
+      "trained": true,
+      "completed": true,
+      "advances": 7,
+      "health": {
+        "rhess": 3,
+        "kaede": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage",
+        "Protection",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "kaede": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 2
+        },
+        "rhess": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "fireglass": 2
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "wolf",
+      "trained": true,
+      "completed": true,
+      "advances": 4,
+      "health": {
+        "sabine": 6,
+        "tamsin": 6
+      },
+      "methods": [
+        "Control",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 2
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 4
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "boar",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "sabine": 6,
+        "tamsin": 6
+      },
+      "methods": [
+        "Control",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 2
+        },
+        "tamsin": {
+          "damage": 3,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "thief",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "sabine": 6,
+        "tamsin": 6
+      },
+      "methods": [
+        "Control",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 2
+        },
+        "tamsin": {
+          "damage": 3,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "bandit",
+      "trained": true,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "sabine": 5,
+        "tamsin": 6
+      },
+      "methods": [
+        "Control",
+        "Control",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 3
+        },
+        "tamsin": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 8,
+        "food": 4,
+        "materials": {
+          "moon-glass": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "griffin",
+      "trained": true,
+      "completed": true,
+      "advances": 8,
+      "health": {
+        "sabine": 1,
+        "tamsin": 6
+      },
+      "methods": [
+        "Control",
+        "Control",
+        "Damage",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 11,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 5
+        },
+        "tamsin": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "moon-glass": 2
+        }
+      },
+      "foodUsed": 12
+    },
+    {
+      "party": [
+        "sabine",
+        "tamsin"
+      ],
+      "enemy": "ember-hound",
+      "trained": true,
+      "completed": true,
+      "advances": 7,
+      "health": {
+        "sabine": 4,
+        "tamsin": 6
+      },
+      "methods": [
+        "Control",
+        "Control",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "sabine": {
+          "damage": 10,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 4
+        },
+        "tamsin": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "fireglass": 2
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "wolf",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "rhess": 6,
+        "elowen": 6
+      },
+      "methods": [
+        "Damage",
+        "Control",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 2
+        },
+        "elowen": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "boar",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "rhess": 6,
+        "elowen": 6
+      },
+      "methods": [
+        "Damage",
+        "Control",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 2
+        },
+        "elowen": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "thief",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "rhess": 6,
+        "elowen": 6
+      },
+      "methods": [
+        "Damage",
+        "Control",
+        "Damage"
+      ],
+      "contributions": {
+        "rhess": {
+          "damage": 5,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 2
+        },
+        "elowen": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "bandit",
+      "trained": true,
+      "completed": true,
+      "advances": 6,
+      "health": {
+        "rhess": 5,
+        "elowen": 4
+      },
+      "methods": [
+        "Control",
+        "Damage",
+        "Protection",
+        "Damage"
+      ],
+      "contributions": {
+        "elowen": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        },
+        "rhess": {
+          "damage": 8,
+          "healed": 0,
+          "protected": 2,
+          "controlled": 0,
+          "actions": 3
+        }
+      },
+      "loot": {
+        "crowns": 8,
+        "food": 4,
+        "materials": {
+          "moon-glass": 1
+        }
+      },
+      "foodUsed": 8
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "griffin",
+      "trained": true,
+      "completed": true,
+      "advances": 8,
+      "health": {
+        "rhess": 3,
+        "elowen": 3
+      },
+      "methods": [
+        "Control",
+        "Damage",
+        "Protection",
+        "Damage",
+        "Protection",
+        "Damage"
+      ],
+      "contributions": {
+        "elowen": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        },
+        "rhess": {
+          "damage": 11,
+          "healed": 0,
+          "protected": 2,
+          "controlled": 0,
+          "actions": 5
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "moon-glass": 2
+        }
+      },
+      "foodUsed": 12
+    },
+    {
+      "party": [
+        "rhess",
+        "elowen"
+      ],
+      "enemy": "ember-hound",
+      "trained": true,
+      "completed": true,
+      "advances": 9,
+      "health": {
+        "rhess": 1,
+        "elowen": 6
+      },
+      "methods": [
+        "Control",
+        "Protection",
+        "Protection",
+        "Healing",
+        "Damage",
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "elowen": {
+          "damage": 3,
+          "healed": 2,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 2
+        },
+        "rhess": {
+          "damage": 9,
+          "healed": 0,
+          "protected": 3,
+          "controlled": 0,
+          "actions": 5
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "fireglass": 2
+        }
+      },
+      "foodUsed": 12
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "wolf",
+      "trained": true,
+      "completed": true,
+      "advances": 4,
+      "health": {
+        "founder": 6,
+        "rhess": 6,
+        "elowen": 6,
+        "nyssara": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "nyssara": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        },
+        "founder": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 6,
+        "materials": {
+          "silver-ivy": 1
+        }
+      },
+      "foodUsed": 5
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "boar",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "founder": 6,
+        "rhess": 6,
+        "elowen": 6,
+        "nyssara": 5
+      },
+      "methods": [
+        "Damage",
+        "Control",
+        "Damage"
+      ],
+      "contributions": {
+        "nyssara": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        },
+        "elowen": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        },
+        "founder": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 3,
+        "food": 8,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 10
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "thief",
+      "trained": true,
+      "completed": true,
+      "advances": 4,
+      "health": {
+        "founder": 6,
+        "rhess": 6,
+        "elowen": 6,
+        "nyssara": 5
+      },
+      "methods": [
+        "Damage",
+        "Damage"
+      ],
+      "contributions": {
+        "nyssara": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        },
+        "rhess": {
+          "damage": 3,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 6,
+        "food": 3,
+        "materials": {
+          "binding-thread": 1
+        }
+      },
+      "foodUsed": 5
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "bandit",
+      "trained": true,
+      "completed": true,
+      "advances": 5,
+      "health": {
+        "founder": 5,
+        "rhess": 6,
+        "elowen": 6,
+        "nyssara": 5
+      },
+      "methods": [
+        "Damage",
+        "Control",
+        "Damage"
+      ],
+      "contributions": {
+        "nyssara": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        },
+        "elowen": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        },
+        "rhess": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 8,
+        "food": 4,
+        "materials": {
+          "moon-glass": 1
+        }
+      },
+      "foodUsed": 10
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "griffin",
+      "trained": true,
+      "completed": true,
+      "advances": 7,
+      "health": {
+        "founder": 3,
+        "rhess": 5,
+        "elowen": 6,
+        "nyssara": 5
+      },
+      "methods": [
+        "Damage",
+        "Control",
+        "Damage",
+        "Protection",
+        "Damage"
+      ],
+      "contributions": {
+        "nyssara": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        },
+        "elowen": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 1
+        },
+        "rhess": {
+          "damage": 6,
+          "healed": 0,
+          "protected": 1,
+          "controlled": 0,
+          "actions": 2
+        },
+        "founder": {
+          "damage": 1,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "moon-glass": 2
+        }
+      },
+      "foodUsed": 10
+    },
+    {
+      "party": [
+        "founder",
+        "rhess",
+        "elowen",
+        "nyssara"
+      ],
+      "enemy": "ember-hound",
+      "trained": true,
+      "completed": true,
+      "advances": 7,
+      "health": {
+        "founder": 4,
+        "rhess": 6,
+        "elowen": 6,
+        "nyssara": 5
+      },
+      "methods": [
+        "Damage",
+        "Control",
+        "Protection",
+        "Healing",
+        "Damage"
+      ],
+      "contributions": {
+        "nyssara": {
+          "damage": 4,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        },
+        "elowen": {
+          "damage": 3,
+          "healed": 2,
+          "protected": 0,
+          "controlled": 1,
+          "actions": 2
+        },
+        "rhess": {
+          "damage": 3,
+          "healed": 0,
+          "protected": 2,
+          "controlled": 0,
+          "actions": 1
+        },
+        "founder": {
+          "damage": 2,
+          "healed": 0,
+          "protected": 0,
+          "controlled": 0,
+          "actions": 1
+        }
+      },
+      "loot": {
+        "crowns": 10,
+        "food": 4,
+        "materials": {
+          "fireglass": 2
+        }
+      },
+      "foodUsed": 10
+    }
+  ]
+}

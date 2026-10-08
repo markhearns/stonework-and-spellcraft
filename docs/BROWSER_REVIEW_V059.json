@@ -1,0 +1,15 @@
+{
+  "status": "blocked",
+  "visualReviewCompleted": false,
+  "localAttempt": {
+    "command": "node scripts/browser_review.cjs",
+    "result": "Playwright Chromium executable is not installed"
+  },
+  "cloudAttempt": {
+    "url": "http://127.0.0.1:8765",
+    "result": "net::ERR_BLOCKED_BY_CLIENT"
+  },
+  "screenshotsInspected": 0,
+  "temporaryServer": "stopped",
+  "fallback": "Connected headless UI tests against actual Python game store"
+}

@@ -1,0 +1,70 @@
+Stonework and Spellcraft v0.48 — Multi-use headquarters rooms
+
+22 room types replace a fragmented list of small single-purpose rooms. Find them under Estate → Headquarters rooms, from Home, or Go directly to. Individual bedrooms remain available in Rooms & beds. Existing furnishing-purpose selections are retained; the public catalogue links to consolidated rooms for new planning.
+
+Consolidation:
+- study-alcove: Library & archive
+- shared-reading-room: Library & archive
+- binding-nook: Library & archive
+- correspondence-room: Library & archive
+- material-library: Workshop & material library
+- dry-assembly-room: Workshop & material library
+- portrait-studio: Workshop & material library
+- wet-laboratory: Enchanting room
+- cookhouse: Kitchen & pantry
+- tea-parlour: Common room & tavern
+- music-room: Common room & tavern
+- guest-sitting-room: Entry hall & reception
+- entry-vestibule: Entry hall & reception
+- linen-room: Washroom & laundry
+- fitting-room: Washroom & laundry
+- potting-room: Conservatory & potting benches
+- map-room: Command room & map table
+- field-return-room: Warehouse & stores
+- secure-sample-room: Warded vault
+- quiet-care-suite: Infirmary & apothecary
+- private-bedchamber: Living quarters
+- common-room: Common room & tavern
+- washroom: Washroom & laundry
+- conservatory: Conservatory & potting benches
+
+Implemented rooms and prerequisites:
+- Entry hall & reception [entry-hall]: Arrivals, visitor reception, notices and waiting benches. 12 crowns; 2 assigned phases. Requires: no special prerequisite.
+- Common room & tavern [common-room]: Drinks, board games, music, shared meals and informal company. Existing progress/control retained.
+- Library & archive [library]: Research, correspondence, private study, shared reading and bookbinding. Existing progress/control retained.
+- Kitchen & pantry [kitchen]: Cooking, dining, food storage and household provisioning. Existing progress/control retained.
+- Washroom & laundry [washroom]: Private washing, laundry, linen storage and changing. Existing progress/control retained.
+- Conservatory & potting benches [conservatory]: Growing, potting, botanical study and garden stores. Existing progress/control retained.
+- Living quarters [living-quarters]: Private and shared bedrooms, sitting areas and personal storage. Existing chambers and annex rooms keep their own identities. Existing progress/control retained.
+- Warehouse & stores [warehouse]: General storage, receiving, expedition unpacking and stock reserves. 18 crowns; 2 assigned phases. Requires: no special prerequisite. Existing inventory remains accessible. Unlocks supplied workshops, the command room and vault.
+- Workshop & material library [workshop]: Assembly, repairs, sample drawers, woodwork and small artistic work. 28 crowns; 3 assigned phases. Requires: Warehouse & stores, Steady hearth wards. +1 core artifact crafting work per assigned maker at home.
+- Smithy & armoury [smithy]: Forge metalware, arms and armour; repair and store field equipment. 40 crowns; 4 assigned phases. Requires: Workshop & material library, Warehouse & stores, Steady hearth wards. Forge metalware, a field blade and fitted armour. Metalware can be sold; blade and armour enable an equipped drill.
+- Enchanting room [enchanting-room]: Create magical equipment, inscribe owned gear, test spells and improve working tools. 65 crowns; 5 assigned phases. Requires: Workshop & material library, Smithy & armoury, Field calibration, A Proper Living Wing. Personal tool inscriptions gain +1 work per assigned phase. Enchant forged armour to shorten public-site investigations from two phases to one.
+- Command room & map table [command-room]: Expedition planning, maps, field reports and household assignments. 26 crowns; 3 assigned phases. Requires: Warehouse & stores. Prepare a field briefing: the next ordinary core survey takes one phase. It does not stack with a lantern or field notes.
+- Infirmary & apothecary [infirmary]: Quiet care, medicines, botanical supplies and voluntary recuperation. 24 crowns; 3 assigned phases. Requires: Washroom & laundry, Conservatory & potting benches. A quiet recovery scene and direct access to specialized care. No invented injury or passive healing meter.
+- Training yard [training-yard]: Guard drills, sparring, field practice and physical training. 20 crowns; 2 assigned phases. Requires: Warehouse & stores. Complete basic and equipped drills for two separate, once-only advancement awards.
+- Guard barracks & watchroom [guard-barracks]: Duty planning, kit lockers, off-duty seating and separately fitted sleeping places. 30 crowns; 3 assigned phases. Requires: Training yard, Smithy & armoury. Unlocks a four-bed guard dormitory. Residence does not automatically assign guard duty.
+- Underground living quarters [underground-quarters]: Ventilated lower living wing with dry passages, shared sitting space and separate private/shared bedrooms. 45 crowns; 4 assigned phases. Requires: Washroom & laundry, Water guidance, Steady hearth wards, A Proper Living Wing. Unlocks one private lower suite and one four-bed lower chamber; bedrooms are fitted separately.
+- Dungeon ward & secure workrooms [dungeons]: Lower secure rooms, ward maintenance and access to specialized Ember and Quiet chambers. 38 crowns; 4 assigned phases. Requires: Underground living quarters, Steady hearth wards. Consolidates the dungeon level and existing specialized care. No automatic captives, guards or extra resident capacity.
+- Warded vault [vault]: Late-game storage for rare components and treasured crafted objects, with an inspection table. 100 crowns; 6 assigned phases. Requires: Warehouse & stores, Enchanting room, Field calibration, Reference binding, A Proper Living Wing, returned discoveries from two core expedition sites. Deposit components or spare core artifacts outside crafting stock; withdraw the exact quantity. Requires discoveries from two core expedition sites.
+- Hot spring baths [hot-spring]: Thermal grotto, bathing pools, resting ledges and private changing alcoves. 60 crowns; 5 assigned phases. Requires: Underground living quarters, Washroom & laundry, Water guidance, Steady hearth wards. An optional thermal bathing scene; no recurring fee or stat penalty for skipping it.
+- Sauna [sauna]: Heated timber benches, cooling vestibule and private changing. 25 crowns; 3 assigned phases. Requires: Washroom & laundry, Steady hearth wards. An optional quiet sauna scene.
+- Swimming pool [pool]: Swimming, exercise, poolside rest and changing spaces. 45 crowns; 4 assigned phases. Requires: Washroom & laundry, Water guidance. An optional swimming scene and access to personal training.
+- Chapel & sanctuary [chapel]: Worship, quiet reflection, memorials and personal observances without an imposed faith. 18 crowns; 2 assigned phases. Requires: no special prerequisite. Choose a personal reflection. Existing magical rituals retain their own knowledge and material requirements.
+
+Mechanics and limits:
+- Headquarters construction/jobs use one scholar assignment and one funded project at a time. Browse for free; Advance does work. Pause preserves progress; cancellation returns exact committed costs and goods, not elapsed time. No recurring upkeep.
+- Warehouse, reception and several amenity rooms organize existing systems rather than inventing bonuses. The workshop adds +1 core artifact work for assigned makers. Existing crafting never becomes locked behind new construction.
+- Smithy metalware costs 8 crowns and two phases and can be sold for 12; blade 16 crowns/three phases; armour 24/four. Basic drill grants 1 advancement once; equipped drill grants 2 once, requiring blade and armour. No combat, guard AI or automatic defence is implemented.
+- Enchanting room adds one work to personal tool inscriptions. Field ward costs 20 crowns/three phases and consumes one owned forged armour. Equip the result to reduce public lead investigation from two phases to one. Core expeditions, travel and encounters are unaffected.
+- Command-room briefing takes one phase and reduces the next ordinary core survey to one phase, consumed only by survey; no stacking with lantern/field notes. Rainward methods are unaffected.
+- Vault deposits remove core components/spare artifacts from usable stock. Material reserves and installed/carried artifacts are protected. Scholar-owned public objects retain their exact identity and art, must be stowed and unreserved before deposit, and cannot be used, transferred or commissioned until retrieval. Other residents’ objects and personal working tools are not moved by these controls. There is no theft simulation.
+- Social, bath, infirmary and chapel scenes are optional once-recorded reflections with no currency/stat rewards or phase costs. Chapel observance imposes no faith; existing magical rituals retain existing prerequisites.
+- Underground services and guard barracks unlock separately fitted lower suite (one bed), lower chamber (four beds), and guard dormitory (four beds). Main castle cap stays 25 residents plus founder; annex stays 25. New bedrooms offer alternative accommodation inside the main cap. No automatic guard assignments or dungeon occupants.
+- Existing Ember/Quiet care remains accessible via its original prerequisites for save compatibility; the new dungeon refurbishment is optional.
+
+Compatibility:
+- Save schema 40 adds headquarters records and three housing records, with an automatic pre-migration database backup. Keep the whole existing data directory. Names, character art, accepted overrides, prior rooms, residents, reservations and progress stay intact.
+- No images generated or replaced. Original content source records retained. New room artwork uses labelled placeholders until individually reviewed. Co-op remains deferred.
+
+Verification: see verification-v048.json. Rendered desktop/mobile and live external portrait generation remain outstanding. No browser executable is installed; the earlier local-browser access blocker remains documented.

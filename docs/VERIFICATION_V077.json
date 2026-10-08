@@ -1,0 +1,139 @@
+{
+  "version": "0.77",
+  "schemaVersion": 59,
+  "python": {
+    "run": 843,
+    "passed": true,
+    "failures": [],
+    "errors": [],
+    "skipped": [],
+    "seconds": 167.74
+  },
+  "uiControllerSuitesPassed": 50,
+  "finalChapterUiCheck": "passed after direct room links and knowledge labels",
+  "javascriptSyntax": "passed",
+  "chapterOrderPlaythroughs": [
+    {
+      "order": [
+        "scholarship",
+        "cultivation",
+        "craftsmanship"
+      ],
+      "completedCounts": [
+        1,
+        2,
+        3
+      ],
+      "chapter3Available": true,
+      "endDay": 37,
+      "funds": 27,
+      "cheatsUsed": false
+    },
+    {
+      "order": [
+        "scholarship",
+        "craftsmanship",
+        "cultivation"
+      ],
+      "completedCounts": [
+        1,
+        2,
+        3
+      ],
+      "chapter3Available": true,
+      "endDay": 30,
+      "funds": 12,
+      "cheatsUsed": false
+    },
+    {
+      "order": [
+        "cultivation",
+        "scholarship",
+        "craftsmanship"
+      ],
+      "completedCounts": [
+        1,
+        2,
+        3
+      ],
+      "chapter3Available": true,
+      "endDay": 37,
+      "funds": 27,
+      "cheatsUsed": false
+    },
+    {
+      "order": [
+        "cultivation",
+        "craftsmanship",
+        "scholarship"
+      ],
+      "completedCounts": [
+        1,
+        2,
+        3
+      ],
+      "chapter3Available": true,
+      "endDay": 34,
+      "funds": 18,
+      "cheatsUsed": false
+    },
+    {
+      "order": [
+        "craftsmanship",
+        "scholarship",
+        "cultivation"
+      ],
+      "completedCounts": [
+        1,
+        2,
+        3
+      ],
+      "chapter3Available": true,
+      "endDay": 35,
+      "funds": 1,
+      "cheatsUsed": false
+    },
+    {
+      "order": [
+        "craftsmanship",
+        "cultivation",
+        "scholarship"
+      ],
+      "completedCounts": [
+        1,
+        2,
+        3
+      ],
+      "chapter3Available": true,
+      "endDay": 32,
+      "funds": 8,
+      "cheatsUsed": false
+    }
+  ],
+  "chapter3Validation": {
+    "ordinaryActionPlans": [
+      "private / chapel / infirmary",
+      "shared / sauna / smithy",
+      "mixed / chapel / command room",
+      "mixed / sauna / infirmary"
+    ],
+    "reloadAfterEveryAction": true,
+    "all18PlanScopesAndThreePrioritiesHaveDeduplicatedDependencies": true,
+    "residentCreditAndScopedGathering": true,
+    "reorderingAndCancellationPreserveAuthoritativeWork": true,
+    "existingRoomsCountWithoutInventedCredit": true,
+    "invalidActionsAtomic": true
+  },
+  "preservation": {
+    "unchangedArtworkFiles": 162,
+    "unchangedBundledZips": 5,
+    "liveCampaignDataBundled": false
+  },
+  "limits": {
+    "renderedDesktopMobileReview": false,
+    "renderedReviewReason": "No Chromium executable installed in the execution environment. Connected UI/controller tests use DOM doubles and the real Python save/action service.",
+    "liveProviderAcceptance": false,
+    "cooperativeAcceptance": false,
+    "dockerAcceptance": false
+  }
+}

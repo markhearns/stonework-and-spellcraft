@@ -1,0 +1,167 @@
+{
+  "suites": 40,
+  "seconds": 152.43,
+  "failures": [],
+  "results": [
+    {
+      "suite": "tests/test_ui.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_arrival.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_arrivals.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_art_v053.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_artwork.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_attributes.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_builds.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_candidates.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_cast.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_castle_chapter.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_character_quests.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_character_setup.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_companion_participation.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_containment.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_content_packs.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_customization.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_equipment.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_estate.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_fieldcraft.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_guidance.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_headquarters.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_household_chapters.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_household_content.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_lantern_adventure.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_local.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_magic.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_mystery.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_outfits.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_phase_work.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_public_content.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_public_integration.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_public_workshop.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_relationships.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_resident_future.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_romance.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_room_navigation.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_social_life.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_solo.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_stories.cjs",
+      "returncode": 0
+    },
+    {
+      "suite": "tests/test_ui_visuals.cjs",
+      "returncode": 0
+    }
+  ]
+}

@@ -1,0 +1,2987 @@
+{
+  "version": "0.38",
+  "schemaVersion": 36,
+  "proposalCount": 319,
+  "countsByAdapter": {
+    "service": 1,
+    "qualification": 13,
+    "ritual": 24,
+    "augmentation": 18,
+    "artifact": 40,
+    "equipment": 1,
+    "inscription": 44,
+    "principle": 1,
+    "spell": 68,
+    "furnishing": 48,
+    "support": 12,
+    "starter": 12,
+    "perk": 36,
+    "commission": 1
+  },
+  "proposalMappings": [
+    {
+      "proposalId": "ss-comm-mechanics-explicit-service-agreement",
+      "adapter": "service",
+      "recordIds": [],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-mat-mechanics-reviewed-material-admission",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-material-chalkstone-slab",
+        "ss-mat-material-soapstone-puck",
+        "ss-mat-material-pumice-granules",
+        "ss-mat-material-mica-leaves",
+        "ss-mat-material-basalt-chips",
+        "ss-mat-material-hematite-nib-blank",
+        "ss-mat-material-rock-crystal-rod",
+        "ss-mat-material-copper-mesh",
+        "ss-mat-material-spring-bronze-strip",
+        "ss-mat-material-fine-slate-grit",
+        "ss-mat-material-reed-pith-rods",
+        "ss-mat-material-flax-tow",
+        "ss-mat-material-willow-withies",
+        "ss-mat-material-cork-sheet",
+        "ss-mat-material-pine-rosin-cake",
+        "ss-mat-material-mallow-mucilage",
+        "ss-mat-material-rush-braid",
+        "ss-mat-material-orange-peel-curls",
+        "ss-mat-material-moss-paper-pulp",
+        "ss-mat-material-storm-fallen-resin-pearl",
+        "ss-mat-material-linen-wick-tape",
+        "ss-mat-material-wool-felt-pad",
+        "ss-mat-material-hemp-sailcloth",
+        "ss-mat-material-silk-gauze",
+        "ss-mat-material-cotton-quilting",
+        "ss-mat-material-braided-flax-cord",
+        "ss-mat-material-leather-hinge-strip",
+        "ss-mat-material-paper-twine",
+        "ss-mat-material-waxed-linen-wrap",
+        "ss-mat-material-knitted-wire-sleeve",
+        "ss-mat-material-terracotta-filter-cup",
+        "ss-mat-material-porcelain-lamp-screen",
+        "ss-mat-material-stoneware-mixing-bowl",
+        "ss-mat-material-unglazed-scent-tile",
+        "ss-mat-material-ceramic-tuning-tongue",
+        "ss-mat-material-double-wall-clay-sleeve",
+        "ss-mat-material-frosted-window-offcut",
+        "ss-mat-material-clear-glass-rod",
+        "ss-mat-material-amber-glass-vial",
+        "ss-mat-material-capillary-glass-tube",
+        "ss-mat-material-prism-wedge",
+        "ss-mat-material-glass-microbeads",
+        "ss-mat-material-opal-kiln-shard",
+        "ss-mat-material-hollow-glass-float",
+        "ss-mat-material-graphite-wash",
+        "ss-mat-material-lampblack-ink",
+        "ss-mat-material-ochre-sizing-paste",
+        "ss-mat-material-gum-arabic-medium",
+        "ss-mat-material-wax-resist-stick",
+        "ss-mat-material-rewritable-blue-varnish",
+        "ss-mat-material-rag-paper-board",
+        "ss-mat-material-beeswax-tablet",
+        "ss-mat-material-laminated-birch-panel",
+        "ss-mat-material-stitched-rush-mat",
+        "ss-mat-material-gasketed-sample-box",
+        "ss-mat-material-folded-brass-vane",
+        "ss-mat-material-perforated-bone-free-inlay",
+        "ss-mat-material-cane-lattice-panel",
+        "ss-mat-material-clouded-mirror-silvering-sample",
+        "ss-mat-material-felt-lined-lens-cradle"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-wicking-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-wicking"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-diffusing-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-diffusing"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-insulating-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-insulating"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-resonant-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-resonant"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-erasable-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-erasable"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-sealing-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-sealing"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-flexible-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-flexible"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-filtering-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-filtering"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-scent-holding-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-scent-holding"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-tension-bearing-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-tension-bearing"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-moisture-buffering-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-moisture-buffering"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mat-mechanics-light-guiding-qualification",
+      "adapter": "qualification",
+      "recordIds": [
+        "ss-mat-property-concept-light-guiding"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-paired-control-study-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-paired-control-study"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-local-vibration-round-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-local-vibration-round"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-moisture-box-comparison-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-moisture-box-comparison"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-shared-outline-disagreement-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-shared-outline-disagreement"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-harmless-flow-comparison-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-harmless-flow-comparison"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-attribution-concordance-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-attribution-concordance"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-empty-cabinet-airing-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-empty-cabinet-airing"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-accessible-lamp-setting-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-accessible-lamp-setting"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-sample-seal-inspection-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-sample-seal-inspection"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-comfortable-tool-fitting-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-comfortable-tool-fitting"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-private-correspondence-setup-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-private-correspondence-setup"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-gentle-field-return-triage-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-gentle-field-return-triage"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-courteous-contact-calibration-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-courteous-contact-calibration"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-independent-reply-channel-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-independent-reply-channel"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-arrival-orientation-invitation-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-arrival-orientation-invitation"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-adult-form-construction-review-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-adult-form-construction-review"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-possessions-before-passage-check-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-possessions-before-passage-check"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-departure-anchor-review-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-departure-anchor-review"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-rit-mechanics-surface-finish-return-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-surface-finish-return"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-hair-detail-return-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-hair-detail-return"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-hand-surface-return-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-hand-surface-return"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-viewing-detail-return-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-viewing-detail-return"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-established-form-return-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-established-form-return"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-adornment-mark-return-protocol",
+      "adapter": "ritual",
+      "recordIds": [
+        "ss-rit-ritual-concept-adornment-mark-return"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-pearled-nail-accent-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-pearled-nail-accent"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-scale-edge-glint-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-scale-edge-glint"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-crafted-surface-glaze-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-crafted-surface-glaze"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-temporary-hair-ribbon-of-colour-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-temporary-hair-ribbon-of-colour"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-lamplight-hair-sheen-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-lamplight-hair-sheen"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-two-tone-braid-trial-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-two-tone-braid-trial"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-palm-line-accent-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-palm-line-accent"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-soft-grain-touch-trial-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-soft-grain-touch-trial"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-crafted-hand-inlay-light-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-crafted-hand-inlay-light"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-chosen-reading-edge-accent-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-chosen-reading-edge-accent"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-personal-shade-tint-trial-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-personal-shade-tint-trial"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-optional-tone-to-mark-accent-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-optional-tone-to-mark-accent"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-spirit-edge-accent-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-spirit-edge-accent"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-elemental-edge-variation-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-elemental-edge-variation"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-feather-tip-gleam-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-feather-tip-gleam"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-horn-band-light-mark-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-horn-band-light-mark"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-tail-tip-satin-accent-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-tail-tip-satin-accent"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-rit-mechanics-chosen-star-freckle-pattern-application",
+      "adapter": "augmentation",
+      "recordIds": [
+        "ss-rit-augmentation-concept-chosen-star-freckle-pattern"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-art-mechanics-margin-dry-book-rest-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-margin-dry-book-rest"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-art-mechanics-annotation-veil-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-annotation-veil"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-citation-turntable-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-citation-turntable"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-ink-edge-guard-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-ink-edge-guard"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-bathline-witness-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-bathline-witness"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-art-mechanics-private-steam-lattice-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-private-steam-lattice"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-towel-corner-rest-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-towel-corner-rest"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-dry-step-tray-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-dry-step-tray"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-stirring-pause-rest-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-stirring-pause-rest"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-art-mechanics-pouring-cradle-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-pouring-cradle"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-dough-fold-witness-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-dough-fold-witness"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-separate-scent-lids-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-separate-scent-lids"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-button-comparison-tray-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-button-comparison-tray"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-art-mechanics-seam-rest-frame-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-seam-rest-frame"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-fold-line-board-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-fold-line-board"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-colour-trial-shutter-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-colour-trial-shutter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-letter-privacy-sleeve-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-letter-privacy-sleeve"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-art-mechanics-address-check-plate-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-address-check-plate"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-seal-cooling-cushion-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-seal-cooling-cushion"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-agreed-route-letter-tray-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-agreed-route-letter-tray"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-quiet-close-drawer-stop-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-quiet-close-drawer-stop"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-art-mechanics-borrow-and-return-peg-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-borrow-and-return-peg"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-sample-ownership-rail-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-sample-ownership-rail"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-serving-count-tile-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-serving-count-tile"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-experiment-stop-grid-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-experiment-stop-grid"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-art-mechanics-comparison-light-hood-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-comparison-light-hood"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-calibration-witness-tile-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-calibration-witness-tile"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-spill-line-catch-moat-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-spill-line-catch-moat"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-root-view-divider-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-root-view-divider"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-art-mechanics-seed-label-witness-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-seed-label-witness"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-pot-turn-dial-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-pot-turn-dial"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-rain-reading-pan-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-rain-reading-pan"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-chair-hush-foot-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-chair-hush-foot"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-art-mechanics-shared-reading-light-span-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-shared-reading-light-span"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-tea-cup-resting-ring-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-tea-cup-resting-ring"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-doorway-draft-comb-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-doorway-draft-comb"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-dropped-needle-witness-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-dropped-needle-witness"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-art-mechanics-held-page-cradle-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-held-page-cradle"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-cloak-drip-bar-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-cloak-drip-bar"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-art-mechanics-returned-lamp-rest-fabrication-and-use",
+      "adapter": "artifact",
+      "recordIds": [
+        "ss-art-artifact-concept-returned-lamp-rest"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-eq-mechanics-single-owned-signature-focus",
+      "adapter": "equipment",
+      "recordIds": [
+        "ss-eq-equipment-concept-hearth-spoke-staff",
+        "ss-eq-equipment-concept-margin-lantern",
+        "ss-eq-equipment-concept-tide-mark-cup",
+        "ss-eq-equipment-concept-fold-out-index-fan",
+        "ss-eq-equipment-concept-threadkeeper-spindle",
+        "ss-eq-equipment-concept-root-window-crook",
+        "ss-eq-equipment-concept-double-leaf-slate",
+        "ss-eq-equipment-concept-quiet-tone-fork",
+        "ss-eq-equipment-concept-sunline-ruler",
+        "ss-eq-equipment-concept-waxfield-notebook",
+        "ss-eq-equipment-concept-petal-screen-mirror",
+        "ss-eq-equipment-concept-boundary-hoop",
+        "ss-eq-equipment-concept-capillary-brush-handle",
+        "ss-eq-equipment-concept-seam-compass",
+        "ss-eq-equipment-concept-mist-study-lens",
+        "ss-eq-equipment-concept-courteous-threshold-token"
+      ],
+      "costCrowns": 6,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-cooling-witness-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-cooling-witness"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-edge-light-stitch-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-edge-light-stitch"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-level-recall-line-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-level-recall-line"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-source-fork-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-source-fork"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-twist-witness-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-twist-witness"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-root-window-guide-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-root-window-guide"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-draft-and-record-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-draft-and-record"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-quiet-tone-trace-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-quiet-tone-trace"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-bench-horizon-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-bench-horizon"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-question-corner-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-question-corner"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-private-reflection-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-private-reflection"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-sample-boundary-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-sample-boundary"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-wash-guide-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-wash-guide"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-seam-alignment-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-seam-alignment"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-condensation-frame-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-condensation-frame"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-session-courtesy-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-session-courtesy"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-blunt-end-boundary-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-blunt-end-boundary"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-load-note-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-load-note"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-glaze-provenance-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-glaze-provenance"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-settling-witness-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-settling-witness"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-square-without-haste-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-square-without-haste"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-pressure-pause-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-pressure-pause"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-observed-angle-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-observed-angle"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-water-path-replay-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-water-path-replay"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-drying-spacing-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-drying-spacing"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-tap-comparison-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-tap-comparison"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-cover-memory-mark-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-cover-memory-mark"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-seed-separation-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-seed-separation"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-draft-flag-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-draft-flag"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-recess-witness-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-recess-witness"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-unscented-control-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-unscented-control"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-edge-seating-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-edge-seating"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-wet-and-dry-record-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-wet-and-dry-record"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-sample-source-chain-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-sample-source-chain"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-horizon-comparison-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-horizon-comparison"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-waterline-rubbing-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-waterline-rubbing"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-cradle-balance-cue-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-cradle-balance-cue"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-screened-comparison-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-screened-comparison"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-portrait-pause-frame-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-portrait-pause-frame"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-ground-view-note-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-ground-view-note"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-fold-check-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-fold-check"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-shutter-stop-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-shutter-stop"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-parked-not-prepared-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-parked-not-prepared"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-eq-mechanics-attribution-window-installation",
+      "adapter": "inscription",
+      "recordIds": [
+        "ss-eq-inscription-concept-attribution-window"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-mag-mechanics-reviewed-principle-registry",
+      "adapter": "principle",
+      "recordIds": [
+        "ss-mag-principle-concept-edge-adhesion",
+        "ss-mag-principle-concept-balanced-suspension",
+        "ss-mag-principle-concept-local-vibration",
+        "ss-mag-principle-concept-surface-slip",
+        "ss-mag-principle-concept-air-channels",
+        "ss-mag-principle-concept-measured-echoes",
+        "ss-mag-principle-concept-trace-separation",
+        "ss-mag-principle-concept-light-masking",
+        "ss-mag-principle-concept-shape-registration",
+        "ss-mag-principle-concept-slow-release",
+        "ss-mag-principle-concept-selective-wetting",
+        "ss-mag-principle-concept-thermal-exchange",
+        "ss-mag-principle-concept-elastic-return",
+        "ss-mag-principle-concept-granular-sorting",
+        "ss-mag-principle-concept-colour-comparison",
+        "ss-mag-principle-concept-scent-partition",
+        "ss-mag-principle-concept-sediment-settling",
+        "ss-mag-principle-concept-gentle-condensation",
+        "ss-mag-principle-concept-fluid-boundaries",
+        "ss-mag-principle-concept-porous-exchange",
+        "ss-mag-principle-concept-mutable-opacity",
+        "ss-mag-principle-concept-planar-alignment",
+        "ss-mag-principle-concept-momentary-shelter",
+        "ss-mag-principle-concept-reversible-finish"
+      ],
+      "costCrowns": 8,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-loosen-a-practice-knot-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-loosen-a-practice-knot"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-guide-a-basin-pour-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-guide-a-basin-pour"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-hold-an-ink-sample-steady-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-hold-an-ink-sample-steady"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-compare-two-margins-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-compare-two-margins"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-rootline-witness-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-rootline-witness"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-copy-a-drawn-outline-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-copy-a-drawn-outline"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-sequence-a-demonstration-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-sequence-a-demonstration"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-carry-a-wash-along-thread-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-carry-a-wash-along-thread"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-shade-a-sample-edge-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-shade-a-sample-edge"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-hold-two-fibres-together-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-hold-two-fibres-together"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-mark-an-invited-threshold-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-mark-an-invited-threshold"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-warm-a-clay-rest-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-warm-a-clay-rest"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-return-a-harmless-drip-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-return-a-harmless-drip"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-shield-a-practice-label-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-shield-a-practice-label"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-keep-a-question-attached-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-keep-a-question-attached"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-compare-leaf-positions-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-compare-leaf-positions"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-trace-a-waterline-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-trace-a-waterline"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-label-a-control-sample-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-label-a-control-sample"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-thread-a-narrow-wick-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-thread-a-narrow-wick"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-match-two-blunt-edges-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-match-two-blunt-edges"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-temporary-label-tack-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-temporary-label-tack"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-hovering-test-weight-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-hovering-test-weight"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-quiet-vibration-window-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-quiet-vibration-window"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-sliding-sample-lane-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-sliding-sample-lane"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-gentle-bench-breeze-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-gentle-bench-breeze"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-echo-from-a-visible-wall-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-echo-from-a-visible-wall"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-separate-pencil-from-wash-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-separate-pencil-from-wash"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-close-a-local-light-mask-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-close-a-local-light-mask"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-recall-a-measured-outline-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-recall-a-measured-outline"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-measured-sand-release-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-measured-sand-release"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-wet-only-the-practice-line-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-wet-only-the-practice-line"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-share-a-cup-s-warmth-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-share-a-cup-s-warmth"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-return-a-cane-curve-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-return-a-cane-curve"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-sort-visible-bead-shapes-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-sort-visible-bead-shapes"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-compare-two-cloth-swatches-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-compare-two-cloth-swatches"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-open-one-scent-sample-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-open-one-scent-sample"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-show-a-settling-boundary-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-show-a-settling-boundary"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-gather-pane-droplets-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-gather-pane-droplets"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-hold-a-teaching-boundary-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-hold-a-teaching-boundary"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-buffer-a-sample-box-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-buffer-a-sample-box"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-dim-a-study-pane-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-dim-a-study-pane"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-align-two-sample-faces-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-align-two-sample-faces"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-shelter-a-loose-diagram-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-shelter-a-loose-diagram"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-remove-a-trial-finish-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-remove-a-trial-finish"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-float-a-level-reference-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-float-a-level-reference"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-quietly-display-an-echo-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-quietly-display-an-echo"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-separate-and-compare-swatches-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-separate-and-compare-swatches"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-mask-a-reference-overlay-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-mask-a-reference-overlay"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-guide-a-damp-line-slowly-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-guide-a-damp-line-slowly"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-return-a-warm-test-curve-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-return-a-warm-test-curve"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-compare-a-sorted-sediment-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-compare-a-sorted-sediment"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-keep-scent-behind-a-screen-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-keep-scent-behind-a-screen"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-catch-a-pane-s-runoff-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-catch-a-pane-s-runoff"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-show-a-moisture-exchange-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-show-a-moisture-exchange"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-hold-a-sheltering-test-plane-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-hold-a-sheltering-test-plane"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-release-a-temporary-label-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-release-a-temporary-label"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 1
+    },
+    {
+      "proposalId": "ss-mag-mechanics-paired-circle-freight-fold-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-paired-circle-freight-fold"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-archive-cabinet-dry-interlude-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-archive-cabinet-dry-interlude"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-suspended-roof-model-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-suspended-roof-model"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-isolated-residual-unweaving-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-isolated-residual-unweaving"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-short-span-cargo-support-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-short-span-cargo-support"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-two-station-study-impression-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-two-station-study-impression"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-pattern-from-accepted-reference-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-pattern-from-accepted-reference"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-cleared-workpit-test-boundary-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-cleared-workpit-test-boundary"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-permissioned-object-recovery-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-permissioned-object-recovery"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-layered-waterwork-demonstration-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-layered-waterwork-demonstration"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-bounded-acoustic-canopy-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-bounded-acoustic-canopy"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-mag-mechanics-shared-reversible-sample-finish-form",
+      "adapter": "spell",
+      "recordIds": [
+        "ss-mag-spell-construction-shared-reversible-sample-finish"
+      ],
+      "costCrowns": 12,
+      "baseWorkPhases": 3
+    },
+    {
+      "proposalId": "ss-room-mechanics-tilted-book-support-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-tilted-book-support"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-removable-note-wing-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-removable-note-wing"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-wide-comparison-table-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-wide-comparison-table"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-independently-shaded-lamp-rail-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-independently-shaded-lamp-rail"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-labelled-sample-drawers-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-labelled-sample-drawers"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-open-comparison-plinth-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-open-comparison-plinth"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-padded-binding-bench-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-padded-binding-bench"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-loose-sheet-drying-rack-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-loose-sheet-drying-rack"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-open-catch-tray-bench-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-open-catch-tray-bench"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-separate-source-note-stand-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-separate-source-note-stand"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-broad-jig-board-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-broad-jig-board"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-owner-labelled-component-rail-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-owner-labelled-component-rail"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-adjustable-preparation-board-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-adjustable-preparation-board"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-separated-serving-shelves-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-separated-serving-shelves"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-stable-serving-sideboard-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-stable-serving-sideboard"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-repositionable-conversation-table-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-repositionable-conversation-table"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-opaque-changing-screen-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-opaque-changing-screen"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-wide-dry-side-shelf-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-wide-dry-side-shelf"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-open-sorting-counter-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-open-sorting-counter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-owner-labelled-linen-bays-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-owner-labelled-linen-bays"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-covered-fitting-mirror-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-covered-fitting-mirror"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-adaptable-garment-rest-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-adaptable-garment-rest"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-individually-fitted-bed-platform-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-individually-fitted-bed-platform"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-owner-controlled-bedside-storage-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-owner-controlled-bedside-storage"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-open-visitor-table-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-open-visitor-table"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-temporary-belongings-shelf-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-temporary-belongings-shelf"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-accessible-plant-bench-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-accessible-plant-bench"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-separated-observation-bay-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-separated-observation-bay"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-wide-potting-tray-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-wide-potting-tray"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-dry-seed-label-station-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-dry-seed-label-station"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-layered-map-table-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-layered-map-table"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-removable-uncertainty-rail-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-removable-uncertainty-rail"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-padded-receiving-bench-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-padded-receiving-bench"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-separate-observation-trays-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-separate-observation-trays"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-movable-instrument-rest-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-movable-instrument-rest"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-quiet-comparison-panel-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-quiet-comparison-panel"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-adjustable-drawing-easel-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-adjustable-drawing-easel"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-neutral-sample-screen-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-neutral-sample-screen"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-partitioned-writing-desk-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-partitioned-writing-desk"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-owner-controlled-outgoing-tray-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-owner-controlled-outgoing-tray"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-modular-reading-and-talk-seats-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-modular-reading-and-talk-seats"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-shared-hobby-surface-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-shared-hobby-surface"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-participant-controlled-privacy-screen-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-participant-controlled-privacy-screen"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-independent-belongings-cabinet-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-independent-belongings-cabinet"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-accessible-resting-bench-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-accessible-resting-bench"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-owner-labelled-travel-hooks-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-owner-labelled-travel-hooks"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-individually-labelled-sample-lockers-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-individually-labelled-sample-lockers"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-open-inspection-landing-fitting",
+      "adapter": "furnishing",
+      "recordIds": [
+        "ss-room-furnishing-concept-open-inspection-landing"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-room-mechanics-source-beside-sample-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-source-beside-sample"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-reference-beside-group-reading-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-reference-beside-group-reading"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-dry-parts-beside-covers-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-dry-parts-beside-covers"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-material-check-before-assembly-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-material-check-before-assembly"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-wet-observation-beside-dry-record-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-wet-observation-beside-dry-record"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-returned-notes-beside-maps-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-returned-notes-beside-maps"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-seed-notes-beside-growing-beds-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-seed-notes-beside-growing-beds"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-light-studies-beside-portraits-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-light-studies-beside-portraits"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-recorded-routes-beside-correspondence-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-recorded-routes-beside-correspondence"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-sample-custody-beside-inspection-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-sample-custody-beside-inspection"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-accessible-fitting-beside-repair-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-accessible-fitting-beside-repair"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-room-mechanics-instrument-samples-beside-study-records-optional-support",
+      "adapter": "support",
+      "recordIds": [
+        "ss-room-adjacency-synergy-instrument-samples-beside-study-records"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-page-binding-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-page-binding-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-textile-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-textile-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-vessel-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-vessel-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-field-recorder-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-field-recorder-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-growing-observer-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-growing-observer-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-colour-study-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-colour-study-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-small-fittings-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-small-fittings-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-household-planning-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-household-planning-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-kitchen-preservation-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-kitchen-preservation-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-instrument-study-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-instrument-study-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-stone-layout-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-stone-layout-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-voluntary-teaching-starter-admission",
+      "adapter": "starter",
+      "recordIds": [
+        "ss-dev-starting-package-concept-voluntary-teaching-starter"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 0
+    },
+    {
+      "proposalId": "ss-dev-mechanics-section-pacing-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-section-pacing"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-reversible-hinge-adaptation-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-reversible-hinge-adaptation"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-distorted-fold-diagnosis-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-distorted-fold-diagnosis"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-tension-balanced-assembly-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-tension-balanced-assembly"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-removable-seam-geometry-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-removable-seam-geometry"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-bias-drift-comparison-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-bias-drift-comparison"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-supported-vessel-assembly-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-supported-vessel-assembly"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-unequal-rim-accommodation-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-unequal-rim-accommodation"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-level-and-weight-separation-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-level-and-weight-separation"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-survey-uncertainty-bands-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-survey-uncertainty-bands"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-wet-page-evidence-recovery-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-wet-page-evidence-recovery"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-route-change-discrimination-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-route-change-discrimination"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-root-window-assembly-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-root-window-assembly"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-nondestructive-pot-fitting-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-nondestructive-pot-fitting"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-paired-pot-interpretation-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-paired-pot-interpretation"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-metameric-match-check-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-metameric-match-check"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-backing-isolation-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-backing-isolation"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-angle-dependent-finish-record-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-angle-dependent-finish-record"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-quiet-stop-assembly-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-quiet-stop-assembly"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-nonstructural-shim-fitting-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-nonstructural-shim-fitting"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-contact-witness-interpretation-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-contact-witness-interpretation"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-critical-prerequisite-comparison-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-critical-prerequisite-comparison"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-provenance-preserving-consolidation-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-provenance-preserving-consolidation"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-shared-tool-conflict-forecast-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-shared-tool-conflict-forecast"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-separate-lid-assembly-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-separate-lid-assembly"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-traceable-batch-separation-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-traceable-batch-separation"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-scent-carryover-comparison-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-scent-carryover-comparison"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-support-node-study-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-support-node-study"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-detachable-damping-fit-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-detachable-damping-fit"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-beat-pattern-discrimination-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-beat-pattern-discrimination"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-datum-transfer-check-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-datum-transfer-check"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-curved-surface-marking-jig-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-curved-surface-marking-jig"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-inscription-spacing-reconstruction-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-inscription-spacing-reconstruction"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-misconception-comparison-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-misconception-comparison"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-variable-isolating-demonstration-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-variable-isolating-demonstration"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-dev-mechanics-transfer-of-understanding-trial-investment",
+      "adapter": "perk",
+      "recordIds": [
+        "ss-dev-perk-concept-transfer-of-understanding-trial"
+      ],
+      "costCrowns": 0,
+      "baseWorkPhases": 2
+    },
+    {
+      "proposalId": "ss-post-mechanics-bounded-commission-settlement",
+      "adapter": "commission",
+      "recordIds": [],
+      "costCrowns": 8,
+      "baseWorkPhases": 0
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "version": "0.96",
+  "assets": [
+    {
+      "bytes": 123164,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "0652ea567506dd5c158516cb283bdd91f8530666cbfbc470afbf9858ee8093c1",
+      "mode": "RGBA",
+      "transparent_fraction": 0.6341,
+      "previous_bytes": 430494,
+      "previous_sha256": "8245df0c9fc4b3ca702ee4b07a6262dcf86458d7723a6e33c9f8b2e0059c21a5",
+      "path": "static/assets/portraits/sylva.webp",
+      "generation_source": "exec-ee35a59c-fb14-4859-a414-07724b0f0045.png"
+    },
+    {
+      "bytes": 117000,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "2e8a73bdf0abf898e5e2c8de34dba54db926009cd2f47359e5d6465b2f9066d5",
+      "mode": "RGBA",
+      "transparent_fraction": 0.6772,
+      "previous_bytes": 356772,
+      "previous_sha256": "b0c379ebede7230abfe99b1d9a0b45f7e45093f99705daa3b31e38c8ae481316",
+      "path": "static/assets/portraits/sylva-outfit-2.webp",
+      "generation_source": "exec-766c7108-ee13-4223-a55a-73f4b88bc8f9.png"
+    },
+    {
+      "bytes": 117568,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "a608674a966ce5d5a89446f71020013174a14483e1a8fa26e23af9cb1c6e5c45",
+      "mode": "RGBA",
+      "transparent_fraction": 0.6877,
+      "previous_bytes": 331366,
+      "previous_sha256": "57cc832b8607f608ca86f91ed11a9fc063375b319c1db4f0f2e1f531f1d457fb",
+      "path": "static/assets/portraits/sylva-outfit-3.webp",
+      "generation_source": "exec-f45839ec-d635-4600-bf04-2fa0b29fde38.png"
+    },
+    {
+      "bytes": 444912,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "sha256": "3fb0116e8c37737f92a47fee9388acbb5d6cf35ef8eeeab160854427d60c8464",
+      "mode": "RGB",
+      "previous_bytes": 435028,
+      "previous_sha256": "40c3f99a3d41ab02ce7c0c796d6d70cd6bcbfbade3566a7ef3498f07113f3d12",
+      "path": "static/assets/portraits/overview/sylva.webp",
+      "generation_source": "exec-dadb2be6-8aa9-4da1-a430-8329578db994.png"
+    },
+    {
+      "bytes": 466658,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "sha256": "ed4d8df1c748495e4395bf9487119dad49e92fb215636100ff82bd5f2bc780db",
+      "mode": "RGB",
+      "previous_bytes": 410444,
+      "previous_sha256": "5c2355254b83a8ac2218a4535be44687f42457dff679262517081e71b6da7140",
+      "path": "static/assets/portraits/overview/sylva-outfit-2.webp",
+      "generation_source": "exec-a59d1328-f8ab-47ca-8971-e4601d6ed235.png"
+    },
+    {
+      "bytes": 443708,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "sha256": "227f8ae33427b9005886b01100c92970537864fc164dac161d645f1fc3e04048",
+      "mode": "RGB",
+      "previous_bytes": 446974,
+      "previous_sha256": "6d299afcb8bf7f7da1644e7a1c7449b203a36219a2ca26910c7bfeb64538f24e",
+      "path": "static/assets/portraits/overview/sylva-outfit-3.webp",
+      "generation_source": "exec-f0760614-3b77-4e70-a695-61451c3ea0d8.png"
+    },
+    {
+      "bytes": 105636,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "ac708025a3d3bf5e9412b75d389069c2ea9b88f351a954ec68e9fefc534fb62d",
+      "mode": "RGBA",
+      "transparent_fraction": 0.6993,
+      "previous_bytes": 196520,
+      "previous_sha256": "08f94a194cda9ced91b9f36b9830dc84165623240782ee59ddeaeaab6889b49e",
+      "path": "static/assets/portraits/bathing/sylva.webp",
+      "generation_source": "exec-0e7b8cd9-2cfa-4eb0-b641-a9ff14cf9c8c.png"
+    },
+    {
+      "bytes": 85046,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "265c90e893895c4b7752754a2499d902b9fc6bef88caaecb4a1970fb46d7e19f",
+      "mode": "RGBA",
+      "transparent_fraction": 0.7444,
+      "previous_bytes": 125536,
+      "previous_sha256": "51ab0f6e66afa2564f5506080358005c78270e94507bac402def5a019d3f2356",
+      "path": "static/assets/portraits/velis.webp",
+      "generation_source": "exec-920359f2-5cd0-4c9b-93d2-f92e9d160643.png"
+    },
+    {
+      "bytes": 82352,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "b1bb7cb7288fc01a2856ffacae20f38161c945eac477a10337ad1fb1e5e04a8f",
+      "mode": "RGBA",
+      "transparent_fraction": 0.7546,
+      "previous_bytes": 108728,
+      "previous_sha256": "2a7bf57d2f0c1f7aacf5d742f061c25048315bc74e9c9d61f86bb214d224f47c",
+      "path": "static/assets/portraits/velis-outfit-2.webp",
+      "generation_source": "exec-5628642b-e0e0-42db-a9c5-1f31f10b8049.png"
+    },
+    {
+      "bytes": 71666,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "1db7c586bff880036778b8daf6a031140706be41bedba20ba433c83d41adda0b",
+      "mode": "RGBA",
+      "transparent_fraction": 0.7709,
+      "previous_bytes": 107272,
+      "previous_sha256": "1068b9f1f428767c8204111eac1a0b0b73063dd0272fe775c94c499653754828",
+      "path": "static/assets/portraits/velis-outfit-3.webp",
+      "generation_source": "exec-92b29ceb-0cb7-47f7-9e41-a6a4391cf869.png"
+    },
+    {
+      "bytes": 345736,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "sha256": "66a4ded3ad2170290d80d436d2bb031db1c22377d1bcbfd7afc758f62a821756",
+      "mode": "RGB",
+      "previous_bytes": 181254,
+      "previous_sha256": "846d8c1fc40da9991bf489b15d2bc9f62f6da5ff1c35b121b02a2557fbcac447",
+      "path": "static/assets/portraits/overview/velis.webp",
+      "generation_source": "exec-11fee429-dda0-4593-99d3-471caeb6ae18.png"
+    },
+    {
+      "bytes": 344388,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "sha256": "ab40826f81ad6ee7c0add7a0c59871f0efb9ac631c810a36f01c863290a96332",
+      "mode": "RGB",
+      "previous_bytes": 163698,
+      "previous_sha256": "bb608bab82642c3361cdf28f9e5a8c388e2922e92c410bcb009df08dabb9caeb",
+      "path": "static/assets/portraits/overview/velis-outfit-2.webp",
+      "generation_source": "exec-dc9759e1-aba4-4c89-9f53-ed47f7dbc9bb.png"
+    },
+    {
+      "bytes": 355382,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "sha256": "9151f75b8083660dd4f474cbb97e5322368839176f0492388c6536cdb84e30c3",
+      "mode": "RGB",
+      "previous_bytes": 180252,
+      "previous_sha256": "b27dce57eed91991c9a4dad5a6bdc6c3a5aab7d8da3f8abf95bfbf4d5966ba3a",
+      "path": "static/assets/portraits/overview/velis-outfit-3.webp",
+      "generation_source": "exec-7cf18a68-e9b3-40c8-b334-c241e02d3740.png"
+    },
+    {
+      "bytes": 87948,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "bf76a4ed7d6cc7c46777c8f4a35ed98eb2efd89c7ef41340af5e2cb3aea0fe2a",
+      "mode": "RGBA",
+      "transparent_fraction": 0.7402,
+      "previous_bytes": 95424,
+      "previous_sha256": "da93984afa8daf83a010daefc96bb2c992edfe08e899144b47ce900109e600aa",
+      "path": "static/assets/portraits/bathing/velis.webp",
+      "generation_source": "exec-e555e8ef-412a-43b6-ae89-c4c180563b40.png"
+    },
+    {
+      "bytes": 141126,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "16a09c92cf931c793324549505a602cf17111c188f4672c3ee4e7c089515a961",
+      "mode": "RGBA",
+      "transparent_fraction": 0.6236,
+      "previous_bytes": 162956,
+      "previous_sha256": "d694c66d573ee9d167e08c3b9d96219212c1ca057409730988ca97b048cc7a68",
+      "path": "static/assets/portraits/rhess.webp",
+      "generation_source": "exec-10675408-c18d-40e3-bb91-385b767bbaae.png"
+    },
+    {
+      "bytes": 119774,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "fa5611cbc25650a94509e0d3fad6de754d41ed65a523e751d5d11eea571a4249",
+      "mode": "RGBA",
+      "transparent_fraction": 0.6543,
+      "previous_bytes": 142150,
+      "previous_sha256": "56d6be0222d1292f492ca49e9cc221d368da2f603bbfda94ecab33d0a67a8ace",
+      "path": "static/assets/portraits/rhess-outfit-2.webp",
+      "generation_source": "exec-a8ca642d-3998-47d8-9a4e-d6064c2f8131.png"
+    },
+    {
+      "bytes": 118908,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "22fbf960e883fb13f38e1841f62bc2e6e6c1f51ed4c93a59f546615e4962ef1d",
+      "mode": "RGBA",
+      "transparent_fraction": 0.67,
+      "previous_bytes": 136710,
+      "previous_sha256": "9a554937d4783354f6631d0905c4caf38fdf910a7da51a91c814d784c5ee84a6",
+      "path": "static/assets/portraits/rhess-outfit-3.webp",
+      "generation_source": "exec-d41fc949-86c6-426b-81ed-25a26efde824.png"
+    },
+    {
+      "bytes": 388340,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "sha256": "f65d9a377c99d9ca9e903a6b3c190ad6629a013d1bb1d42c559bff71512c90d8",
+      "mode": "RGB",
+      "previous_bytes": 330348,
+      "previous_sha256": "21f96f9b6cae23e296ce5fd3fdd9a4e42a18d1cde159ee105bc0c5f8fafc62a7",
+      "path": "static/assets/portraits/overview/rhess.webp",
+      "generation_source": "exec-65798925-bde1-4fae-9bdd-3296573d3a73.png"
+    },
+    {
+      "bytes": 424178,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "sha256": "7e26529265f6c78c4a86ff75ed40f8b1cddbe0264c36b91cd3b8366e55134f5c",
+      "mode": "RGB",
+      "previous_bytes": 476232,
+      "previous_sha256": "1d04e67d91174dcaef6528b3e3f8aa024f272ba2083dabe7cfd256292668b0a4",
+      "path": "static/assets/portraits/overview/rhess-outfit-2.webp",
+      "generation_source": "exec-9395465c-987b-407b-8fe7-2c15ec7562f6.png"
+    },
+    {
+      "bytes": 415312,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "sha256": "269d20c377b5ab7581eeacafc29312a98f16e955b36bdcd1a0431bd72d8a376e",
+      "mode": "RGB",
+      "previous_bytes": 520844,
+      "previous_sha256": "3ffcb770c77b627b4f83ca2d5dfb83d886cdd3dcaab616060f052e1718f136ba",
+      "path": "static/assets/portraits/overview/rhess-outfit-3.webp",
+      "generation_source": "exec-62f70701-f9a7-43ba-b567-077199db2663.png"
+    },
+    {
+      "bytes": 115876,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "sha256": "aa00b71afd1cbd399a732272d3928049b09edd8513be768ceb4dfabf69a32368",
+      "mode": "RGBA",
+      "transparent_fraction": 0.6602,
+      "previous_bytes": 140500,
+      "previous_sha256": "f9bdbd24c6c53bcba723807ac132ccdcf27f2b4f4a4ee89764582be3b4be6c9d",
+      "path": "static/assets/portraits/bathing/rhess.webp",
+      "generation_source": "exec-2469f02f-82e1-4f37-9b3e-2eaa4ebb009a.png"
+    }
+  ],
+  "total_bytes": 4914678,
+  "previous_total_bytes": 5479502,
+  "superseded_images_remaining": []
+}

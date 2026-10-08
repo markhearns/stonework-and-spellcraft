@@ -1,0 +1,8 @@
+# Iona sensual portrait follow-up
+
+Created with the built-in image-generation tool, using iona-v2.png as the edit target. Selected result: static/assets/iona-v3.png.
+
+## Final prompt
+
+Use case: identity-preserve. Edit the supplied Iona portrait for the self-hosted fantasy RPG Stonework and Spellcraft. Iona is a clearly adult 23-year-old demon woman. Make her substantially more sensual and sexy, self-possessed and knowingly playful. Preserve her recognizable face, hazel eyes, freckles, tousled chestnut curls, two small swept horns, pointed ears and muted violet skin. Refine her expression into a warm, alluring half-smile and confident direct gaze. Replace the concealing blouse and long waistcoat with a beautifully fitted worn plum waistcoat over a dark midnight-blue soft blouse: a deeper flattering neckline showing tasteful cleavage, open collarbones and a slightly off-shoulder drape on one side, opaque fabric and securely covered breasts. Emphasize her natural adult waist and curves with tailored fit, not exaggerated anatomy. Relax her stance into a subtle hip shift and graceful shoulders. Keep the rolled survey map in one hand and practical leather field case at her hip, same three-quarter portrait framing. She remains a capable surveyor with a sensual personal style. Preserve the dark handmade paper background, graphite and ink contours, tactile watercolor/gouache texture, restrained worn gold and muted warm violet palette. Soft warm facial light, deep shadows. No bright glow, opulence, glossy CGI, extra props, wings, text, watermark, nudity or explicit sexual activity. Exactly two arms and anatomically natural hands.
+

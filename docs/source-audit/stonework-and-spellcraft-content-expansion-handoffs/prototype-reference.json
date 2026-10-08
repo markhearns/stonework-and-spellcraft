@@ -1,0 +1,375 @@
+{
+  "PRINCIPLE_NAMES": {
+    "steady-hearth-wards": "Steady hearth wards",
+    "water-guidance": "Water guidance",
+    "gentle-preservation": "Gentle preservation",
+    "reference-binding": "Reference binding",
+    "steady-growth": "Steady growth",
+    "luminous-copying": "Luminous copying",
+    "clear-instruction": "Clear instruction",
+    "capillary-wicking": "Capillary wicking",
+    "gentle-refraction": "Gentle refraction",
+    "joined-fibres": "Joined fibres",
+    "courteous-passage": "Courteous passage"
+  },
+  "MATERIALS": {
+    "sun-amber": {
+      "name": "Sun amber",
+      "properties": [
+        "heat-bearing"
+      ],
+      "price": 6
+    },
+    "fireglass": {
+      "name": "Fireglass",
+      "properties": [
+        "heat-bearing"
+      ],
+      "price": 9
+    },
+    "binding-thread": {
+      "name": "Binding thread",
+      "properties": [
+        "binding"
+      ],
+      "price": 3
+    },
+    "silver-ivy": {
+      "name": "Silver ivy",
+      "properties": [
+        "binding",
+        "botanical"
+      ],
+      "price": 4
+    },
+    "porous-clay": {
+      "name": "Porous clay",
+      "properties": [
+        "vessel"
+      ],
+      "price": 5
+    },
+    "moon-glass": {
+      "name": "Moon glass",
+      "properties": [
+        "vessel",
+        "heat-bearing"
+      ],
+      "price": 8
+    }
+  },
+  "RECIPES": {
+    "warming-lantern": {
+      "name": "Warming lantern",
+      "requiredPrinciple": "steady-hearth-wards",
+      "requiredProperties": [
+        "heat-bearing",
+        "binding"
+      ],
+      "requiredWorkPhases": 2,
+      "description": "A reusable lantern that gives gentle warmth without an open flame. Its visible glow can be placed in the common room."
+    },
+    "watering-charm": {
+      "name": "Self-watering charm",
+      "requiredPrinciple": "water-guidance",
+      "requiredProperties": [
+        "vessel",
+        "binding"
+      ],
+      "requiredWorkPhases": 2,
+      "description": "A porous clay vessel bound to guide water to roots. Installed in the conservatory, it improves each staffed harvest: 2 silver ivy or 6 crowns instead of 1 or 4."
+    },
+    "hearth-kettle": {
+      "name": "Hearth kettle",
+      "requiredPrinciple": "steady-hearth-wards",
+      "requiredProperties": [
+        "heat-bearing",
+        "vessel"
+      ],
+      "requiredWorkPhases": 2,
+      "description": "A gentle heat vessel for the restored washroom. Install it there to provide reliable warm water for the Proper Living Wing milestone."
+    },
+    "pantry-seal": {
+      "name": "Pantry seal",
+      "requiredPrinciple": "gentle-preservation",
+      "requiredProperties": [
+        "vessel",
+        "binding"
+      ],
+      "requiredWorkPhases": 2,
+      "description": "A bound clay seal that keeps designated garden surplus fresh for sale. Installed in the kitchen, it adds 2 crowns to each staffed surplus harvest; stored materials are untouched."
+    },
+    "index-charm": {
+      "name": "Living index charm",
+      "requiredPrinciple": "reference-binding",
+      "requiredProperties": [
+        "vessel",
+        "binding"
+      ],
+      "requiredWorkPhases": 3,
+      "description": "A bound catalogue vessel that guides readers to the right shelf. Install it in the library: each assigned researcher gains +1 work contribution, and copying commissions gain +1 crown. It also completes the practical part of Mira’s archive project."
+    },
+    "root-tender": {
+      "name": "Root tender",
+      "requiredPrinciple": "steady-growth",
+      "requiredProperties": [
+        "botanical",
+        "vessel"
+      ],
+      "requiredWorkPhases": 3,
+      "description": "Without a gardener, produces 1 silver ivy or 2 crowns per Advance, using the garden priority. Staffed harvests keep their normal bonuses; the tender does not add a second harvest."
+    },
+    "scribe-stone": {
+      "name": "Scribe stone",
+      "requiredPrinciple": "luminous-copying",
+      "requiredProperties": [
+        "heat-bearing",
+        "vessel"
+      ],
+      "requiredWorkPhases": 3,
+      "description": "Adds 2 crowns to each assigned scholar copying commission. Stacks with Patient scholarship and the living index; does not create unattended income."
+    },
+    "lesson-tablet": {
+      "name": "Lesson tablet",
+      "requiredPrinciple": "clear-instruction",
+      "requiredProperties": [
+        "vessel",
+        "binding"
+      ],
+      "requiredWorkPhases": 3,
+      "description": "New personal principle studies take one assigned phase instead of two. Already-started learning and practice training keep their original durations."
+    },
+    "capillary-mat": {
+      "name": "Capillary mat",
+      "requiredPrinciple": "capillary-wicking",
+      "requiredProperties": [
+        "botanical",
+        "binding"
+      ],
+      "requiredWorkPhases": 3,
+      "description": "A woven growing mat. Install it in the conservatory for +1 silver ivy per staffed ivy harvest. It does not improve surplus sales or unattended root-tender output."
+    },
+    "reading-prism": {
+      "name": "Reading prism",
+      "requiredPrinciple": "gentle-refraction",
+      "requiredProperties": [
+        "vessel",
+        "heat-bearing"
+      ],
+      "requiredWorkPhases": 3,
+      "description": "Install in the library: +2 crowns per assigned scholar copying phase. Does not multiply spell income; extra copies do not stack."
+    },
+    "binding-press": {
+      "name": "Binding press",
+      "requiredPrinciple": "joined-fibres",
+      "requiredProperties": [
+        "vessel",
+        "binding"
+      ],
+      "requiredWorkPhases": 3,
+      "description": "Install in the library: +1 artifact work contribution per assigned crafting phase from the active maker. Extra copies do not stack; spell testing and focus work are unchanged."
+    }
+  },
+  "SPELL_FORMS": {
+    "warm-twist": {
+      "name": "Warm-twist binding",
+      "requiredPrinciple": "steady-hearth-wards",
+      "requiredProperties": [
+        "heat-bearing",
+        "binding"
+      ],
+      "roomId": "common-room",
+      "description": "Use controlled warmth to loosen silver-ivy fibres, then twist them into binding cord.",
+      "effect": "Consume 1 silver ivy when scheduling; produce 2 binding thread after one assigned phase.",
+      "castingInputs": {
+        "silver-ivy": 1
+      },
+      "materialOutput": {
+        "binding-thread": 2
+      },
+      "crownsOutput": 0
+    },
+    "root-song": {
+      "name": "Root-song tending",
+      "requiredPrinciple": "steady-growth",
+      "requiredProperties": [
+        "botanical",
+        "binding"
+      ],
+      "roomId": "conservatory",
+      "description": "Guide an established bed through its growth rhythm with attentive practical magic.",
+      "effect": "Produce 2 silver ivy after one assigned phase. No casting components or mana fee.",
+      "castingInputs": {},
+      "materialOutput": {
+        "silver-ivy": 2
+      },
+      "crownsOutput": 0
+    },
+    "luminous-copy": {
+      "name": "Luminous transcription",
+      "requiredPrinciple": "luminous-copying",
+      "requiredProperties": [
+        "vessel",
+        "heat-bearing"
+      ],
+      "roomId": "library",
+      "description": "Make and check clean archive copies with a controlled light impression.",
+      "effect": "Earn 6 shared crowns after one assigned phase. No casting components or mana fee.",
+      "castingInputs": {},
+      "materialOutput": {},
+      "crownsOutput": 6
+    },
+    "clarify-glass": {
+      "name": "Gentle glass clarification",
+      "requiredPrinciple": "gentle-refraction",
+      "requiredProperties": [
+        "vessel",
+        "heat-bearing"
+      ],
+      "roomId": "library",
+      "description": "Separate a fireglass insert along its natural seams and clarify the two useful lenses with steady refraction.",
+      "effect": "Consume 1 fireglass when scheduling; produce 2 moon glass after one assigned phase.",
+      "castingInputs": {
+        "fireglass": 1
+      },
+      "materialOutput": {
+        "moon-glass": 2
+      },
+      "crownsOutput": 0
+    }
+  },
+  "PRACTICES": {
+    "archive-focus": {
+      "name": "Patient scholarship",
+      "description": "+1 work contribution to hearth research or the living index, and +1 crown per copying commission when prepared.",
+      "discipline": "Scholarship"
+    },
+    "careful-assembly": {
+      "name": "Methodical assembly",
+      "description": "+1 crafting work contribution when prepared by the artifact’s maker.",
+      "discipline": "Artifice"
+    },
+    "field-notes": {
+      "name": "Prepared field notes",
+      "description": "Survey work takes one phase instead of two when a party member has this prepared. Does not stack with a warming lantern.",
+      "discipline": "Fieldcraft"
+    },
+    "comparative-study": {
+      "name": "Comparative study",
+      "description": "+1 research or archive work contribution when prepared. Can combine with Patient scholarship; no copying-income bonus. Does not speed training, spell work or personal keepsakes.",
+      "discipline": "Advanced scholarship",
+      "requiredPractice": "archive-focus",
+      "requiredSkill": "scholarship",
+      "requiredRank": 1
+    },
+    "measured-assembly": {
+      "name": "Measured assembly",
+      "description": "+1 artifact work contribution when prepared by the maker. Can combine with Methodical assembly. Does not speed focus work, spell work or personal keepsakes.",
+      "discipline": "Advanced artifice",
+      "requiredPractice": "careful-assembly",
+      "requiredSkill": "artifice",
+      "requiredRank": 1
+    }
+  },
+  "FOCUS_INSCRIPTIONS": {
+    "scholarly-thread": {
+      "name": "Scholarly thread",
+      "requiredPrinciple": "reference-binding",
+      "requiredProperties": [
+        "binding",
+        "vessel"
+      ],
+      "benefit": "+1 work contribution to assigned research and the living-index study. No learning-speed bonus."
+    },
+    "steady-hand": {
+      "name": "Steady hand",
+      "requiredPrinciple": "steady-hearth-wards",
+      "requiredProperties": [
+        "heat-bearing",
+        "binding"
+      ],
+      "benefit": "+1 work contribution when this character is the assigned artifact maker. Does not accelerate focus inscription work."
+    },
+    "field-case": {
+      "name": "Preservation case",
+      "requiredPrinciple": "gentle-preservation",
+      "requiredProperties": [
+        "vessel",
+        "binding"
+      ],
+      "benefit": "When prepared for expeditions, a new completed salvage lead brings home 1 extra binding thread per party. Multiple cases do not stack; surveys gain nothing."
+    },
+    "copying-line": {
+      "name": "Copying line",
+      "requiredPrinciple": "luminous-copying",
+      "requiredProperties": [
+        "vessel",
+        "heat-bearing"
+      ],
+      "benefit": "+2 crowns per assigned copying phase. The sample scholar offers copying work; Mira currently does not."
+    }
+  },
+  "schemaVersion": 1,
+  "description": "Read-only prototype rules snapshot, captured 5 October 2026 UTC. Reference IDs and effects; new proposals are not implemented.",
+  "ancestries": {
+    "human": "Human",
+    "high-elf": "High elf",
+    "dark-elf": "Dark elf",
+    "drow": "Drow",
+    "catfolk": "Catfolk",
+    "bovinefolk": "Bovinefolk",
+    "orc": "Orc",
+    "wolfkin": "Wolfkin",
+    "demon": "Demon",
+    "seraph": "Seraph",
+    "elemental": "Elemental",
+    "vampire": "Vampire",
+    "fae": "Fae",
+    "djinn": "Djinn",
+    "dragonkin": "Dragonkin",
+    "spirit": "Spirit",
+    "dryad": "Dryad",
+    "nymph": "Nymph",
+    "kitsune": "Kitsune",
+    "oni": "Oni",
+    "golem": "Golem"
+  },
+  "CAPABILITY_PACKAGES": {
+    "archive-reader": {
+      "name": "Archive reader",
+      "principles": [
+        "gentle-preservation"
+      ],
+      "practices": [
+        "archive-focus"
+      ],
+      "focusName": "Personal reading lens"
+    },
+    "light-maker": {
+      "name": "Light maker",
+      "principles": [
+        "gentle-refraction"
+      ],
+      "practices": [
+        "careful-assembly"
+      ],
+      "focusName": "Shuttered hand lantern"
+    },
+    "water-worker": {
+      "name": "Water worker",
+      "principles": [
+        "water-guidance"
+      ],
+      "practices": [
+        "careful-assembly"
+      ],
+      "focusName": "Tide-marked measuring cup"
+    }
+  },
+  "MATERIAL_PROPERTY_IDS": [
+    "binding",
+    "botanical",
+    "heat-bearing",
+    "vessel"
+  ]
+}

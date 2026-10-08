@@ -1,0 +1,14 @@
+Use case: stylized-concept. Generate exactly ONE isolated game item illustration on true transparent background, no scene. Output one 1024x1024 master image only; filenames and smaller export sizes below describe later packaging, never multiple panels.
+ASSET 06 — Margin lantern
+EXACT ID: ss-eq-equipment-concept-margin-lantern
+RUNTIME: objects/ss-eq-equipment-concept-margin-lantern.png
+MASTER: masters/ss-eq-equipment-concept-margin-lantern.png
+
+GENERATE THIS ONE SUBJECT ONLY
+One shuttered dull-brass hand lamp with a broad stable foot, a simple handle and a modest frosted-glass working panel. Show the shutter and replaceable joins clearly. The graphite-labelled rim is represented by faint indistinct marks, never readable letters. Keep any lamplight very restrained and within the object. No giant halo, extra lamp, floating runes or room background.
+
+CURRENT PROJECT AESTHETIC
+Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving–inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.
+
+COMPOSITION AND OUTPUT
+One complete object or inseparable assembly on true transparent alpha. Square 1024 x 1024 PNG master, plus 256 x 256 sRGB PNG runtime if export is available. Keep 10–15% clear margin; make the silhouette legible at 32–48 px. No hands, people, pedestal, labels, frame, checkerboard background, opaque paper field or detached scenery. No collage or multiple views. Texture belongs within the object.

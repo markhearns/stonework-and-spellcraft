@@ -1,0 +1,1856 @@
+{
+  "schemaVersion": 1,
+  "poolType": "household-interaction",
+  "entries": [
+    {
+      "id": "interaction-001",
+      "label": "Separate books, shared quiet",
+      "description": "A resident offers quiet company with no requirement to discuss either person's reading.",
+      "expressionExamples": [
+        "Would you enjoy reading in the same room, each with our own book?"
+      ],
+      "compatibleTags": [
+        "reading",
+        "quiet-company",
+        "friendship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you enjoy reading in the same room, each with our own book?",
+      "requirements": [
+        "A suitable shared reading space is available.",
+        "Any books used are actually available to their readers."
+      ],
+      "possibleResponses": [
+        "Consider joining for separate reading.",
+        "Ask for a different kind of quiet company.",
+        "Decline without explanation."
+      ],
+      "possibleDevelopments": [
+        "A participant might offer one passage only if sharing becomes welcome.",
+        "The company might remain entirely quiet without a hidden relationship consequence."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-002",
+      "label": "The cup handle disagreement",
+      "description": "Two residents discover they prefer different handles on otherwise similar cups.",
+      "expressionExamples": [
+        "One resident asks whether the other would enjoy comparing the two designs."
+      ],
+      "compatibleTags": [
+        "ceramics",
+        "negotiation",
+        "tea"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the other would enjoy comparing the two designs.",
+      "requirements": [
+        "Both residents have voluntarily expressed interest in the comparison.",
+        "Suitable references or cups are available with permission."
+      ],
+      "possibleResponses": [
+        "Consider comparing their different uses.",
+        "Suggest drawing alternatives instead of handling objects.",
+        "Decline or leave the disagreement unresolved."
+      ],
+      "possibleDevelopments": [
+        "They might find that grip and occasion explain the different preferences.",
+        "They might keep both opinions without selecting a winner."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-003",
+      "label": "An atlas of scraps",
+      "description": "A small group considers whether spare materials could be organized around useful future purposes.",
+      "expressionExamples": [
+        "Would anyone enjoy a short look at which scraps are worth keeping, with no obligation to take on a project?"
+      ],
+      "compatibleTags": [
+        "craft",
+        "sustainability",
+        "community"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would anyone enjoy a short look at which scraps are worth keeping, with no obligation to take on a project?",
+      "requirements": [
+        "The materials are established and their owners permit review.",
+        "Each involved resident has chosen to participate."
+      ],
+      "possibleResponses": [
+        "Consider suggesting one possible use.",
+        "Propose a smaller selection rather than a complete catalogue.",
+        "Decline participation without losing access to unrelated activities."
+      ],
+      "possibleDevelopments": [
+        "Different makers might identify different useful properties.",
+        "The group might choose to keep fewer items and leave actual changes for later agreement."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-004",
+      "label": "One lamp, several moods",
+      "description": "A resident invites discussion of how a proposed lighting arrangement could serve reading and relaxed company differently.",
+      "expressionExamples": [
+        "Would you enjoy comparing a practical reading setup with a softer evening sketch?"
+      ],
+      "compatibleTags": [
+        "light",
+        "reading",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you enjoy comparing a practical reading setup with a softer evening sketch?",
+      "requirements": [
+        "Relevant room or lighting references are available.",
+        "The discussion does not require unapproved magical effects."
+      ],
+      "possibleResponses": [
+        "Consider offering a preference.",
+        "Ask to focus on readability rather than atmosphere.",
+        "Decline the discussion."
+      ],
+      "possibleDevelopments": [
+        "The sketches might reveal that one arrangement need not serve every purpose.",
+        "A smaller change might suit the aim better than additional lamps."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-005",
+      "label": "The missing recipe step",
+      "description": "Two residents consider a recipe note that assumes knowledge neither wishes to invent.",
+      "expressionExamples": [
+        "One resident asks whether the other would like to help identify the unanswered question in the recipe."
+      ],
+      "compatibleTags": [
+        "cooking",
+        "trust",
+        "collaborative"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the other would like to help identify the unanswered question in the recipe.",
+      "requirements": [
+        "The recipe note is actually available and may be shared.",
+        "Both residents agree to discuss it."
+      ],
+      "possibleResponses": [
+        "Consider listing possible interpretations.",
+        "Suggest asking the source rather than guessing.",
+        "Decline without being assigned kitchen work."
+      ],
+      "possibleDevelopments": [
+        "They might draft a focused question for the recipe's source.",
+        "They might preserve the gap rather than claim the dish was prepared."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-006",
+      "label": "Grand titles for ordinary tools",
+      "description": "A small group is invited to invent deliberately absurd titles for fictional household objects.",
+      "expressionExamples": [
+        "Would a few ridiculous titles for imaginary tools be amusing, or shall the tools keep their dignity?"
+      ],
+      "compatibleTags": [
+        "humour",
+        "language",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would a few ridiculous titles for imaginary tools be amusing, or shall the tools keep their dignity?",
+      "requirements": [
+        "The participants have opted into a light fictional game.",
+        "The game is separate from real labels and records."
+      ],
+      "possibleResponses": [
+        "Consider contributing a fictional title.",
+        "Choose to listen without contributing.",
+        "Decline or stop the game."
+      ],
+      "possibleDevelopments": [
+        "A tiny comic catalogue might be proposed, not automatically produced.",
+        "The group might discover that the plain title is funnier than the elaborate one."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-007",
+      "label": "The chosen silhouette",
+      "description": "A resident asks for a particular kind of feedback on a proposed flattering outfit.",
+      "expressionExamples": [
+        "Would you like to compare the silhouettes? I am asking about the design, not inviting a fitting."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "sensual",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you like to compare the silhouettes? I am asking about the design, not inviting a fitting.",
+      "requirements": [
+        "Candidate garments or drawings are available.",
+        "The resident has invited style feedback.",
+        "Any actual clothing change remains separately chosen."
+      ],
+      "possibleResponses": [
+        "Consider offering the requested visual feedback.",
+        "Ask whether simple appreciation would be preferable.",
+        "Decline the styling discussion."
+      ],
+      "possibleDevelopments": [
+        "The resident might prefer a different balance of comfort and allure than expected.",
+        "The conversation might end with several candidates and no outfit change."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-008",
+      "label": "A patch with two purposes",
+      "description": "Two residents discuss whether a visible patch should explain a repair or simply look pleasing.",
+      "expressionExamples": [
+        "One resident asks whether the other wants to compare decorative and practical patch ideas."
+      ],
+      "compatibleTags": [
+        "textiles",
+        "craft",
+        "possessions"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the other wants to compare decorative and practical patch ideas.",
+      "requirements": [
+        "The garment's owner has allowed the relevant discussion.",
+        "Both residents choose to participate."
+      ],
+      "possibleResponses": [
+        "Consider comparing the two purposes.",
+        "Suggest a practice swatch instead of altering the garment.",
+        "Decline any repair role."
+      ],
+      "possibleDevelopments": [
+        "They might separate a functional inner repair from an optional decorative surface.",
+        "The owner might choose neither idea without offending either maker."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-009",
+      "label": "An unranked display",
+      "description": "A small group considers a display of works in progress without awards or mandatory critique.",
+      "expressionExamples": [
+        "Would anyone enjoy showing an unfinished piece, with each maker choosing what may be discussed?"
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "community",
+        "consent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would anyone enjoy showing an unfinished piece, with each maker choosing what may be discussed?",
+      "requirements": [
+        "Every displayed work must be offered by its owner.",
+        "Each maker has specified privacy and feedback limits."
+      ],
+      "possibleResponses": [
+        "Consider showing a suitable piece.",
+        "Join as a listener without offering work.",
+        "Decline or keep work private."
+      ],
+      "possibleDevelopments": [
+        "A maker might prefer a question card to a descriptive caption.",
+        "The group might choose a smaller private exchange instead of a display."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-010",
+      "label": "The letter kept private",
+      "description": "A resident wants company while drafting but does not want the letter read.",
+      "expressionExamples": [
+        "Would quiet company be pleasant while I write? The letter itself is private."
+      ],
+      "compatibleTags": [
+        "correspondence",
+        "privacy",
+        "quiet-company"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would quiet company be pleasant while I write? The letter itself is private.",
+      "requirements": [
+        "A suitable shared space is available.",
+        "The resident has explicitly separated company from access to the letter."
+      ],
+      "possibleResponses": [
+        "Consider parallel quiet activity.",
+        "Suggest returning at another time.",
+        "Decline without asking about the contents."
+      ],
+      "possibleDevelopments": [
+        "The resident might later choose to share a single phrase for wording help.",
+        "The scene might remain companionship without any disclosure."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-011",
+      "label": "Two names for one plant",
+      "description": "Two residents compare botanical labels that may use different local naming conventions.",
+      "expressionExamples": [
+        "One resident asks whether the other would enjoy untangling the naming question without declaring either label wrong."
+      ],
+      "compatibleTags": [
+        "botany",
+        "language",
+        "practical-scholarship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the other would enjoy untangling the naming question without declaring either label wrong.",
+      "requirements": [
+        "The labels or descriptions are actually available.",
+        "No unverified plant identification is treated as fact."
+      ],
+      "possibleResponses": [
+        "Consider comparing the descriptions.",
+        "Suggest recording both names with uncertainty.",
+        "Decline the comparison."
+      ],
+      "possibleDevelopments": [
+        "They might discover that context matters more than a single preferred name.",
+        "They might decide further expert information is needed before identifying the plant."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-012",
+      "label": "A listening gathering",
+      "description": "A small group considers a quiet musical occasion where nobody is obliged to perform.",
+      "expressionExamples": [
+        "Would listening together be enjoyable, with playing or singing only for anyone who separately wishes to offer it?"
+      ],
+      "compatibleTags": [
+        "music",
+        "quiet-company",
+        "consent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would listening together be enjoyable, with playing or singing only for anyone who separately wishes to offer it?",
+      "requirements": [
+        "Suitable music or an agreed performer is actually available before any listening scene.",
+        "All participants choose their involvement."
+      ],
+      "possibleResponses": [
+        "Consider joining as a listener.",
+        "Suggest a shorter or quieter format.",
+        "Decline participation."
+      ],
+      "possibleDevelopments": [
+        "The group might discuss which parts invite attention without prescribing feelings.",
+        "Someone might prefer quiet company afterward rather than musical analysis."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-013",
+      "label": "Weather through the window",
+      "description": "A resident offers a short observation of changing light or weather from an already established room.",
+      "expressionExamples": [
+        "Would you like to look at the changing light for a moment, or leave the observation to me?"
+      ],
+      "compatibleTags": [
+        "weather",
+        "visual-art",
+        "reflective"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you like to look at the changing light for a moment, or leave the observation to me?",
+      "requirements": [
+        "The room, window and actual visible conditions are established.",
+        "Observation will not intrude on another person's private space."
+      ],
+      "possibleResponses": [
+        "Consider sharing an observation.",
+        "Ask to compare colours rather than explain the weather.",
+        "Decline or return to another activity."
+      ],
+      "possibleDevelopments": [
+        "Two descriptions might differ without either becoming a prediction.",
+        "The resident might propose a future sketch while leaving it unmade."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-014",
+      "label": "Room behind the chair",
+      "description": "Two residents compare seating needs without making either body the default.",
+      "expressionExamples": [
+        "One resident asks whether the other would like to discuss what makes a seat comfortable."
+      ],
+      "compatibleTags": [
+        "accessibility",
+        "woodwork",
+        "identity"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the other would like to discuss what makes a seat comfortable.",
+      "requirements": [
+        "Both residents have chosen to discuss their own needs.",
+        "Relevant body and furniture details are established."
+      ],
+      "possibleResponses": [
+        "Consider comparing practical needs.",
+        "Suggest separate designs rather than one universal chair.",
+        "Decline personal detail or the whole discussion."
+      ],
+      "possibleDevelopments": [
+        "They might identify different reasons for open space behind a seat.",
+        "The exchange might improve a drawing without moving anyone or changing furniture."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-015",
+      "label": "Tea at different paces",
+      "description": "A small group considers a refreshment gathering that permits different arrival and departure preferences.",
+      "expressionExamples": [
+        "Would a loose, unhurried gathering be pleasant, with no obligation to stay for the whole occasion?"
+      ],
+      "compatibleTags": [
+        "tea",
+        "hospitality",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would a loose, unhurried gathering be pleasant, with no obligation to stay for the whole occasion?",
+      "requirements": [
+        "A suitable hosting space and any actual refreshments are established.",
+        "Each participant has chosen to join."
+      ],
+      "possibleResponses": [
+        "Consider joining briefly.",
+        "Suggest quiet company without refreshment.",
+        "Decline without a future obligation."
+      ],
+      "possibleDevelopments": [
+        "The group might decide not to organize a formal programme.",
+        "A participant might leave while others continue, without implied rejection."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-016",
+      "label": "The troublesome final word",
+      "description": "A resident offers one line of her own poem for a narrow wording question.",
+      "expressionExamples": [
+        "May I ask about one word in a draft, without opening the whole poem to critique?"
+      ],
+      "compatibleTags": [
+        "language",
+        "privacy",
+        "revision"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "May I ask about one word in a draft, without opening the whole poem to critique?",
+      "requirements": [
+        "The resident owns or may share the draft.",
+        "She has defined the scope of feedback she wants."
+      ],
+      "possibleResponses": [
+        "Consider discussing the single word.",
+        "Ask whether rhythm or meaning matters more.",
+        "Decline the feedback request."
+      ],
+      "possibleDevelopments": [
+        "A simpler word might preserve the feeling better than an ornate one.",
+        "She might keep the original after understanding why she likes it."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-017",
+      "label": "How much critique is welcome",
+      "description": "Two residents clarify what one of them means by asking for feedback.",
+      "expressionExamples": [
+        "One resident asks what kind of response the maker actually wants before commenting."
+      ],
+      "compatibleTags": [
+        "craft",
+        "consent",
+        "friendship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks what kind of response the maker actually wants before commenting.",
+      "requirements": [
+        "A work has been voluntarily presented.",
+        "The maker's requested feedback scope is not yet clear."
+      ],
+      "possibleResponses": [
+        "Consider clarifying the scope.",
+        "Offer simple appreciation instead of critique.",
+        "Decline to review the work."
+      ],
+      "possibleDevelopments": [
+        "They might distinguish a practical problem from a request for encouragement.",
+        "The maker might choose to keep the work private after all."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-018",
+      "label": "The table that serves the room",
+      "description": "A small group considers a table arrangement with clear routes and places for different activities.",
+      "expressionExamples": [
+        "Would a paper layout be useful before anyone proposes moving furniture?"
+      ],
+      "compatibleTags": [
+        "domestic",
+        "accessibility",
+        "negotiation"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would a paper layout be useful before anyone proposes moving furniture?",
+      "requirements": [
+        "The actual room and existing furniture are known.",
+        "Residents affected by a proposed change are not presumed to have agreed."
+      ],
+      "possibleResponses": [
+        "Consider commenting on the drawing.",
+        "Suggest keeping the present arrangement.",
+        "Decline planning work."
+      ],
+      "possibleDevelopments": [
+        "Different uses might require movable rather than permanent arrangements.",
+        "The group might leave the plan as a proposal until affected residents decide."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-019",
+      "label": "A riddle after the invitation",
+      "description": "A resident offers a harmless word puzzle only after stating the real invitation plainly.",
+      "expressionExamples": [
+        "Would you enjoy a small word puzzle? It has no prize, penalty or hidden request."
+      ],
+      "compatibleTags": [
+        "wordplay",
+        "leisure",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you enjoy a small word puzzle? It has no prize, penalty or hidden request.",
+      "requirements": [
+        "The conversation supports optional play.",
+        "The puzzle is fictional and separate from practical instructions."
+      ],
+      "possibleResponses": [
+        "Consider trying the puzzle.",
+        "Ask to hear the answer without guessing.",
+        "Decline the game."
+      ],
+      "possibleDevelopments": [
+        "The resident might enjoy an unexpected interpretation as much as the intended answer.",
+        "The game might stop unanswered without a missed reward."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-020",
+      "label": "The welcome kind of compliment",
+      "description": "Two residents discuss how they prefer appreciation to be expressed.",
+      "expressionExamples": [
+        "One resident asks whether the other prefers private praise, practical comments or little attention."
+      ],
+      "compatibleTags": [
+        "affection",
+        "privacy",
+        "consent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the other prefers private praise, practical comments or little attention.",
+      "requirements": [
+        "Both residents have agreed to a conversation about preferences.",
+        "Neither is assumed to know the other's private feelings."
+      ],
+      "possibleResponses": [
+        "Consider sharing a current preference.",
+        "Keep the conversation about work rather than appearance.",
+        "Decline personal discussion."
+      ],
+      "possibleDevelopments": [
+        "They might discover a preference differs by setting.",
+        "They might leave future compliments subject to checking rather than create a permanent rule."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-021",
+      "label": "An occasion chosen by its subject",
+      "description": "A small group considers acknowledging a real milestone without deciding its scale for the person involved.",
+      "expressionExamples": [
+        "Would the person whose milestone this is like any acknowledgement, and what kind would suit them?"
+      ],
+      "compatibleTags": [
+        "celebration",
+        "autonomy",
+        "community"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would the person whose milestone this is like any acknowledgement, and what kind would suit them?",
+      "requirements": [
+        "The milestone actually occurred.",
+        "Its subject has welcomed discussion of possible acknowledgement.",
+        "No celebration has yet been assumed."
+      ],
+      "possibleResponses": [
+        "Consider a modest proposed gathering.",
+        "Suggest a private note or no event.",
+        "Decline organizing or attending."
+      ],
+      "possibleDevelopments": [
+        "The subject might choose something much smaller than the group imagined.",
+        "The group might respectfully decide to leave the milestone private."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-022",
+      "label": "Before the field notebook leaves",
+      "description": "A resident invites a practical review of a proposed observation outing.",
+      "expressionExamples": [
+        "Would you like to look at the questions for a possible outing, without committing to the trip?"
+      ],
+      "compatibleTags": [
+        "exploration",
+        "cartography",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you like to look at the questions for a possible outing, without committing to the trip?",
+      "requirements": [
+        "The outing is only a proposal.",
+        "Known access and route facts are available for review."
+      ],
+      "possibleResponses": [
+        "Consider reviewing the unanswered questions.",
+        "Suggest a desk-based study instead.",
+        "Decline involvement."
+      ],
+      "possibleDevelopments": [
+        "The review might reveal that the purpose can be narrowed.",
+        "The outing might remain tentative or be set aside without failure."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-023",
+      "label": "Two colours that disagree politely",
+      "description": "Two residents compare colour choices while accepting that taste need not converge.",
+      "expressionExamples": [
+        "One resident asks what the other likes about a contrasting colour choice."
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "negotiation",
+        "friendship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks what the other likes about a contrasting colour choice.",
+      "requirements": [
+        "Suitable swatches or drawings are available.",
+        "Both residents welcome the comparison."
+      ],
+      "possibleResponses": [
+        "Consider explaining each preference.",
+        "Suggest separate applications for the colours.",
+        "Decline the discussion."
+      ],
+      "possibleDevelopments": [
+        "The colours might suit different contexts rather than compete.",
+        "The residents might keep their original tastes with clearer understanding."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-024",
+      "label": "A scene with no assigned hero",
+      "description": "A small group proposes a brief fictional story in which each contributor may choose a role or none.",
+      "expressionExamples": [
+        "Would anyone enjoy inventing a small fictional scene, with no role assigned in advance?"
+      ],
+      "compatibleTags": [
+        "performance",
+        "collaborative",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would anyone enjoy inventing a small fictional scene, with no role assigned in advance?",
+      "requirements": [
+        "Participants have opted into collaborative fiction.",
+        "No character is based on a private biography without permission."
+      ],
+      "possibleResponses": [
+        "Consider contributing an idea.",
+        "Choose to listen without a role.",
+        "Decline or withdraw from the activity."
+      ],
+      "possibleDevelopments": [
+        "Different proposed endings might be kept as alternatives.",
+        "A mundane supporting character might become interesting without a forced hero narrative."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-025",
+      "label": "The gap in the catalogue",
+      "description": "A resident offers a small archival puzzle without expecting an immediate answer.",
+      "expressionExamples": [
+        "Would you enjoy looking at this missing description? Leaving it unknown is an acceptable result."
+      ],
+      "compatibleTags": [
+        "archives",
+        "trust",
+        "practical-scholarship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you enjoy looking at this missing description? Leaving it unknown is an acceptable result.",
+      "requirements": [
+        "The relevant catalogue or study copy is actually available.",
+        "It contains no private material the resident lacks permission to share."
+      ],
+      "possibleResponses": [
+        "Consider comparing existing entries.",
+        "Suggest a clearly marked unresolved note.",
+        "Decline the puzzle."
+      ],
+      "possibleDevelopments": [
+        "A wording convention might explain part of the gap.",
+        "The record might remain incomplete without an invented discovery."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-026",
+      "label": "The rhythm between two tasks",
+      "description": "Two residents consider whether a shared work rhythm is helpful or distracting.",
+      "expressionExamples": [
+        "One resident asks whether a quiet rhythm would help, distract or simply be unwelcome."
+      ],
+      "compatibleTags": [
+        "music",
+        "work",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether a quiet rhythm would help, distract or simply be unwelcome.",
+      "requirements": [
+        "Both residents are actually engaged in compatible, agreed activities.",
+        "Noise and concentration preferences may be discussed."
+      ],
+      "possibleResponses": [
+        "Consider a brief optional rhythm.",
+        "Suggest silence or separate work areas.",
+        "Decline the experiment."
+      ],
+      "possibleDevelopments": [
+        "They might prefer different sound levels and choose separate arrangements.",
+        "They might discuss music afterward instead of adding it to work."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-027",
+      "label": "The end of the work gathering",
+      "description": "A small group reaches a point where continuing would be optional rather than necessary.",
+      "expressionExamples": [
+        "Would people prefer to stop here, continue separately or discuss another occasion?"
+      ],
+      "compatibleTags": [
+        "work",
+        "rest",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would people prefer to stop here, continue separately or discuss another occasion?",
+      "requirements": [
+        "An actual agreed activity has reached a suitable pause.",
+        "No unfinished required outcome is silently treated as complete."
+      ],
+      "possibleResponses": [
+        "Consider stopping participation.",
+        "Suggest a later optional continuation.",
+        "Continue only within actual agreed scope."
+      ],
+      "possibleDevelopments": [
+        "The group might separate a finished subtask from unresolved work.",
+        "Participants might choose rest without a productivity penalty."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-028",
+      "label": "The back detail of a gown",
+      "description": "A resident may invite attention to a design detail in an outfit she has chosen, without inviting touch.",
+      "expressionExamples": [
+        "Would you enjoy seeing the design detail, or shall we keep the conversation elsewhere?"
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "sensual",
+        "consent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you enjoy seeing the design detail, or shall we keep the conversation elsewhere?",
+      "requirements": [
+        "The adult resident is actually wearing or showing the relevant approved opaque garment.",
+        "Flirtatious visual attention has been welcomed, if that tone is used."
+      ],
+      "possibleResponses": [
+        "Consider offering welcome visual appreciation.",
+        "Keep the discussion purely about design.",
+        "Decline the invitation."
+      ],
+      "possibleDevelopments": [
+        "She might explain why the detail pleases her.",
+        "The exchange might remain a brief compliment with no physical contact or relationship change."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-029",
+      "label": "The pattern that can change",
+      "description": "Two residents compare a personally meaningful textile pattern with a proposed adaptation.",
+      "expressionExamples": [
+        "One resident asks which part of the pattern matters to its owner before suggesting changes."
+      ],
+      "compatibleTags": [
+        "textiles",
+        "tradition",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks which part of the pattern matters to its owner before suggesting changes.",
+      "requirements": [
+        "The owner has offered the pattern for discussion.",
+        "Its actual source and personal meaning are not invented."
+      ],
+      "possibleResponses": [
+        "Consider exploring an adaptation.",
+        "Suggest keeping separate traditional and personal versions.",
+        "Decline to change the design."
+      ],
+      "possibleDevelopments": [
+        "The conversation might reveal that one small detail carries the meaning.",
+        "The owner might preserve the original without rejecting the collaborator."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-030",
+      "label": "Cleanup before the invitation",
+      "description": "A small group considers how an optional gathering would be prepared and tidied without assuming a default worker.",
+      "expressionExamples": [
+        "Before any invitations, would it help to decide what work we are actually offering to do?"
+      ],
+      "compatibleTags": [
+        "hospitality",
+        "work",
+        "negotiation"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Before any invitations, would it help to decide what work we are actually offering to do?",
+      "requirements": [
+        "The gathering remains a proposal.",
+        "No resident has been assigned preparation or cleanup by implication."
+      ],
+      "possibleResponses": [
+        "Consider volunteering for a defined part.",
+        "Suggest a simpler gathering with less work.",
+        "Decline any labour without being excluded from unrelated hospitality."
+      ],
+      "possibleDevelopments": [
+        "The plan might shrink to fit willing contributions.",
+        "The group might leave the event unplanned rather than burden one person."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-031",
+      "label": "The bookmark exchange of ideas",
+      "description": "A resident offers to compare bookmark designs without giving or borrowing an actual object automatically.",
+      "expressionExamples": [
+        "Would you enjoy comparing a few page-marker ideas? There is no exchange required."
+      ],
+      "compatibleTags": [
+        "papercraft",
+        "reading",
+        "craft"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you enjoy comparing a few page-marker ideas? There is no exchange required.",
+      "requirements": [
+        "Relevant drawings or owned examples are available with permission."
+      ],
+      "possibleResponses": [
+        "Consider discussing one design.",
+        "Suggest a simple scrap-paper option.",
+        "Decline the comparison."
+      ],
+      "possibleDevelopments": [
+        "A practical concern might outweigh an ornate feature.",
+        "The resident might keep the comparison as a future craft question."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-032",
+      "label": "A book loan with an easy no",
+      "description": "Two residents discuss a possible loan while keeping ownership and refusal clear.",
+      "expressionExamples": [
+        "One resident asks whether the other would consider lending a particular established book."
+      ],
+      "compatibleTags": [
+        "reading",
+        "possessions",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the other would consider lending a particular established book.",
+      "requirements": [
+        "The book and its owner are established.",
+        "The request is addressed to the person entitled to decide."
+      ],
+      "possibleResponses": [
+        "Consider discussing a specific loan arrangement.",
+        "Offer a permitted excerpt or reading conversation instead.",
+        "Decline without giving a reason."
+      ],
+      "possibleDevelopments": [
+        "They might agree on scope and return expectations only if both choose.",
+        "They might find another way to discuss the subject without lending anything."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-033",
+      "label": "Two maps, one uncertainty",
+      "description": "A small group examines conflicting route descriptions without converting a majority vote into truth.",
+      "expressionExamples": [
+        "Would anyone like to compare what the accounts actually support, rather than choose the prettiest map?"
+      ],
+      "compatibleTags": [
+        "cartography",
+        "trust",
+        "collaborative"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would anyone like to compare what the accounts actually support, rather than choose the prettiest map?",
+      "requirements": [
+        "The accounts are actually available and may be shared.",
+        "No proposed route is assumed explored."
+      ],
+      "possibleResponses": [
+        "Consider identifying the sources of disagreement.",
+        "Suggest preserving alternate possibilities.",
+        "Decline the review."
+      ],
+      "possibleDevelopments": [
+        "The group might distinguish viewpoint from genuinely missing information.",
+        "A future observation question might be proposed without scheduling a journey."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-034",
+      "label": "A prospective role, not a biography",
+      "description": "A resident invites discussion of a possible interest or vocation without claiming prior experience.",
+      "expressionExamples": [
+        "Would you enjoy helping me compare what these activities involve, without deciding my role for me?"
+      ],
+      "compatibleTags": [
+        "new-beginnings",
+        "autonomy",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you enjoy helping me compare what these activities involve, without deciding my role for me?",
+      "requirements": [
+        "The resident has expressed curiosity about the proposed activities.",
+        "Actual capabilities remain separately established."
+      ],
+      "possibleResponses": [
+        "Consider describing the activities' scope.",
+        "Suggest a small question rather than a career choice.",
+        "Decline the discussion."
+      ],
+      "possibleDevelopments": [
+        "She might prefer an unexpected direction or keep several open.",
+        "The conversation might end without a role, skill or work agreement being assigned."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-035",
+      "label": "Company beside a difficult draft",
+      "description": "Two residents consider quiet support while one works on a draft they may keep private.",
+      "expressionExamples": [
+        "One resident asks whether nearby quiet company would be welcome, without asking to read the page."
+      ],
+      "compatibleTags": [
+        "quiet-company",
+        "privacy",
+        "friendship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether nearby quiet company would be welcome, without asking to read the page.",
+      "requirements": [
+        "Both residents may use the space.",
+        "The writer's privacy and desired company are explicit."
+      ],
+      "possibleResponses": [
+        "Consider parallel quiet activity.",
+        "Offer a later conversation instead.",
+        "Decline or request solitude."
+      ],
+      "possibleDevelopments": [
+        "The writer might choose to ask one narrow question.",
+        "Both might remain absorbed in separate activities without an emotional disclosure."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-036",
+      "label": "A meal with room for appetite",
+      "description": "A small group discusses serving arrangements that let people choose modest portions or decline.",
+      "expressionExamples": [
+        "Would a self-chosen serving arrangement be comfortable, with no expectation to try everything?"
+      ],
+      "compatibleTags": [
+        "cooking",
+        "hospitality",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would a self-chosen serving arrangement be comfortable, with no expectation to try everything?",
+      "requirements": [
+        "Any meal or ingredients used are actually established and suitable.",
+        "Participation and food choices remain individual."
+      ],
+      "possibleResponses": [
+        "Consider a flexible serving plan.",
+        "Suggest a nonfood form of company.",
+        "Decline meal planning or attendance."
+      ],
+      "possibleDevelopments": [
+        "Different appetites might be accommodated without comment.",
+        "The gathering might become simpler rather than more elaborate."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-037",
+      "label": "The title that sounds unlike her",
+      "description": "A resident asks for help naming a personal project without being assigned a grand identity.",
+      "expressionExamples": [
+        "May I ask which title fits the actual work, rather than making it sound more important?"
+      ],
+      "compatibleTags": [
+        "language",
+        "identity",
+        "revision"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "May I ask which title fits the actual work, rather than making it sound more important?",
+      "requirements": [
+        "The resident's project and candidate titles are available to discuss."
+      ],
+      "possibleResponses": [
+        "Consider comparing the titles with the project's purpose.",
+        "Suggest leaving it untitled for now.",
+        "Decline the naming request."
+      ],
+      "possibleDevelopments": [
+        "A plain title might feel more personal than an ornate one.",
+        "The resident might decide the project does not need a public name."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-038",
+      "label": "Translation without a winner",
+      "description": "Two residents compare ways to translate a brief permitted passage.",
+      "expressionExamples": [
+        "One resident asks whether the other would enjoy comparing what each version keeps and loses."
+      ],
+      "compatibleTags": [
+        "language",
+        "collaborative",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the other would enjoy comparing what each version keeps and loses.",
+      "requirements": [
+        "The passage may be shared and translated.",
+        "Any language ability used is actually established."
+      ],
+      "possibleResponses": [
+        "Consider comparing rhythm and meaning.",
+        "Keep both versions with notes.",
+        "Decline the translation work."
+      ],
+      "possibleDevelopments": [
+        "They might choose different versions for different readers.",
+        "They might preserve an untranslatable ambiguity rather than erase it."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-039",
+      "label": "An ordinary-object sketch circle",
+      "description": "A small group considers sketching familiar objects without a skill contest or required display.",
+      "expressionExamples": [
+        "Would drawing an ordinary object be pleasant, with showing the result entirely optional?"
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "community",
+        "privacy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would drawing an ordinary object be pleasant, with showing the result entirely optional?",
+      "requirements": [
+        "Suitable permitted objects and materials are available.",
+        "Each participant has chosen whether to draw, watch or abstain."
+      ],
+      "possibleResponses": [
+        "Consider a private sketch.",
+        "Join only to observe or talk.",
+        "Decline participation."
+      ],
+      "possibleDevelopments": [
+        "Different observers might notice different practical features.",
+        "Some drawings might remain private while discussion stays about the objects."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-040",
+      "label": "No useful contribution required",
+      "description": "A resident offers relaxed company without asking the player to solve, evaluate or organize anything.",
+      "expressionExamples": [
+        "Would simple company be welcome? I have no task hidden inside the invitation."
+      ],
+      "compatibleTags": [
+        "rest",
+        "friendship",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would simple company be welcome? I have no task hidden inside the invitation.",
+      "requirements": [
+        "A suitable shared leisure space is established.",
+        "The interaction is optional and non-expiring."
+      ],
+      "possibleResponses": [
+        "Consider joining for company.",
+        "Ask for silence rather than conversation.",
+        "Decline without offering another activity."
+      ],
+      "possibleDevelopments": [
+        "The conversation might stay with small ordinary observations.",
+        "The scene might end without a revelation, reward or project."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-041",
+      "label": "Complementary rather than matching work",
+      "description": "Two residents consider making related pieces without forcing identical methods or appearance.",
+      "expressionExamples": [
+        "One resident asks whether the other would enjoy complementary designs rather than a single shared style."
+      ],
+      "compatibleTags": [
+        "craft",
+        "collaborative",
+        "identity"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the other would enjoy complementary designs rather than a single shared style.",
+      "requirements": [
+        "Both residents have expressed interest in the possible collaboration.",
+        "No materials or duties have been assigned."
+      ],
+      "possibleResponses": [
+        "Consider separate but related concepts.",
+        "Propose fully independent projects.",
+        "Decline collaboration."
+      ],
+      "possibleDevelopments": [
+        "The contrast might become the point of a later display proposal.",
+        "They might decide no shared outcome is needed."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-042",
+      "label": "A modest sound comparison",
+      "description": "A small group considers listening to permitted ordinary objects without interrupting private or quiet work.",
+      "expressionExamples": [
+        "Would a short sound comparison suit an agreed space, or would another activity be better?"
+      ],
+      "compatibleTags": [
+        "music",
+        "experimentation",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would a short sound comparison suit an agreed space, or would another activity be better?",
+      "requirements": [
+        "Suitable objects and permission to use them are established.",
+        "The setting and noise level are agreed by affected participants."
+      ],
+      "possibleResponses": [
+        "Consider a limited listening study.",
+        "Suggest drawings or written descriptions instead.",
+        "Decline or stop if the sound is unwelcome."
+      ],
+      "possibleDevelopments": [
+        "The group might notice different qualities without ranking listeners.",
+        "An inconclusive comparison might still produce a clearer future question."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-043",
+      "label": "The compliment kept in scope",
+      "description": "A resident may offer or receive a welcome appearance compliment without making it a request for further intimacy.",
+      "expressionExamples": [
+        "Would a personal compliment be welcome, or would you prefer we keep to the practical subject?"
+      ],
+      "compatibleTags": [
+        "affection",
+        "flirtation",
+        "consent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would a personal compliment be welcome, or would you prefer we keep to the practical subject?",
+      "requirements": [
+        "The context supports asking about personal appreciation.",
+        "Any compliment refers only to established visible details."
+      ],
+      "possibleResponses": [
+        "Consider welcoming a specific compliment.",
+        "Keep appreciation non-romantic or work-focused.",
+        "Decline personal attention."
+      ],
+      "possibleDevelopments": [
+        "The exchange might remain a brief warm moment.",
+        "A change of topic might be accepted without disappointment or pressure."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-044",
+      "label": "Who may tend the shared plant",
+      "description": "Two residents clarify whether an established plant is personal property, shared care or merely on display.",
+      "expressionExamples": [
+        "One resident asks who is entitled to decide the plant's care before offering help."
+      ],
+      "compatibleTags": [
+        "gardening",
+        "possessions",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks who is entitled to decide the plant's care before offering help.",
+      "requirements": [
+        "The plant and relevant ownership information are available.",
+        "No care task is assumed accepted."
+      ],
+      "possibleResponses": [
+        "Consider clarifying permissions.",
+        "Offer observation without handling.",
+        "Decline a care responsibility."
+      ],
+      "possibleDevelopments": [
+        "They might separate interest from ongoing work.",
+        "A proposed label might clarify ownership without assigning a caretaker."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-045",
+      "label": "A project made smaller together",
+      "description": "A small group considers reducing a proposed project before it becomes burdensome.",
+      "expressionExamples": [
+        "Would a smaller version serve the purpose better, or should we leave the idea aside?"
+      ],
+      "compatibleTags": [
+        "revision",
+        "collaborative",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would a smaller version serve the purpose better, or should we leave the idea aside?",
+      "requirements": [
+        "The project is a proposal or has a clearly identified renegotiable scope.",
+        "Any existing commitments remain acknowledged."
+      ],
+      "possibleResponses": [
+        "Consider narrowing the aim.",
+        "Suggest separate individual interests instead.",
+        "Decline further work."
+      ],
+      "possibleDevelopments": [
+        "The group might retain one meaningful question from the larger plan.",
+        "They might close the proposal without framing anyone as having failed."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-046",
+      "label": "The notebook that need not be shared",
+      "description": "A resident discusses how she wants to organize a personal record without revealing its contents.",
+      "expressionExamples": [
+        "Would you enjoy discussing the notebook's structure? The pages themselves are private."
+      ],
+      "compatibleTags": [
+        "archives",
+        "privacy",
+        "identity"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "Would you enjoy discussing the notebook's structure? The pages themselves are private.",
+      "requirements": [
+        "The resident has chosen to discuss organization only.",
+        "No private entries are presumed known."
+      ],
+      "possibleResponses": [
+        "Consider comparing categories or layout.",
+        "Suggest a simple unstructured notebook.",
+        "Decline the discussion."
+      ],
+      "possibleDevelopments": [
+        "She might distinguish actual experience from future interests.",
+        "She might prefer fewer categories and retain full control of the record."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-047",
+      "label": "Returning to a lending question",
+      "description": "Two residents revisit the scope of a possible or actual loan without assuming misuse.",
+      "expressionExamples": [
+        "One resident asks whether the borrowing arrangement still means what both understood."
+      ],
+      "compatibleTags": [
+        "possessions",
+        "trust",
+        "negotiation"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the borrowing arrangement still means what both understood.",
+      "requirements": [
+        "Any actual loan and its terms are established.",
+        "A proposed loan remains only a proposal until accepted."
+      ],
+      "possibleResponses": [
+        "Consider clarifying the original terms.",
+        "Discuss a different arrangement for future use.",
+        "Decline a new loan or extension."
+      ],
+      "possibleDevelopments": [
+        "They might distinguish a misunderstanding from an unmet commitment.",
+        "Future arrangements might change without rewriting past events."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-048",
+      "label": "An adult welcome with choices",
+      "description": "A small group considers how to welcome a new adult resident or visitor without assigning roles or a compulsory tour.",
+      "expressionExamples": [
+        "Would a brief introduction, written notes or quiet settling-in be most welcome?"
+      ],
+      "compatibleTags": [
+        "hospitality",
+        "new-beginnings",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "small-group",
+      "openingInvitation": "Would a brief introduction, written notes or quiet settling-in be most welcome?",
+      "requirements": [
+        "The adult visitor or resident's arrival is actually established.",
+        "They choose whether any welcome activity occurs."
+      ],
+      "possibleResponses": [
+        "Consider a self-chosen introduction.",
+        "Offer written practical information without a social event.",
+        "Decline the gathering or tour."
+      ],
+      "possibleDevelopments": [
+        "The newcomer might ask about one practical detail and leave other topics for later.",
+        "The group might respect a wish for quiet without interpreting it as rejection."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-049",
+      "label": "A request about shared space",
+      "description": "A resident raises a concrete comfort preference while keeping the room's other users in view.",
+      "expressionExamples": [
+        "May we discuss one practical detail of the shared space, without assuming anything will be changed?"
+      ],
+      "compatibleTags": [
+        "domestic",
+        "accessibility",
+        "negotiation"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "npc-player",
+      "openingInvitation": "May we discuss one practical detail of the shared space, without assuming anything will be changed?",
+      "requirements": [
+        "The room and relevant current arrangement are established.",
+        "Affected residents retain their own choices and privacy."
+      ],
+      "possibleResponses": [
+        "Consider discussing the preference.",
+        "Suggest a reversible or individual alternative.",
+        "Decline to decide on behalf of others."
+      ],
+      "possibleDevelopments": [
+        "The discussion might identify who else should be asked.",
+        "The arrangement might remain unchanged while the preference is acknowledged."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    },
+    {
+      "id": "interaction-050",
+      "label": "Admiration without pairing everyone off",
+      "description": "Two residents enjoy a warm exchange about each other's chosen work or style without automatic romantic interpretation.",
+      "expressionExamples": [
+        "One resident asks whether the other would enjoy a little mutual appreciation, with no implied romantic label."
+      ],
+      "compatibleTags": [
+        "affection",
+        "friendship",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "An optional, non-expiring invitation. Each participant retains control of participation, disclosure, work, romance and departure; no penalty attaches to declining.",
+      "participants": "two-npcs",
+      "openingInvitation": "One resident asks whether the other would enjoy a little mutual appreciation, with no implied romantic label.",
+      "requirements": [
+        "Both residents welcome the exchange.",
+        "Only voluntarily shared work or established visible style is discussed."
+      ],
+      "possibleResponses": [
+        "Consider friendly appreciation.",
+        "Explicitly discuss tone before any flirtation.",
+        "Decline the exchange."
+      ],
+      "possibleDevelopments": [
+        "They might discover a shared aesthetic interest while remaining friends.",
+        "They might keep the moment brief with no relationship-state change."
+      ],
+      "continuityWarnings": [
+        "Do not start the scene, advance a phase or establish acceptance until actual gameplay does so.",
+        "Do not infer another resident’s private thoughts, correspondence or conversations.",
+        "Proposed objects, completed work, transfers and relationship changes remain unestablished."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1079 @@
+{
+  "schemaVersion": 1,
+  "poolType": "ensemble",
+  "entries": [
+    {
+      "id": "ensemble-001",
+      "label": "Archive lamplight",
+      "description": "A quiet cream-and-charcoal reading ensemble softened by an ink-blue shawl.",
+      "expressionExamples": [
+        "A possible ensemble for reading occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-001",
+        "garment-013",
+        "garment-044",
+        "garment-038",
+        "garment-057"
+      ],
+      "occasionTags": [
+        "reading",
+        "leisure"
+      ],
+      "stylingNotes": "Keep the shirt comfortably open at the collar and let the shawl fall in simple front drapes; the book sleeve supplies no book.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-002",
+      "label": "Binder's bench",
+      "description": "A practical pale-smock and slate-shorts combination with brown boots and a modest empty tool belt.",
+      "expressionExamples": [
+        "A possible ensemble for workshop occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "workshop",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem",
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-006",
+        "garment-024",
+        "garment-043",
+        "garment-055"
+      ],
+      "occasionTags": [
+        "workshop",
+        "work"
+      ],
+      "stylingNotes": "Keep sleeves and belt ends clear of the work area. The shorts retain secure mid-thigh coverage; no tools are granted.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-003",
+      "label": "Potter's pause",
+      "description": "A soft moss wrap top over wide oat trousers with adjustable ochre sandals.",
+      "expressionExamples": [
+        "A possible ensemble for workshop occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "workshop",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-003",
+        "garment-014",
+        "garment-045",
+        "garment-051"
+      ],
+      "occasionTags": [
+        "workshop",
+        "leisure"
+      ],
+      "stylingNotes": "Use the narrow belt as a restrained accent, not a tight restriction; the wide trousers balance the fitted wrap.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-004",
+      "label": "Graphite walking notes",
+      "description": "A slate tunic and overcoat frame muted oxblood trousers and worn brown boots.",
+      "expressionExamples": [
+        "A possible ensemble for fieldwork occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "fieldwork",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem",
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-008",
+        "garment-023",
+        "garment-043",
+        "garment-042",
+        "garment-054"
+      ],
+      "occasionTags": [
+        "fieldwork",
+        "social"
+      ],
+      "stylingNotes": "Let the amber scarf provide one small warm accent. Keep the overcoat's rear vents clear of any tail accommodation.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-005",
+      "label": "Brass and linen",
+      "description": "A rust bodice, moss walking skirt and ochre sandals with a small brass leaf accent.",
+      "expressionExamples": [
+        "A possible ensemble for social occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-002",
+        "garment-015",
+        "garment-045",
+        "garment-052"
+      ],
+      "occasionTags": [
+        "social",
+        "leisure"
+      ],
+      "stylingNotes": "Place the brooch on suitable cloth away from body features. Keep the side lacing closed over its opaque inset.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-006",
+      "label": "Window-seat softness",
+      "description": "A cream gathered blouse and taupe wrap skirt with soft slippers and an oatmeal cardigan.",
+      "expressionExamples": [
+        "A possible ensemble for reading occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-012",
+        "garment-022",
+        "garment-044",
+        "garment-039",
+        "garment-053"
+      ],
+      "occasionTags": [
+        "reading",
+        "leisure"
+      ],
+      "stylingNotes": "Use the violet ribbon only as a small removable accent among suitable established hair; keep the cardigan relaxed.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-007",
+      "label": "Garden notebook",
+      "description": "A moss apron-style dress beneath an open-front moss coat, with adjustable sandals and an amber scarf.",
+      "expressionExamples": [
+        "A possible ensemble for gardening occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "gardening",
+        "leisure"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-026",
+        "garment-045",
+        "garment-036",
+        "garment-054"
+      ],
+      "occasionTags": [
+        "gardening",
+        "leisure"
+      ],
+      "stylingNotes": "Keep the coat loose and the scarf short. The full-coverage dress remains a complete base even with the coat open.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-008",
+      "label": "Evening ink",
+      "description": "A midnight halter and layered ink-blue skirt with low evening shoes and a muted plum capelet.",
+      "expressionExamples": [
+        "A possible ensemble for evening occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "formal"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-005",
+        "garment-020",
+        "garment-049",
+        "garment-041",
+        "garment-052"
+      ],
+      "occasionTags": [
+        "evening",
+        "formal"
+      ],
+      "stylingNotes": "Keep the silhouette long and restrained. The brooch fastens only to appropriate outer cloth, and the skirt's opaque inner layer stays continuous.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-009",
+      "label": "Copper ease",
+      "description": "A copper cropped blouse and short rust skirt paired with flat tan footwear and a soft sash.",
+      "expressionExamples": [
+        "A possible ensemble for leisure occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-004",
+        "garment-016",
+        "garment-050",
+        "garment-059"
+      ],
+      "occasionTags": [
+        "leisure",
+        "social"
+      ],
+      "stylingNotes": "Allow a deliberate strip of midriff while keeping the bust, hips and seat securely covered. Keep sash ends short.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-010",
+      "label": "Quiet wine",
+      "description": "A deep-wine sweetheart dress with low blue evening shoes and a restrained silver-toned circlet.",
+      "expressionExamples": [
+        "A possible ensemble for evening occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "formal"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-031",
+        "garment-049",
+        "garment-058"
+      ],
+      "occasionTags": [
+        "evening",
+        "formal"
+      ],
+      "stylingNotes": "Let the fitted dress carry the visual emphasis. The circlet must fit around actual head features without implying rank.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-011",
+      "label": "Rain-road study",
+      "description": "A cream work shirt, charcoal trousers and rust boots beneath a divided rust cloak.",
+      "expressionExamples": [
+        "A possible ensemble for fieldwork occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "fieldwork",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem",
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-001",
+        "garment-013",
+        "garment-048",
+        "garment-040",
+        "garment-060"
+      ],
+      "occasionTags": [
+        "fieldwork",
+        "work"
+      ],
+      "stylingNotes": "Use the fingerless gloves only with compatible hand articulation. The cloak is a style candidate, not a claim of weather protection.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-012",
+      "label": "Workshop visitor",
+      "description": "An indigo waistcoat over wide oat trousers, finished with black lace-ups and one pale-gold cuff.",
+      "expressionExamples": [
+        "A possible ensemble for social occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "workshop"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem",
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-010",
+        "garment-014",
+        "garment-046",
+        "garment-056"
+      ],
+      "occasionTags": [
+        "social",
+        "workshop"
+      ],
+      "stylingNotes": "Keep the waistcoat's lined front secure as the standalone top; let the cuff be the only metallic flourish.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-013",
+      "label": "Hearthside linen",
+      "description": "A soot-grey work dress with charcoal slippers, an ink shawl and a small violet ribbon.",
+      "expressionExamples": [
+        "A possible ensemble for domestic occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "domestic",
+        "reading"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-025",
+        "garment-044",
+        "garment-038",
+        "garment-053"
+      ],
+      "occasionTags": [
+        "domestic",
+        "reading"
+      ],
+      "stylingNotes": "Keep the shawl and ribbon optional-looking rather than ceremonial. The dress supplies complete coverage on its own.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-014",
+      "label": "Open-back evening",
+      "description": "A midnight wrap dress with tan flats, a plum capelet and one matte brass brooch.",
+      "expressionExamples": [
+        "A possible ensemble for evening occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-027",
+        "garment-050",
+        "garment-041",
+        "garment-052"
+      ],
+      "occasionTags": [
+        "evening",
+        "social"
+      ],
+      "stylingNotes": "Maintain the internal wrap fastening. Keep the capelet's shoulder sections clear of the dress's fitted open-back construction.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-015",
+      "label": "Sage and amber",
+      "description": "A sage cropped wrap above an amber pleated skirt, with ochre sandals and a rust sash.",
+      "expressionExamples": [
+        "A possible ensemble for leisure occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-011",
+        "garment-021",
+        "garment-045",
+        "garment-059"
+      ],
+      "occasionTags": [
+        "leisure",
+        "social"
+      ],
+      "stylingNotes": "Keep the warm accent colours muted. The wrap front remains securely overlapped above the controlled midriff opening.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-016",
+      "label": "Stone-soft contrast",
+      "description": "An ivory off-shoulder top and navy fitted skirt beneath a moss open-front coat.",
+      "expressionExamples": [
+        "A possible ensemble for social occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-009",
+        "garment-018",
+        "garment-047",
+        "garment-036",
+        "garment-056"
+      ],
+      "occasionTags": [
+        "social",
+        "evening"
+      ],
+      "stylingNotes": "Leave the shoulders visually open while the shaped opaque front remains secure. A pale-gold cuff provides a small finishing accent.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-017",
+      "label": "After-work supper",
+      "description": "A blue-grey wool dress with black low-heeled shoes and a softly tied amber scarf.",
+      "expressionExamples": [
+        "A possible ensemble for social occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem",
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-029",
+        "garment-046",
+        "garment-054"
+      ],
+      "occasionTags": [
+        "social",
+        "domestic"
+      ],
+      "stylingNotes": "Keep the scarf loose and the dress comfortably shaped rather than tightly fitted; no additional event or meal is implied.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-018",
+      "label": "Rest-day cream",
+      "description": "A cream blouse and relaxed cream breeches with tan flats and a restrained violet hair ribbon.",
+      "expressionExamples": [
+        "A possible ensemble for leisure occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-012",
+        "garment-019",
+        "garment-050",
+        "garment-053"
+      ],
+      "occasionTags": [
+        "leisure",
+        "domestic"
+      ],
+      "stylingNotes": "Let the tonal fabrics differ through texture rather than ornament. Use the ribbon only with an appropriate established hairstyle.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-019",
+      "label": "Carved copper tones",
+      "description": "A supple brown laced top, oxblood trousers and ochre sandals with a tobacco bolero and plain tool belt.",
+      "expressionExamples": [
+        "A possible ensemble for workshop occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "workshop",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-007",
+        "garment-023",
+        "garment-045",
+        "garment-037",
+        "garment-055"
+      ],
+      "occasionTags": [
+        "workshop",
+        "social"
+      ],
+      "stylingNotes": "Keep the bolero open and the top's lacing over its opaque inset. Empty belt loops remain a design detail, not inventory.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-020",
+      "label": "Midnight gathering",
+      "description": "A violet-and-charcoal evening dress with low blue shoes, a plum capelet and an open silver-toned circlet.",
+      "expressionExamples": [
+        "A possible ensemble for evening occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "formal"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-034",
+        "garment-049",
+        "garment-041",
+        "garment-058"
+      ],
+      "occasionTags": [
+        "evening",
+        "formal"
+      ],
+      "stylingNotes": "Keep ornament sparse so the two-tone dress remains legible. The low-back design requires actual anatomy-aware fitting.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-021",
+      "label": "Golden margins",
+      "description": "An ivory shoulder-tie dress with tan flats, an ink shawl and a pale-gold woven cuff.",
+      "expressionExamples": [
+        "A possible ensemble for social occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-030",
+        "garment-050",
+        "garment-038",
+        "garment-056"
+      ],
+      "occasionTags": [
+        "social",
+        "evening"
+      ],
+      "stylingNotes": "Keep the shoulder ties independently adjusted and the shawl lightly draped. The cuff should be soft and clear of wrist joints.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-022",
+      "label": "Blue doorway",
+      "description": "A deep-teal wrap dress with black lace-ups, a moss open-front coat and a matte brass leaf brooch.",
+      "expressionExamples": [
+        "A possible ensemble for social occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-032",
+        "garment-046",
+        "garment-036",
+        "garment-052"
+      ],
+      "occasionTags": [
+        "social",
+        "evening"
+      ],
+      "stylingNotes": "Let the coat frame the asymmetrical front without hiding it. The wrap's inner fastening maintains secure coverage.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-023",
+      "label": "Winter reading",
+      "description": "A slate tunic, wide oat trousers and charcoal slippers under an oatmeal cardigan.",
+      "expressionExamples": [
+        "A possible ensemble for reading occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "reading",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-008",
+        "garment-014",
+        "garment-044",
+        "garment-039",
+        "garment-054"
+      ],
+      "occasionTags": [
+        "reading",
+        "domestic"
+      ],
+      "stylingNotes": "The amber scarf supplies a small warm accent. Keep the overall silhouette easy and suitable for seated leisure.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-024",
+      "label": "A low-key invitation",
+      "description": "An ivory off-shoulder top and dark soft-leather shorts with tan flats and a rust sash.",
+      "expressionExamples": [
+        "A possible ensemble for social occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-009",
+        "garment-017",
+        "garment-050",
+        "garment-059"
+      ],
+      "occasionTags": [
+        "social",
+        "evening"
+      ],
+      "stylingNotes": "Balance bare shoulders and visible legs with secure opaque bust, hip and seat coverage; this styling implies no romantic invitation by itself.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-025",
+      "label": "Music at repose",
+      "description": "A moss wrap top above an ink-blue layered skirt, finished with soft slippers and a violet ribbon.",
+      "expressionExamples": [
+        "A possible ensemble for leisure occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-003",
+        "garment-020",
+        "garment-044",
+        "garment-053"
+      ],
+      "occasionTags": [
+        "leisure",
+        "evening"
+      ],
+      "stylingNotes": "Keep the skirt's inner layer continuous and the ribbon small. This is an indoor style, not an assigned performance costume.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-026",
+      "label": "Market morning",
+      "description": "An amber sleeveless dress beneath a charcoal work jacket, with brown boots and a plain tool belt.",
+      "expressionExamples": [
+        "A possible ensemble for fieldwork occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "fieldwork",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem",
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-028",
+        "garment-043",
+        "garment-035",
+        "garment-055"
+      ],
+      "occasionTags": [
+        "fieldwork",
+        "social"
+      ],
+      "stylingNotes": "Keep the belt modest and its loops empty unless actual inventory establishes contents. The jacket remains an optional outer layer.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-027",
+      "label": "Unfinished sketch",
+      "description": "An ecru smock and cream breeches with moss cloth shoes and a woven book sleeve.",
+      "expressionExamples": [
+        "A possible ensemble for workshop occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "workshop",
+        "reading"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem",
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-006",
+        "garment-019",
+        "garment-047",
+        "garment-057"
+      ],
+      "occasionTags": [
+        "workshop",
+        "reading"
+      ],
+      "stylingNotes": "Use texture and relaxed proportions for interest. The carried sleeve is empty unless a suitable book is actually available.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-028",
+      "label": "Personal experiments",
+      "description": "A sage cropped wrap with slate tailored shorts, tan flats and one pale-gold cuff.",
+      "expressionExamples": [
+        "A possible ensemble for leisure occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "leisure",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-011",
+        "garment-024",
+        "garment-050",
+        "garment-056"
+      ],
+      "occasionTags": [
+        "leisure",
+        "social"
+      ],
+      "stylingNotes": "Keep the short silhouette balanced and secure, with only a modest midriff opening. The cuff must fit the actual wrist anatomy.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-029",
+      "label": "A plainer party",
+      "description": "A warm-brown tunic dress with black shoes, a plum capelet and a restrained silver-toned circlet.",
+      "expressionExamples": [
+        "A possible ensemble for social occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "social",
+        "evening"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [
+        "golem",
+        "seraph"
+      ],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-033",
+        "garment-046",
+        "garment-041",
+        "garment-058"
+      ],
+      "occasionTags": [
+        "social",
+        "evening"
+      ],
+      "stylingNotes": "Let the plain dress remain visible beneath the capelet. Avoid adding crests, rank symbols or excessive shine.",
+      "anatomyAccommodations": [
+        "Not a seraph-compatible combination: at least one component has a closed upper back without wing clearance.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "Not a golem-compatible combination in this pack because its footwear relies on flexible living-foot fit.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    },
+    {
+      "id": "ensemble-030",
+      "label": "Confident lines",
+      "description": "A rust side-laced bodice and navy fitted skirt with ochre sandals, a plum capelet and a narrow woven belt.",
+      "expressionExamples": [
+        "A possible ensemble for evening occasions; selection remains the wearer’s choice."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "evening",
+        "social"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Design candidate only. Review every component’s exclusions and individual fit; do not equip automatically or replace an established portrait.",
+      "componentIds": [
+        "garment-002",
+        "garment-018",
+        "garment-045",
+        "garment-041",
+        "garment-051"
+      ],
+      "occasionTags": [
+        "evening",
+        "social"
+      ],
+      "stylingNotes": "Fit the bodice to the wearer's actual bust and frame without reducing established curves. Keep the skirt's walking pleat over its opaque inset.",
+      "anatomyAccommodations": [
+        "Fit the independent shoulder and side sections of tops, dresses and any outer drapes around actual wing roots; folded wings remain unobstructed.",
+        "Individually align any tail opening in the bottom or dress beneath secure overlapping opaque panels; keep belts and outer hems clear of the tail base.",
+        "For a crafted body, review soft lining, closures, footwear padding and every joint clearance against the approved construction before use.",
+        "Use open closures and individually fitted accessories around actual horns, ears, scales and botanical features; reject unsuitable combinations rather than changing anatomy."
+      ]
+    }
+  ]
+}

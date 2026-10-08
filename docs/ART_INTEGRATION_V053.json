@@ -1,0 +1,313 @@
+{
+  "assets": [
+    {
+      "id": "old-waterworks",
+      "runtimePath": "v053/locations/old-waterworks.webp",
+      "sha256": "280c26783b53805c1509cc325a0810a73b27c1ad0630df7aa22e2b394ddfdb26",
+      "size": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "kind": "location",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "reedbank-waystation",
+      "runtimePath": "v053/locations/reedbank-waystation.webp",
+      "sha256": "f31e378b2cbb1e1a05ce40125ccb6429c80b4acfbc975cc5117622863c77ff45",
+      "size": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "kind": "location",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "hillfold-bindery",
+      "runtimePath": "v053/locations/hillfold-bindery.webp",
+      "sha256": "0be54461da4025f3e8037a3d5957f56964397d439c26d869374b5fb2173e5e59",
+      "size": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "kind": "location",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "fern-nursery",
+      "runtimePath": "v053/locations/fern-nursery.webp",
+      "sha256": "66da37392b5a0eeb0793f4409984eb31f295c616a1c249b242e14c4b4d4db541",
+      "size": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "kind": "location",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-eq-equipment-concept-hearth-spoke-staff",
+      "runtimePath": "v053/objects/ss-eq-equipment-concept-hearth-spoke-staff.png",
+      "sha256": "75aaf48baf358a70778a86a736d8906995defa8ca311c01028edac4f8fa7ce98",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-eq-equipment-concept-margin-lantern",
+      "runtimePath": "v053/objects/ss-eq-equipment-concept-margin-lantern.png",
+      "sha256": "d27ac2451ccc662e1f88b223bb33da655aac14211ff984612737513c200fdee0",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-mat-material-chalkstone-slab",
+      "runtimePath": "v053/objects/ss-mat-material-chalkstone-slab.png",
+      "sha256": "5e737bad01fcbffd311d16f7ed742faa20c488540a0ab67f3a141fe7199c3899",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-mat-material-soapstone-puck",
+      "runtimePath": "v053/objects/ss-mat-material-soapstone-puck.png",
+      "sha256": "04f6276240857f7c10281a6bfad3434a61c83de5cb541998b98f409ce29956e9",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-mat-material-frosted-window-offcut",
+      "runtimePath": "v053/objects/ss-mat-material-frosted-window-offcut.png",
+      "sha256": "74b0e60f7bf1d273d53a6f5f21e30d6bc61d99b423d1d35d3505bfccf9c8bf82",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-shelf-garden-specimen-lantern-edge-leaf",
+      "runtimePath": "v053/objects/ss-shelf-garden-specimen-lantern-edge-leaf.png",
+      "sha256": "606e141a8392e49d945ab5cc9f93fd4cc7eb8c1604654a6b0d6b0dd38b62e324",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-shelf-garden-specimen-folded-rain-reed",
+      "runtimePath": "v053/objects/ss-shelf-garden-specimen-folded-rain-reed.png",
+      "sha256": "26373834683ef3c556d7ba0af42d119dd110ff0667b969b579212579e2849eb6",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-shelf-food-or-drink-pear-and-toasted-oat-bowl",
+      "runtimePath": "v053/objects/ss-shelf-food-or-drink-pear-and-toasted-oat-bowl.png",
+      "sha256": "d12e16c5d1ff727a1b55267b929e2772bdaffcb97186ce2a4d14d623907736e3",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-shelf-food-or-drink-mushroom-and-barley-pot",
+      "runtimePath": "v053/objects/ss-shelf-food-or-drink-mushroom-and-barley-pot.png",
+      "sha256": "0c7880eedd4f4e36dd23768f9b188d897b4166052a2ef64c464d42aef19e08a0",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-room-furnishing-concept-tilted-book-support",
+      "runtimePath": "v053/objects/ss-room-furnishing-concept-tilted-book-support.png",
+      "sha256": "e3fb4f2822d2822988ab7e584e2566eef6bd8c7ae3a205ab0e80edfbc5e2004b",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-room-furnishing-concept-removable-note-wing",
+      "runtimePath": "v053/objects/ss-room-furnishing-concept-removable-note-wing.png",
+      "sha256": "c0e13d5e5688a09f1716e5f4f019f54cd1bce07491aaeb6562dcad05f7565b4e",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "ss-art-artifact-concept-margin-dry-book-rest",
+      "runtimePath": "v053/objects/ss-art-artifact-concept-margin-dry-book-rest.png",
+      "sha256": "4ec80f8b3d59d54a515686fabe2a9f0f2fffd2b57e538f39a5e2ac54c3505948",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Original engraving batch"
+    },
+    {
+      "id": "weather-screen",
+      "runtimePath": "v053/objects/weather-screen.png",
+      "sha256": "c9fe3ec3d5261dea6ddd12dbc8769488c658e2cf41385f4c16c76edabe681419",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Complete supplied v0.51 return"
+    },
+    {
+      "id": "cistern-filter",
+      "runtimePath": "v053/objects/cistern-filter.png",
+      "sha256": "a5c48aaec614c30f878f1d7193f40743b084547856692c607f89009c829ef3da",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "kind": "object",
+      "source": "Complete supplied v0.51 return"
+    },
+    {
+      "id": "quarry-shelter",
+      "runtimePath": "v053/locations/quarry-shelter.webp",
+      "sha256": "ea6907816e6acce16a1a927cf5913f5ca47c9f5470a19d5881eb7445b9274af1",
+      "size": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "kind": "location",
+      "source": "Complete supplied v0.51 return; centered 1600x900 export"
+    },
+    {
+      "id": "ridge-cistern",
+      "runtimePath": "v053/locations/ridge-cistern.webp",
+      "sha256": "b34ff35cb2a960129b5cda52fb0af2da341bfc763cfe1a8ff0fb74e3c2f33601",
+      "size": [
+        1600,
+        900
+      ],
+      "mode": "RGB",
+      "kind": "location",
+      "source": "Complete supplied v0.51 return; centered 1600x900 export"
+    },
+    {
+      "id": "tamsin",
+      "runtimePath": "v053/portraits/tamsin.png",
+      "sha256": "915874ec67caa6c750698f27f706f913dcc4f9d2688f3c4b672a1d5c3a9d5df1",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "kind": "portrait",
+      "source": "Built-in image generation; portrait handoff v0.52, Nyssara revised as enchanter"
+    },
+    {
+      "id": "tamsin-shawl",
+      "runtimePath": "v053/portraits/tamsin-shawl.png",
+      "sha256": "90e7a685e0c51c8f6b434e02c361f6f663198b6c47b2cc36863b42b0397a8d59",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "kind": "portrait",
+      "source": "Built-in image generation; portrait handoff v0.52, Nyssara revised as enchanter"
+    },
+    {
+      "id": "elowen",
+      "runtimePath": "v053/portraits/elowen.png",
+      "sha256": "6a80c117a8f7441dbe19ea0544690546b1044594a990522db3cdd8b240e9c376",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "kind": "portrait",
+      "source": "Built-in image generation; portrait handoff v0.52, Nyssara revised as enchanter"
+    },
+    {
+      "id": "nyssara",
+      "runtimePath": "v053/portraits/nyssara.png",
+      "sha256": "df346213dec45011eafd91ccf4f2151c0d8f8ed2dd5aa339bc2fdeb977675061",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "kind": "portrait",
+      "source": "Built-in image generation; portrait handoff v0.52, Nyssara revised as enchanter"
+    },
+    {
+      "id": "sylva",
+      "runtimePath": "v053/portraits/sylva.png",
+      "sha256": "01a35f74d3c823bd2677b05242238a3361edf24ed2900d53c363cf53324315a0",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "kind": "portrait",
+      "source": "Built-in image generation; revised per user: green botanical body and leaf/vine/bark clothing; final facial skin corrected to consistent green"
+    }
+  ],
+  "retired": [
+    "items-v052/weather-screen.png"
+  ],
+  "preservedAcceptedPortraits": [
+    "tamsin-v2.png",
+    "tamsin-shawl-v2.png"
+  ],
+  "generationMethod": "built-in image_gen",
+  "generatorModel": null
+}

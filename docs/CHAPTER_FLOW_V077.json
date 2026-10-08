@@ -1,0 +1,98 @@
+[
+  {
+    "order": [
+      "scholarship",
+      "cultivation",
+      "craftsmanship"
+    ],
+    "completedCounts": [
+      1,
+      2,
+      3
+    ],
+    "chapter3Available": true,
+    "endDay": 37,
+    "funds": 27,
+    "cheatsUsed": false
+  },
+  {
+    "order": [
+      "scholarship",
+      "craftsmanship",
+      "cultivation"
+    ],
+    "completedCounts": [
+      1,
+      2,
+      3
+    ],
+    "chapter3Available": true,
+    "endDay": 30,
+    "funds": 12,
+    "cheatsUsed": false
+  },
+  {
+    "order": [
+      "cultivation",
+      "scholarship",
+      "craftsmanship"
+    ],
+    "completedCounts": [
+      1,
+      2,
+      3
+    ],
+    "chapter3Available": true,
+    "endDay": 37,
+    "funds": 27,
+    "cheatsUsed": false
+  },
+  {
+    "order": [
+      "cultivation",
+      "craftsmanship",
+      "scholarship"
+    ],
+    "completedCounts": [
+      1,
+      2,
+      3
+    ],
+    "chapter3Available": true,
+    "endDay": 34,
+    "funds": 18,
+    "cheatsUsed": false
+  },
+  {
+    "order": [
+      "craftsmanship",
+      "scholarship",
+      "cultivation"
+    ],
+    "completedCounts": [
+      1,
+      2,
+      3
+    ],
+    "chapter3Available": true,
+    "endDay": 35,
+    "funds": 1,
+    "cheatsUsed": false
+  },
+  {
+    "order": [
+      "craftsmanship",
+      "cultivation",
+      "scholarship"
+    ],
+    "completedCounts": [
+      1,
+      2,
+      3
+    ],
+    "chapter3Available": true,
+    "endDay": 32,
+    "funds": 8,
+    "cheatsUsed": false
+  }
+]

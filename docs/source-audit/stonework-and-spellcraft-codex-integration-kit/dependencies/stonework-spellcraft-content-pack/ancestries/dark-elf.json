@@ -1,0 +1,1863 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "dark-elf",
+  "ancestryName": "Dark elf",
+  "arrivalMethod": "recruitment",
+  "names": [
+    {
+      "id": "dark-elf-name-001",
+      "name": "Jarenena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-002",
+      "name": "Daveline",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-003",
+      "name": "Laveleth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-004",
+      "name": "Cevalis",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-005",
+      "name": "Falenine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-006",
+      "name": "Taveleth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-007",
+      "name": "Kavaren",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-008",
+      "name": "Varelia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-009",
+      "name": "Halaveth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-010",
+      "name": "Velenelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-011",
+      "name": "Braelora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-012",
+      "name": "Ovela",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-013",
+      "name": "Telaven",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-014",
+      "name": "Caveliel",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-015",
+      "name": "Naveleza",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-016",
+      "name": "Avaris",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-017",
+      "name": "Neralora",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-018",
+      "name": "Farelora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-019",
+      "name": "Zaveleth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-020",
+      "name": "Ravelelle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-021",
+      "name": "Azelelle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-022",
+      "name": "Anavara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-023",
+      "name": "Eraveza",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-024",
+      "name": "Cerenara",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-025",
+      "name": "Lenaven",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-026",
+      "name": "Relana",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-027",
+      "name": "Savelora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-028",
+      "name": "Yareniel",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-029",
+      "name": "Delania",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-030",
+      "name": "Ivena",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-031",
+      "name": "Xavelara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-032",
+      "name": "Galeneza",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-033",
+      "name": "Meralara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-034",
+      "name": "Lerenia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-035",
+      "name": "Erenelle",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-036",
+      "name": "Serena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-037",
+      "name": "Orenine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-038",
+      "name": "Delenine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-039",
+      "name": "Belanena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-040",
+      "name": "Mavelena",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-041",
+      "name": "Uvelia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-042",
+      "name": "Darelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-043",
+      "name": "Beraiel",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-044",
+      "name": "Terala",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-045",
+      "name": "Hareleza",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-046",
+      "name": "Elaris",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-047",
+      "name": "Parelen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-048",
+      "name": "Kareliel",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-049",
+      "name": "Javelena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-050",
+      "name": "Maresis",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-051",
+      "name": "Erenis",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-052",
+      "name": "Cavelen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-053",
+      "name": "Azelis",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-054",
+      "name": "Oveleth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-055",
+      "name": "Harelara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-056",
+      "name": "Avaria",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-057",
+      "name": "Cevalia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-058",
+      "name": "Halaveza",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-059",
+      "name": "Eravara",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-060",
+      "name": "Relaneth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-061",
+      "name": "Iveneth",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-062",
+      "name": "Saveliel",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-063",
+      "name": "Beraen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-064",
+      "name": "Pareline",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-065",
+      "name": "Galenara",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-066",
+      "name": "Elaria",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-067",
+      "name": "Belanelle",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-068",
+      "name": "Fareliel",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-069",
+      "name": "Cerena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-070",
+      "name": "Taveleza",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-071",
+      "name": "Delanena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-072",
+      "name": "Jarenelle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-073",
+      "name": "Telavine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-074",
+      "name": "Xavela",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-075",
+      "name": "Yarenen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-076",
+      "name": "Delenora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-077",
+      "name": "Falenora",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-078",
+      "name": "Orenora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-079",
+      "name": "Uvelena",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-080",
+      "name": "Laveleza",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-081",
+      "name": "Varelena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-082",
+      "name": "Anava",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-083",
+      "name": "Neraliel",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-084",
+      "name": "Sereneth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-085",
+      "name": "Ravelis",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-086",
+      "name": "Davelora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-087",
+      "name": "Mavelelle",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-088",
+      "name": "Braeliel",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-089",
+      "name": "Lenavine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-090",
+      "name": "Kavarine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-091",
+      "name": "Karelen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-092",
+      "name": "Velenis",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-093",
+      "name": "Javelelle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-094",
+      "name": "Merala",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-095",
+      "name": "Zaveleza",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-096",
+      "name": "Maresia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "dark-elf-name-097",
+      "name": "Lerenena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "dark-elf-name-098",
+      "name": "Navelara",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "dark-elf-name-099",
+      "name": "Teraleth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "dark-elf-name-100",
+      "name": "Daris",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "dark-elf-story-001",
+      "title": "The chocolate ink problem",
+      "premise": "She seeks an ink wash that renders her skin accurately instead of flattening it into one dark patch.",
+      "personalMotivation": "She wants portraits to notice undertones and reflected light.",
+      "openingHook": "She asks whether a proposed study can focus on colour rather than costume.",
+      "possibleDevelopments": [
+        "Compare small pigment swatches under an agreed light source.",
+        "Keep uncertain mixtures labelled rather than claiming a perfect match."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "identity",
+        "light"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-002",
+      "title": "The courtyard measure",
+      "premise": "Her notes from a beginner's paving exercise favour symmetry over the unevenness of ordinary ground.",
+      "personalMotivation": "She wants a design that acknowledges the surface it rests on.",
+      "openingHook": "She asks where the drawing seems too tidy to be believable.",
+      "possibleDevelopments": [
+        "Add measurements that a future survey would require.",
+        "Consider a loose border that accommodates irregular edges."
+      ],
+      "backgroundTags": [
+        "stonework"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-003",
+      "title": "A courtesy with choices",
+      "premise": "She enjoys a formal greeting from her community but dislikes treating its gestures as mandatory.",
+      "personalMotivation": "She values deliberate welcome rather than correct performance.",
+      "openingHook": "She asks which parts of a greeting make someone comfortable.",
+      "possibleDevelopments": [
+        "Offer spoken and gesture-free versions as equal choices.",
+        "Consider explaining the custom through a personal anecdote."
+      ],
+      "backgroundTags": [
+        "hospitality"
+      ],
+      "themeTags": [
+        "tradition",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-004",
+      "title": "The copper-thread cuff",
+      "premise": "She wants to embroider a graceful cuff without letting decorative wire scrape the skin.",
+      "personalMotivation": "She wants elegance that survives being worn.",
+      "openingHook": "She shows a sketch of the disputed seam.",
+      "possibleDevelopments": [
+        "Explore soft backing and removable ornament in a proposed sample.",
+        "Choose whether the motif belongs on an accessory instead."
+      ],
+      "backgroundTags": [
+        "textiles"
+      ],
+      "themeTags": [
+        "tailoring",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-005",
+      "title": "A translation in the margin",
+      "premise": "She is translating a short household poem whose joke depends on a double meaning.",
+      "personalMotivation": "She wants the reader to enjoy it rather than admire her difficulty.",
+      "openingHook": "She asks whether clarity or the original rhythm matters more.",
+      "possibleDevelopments": [
+        "Compare a readable adaptation with a close annotated version.",
+        "Keep both versions without naming one definitive."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "humour",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-006",
+      "title": "The lamp behind the portrait",
+      "premise": "She studies portrait lighting and notices a favourite arrangement obscures darker facial contours.",
+      "personalMotivation": "She wants practical illumination to serve varied appearances.",
+      "openingHook": "She asks what another observer sees in the shadowed side.",
+      "possibleDevelopments": [
+        "Propose a comparison using reflectors and ordinary lamps.",
+        "Document limits without promising an enchanted lighting solution."
+      ],
+      "backgroundTags": [
+        "light"
+      ],
+      "themeTags": [
+        "visual-art",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-007",
+      "title": "An afternoon of unlearning",
+      "premise": "She was praised for neat ornamental copying and now wants to draw rough, useful diagrams.",
+      "personalMotivation": "She wants competence that is not confined to being decorative.",
+      "openingHook": "She asks whether an ugly drawing can be the more successful one.",
+      "possibleDevelopments": [
+        "Choose an object whose moving parts need explanation.",
+        "Discuss retaining ornament only where it improves legibility."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "personal-growth",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-008",
+      "title": "The portable spice record",
+      "premise": "She wants to record a favourite family dish without pretending taste is uniform across her ancestry.",
+      "personalMotivation": "She wants to share something personal, not perform as a cultural authority.",
+      "openingHook": "She asks how a recipe can identify its own narrow origin.",
+      "possibleDevelopments": [
+        "Add her preferences separately from the base method.",
+        "Invite optional variations without ranking authenticity."
+      ],
+      "backgroundTags": [
+        "cooking"
+      ],
+      "themeTags": [
+        "tradition",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-009",
+      "title": "A seam for the shoulder",
+      "premise": "She sketches a fitted wrap that looks elegant but resists reaching across a table.",
+      "personalMotivation": "She wants flattering clothing that permits useful movement.",
+      "openingHook": "She asks which movement a fitting should test first.",
+      "possibleDevelopments": [
+        "Propose a cloth mock-up with generous shoulder room.",
+        "Consider a different fastening rather than blaming the wearer's body."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "accessibility",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-010",
+      "title": "The mistaken compliment",
+      "premise": "She enjoys being called graceful but wants her blunt practical judgments noticed too.",
+      "personalMotivation": "She wants appreciation to describe more than appearance.",
+      "openingHook": "She asks what made a piece of feedback feel incomplete.",
+      "possibleDevelopments": [
+        "Explore a conversation about the work rather than her presentation.",
+        "Consider accepting the compliment while adding what matters to her."
+      ],
+      "backgroundTags": [
+        "identity"
+      ],
+      "themeTags": [
+        "personal-growth",
+        "friendship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-011",
+      "title": "The courtyard acoustics",
+      "premise": "She imagines a small recitation and worries the paved setting will magnify every dropped cup.",
+      "personalMotivation": "She wants an event that tolerates ordinary human noise.",
+      "openingHook": "She asks what makes a reading feel welcoming rather than fragile.",
+      "possibleDevelopments": [
+        "Plan pauses and a relaxed seating arrangement.",
+        "Consider a smaller indoor gathering without calling it a compromise."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "hospitality",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-012",
+      "title": "A border with no hierarchy",
+      "premise": "Her ornamental border looks like a crest, suggesting authority she does not claim.",
+      "personalMotivation": "She wants beautiful work without invented rank.",
+      "openingHook": "She asks which details make a pattern seem official.",
+      "possibleDevelopments": [
+        "Remove crownlike forms and emphasize ordinary tools.",
+        "Write a maker's note distinguishing decoration from insignia."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "identity",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-013",
+      "title": "The friend's unfinished gift",
+      "premise": "She is considering an embroidered gift but fears a grand gesture could burden the recipient.",
+      "personalMotivation": "She wants affection without creating a debt.",
+      "openingHook": "She asks how to offer something that can be declined.",
+      "possibleDevelopments": [
+        "Plan a modest, clearly optional gift with no expected response.",
+        "Consider sharing the pattern instead of making the object."
+      ],
+      "backgroundTags": [
+        "textiles"
+      ],
+      "themeTags": [
+        "affection",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-014",
+      "title": "The map of shaded benches",
+      "premise": "She wants to map comfortable shaded seats rather than only notable buildings.",
+      "personalMotivation": "She values the spaces where people can simply rest.",
+      "openingHook": "She asks what would make a resting-place map trustworthy.",
+      "possibleDevelopments": [
+        "List conditions to observe during any future survey.",
+        "Include uncertainty about access rather than promising a public seat."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "community",
+        "rest"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-015",
+      "title": "A ledger in two hands",
+      "premise": "She enjoys formal script but notices a working ledger needs faster, clearer writing.",
+      "personalMotivation": "She wants beauty and usefulness to stop competing unnecessarily.",
+      "openingHook": "She asks which entries genuinely benefit from careful lettering.",
+      "possibleDevelopments": [
+        "Develop a plain working hand alongside decorative headings.",
+        "Consider a sample page reviewed by a willing reader."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "language",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-016",
+      "title": "The blunt toast",
+      "premise": "She wants to honour a friend's effort but dislikes speeches that sound like borrowed ceremony.",
+      "personalMotivation": "She values specific affection over polished grandeur.",
+      "openingHook": "She asks what can be said honestly in very few words.",
+      "possibleDevelopments": [
+        "Draft a short acknowledgement with no claims about private feelings.",
+        "Offer written appreciation instead of a public toast."
+      ],
+      "backgroundTags": [
+        "celebration"
+      ],
+      "themeTags": [
+        "friendship",
+        "privacy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-017",
+      "title": "An ordinary clay bowl",
+      "premise": "She is drawn to a plain handmade bowl and struggles to explain its appeal beside ornate ceramics.",
+      "personalMotivation": "She wants her tastes to be hers, not an expected display of elegance.",
+      "openingHook": "She asks which signs of use make an object appealing.",
+      "possibleDevelopments": [
+        "Describe balance, texture and repairability in a small study.",
+        "Consider leaving the preference unexplained rather than defending it."
+      ],
+      "backgroundTags": [
+        "ceramics"
+      ],
+      "themeTags": [
+        "identity",
+        "domestic"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-018",
+      "title": "A careful invitation to dance",
+      "premise": "She enjoys formal steps but wants practice to be sociable rather than an assessment.",
+      "personalMotivation": "She wants to share pleasure without correcting every movement.",
+      "openingHook": "She asks how a practice invitation could welcome stopping.",
+      "possibleDevelopments": [
+        "Propose a brief session where observation is equally welcome.",
+        "Discuss preferred distance and contact before any partnered movement."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "consent",
+        "social"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-019",
+      "title": "The wall-hanging dilemma",
+      "premise": "She designs a textile panel whose rich pattern competes with the books it would hang beside.",
+      "personalMotivation": "She wants a room to remain inhabitable, not become a display case.",
+      "openingHook": "She asks where the eye could rest in her drawing.",
+      "possibleDevelopments": [
+        "Try a smaller patterned border around an open centre.",
+        "Keep the elaborate design for a portable study piece."
+      ],
+      "backgroundTags": [
+        "textiles"
+      ],
+      "themeTags": [
+        "domestic",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-020",
+      "title": "The exact shade of dusk",
+      "premise": "Her colour notes use poetic names that she cannot reliably reproduce.",
+      "personalMotivation": "She wants poetry to coexist with practical records.",
+      "openingHook": "She asks whether a colour name should describe a mood or a mixture.",
+      "possibleDevelopments": [
+        "Record materials separately from expressive titles.",
+        "Consider a small reference card that admits variation in light."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "light"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-021",
+      "title": "A disagreement worth keeping",
+      "premise": "She wants to exchange essays with a friend whose tastes differ sharply from hers.",
+      "personalMotivation": "She enjoys intellectual company that does not end in agreement.",
+      "openingHook": "She asks how to disagree without turning correspondence into correction.",
+      "possibleDevelopments": [
+        "Propose questions before rebuttals in a draft exchange.",
+        "Allow the letters to end with two coherent preferences."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "negotiation",
+        "friendship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-022",
+      "title": "The visitor's pronunciation",
+      "premise": "She notices guests hesitate over unfamiliar names and wants to help without staging a lesson.",
+      "personalMotivation": "She values ease more than flawless first attempts.",
+      "openingHook": "She asks how she would like her own name introduced.",
+      "possibleDevelopments": [
+        "Offer a gentle pronunciation guide only when welcome.",
+        "Discuss allowing people to ask again without embarrassment."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "hospitality",
+        "community"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-023",
+      "title": "The polish that hides the joint",
+      "premise": "She admires smooth wood finishes but wants a repair's structure to remain understandable.",
+      "personalMotivation": "She wants maintenance to be possible for the next person.",
+      "openingHook": "She asks whether a visible join can be part of the design.",
+      "possibleDevelopments": [
+        "Compare discreet repair marks with fully concealed ones.",
+        "Add a plain note about construction rather than ornamental mystery."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "craft",
+        "sustainability"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-024",
+      "title": "A graceful exit line",
+      "premise": "She enjoys gatherings and still wants a way to leave without performing exhaustion.",
+      "personalMotivation": "She wants social warmth without an unlimited claim on her evening.",
+      "openingHook": "She asks what a friendly departure can sound like.",
+      "possibleDevelopments": [
+        "Draft a brief goodbye that needs no invented excuse.",
+        "Consider making arrivals and departures deliberately unceremonious."
+      ],
+      "backgroundTags": [
+        "social"
+      ],
+      "themeTags": [
+        "boundaries",
+        "rest"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "dark-elf-story-025",
+      "title": "The pattern she changes",
+      "premise": "She likes a traditional geometric motif but wants one deliberate irregularity of her own.",
+      "personalMotivation": "She wants inheritance to leave space for authorship.",
+      "openingHook": "She asks when adaptation becomes a meaningful personal choice.",
+      "possibleDevelopments": [
+        "Draw several variations and compare what each retains.",
+        "Describe the result as her interpretation, not a new ancestral rule."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "tradition",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "dark-elf-appearance-001",
+      "summary": "An adult woman aged 20 with warm chocolate-brown skin, a straight dark-brown bob, and grey-green eyes. Her build is athletic with a full bust and firm thighs. Long, gracefully tapered elven ears.",
+      "skin": "warm chocolate-brown",
+      "hair": "a straight dark-brown bob",
+      "eyes": "grey-green",
+      "build": "athletic with a full bust and firm thighs",
+      "ancestryFeatures": [
+        "long, gracefully tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a natural notch in the right eyebrow"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-002",
+      "summary": "An adult woman aged 23 with deep chocolate-brown skin, close-cropped ash-brown curls, and pale grey eyes. Her build is tall with a broad ribcage and generous hips. Swept-back elven ears with rounded lower edges.",
+      "skin": "deep chocolate-brown",
+      "hair": "close-cropped ash-brown curls",
+      "eyes": "pale grey",
+      "build": "tall with a broad ribcage and generous hips",
+      "ancestryFeatures": [
+        "swept-back elven ears with rounded lower edges",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a small cleft in the chin"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-003",
+      "summary": "An adult woman aged 18 with cool chocolate-brown skin, thick dark-brown coils to the shoulders, and black-brown eyes. Her build is compact with thick thighs and a soft abdomen. Fine pointed elven ears.",
+      "skin": "cool chocolate-brown",
+      "hair": "thick dark-brown coils to the shoulders",
+      "eyes": "black-brown",
+      "build": "compact with thick thighs and a soft abdomen",
+      "ancestryFeatures": [
+        "fine pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a light scatter of freckles over the shoulders"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-004",
+      "summary": "An adult woman aged 21 with red-undertoned chocolate-brown skin, long blue-black curls, and dark hazel eyes. Her build is short and sturdily built with a defined waist. Broad-based, sharply tapered elven ears.",
+      "skin": "red-undertoned chocolate-brown",
+      "hair": "long blue-black curls",
+      "eyes": "dark hazel",
+      "build": "short and sturdily built with a defined waist",
+      "ancestryFeatures": [
+        "broad-based, sharply tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a pale pigment fleck at the left temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-005",
+      "summary": "An adult woman aged 24 with golden-undertoned chocolate-brown skin, short russet curls, and sea green eyes. Her build is slim-waisted with broad shoulders and full thighs. Slightly upswept elven ears.",
+      "skin": "golden-undertoned chocolate-brown",
+      "hair": "short russet curls",
+      "eyes": "sea green",
+      "build": "slim-waisted with broad shoulders and full thighs",
+      "ancestryFeatures": [
+        "slightly upswept elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a softly dimpled chin"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-006",
+      "summary": "An adult woman aged 19 with warm chocolate-brown skin, sleek black hair to the waist, and slate grey eyes. Her build is slender with a strong back and softly rounded hips. Long, gracefully tapered elven ears.",
+      "skin": "warm chocolate-brown",
+      "hair": "sleek black hair to the waist",
+      "eyes": "slate grey",
+      "build": "slender with a strong back and softly rounded hips",
+      "ancestryFeatures": [
+        "long, gracefully tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a beauty mark near the right corner of the mouth"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-007",
+      "summary": "An adult woman aged 22 with deep chocolate-brown skin, long ash-brown ringlets, and russet brown eyes. Her build is lean and long-limbed with a modest bust. Swept-back elven ears with rounded lower edges.",
+      "skin": "deep chocolate-brown",
+      "hair": "long ash-brown ringlets",
+      "eyes": "russet brown",
+      "build": "lean and long-limbed with a modest bust",
+      "ancestryFeatures": [
+        "swept-back elven ears with rounded lower edges",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a darker pigment patch along one collarbone"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-008",
+      "summary": "An adult woman aged 25 with cool chocolate-brown skin, long pale-copper waves, and dark blue eyes. Her build is tall and strongly built with a modest bust. Fine pointed elven ears.",
+      "skin": "cool chocolate-brown",
+      "hair": "long pale-copper waves",
+      "eyes": "dark blue",
+      "build": "tall and strongly built with a modest bust",
+      "ancestryFeatures": [
+        "fine pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "soft freckling along the collarbones"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-009",
+      "summary": "An adult woman aged 20 with red-undertoned chocolate-brown skin, long chestnut waves, and green flecked with gold eyes. Her build is medium-height and generously curvaceous with a broad frame. Broad-based, sharply tapered elven ears.",
+      "skin": "red-undertoned chocolate-brown",
+      "hair": "long chestnut waves",
+      "eyes": "green flecked with gold",
+      "build": "medium-height and generously curvaceous with a broad frame",
+      "ancestryFeatures": [
+        "broad-based, sharply tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a tiny pale scar at the edge of the left brow"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-010",
+      "summary": "An adult woman aged 23 with golden-undertoned chocolate-brown skin, long black hair with a blunt fringe, and deep brown eyes. Her build is medium-height and muscular with mature curves. Slightly upswept elven ears.",
+      "skin": "golden-undertoned chocolate-brown",
+      "hair": "long black hair with a blunt fringe",
+      "eyes": "deep brown",
+      "build": "medium-height and muscular with mature curves",
+      "ancestryFeatures": [
+        "slightly upswept elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a faint darker patch at the left jaw"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-011",
+      "summary": "An adult woman aged 18 with warm chocolate-brown skin, a silver-blonde crop, and copper brown eyes. Her build is long-legged with a soft waist and full hips. Long, gracefully tapered elven ears.",
+      "skin": "warm chocolate-brown",
+      "hair": "a silver-blonde crop",
+      "eyes": "copper brown",
+      "build": "long-legged with a soft waist and full hips",
+      "ancestryFeatures": [
+        "long, gracefully tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a few silver strands at the right temple"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-012",
+      "summary": "An adult woman aged 21 with deep chocolate-brown skin, a chestnut pixie cut, and deep blue eyes. Her build is tall and slender with mature hips. Swept-back elven ears with rounded lower edges.",
+      "skin": "deep chocolate-brown",
+      "hair": "a chestnut pixie cut",
+      "eyes": "deep blue",
+      "build": "tall and slender with mature hips",
+      "ancestryFeatures": [
+        "swept-back elven ears with rounded lower edges",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a slightly higher arch to the left eyebrow"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-013",
+      "summary": "An adult woman aged 24 with cool chocolate-brown skin, mid-back silver-white waves, and blue-grey eyes. Her build is compact and muscular with soft contours. Fine pointed elven ears.",
+      "skin": "cool chocolate-brown",
+      "hair": "mid-back silver-white waves",
+      "eyes": "blue-grey",
+      "build": "compact and muscular with soft contours",
+      "ancestryFeatures": [
+        "fine pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a beauty mark beneath the lower lip"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-014",
+      "summary": "An adult woman aged 19 with red-undertoned chocolate-brown skin, a shoulder-length tawny shag, and honey brown eyes. Her build is medium-height with a full bust and straight waist. Broad-based, sharply tapered elven ears.",
+      "skin": "red-undertoned chocolate-brown",
+      "hair": "a shoulder-length tawny shag",
+      "eyes": "honey brown",
+      "build": "medium-height with a full bust and straight waist",
+      "ancestryFeatures": [
+        "broad-based, sharply tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a tiny beauty mark beneath the right eye"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-015",
+      "summary": "An adult woman aged 22 with golden-undertoned chocolate-brown skin, mid-back flaxen braids, and olive green eyes. Her build is broad-shouldered with soft waist curves. Slightly upswept elven ears.",
+      "skin": "golden-undertoned chocolate-brown",
+      "hair": "mid-back flaxen braids",
+      "eyes": "olive green",
+      "build": "broad-shouldered with soft waist curves",
+      "ancestryFeatures": [
+        "slightly upswept elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a faint freckle band across the upper cheeks"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-016",
+      "summary": "An adult woman aged 25 with warm chocolate-brown skin, shoulder-length warm-brown twists, and smoky blue eyes. Her build is rounded and full-busted with sturdy legs. Long, gracefully tapered elven ears.",
+      "skin": "warm chocolate-brown",
+      "hair": "shoulder-length warm-brown twists",
+      "eyes": "smoky blue",
+      "build": "rounded and full-busted with sturdy legs",
+      "ancestryFeatures": [
+        "long, gracefully tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "a soft dusting of freckles on the upper arms"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-017",
+      "summary": "An adult woman aged 20 with deep chocolate-brown skin, chin-length black curls, and amber eyes. Her build is tall and broad-hipped with gently defined muscles. Swept-back elven ears with rounded lower edges.",
+      "skin": "deep chocolate-brown",
+      "hair": "chin-length black curls",
+      "eyes": "amber",
+      "build": "tall and broad-hipped with gently defined muscles",
+      "ancestryFeatures": [
+        "swept-back elven ears with rounded lower edges",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "slightly uneven natural eyebrow arches"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-018",
+      "summary": "An adult woman aged 23 with cool chocolate-brown skin, shoulder-length copper coils, and rich brown eyes. Her build is tall and voluptuous with a gently rounded abdomen. Fine pointed elven ears.",
+      "skin": "cool chocolate-brown",
+      "hair": "shoulder-length copper coils",
+      "eyes": "rich brown",
+      "build": "tall and voluptuous with a gently rounded abdomen",
+      "ancestryFeatures": [
+        "fine pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "a pale oval birthmark at the nape"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-019",
+      "summary": "An adult woman aged 18 with red-undertoned chocolate-brown skin, waist-length dark auburn hair, and hazel eyes. Her build is medium-height with balanced, softly mature curves. Broad-based, sharply tapered elven ears.",
+      "skin": "red-undertoned chocolate-brown",
+      "hair": "waist-length dark auburn hair",
+      "eyes": "hazel",
+      "build": "medium-height with balanced, softly mature curves",
+      "ancestryFeatures": [
+        "broad-based, sharply tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a narrow pale scar along the chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-020",
+      "summary": "An adult woman aged 21 with golden-undertoned chocolate-brown skin, long pale-gold waves, and moss green eyes. Her build is full-bodied with a defined waist and powerful calves. Slightly upswept elven ears.",
+      "skin": "golden-undertoned chocolate-brown",
+      "hair": "long pale-gold waves",
+      "eyes": "moss green",
+      "build": "full-bodied with a defined waist and powerful calves",
+      "ancestryFeatures": [
+        "slightly upswept elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a deeper natural crease beneath the lower lip"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-021",
+      "summary": "An adult woman aged 24 with warm chocolate-brown skin, a blunt honey-brown bob, and muted gold eyes. Her build is full-figured with broad hips and a strong back. Long, gracefully tapered elven ears.",
+      "skin": "warm chocolate-brown",
+      "hair": "a blunt honey-brown bob",
+      "eyes": "muted gold",
+      "build": "full-figured with broad hips and a strong back",
+      "ancestryFeatures": [
+        "long, gracefully tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a small birthmark near the right shoulder"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-022",
+      "summary": "An adult woman aged 19 with deep chocolate-brown skin, long dark hair with a silver forelock, and golden brown eyes. Her build is short and full-figured with rounded shoulders. Swept-back elven ears with rounded lower edges.",
+      "skin": "deep chocolate-brown",
+      "hair": "long dark hair with a silver forelock",
+      "eyes": "golden brown",
+      "build": "short and full-figured with rounded shoulders",
+      "ancestryFeatures": [
+        "swept-back elven ears with rounded lower edges",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a small freckle cluster across the nose"
+      ],
+      "styleTags": [
+        "striking",
+        "freckled"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-023",
+      "summary": "An adult woman aged 22 with cool chocolate-brown skin, short deep-plum curls, and dark grey eyes. Her build is compact and softly curvaceous with mature proportions. Fine pointed elven ears.",
+      "skin": "cool chocolate-brown",
+      "hair": "short deep-plum curls",
+      "eyes": "dark grey",
+      "build": "compact and softly curvaceous with mature proportions",
+      "ancestryFeatures": [
+        "fine pointed elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a subtle left cheek dimple"
+      ],
+      "styleTags": [
+        "elegant",
+        "compact"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-024",
+      "summary": "An adult woman aged 25 with red-undertoned chocolate-brown skin, a dark chestnut crop with a curled fringe, and warm brown eyes. Her build is willowy with a full bust and narrow hips. Broad-based, sharply tapered elven ears.",
+      "skin": "red-undertoned chocolate-brown",
+      "hair": "a dark chestnut crop with a curled fringe",
+      "eyes": "warm brown",
+      "build": "willowy with a full bust and narrow hips",
+      "ancestryFeatures": [
+        "broad-based, sharply tapered elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a beauty mark beside the left cheekbone"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "dark-elf-appearance-025",
+      "summary": "An adult woman aged 20 with golden-undertoned chocolate-brown skin, a wavy black bob, and soft violet eyes. Her build is athletic and broad-hipped with a modest bust. Slightly upswept elven ears.",
+      "skin": "golden-undertoned chocolate-brown",
+      "hair": "a wavy black bob",
+      "eyes": "soft violet",
+      "build": "athletic and broad-hipped with a modest bust",
+      "ancestryFeatures": [
+        "slightly upswept elven ears",
+        "fully adult elven facial proportions"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a dark freckle beside the bridge of the nose"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    }
+  ]
+}

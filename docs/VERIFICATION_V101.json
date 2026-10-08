@@ -1,0 +1,56 @@
+{
+  "release": "0.101",
+  "saveSchema": 65,
+  "python": {
+    "result": "pass",
+    "tests": 192,
+    "modules": [
+      "test_companion_participation",
+      "test_patrol_refinement",
+      "test_refinements_v100",
+      "test_household_chapters",
+      "test_intimacy",
+      "test_personal_stories",
+      "test_dialogue",
+      "test_scene_drafts",
+      "test_social_life",
+      "test_character_quests",
+      "test_companion_almanac",
+      "test_writing_v101",
+      "test_candidate_http",
+      "test_castle_chapter"
+    ]
+  },
+  "ui": {
+    "result": "pass",
+    "scripts": [
+      "test_ui_refinements_v100.cjs",
+      "test_ui_companion_participation.cjs",
+      "test_ui_intimacy.cjs",
+      "test_ui_household_chapters.cjs",
+      "test_ui_stories.cjs",
+      "test_ui_almanac.cjs",
+      "test_ui_character_quests.cjs"
+    ],
+    "method": "Headless templates/controllers using the Python API and persisted SQLite state; no rendered browser review."
+  },
+  "editorialCoverage": {
+    "namedCompanions": 15,
+    "initiativeReplies": 45,
+    "trainingSubjects": 12,
+    "householdPairs": 11,
+    "offlineStoryPackages": 6
+  },
+  "compatibility": {
+    "v100Save": "Exact JSON values retained by migration, read-only public views and SQLite reload; includes completed conversations and an approved story offer.",
+    "storyPackageRules": "All six unchanged",
+    "bundledImages": 279,
+    "unchangedImages": 279,
+    "priorArchive": "Truncated after 760 complete CRC-checked entries. Source comparison recovered those entries and verified the four missing runtime modules were unchanged from v0.99. New release rebuilt from intact working tree."
+  },
+  "limits": [
+    "Rendered browser review remains deferred.",
+    "No live external model was called; generated prose remains subject to review.",
+    "Saved historical conversation text and existing approved proposals are preserved."
+  ]
+}

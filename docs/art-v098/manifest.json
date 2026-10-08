@@ -1,0 +1,449 @@
+{
+  "version": "0.98",
+  "generator": "built-in image_gen",
+  "fresh_generations": true,
+  "export_policy": "Match corresponding Tamsin/Elowen dimensions and file-size range; preserve quality within that range, review native-scale exports; no sharpening or noise filters.",
+  "assets": [
+    {
+      "path": "static/assets/portraits/velis.webp",
+      "source_png": "exec-7a3254eb-f1c4-47cf-a6d6-1d1bab4dc0a3.png",
+      "source_sha256": "5501d84d799b691fa3701dcef9b516f9897d8b6ec7273b8d593ec7cdefe29dcb",
+      "sha256": "6364c97fa3c6363a872d90553599655fc37c2d78bd33c1e99636d9e65f3c767f",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 276314,
+      "webp_quality": 95.562,
+      "reference_bytes": [
+        293892,
+        258292
+      ],
+      "reference_paths": [
+        "static/assets/portraits/tamsin.webp",
+        "static/assets/portraits/elowen.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/rhess.webp",
+      "source_png": "exec-967d0e23-0d96-4c13-86c6-424e9e6282fa.png",
+      "source_sha256": "a74a2b289a46acf658f2c493920f147c7a248a24313db812386e2161e3ae837f",
+      "sha256": "f52e833bcb3c8f1e9555b3db769a39cc6a63889aef6bb9689e84fb3634c523ce",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 278106,
+      "webp_quality": 90.406,
+      "reference_bytes": [
+        293892,
+        258292
+      ],
+      "reference_paths": [
+        "static/assets/portraits/tamsin.webp",
+        "static/assets/portraits/elowen.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/sylva.webp",
+      "source_png": "exec-1913d22f-a924-4e7c-a14e-f9d77269a73f.png",
+      "source_sha256": "90e6b459ee925d999942c40c8ee856981dcd0cece6c520938deda5958466a4e8",
+      "sha256": "69ed3dbe4aab7896de0cbac761d8af0f4413531bd53ffeaa4b18bf6e16c97024",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 292644,
+      "webp_quality": 83.25,
+      "reference_bytes": [
+        293892,
+        258292
+      ],
+      "reference_paths": [
+        "static/assets/portraits/tamsin.webp",
+        "static/assets/portraits/elowen.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/velis-outfit-2.webp",
+      "source_png": "exec-6ed3c45e-368b-4738-ae6a-e932c6e4d6c6.png",
+      "source_sha256": "c7dc2322b12e8f2006c7a8248ff9c4a54af7fbda20a5388cd1fe0380e3d6421b",
+      "sha256": "e2129552f0228b9e4fa01ff751470b6b0363c44a6ba0a824eb773a624209e57b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 236076,
+      "webp_quality": 92.984,
+      "reference_bytes": [
+        258618,
+        212474
+      ],
+      "reference_paths": [
+        "static/assets/portraits/tamsin-outfit-2.webp",
+        "static/assets/portraits/elowen-outfit-2.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/velis-outfit-3.webp",
+      "source_png": "exec-3cc45b8a-483b-4a09-83e9-3a9e7a5fbb62.png",
+      "source_sha256": "83f632acd44682410a50d7c17c4bc6a31996634b96987b259c3c33ed6886810c",
+      "sha256": "4dea2ef5104ecceb01a0bb20e651b855f802580fc807b917da93809bab1f56bf",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 229316,
+      "webp_quality": 93.5,
+      "reference_bytes": [
+        230068,
+        229462
+      ],
+      "reference_paths": [
+        "static/assets/portraits/tamsin-outfit-3.webp",
+        "static/assets/portraits/elowen-outfit-3.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/bathing/velis.webp",
+      "source_png": "exec-06b75e68-a08a-42fc-a255-db4cca11e652.png",
+      "source_sha256": "edaf430e102a381b7874748897902bd024c44681e598916f769948fc11b34a32",
+      "sha256": "c53f810d2fb35baeef999cbf025c8b0e48939abb6df5af51bb3afaeee0cd94c0",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 115376,
+      "webp_quality": 92.125,
+      "reference_bytes": [
+        127930,
+        105966
+      ],
+      "reference_paths": [
+        "static/assets/portraits/bathing/tamsin.webp",
+        "static/assets/portraits/bathing/elowen.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/rhess-outfit-2.webp",
+      "source_png": "exec-67baa710-adfe-461b-b2a1-d327dde264fd.png",
+      "source_sha256": "9ebbbc2d269856d0253b6228477317bf85b5402b627a7bb27a790999c2ed9144",
+      "sha256": "1cf593caf408c520abef73d998a16c6b46c248b9d597f1da33a79fb2eb64500b",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 238452,
+      "webp_quality": 88.344,
+      "reference_bytes": [
+        258618,
+        212474
+      ],
+      "reference_paths": [
+        "static/assets/portraits/tamsin-outfit-2.webp",
+        "static/assets/portraits/elowen-outfit-2.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/rhess-outfit-3.webp",
+      "source_png": "exec-ca81cc7d-0e58-4cf8-b53d-1638a5d7ec74.png",
+      "source_sha256": "5f20c8e857c11adb05bd39d52a089c2d915c1e60a961f30f3980cb848d5b3a54",
+      "sha256": "79cfd0f5a9349d641a89f97b6c6c6b856d0da70fbb5c482d62888a4022119d63",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 235024,
+      "webp_quality": 88.0,
+      "reference_bytes": [
+        230068,
+        229462
+      ],
+      "reference_paths": [
+        "static/assets/portraits/tamsin-outfit-3.webp",
+        "static/assets/portraits/elowen-outfit-3.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/bathing/rhess.webp",
+      "source_png": "exec-8ff3e487-0c2e-45a6-ac41-e9c853e4da15.png",
+      "source_sha256": "4587d9796604191f0e63009abdf0d8fdcd732cbe66a6cb30645b03d3cf4fe890",
+      "sha256": "029b151695bffc39982269a44a426c2cef3b5dd8b078398534066784e1d1f5eb",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 128098,
+      "webp_quality": 75.75,
+      "reference_bytes": [
+        127930,
+        105966
+      ],
+      "reference_paths": [
+        "static/assets/portraits/bathing/tamsin.webp",
+        "static/assets/portraits/bathing/elowen.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/sylva-outfit-2.webp",
+      "source_png": "exec-75b88444-6c58-46ee-9d70-1e0c31ec7de3.png",
+      "source_sha256": "eef12bb8ea6007f7b92822ed41c0c415729a45252db50eea51a90a2375a03a44",
+      "sha256": "009faa8c7d01223d762167920b6663bfd2033680a4fd6e7684480abfd5d9c51d",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 271020,
+      "webp_quality": 88.0,
+      "reference_bytes": [
+        258618,
+        212474
+      ],
+      "reference_paths": [
+        "static/assets/portraits/tamsin-outfit-2.webp",
+        "static/assets/portraits/elowen-outfit-2.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/sylva-outfit-3.webp",
+      "source_png": "exec-a6fb0d6a-3f27-4860-9750-1d1b6353089f.png",
+      "source_sha256": "f5f826504411ca27fd57fc9523f508fce4c74d9aacbcd6cb9ffc65ebed30faab",
+      "sha256": "8f47184eef555e1f73332639cd2f0015e7a747efc7fe0216daf25fcc1d356a18",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "bytes": 229184,
+      "webp_quality": 75.562,
+      "reference_bytes": [
+        230068,
+        229462
+      ],
+      "reference_paths": [
+        "static/assets/portraits/tamsin-outfit-3.webp",
+        "static/assets/portraits/elowen-outfit-3.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/bathing/sylva.webp",
+      "source_png": "exec-6ce6703a-2b04-4d78-8efe-811b5760f7ba.png",
+      "source_sha256": "b6aa9f3de523934ef914973b7c32f161fc8057e087af9ecb121af545e365af14",
+      "sha256": "b1d2f06b4a03a48511bfd2be32503aedcec85f9e0921adda115d072c5d86860c",
+      "dimensions": [
+        768,
+        1152
+      ],
+      "bytes": 127882,
+      "webp_quality": 76.688,
+      "reference_bytes": [
+        127930,
+        105966
+      ],
+      "reference_paths": [
+        "static/assets/portraits/bathing/tamsin.webp",
+        "static/assets/portraits/bathing/elowen.webp"
+      ],
+      "alpha": true
+    },
+    {
+      "path": "static/assets/portraits/overview/sylva.webp",
+      "source_png": "exec-6af873d8-317b-4250-9328-3feed998276e.png",
+      "source_sha256": "bd1c684256ead75d208e09aa8e8173bf285214b62dbc0f3c696f55113321fe33",
+      "sha256": "91027be17f4de7abd229ae079a0ce3870007fd89b25ec55c23ba743bba4559d6",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 369222,
+      "webp_quality": 79.125,
+      "reference_bytes": [
+        314044,
+        370738
+      ],
+      "reference_paths": [
+        "static/assets/portraits/overview/tamsin.webp",
+        "static/assets/portraits/overview/elowen.webp"
+      ],
+      "alpha": false
+    },
+    {
+      "path": "static/assets/portraits/overview/velis.webp",
+      "source_png": "exec-c91b5ef9-1039-4611-ad7f-ce717d58b59f.png",
+      "source_sha256": "bc133ed2aa767930a07fc871cfb6dca1f07bb4c6f6be7a1c1a30baedb00d7a0b",
+      "sha256": "cfb597be8797e4a60d65f6d45839955b05aa9b6391d8c6fff4d36865124ec1c2",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 371034,
+      "webp_quality": 81.75,
+      "reference_bytes": [
+        314044,
+        370738
+      ],
+      "reference_paths": [
+        "static/assets/portraits/overview/tamsin.webp",
+        "static/assets/portraits/overview/elowen.webp"
+      ],
+      "alpha": false
+    },
+    {
+      "path": "static/assets/portraits/overview/rhess.webp",
+      "source_png": "exec-18f6963f-9317-4590-8a6b-905701fb11ea.png",
+      "source_sha256": "c5c68881c462f7adf0b28873785670b5d84f79b349cddecbe5f43e0f402a8d7f",
+      "sha256": "605bd63d951ad7c197305947c15219cfa21dec5bd917d15ab7c8c0cae621413f",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 367000,
+      "webp_quality": 84.0,
+      "reference_bytes": [
+        314044,
+        370738
+      ],
+      "reference_paths": [
+        "static/assets/portraits/overview/tamsin.webp",
+        "static/assets/portraits/overview/elowen.webp"
+      ],
+      "alpha": false
+    },
+    {
+      "path": "static/assets/portraits/overview/sylva-outfit-2.webp",
+      "source_png": "exec-2eb3a0ca-792e-4402-bd05-06638d91a08a.png",
+      "source_sha256": "791f10469d6044807a6c3e42fc64e047830b0112ed11cccee8543de999ec9faa",
+      "sha256": "88fdb2c00a259818380cec302c0262e6ddc04369e559b515e2ae8599f8194eaa",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 392434,
+      "webp_quality": 82.125,
+      "reference_bytes": [
+        371610,
+        393784
+      ],
+      "reference_paths": [
+        "static/assets/portraits/overview/tamsin-outfit-2.webp",
+        "static/assets/portraits/overview/elowen-outfit-2.webp"
+      ],
+      "alpha": false
+    },
+    {
+      "path": "static/assets/portraits/overview/sylva-outfit-3.webp",
+      "source_png": "exec-d88e8674-6e9c-4395-ade1-2e4f68f54122.png",
+      "source_sha256": "9afb83461446395a9df6acc65d03461674881f30185375f9d51d2461700c66af",
+      "sha256": "03fb0aeb92a5c0764ddd5f91e584087cfaf5c6cc7f079b9714a5dbf18a3f334a",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 368988,
+      "webp_quality": 77.625,
+      "reference_bytes": [
+        316532,
+        366534
+      ],
+      "reference_paths": [
+        "static/assets/portraits/overview/tamsin-outfit-3.webp",
+        "static/assets/portraits/overview/elowen-outfit-3.webp"
+      ],
+      "alpha": false
+    },
+    {
+      "path": "static/assets/portraits/overview/velis-outfit-2.webp",
+      "source_png": "exec-55ccca08-74a1-4c77-b1dd-ef7440676726.png",
+      "source_sha256": "f38b9bff2a61234aa037ed3ffbe8ad4fafe9ed093b8d13bb670eaf296b16d52d",
+      "sha256": "3dfa5d0dc6300b699f6547724ab45a1653c23240989fd30752732ec1ef1d8f67",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 401604,
+      "webp_quality": 88.0,
+      "reference_bytes": [
+        371610,
+        393784
+      ],
+      "reference_paths": [
+        "static/assets/portraits/overview/tamsin-outfit-2.webp",
+        "static/assets/portraits/overview/elowen-outfit-2.webp"
+      ],
+      "alpha": false
+    },
+    {
+      "path": "static/assets/portraits/overview/velis-outfit-3.webp",
+      "source_png": "exec-d7cb7687-c960-4e5f-ae71-aab251ae7df4.png",
+      "source_sha256": "556a8f9f6a5e7c124a587cba0f5d00c22bd22455351cb35b55aac958ee480217",
+      "sha256": "f721d55775810bb226390bf8125d8e491d6c842c65b276b45b6e5189760dcf63",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 369114,
+      "webp_quality": 84.188,
+      "reference_bytes": [
+        316532,
+        366534
+      ],
+      "reference_paths": [
+        "static/assets/portraits/overview/tamsin-outfit-3.webp",
+        "static/assets/portraits/overview/elowen-outfit-3.webp"
+      ],
+      "alpha": false
+    },
+    {
+      "path": "static/assets/portraits/overview/rhess-outfit-2.webp",
+      "source_png": "exec-473c90f1-11e2-4389-8aa6-4b7c138a8d8e.png",
+      "source_sha256": "2b7656f94aab7094c06881c8e965aa78d740dc410a1a0b78b0ed38498b18ddf1",
+      "sha256": "4f1cf98f2068fd3522414b5916c9247fb1c34f142bc1250a703937d2e057f1de",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 394668,
+      "webp_quality": 84.938,
+      "reference_bytes": [
+        371610,
+        393784
+      ],
+      "reference_paths": [
+        "static/assets/portraits/overview/tamsin-outfit-2.webp",
+        "static/assets/portraits/overview/elowen-outfit-2.webp"
+      ],
+      "alpha": false
+    },
+    {
+      "path": "static/assets/portraits/overview/rhess-outfit-3.webp",
+      "source_png": "exec-93204144-67aa-4c50-97ad-c74312d0ac09.png",
+      "source_sha256": "aea8d1c53acf4d2fe371c458d8173331142b4fca2bbb14350da3ac7908ea160c",
+      "sha256": "895a51d52c85bb3bf4404ea0846b75654968fc42573d4b2fe2023f8eeeb437fa",
+      "dimensions": [
+        960,
+        1440
+      ],
+      "bytes": 369672,
+      "webp_quality": 84.188,
+      "reference_bytes": [
+        316532,
+        366534
+      ],
+      "reference_paths": [
+        "static/assets/portraits/overview/tamsin-outfit-3.webp",
+        "static/assets/portraits/overview/elowen-outfit-3.webp"
+      ],
+      "alpha": false
+    }
+  ]
+}

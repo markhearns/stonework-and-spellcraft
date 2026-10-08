@@ -1,0 +1,1842 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "human",
+  "ancestryName": "Human",
+  "arrivalMethod": "recruitment",
+  "names": [
+    {
+      "id": "human-name-001",
+      "name": "Alvenonna",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-002",
+      "name": "Brinonna",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-003",
+      "name": "Maline",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-004",
+      "name": "Emia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-005",
+      "name": "Nore",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-006",
+      "name": "Anselanie",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-007",
+      "name": "Elvette",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-008",
+      "name": "Ferelle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-009",
+      "name": "Joren",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-010",
+      "name": "Belesca",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-011",
+      "name": "Adelina",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-012",
+      "name": "Ardine",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-013",
+      "name": "Sare",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-014",
+      "name": "Tanonna",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-015",
+      "name": "Caleth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-016",
+      "name": "Carette",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-017",
+      "name": "Wesonna",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-018",
+      "name": "Mereth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-019",
+      "name": "Penine",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-020",
+      "name": "Renora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-021",
+      "name": "Lorera",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-022",
+      "name": "Valissa",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-023",
+      "name": "Lisora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-024",
+      "name": "Quenina",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-025",
+      "name": "Rosesca",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-026",
+      "name": "Sylielle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-027",
+      "name": "Eden",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-028",
+      "name": "Selanie",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-029",
+      "name": "Venelle",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-030",
+      "name": "Ola",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-031",
+      "name": "Corora",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-032",
+      "name": "Mora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-033",
+      "name": "Fenesca",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-034",
+      "name": "Uleth",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-035",
+      "name": "Garia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-036",
+      "name": "Yalielle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-037",
+      "name": "Tere",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-038",
+      "name": "Zanette",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-039",
+      "name": "Nelanie",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-040",
+      "name": "Lenissa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-041",
+      "name": "Hena",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-042",
+      "name": "Berelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-043",
+      "name": "Kelissa",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-044",
+      "name": "Delia",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-045",
+      "name": "Peren",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-046",
+      "name": "Wilina",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-047",
+      "name": "Rivielle",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-048",
+      "name": "Ilera",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-049",
+      "name": "Orera",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-050",
+      "name": "Adelonna",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-051",
+      "name": "Fenielle",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-052",
+      "name": "Rosielle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-053",
+      "name": "Ede",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-054",
+      "name": "Penanie",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-055",
+      "name": "Pere",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-056",
+      "name": "Sylina",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-057",
+      "name": "Venine",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-058",
+      "name": "Cala",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-059",
+      "name": "Emette",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-060",
+      "name": "Ilissa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-061",
+      "name": "Nelen",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-062",
+      "name": "Ferine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-063",
+      "name": "Teria",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-064",
+      "name": "Reneth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-065",
+      "name": "Dorera",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-066",
+      "name": "Berine",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-067",
+      "name": "Malanie",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-068",
+      "name": "Garette",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-069",
+      "name": "Jore",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-070",
+      "name": "Brinora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-071",
+      "name": "Mera",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-072",
+      "name": "Kelelle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-073",
+      "name": "Ardanie",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-074",
+      "name": "Yalina",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-075",
+      "name": "Caresca",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-076",
+      "name": "Coreth",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-077",
+      "name": "Olera",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-078",
+      "name": "Wesora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-079",
+      "name": "Rivina",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-080",
+      "name": "Morera",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-081",
+      "name": "Saria",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-082",
+      "name": "Valelle",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-083",
+      "name": "Lorissa",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-084",
+      "name": "Tanora",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-085",
+      "name": "Noria",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-086",
+      "name": "Elvesca",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-087",
+      "name": "Liseth",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-088",
+      "name": "Lenelle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-089",
+      "name": "Delette",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-090",
+      "name": "Quenonna",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-091",
+      "name": "Zanesca",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-092",
+      "name": "Ula",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-093",
+      "name": "Selen",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-094",
+      "name": "Alvenora",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-095",
+      "name": "Orissa",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-096",
+      "name": "Belielle",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "human-name-097",
+      "name": "Henera",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "human-name-098",
+      "name": "Wilonna",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "human-name-099",
+      "name": "Anselen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "human-name-100",
+      "name": "Venanie",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "human-story-001",
+      "title": "The borrowed recipe",
+      "premise": "Her aunt's bread recipe leaves out the step everyone supposedly knows.",
+      "personalMotivation": "She wants family knowledge to remain usable by newcomers.",
+      "openingHook": "She asks what an honest recipe should explain.",
+      "possibleDevelopments": [
+        "Compare several plausible missing steps in a proposed trial.",
+        "Consider adding a candid note rather than inventing certainty."
+      ],
+      "backgroundTags": [
+        "baking"
+      ],
+      "themeTags": [
+        "tradition",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-002",
+      "title": "The miniature workbench",
+      "premise": "She sketches a folding bench but cannot choose between portability and comfortable working height.",
+      "personalMotivation": "She wants a workshop that can travel with her.",
+      "openingHook": "She offers a rough drawing for practical criticism.",
+      "possibleDevelopments": [
+        "Make a paper model to investigate the hinge arrangement.",
+        "Reconsider which tools genuinely need to travel."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "craft",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-003",
+      "title": "A letter without a request",
+      "premise": "She keeps revising a letter to a friend because every version sounds like a favour is coming.",
+      "personalMotivation": "She wants to maintain affection without making it transactional.",
+      "openingHook": "She wonders how to write simply because someone matters.",
+      "possibleDevelopments": [
+        "Discuss whether a small ordinary observation is enough.",
+        "Offer optional quiet company while she drafts privately."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "friendship",
+        "privacy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-004",
+      "title": "The unclaimed margin",
+      "premise": "A copyist's practice sheet interests her more for its corrections than its polished passage.",
+      "personalMotivation": "She wants imperfect work to have an honest place in learning.",
+      "openingHook": "She asks whether an archive can preserve a useful mistake.",
+      "possibleDevelopments": [
+        "Propose annotations that distinguish attempts from approved text.",
+        "Consider a voluntary collection of discarded practice pages."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "personal-growth",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-005",
+      "title": "Too many welcoming chairs",
+      "premise": "Her ideal sitting room has a seat for everyone and nowhere to walk.",
+      "personalMotivation": "She cares about hospitality but dislikes cramped company.",
+      "openingHook": "She presents a room sketch with an amused apology.",
+      "possibleDevelopments": [
+        "Compare a smaller gathering with a flexible furniture plan.",
+        "Invite discussion of comfort without promising a renovation."
+      ],
+      "backgroundTags": [
+        "domestic"
+      ],
+      "themeTags": [
+        "hospitality",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-006",
+      "title": "The quarry postcard",
+      "premise": "She wants to draw an ordinary quarry without making the workers into picturesque scenery.",
+      "personalMotivation": "She values the dignity of practical labour.",
+      "openingHook": "She asks what a respectful landscape study should leave out.",
+      "possibleDevelopments": [
+        "Draft a request for permission to observe working areas.",
+        "Explore a composition centred on tools and stone textures."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "stonework",
+        "community"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-007",
+      "title": "A modest weather book",
+      "premise": "Her weather notes are careful, but she is tempted to make them sound like predictions.",
+      "personalMotivation": "She wants to be useful without pretending to certainty.",
+      "openingHook": "She asks how to label an observation that might mislead.",
+      "possibleDevelopments": [
+        "Separate recorded conditions from tentative interpretations.",
+        "Consider inviting other observers to note disagreements."
+      ],
+      "backgroundTags": [
+        "weather"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-008",
+      "title": "The stubborn drawer",
+      "premise": "She wants to learn cabinet repair, beginning with a practice drawer whose fault is unclear.",
+      "personalMotivation": "She prefers understanding a problem to hiding it.",
+      "openingHook": "She asks whether diagnosing a fault counts as worthwhile progress.",
+      "possibleDevelopments": [
+        "Plan checks for swelling, wear and misaligned runners.",
+        "Choose whether repair or an explanatory study suits her aim."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "craft",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-009",
+      "title": "A feast for ordinary reasons",
+      "premise": "She wants a small gathering but feels embarrassed that nothing important has happened.",
+      "personalMotivation": "She believes pleasure need not be earned through achievement.",
+      "openingHook": "She asks whether an uneventful week deserves a good supper.",
+      "possibleDevelopments": [
+        "Discuss an optional gathering with no congratulatory speeches.",
+        "Consider a quieter shared tea as an equally valid occasion."
+      ],
+      "backgroundTags": [
+        "cooking"
+      ],
+      "themeTags": [
+        "celebration",
+        "rest"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-010",
+      "title": "The careful nickname",
+      "premise": "She enjoys affectionate nicknames but worries hers sound like labels that stick.",
+      "personalMotivation": "She wants warmth to leave people room to change.",
+      "openingHook": "She asks how someone might retire a nickname gracefully.",
+      "possibleDevelopments": [
+        "Explore asking permission before using a new endearment.",
+        "Consider a friendship custom that welcomes changing preferences."
+      ],
+      "backgroundTags": [
+        "language"
+      ],
+      "themeTags": [
+        "affection",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-011",
+      "title": "The crossed-out apprenticeship",
+      "premise": "She has left an introductory craft course and dislikes calling the change a failure.",
+      "personalMotivation": "She wants to choose work from interest rather than sunk effort.",
+      "openingHook": "She offers to discuss what she liked despite leaving.",
+      "possibleDevelopments": [
+        "Separate transferable interests from obligations she no longer accepts.",
+        "Propose a low-pressure introduction to another craft."
+      ],
+      "backgroundTags": [
+        "work"
+      ],
+      "themeTags": [
+        "revision",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-012",
+      "title": "The village noticeboard",
+      "premise": "She imagines a noticeboard that welcomes requests without displaying private hardship.",
+      "personalMotivation": "She values community help without public embarrassment.",
+      "openingHook": "She asks how an offer and a request could meet discreetly.",
+      "possibleDevelopments": [
+        "Compare signed notices with a voluntary intermediary.",
+        "Draft wording that makes refusing a request unremarkable."
+      ],
+      "backgroundTags": [
+        "community"
+      ],
+      "themeTags": [
+        "privacy",
+        "hospitality"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-013",
+      "title": "A tune with room in it",
+      "premise": "She is composing a simple round, but its clever section makes joining difficult.",
+      "personalMotivation": "She wants company more than an impressive performance.",
+      "openingHook": "She asks which part sounds welcoming to a beginner.",
+      "possibleDevelopments": [
+        "Try a proposed simpler version without judging either listener.",
+        "Consider keeping the intricate version for solo enjoyment."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "collaborative",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-014",
+      "title": "The teacup census",
+      "premise": "Her collecting notes describe cups beautifully and never say whether they are pleasant to hold.",
+      "personalMotivation": "She wants appreciation to include ordinary usefulness.",
+      "openingHook": "She invites opinions about a comfortable cup handle.",
+      "possibleDevelopments": [
+        "Devise a voluntary comparison of existing cups.",
+        "Add space for disagreement rather than one winning design."
+      ],
+      "backgroundTags": [
+        "ceramics"
+      ],
+      "themeTags": [
+        "tea",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-015",
+      "title": "A borrowed bit of courage",
+      "premise": "She rehearses asking a craftsperson for feedback, then worries rehearsal makes her false.",
+      "personalMotivation": "She wants confidence that does not require pretending.",
+      "openingHook": "She asks whether a prepared question can still be sincere.",
+      "possibleDevelopments": [
+        "Work on a brief request she may choose not to send.",
+        "Discuss useful limits for the feedback she is inviting."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "personal-growth",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-016",
+      "title": "The honest walking map",
+      "premise": "She wants to describe a route by effort and resting places rather than heroic distance.",
+      "personalMotivation": "She values journeys that admit different bodies and paces.",
+      "openingHook": "She asks what makes a map kind without making promises.",
+      "possibleDevelopments": [
+        "List observations a future route survey would need.",
+        "Consider separate notes for surfaces, shelter and uncertainty."
+      ],
+      "backgroundTags": [
+        "cartography"
+      ],
+      "themeTags": [
+        "exploration",
+        "accessibility"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-017",
+      "title": "A ribbon no one must win",
+      "premise": "She proposes a playful household exhibition and dislikes ranking the entries.",
+      "personalMotivation": "She enjoys showing work without turning friends into rivals.",
+      "openingHook": "She asks what an exhibition ribbon could celebrate besides winning.",
+      "possibleDevelopments": [
+        "Suggest personal captions chosen by each willing exhibitor.",
+        "Consider a display where unfinished work is welcome."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "celebration",
+        "community"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-018",
+      "title": "The quiet market morning",
+      "premise": "She wants to practice bargaining without treating every purchase as a contest.",
+      "personalMotivation": "She values fair exchange and an unhurried conversation.",
+      "openingHook": "She asks how to decline an offer without disparaging the maker.",
+      "possibleDevelopments": [
+        "Rehearse optional questions about materials and workmanship.",
+        "Plan an observation visit without presuming any purchase."
+      ],
+      "backgroundTags": [
+        "community"
+      ],
+      "themeTags": [
+        "negotiation",
+        "craft"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-019",
+      "title": "The repaired joke",
+      "premise": "She writes gentle comic sketches, but one joke relies on an absent person's embarrassment.",
+      "personalMotivation": "She wants shared amusement rather than a convenient target.",
+      "openingHook": "She asks which part of the situation is funny without the victim.",
+      "possibleDevelopments": [
+        "Shift the joke toward an awkward object or misunderstanding.",
+        "Consider leaving the sketch unfinished rather than forcing a punchline."
+      ],
+      "backgroundTags": [
+        "performance"
+      ],
+      "themeTags": [
+        "humour",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-020",
+      "title": "Two kinds of tidy",
+      "premise": "Her neat labels clash with her preference for seeing unfinished projects spread out.",
+      "personalMotivation": "She wants order that supports work instead of concealing it.",
+      "openingHook": "She asks whether a visible mess can have a clear boundary.",
+      "possibleDevelopments": [
+        "Sketch temporary project trays with personal labels.",
+        "Discuss negotiated shared space without reorganizing anyone's belongings."
+      ],
+      "backgroundTags": [
+        "domestic"
+      ],
+      "themeTags": [
+        "work",
+        "possessions"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-021",
+      "title": "The cheap paper argument",
+      "premise": "She saves fine paper so carefully that she rarely draws on it.",
+      "personalMotivation": "She wants practice to feel worth good materials.",
+      "openingHook": "She asks how others decide a page is worth using.",
+      "possibleDevelopments": [
+        "Propose a private study with no obligation to display it.",
+        "Compare keeping a small reserve with using the rest freely."
+      ],
+      "backgroundTags": [
+        "papercraft"
+      ],
+      "themeTags": [
+        "visual-art",
+        "personal-growth"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-022",
+      "title": "A name for the committee",
+      "premise": "She wants help organizing a local repair afternoon and fears making it sound too official.",
+      "personalMotivation": "She wants people to join without signing up for endless duties.",
+      "openingHook": "She asks for a title that describes one modest event.",
+      "possibleDevelopments": [
+        "Draft an invitation with an explicit stopping point.",
+        "Consider cancelling or shrinking the plan without apology."
+      ],
+      "backgroundTags": [
+        "community"
+      ],
+      "themeTags": [
+        "work",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-023",
+      "title": "The hidden work of hosting",
+      "premise": "She likes entertaining but resents the assumption that she will always clean afterward.",
+      "personalMotivation": "She wants welcome to remain a choice rather than a role.",
+      "openingHook": "She asks how to discuss preparation before inviting company.",
+      "possibleDevelopments": [
+        "Outline a voluntary division of tasks and an easy exit.",
+        "Explore a gathering simple enough to require little cleanup."
+      ],
+      "backgroundTags": [
+        "hospitality"
+      ],
+      "themeTags": [
+        "negotiation",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-024",
+      "title": "An atlas of useful scraps",
+      "premise": "She wants to catalogue offcuts but suspects the catalogue could become more work than reuse.",
+      "personalMotivation": "She dislikes waste without wanting a shrine to every remnant.",
+      "openingHook": "She asks what makes a scrap worth keeping.",
+      "possibleDevelopments": [
+        "Propose a limited sample drawer with clear discard criteria.",
+        "Reframe the project as a few useful examples rather than completeness."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "sustainability",
+        "revision"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    },
+    {
+      "id": "human-story-025",
+      "title": "The return address",
+      "premise": "She is choosing an address for correspondence but does not want it to imply permanent residence.",
+      "personalMotivation": "She wants connection without surrendering the freedom to move.",
+      "openingHook": "She asks how a letter can say where to find her for now.",
+      "possibleDevelopments": [
+        "Draft wording that distinguishes contact from a lasting commitment.",
+        "Consider a voluntary forwarding arrangement with clear limits."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "belonging",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "human-appearance-001",
+      "summary": "An adult woman aged 18 with deep umber skin, chin-length black curls, and hazel eyes. Her build is compact and softly curvaceous with mature proportions. Human facial features and smooth human skin.",
+      "skin": "deep umber",
+      "hair": "chin-length black curls",
+      "eyes": "hazel",
+      "build": "compact and softly curvaceous with mature proportions",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "a small freckle cluster across the nose"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact",
+        "freckled"
+      ]
+    },
+    {
+      "id": "human-appearance-002",
+      "summary": "An adult woman aged 21 with warm brown skin, shoulder-length copper coils, and moss green eyes. Her build is willowy with a full bust and narrow hips. Human facial features and smooth human skin.",
+      "skin": "warm brown",
+      "hair": "shoulder-length copper coils",
+      "eyes": "moss green",
+      "build": "willowy with a full bust and narrow hips",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a subtle left cheek dimple"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "human-appearance-003",
+      "summary": "An adult woman aged 24 with light olive skin, waist-length dark auburn hair, and muted gold eyes. Her build is athletic and broad-hipped with a modest bust. Human facial features and smooth human skin.",
+      "skin": "light olive",
+      "hair": "waist-length dark auburn hair",
+      "eyes": "muted gold",
+      "build": "athletic and broad-hipped with a modest bust",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a beauty mark beside the left cheekbone"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "human-appearance-004",
+      "summary": "An adult woman aged 19 with dark brown skin, long pale-gold waves, and golden brown eyes. Her build is athletic with a full bust and firm thighs. Human facial features and smooth human skin.",
+      "skin": "dark brown",
+      "hair": "long pale-gold waves",
+      "eyes": "golden brown",
+      "build": "athletic with a full bust and firm thighs",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a dark freckle beside the bridge of the nose"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic",
+        "freckled"
+      ]
+    },
+    {
+      "id": "human-appearance-005",
+      "summary": "An adult woman aged 22 with fair with rosy undertones skin, a blunt honey-brown bob, and dark grey eyes. Her build is tall with a broad ribcage and generous hips. Human facial features and smooth human skin.",
+      "skin": "fair with rosy undertones",
+      "hair": "a blunt honey-brown bob",
+      "eyes": "dark grey",
+      "build": "tall with a broad ribcage and generous hips",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a natural notch in the right eyebrow"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "human-appearance-006",
+      "summary": "An adult woman aged 25 with copper-brown skin, long dark hair with a silver forelock, and warm brown eyes. Her build is compact with thick thighs and a soft abdomen. Human facial features and smooth human skin.",
+      "skin": "copper-brown",
+      "hair": "long dark hair with a silver forelock",
+      "eyes": "warm brown",
+      "build": "compact with thick thighs and a soft abdomen",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a small cleft in the chin"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact"
+      ]
+    },
+    {
+      "id": "human-appearance-007",
+      "summary": "An adult woman aged 20 with medium olive skin, short deep-plum curls, and soft violet eyes. Her build is short and sturdily built with a defined waist. Human facial features and smooth human skin.",
+      "skin": "medium olive",
+      "hair": "short deep-plum curls",
+      "eyes": "soft violet",
+      "build": "short and sturdily built with a defined waist",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a light scatter of freckles over the shoulders"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "human-appearance-008",
+      "summary": "An adult woman aged 23 with pale beige skin, a dark chestnut crop with a curled fringe, and grey-green eyes. Her build is slim-waisted with broad shoulders and full thighs. Human facial features and smooth human skin.",
+      "skin": "pale beige",
+      "hair": "a dark chestnut crop with a curled fringe",
+      "eyes": "grey-green",
+      "build": "slim-waisted with broad shoulders and full thighs",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a pale pigment fleck at the left temple"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "human-appearance-009",
+      "summary": "An adult woman aged 18 with rich mahogany skin, a wavy black bob, and pale grey eyes. Her build is slender with a strong back and softly rounded hips. Human facial features and smooth human skin.",
+      "skin": "rich mahogany",
+      "hair": "a wavy black bob",
+      "eyes": "pale grey",
+      "build": "slender with a strong back and softly rounded hips",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a softly dimpled chin"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "human-appearance-010",
+      "summary": "An adult woman aged 21 with golden brown skin, a straight dark-brown bob, and black-brown eyes. Her build is lean and long-limbed with a modest bust. Human facial features and smooth human skin.",
+      "skin": "golden brown",
+      "hair": "a straight dark-brown bob",
+      "eyes": "black-brown",
+      "build": "lean and long-limbed with a modest bust",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a beauty mark near the right corner of the mouth"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "human-appearance-011",
+      "summary": "An adult woman aged 24 with light brown skin, close-cropped ash-brown curls, and dark hazel eyes. Her build is tall and strongly built with a modest bust. Human facial features and smooth human skin.",
+      "skin": "light brown",
+      "hair": "close-cropped ash-brown curls",
+      "eyes": "dark hazel",
+      "build": "tall and strongly built with a modest bust",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a darker pigment patch along one collarbone"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "human-appearance-012",
+      "summary": "An adult woman aged 19 with cool dark brown skin, thick dark-brown coils to the shoulders, and sea green eyes. Her build is medium-height and generously curvaceous with a broad frame. Human facial features and smooth human skin.",
+      "skin": "cool dark brown",
+      "hair": "thick dark-brown coils to the shoulders",
+      "eyes": "sea green",
+      "build": "medium-height and generously curvaceous with a broad frame",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "soft freckling along the collarbones"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured",
+        "freckled"
+      ]
+    },
+    {
+      "id": "human-appearance-013",
+      "summary": "An adult woman aged 22 with warm beige skin, long blue-black curls, and slate grey eyes. Her build is medium-height and muscular with mature curves. Human facial features and smooth human skin.",
+      "skin": "warm beige",
+      "hair": "long blue-black curls",
+      "eyes": "slate grey",
+      "build": "medium-height and muscular with mature curves",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a tiny pale scar at the edge of the left brow"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "human-appearance-014",
+      "summary": "An adult woman aged 25 with deep brown skin, short russet curls, and russet brown eyes. Her build is long-legged with a soft waist and full hips. Human facial features and smooth human skin.",
+      "skin": "deep brown",
+      "hair": "short russet curls",
+      "eyes": "russet brown",
+      "build": "long-legged with a soft waist and full hips",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a faint darker patch at the left jaw"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "human-appearance-015",
+      "summary": "An adult woman aged 20 with fair with peach undertones skin, sleek black hair to the waist, and dark blue eyes. Her build is tall and slender with mature hips. Human facial features and smooth human skin.",
+      "skin": "fair with peach undertones",
+      "hair": "sleek black hair to the waist",
+      "eyes": "dark blue",
+      "build": "tall and slender with mature hips",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a few silver strands at the right temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "human-appearance-016",
+      "summary": "An adult woman aged 23 with medium brown skin, long ash-brown ringlets, and green flecked with gold eyes. Her build is compact and muscular with soft contours. Human facial features and smooth human skin.",
+      "skin": "medium brown",
+      "hair": "long ash-brown ringlets",
+      "eyes": "green flecked with gold",
+      "build": "compact and muscular with soft contours",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a slightly higher arch to the left eyebrow"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact"
+      ]
+    },
+    {
+      "id": "human-appearance-017",
+      "summary": "An adult woman aged 18 with brown with red undertones skin, long pale-copper waves, and deep brown eyes. Her build is medium-height with a full bust and straight waist. Human facial features and smooth human skin.",
+      "skin": "brown with red undertones",
+      "hair": "long pale-copper waves",
+      "eyes": "deep brown",
+      "build": "medium-height with a full bust and straight waist",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a beauty mark beneath the lower lip"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "human-appearance-018",
+      "summary": "An adult woman aged 21 with pale olive skin, long chestnut waves, and copper brown eyes. Her build is broad-shouldered with soft waist curves. Human facial features and smooth human skin.",
+      "skin": "pale olive",
+      "hair": "long chestnut waves",
+      "eyes": "copper brown",
+      "build": "broad-shouldered with soft waist curves",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a tiny beauty mark beneath the right eye"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "human-appearance-019",
+      "summary": "An adult woman aged 24 with bronze-brown skin, long black hair with a blunt fringe, and deep blue eyes. Her build is rounded and full-busted with sturdy legs. Human facial features and smooth human skin.",
+      "skin": "bronze-brown",
+      "hair": "long black hair with a blunt fringe",
+      "eyes": "deep blue",
+      "build": "rounded and full-busted with sturdy legs",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a faint freckle band across the upper cheeks"
+      ],
+      "styleTags": [
+        "striking",
+        "freckled"
+      ]
+    },
+    {
+      "id": "human-appearance-020",
+      "summary": "An adult woman aged 19 with deep espresso-brown skin, a silver-blonde crop, and blue-grey eyes. Her build is tall and broad-hipped with gently defined muscles. Human facial features and smooth human skin.",
+      "skin": "deep espresso-brown",
+      "hair": "a silver-blonde crop",
+      "eyes": "blue-grey",
+      "build": "tall and broad-hipped with gently defined muscles",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a soft dusting of freckles on the upper arms"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque",
+        "freckled"
+      ]
+    },
+    {
+      "id": "human-appearance-021",
+      "summary": "An adult woman aged 22 with light golden beige skin, a chestnut pixie cut, and honey brown eyes. Her build is tall and voluptuous with a gently rounded abdomen. Human facial features and smooth human skin.",
+      "skin": "light golden beige",
+      "hair": "a chestnut pixie cut",
+      "eyes": "honey brown",
+      "build": "tall and voluptuous with a gently rounded abdomen",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "slightly uneven natural eyebrow arches"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "human-appearance-022",
+      "summary": "An adult woman aged 25 with cool medium brown skin, mid-back silver-white waves, and olive green eyes. Her build is medium-height with balanced, softly mature curves. Human facial features and smooth human skin.",
+      "skin": "cool medium brown",
+      "hair": "mid-back silver-white waves",
+      "eyes": "olive green",
+      "build": "medium-height with balanced, softly mature curves",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a pale oval birthmark at the nape"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "human-appearance-023",
+      "summary": "An adult woman aged 20 with warm dark brown skin, a shoulder-length tawny shag, and smoky blue eyes. Her build is full-bodied with a defined waist and powerful calves. Human facial features and smooth human skin.",
+      "skin": "warm dark brown",
+      "hair": "a shoulder-length tawny shag",
+      "eyes": "smoky blue",
+      "build": "full-bodied with a defined waist and powerful calves",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a narrow pale scar along the chin"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "human-appearance-024",
+      "summary": "An adult woman aged 23 with fair with neutral undertones skin, mid-back flaxen braids, and amber eyes. Her build is full-figured with broad hips and a strong back. Human facial features and smooth human skin.",
+      "skin": "fair with neutral undertones",
+      "hair": "mid-back flaxen braids",
+      "eyes": "amber",
+      "build": "full-figured with broad hips and a strong back",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "a deeper natural crease beneath the lower lip"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "human-appearance-025",
+      "summary": "An adult woman aged 18 with tawny brown skin, shoulder-length warm-brown twists, and rich brown eyes. Her build is short and full-figured with rounded shoulders. Human facial features and smooth human skin.",
+      "skin": "tawny brown",
+      "hair": "shoulder-length warm-brown twists",
+      "eyes": "rich brown",
+      "build": "short and full-figured with rounded shoulders",
+      "ancestryFeatures": [
+        "human facial features and smooth human skin"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "a small birthmark near the right shoulder"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    }
+  ]
+}

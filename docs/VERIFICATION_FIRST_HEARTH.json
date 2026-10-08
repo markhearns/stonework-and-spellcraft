@@ -1,0 +1,93 @@
+{
+  "version": "0.75-dev",
+  "releaseOnHold": true,
+  "schemaVersion": 59,
+  "python": {
+    "fullSuitePassed": 821,
+    "targetedChapterSuitePassed": 13,
+    "uniqueTestsVerified": 824,
+    "httpVersionRerunPassed": 1,
+    "note": "The full run included the first 10 chapter tests. The final targeted run covers all 13 chapter tests after follow-up refinements."
+  },
+  "uiControllerSuitesPassed": 48,
+  "javascriptSyntax": "passed",
+  "playthroughs": [
+    {
+      "company": "solo",
+      "approach": "salvage",
+      "advances": 25,
+      "finalDay": 9,
+      "finalPhase": "afternoon",
+      "remainingCrowns": 2,
+      "copyingAssignments": 2,
+      "purchases": [],
+      "actions": 43
+    },
+    {
+      "company": "meet",
+      "approach": "salvage",
+      "advances": 25,
+      "finalDay": 9,
+      "finalPhase": "afternoon",
+      "remainingCrowns": 2,
+      "copyingAssignments": 2,
+      "purchases": [],
+      "actions": 45
+    },
+    {
+      "company": "solo",
+      "approach": "survey",
+      "advances": 28,
+      "finalDay": 10,
+      "finalPhase": "afternoon",
+      "remainingCrowns": 1,
+      "copyingAssignments": 3,
+      "purchases": [
+        "porous-clay"
+      ],
+      "actions": 48
+    },
+    {
+      "company": "meet",
+      "approach": "survey",
+      "advances": 28,
+      "finalDay": 10,
+      "finalPhase": "afternoon",
+      "remainingCrowns": 1,
+      "copyingAssignments": 3,
+      "purchases": [
+        "porous-clay"
+      ],
+      "actions": 50
+    }
+  ],
+  "preservation": {
+    "artworkFilesUnchanged": 162,
+    "bundledContentFilesUnchanged": 2,
+    "modifiedExistingFiles": [
+      "dialogue.py",
+      "progression.py",
+      "game.py",
+      "server.py",
+      "START_HERE.md",
+      "guidance.py",
+      "castle_mystery.py",
+      "solo_tools.py",
+      "README.md",
+      "static/app.js",
+      "static/style.css",
+      "tests/test_ui_arrival.cjs",
+      "tests/test_candidate_http.py",
+      "tests/test_ui_solo.cjs",
+      "tests/test_ui_room_navigation.cjs"
+    ],
+    "liveCampaignFilesInCheckpoint": false
+  },
+  "browserVisualReview": false,
+  "browserAttempt": "Playwright launch failed: Chromium headless shell executable missing. No rendered desktop/mobile review claimed.",
+  "otherLimitations": [
+    "No live provider acceptance test",
+    "No co-op integration test",
+    "No Docker runtime test"
+  ]
+}

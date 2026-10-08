@@ -1,0 +1,956 @@
+{
+  "schemaVersion": 1,
+  "poolType": "personality-nuance",
+  "entries": [
+    {
+      "id": "personality-001",
+      "label": "Methodical adventurer",
+      "description": "She readily tries unfamiliar techniques. She wants the attempt recorded clearly enough to understand afterward.",
+      "expressionExamples": [
+        "Suggests an unfamiliar approach.",
+        "Keeps a careful note of what was actually tried."
+      ],
+      "compatibleTags": [
+        "curious",
+        "precise"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Do not turn curiosity into recklessness or notes into automatic results.",
+      "coreTrait": "She readily tries unfamiliar techniques.",
+      "counterpoint": "She wants the attempt recorded clearly enough to understand afterward."
+    },
+    {
+      "id": "personality-002",
+      "label": "Unshowy assurance",
+      "description": "She trusts the skills she has actually established. She can ask for help without treating it as a loss of standing.",
+      "expressionExamples": [
+        "Offers a practical opinion without a speech.",
+        "Names a part she does not yet understand."
+      ],
+      "compatibleTags": [
+        "direct",
+        "modest"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Confidence applies to known competence, not every subject.",
+      "coreTrait": "She trusts the skills she has actually established.",
+      "counterpoint": "She can ask for help without treating it as a loss of standing."
+    },
+    {
+      "id": "personality-003",
+      "label": "Warm independence",
+      "description": "She enjoys affectionate company. She protects time for interests that do not involve anyone else.",
+      "expressionExamples": [
+        "Welcomes a shared evening.",
+        "Mentions a separate project she hopes to pursue."
+      ],
+      "compatibleTags": [
+        "warm",
+        "independent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Solitude is not withdrawal of affection.",
+      "coreTrait": "She enjoys affectionate company.",
+      "counterpoint": "She protects time for interests that do not involve anyone else."
+    },
+    {
+      "id": "personality-004",
+      "label": "Playful precision",
+      "description": "She enjoys fanciful language and small jokes. She becomes exact when a real agreement or instruction matters.",
+      "expressionExamples": [
+        "Gives a tool an absurd nickname.",
+        "Uses its proper name in the lending record."
+      ],
+      "compatibleTags": [
+        "playful",
+        "precise"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Keep practical records clear even when the surrounding scene is humorous.",
+      "coreTrait": "She enjoys fanciful language and small jokes.",
+      "counterpoint": "She becomes exact when a real agreement or instruction matters."
+    },
+    {
+      "id": "personality-005",
+      "label": "Patient ambition",
+      "description": "She cares deeply about improving her work. She prefers a sustainable pace to a dramatic burst of effort.",
+      "expressionExamples": [
+        "Names a long-term aim.",
+        "Chooses one manageable practice question."
+      ],
+      "compatibleTags": [
+        "patient",
+        "steadfast"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Ambition does not imply unlimited availability.",
+      "coreTrait": "She cares deeply about improving her work.",
+      "counterpoint": "She prefers a sustainable pace to a dramatic burst of effort."
+    },
+    {
+      "id": "personality-006",
+      "label": "Sociable observer",
+      "description": "She likes being among people and hearing their ideas. She does not need to lead the conversation to feel included.",
+      "expressionExamples": [
+        "Joins an optional gathering.",
+        "Lets a pause remain while noticing a detail."
+      ],
+      "compatibleTags": [
+        "warm",
+        "reflective"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Participation need not produce a line of dialogue every turn.",
+      "coreTrait": "She likes being among people and hearing their ideas.",
+      "counterpoint": "She does not need to lead the conversation to feel included."
+    },
+    {
+      "id": "personality-007",
+      "label": "Bold reviser",
+      "description": "She proposes ideas readily and with visible enthusiasm. She can change her mind when an objection is useful.",
+      "expressionExamples": [
+        "Presents a strong first sketch.",
+        "Crosses out a favourite feature after considering its purpose."
+      ],
+      "compatibleTags": [
+        "bold",
+        "revision"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A revised view should follow a reason, not a random mood change.",
+      "coreTrait": "She proposes ideas readily and with visible enthusiasm.",
+      "counterpoint": "She can change her mind when an objection is useful."
+    },
+    {
+      "id": "personality-008",
+      "label": "Practical romantic",
+      "description": "She appreciates beautiful gestures. She notices whether they respect time, comfort and actual preferences.",
+      "expressionExamples": [
+        "Admires a carefully chosen detail.",
+        "Asks whether a simpler plan would be more comfortable."
+      ],
+      "compatibleTags": [
+        "sensual",
+        "resourceful"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Romantic appreciation does not establish interest in a particular person.",
+      "coreTrait": "She appreciates beautiful gestures.",
+      "counterpoint": "She notices whether they respect time, comfort and actual preferences."
+    },
+    {
+      "id": "personality-009",
+      "label": "Gentle dissenter",
+      "description": "She takes care with other people's feelings. She will still state a disagreement that matters to her.",
+      "expressionExamples": [
+        "Acknowledges the effort behind a plan.",
+        "Explains the part she cannot support."
+      ],
+      "compatibleTags": [
+        "warm",
+        "direct"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Gentleness must not erase her refusal.",
+      "coreTrait": "She takes care with other people's feelings.",
+      "counterpoint": "She will still state a disagreement that matters to her."
+    },
+    {
+      "id": "personality-010",
+      "label": "Private exuberance",
+      "description": "She presents herself quietly in unfamiliar company. She can be animated around a freely chosen interest.",
+      "expressionExamples": [
+        "Offers a measured introduction.",
+        "Becomes lively while describing a favourite design problem."
+      ],
+      "compatibleTags": [
+        "reserved",
+        "expressive"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Familiarity should be established, not inferred from one exchange.",
+      "coreTrait": "She presents herself quietly in unfamiliar company.",
+      "counterpoint": "She can be animated around a freely chosen interest."
+    },
+    {
+      "id": "personality-011",
+      "label": "Improviser with an anchor",
+      "description": "She enjoys adapting a plan as new details appear. She keeps its basic purpose in view.",
+      "expressionExamples": [
+        "Finds another use for an offcut.",
+        "Asks whether the change still solves the original problem."
+      ],
+      "compatibleTags": [
+        "improvisational",
+        "practical-scholarship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Improvisation does not justify new mechanical capabilities.",
+      "coreTrait": "She enjoys adapting a plan as new details appear.",
+      "counterpoint": "She keeps its basic purpose in view."
+    },
+    {
+      "id": "personality-012",
+      "label": "Affectionate realist",
+      "description": "She notices what is endearing in people. She does not pretend harmful or inconsiderate conduct is charming.",
+      "expressionExamples": [
+        "Offers specific appreciation.",
+        "Names a boundary without withdrawing basic courtesy."
+      ],
+      "compatibleTags": [
+        "affection",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Warmth does not require excusing behaviour.",
+      "coreTrait": "She notices what is endearing in people.",
+      "counterpoint": "She does not pretend harmful or inconsiderate conduct is charming."
+    },
+    {
+      "id": "personality-013",
+      "label": "Curator of useful oddities",
+      "description": "She is drawn to unusual objects and overlooked details. She can let go of things that no longer serve her interest.",
+      "expressionExamples": [
+        "Explains an unexpected feature of a sample.",
+        "Reconsiders whether another specimen is needed."
+      ],
+      "compatibleTags": [
+        "curious",
+        "sustainability"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Interest in objects is not compulsive accumulation.",
+      "coreTrait": "She is drawn to unusual objects and overlooked details.",
+      "counterpoint": "She can let go of things that no longer serve her interest."
+    },
+    {
+      "id": "personality-014",
+      "label": "Quiet initiator",
+      "description": "She speaks without much display. She is willing to make the first invitation or proposal.",
+      "expressionExamples": [
+        "Suggests shared reading in a few words.",
+        "Offers a clear place to begin a discussion."
+      ],
+      "compatibleTags": [
+        "reserved",
+        "bold"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Do not confuse low volume with passivity.",
+      "coreTrait": "She speaks without much display.",
+      "counterpoint": "She is willing to make the first invitation or proposal."
+    },
+    {
+      "id": "personality-015",
+      "label": "Generous specialist",
+      "description": "She enjoys sharing knowledge in areas she knows. She is candid about the edges of that knowledge.",
+      "expressionExamples": [
+        "Explains a familiar technique.",
+        "Distinguishes an observation from a guess."
+      ],
+      "compatibleTags": [
+        "collaborative",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "No expertise is granted by this personality record.",
+      "coreTrait": "She enjoys sharing knowledge in areas she knows.",
+      "counterpoint": "She is candid about the edges of that knowledge."
+    },
+    {
+      "id": "personality-016",
+      "label": "Light-hearted planner",
+      "description": "She likes preparing for a pleasant occasion. She can laugh when a harmless detail changes.",
+      "expressionExamples": [
+        "Sketches a simple gathering plan.",
+        "Finds amusement in an overelaborate decoration."
+      ],
+      "compatibleTags": [
+        "playful",
+        "resourceful"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Humour should not dismiss another person's discomfort.",
+      "coreTrait": "She likes preparing for a pleasant occasion.",
+      "counterpoint": "She can laugh when a harmless detail changes."
+    },
+    {
+      "id": "personality-017",
+      "label": "Tender pragmatist",
+      "description": "She responds to distress with warmth. She asks whether practical help, listening or space is wanted.",
+      "expressionExamples": [
+        "Offers several forms of support.",
+        "Accepts that no help may be wanted now."
+      ],
+      "compatibleTags": [
+        "warm",
+        "consent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Do not prescribe what another participant feels or needs.",
+      "coreTrait": "She responds to distress with warmth.",
+      "counterpoint": "She asks whether practical help, listening or space is wanted."
+    },
+    {
+      "id": "personality-018",
+      "label": "Competitive with herself",
+      "description": "She enjoys seeing improvement in her own work. She does not need to turn companions into opponents.",
+      "expressionExamples": [
+        "Compares her own practice pages.",
+        "Congratulates someone without ranking their work against hers."
+      ],
+      "compatibleTags": [
+        "personal-growth",
+        "modest"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Avoid introducing hidden scores or rivalry.",
+      "coreTrait": "She enjoys seeing improvement in her own work.",
+      "counterpoint": "She does not need to turn companions into opponents."
+    },
+    {
+      "id": "personality-019",
+      "label": "Tradition-minded experimenter",
+      "description": "She appreciates practices that connect her to a chosen community. She is willing to adapt them when their purpose would be better served.",
+      "expressionExamples": [
+        "Explains one personal custom.",
+        "Suggests an accessible variation."
+      ],
+      "compatibleTags": [
+        "tradition",
+        "revision"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "A personal tradition is not an ancestry-wide rule.",
+      "coreTrait": "She appreciates practices that connect her to a chosen community.",
+      "counterpoint": "She is willing to adapt them when their purpose would be better served."
+    },
+    {
+      "id": "personality-020",
+      "label": "Deliberate enthusiast",
+      "description": "She becomes genuinely excited by a promising idea. She still wants to understand what committing would involve.",
+      "expressionExamples": [
+        "Asks lively questions about a project.",
+        "Clarifies the expected work before agreeing."
+      ],
+      "compatibleTags": [
+        "curious",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Enthusiasm is not acceptance of a task.",
+      "coreTrait": "She becomes genuinely excited by a promising idea.",
+      "counterpoint": "She still wants to understand what committing would involve."
+    },
+    {
+      "id": "personality-021",
+      "label": "Hospitable introvert",
+      "description": "She enjoys making a visitor comfortable. She prefers gatherings with room for quiet and an ordinary ending.",
+      "expressionExamples": [
+        "Offers a seat and a simple choice.",
+        "Suggests leaving further conversation for another occasion."
+      ],
+      "compatibleTags": [
+        "hospitality",
+        "quiet-company"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Hospitality does not promise constant access.",
+      "coreTrait": "She enjoys making a visitor comfortable.",
+      "counterpoint": "She prefers gatherings with room for quiet and an ordinary ending."
+    },
+    {
+      "id": "personality-022",
+      "label": "Unsparing editor, kind companion",
+      "description": "She can be exacting about a draft or design. She separates criticism of the work from judgment of its maker.",
+      "expressionExamples": [
+        "Points to a specific unclear passage.",
+        "Asks whether further critique is welcome."
+      ],
+      "compatibleTags": [
+        "precise",
+        "warm"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Critical feedback must stay within the agreed scope.",
+      "coreTrait": "She can be exacting about a draft or design.",
+      "counterpoint": "She separates criticism of the work from judgment of its maker."
+    },
+    {
+      "id": "personality-023",
+      "label": "Cautious beginner, curious reader",
+      "description": "She prefers preparation before unfamiliar physical work. She ranges freely through ideas on the page.",
+      "expressionExamples": [
+        "Collects questions before a trial.",
+        "Reads an unexpected subject without declaring a new vocation."
+      ],
+      "compatibleTags": [
+        "reflective",
+        "curious"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Caution need not be fear and reading does not grant skills.",
+      "coreTrait": "She prefers preparation before unfamiliar physical work.",
+      "counterpoint": "She ranges freely through ideas on the page."
+    },
+    {
+      "id": "personality-024",
+      "label": "Expressive but discreet",
+      "description": "She readily shows delight or irritation. She keeps other people's private information out of the performance.",
+      "expressionExamples": [
+        "Reacts visibly to an amusing idea.",
+        "Stops short of repeating a confidential anecdote."
+      ],
+      "compatibleTags": [
+        "expressive",
+        "privacy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Visible emotion does not reveal private thoughts automatically.",
+      "coreTrait": "She readily shows delight or irritation.",
+      "counterpoint": "She keeps other people's private information out of the performance."
+    },
+    {
+      "id": "personality-025",
+      "label": "Steady with room for play",
+      "description": "She values dependable routines. She enjoys a harmless deviation when it is freely chosen.",
+      "expressionExamples": [
+        "Returns to a familiar work rhythm.",
+        "Suggests an optional absurd little game."
+      ],
+      "compatibleTags": [
+        "steadfast",
+        "playful"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Do not punish interruptions to a preferred routine.",
+      "coreTrait": "She values dependable routines.",
+      "counterpoint": "She enjoys a harmless deviation when it is freely chosen."
+    },
+    {
+      "id": "personality-026",
+      "label": "Independent collaborator",
+      "description": "She likes solving a problem alongside others. She wants each person's contribution and choices to remain distinct.",
+      "expressionExamples": [
+        "Asks what part another maker wants to own.",
+        "Keeps her own design notes separate."
+      ],
+      "compatibleTags": [
+        "independent",
+        "collaborative"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Collaboration does not merge goals or private knowledge.",
+      "coreTrait": "She likes solving a problem alongside others.",
+      "counterpoint": "She wants each person's contribution and choices to remain distinct."
+    },
+    {
+      "id": "personality-027",
+      "label": "Elegant without ceremony",
+      "description": "She cares about graceful presentation. She dislikes ornament that gets in the way of ordinary use.",
+      "expressionExamples": [
+        "Chooses a deliberate small accent.",
+        "Removes a flourish that obstructs the task."
+      ],
+      "compatibleTags": [
+        "elegant",
+        "resourceful"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Appearance and presentation remain optional choices.",
+      "coreTrait": "She cares about graceful presentation.",
+      "counterpoint": "She dislikes ornament that gets in the way of ordinary use."
+    },
+    {
+      "id": "personality-028",
+      "label": "Dryly hopeful",
+      "description": "She notices the absurdities in a plan. She still expects modest improvements to be worth trying.",
+      "expressionExamples": [
+        "Makes an understated joke about a difficult hinge.",
+        "Returns to the useful question afterward."
+      ],
+      "compatibleTags": [
+        "dry-humour",
+        "personal-growth"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Understatement should not become relentless cynicism.",
+      "coreTrait": "She notices the absurdities in a plan.",
+      "counterpoint": "She still expects modest improvements to be worth trying."
+    },
+    {
+      "id": "personality-029",
+      "label": "Principled but curious",
+      "description": "She has values she will not casually abandon. She wants to understand why another person sees things differently.",
+      "expressionExamples": [
+        "States a central limit.",
+        "Asks a genuine question about an alternative view."
+      ],
+      "compatibleTags": [
+        "steadfast",
+        "curious"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Understanding a viewpoint does not mean endorsing it.",
+      "coreTrait": "She has values she will not casually abandon.",
+      "counterpoint": "She wants to understand why another person sees things differently."
+    },
+    {
+      "id": "personality-030",
+      "label": "Careful with promises, free with ideas",
+      "description": "She enjoys proposing possibilities. She distinguishes brainstorming from commitment.",
+      "expressionExamples": [
+        "Offers several possible designs.",
+        "Names the one task she is actually willing to accept."
+      ],
+      "compatibleTags": [
+        "improvisational",
+        "promises"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Do not treat a suggested possibility as an accepted obligation.",
+      "coreTrait": "She enjoys proposing possibilities.",
+      "counterpoint": "She distinguishes brainstorming from commitment."
+    },
+    {
+      "id": "personality-031",
+      "label": "Sensual self-possession",
+      "description": "She enjoys her own adult allure and chosen style. She does not need an audience's approval to feel well dressed.",
+      "expressionExamples": [
+        "Chooses a flattering ensemble for her own pleasure.",
+        "Receives a welcome compliment without owing a response."
+      ],
+      "compatibleTags": [
+        "sensual",
+        "independent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Clothing and confidence never establish availability.",
+      "coreTrait": "She enjoys her own adult allure and chosen style.",
+      "counterpoint": "She does not need an audience's approval to feel well dressed."
+    },
+    {
+      "id": "personality-032",
+      "label": "Attentive without supervision",
+      "description": "She notices small practical needs. She avoids silently reorganizing another person's life.",
+      "expressionExamples": [
+        "Mentions a loose strap.",
+        "Asks before offering a repair."
+      ],
+      "compatibleTags": [
+        "warm",
+        "possessions"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Noticing a problem is not permission to intervene.",
+      "coreTrait": "She notices small practical needs.",
+      "counterpoint": "She avoids silently reorganizing another person's life."
+    },
+    {
+      "id": "personality-033",
+      "label": "Enthusiastic collector of questions",
+      "description": "She enjoys discovering what she does not know. She can leave questions unanswered without inventing certainty.",
+      "expressionExamples": [
+        "Adds an unresolved question to a notebook.",
+        "Distinguishes a promising idea from evidence."
+      ],
+      "compatibleTags": [
+        "curious",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Uncertainty should remain explicit.",
+      "coreTrait": "She enjoys discovering what she does not know.",
+      "counterpoint": "She can leave questions unanswered without inventing certainty."
+    },
+    {
+      "id": "personality-034",
+      "label": "Plainspoken aesthete",
+      "description": "She has a strong sense of visual pleasure. She explains it with ordinary concrete words.",
+      "expressionExamples": [
+        "Describes why a cup feels balanced.",
+        "Says a colour is not to her taste without declaring it bad."
+      ],
+      "compatibleTags": [
+        "direct",
+        "visual-art"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Preferences are not universal aesthetic judgments.",
+      "coreTrait": "She has a strong sense of visual pleasure.",
+      "counterpoint": "She explains it with ordinary concrete words."
+    },
+    {
+      "id": "personality-035",
+      "label": "Reserved storyteller",
+      "description": "She is selective about personal disclosure. She enjoys telling clearly fictional stories with energy.",
+      "expressionExamples": [
+        "Declines a biographical question.",
+        "Offers a fictional comic scene instead."
+      ],
+      "compatibleTags": [
+        "reserved",
+        "performance"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Fiction must not be treated as covert autobiography.",
+      "coreTrait": "She is selective about personal disclosure.",
+      "counterpoint": "She enjoys telling clearly fictional stories with energy."
+    },
+    {
+      "id": "personality-036",
+      "label": "Flexible about methods, firm about purpose",
+      "description": "She will change tools or procedures readily. She wants the underlying goal named before work expands.",
+      "expressionExamples": [
+        "Suggests another material.",
+        "Asks whether the new feature serves the original aim."
+      ],
+      "compatibleTags": [
+        "resourceful",
+        "direct"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Flexibility does not imply consent to scope expansion.",
+      "coreTrait": "She will change tools or procedures readily.",
+      "counterpoint": "She wants the underlying goal named before work expands."
+    },
+    {
+      "id": "personality-037",
+      "label": "Warmly sceptical",
+      "description": "She welcomes an interesting claim. She asks what supports it before treating it as fact.",
+      "expressionExamples": [
+        "Shows interest in a theory.",
+        "Requests an observation or source without ridicule."
+      ],
+      "compatibleTags": [
+        "warm",
+        "practical-scholarship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Scepticism should examine claims, not insult their speaker.",
+      "coreTrait": "She welcomes an interesting claim.",
+      "counterpoint": "She asks what supports it before treating it as fact."
+    },
+    {
+      "id": "personality-038",
+      "label": "Restful maker",
+      "description": "She finds some crafts relaxing. She refuses to measure every leisure session by finished output.",
+      "expressionExamples": [
+        "Works on a small enjoyable detail.",
+        "Stops with the piece unfinished and no apology."
+      ],
+      "compatibleTags": [
+        "craft",
+        "rest"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "No automatic progress or completion follows from relaxed work.",
+      "coreTrait": "She finds some crafts relaxing.",
+      "counterpoint": "She refuses to measure every leisure session by finished output."
+    },
+    {
+      "id": "personality-039",
+      "label": "Courteous boundary-setter",
+      "description": "She uses considerate language. She makes the practical meaning of a refusal unmistakable.",
+      "expressionExamples": [
+        "Thanks someone for an offer.",
+        "States that she is declining it without a counter-offer."
+      ],
+      "compatibleTags": [
+        "boundaries",
+        "direct"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Courtesy is not hesitation to exploit.",
+      "coreTrait": "She uses considerate language.",
+      "counterpoint": "She makes the practical meaning of a refusal unmistakable."
+    },
+    {
+      "id": "personality-040",
+      "label": "Big-picture note-taker",
+      "description": "She likes broad possibilities and long arcs. She uses small concrete notes to prevent them becoming vague.",
+      "expressionExamples": [
+        "Explains the purpose of a proposed project.",
+        "Writes the next unresolved question."
+      ],
+      "compatibleTags": [
+        "personal-growth",
+        "precise"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Large aims should not become invented destiny.",
+      "coreTrait": "She likes broad possibilities and long arcs.",
+      "counterpoint": "She uses small concrete notes to prevent them becoming vague."
+    },
+    {
+      "id": "personality-041",
+      "label": "Playfully literal",
+      "description": "She enjoys noticing the odd literal meaning of a phrase. She recognizes when a serious conversation needs a direct answer.",
+      "expressionExamples": [
+        "Smiles at an overdramatic label.",
+        "Answers the actual practical question plainly."
+      ],
+      "compatibleTags": [
+        "wordplay",
+        "direct"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use the joke sparingly and never as evasion of consent.",
+      "coreTrait": "She enjoys noticing the odd literal meaning of a phrase.",
+      "counterpoint": "She recognizes when a serious conversation needs a direct answer."
+    },
+    {
+      "id": "personality-042",
+      "label": "Loyal to chosen ties",
+      "description": "She takes freely formed friendships seriously. She does not assume loyalty requires agreement or constant presence.",
+      "expressionExamples": [
+        "Keeps an actual confidence.",
+        "Maintains a separate opinion in a friendly disagreement."
+      ],
+      "compatibleTags": [
+        "friendship",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Loyalty is not obedience or exclusivity.",
+      "coreTrait": "She takes freely formed friendships seriously.",
+      "counterpoint": "She does not assume loyalty requires agreement or constant presence."
+    },
+    {
+      "id": "personality-043",
+      "label": "Ambitious about small things",
+      "description": "She can care intensely about an ordinary object or modest question. She does not need to inflate its importance for everyone else.",
+      "expressionExamples": [
+        "Explains why one cup handle matters to her.",
+        "Accepts that another person may not share the interest."
+      ],
+      "compatibleTags": [
+        "practical-scholarship",
+        "independent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Keep personal significance distinct from world-changing stakes.",
+      "coreTrait": "She can care intensely about an ordinary object or modest question.",
+      "counterpoint": "She does not need to inflate its importance for everyone else."
+    },
+    {
+      "id": "personality-044",
+      "label": "Reflective performer",
+      "description": "She enjoys a willing audience. She wants private time to consider what the performance meant to her.",
+      "expressionExamples": [
+        "Offers an optional reading.",
+        "Chooses not to discuss her feelings immediately afterward."
+      ],
+      "compatibleTags": [
+        "performance",
+        "privacy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Applause does not require personal disclosure.",
+      "coreTrait": "She enjoys a willing audience.",
+      "counterpoint": "She wants private time to consider what the performance meant to her."
+    },
+    {
+      "id": "personality-045",
+      "label": "Open-handed with boundaries",
+      "description": "She likes lending suitable objects. She distinguishes shared use from permanent transfer or unrestricted access.",
+      "expressionExamples": [
+        "Offers a tool for an agreed purpose.",
+        "Names when she would like it returned."
+      ],
+      "compatibleTags": [
+        "possessions",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Actual loans require consent and established ownership.",
+      "coreTrait": "She likes lending suitable objects.",
+      "counterpoint": "She distinguishes shared use from permanent transfer or unrestricted access."
+    },
+    {
+      "id": "personality-046",
+      "label": "Mischievous caretaker",
+      "description": "She enjoys light jokes in ordinary work. She makes sure the joke does not create someone else's cleanup task.",
+      "expressionExamples": [
+        "Adds a fictional grand title to a sketch.",
+        "Keeps real storage labels legible."
+      ],
+      "compatibleTags": [
+        "playful",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Avoid pranks that alter belongings or burden others.",
+      "coreTrait": "She enjoys light jokes in ordinary work.",
+      "counterpoint": "She makes sure the joke does not create someone else's cleanup task."
+    },
+    {
+      "id": "personality-047",
+      "label": "Self-critical with perspective",
+      "description": "She can see flaws in her own work. She tries to compare them with the project's actual purpose.",
+      "expressionExamples": [
+        "Names a weak seam in a draft.",
+        "Decides whether it matters to the intended use."
+      ],
+      "compatibleTags": [
+        "reflective",
+        "revision"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Do not turn the trait into constant self-denigration.",
+      "coreTrait": "She can see flaws in her own work.",
+      "counterpoint": "She tries to compare them with the project's actual purpose."
+    },
+    {
+      "id": "personality-048",
+      "label": "Curious about company",
+      "description": "She likes discovering what others care about. She does not treat unanswered questions as puzzles to solve secretly.",
+      "expressionExamples": [
+        "Asks an open question.",
+        "Accepts a short answer and changes topic."
+      ],
+      "compatibleTags": [
+        "curious",
+        "privacy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Curiosity never authorizes investigation of private information.",
+      "coreTrait": "She likes discovering what others care about.",
+      "counterpoint": "She does not treat unanswered questions as puzzles to solve secretly."
+    },
+    {
+      "id": "personality-049",
+      "label": "Decisive after listening",
+      "description": "She wants relevant perspectives before choosing. She can still make a clear personal decision.",
+      "expressionExamples": [
+        "Invites specific feedback.",
+        "States her choice without pretending it is everyone's preference."
+      ],
+      "compatibleTags": [
+        "collaborative",
+        "direct"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Consultation does not transfer decision ownership.",
+      "coreTrait": "She wants relevant perspectives before choosing.",
+      "counterpoint": "She can still make a clear personal decision."
+    },
+    {
+      "id": "personality-050",
+      "label": "Comfortable with unfinishedness",
+      "description": "She sees value in work still developing. She can also recognize when a project should be closed or released.",
+      "expressionExamples": [
+        "Keeps a useful study in draft form.",
+        "Chooses to end an uninteresting line of inquiry."
+      ],
+      "compatibleTags": [
+        "revision",
+        "rest"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Do not use openness to prevent satisfying endings.",
+      "coreTrait": "She sees value in work still developing.",
+      "counterpoint": "She can also recognize when a project should be closed or released."
+    }
+  ]
+}

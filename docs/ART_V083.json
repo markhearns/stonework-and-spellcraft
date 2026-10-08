@@ -1,0 +1,32 @@
+{
+  "version": "0.83",
+  "style": "Hand-colored woodcut engraving",
+  "assets": [
+    {
+      "id": "nav-magic",
+      "path": "static/assets/ui/nav-magic.webp",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 8582,
+      "sha256": "e2477136bc39489d403f941f8fa1d55e1c2f08e5259249e8e9d5273698188439",
+      "alpha": true,
+      "prompt": "Generate one isolated game navigation icon, A small brass astrolabe-like circular spell sigil with a single softly glowing muted amethyst star suspended in its center, instantly reads as practical magic, no books. Match a refined hand-colored woodcut engraving style, delicate dark ink hatching, warm aged parchment highlights on the object, muted brass, steel and plum palette. Three-quarter view, simple bold silhouette readable at 32 pixels. Single coherent object group centered with 12% clear margin, no text, no lettering, no border, no scene, no background. Transparent background with real alpha. This belongs in a quiet gothic castle household game.",
+      "use": "Primary navigation: magic"
+    },
+    {
+      "id": "nav-workshop",
+      "path": "static/assets/ui/nav-workshop.webp",
+      "size": [
+        128,
+        128
+      ],
+      "bytes": 8152,
+      "sha256": "d3cfe685e3d4453f83caa6d8aba5035d8719da9aed5be75a8d1fe123369f0010",
+      "alpha": true,
+      "prompt": "Generate one isolated game navigation icon, A small steel engraving hammer crossed over a brass caliper and a tiny wood shaving, instantly reads as crafting and practical workshop tools, no books. Match a refined hand-colored woodcut engraving style, delicate dark ink hatching, warm aged parchment highlights on the object, muted brass, steel and plum palette. Three-quarter view, simple bold silhouette readable at 32 pixels. Single coherent object group centered with 12% clear margin, no text, no lettering, no border, no scene, no background. Transparent background with real alpha. This belongs in a quiet gothic castle household game.",
+      "use": "Primary navigation: workshop"
+    }
+  ]
+}

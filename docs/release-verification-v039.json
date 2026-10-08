@@ -1,0 +1,59 @@
+{
+  "release": "0.39",
+  "saveSchema": 37,
+  "date": "2026-10-05",
+  "python": {
+    "command": "python -m unittest discover -s tests -q",
+    "testsPassed": 453,
+    "failed": 0
+  },
+  "connectedHeadlessUI": {
+    "passed": 17,
+    "suites": [
+      "test_ui.cjs",
+      "test_ui_arrivals.cjs",
+      "test_ui_builds.cjs",
+      "test_ui_candidates.cjs",
+      "test_ui_cast.cjs",
+      "test_ui_containment.cjs",
+      "test_ui_content_packs.cjs",
+      "test_ui_equipment.cjs",
+      "test_ui_estate.cjs",
+      "test_ui_fieldcraft.cjs",
+      "test_ui_household_content.cjs",
+      "test_ui_local.cjs",
+      "test_ui_mystery.cjs",
+      "test_ui_public_content.cjs",
+      "test_ui_public_integration.cjs",
+      "test_ui_public_workshop.cjs",
+      "test_ui_stories.cjs"
+    ]
+  },
+  "javascriptSyntax": "passed",
+  "publicContent": {
+    "packs": 16,
+    "contentRecords": 1599,
+    "fixedMechanicsAdapters": 319,
+    "unroutedRecordIds": []
+  },
+  "foundations": {
+    "records": 3595,
+    "occupationMappings": 30,
+    "unmappedOccupations": 0,
+    "continuingStorySeeds": 525,
+    "mappedGolemAppearances": 25
+  },
+  "sourceArchivesUnchangedFromV038": true,
+  "renderedBrowser": {
+    "attempted": true,
+    "verified": false,
+    "error": "net::ERR_BLOCKED_BY_CLIENT opening the local server"
+  },
+  "notVerified": [
+    "live model quality",
+    "Docker execution",
+    "long-run balance",
+    "real external-agent/co-op integration"
+  ],
+  "artwork": "Production briefs and import/review/rollback are integrated; new artwork was not generated."
+}

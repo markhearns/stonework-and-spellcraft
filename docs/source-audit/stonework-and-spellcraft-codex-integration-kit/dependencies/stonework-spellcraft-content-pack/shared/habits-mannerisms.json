@@ -1,0 +1,965 @@
+{
+  "schemaVersion": 1,
+  "poolType": "habit-mannerism",
+  "entries": [
+    {
+      "id": "habit-001",
+      "label": "Squares the spare paper",
+      "description": "She aligns the edges of a loose scrap while considering a practical question.",
+      "expressionExamples": [
+        "Straightens the scrap, then returns to the question."
+      ],
+      "compatibleTags": [
+        "reflective",
+        "craft"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A spare scrap is already within reach.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not repeat the gesture with every thoughtful sentence."
+    },
+    {
+      "id": "habit-002",
+      "label": "Turns a pencil sideways",
+      "description": "She briefly holds a pencil across her fingers while comparing alternatives.",
+      "expressionExamples": [
+        "Turns the pencil sideways beside the sketch."
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "reflective"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is already using a pencil during a design discussion.",
+      "frequency": "occasional",
+      "avoidOveruse": "Use only when the pencil is actually present; do not invent a prop."
+    },
+    {
+      "id": "habit-003",
+      "label": "Checks an empty margin",
+      "description": "Her gaze moves to an unused part of the page before she adds a note.",
+      "expressionExamples": [
+        "Looks at the margin before choosing where to annotate."
+      ],
+      "compatibleTags": [
+        "archives",
+        "precise"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is reviewing her own writing.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not interpret the glance as anxiety or a hidden message."
+    },
+    {
+      "id": "habit-004",
+      "label": "Settles a cuff",
+      "description": "She smooths a cuff before beginning a careful task.",
+      "expressionExamples": [
+        "Smooths the cuff once and sets her attention on the task."
+      ],
+      "compatibleTags": [
+        "work",
+        "precise"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is wearing a suitable cuff and preparing to work.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not add cuffs to an established outfit or repeat it as ritual."
+    },
+    {
+      "id": "habit-005",
+      "label": "Tilts a sketch for light",
+      "description": "She changes the angle of a page to see a faint line more clearly.",
+      "expressionExamples": [
+        "Tilts the page toward the available light."
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "light"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A sketch and a relevant light source are established.",
+      "frequency": "occasional",
+      "avoidOveruse": "This is an ordinary adjustment, not a granted visual ability."
+    },
+    {
+      "id": "habit-006",
+      "label": "Pauses with an unfinished word",
+      "description": "She stops briefly before choosing a more exact word.",
+      "expressionExamples": [
+        "Begins a phrase, pauses, then uses a clearer term."
+      ],
+      "compatibleTags": [
+        "language",
+        "precise"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A distinction matters in the conversation.",
+      "frequency": "occasional",
+      "avoidOveruse": "Avoid making all her dialogue hesitant or fragmented."
+    },
+    {
+      "id": "habit-007",
+      "label": "Rests a finger beside the line",
+      "description": "She marks her place with a fingertip beside, not over, the text.",
+      "expressionExamples": [
+        "Keeps a finger beside the line while considering it."
+      ],
+      "compatibleTags": [
+        "reading",
+        "reflective"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is reading a suitable page she may handle.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not touch another person's document without permission."
+    },
+    {
+      "id": "habit-008",
+      "label": "Checks the reverse of a sample",
+      "description": "She turns an offered craft sample over to understand its construction.",
+      "expressionExamples": [
+        "Looks at the back of the seam as well as the front."
+      ],
+      "compatibleTags": [
+        "craft",
+        "curious"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "The sample is available and she has permission to handle it.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not use the habit to bypass ownership or handling limits."
+    },
+    {
+      "id": "habit-009",
+      "label": "Lifts one eyebrow at excess",
+      "description": "A slight raised eyebrow accompanies her amusement at unnecessary grandeur.",
+      "expressionExamples": [
+        "Raises an eyebrow at the magnificent title of a small brush."
+      ],
+      "compatibleTags": [
+        "dry-humour",
+        "playful"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A harmlessly overelaborate phrase or design has been offered.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not turn every expression into disdain or flirtation."
+    },
+    {
+      "id": "habit-010",
+      "label": "Leaves a deliberate gap",
+      "description": "She leaves a small space in her notes where information is missing.",
+      "expressionExamples": [
+        "Leaves the uncertain entry open rather than filling it."
+      ],
+      "compatibleTags": [
+        "archives",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is recording a question with an unknown answer.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not imply the missing fact has been discovered."
+    },
+    {
+      "id": "habit-011",
+      "label": "Turns a cup handle outward",
+      "description": "She repositions her own cup so its handle is easier to reach.",
+      "expressionExamples": [
+        "Turns the handle before returning to conversation."
+      ],
+      "compatibleTags": [
+        "tea",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "An appropriate personal cup is present.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not infer that drinking is suitable for every character."
+    },
+    {
+      "id": "habit-012",
+      "label": "Looks at the joint first",
+      "description": "Her attention goes to an object's join before its decoration.",
+      "expressionExamples": [
+        "Studies the join before commenting on the finish."
+      ],
+      "compatibleTags": [
+        "craft",
+        "practical-scholarship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A constructed object is the subject of discussion.",
+      "frequency": "occasional",
+      "avoidOveruse": "Observation does not grant knowledge of hidden construction."
+    },
+    {
+      "id": "habit-013",
+      "label": "Touches her own collar edge",
+      "description": "She lightly adjusts the edge of her own collar while settling into company.",
+      "expressionExamples": [
+        "Straightens the collar edge once."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "relaxed"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She wears an appropriate collar and the adjustment is comfortable.",
+      "frequency": "rare",
+      "avoidOveruse": "Keep it a self-directed adjustment, not an invitation to touch."
+    },
+    {
+      "id": "habit-014",
+      "label": "Adds a tiny comparison mark",
+      "description": "She makes a modest mark beside two options she wants to compare.",
+      "expressionExamples": [
+        "Marks the two alternative lines with small dots."
+      ],
+      "compatibleTags": [
+        "archives",
+        "precise"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is working on her own draft or an approved shared copy.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not turn marks into executable symbols or magical effects."
+    },
+    {
+      "id": "habit-015",
+      "label": "Glances toward a free seat",
+      "description": "She checks available seating before proposing where to talk.",
+      "expressionExamples": [
+        "Looks toward an unoccupied seat, then asks rather than assigning it."
+      ],
+      "compatibleTags": [
+        "hospitality",
+        "reflective"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "The room's seating is already established.",
+      "frequency": "occasional",
+      "avoidOveruse": "A glance does not move a participant or claim a chair."
+    },
+    {
+      "id": "habit-016",
+      "label": "Rolls a loose thread end",
+      "description": "She briefly rolls a loose thread end between her fingertips while thinking about a seam.",
+      "expressionExamples": [
+        "Rolls the spare end, then lays it beside the work."
+      ],
+      "compatibleTags": [
+        "textiles",
+        "reflective"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is doing textile work with her own materials.",
+      "frequency": "occasional",
+      "avoidOveruse": "Avoid making the gesture constant or implying distress."
+    },
+    {
+      "id": "habit-017",
+      "label": "Reframes the question aloud",
+      "description": "She repeats the useful core of a complicated question in simpler words.",
+      "expressionExamples": [
+        "Asks whether the real question is fit rather than decoration."
+      ],
+      "compatibleTags": [
+        "direct",
+        "practical-scholarship"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A discussion has accumulated several separate issues.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not let restatement replace answering the actual question."
+    },
+    {
+      "id": "habit-018",
+      "label": "Keeps a place for the unfinished tool",
+      "description": "She sets a tool down in a consistent spot within her own work area.",
+      "expressionExamples": [
+        "Returns the tool to the edge of her own tray."
+      ],
+      "compatibleTags": [
+        "work",
+        "possessions"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is pausing an established craft task.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not reorganize shared or personal property through the habit."
+    },
+    {
+      "id": "habit-019",
+      "label": "Briefly studies a shadow edge",
+      "description": "She notices how an ordinary shadow changes a nearby shape.",
+      "expressionExamples": [
+        "Looks at the shadow before describing the contour."
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "light"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "Lighting is relevant to the current activity.",
+      "frequency": "rare",
+      "avoidOveruse": "Use for visual attention, not secret perception or omens."
+    },
+    {
+      "id": "habit-020",
+      "label": "Lets a joke end quietly",
+      "description": "She allows a small joke to stand without explaining why it is funny.",
+      "expressionExamples": [
+        "Finishes the dry remark and returns to the subject."
+      ],
+      "compatibleTags": [
+        "dry-humour",
+        "plain"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A restrained joke has been offered in a suitable conversation.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not demand laughter or establish another person's reaction."
+    },
+    {
+      "id": "habit-021",
+      "label": "Holds up a draft at arm's length",
+      "description": "She briefly views her own drawing from farther away.",
+      "expressionExamples": [
+        "Moves the page back to consider the overall shape."
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "revision"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is reviewing a drawing and her form supports the movement.",
+      "frequency": "occasional",
+      "avoidOveruse": "No special visual acuity or result is implied."
+    },
+    {
+      "id": "habit-022",
+      "label": "Smooths the empty cloth corner",
+      "description": "She smooths a spare corner of work cloth before laying something on it.",
+      "expressionExamples": [
+        "Smooths the corner without disturbing the rest of the table."
+      ],
+      "compatibleTags": [
+        "textiles",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A suitable cloth and agreed work surface are present.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not portray tidiness as permission to move others' work."
+    },
+    {
+      "id": "habit-023",
+      "label": "Looks aside to recall a word",
+      "description": "She briefly looks away while searching for the word she wants.",
+      "expressionExamples": [
+        "Looks aside, then returns with a simpler phrase."
+      ],
+      "compatibleTags": [
+        "language",
+        "reflective"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is choosing wording in an ordinary conversation.",
+      "frequency": "occasional",
+      "avoidOveruse": "Avoid inventing a memory or making the pause ominous."
+    },
+    {
+      "id": "habit-024",
+      "label": "Counts options on her own fingers",
+      "description": "She uses a small finger gesture to distinguish a few proposed alternatives.",
+      "expressionExamples": [
+        "Marks each alternative with a finger while naming it."
+      ],
+      "compatibleTags": [
+        "direct",
+        "precise"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A conversation has several clear options and her hands support the gesture.",
+      "frequency": "rare",
+      "avoidOveruse": "These are conversational options, not game scores or actions."
+    },
+    {
+      "id": "habit-025",
+      "label": "Checks the blank back of a page",
+      "description": "She checks whether a loose page has unused space before choosing another.",
+      "expressionExamples": [
+        "Looks at the reverse before setting out a new sheet."
+      ],
+      "compatibleTags": [
+        "papercraft",
+        "sustainability"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She has permission to inspect and reuse the page.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not inspect private writing under the guise of reuse."
+    },
+    {
+      "id": "habit-026",
+      "label": "Offers a small open-palmed gesture",
+      "description": "She indicates an offered object or seat without pushing it toward anyone.",
+      "expressionExamples": [
+        "Gestures toward the option and waits."
+      ],
+      "compatibleTags": [
+        "hospitality",
+        "autonomy"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "An optional offer is being made.",
+      "frequency": "occasional",
+      "avoidOveruse": "The gesture does not establish acceptance or consent."
+    },
+    {
+      "id": "habit-027",
+      "label": "Sets a bookmark below the passage",
+      "description": "She positions a bookmark at the passage she hopes to revisit.",
+      "expressionExamples": [
+        "Places the marker below the chosen passage."
+      ],
+      "compatibleTags": [
+        "reading",
+        "archives"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is using a suitable book she may mark non-destructively.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not invent that she has read or understood the whole book."
+    },
+    {
+      "id": "habit-028",
+      "label": "Tilts her head at a shape",
+      "description": "She changes her viewing angle slightly when comparing a contour.",
+      "expressionExamples": [
+        "Tilts her head toward the drawing rather than deciding immediately."
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "curious"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A visual design is under discussion.",
+      "frequency": "occasional",
+      "avoidOveruse": "Avoid using the same pose as universal cuteness or consent."
+    },
+    {
+      "id": "habit-029",
+      "label": "Returns to one concrete example",
+      "description": "She brings a drifting discussion back to an ordinary example.",
+      "expressionExamples": [
+        "Uses the proposed cup handle to clarify the larger point."
+      ],
+      "compatibleTags": [
+        "practical-scholarship",
+        "direct"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A broad conversation would benefit from a specific case.",
+      "frequency": "occasional",
+      "avoidOveruse": "The example should be hypothetical unless already established."
+    },
+    {
+      "id": "habit-030",
+      "label": "Taps a quiet rhythm on her own knee",
+      "description": "She briefly marks a musical pattern without taking over the room.",
+      "expressionExamples": [
+        "Taps a short pattern, then stops."
+      ],
+      "compatibleTags": [
+        "music",
+        "playful"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "Music is the topic and quiet tapping is welcome.",
+      "frequency": "rare",
+      "avoidOveruse": "Do not impose noise during quiet work or repeat it constantly."
+    },
+    {
+      "id": "habit-031",
+      "label": "Checks the edge of a garment",
+      "description": "She notices whether her own hem or sleeve is catching on a seat.",
+      "expressionExamples": [
+        "Frees her own hem from the edge of the chair."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "accessibility"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is wearing a suitable garment and changing posture.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not add exposure, touching by others or automatic costume changes."
+    },
+    {
+      "id": "habit-032",
+      "label": "Underlines the actual question",
+      "description": "She gives one question visual emphasis in her own notes.",
+      "expressionExamples": [
+        "Underlines the question rather than every interesting detail."
+      ],
+      "compatibleTags": [
+        "archives",
+        "precise"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is separating a project's purpose from optional additions.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not imply the question is solved by marking it."
+    },
+    {
+      "id": "habit-033",
+      "label": "Keeps a restrained half-smile",
+      "description": "A small half-smile accompanies a mutually understood bit of play.",
+      "expressionExamples": [
+        "Lets a brief half-smile accompany the dry tease."
+      ],
+      "compatibleTags": [
+        "playful",
+        "sensual"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "The conversation already supports a light tone.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not interpret the expression as a relationship commitment."
+    },
+    {
+      "id": "habit-034",
+      "label": "Brushes her own hair clear",
+      "description": "She moves her hair away from her own work or face.",
+      "expressionExamples": [
+        "Moves a loose lock clear of the page."
+      ],
+      "compatibleTags": [
+        "work",
+        "relaxed"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "Her established hairstyle and form permit the adjustment.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not invent hair or treat the gesture as an invitation to handle it."
+    },
+    {
+      "id": "habit-035",
+      "label": "Looks for a practical label",
+      "description": "She checks a label before asking someone to repeat information.",
+      "expressionExamples": [
+        "Glances at the label before forming her question."
+      ],
+      "compatibleTags": [
+        "archives",
+        "resourceful"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A relevant label is present and readable to her established capabilities.",
+      "frequency": "occasional",
+      "avoidOveruse": "Reading ability and label contents must not be invented."
+    },
+    {
+      "id": "habit-036",
+      "label": "Separates used and unused scraps",
+      "description": "She sets used practice scraps apart from clean material in her own area.",
+      "expressionExamples": [
+        "Places the marked scrap beside the clean pile."
+      ],
+      "compatibleTags": [
+        "craft",
+        "sustainability"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is working with suitable spare material.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not make this a moral judgment about another person's workspace."
+    },
+    {
+      "id": "habit-037",
+      "label": "Softens a joke with a plain line",
+      "description": "She follows a playful exaggeration with a clear practical statement when needed.",
+      "expressionExamples": [
+        "Adds that the offer is simply tea and may be declined."
+      ],
+      "compatibleTags": [
+        "playful",
+        "direct"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A joke might otherwise obscure an actual request.",
+      "frequency": "occasional",
+      "avoidOveruse": "Clarity should be brief, not an explanation after every joke."
+    },
+    {
+      "id": "habit-038",
+      "label": "Keeps both versions visible",
+      "description": "She places two drafts side by side rather than immediately discarding one.",
+      "expressionExamples": [
+        "Leaves both sketches open while discussing their purposes."
+      ],
+      "compatibleTags": [
+        "revision",
+        "reflective"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is comparing work she is entitled to handle.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not infer indecision or require a final choice now."
+    },
+    {
+      "id": "habit-039",
+      "label": "Checks a chair before settling",
+      "description": "She considers whether an available chair suits her body and clothing.",
+      "expressionExamples": [
+        "Asks about room behind the seat before choosing it."
+      ],
+      "compatibleTags": [
+        "accessibility",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A seat is offered and its actual design is known.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not automatically establish sitting, wing compression or tail discomfort."
+    },
+    {
+      "id": "habit-040",
+      "label": "Pauses before personal disclosure",
+      "description": "She takes a moment to choose the scope of a personal answer.",
+      "expressionExamples": [
+        "Offers only the detail she has chosen to share."
+      ],
+      "compatibleTags": [
+        "privacy",
+        "reflective"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A question touches on information she may wish to keep private.",
+      "frequency": "occasional",
+      "avoidOveruse": "The pause is not evidence of a secret or lie."
+    },
+    {
+      "id": "habit-041",
+      "label": "Turns an ornament to its plain side",
+      "description": "She enjoys examining the less decorated side of a handmade object.",
+      "expressionExamples": [
+        "Looks at its simple underside before praising the work."
+      ],
+      "compatibleTags": [
+        "craft",
+        "curious"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She has permission to handle the object.",
+      "frequency": "rare",
+      "avoidOveruse": "Do not invent hidden inscriptions or concealed functions."
+    },
+    {
+      "id": "habit-042",
+      "label": "Leaves a small gap in conversation",
+      "description": "She allows room for another person to speak without demanding that they do.",
+      "expressionExamples": [
+        "Finishes her thought and lets the pause remain."
+      ],
+      "compatibleTags": [
+        "quiet-company",
+        "consent"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "A shared conversation has reached a natural pause.",
+      "frequency": "occasional",
+      "avoidOveruse": "Silence does not establish agreement or discomfort."
+    },
+    {
+      "id": "habit-043",
+      "label": "Adjusts her own sash",
+      "description": "She settles a sash or belt so it rests comfortably on her body.",
+      "expressionExamples": [
+        "Adjusts the side fastening of her own sash."
+      ],
+      "compatibleTags": [
+        "tailoring",
+        "sensual"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "The established outfit includes a suitable adjustable component.",
+      "frequency": "rare",
+      "avoidOveruse": "Keep coverage unchanged and do not infer flirtation from adjustment."
+    },
+    {
+      "id": "habit-044",
+      "label": "Checks the questioner before explaining",
+      "description": "She asks whether a short explanation or more detail is wanted.",
+      "expressionExamples": [
+        "Offers a brief version before a longer discussion."
+      ],
+      "compatibleTags": [
+        "collaborative",
+        "boundaries"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "Someone has expressed an interest in a subject she actually knows.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not assume expertise or force an explanation on the listener."
+    },
+    {
+      "id": "habit-045",
+      "label": "Adds a small visual joke to her draft",
+      "description": "She gives a private practice drawing a harmless comic detail.",
+      "expressionExamples": [
+        "Draws an absurdly dignified handle on a practice cup."
+      ],
+      "compatibleTags": [
+        "visual-art",
+        "humour"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "The draft is her own and clearly nonauthoritative.",
+      "frequency": "rare",
+      "avoidOveruse": "Keep jokes out of practical records where they could mislead."
+    },
+    {
+      "id": "habit-046",
+      "label": "Returns a sample to its place",
+      "description": "She puts a permitted sample back where its owner indicated.",
+      "expressionExamples": [
+        "Returns the sample rather than leaving it in her work area."
+      ],
+      "compatibleTags": [
+        "possessions",
+        "trust"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "An object has been handled with permission.",
+      "frequency": "occasional",
+      "avoidOveruse": "Actual handling and return must occur in play, not be assumed."
+    },
+    {
+      "id": "habit-047",
+      "label": "Checks the room's noise before speaking",
+      "description": "She notices whether a longer conversation would interrupt nearby work.",
+      "expressionExamples": [
+        "Asks whether this is a good place for a longer discussion."
+      ],
+      "compatibleTags": [
+        "social",
+        "work"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "The shared room and its occupants are actually established.",
+      "frequency": "occasional",
+      "avoidOveruse": "Do not infer private conversations or other characters' thoughts."
+    },
+    {
+      "id": "habit-048",
+      "label": "Names a pleasing detail under her breath",
+      "description": "She quietly notes a small feature she appreciates while studying it.",
+      "expressionExamples": [
+        "Remarks on the neatness of an ordinary join."
+      ],
+      "compatibleTags": [
+        "craft",
+        "modest"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She is engaged in an appropriate visual or craft activity.",
+      "frequency": "rare",
+      "avoidOveruse": "Do not make every detail wondrous or mechanically significant."
+    },
+    {
+      "id": "habit-049",
+      "label": "Settles her folded wings",
+      "description": "She makes a small adjustment to the position of her own folded feathered wings.",
+      "expressionExamples": [
+        "Settles the outer feathers clear of an open-backed seat."
+      ],
+      "compatibleTags": [
+        "accessibility",
+        "relaxed"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [
+        "seraph"
+      ],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "She has established wings and enough space for a comfortable adjustment.",
+      "frequency": "rare",
+      "avoidOveruse": "Do not imply flight, new anatomy or access to someone else's space."
+    },
+    {
+      "id": "habit-050",
+      "label": "Keeps her own tail clear",
+      "description": "She notices where her established tail rests relative to a chair or walkway.",
+      "expressionExamples": [
+        "Draws her tail clear of the path without attracting attention."
+      ],
+      "compatibleTags": [
+        "accessibility",
+        "domestic"
+      ],
+      "conflictsWith": [],
+      "ancestryRestrictions": [
+        "catfolk",
+        "bovinefolk",
+        "wolfkin",
+        "demon",
+        "dragonkin",
+        "kitsune"
+      ],
+      "excludedAncestries": [],
+      "usageNotes": "Use only in the stated context and with the character’s established body, clothing and available objects. The example is not a canonical event.",
+      "trigger": "Her ancestry and actual appearance include a tail.",
+      "frequency": "rare",
+      "avoidOveruse": "Avoid constant tail commentary or equating movement with mood."
+    }
+  ]
+}

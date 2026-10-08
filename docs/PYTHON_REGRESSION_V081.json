@@ -1,0 +1,548 @@
+[
+  {
+    "suite": "test_armoury.py",
+    "passed": true,
+    "tests": 15,
+    "seconds": 1.13
+  },
+  {
+    "suite": "test_armoury_http.py",
+    "passed": true,
+    "tests": 1,
+    "seconds": 0.71
+  },
+  {
+    "suite": "test_arrival.py",
+    "passed": true,
+    "tests": 5,
+    "seconds": 0.99
+  },
+  {
+    "suite": "test_arrival_paths.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 1.43
+  },
+  {
+    "suite": "test_art_release.py",
+    "passed": true,
+    "tests": 4,
+    "seconds": 0.68
+  },
+  {
+    "suite": "test_art_v053.py",
+    "passed": true,
+    "tests": 5,
+    "seconds": 0.44
+  },
+  {
+    "suite": "test_attribute_integration.py",
+    "passed": true,
+    "tests": 16,
+    "seconds": 1.49
+  },
+  {
+    "suite": "test_augmentations.py",
+    "passed": true,
+    "tests": 7,
+    "seconds": 0.5
+  },
+  {
+    "suite": "test_campaign_review.py",
+    "passed": true,
+    "tests": 4,
+    "seconds": 38.51
+  },
+  {
+    "suite": "test_campaigns.py",
+    "passed": true,
+    "tests": 3,
+    "seconds": 1.66
+  },
+  {
+    "suite": "test_candidate_http.py",
+    "passed": true,
+    "tests": 1,
+    "seconds": 0.4
+  },
+  {
+    "suite": "test_candidate_proposals.py",
+    "passed": true,
+    "tests": 12,
+    "seconds": 0.62
+  },
+  {
+    "suite": "test_casting_plans.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 1.39
+  },
+  {
+    "suite": "test_castle_chapter.py",
+    "passed": true,
+    "tests": 10,
+    "seconds": 2.3
+  },
+  {
+    "suite": "test_castle_mystery.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 1.36
+  },
+  {
+    "suite": "test_chapter_five_flow.py",
+    "passed": true,
+    "tests": 1,
+    "seconds": 41.44
+  },
+  {
+    "suite": "test_character_builds.py",
+    "passed": true,
+    "tests": 12,
+    "seconds": 1.79
+  },
+  {
+    "suite": "test_character_pool.py",
+    "passed": true,
+    "tests": 7,
+    "seconds": 0.27
+  },
+  {
+    "suite": "test_character_quests.py",
+    "passed": true,
+    "tests": 17,
+    "seconds": 17.65
+  },
+  {
+    "suite": "test_companion_almanac.py",
+    "passed": true,
+    "tests": 20,
+    "seconds": 2.98
+  },
+  {
+    "suite": "test_companion_life.py",
+    "passed": true,
+    "tests": 10,
+    "seconds": 0.67
+  },
+  {
+    "suite": "test_companion_participation.py",
+    "passed": true,
+    "tests": 16,
+    "seconds": 0.69
+  },
+  {
+    "suite": "test_containment.py",
+    "passed": true,
+    "tests": 12,
+    "seconds": 2.16
+  },
+  {
+    "suite": "test_content_packs.py",
+    "passed": true,
+    "tests": 14,
+    "seconds": 1.17
+  },
+  {
+    "suite": "test_armoury_integration.py",
+    "passed": true,
+    "tests": 4,
+    "seconds": 3.71
+  },
+  {
+    "suite": "test_customization.py",
+    "passed": true,
+    "tests": 22,
+    "seconds": 0.39
+  },
+  {
+    "suite": "test_delegation.py",
+    "passed": true,
+    "tests": 10,
+    "seconds": 1.16
+  },
+  {
+    "suite": "test_development.py",
+    "passed": true,
+    "tests": 10,
+    "seconds": 2.89
+  },
+  {
+    "suite": "test_dialogue.py",
+    "passed": true,
+    "tests": 18,
+    "seconds": 1.68
+  },
+  {
+    "suite": "test_encounters.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 0.63
+  },
+  {
+    "suite": "test_equipment.py",
+    "passed": true,
+    "tests": 3,
+    "seconds": 0.24
+  },
+  {
+    "suite": "test_estate_expansion.py",
+    "passed": true,
+    "tests": 9,
+    "seconds": 2.48
+  },
+  {
+    "suite": "test_expansion.py",
+    "passed": true,
+    "tests": 7,
+    "seconds": 0.95
+  },
+  {
+    "suite": "test_expansion_http.py",
+    "passed": true,
+    "tests": 1,
+    "seconds": 1.02
+  },
+  {
+    "suite": "test_expansion_packs.py",
+    "passed": true,
+    "tests": 4,
+    "seconds": 0.16
+  },
+  {
+    "suite": "test_expedition.py",
+    "passed": true,
+    "tests": 7,
+    "seconds": 0.53
+  },
+  {
+    "suite": "test_fieldcraft.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 1.16
+  },
+  {
+    "suite": "test_finances.py",
+    "passed": true,
+    "tests": 10,
+    "seconds": 0.51
+  },
+  {
+    "suite": "test_first_hearth.py",
+    "passed": true,
+    "tests": 13,
+    "seconds": 12.0
+  },
+  {
+    "suite": "test_focus.py",
+    "passed": true,
+    "tests": 6,
+    "seconds": 1.36
+  },
+  {
+    "suite": "test_founder_setup.py",
+    "passed": true,
+    "tests": 7,
+    "seconds": 0.39
+  },
+  {
+    "suite": "test_game.py",
+    "passed": true,
+    "tests": 9,
+    "seconds": 1.57
+  },
+  {
+    "suite": "test_guidance.py",
+    "passed": true,
+    "tests": 5,
+    "seconds": 0.31
+  },
+  {
+    "suite": "test_headquarters.py",
+    "passed": true,
+    "tests": 16,
+    "seconds": 1.27
+  },
+  {
+    "suite": "test_headquarters_workers.py",
+    "passed": true,
+    "tests": 16,
+    "seconds": 0.94
+  },
+  {
+    "suite": "test_house_shape.py",
+    "passed": true,
+    "tests": 11,
+    "seconds": 32.33
+  },
+  {
+    "suite": "test_household_chapters.py",
+    "passed": true,
+    "tests": 16,
+    "seconds": 0.45
+  },
+  {
+    "suite": "test_household_content.py",
+    "passed": true,
+    "tests": 9,
+    "seconds": 0.92
+  },
+  {
+    "suite": "test_household_sagas.py",
+    "passed": true,
+    "tests": 18,
+    "seconds": 18.78
+  },
+  {
+    "suite": "test_housing.py",
+    "passed": true,
+    "tests": 6,
+    "seconds": 0.77
+  },
+  {
+    "suite": "test_iona_conversation.py",
+    "passed": true,
+    "tests": 4,
+    "seconds": 0.16
+  },
+  {
+    "suite": "test_iona_life.py",
+    "passed": true,
+    "tests": 11,
+    "seconds": 2.19
+  },
+  {
+    "suite": "test_keeping_hearth.py",
+    "passed": true,
+    "tests": 9,
+    "seconds": 66.33
+  },
+  {
+    "suite": "test_lantern_adventure.py",
+    "passed": true,
+    "tests": 13,
+    "seconds": 0.75
+  },
+  {
+    "suite": "test_lessons.py",
+    "passed": true,
+    "tests": 9,
+    "seconds": 0.5
+  },
+  {
+    "suite": "test_living_wing.py",
+    "passed": true,
+    "tests": 9,
+    "seconds": 2.31
+  },
+  {
+    "suite": "test_local_expansion.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 1.67
+  },
+  {
+    "suite": "test_magic_overhaul.py",
+    "passed": true,
+    "tests": 22,
+    "seconds": 6.24
+  },
+  {
+    "suite": "test_neighbours.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 2.74
+  },
+  {
+    "suite": "test_npc_policy.py",
+    "passed": true,
+    "tests": 3,
+    "seconds": 0.12
+  },
+  {
+    "suite": "test_opening_guide.py",
+    "passed": true,
+    "tests": 5,
+    "seconds": 1.38
+  },
+  {
+    "suite": "test_outfits.py",
+    "passed": true,
+    "tests": 10,
+    "seconds": 0.22
+  },
+  {
+    "suite": "test_party_journeys.py",
+    "passed": true,
+    "tests": 28,
+    "seconds": 4.96
+  },
+  {
+    "suite": "test_person_registry.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 0.75
+  },
+  {
+    "suite": "test_personal_requests.py",
+    "passed": true,
+    "tests": 9,
+    "seconds": 0.58
+  },
+  {
+    "suite": "test_personal_stories.py",
+    "passed": true,
+    "tests": 7,
+    "seconds": 0.31
+  },
+  {
+    "suite": "test_planning.py",
+    "passed": true,
+    "tests": 9,
+    "seconds": 1.79
+  },
+  {
+    "suite": "test_portrait_generation.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 0.39
+  },
+  {
+    "suite": "test_public_content.py",
+    "passed": true,
+    "tests": 7,
+    "seconds": 2.63
+  },
+  {
+    "suite": "test_public_integration.py",
+    "passed": true,
+    "tests": 20,
+    "seconds": 1.54
+  },
+  {
+    "suite": "test_public_workshop.py",
+    "passed": true,
+    "tests": 26,
+    "seconds": 0.82
+  },
+  {
+    "suite": "test_recruitment.py",
+    "passed": true,
+    "tests": 11,
+    "seconds": 2.19
+  },
+  {
+    "suite": "test_recruitment_reasons.py",
+    "passed": true,
+    "tests": 3,
+    "seconds": 0.11
+  },
+  {
+    "suite": "test_relationships.py",
+    "passed": true,
+    "tests": 14,
+    "seconds": 4.0
+  },
+  {
+    "suite": "test_resident_future.py",
+    "passed": true,
+    "tests": 21,
+    "seconds": 2.76
+  },
+  {
+    "suite": "test_resident_moments.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 0.35
+  },
+  {
+    "suite": "test_romance.py",
+    "passed": true,
+    "tests": 15,
+    "seconds": 4.48
+  },
+  {
+    "suite": "test_room_arrangements.py",
+    "passed": true,
+    "tests": 6,
+    "seconds": 0.23
+  },
+  {
+    "suite": "test_room_to_grow.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 28.04
+  },
+  {
+    "suite": "test_scene_drafts.py",
+    "passed": true,
+    "tests": 3,
+    "seconds": 0.27
+  },
+  {
+    "suite": "test_skills.py",
+    "passed": true,
+    "tests": 7,
+    "seconds": 1.03
+  },
+  {
+    "suite": "test_social_life.py",
+    "passed": true,
+    "tests": 12,
+    "seconds": 1.09
+  },
+  {
+    "suite": "test_solo_life.py",
+    "passed": true,
+    "tests": 10,
+    "seconds": 0.8
+  },
+  {
+    "suite": "test_solo_moments.py",
+    "passed": true,
+    "tests": 5,
+    "seconds": 0.79
+  },
+  {
+    "suite": "test_solo_start.py",
+    "passed": true,
+    "tests": 5,
+    "seconds": 4.59
+  },
+  {
+    "suite": "test_specializations.py",
+    "passed": true,
+    "tests": 8,
+    "seconds": 0.74
+  },
+  {
+    "suite": "test_spell_proposals.py",
+    "passed": true,
+    "tests": 2,
+    "seconds": 0.14
+  },
+  {
+    "suite": "test_spellcraft.py",
+    "passed": true,
+    "tests": 12,
+    "seconds": 1.8
+  },
+  {
+    "suite": "test_story_http.py",
+    "passed": true,
+    "tests": 1,
+    "seconds": 0.39
+  },
+  {
+    "suite": "test_summoned_cast.py",
+    "passed": true,
+    "tests": 9,
+    "seconds": 1.29
+  },
+  {
+    "suite": "test_summoning.py",
+    "passed": true,
+    "tests": 15,
+    "seconds": 1.7
+  }
+]

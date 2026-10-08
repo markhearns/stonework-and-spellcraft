@@ -1,0 +1,158 @@
+{
+  "mira": {
+    "2": {
+      "id": "mira-outfit-2",
+      "name": "Hearthside reading",
+      "description": "Soft opaque teal scoop-neck linen blouse with loose sleeves, charcoal knee-length skirt, simple slippers; small book held at her side."
+    },
+    "3": {
+      "id": "mira-outfit-3",
+      "name": "Midnight marginalia",
+      "description": "Opaque fitted teal slip dress, delicate dark lace edging over solid fabric, low but covered neckline and a tasteful thigh slit, plum wrap loose around elbows, bare feet; small book."
+    }
+  },
+  "tamsin": {
+    "2": {
+      "id": "tamsin-outfit-2",
+      "name": "Kitchen after hours",
+      "description": "Opaque cream off-shoulder peasant blouse, plum knee-length wrap skirt, bare feet, no work apron; feline ears and one fluffy tail."
+    },
+    "3": {
+      "id": "tamsin-outfit-3",
+      "name": "A private chapter",
+      "description": "Opaque charcoal and plum sweetheart-neckline short dress ending at mid-thigh, fitted waist, soft short open shawl, bare legs and slippers; expressive cat ears and one tail."
+    }
+  },
+  "iona": {
+    "2": {
+      "id": "iona-outfit-2",
+      "name": "Maps put aside",
+      "description": "Burgundy wrap crop top, charcoal knee-length side-slit wrap skirt over opaque shorts, brass pendant and flat dark ankle boots; near-black waves, dark horns and a spaded tail."
+    },
+    "3": {
+      "id": "iona-outfit-3",
+      "name": "An evening detour",
+      "description": "Deep-wine halter crop top, short charcoal wrap skirt over opaque shorts, delicate brass waist chain and flat black sandals; near-black waves, dark horns and a spaded tail."
+    }
+  },
+  "aurelia": {
+    "2": {
+      "id": "aurelia-outfit-2",
+      "name": "After the watch",
+      "description": "Plum off-shoulder blouse with elbow sleeves, charcoal knee-length wrap skirt and sandals; folded wings and halo."
+    },
+    "3": {
+      "id": "aurelia-outfit-3",
+      "name": "Lamplight invitation",
+      "description": "Opaque midnight-violet fitted dress with narrow straps, elegant low neckline and thigh slit, dull-brass clasp, bare feet; preserve wings, halo, skin and face."
+    }
+  },
+  "neris": {
+    "2": {
+      "id": "neris-outfit-2",
+      "name": "Poolside repose",
+      "description": "Opaque indigo cropped wrap top, plum knee-length sarong, simple sandals; preserve blue skin, silver bob and finlike ears."
+    },
+    "3": {
+      "id": "neris-outfit-3",
+      "name": "Violet tide",
+      "description": "Indigo and plum halter bathing top, high-waisted bathing briefs and short side hip wrap, bare feet; blue water-elemental skin, silver bob and finlike ears."
+    }
+  },
+  "sabine": {
+    "2": {
+      "id": "sabine-outfit-2",
+      "name": "Late correspondence",
+      "description": "Wine off-shoulder peasant blouse, black laced waist cincher, charcoal knee skirt and flat slippers; sealed correspondence in hand."
+    },
+    "3": {
+      "id": "sabine-outfit-3",
+      "name": "Velvet midnight",
+      "description": "Opaque charcoal short evening dress ending mid-thigh, wine-red lining, sweetheart neckline with solid coverage, lace-edged short sleeves and dark stockings; self-possessed smile, discreet fangs."
+    }
+  },
+  "maren": {
+    "2": {
+      "id": "maren-outfit-2",
+      "name": "Tools put away",
+      "description": "Opaque plum sleeveless scoop-neck top and charcoal knee-length wrap skirt, simple sandals, no tool apron; preserve horns, bovine ears, strong curvy build and one tufted tail."
+    },
+    "3": {
+      "id": "maren-outfit-3",
+      "name": "A softer strength",
+      "description": "Opaque deep plum fitted short wrap dress ending mid-thigh, low covered neckline, dull-brass fastener, bare legs and sandals; preserve bovine features and mature powerful figure."
+    }
+  },
+  "brakka": {
+    "2": {
+      "id": "brakka-outfit-2",
+      "name": "The work can wait",
+      "description": "Plum cropped laced work top, charcoal knee breeches, leather bracers and boots; youthful adult orc features, broad nose, strong jaw and lower tusks."
+    },
+    "3": {
+      "id": "brakka-outfit-3",
+      "name": "Tempered violet",
+      "description": "Plum halter crop top, brown upper-thigh leather shorts, leather bracers and flat strapped sandals; strong feminine orc build and a confident tusked smile."
+    }
+  },
+  "fenna": {
+    "2": {
+      "id": "fenna-outfit-2",
+      "name": "Tavern fireside",
+      "description": "Moss-green sleeveless cropped laced top, charcoal knee breeches, plum sash and flat boots; silver hair, wolf ears and fluffy tail."
+    },
+    "3": {
+      "id": "fenna-outfit-3",
+      "name": "Last dance",
+      "description": "Moss-green leather halter crop top, charcoal upper-thigh shorts, narrow plum sash and flat boots; silver hair, wolf ears and fluffy tail."
+    }
+  },
+  "kaede": {
+    "2": {
+      "id": "kaede-outfit-2",
+      "name": "After practice",
+      "description": "Fur-edged cropped leather vest, knee-length leather shorts, broad belt and fur-trimmed boots; red oni skin, two horns and long navy hair."
+    },
+    "3": {
+      "id": "kaede-outfit-3",
+      "name": "Unhurried confidence",
+      "description": "Leather halter bustier, upper-thigh leather shorts with fur-trimmed waist, bracers and fur-trimmed calf boots; fit, busty adult oni figure with a defined waist and rounded hips."
+    }
+  },
+  "elowen": {
+    "2": {
+      "id": "elowen-outfit-2",
+      "name": "A quiet remedy",
+      "description": "Opaque sage scoop-neck blouse with loose sleeves, soft violet knee-length skirt, simple sandals, honey-blonde practical braid and long pointed ears."
+    },
+    "3": {
+      "id": "elowen-outfit-3",
+      "name": "Violet dusk",
+      "description": "Opaque violet fitted slip dress ending just above knee, low covered neckline, narrow straps, sage wrap loose at elbows, bare feet, honey-blonde braid and grey-green eyes."
+    }
+  },
+  "nyssara": {
+    "2": {
+      "id": "nyssara-outfit-2",
+      "name": "The bench is quiet",
+      "description": "Opaque petrol-blue cropped wrap shirt, soft charcoal knee-length skirt and violet sash, flat sandals, small inscribed focus; preserve slate-violet skin on entire face/body, silver-white hair, pointed ears and copper-brown eyes. She is Drow."
+    },
+    "3": {
+      "id": "nyssara-outfit-3",
+      "name": "An intricate invitation",
+      "description": "Opaque midnight-blue short halter dress ending mid-thigh, low covered neckline, violet sash, dull-brass focus pendant, bare legs and sandals; mature drow face and slate-violet skin throughout."
+    }
+  },
+  "sylva": {
+    "2": {
+      "id": "sylva-outfit-2",
+      "name": "Leaves at ease",
+      "description": "Opaque leaf wrap crop top, knee-length layered leaf skirt over woven-leaf shorts and a braided vine belt. Forest-green hair, ivory blossoms, leaf ears, budding twig crown, celadon-green living-sapwood skin with subtle natural woodgrain and bare green feet."
+    },
+    "3": {
+      "id": "sylva-outfit-3",
+      "name": "Moonleaf confidence",
+      "description": "Silver-edged leaf halter crop top and short layered leaf skirt over opaque woven-leaf shorts, with a braided vine belt. Forest-green hair, ivory blossoms, leaf ears, budding twig crown, celadon-green living-sapwood skin with subtle natural woodgrain and bare green feet."
+    }
+  }
+}

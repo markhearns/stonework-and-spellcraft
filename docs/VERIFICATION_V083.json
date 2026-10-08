@@ -1,0 +1,63 @@
+{
+  "version": "0.83",
+  "schema": 60,
+  "scope": "UI navigation, composition, redundancy, contextual controls and artwork audit",
+  "headlessUI": {
+    "suites": 55,
+    "passed": true,
+    "allUISuitesRerun": true,
+    "renderedBrowser": false
+  },
+  "targetedPython": {
+    "suites": 6,
+    "tests": 28,
+    "passed": true,
+    "fullPythonSuiteRerun": false
+  },
+  "screenCompositions": 62,
+  "campaignRoutes": {
+    "count": 2,
+    "chapters": 5,
+    "earnedResources": true
+  },
+  "upgrade": {
+    "sourceVersion": "0.82",
+    "targetVersion": "0.83",
+    "existingFieldsPreserved": true,
+    "schema60": true,
+    "schemaChangeRequired": false,
+    "partialResearchPreserved": true,
+    "acceptedPortraitPreserved": true,
+    "portraitBytesPreserved": true,
+    "backupContainsPortrait": true,
+    "reloadIdempotent": true
+  },
+  "assets": {
+    "unchangedRuntimeImages": 246,
+    "newIcons": 2,
+    "newBytes": 16734,
+    "unchangedBundledArchives": 5
+  },
+  "browser": {
+    "attemptedThisRelease": false,
+    "previousLocalPreviewResult": "ERR_BLOCKED_BY_CLIENT",
+    "renderedReview": false,
+    "bypassAttempted": false
+  },
+  "changedExistingFiles": [
+    "README.md",
+    "START_HERE.md",
+    "art_catalogue.py",
+    "server.py",
+    "static/app.js",
+    "static/index.html",
+    "static/style.css",
+    "tests/test_art_release.py",
+    "tests/test_candidate_http.py",
+    "tests/test_ui.cjs",
+    "tests/test_ui_arrival.cjs",
+    "tests/test_ui_fieldcraft.cjs",
+    "tests/test_ui_keeping_hearth.cjs",
+    "tests/test_ui_outfits.cjs"
+  ]
+}

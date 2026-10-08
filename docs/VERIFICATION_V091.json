@@ -1,0 +1,351 @@
+{
+  "version": "0.91",
+  "schema": 64,
+  "scope": "Full original gameplay and UI integration suites, followed by affected-suite reruns and new cheat coverage. Not one uninterrupted run of the final 977-test suite.",
+  "python": {
+    "distinctTestsCovered": 977,
+    "originalFullRun": {
+      "tests": 960,
+      "seconds": 457.939,
+      "passed": 958,
+      "failed": 2,
+      "failureReason": "Both assertions expected replaced wording; the rules still rejected the same requests. Assertions updated to current wording."
+    },
+    "finalTargetedRuns": [
+      {
+        "tests": 133,
+        "seconds": 17.99,
+        "passed": true,
+        "modules": [
+          "test_cheat_tools",
+          "test_spell_proposals",
+          "test_summoning",
+          "test_household_chapters",
+          "test_customization",
+          "test_intimacy",
+          "test_romance",
+          "test_companion_almanac",
+          "test_social_life"
+        ]
+      },
+      {
+        "tests": 54,
+        "seconds": 5.251,
+        "passed": true,
+        "modules": [
+          "test_public_integration",
+          "test_public_workshop",
+          "test_public_content",
+          "test_candidate_http"
+        ]
+      },
+      {
+        "tests": 14,
+        "passed": true,
+        "modules": [
+          "test_intimacy"
+        ]
+      },
+      {
+        "tests": 16,
+        "seconds": 0.423,
+        "passed": true,
+        "modules": [
+          "test_household_chapters"
+        ],
+        "reason": "After scene-title alignment"
+      }
+    ],
+    "newCheatTests": 17,
+    "unresolvedFailures": 0
+  },
+  "ui": {
+    "suites": 61,
+    "passed": true,
+    "scope": "Headless template/controller integration with SQLite actions and reload, not rendered-browser layout testing. Seven existing wording assertions updated across the full run and final title rerun.",
+    "checks": [
+      {
+        "suite": "test_ui.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_almanac.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_armoury.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_arrival.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_arrivals.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_art_v053.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_artwork.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_attributes.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_audit_v083.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_build_workspace.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_builds.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_candidates.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_cast.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_castle_chapter.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_character_quests.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_character_setup.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_companion_participation.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_containment.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_content_packs.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_customization.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_equipment.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_equipment_playability.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_estate.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_fieldcraft.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_first_hearth.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_first_patrol.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_guidance.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_headquarters.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_headquarters_workers.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_house_shape.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_household_chapters.cjs",
+        "passed": true,
+        "finalRerun": true
+      },
+      {
+        "suite": "test_ui_household_content.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_household_sagas.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_intimacy.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_keeping_hearth.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_lantern_adventure.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_legibility.cjs",
+        "passed": true,
+        "finalRerun": true
+      },
+      {
+        "suite": "test_ui_local.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_magic.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_mystery.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_outfits.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_overview_portraits.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_party_journeys.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_personal_paths.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_phase_work.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_polish.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_provisions.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_public_content.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_public_integration.cjs",
+        "passed": true,
+        "finalRerun": true
+      },
+      {
+        "suite": "test_ui_public_workshop.cjs",
+        "passed": true,
+        "finalRerun": true
+      },
+      {
+        "suite": "test_ui_reconciliation.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_relationships.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_resident_future.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_romance.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_room_navigation.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_room_to_grow.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_social_life.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_solo.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_stories.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_unified.cjs",
+        "passed": true
+      },
+      {
+        "suite": "test_ui_visuals.cjs",
+        "passed": true
+      }
+    ]
+  },
+  "saveCompatibility": {
+    "source": "actual v0.90 engine",
+    "schema": 64,
+    "exactStatePreserved": true,
+    "memoriesAndConversationPreserved": true,
+    "artworkAndHistoryPreserved": true,
+    "savedBuildPreserved": true,
+    "migrationRequired": false
+  },
+  "artwork": {
+    "runtimeFilesUnchanged": 268,
+    "newArtwork": 0
+  },
+  "content": {
+    "helpTopics": 20,
+    "personalScenesRewritten": 64,
+    "namedCompanions": 16,
+    "timeTogetherPassagesRewritten": 96,
+    "catalogueSummariesRevised": 316,
+    "catalogueIdsRulesAndNonSummaryFieldsUnchanged": true,
+    "existingSavedTextPreserved": true
+  },
+  "verifiedBehaviors": [
+    "Help search, topic navigation and contextual links work without changing campaign state.",
+    "Recruit each unique companion independently and all together; preserve existing residents and their progress.",
+    "Release pending arrivals, local visits and dungeon capacity; refund cancelled paid preparation exactly once.",
+    "Capacity failure, invalid requests and away restrictions leave state unchanged.",
+    "Current room completion, food, equipment, advancement and health cheats work.",
+    "All 16 recruited character sheets render and remain recruited after reload and Advance.",
+    "Actual v0.90 state, saved build, conversations, personal-scene memory and custom artwork survive loading."
+  ],
+  "limitations": [
+    "Browser-rendered layout and screenshot review not performed: Playwright browser executable unavailable."
+  ]
+}

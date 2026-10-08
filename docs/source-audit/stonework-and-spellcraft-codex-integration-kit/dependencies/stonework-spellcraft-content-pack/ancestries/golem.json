@@ -1,0 +1,1913 @@
+{
+  "schemaVersion": 1,
+  "ancestryId": "golem",
+  "ancestryName": "Golem",
+  "arrivalMethod": "construction",
+  "names": [
+    {
+      "id": "golem-name-001",
+      "name": "Farala",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-002",
+      "name": "Lerana",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-003",
+      "name": "Dalaia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-004",
+      "name": "Rerathe",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-005",
+      "name": "Seraen",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-006",
+      "name": "Qala",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-007",
+      "name": "Avenia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-008",
+      "name": "Talathe",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-009",
+      "name": "Zerane",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-010",
+      "name": "Nerava",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-011",
+      "name": "Ibrane",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-012",
+      "name": "Kera",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-013",
+      "name": "Walasa",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-014",
+      "name": "Tera",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-015",
+      "name": "Palava",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-016",
+      "name": "Odra",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-017",
+      "name": "Eldane",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-018",
+      "name": "Ebrava",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-019",
+      "name": "Jalame",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-020",
+      "name": "Ubrari",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-021",
+      "name": "Merame",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-022",
+      "name": "Weraen",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-023",
+      "name": "Adrala",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-024",
+      "name": "Malana",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-025",
+      "name": "Nalael",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-026",
+      "name": "Galasa",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-027",
+      "name": "Yeraen",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-028",
+      "name": "Salana",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-029",
+      "name": "Verari",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-030",
+      "name": "Feraen",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-031",
+      "name": "Perari",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-032",
+      "name": "Ceraen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-033",
+      "name": "Qerael",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-034",
+      "name": "Kalame",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-035",
+      "name": "Berasa",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-036",
+      "name": "Larael",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-037",
+      "name": "Jeraia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-038",
+      "name": "Udrame",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-039",
+      "name": "Yalava",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-040",
+      "name": "Denasa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-041",
+      "name": "Zalathe",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-042",
+      "name": "Halana",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-043",
+      "name": "Calane",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-044",
+      "name": "Valala",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-045",
+      "name": "Geraia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-046",
+      "name": "Idrari",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-047",
+      "name": "Brenthe",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-048",
+      "name": "Obrael",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-049",
+      "name": "Ralala",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-050",
+      "name": "Jalael",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-051",
+      "name": "Berathe",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-052",
+      "name": "Dalaen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-053",
+      "name": "Talaia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-054",
+      "name": "Ralava",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-055",
+      "name": "Udrael",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-056",
+      "name": "Larana",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-057",
+      "name": "Zerari",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-058",
+      "name": "Farava",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-059",
+      "name": "Ebrane",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-060",
+      "name": "Idrala",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-061",
+      "name": "Jeraen",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-062",
+      "name": "Ibrari",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-063",
+      "name": "Nalana",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-064",
+      "name": "Obrana",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-065",
+      "name": "Zalaia",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-066",
+      "name": "Nerane",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-067",
+      "name": "Odrame",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-068",
+      "name": "Terame",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-069",
+      "name": "Hala",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-070",
+      "name": "Palane",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-071",
+      "name": "Walathe",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-072",
+      "name": "Yerasa",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-073",
+      "name": "Cerasa",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-074",
+      "name": "Herame",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-075",
+      "name": "Perala",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-076",
+      "name": "Kalael",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-077",
+      "name": "Mala",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-078",
+      "name": "Adrava",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-079",
+      "name": "Sala",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-080",
+      "name": "Qalame",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-081",
+      "name": "Serasa",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-082",
+      "name": "Galathe",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-083",
+      "name": "Qerana",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-084",
+      "name": "Valava",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-085",
+      "name": "Denathe",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-086",
+      "name": "Reraia",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-087",
+      "name": "Ubrala",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-088",
+      "name": "Geraen",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-089",
+      "name": "Werasa",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-090",
+      "name": "Verala",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-091",
+      "name": "Merael",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-092",
+      "name": "Calari",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-093",
+      "name": "Yalane",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-094",
+      "name": "Ferasa",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-095",
+      "name": "Brenia",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-096",
+      "name": "Eldari",
+      "styleTags": [
+        "plain"
+      ]
+    },
+    {
+      "id": "golem-name-097",
+      "name": "Kerame",
+      "styleTags": [
+        "lyrical"
+      ]
+    },
+    {
+      "id": "golem-name-098",
+      "name": "Lera",
+      "styleTags": [
+        "crisp"
+      ]
+    },
+    {
+      "id": "golem-name-099",
+      "name": "Qera",
+      "styleTags": [
+        "rounded"
+      ]
+    },
+    {
+      "id": "golem-name-100",
+      "name": "Ralane",
+      "styleTags": [
+        "plain"
+      ]
+    }
+  ],
+  "storySeeds": [
+    {
+      "id": "golem-story-001",
+      "title": "The name she wants to try",
+      "premise": "She would like to try a personal name without treating the first choice as irrevocable.",
+      "personalMotivation": "She wants self-description to remain hers.",
+      "openingHook": "She asks whether a trial name can be used without a ceremony.",
+      "possibleDevelopments": [
+        "Discuss a chosen name while keeping any record update subject to explicit acceptance.",
+        "Leave room to revise the choice without inventing a previous identity."
+      ],
+      "backgroundTags": [
+        "identity"
+      ],
+      "themeTags": [
+        "new-beginnings",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-002",
+      "title": "The blank notebook is enough",
+      "premise": "She is interested in keeping a notebook and does not want its empty pages filled with an invented past.",
+      "personalMotivation": "She wants records of experiences she actually chooses to have.",
+      "openingHook": "She asks what a first prospective entry might observe.",
+      "possibleDevelopments": [
+        "Design a simple page for future genuine observations.",
+        "Keep all earlier pages blank rather than supplying manufactured memories."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "new-beginnings",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-003",
+      "title": "The maker-neutral mark",
+      "premise": "She wants to understand a geometric detail on her approved construction without assuming it is an ownership sign.",
+      "personalMotivation": "She wants accurate information about her body.",
+      "openingHook": "She asks which construction facts are actually documented.",
+      "possibleDevelopments": [
+        "Compare the established description with the visible detail.",
+        "Leave unknown symbolism unresolved rather than inventing a creator's claim."
+      ],
+      "backgroundTags": [
+        "identity"
+      ],
+      "themeTags": [
+        "practical-scholarship",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-004",
+      "title": "A vocation offered, not installed",
+      "premise": "She is curious about book work but rejects the idea that curiosity proves a built-in occupational destiny.",
+      "personalMotivation": "She wants to choose what to explore.",
+      "openingHook": "She asks what an introductory archive task would involve.",
+      "possibleDevelopments": [
+        "Discuss a prospective role without claiming prior training.",
+        "Leave capabilities and actual work to approved construction and play."
+      ],
+      "backgroundTags": [
+        "archives"
+      ],
+      "themeTags": [
+        "new-beginnings",
+        "work"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-005",
+      "title": "The surface study with permission",
+      "premise": "She would like a careful drawing of her crafted surface while setting limits on inspection and touch.",
+      "personalMotivation": "She wants understanding without being treated as a public exhibit.",
+      "openingHook": "She asks whether a verbal description or image could answer the artist's question.",
+      "possibleDevelopments": [
+        "Offer only references she chooses to share.",
+        "Keep any close examination or physical contact separately agreed."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "privacy",
+        "consent"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-006",
+      "title": "The comfortable chair question",
+      "premise": "She wants to choose a seat based on her actual joints and form, not on assumptions that crafted bodies need no comfort.",
+      "personalMotivation": "She wants ordinary preferences taken seriously.",
+      "openingHook": "She asks what is known about her sitting posture.",
+      "possibleDevelopments": [
+        "Sketch alternatives using only approved articulation details.",
+        "Leave comfort judgments to her expressed experience rather than guessed sensations."
+      ],
+      "backgroundTags": [
+        "woodwork"
+      ],
+      "themeTags": [
+        "accessibility",
+        "new-beginnings"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-007",
+      "title": "The unsent introduction",
+      "premise": "She is considering writing an introductory letter and refuses a biography borrowed from a supposed previous life.",
+      "personalMotivation": "She wants to be met in the present.",
+      "openingHook": "She asks how to introduce an adult with prospective interests.",
+      "possibleDevelopments": [
+        "Draft a present-tense note without fabricated credentials.",
+        "Keep sending, replies and friendships unestablished."
+      ],
+      "backgroundTags": [
+        "correspondence"
+      ],
+      "themeTags": [
+        "identity",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-008",
+      "title": "The clothing sample she chooses",
+      "premise": "She wants to compare garment colours without someone deciding that her material already dictates her style.",
+      "personalMotivation": "She wants bodily construction and personal taste kept distinct.",
+      "openingHook": "She asks which opaque swatch she would like to examine first.",
+      "possibleDevelopments": [
+        "Offer a limited set of optional samples without assuming acquisition.",
+        "Keep clothing changes subject to her choice and actual fit."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "identity",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-009",
+      "title": "A small lamp-making question",
+      "premise": "She is curious about the shape of a lamp shade, not claiming that she can enchant or build one unaided.",
+      "personalMotivation": "She wants a useful subject for prospective study.",
+      "openingHook": "She asks how the shade affects an ordinary reading space.",
+      "possibleDevelopments": [
+        "Begin with a nonfunctional drawing or existing reference.",
+        "Treat any light-maker package as a separate integration suggestion."
+      ],
+      "backgroundTags": [
+        "light"
+      ],
+      "themeTags": [
+        "new-beginnings",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-010",
+      "title": "The joint-friendly apron",
+      "premise": "She wants a work apron concept whose ties do not cross her articulated joints.",
+      "personalMotivation": "She wants possible workwear that respects her actual construction.",
+      "openingHook": "She asks which seams and closures could remain clear of moving parts.",
+      "possibleDevelopments": [
+        "Sketch adjustable side closures using approved anatomy.",
+        "Require fitting review without assuming new flexibility or durability."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "accessibility",
+        "work"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-011",
+      "title": "The question she may leave unanswered",
+      "premise": "She is curious about her construction but does not want every conversation devoted to explaining it.",
+      "personalMotivation": "She wants privacy and other interests.",
+      "openingHook": "She asks how to decline a technical question warmly.",
+      "possibleDevelopments": [
+        "Draft a brief boundary without offering an alternative disclosure.",
+        "Move to a chosen topic without a penalty for withholding details."
+      ],
+      "backgroundTags": [
+        "privacy"
+      ],
+      "themeTags": [
+        "boundaries",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-012",
+      "title": "A melody to consider",
+      "premise": "She is interested in music but does not know which forms of participation suit her approved capabilities.",
+      "personalMotivation": "She wants the chance to explore without invented talent.",
+      "openingHook": "She asks whether listening, notation or an instrument would be the best starting question.",
+      "possibleDevelopments": [
+        "Review actual capabilities before proposing practice.",
+        "Let interest remain exploratory rather than an installed performance role."
+      ],
+      "backgroundTags": [
+        "music"
+      ],
+      "themeTags": [
+        "new-beginnings",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-013",
+      "title": "The place for personal belongings",
+      "premise": "She would like a storage arrangement before deciding what objects she wants to keep.",
+      "personalMotivation": "She wants a private area without an invented collection.",
+      "openingHook": "She asks what an empty shelf can reserve without promising contents.",
+      "possibleDevelopments": [
+        "Sketch a modest reachable compartment.",
+        "Keep ownership and item acquisition dependent on actual gameplay."
+      ],
+      "backgroundTags": [
+        "domestic"
+      ],
+      "themeTags": [
+        "possessions",
+        "new-beginnings"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-014",
+      "title": "The repair word she questions",
+      "premise": "She wants discussions of possible maintenance to distinguish bodily care from an owner's right to modify her.",
+      "personalMotivation": "She wants control over changes to her form.",
+      "openingHook": "She asks who must agree before any intervention is proposed.",
+      "possibleDevelopments": [
+        "Clarify that her consent and approved procedures are necessary.",
+        "Do not invent damage, treatment needs or permission to alter her."
+      ],
+      "backgroundTags": [
+        "autonomy"
+      ],
+      "themeTags": [
+        "consent",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-015",
+      "title": "The kitchen role with no borrowed memories",
+      "premise": "She is curious about kitchen organization but rejects a background that claims years of domestic service.",
+      "personalMotivation": "She wants a prospective interest without a false history.",
+      "openingHook": "She asks what observation could introduce the work.",
+      "possibleDevelopments": [
+        "Discuss labels or workflow using only established facilities.",
+        "Keep cooking ability and dietary needs separately determined."
+      ],
+      "backgroundTags": [
+        "cooking"
+      ],
+      "themeTags": [
+        "new-beginnings",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-016",
+      "title": "The portrait age note",
+      "premise": "She wants an artist to understand that her adult form does not imply years of lived experience.",
+      "personalMotivation": "She wants mature presentation without an invented chronology.",
+      "openingHook": "She asks how a portrait note can state adult-form age accurately.",
+      "possibleDevelopments": [
+        "Use an adult-form presentation of 18–25 without claiming those years were lived.",
+        "Preserve fully adult cognition and avoid childlike framing."
+      ],
+      "backgroundTags": [
+        "visual-art"
+      ],
+      "themeTags": [
+        "identity",
+        "new-beginnings"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-017",
+      "title": "A promise she can choose",
+      "premise": "She considers offering help but wants the offer limited to a task she understands and can actually perform.",
+      "personalMotivation": "She values freely chosen reliability.",
+      "openingHook": "She asks which parts of the proposed work match approved capabilities.",
+      "possibleDevelopments": [
+        "Clarify scope before any commitment.",
+        "Leave acceptance and completion to explicit decisions and play."
+      ],
+      "backgroundTags": [
+        "promises"
+      ],
+      "themeTags": [
+        "work",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-018",
+      "title": "The sample that is not her body",
+      "premise": "She is interested in clay or metal craft and refuses to become the convenient material specimen.",
+      "personalMotivation": "She wants learning without bodily instrumentalization.",
+      "openingHook": "She asks whether a separate ordinary sample is available.",
+      "possibleDevelopments": [
+        "Plan a study only with appropriate nonbodily materials.",
+        "Do not infer her surface properties from an unrelated sample."
+      ],
+      "backgroundTags": [
+        "craft"
+      ],
+      "themeTags": [
+        "boundaries",
+        "practical-scholarship"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-019",
+      "title": "The joke she decides to make",
+      "premise": "She would like to try a dry joke without it being treated as proof that she has become a real person.",
+      "personalMotivation": "She wants humour to be ordinary adult expression.",
+      "openingHook": "She asks whether a small fictional absurdity reads clearly.",
+      "possibleDevelopments": [
+        "Discuss the joke's wording rather than evaluating her personhood.",
+        "Leave sharing it optional and free of a performance test."
+      ],
+      "backgroundTags": [
+        "humour"
+      ],
+      "themeTags": [
+        "identity",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "playful"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-020",
+      "title": "The garden question with no rooted duty",
+      "premise": "She is curious about plants and rejects assumptions that a wood-bodied form creates a gardening obligation.",
+      "personalMotivation": "She wants interests chosen rather than assigned by material.",
+      "openingHook": "She asks which modest botanical question catches her attention.",
+      "possibleDevelopments": [
+        "Explore a prospective observation topic without granting plant magic.",
+        "Apply this seed only if the relevant construction and preference are established."
+      ],
+      "backgroundTags": [
+        "gardening"
+      ],
+      "themeTags": [
+        "new-beginnings",
+        "identity"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [
+        "Her approved construction uses living wood, and she has expressed curiosity about gardening."
+      ],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-021",
+      "title": "The invitation to quiet company",
+      "premise": "She would like to sit with someone without being asked to narrate every new observation.",
+      "personalMotivation": "She wants companionship without constant examination.",
+      "openingHook": "She asks whether separate quiet activities would be welcome.",
+      "possibleDevelopments": [
+        "Offer non-expiring company with no required explanation of her experience.",
+        "Let either participant stop without interpreting it as rejection."
+      ],
+      "backgroundTags": [
+        "quiet-company"
+      ],
+      "themeTags": [
+        "friendship",
+        "boundaries"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-022",
+      "title": "A self-chosen decorative detail",
+      "premise": "She is considering a removable accessory and wants it distinct from permanent modification of her construction.",
+      "personalMotivation": "She wants reversible ways to explore style.",
+      "openingHook": "She asks whether a clasped ribbon or cloth accent would suit her.",
+      "possibleDevelopments": [
+        "Review the accessory for joint clearance and surface contact.",
+        "Keep any bodily alteration outside the clothing choice."
+      ],
+      "backgroundTags": [
+        "tailoring"
+      ],
+      "themeTags": [
+        "identity",
+        "consent"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-023",
+      "title": "The book of questions about water",
+      "premise": "She is interested in water-related work but does not assume her material is suitable for immersion or wet tasks.",
+      "personalMotivation": "She wants capabilities understood before use.",
+      "openingHook": "She asks what the approved construction actually permits.",
+      "possibleDevelopments": [
+        "Begin with reading or drawing rather than bodily testing.",
+        "Treat water-worker mapping as a future review, not a granted power."
+      ],
+      "backgroundTags": [
+        "water"
+      ],
+      "themeTags": [
+        "new-beginnings",
+        "trust"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-024",
+      "title": "The adult welcome without a lesson plan",
+      "premise": "She wants an introduction to household customs that does not treat her as a child to be managed.",
+      "personalMotivation": "She values useful information offered to an autonomous adult.",
+      "openingHook": "She asks which practical rules she can simply read or question.",
+      "possibleDevelopments": [
+        "Provide choices about what to discuss rather than a compulsory sequence.",
+        "Avoid invented developmental stages or obedience training."
+      ],
+      "backgroundTags": [
+        "hospitality"
+      ],
+      "themeTags": [
+        "autonomy",
+        "new-beginnings"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    },
+    {
+      "id": "golem-story-025",
+      "title": "The future page left open",
+      "premise": "She wants to consider several interests and resists being assigned a complete life plan immediately.",
+      "personalMotivation": "She wants room for preferences to develop through real choices.",
+      "openingHook": "She asks what can remain undecided for now.",
+      "possibleDevelopments": [
+        "Record only the interests she actually endorses.",
+        "Leave future vocation, relationships and residence open without penalty."
+      ],
+      "backgroundTags": [
+        "personal-growth"
+      ],
+      "themeTags": [
+        "new-beginnings",
+        "autonomy"
+      ],
+      "toneTags": [
+        "warm",
+        "reflective"
+      ],
+      "requirements": [],
+      "continuityWarnings": [
+        "These are candidate developments; invitations, work and outcomes require established play.",
+        "Use only an approved adult-form construction and actual post-awakening experiences; no inherited biography or automatic capability."
+      ]
+    }
+  ],
+  "appearanceDescriptions": [
+    {
+      "id": "golem-appearance-001",
+      "summary": "A fully adult crafted woman presenting as age 22, not implying years lived, with warm terracotta clay surface, modelled clay curls ending at the jaw, and inlaid amber glass eyes. Her build is compact with thick thighs and a gently rounded abdomen. Visible hand-smoothed modelling seams.",
+      "skin": "warm terracotta clay",
+      "hair": "modelled clay curls ending at the jaw",
+      "eyes": "inlaid amber glass",
+      "build": "compact with thick thighs and a gently rounded abdomen",
+      "ancestryFeatures": [
+        "visible hand-smoothed modelling seams",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a softly triangular face and curved brows",
+        "a deliberately uneven decorative line at one temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact"
+      ]
+    },
+    {
+      "id": "golem-appearance-002",
+      "summary": "A fully adult crafted woman presenting as age 25, not implying years lived, with deep umber clay surface, modelled clay waves reaching the shoulders, and inlaid smoky quartz eyes. Her build is short and sturdily built with a defined waist. Visible hand-smoothed modelling seams.",
+      "skin": "deep umber clay",
+      "hair": "modelled clay waves reaching the shoulders",
+      "eyes": "inlaid smoky quartz",
+      "build": "short and sturdily built with a defined waist",
+      "ancestryFeatures": [
+        "visible hand-smoothed modelling seams",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a wide jaw and delicate upper cheekbones",
+        "a small maker-neutral geometric inlay near the collarbone"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "golem-appearance-003",
+      "summary": "A fully adult crafted woman presenting as age 20, not implying years lived, with pale buff clay surface, modelled clay short layered locks, and inlaid green glass eyes. Her build is slim-waisted with broad shoulders and full thighs. Visible hand-smoothed modelling seams.",
+      "skin": "pale buff clay",
+      "hair": "modelled clay short layered locks",
+      "eyes": "inlaid green glass",
+      "build": "slim-waisted with broad shoulders and full thighs",
+      "ancestryFeatures": [
+        "visible hand-smoothed modelling seams",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a rectangular face softened by full cheeks",
+        "a narrow ornamental seam beside the left cheek"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "golem-appearance-004",
+      "summary": "A fully adult crafted woman presenting as age 23, not implying years lived, with rose-brown clay surface, modelled clay long ridged locks, and inlaid blue enamel eyes. Her build is slender with a strong back and softly rounded hips. Visible hand-smoothed modelling seams.",
+      "skin": "rose-brown clay",
+      "hair": "modelled clay long ridged locks",
+      "eyes": "inlaid blue enamel",
+      "build": "slender with a strong back and softly rounded hips",
+      "ancestryFeatures": [
+        "visible hand-smoothed modelling seams",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "full cheeks and a straight, prominent nose",
+        "a tiny asymmetry between the sculpted brows"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "golem-appearance-005",
+      "summary": "A fully adult crafted woman presenting as age 18, not implying years lived, with charcoal-grey clay surface, modelled clay bob with incised strands, and inlaid dark agate eyes. Her build is lean and long-limbed with a modest bust. Visible hand-smoothed modelling seams.",
+      "skin": "charcoal-grey clay",
+      "hair": "modelled clay bob with incised strands",
+      "eyes": "inlaid dark agate",
+      "build": "lean and long-limbed with a modest bust",
+      "ancestryFeatures": [
+        "visible hand-smoothed modelling seams",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a rounded face with a defined jawline",
+        "a restrained spiral engraved near one shoulder"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "golem-appearance-006",
+      "summary": "A fully adult crafted woman presenting as age 21, not implying years lived, with ivory porcelain surface, sculpted porcelain curls ending at the jaw, and inlaid amber glass eyes. Her build is tall and strongly built with a modest bust. Fine hand-painted glaze lines.",
+      "skin": "ivory porcelain",
+      "hair": "sculpted porcelain curls ending at the jaw",
+      "eyes": "inlaid amber glass",
+      "build": "tall and strongly built with a modest bust",
+      "ancestryFeatures": [
+        "fine hand-painted glaze lines",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a compact adult face with a substantial jaw",
+        "a deliberately uneven decorative line at one temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "golem-appearance-007",
+      "summary": "A fully adult crafted woman presenting as age 24, not implying years lived, with warm beige porcelain surface, sculpted porcelain waves reaching the shoulders, and inlaid smoky quartz eyes. Her build is medium-height and generously curvaceous with a broad frame. Fine hand-painted glaze lines.",
+      "skin": "warm beige porcelain",
+      "hair": "sculpted porcelain waves reaching the shoulders",
+      "eyes": "inlaid smoky quartz",
+      "build": "medium-height and generously curvaceous with a broad frame",
+      "ancestryFeatures": [
+        "fine hand-painted glaze lines",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face and defined cheekbones",
+        "a small maker-neutral geometric inlay near the collarbone"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "golem-appearance-008",
+      "summary": "A fully adult crafted woman presenting as age 19, not implying years lived, with deep cobalt-glazed porcelain surface, sculpted porcelain short layered locks, and inlaid green glass eyes. Her build is medium-height and muscular with mature curves. Fine hand-painted glaze lines.",
+      "skin": "deep cobalt-glazed porcelain",
+      "hair": "sculpted porcelain short layered locks",
+      "eyes": "inlaid green glass",
+      "build": "medium-height and muscular with mature curves",
+      "ancestryFeatures": [
+        "fine hand-painted glaze lines",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a narrow oval face with full lower lip",
+        "a narrow ornamental seam beside the left cheek"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "golem-appearance-009",
+      "summary": "A fully adult crafted woman presenting as age 22, not implying years lived, with pale celadon porcelain surface, sculpted porcelain long ridged locks, and inlaid blue enamel eyes. Her build is long-legged with a soft waist and full hips. Fine hand-painted glaze lines.",
+      "skin": "pale celadon porcelain",
+      "hair": "sculpted porcelain long ridged locks",
+      "eyes": "inlaid blue enamel",
+      "build": "long-legged with a soft waist and full hips",
+      "ancestryFeatures": [
+        "fine hand-painted glaze lines",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "an oval face with almond-shaped eyes",
+        "a tiny asymmetry between the sculpted brows"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "golem-appearance-010",
+      "summary": "A fully adult crafted woman presenting as age 25, not implying years lived, with rose-grey porcelain surface, sculpted porcelain bob with incised strands, and inlaid dark agate eyes. Her build is tall and slender with mature hips. Fine hand-painted glaze lines.",
+      "skin": "rose-grey porcelain",
+      "hair": "sculpted porcelain bob with incised strands",
+      "eyes": "inlaid dark agate",
+      "build": "tall and slender with mature hips",
+      "ancestryFeatures": [
+        "fine hand-painted glaze lines",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a gently aquiline nose and prominent chin",
+        "a restrained spiral engraved near one shoulder"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "golem-appearance-011",
+      "summary": "A fully adult crafted woman presenting as age 20, not implying years lived, with warm limestone surface, carved stone curls ending at the jaw, and inlaid amber glass eyes. Her build is compact and muscular with soft contours. Subtle chisel facets beside the joints.",
+      "skin": "warm limestone",
+      "hair": "carved stone curls ending at the jaw",
+      "eyes": "inlaid amber glass",
+      "build": "compact and muscular with soft contours",
+      "ancestryFeatures": [
+        "subtle chisel facets beside the joints",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a long face with a gently aquiline nose",
+        "a deliberately uneven decorative line at one temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact"
+      ]
+    },
+    {
+      "id": "golem-appearance-012",
+      "summary": "A fully adult crafted woman presenting as age 23, not implying years lived, with dark soapstone surface, carved stone waves reaching the shoulders, and inlaid smoky quartz eyes. Her build is medium-height with a full bust and straight waist. Subtle chisel facets beside the joints.",
+      "skin": "dark soapstone",
+      "hair": "carved stone waves reaching the shoulders",
+      "eyes": "inlaid smoky quartz",
+      "build": "medium-height with a full bust and straight waist",
+      "ancestryFeatures": [
+        "subtle chisel facets beside the joints",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "an oblong face and broad cheekbones",
+        "a small maker-neutral geometric inlay near the collarbone"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "golem-appearance-013",
+      "summary": "A fully adult crafted woman presenting as age 18, not implying years lived, with rose-veined marble surface, carved stone short layered locks, and inlaid green glass eyes. Her build is broad-shouldered with rounded waist contours. Subtle chisel facets beside the joints.",
+      "skin": "rose-veined marble",
+      "hair": "carved stone short layered locks",
+      "eyes": "inlaid green glass",
+      "build": "broad-shouldered with rounded waist contours",
+      "ancestryFeatures": [
+        "subtle chisel facets beside the joints",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a long face and full, gently curved lips",
+        "a narrow ornamental seam beside the left cheek"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "golem-appearance-014",
+      "summary": "A fully adult crafted woman presenting as age 21, not implying years lived, with grey sandstone surface, carved stone long ridged locks, and inlaid blue enamel eyes. Her build is rounded and full-busted with sturdy legs. Subtle chisel facets beside the joints.",
+      "skin": "grey sandstone",
+      "hair": "carved stone long ridged locks",
+      "eyes": "inlaid blue enamel",
+      "build": "rounded and full-busted with sturdy legs",
+      "ancestryFeatures": [
+        "subtle chisel facets beside the joints",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "an oval face with a broad nose",
+        "a tiny asymmetry between the sculpted brows"
+      ],
+      "styleTags": [
+        "striking"
+      ]
+    },
+    {
+      "id": "golem-appearance-015",
+      "summary": "A fully adult crafted woman presenting as age 24, not implying years lived, with deep green serpentine stone surface, carved stone bob with incised strands, and inlaid dark agate eyes. Her build is tall and broad-hipped with gently defined muscles. Subtle chisel facets beside the joints.",
+      "skin": "deep green serpentine stone",
+      "hair": "carved stone bob with incised strands",
+      "eyes": "inlaid dark agate",
+      "build": "tall and broad-hipped with gently defined muscles",
+      "ancestryFeatures": [
+        "subtle chisel facets beside the joints",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "high cheekbones and a rounded chin",
+        "a restrained spiral engraved near one shoulder"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    },
+    {
+      "id": "golem-appearance-016",
+      "summary": "A fully adult crafted woman presenting as age 19, not implying years lived, with honey-coloured living wood surface, carved living-wood curls ending at the jaw, and inlaid amber glass eyes. Her build is tall and voluptuous with a gently rounded abdomen. Visible carved grain following the limbs.",
+      "skin": "honey-coloured living wood",
+      "hair": "carved living-wood curls ending at the jaw",
+      "eyes": "inlaid amber glass",
+      "build": "tall and voluptuous with a gently rounded abdomen",
+      "ancestryFeatures": [
+        "visible carved grain following the limbs",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a broad nose and a sharply defined chin",
+        "a deliberately uneven decorative line at one temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular"
+      ]
+    },
+    {
+      "id": "golem-appearance-017",
+      "summary": "A fully adult crafted woman presenting as age 22, not implying years lived, with dark walnut-toned living wood surface, carved living-wood waves reaching the shoulders, and inlaid smoky quartz eyes. Her build is medium-height with balanced, softly mature curves. Visible carved grain following the limbs.",
+      "skin": "dark walnut-toned living wood",
+      "hair": "carved living-wood waves reaching the shoulders",
+      "eyes": "inlaid smoky quartz",
+      "build": "medium-height with balanced, softly mature curves",
+      "ancestryFeatures": [
+        "visible carved grain following the limbs",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a narrow nose and full, rounded cheeks",
+        "a small maker-neutral geometric inlay near the collarbone"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "golem-appearance-018",
+      "summary": "A fully adult crafted woman presenting as age 25, not implying years lived, with pale birch-toned living wood surface, carved living-wood short layered locks, and inlaid green glass eyes. Her build is full-bodied with a defined waist and powerful calves. Visible carved grain following the limbs.",
+      "skin": "pale birch-toned living wood",
+      "hair": "carved living-wood short layered locks",
+      "eyes": "inlaid green glass",
+      "build": "full-bodied with a defined waist and powerful calves",
+      "ancestryFeatures": [
+        "visible carved grain following the limbs",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "an angular face with wide-set eyes",
+        "a narrow ornamental seam beside the left cheek"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "golem-appearance-019",
+      "summary": "A fully adult crafted woman presenting as age 20, not implying years lived, with reddish cedar-toned living wood surface, carved living-wood long ridged locks, and inlaid blue enamel eyes. Her build is full-figured with broad hips and a strong back. Visible carved grain following the limbs.",
+      "skin": "reddish cedar-toned living wood",
+      "hair": "carved living-wood long ridged locks",
+      "eyes": "inlaid blue enamel",
+      "build": "full-figured with broad hips and a strong back",
+      "ancestryFeatures": [
+        "visible carved grain following the limbs",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a square jaw with gently rounded corners",
+        "a tiny asymmetry between the sculpted brows"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "golem-appearance-020",
+      "summary": "A fully adult crafted woman presenting as age 23, not implying years lived, with warm ash-toned living wood surface, carved living-wood bob with incised strands, and inlaid dark agate eyes. Her build is short and full-figured with rounded shoulders. Visible carved grain following the limbs.",
+      "skin": "warm ash-toned living wood",
+      "hair": "carved living-wood bob with incised strands",
+      "eyes": "inlaid dark agate",
+      "build": "short and full-figured with rounded shoulders",
+      "ancestryFeatures": [
+        "visible carved grain following the limbs",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a heart-shaped face with deep-set eyes",
+        "a restrained spiral engraved near one shoulder"
+      ],
+      "styleTags": [
+        "elegant"
+      ]
+    },
+    {
+      "id": "golem-appearance-021",
+      "summary": "A fully adult crafted woman presenting as age 18, not implying years lived, with brushed copper surface, formed metal curls ending at the jaw, and inlaid amber glass eyes. Her build is compact and softly curvaceous with mature proportions. Small hand-set rivets beside articulated joints.",
+      "skin": "brushed copper",
+      "hair": "formed metal curls ending at the jaw",
+      "eyes": "inlaid amber glass",
+      "build": "compact and softly curvaceous with mature proportions",
+      "ancestryFeatures": [
+        "small hand-set rivets beside articulated joints",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a softly squared jaw and full lips",
+        "a deliberately uneven decorative line at one temple"
+      ],
+      "styleTags": [
+        "elegant",
+        "angular",
+        "compact"
+      ]
+    },
+    {
+      "id": "golem-appearance-022",
+      "summary": "A fully adult crafted woman presenting as age 21, not implying years lived, with dark patinated bronze surface, formed metal waves reaching the shoulders, and inlaid smoky quartz eyes. Her build is willowy with a full bust and narrow hips. Small hand-set rivets beside articulated joints.",
+      "skin": "dark patinated bronze",
+      "hair": "formed metal waves reaching the shoulders",
+      "eyes": "inlaid smoky quartz",
+      "build": "willowy with a full bust and narrow hips",
+      "ancestryFeatures": [
+        "small hand-set rivets beside articulated joints",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a broad face with a softly cleft chin",
+        "a small maker-neutral geometric inlay near the collarbone"
+      ],
+      "styleTags": [
+        "cute",
+        "soft-featured"
+      ]
+    },
+    {
+      "id": "golem-appearance-023",
+      "summary": "A fully adult crafted woman presenting as age 24, not implying years lived, with softly brushed silver-toned enchanted metal surface, formed metal short layered locks, and inlaid green glass eyes. Her build is athletic and broad-hipped with a modest bust. Small hand-set rivets beside articulated joints.",
+      "skin": "softly brushed silver-toned enchanted metal",
+      "hair": "formed metal short layered locks",
+      "eyes": "inlaid green glass",
+      "build": "athletic and broad-hipped with a modest bust",
+      "ancestryFeatures": [
+        "small hand-set rivets beside articulated joints",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a diamond-shaped face and softly hooded eyes",
+        "a narrow ornamental seam beside the left cheek"
+      ],
+      "styleTags": [
+        "sensual",
+        "curvaceous"
+      ]
+    },
+    {
+      "id": "golem-appearance-024",
+      "summary": "A fully adult crafted woman presenting as age 19, not implying years lived, with warm brass surface, formed metal long ridged locks, and inlaid blue enamel eyes. Her build is athletic with a full bust and firm thighs. Small hand-set rivets beside articulated joints.",
+      "skin": "warm brass",
+      "hair": "formed metal long ridged locks",
+      "eyes": "inlaid blue enamel",
+      "build": "athletic with a full bust and firm thighs",
+      "ancestryFeatures": [
+        "small hand-set rivets beside articulated joints",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a broad forehead and softly tapered jaw",
+        "a tiny asymmetry between the sculpted brows"
+      ],
+      "styleTags": [
+        "striking",
+        "athletic"
+      ]
+    },
+    {
+      "id": "golem-appearance-025",
+      "summary": "A fully adult crafted woman presenting as age 22, not implying years lived, with blue-grey enchanted steel surface, formed metal bob with incised strands, and inlaid dark agate eyes. Her build is tall with a broad ribcage and generous hips. Small hand-set rivets beside articulated joints.",
+      "skin": "blue-grey enchanted steel",
+      "hair": "formed metal bob with incised strands",
+      "eyes": "inlaid dark agate",
+      "build": "tall with a broad ribcage and generous hips",
+      "ancestryFeatures": [
+        "small hand-set rivets beside articulated joints",
+        "fully adult feminine form with articulated arms, hands and legs",
+        "clearly crafted surface rather than human flesh"
+      ],
+      "distinctiveDetails": [
+        "a round adult face with a strong chin",
+        "a restrained spiral engraved near one shoulder"
+      ],
+      "styleTags": [
+        "elegant",
+        "statuesque"
+      ]
+    }
+  ]
+}

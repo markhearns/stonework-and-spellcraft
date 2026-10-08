@@ -1,0 +1,510 @@
+{
+  "generator": "built-in image_gen",
+  "auditedResidentImages": 90,
+  "assets": [
+    {
+      "id": "overview-velis",
+      "path": "static/assets/portraits/overview/velis.webp",
+      "source": "exec-48d5b45b-234f-4a5e-8457-f02aedd104e9.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Velis character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha": false,
+      "bytes": 181254,
+      "previousSha256": "69289a72c3b18409540990433a13e4e0746a29c999ca7287d2760fea8944be60",
+      "sha256": "846d8c1fc40da9991bf489b15d2bc9f62f6da5ff1c35b121b02a2557fbcac447"
+    },
+    {
+      "id": "portrait-velis",
+      "path": "static/assets/portraits/velis.webp",
+      "source": "exec-7324052e-7059-486d-8694-11439730a634.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Velis character illustration. Produce a full-body isolated character portrait with a truly transparent background, not a cropped room illustration. Remove the entire room, furniture and floor; adapt the resting hand to a natural relaxed standalone pose. Keep her whole head, hair, ears and both feet inside the frame with a little transparent padding. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 125536,
+      "previousSha256": "96e31f4d4d7b52784d6af63aa69b9854bdbc0d28b0d3e6416280727d4d24bec0",
+      "sha256": "51ab0f6e66afa2564f5506080358005c78270e94507bac402def5a019d3f2356"
+    },
+    {
+      "id": "overview-velis-outfit-2",
+      "path": "static/assets/portraits/overview/velis-outfit-2.webp",
+      "source": "exec-4fc749c2-f4a4-4d33-b5e4-1e06e3f4269c.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Velis character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha": false,
+      "bytes": 163698,
+      "previousSha256": "849b00f3d7502f069f0625facec470e5740750e1d11c4cb7f8105bb7f767e027",
+      "sha256": "bb608bab82642c3361cdf28f9e5a8c388e2922e92c410bcb009df08dabb9caeb"
+    },
+    {
+      "id": "portrait-velis-outfit-2",
+      "path": "static/assets/portraits/velis-outfit-2.webp",
+      "source": "exec-03d12197-b6fd-475b-9e57-5ab3d88a4dcf.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Velis character illustration. Produce a full-body isolated character portrait with a truly transparent background, not a cropped room illustration. Remove the entire room, furniture and floor; adapt the resting hand to a natural relaxed standalone pose. Keep her whole head, hair, ears and both feet inside the frame with a little transparent padding. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 108728,
+      "previousSha256": "a17292b6dc43ccd9366712369817d9d58e6dcc6c335ade0b495f37a120de9742",
+      "sha256": "2a7bf57d2f0c1f7aacf5d742f061c25048315bc74e9c9d61f86bb214d224f47c"
+    },
+    {
+      "id": "overview-velis-outfit-3",
+      "path": "static/assets/portraits/overview/velis-outfit-3.webp",
+      "source": "exec-6ba164f1-2d45-40b9-88b1-8ea9642a0d08.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Velis character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark. Image 2 is a face-only reference: match its approved younger adult face, without copying its outfit or pose.",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha": false,
+      "bytes": 180252,
+      "previousSha256": "a7b23615e5b24dc57bc88df059b064979933d8330c4a4670f4323daa2fad8406",
+      "sha256": "b27dce57eed91991c9a4dad5a6bdc6c3a5aab7d8da3f8abf95bfbf4d5966ba3a"
+    },
+    {
+      "id": "portrait-velis-outfit-3",
+      "path": "static/assets/portraits/velis-outfit-3.webp",
+      "source": "exec-2c6e58c8-fc8f-48c1-9467-6d58db1c47e8.png",
+      "prompt": "Create a full-body transparent-background character cutout of exactly this youthful ADULT dark elf woman, Velis. Preserve her face, skin, hair, ears, adult body proportions, and EXACT teal halter short dress with waist cutouts, jewelry and flat sandals shown in the reference. Do not change her outfit into trousers or a waistcoat. Remove ALL room, table, props, floor and background, adapting the resting hand into a natural relaxed standalone pose. Keep entire head ears and feet visible with margin. Same warm engraved fantasy illustration style. Real alpha transparency, no painted backdrop, no shadow halo. Flat sandals only, no high heels, wedges or platforms. She should look like a friendly confident adult in her mid twenties.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 107272,
+      "previousSha256": "7045ec56df6734f277875772ce723dc2bf000bbe9657cc24aadbb36bc970571a",
+      "sha256": "1068b9f1f428767c8204111eac1a0b0b73063dd0272fe775c94c499653754828"
+    },
+    {
+      "id": "overview-aurelia",
+      "path": "static/assets/portraits/overview/aurelia.webp",
+      "source": "exec-37f3b023-1532-44ce-b9cf-bf612532109e.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Aurelia character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 253436,
+      "previousSha256": "a1755fb145db9a3fd8b82a70b83db017c51aade409230c0343ea454251187503",
+      "sha256": "9dfd286f71ce2d87a23e9e8bb458d9f315adffe670ce2a7fcd1b97290bd4a9f0"
+    },
+    {
+      "id": "portrait-aurelia",
+      "path": "static/assets/portraits/aurelia.webp",
+      "source": "exec-0ef8969c-e934-4e5f-bbcc-f4eab6d46c43.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Aurelia character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 287330,
+      "previousSha256": "a6e442fce0e9fb8a92f2eabd63e6f0ad01cd44bad2d70a90543bb02d816457f0",
+      "sha256": "a86e46c4920cdeeac89fb5f6fcec32e492e41ba3ea9c479acbe0a77010048d52"
+    },
+    {
+      "id": "overview-aurelia-outfit-2",
+      "path": "static/assets/portraits/overview/aurelia-outfit-2.webp",
+      "source": "exec-825a08ba-2306-4d48-b8f0-32463d032f93.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Aurelia character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 259660,
+      "previousSha256": "559748a00be5c84c76e2a7183117930cca2a9e9ecff2723c401306db5ffe9803",
+      "sha256": "8854c6b3538d823968417872b06b541ad7fbe119f4ae6886b13b2ccffedc68eb"
+    },
+    {
+      "id": "portrait-aurelia-outfit-2",
+      "path": "static/assets/portraits/aurelia-outfit-2.webp",
+      "source": "exec-c5f016e1-fa0c-448f-88a6-c1f1b94ee2df.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Aurelia character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 260898,
+      "previousSha256": "554bddb6529da97e8b2265ac14d6e27b2c178c6abe40e02100ce43e2843db4bb",
+      "sha256": "85d41875a00f2c9c5303fd6c0638c252d0085d5665b9c89308910e608142b3a3"
+    },
+    {
+      "id": "overview-aurelia-outfit-3",
+      "path": "static/assets/portraits/overview/aurelia-outfit-3.webp",
+      "source": "exec-a65d8f8e-e536-4a77-9456-61bc531cf6cc.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Aurelia character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 281988,
+      "previousSha256": "37adcb9bf3cf7f03685204689bd9b1a87a035a47e5c95537792056d92b100964",
+      "sha256": "49365f966d0743836a00ac70509016b4bdce4ca19b558fa9696f6df8cb7c1a32"
+    },
+    {
+      "id": "portrait-aurelia-outfit-3",
+      "path": "static/assets/portraits/aurelia-outfit-3.webp",
+      "source": "exec-b464f1e7-948d-4524-8adc-b7e2c91acf5d.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Aurelia character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 276406,
+      "previousSha256": "72353095c731c7090e1fdbba52cf5f15336b3586a6de80af28728629f08605f7",
+      "sha256": "2e3ec069ca8eae651368981f99896cf336f818a78349882473bcad6d23e56479"
+    },
+    {
+      "id": "overview-kaede",
+      "path": "static/assets/portraits/overview/kaede.webp",
+      "source": "exec-cc820ccc-5e51-46e5-be27-155388920a53.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Kaede character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 373368,
+      "previousSha256": "507033559b59a91b98a2871b534a63561b454a6e68b7ad3ca301581e365d9286",
+      "sha256": "986ef9a8f799606ecc5910c1a1f7e1b5c3ba81f85dcd789e27570f0c0d894f39"
+    },
+    {
+      "id": "portrait-kaede",
+      "path": "static/assets/portraits/kaede.webp",
+      "source": "exec-fbb354ac-b10e-485a-81b4-b9e75de1b4c4.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Kaede character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 222478,
+      "previousSha256": "c67a06377ad68289624f385ae3e6e9df4bfb3645e719867a382ec464e0823877",
+      "sha256": "9b77d707c8b152b9a652f4398d27812f30577e2774f1f47558aede7aaed54a0b"
+    },
+    {
+      "id": "overview-kaede-outfit-2",
+      "path": "static/assets/portraits/overview/kaede-outfit-2.webp",
+      "source": "exec-acc36b28-f9bb-415a-9a4d-a719fa2b4107.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Kaede character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 337932,
+      "previousSha256": "8651e8453759ea12e512c4b685099eecbfd094fcd466f3f693228b9a6a82cf53",
+      "sha256": "dc426a17973096837f1847b7bb00cc3e4b3f20e974c92a43b5f9bda676730278"
+    },
+    {
+      "id": "portrait-kaede-outfit-2",
+      "path": "static/assets/portraits/kaede-outfit-2.webp",
+      "source": "exec-e20413b6-43c7-43f3-8ac2-f85fccba29e8.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Kaede character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 219388,
+      "previousSha256": "ae4a63d1a3fefa498b66fa49fbd8fa85e055aaf2e2ff70489fd63a6d628c04dd",
+      "sha256": "8b4a5e738f9fd357adc475bcf838faf294984276318216a9ff2a18c9ffa931ab"
+    },
+    {
+      "id": "overview-kaede-outfit-3",
+      "path": "static/assets/portraits/overview/kaede-outfit-3.webp",
+      "source": "exec-9b9bf45e-384a-4fa9-8d8c-86acfc36fdc9.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Kaede character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 327454,
+      "previousSha256": "bce1a0298cdeb9a5a22a8179a8083caf94b462ea2990fc7876d3604baadcaee8",
+      "sha256": "4433e2cf6c7d59dce67a1b9cace801341bb4db6c9c5ad86cb6293e015d41da7a"
+    },
+    {
+      "id": "portrait-kaede-outfit-3",
+      "path": "static/assets/portraits/kaede-outfit-3.webp",
+      "source": "exec-1e4b5aaa-789d-4ba1-93cd-3a55bbc954c5.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Kaede character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 194734,
+      "previousSha256": "cefb56a1c42d01ff56f098a538dbab720806ee6e7e5a623a4975aa1c76b47fbf",
+      "sha256": "aec9bac652183a4f42968478a2be3ff718009420894f6282613db9515a9eacf7"
+    },
+    {
+      "id": "overview-fenna",
+      "path": "static/assets/portraits/overview/fenna.webp",
+      "source": "exec-518c28ce-bc09-43a3-b29f-9ebc1929b3df.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Fenna character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 281740,
+      "previousSha256": "934e261bd2d1140a46db856c9108d04eb1cca0f80b54c54db939cb93e719e40f",
+      "sha256": "5855a0771ddeece5a9be4f45061ed4ec70d7dc4850d480f856ad913da10982f8"
+    },
+    {
+      "id": "portrait-fenna",
+      "path": "static/assets/portraits/fenna.webp",
+      "source": "exec-6edab6cd-4da1-4411-b006-df169ae4e3f2.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Fenna character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 215376,
+      "previousSha256": "37f5fb5de32ba8fe3b699bd26e4f98bc0b1ab0072a7cdc8d1b916995b8117368",
+      "sha256": "511291c4474184c508595faa61e82ab0947f5779c362aa3d944840c4c51382fa"
+    },
+    {
+      "id": "overview-fenna-outfit-2",
+      "path": "static/assets/portraits/overview/fenna-outfit-2.webp",
+      "source": "exec-a0e98722-093c-44e8-90e8-d325d4598caf.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Fenna character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 290320,
+      "previousSha256": "fdfd525057f6a62db0ceab6eb852efb5a7b048934a3047368b18555a47d35fed",
+      "sha256": "c6b7c6c4ea956487bc5a9966a861f35835176295de710e3f76ff8c621274ac62"
+    },
+    {
+      "id": "portrait-fenna-outfit-2",
+      "path": "static/assets/portraits/fenna-outfit-2.webp",
+      "source": "exec-7d4e4f44-461f-4169-a816-bd172ceee1d6.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Fenna character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 167058,
+      "previousSha256": "ed0924f32eb81a55c73d2a3d81649b526362f0b7a8d579c922535aa1035e4ae9",
+      "sha256": "a86645d6b5492aab7f59505cb91951454a48b16dec13213f6836abefd28af944"
+    },
+    {
+      "id": "overview-fenna-outfit-3",
+      "path": "static/assets/portraits/overview/fenna-outfit-3.webp",
+      "source": "exec-695cd868-eadc-4856-a6c5-db92b1b997dd.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Fenna character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 269324,
+      "previousSha256": "b7460b1935219c5c2d51d100dbfe595441cb89871f36ed569333aa55c2117503",
+      "sha256": "1cfe98d034796925f56bcea4bfc5131c8f71831debd2f7959f4fde517727dc16"
+    },
+    {
+      "id": "portrait-fenna-outfit-3",
+      "path": "static/assets/portraits/fenna-outfit-3.webp",
+      "source": "exec-2462c9f6-8d49-4aa7-8516-db841f962ade.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Fenna character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Make her face youthful like a clearly adult woman in her early twenties: soft cheek contours, gentle jaw, fresh smooth skin and lively warm eyes, with a natural subtle smile. Retain her recognisable identity, ethnic features, eye colour, ancestry and adult body. No childlike proportions. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 141416,
+      "previousSha256": "8f9a96a04c2d04786f78c04c13de0a71538a60de5e5cafdd0c1c0cd1c27a773b",
+      "sha256": "761b5d18b9027afcd1004b0d24f12ce5e4e3211dbf45bb53678f13ec612957be"
+    },
+    {
+      "id": "overview-mira",
+      "path": "static/assets/portraits/overview/mira.webp",
+      "source": "exec-0670868b-caeb-4a58-bf72-f93aed6d1aee.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Mira character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 265894,
+      "previousSha256": "162753bbed5ab492410124ef0751ebb0a27bcaf5a4a764d779504661c14cf44b",
+      "sha256": "87fc221dd80fa7a9276f3c4265f1b6a5a67756fe1759a5b8255a9ebcbf870ca7"
+    },
+    {
+      "id": "portrait-mira",
+      "path": "static/assets/portraits/mira.webp",
+      "source": "exec-c0b58638-b598-4ac7-82fa-127301f7f0fc.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Mira character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 212108,
+      "previousSha256": "4af413d9204cb62b7cab063c4503ea1d26bb855661cac86602d3fbb5fec2fdf9",
+      "sha256": "86f178e6b5e37f93f01c7c53602abbc674e40e22188799e79359a335ae6fb1f6"
+    },
+    {
+      "id": "overview-sabine-outfit-3",
+      "path": "static/assets/portraits/overview/sabine-outfit-3.webp",
+      "source": "exec-80a18134-b88d-43a8-8095-284ab2cc4cce.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Sabine character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 275380,
+      "previousSha256": "7976a898c03b34c5846701a6cb1bd3ab15f46262b015930c290daf7bb17972c1",
+      "sha256": "28527eace7a52326a050e8264cb9b31b7388eaa1607e7864a8b096387ebd7546"
+    },
+    {
+      "id": "portrait-sabine-outfit-3",
+      "path": "static/assets/portraits/sabine-outfit-3.webp",
+      "source": "exec-78a9f7fb-26ce-4c1a-96c8-9b743e94de6d.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Sabine character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 174000,
+      "previousSha256": "8a94c52341c975c0bc97f39c29062213e0acf6897fd0647e12f50169dc7ad301",
+      "sha256": "217ab15f42c9af540108abbce703d0897d146ccd4a9bdb54b8e3d83a038cdd18"
+    },
+    {
+      "id": "overview-brakka-outfit-3",
+      "path": "static/assets/portraits/overview/brakka-outfit-3.webp",
+      "source": "exec-b467a5c8-3d27-4045-9fdc-5083974f4fc9.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Brakka character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 284008,
+      "previousSha256": "8a10aa1833fa96a29576f1a23b7b56ad1ad3f2e22c91177dea83be6b54faf9fa",
+      "sha256": "ca98ed32230cee85544fa64b4cbc0980f766211d0d2927a3d143ebcb57d9eca9"
+    },
+    {
+      "id": "portrait-brakka-outfit-3",
+      "path": "static/assets/portraits/brakka-outfit-3.webp",
+      "source": "exec-e142a85b-5354-49a0-88f6-628cc42d2c86.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Brakka character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 155924,
+      "previousSha256": "76b47752574e2439fddbb763755391c56b9f67b27fa1358ebee4c2160eecc9e4",
+      "sha256": "f36630a31509ebd9bd1eb75a4697fa9f77a0f145eb09cef1a959053b477fdcb0"
+    },
+    {
+      "id": "overview-maren-outfit-2",
+      "path": "static/assets/portraits/overview/maren-outfit-2.webp",
+      "source": "exec-519f1dc7-6adf-4c92-8b58-172592518d4a.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Maren character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 288964,
+      "previousSha256": "7ec5364a0306882be007fc6066f09c01fbab17064f8144eea777480f2a958453",
+      "sha256": "3864aa90c39e1070e2d919f2ca475cabb238cdd329b2524b299a22d5d0d74754"
+    },
+    {
+      "id": "portrait-maren-outfit-2",
+      "path": "static/assets/portraits/maren-outfit-2.webp",
+      "source": "exec-eb1a36e8-4d47-4d23-bf96-b605e2145c8e.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Maren character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 198318,
+      "previousSha256": "6d75b0fc1d5ea85eff3898a8e326aea4eb77ebbfffecd0b26722a64babddf0c3",
+      "sha256": "9a4a5a01e140a14c60f37c4539c75b831f856c4f4e5d7f968cb97a534db178de"
+    },
+    {
+      "id": "overview-maren-outfit-3",
+      "path": "static/assets/portraits/overview/maren-outfit-3.webp",
+      "source": "exec-fa1e5b79-95f6-4e32-b1d1-13f6eab3abb4.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Maren character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Keep the room background exactly as shown. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 292050,
+      "previousSha256": "3f5825a9032a77a6b71174a90c51de54c6d4bb5ea7b65e4e6b4c9b6c728cd937",
+      "sha256": "47945b9111dcd1b1a589fd0bcd7ccefe59ad621201e7869c1dc455397e8c50bc"
+    },
+    {
+      "id": "portrait-maren-outfit-3",
+      "path": "static/assets/portraits/maren-outfit-3.webp",
+      "source": "exec-ea9a2a5b-e1e2-4958-ab35-9353ea56483e.png",
+      "prompt": "Use case: precise-object-edit. Edit the supplied Maren character illustration. Preserve the entire composition, pose, body proportions, hands, clothing, hairstyle, species features, props, colours and engraved fantasy illustration style. Preserve the transparent background. Replace any raised-heel footwear with matching practical flat-soled footwear: same upper boot or sandal/shoe design, but heel and forefoot at the same level, a thin continuous flat sole, NO high heels, block heels, wedges, platforms, raised heel blocks or tiptoe stance. If already barefoot or wearing truly flat sandals, keep them. Preserve her recognisable youthful adult face and identity. Change nothing else. No text or watermark.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 175088,
+      "previousSha256": "706243939951bdc3a01cd2b3f585ebb4d52e5b4c1e2a45602e2e5504f6171de7",
+      "sha256": "4d57d5d01d9cfd56b94306afad84ebabb9c7f4b124495d9ad6831b342cfbcd74"
+    },
+    {
+      "id": "portrait-neris",
+      "path": "static/assets/portraits/neris.webp",
+      "source": "exec-c5b7e796-f48e-4321-9fe1-157033bb2d13.png",
+      "prompt": "Use case: precise-object-edit. Change only the raised heels of Neris\u2019s boots into flat continuous soles, with heel and forefoot at the same ground level. Keep the existing boot uppers, her youthful adult face, water-elemental skin and fin ears, hairstyle, body, pose, outfit, hands, props, lighting, composition and detailed engraved fantasy style unchanged. No block heel, stiletto, wedge, platform or tiptoe stance. Preserve genuine transparent background. No text.",
+      "size": [
+        1024,
+        1536
+      ],
+      "alpha": true,
+      "bytes": 209226,
+      "previousSha256": "caf40c62cd496d62b1de918d9452dde2a089e1447f0354a6aa9792a4e267e324",
+      "sha256": "02b4e44690a301b05a1932fcccaf8b9fa86bf1c24cc689d72eea8bf1e1855b71"
+    },
+    {
+      "id": "overview-neris-outfit-2",
+      "path": "static/assets/portraits/overview/neris-outfit-2.webp",
+      "source": "exec-c691899c-6d01-49b3-9933-ead5df8f6297.png",
+      "prompt": "Use case: precise-object-edit. Change only the raised heels of Neris\u2019s boots into flat continuous soles, with heel and forefoot at the same ground level. Keep the existing boot uppers, her youthful adult face, water-elemental skin and fin ears, hairstyle, body, pose, outfit, hands, props, lighting, composition and detailed engraved fantasy style unchanged. No block heel, stiletto, wedge, platform or tiptoe stance. Preserve the hot spring room background exactly. No text.",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 324750,
+      "previousSha256": "064a98413d69bd8be8720842f9f739a1de63ec71d24948df7d8a98e5e5bcfd4f",
+      "sha256": "25535ccf6dfd8ab6706d2b37edbe13dedd25ef37961a2c6784258037d3c3142d"
+    }
+  ]
+}

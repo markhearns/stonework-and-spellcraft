@@ -1,0 +1,10 @@
+Historical v0.53 brief, superseded by docs/art-v096/prompts.json in v0.96.
+
+OUTPUT: sylva.png
+CHARACTER/ART SLOT: sylva
+
+Clearly adult dryad woman with muted leaf-green skin, branching leaf veins and subtle living bark on her forearms and calves; long chestnut hair with green sprigs, hazel-green eyes and leaflike ears. Practical opaque clothing of overlapping leaves, woven vines and flexible bark, with bark sandals. Warm recognizable face; no glowing effects or crown. Age 25. A patient, playful dryad cultivator associated with the Conservatory & Potting Benches. Relaxed practical stance, holding a small rooted cutting in a plain earthen pot. Subtle botanical traits, not a bark monster or elaborate forest queen.
+
+Natural eye-level perspective. Modest useful stone-and-timber castle, worn objects. Antique engraving–inspired fantasy illustration. Intricate etched linework, fine hatching and crosshatching, subtly worn print texture, and richly detailed aged materials. Historically grounded craftsmanship, understated fantasy, and believable proportions. Midnight navy and charcoal, muted violet, natural wood/plant/fabric colours, sparse dull brass. Dim but readable and welcoming. Avoid palatial luxury, glossy CGI, photorealism, glowing magic spectacle and crushing all detail into black.
+
+1024 x 1536 transparent RGBA PNG. One full adult figure, no background or text.
