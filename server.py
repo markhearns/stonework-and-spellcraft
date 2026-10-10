@@ -325,7 +325,7 @@ class ConflictError(ValueError):
     pass
 
 class Handler(BaseHTTPRequestHandler):
-    server_version = 'StoneworkAndSpellcraft/0.105'
+    server_version = 'StoneworkAndSpellcraft/0.119'
 
     def send_bytes(self, content, mime, status=200, download=False):
         self.send_response(status)
@@ -399,7 +399,7 @@ class Handler(BaseHTTPRequestHandler):
             if path == '/api/export':
                 return self.json_response(public_state(self.selected_store().read()), download=True)
             if path == '/api/health':
-                return self.json_response({'status': 'ok', 'version': '0.105'})
+                return self.json_response({'status': 'ok', 'version': self.server_version.split('/')[-1]})
             path = ASSET_ALIASES.get(path, path)
             root = self.selected_store().directory / 'assets' if path.startswith('/user-assets/') else ROOT / 'static'
             relative = path.removeprefix('/user-assets/') if path.startswith('/user-assets/') else ('index.html' if path == '/' else path.lstrip('/'))

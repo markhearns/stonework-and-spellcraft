@@ -86,7 +86,7 @@ class EstateExpansionTests(unittest.TestCase):
             with sqlite3.connect(Path(directory)/'campaign.sqlite3') as db:
                 db.execute('CREATE TABLE campaign(id INTEGER PRIMARY KEY,state TEXT NOT NULL)');db.execute('INSERT INTO campaign VALUES(1,?)',(json.dumps(old),))
             store=GameStore(directory);upgraded=store.read()
-            self.assertTrue((Path(directory)/'campaign-before-schema-28-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-28-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             self.assertEqual(upgraded['housingRooms']['west-chamber'],old['housingRooms']['west-chamber'])
             self.assertEqual(upgraded['bedroomAssignments'],old['bedroomAssignments'])
             self.assertEqual(upgraded['sharedFunds'],old['sharedFunds'])

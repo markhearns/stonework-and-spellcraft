@@ -66,6 +66,6 @@ const context = vm.createContext({
  await value('readState().then(s=>{state=s;render();})');assert.equal(value('state.householdChaptersView.people[0].completed'),4);
  await click({workArrangement:'delete-work-arrangement',workName:'Quiet <afternoon>'});assert.equal(value('state.workArrangementsView.plans.length'),0);
  await value('commit({type:"start-research"})');await value('commit({type:"assign-founder",assignment:"commissions"})');await click({view:'progression'});
- assert.match(element('#app').innerHTML,/Resuming changes:/);assert.match(element('#app').innerHTML,/commissions → research/);
+ assert.match(element('#app').innerHTML,/Resuming changes:/);assert.match(element('#app').innerHTML,/Copy records for income → Hearth research/);
  console.log('PASS: connected four-chapter route, remembered wardrobe response, room filtering/revisits, no time/resource costs, saved work previews and restoration, escaping, reload, project assignment impacts.');
  }finally{fs.rmSync(directory,{recursive:true,force:true});}})().catch(error=>{console.error(error);process.exitCode=1;});

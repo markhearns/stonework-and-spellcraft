@@ -208,7 +208,7 @@ class DevelopmentTests(unittest.TestCase):
             self.assertEqual(upgraded['characterDevelopment']['founder']['preparedPractices'], [])
             self.assertEqual(upgraded['materialInventory']['moon-glass'], 0)
             self.assertEqual(GameStore(directory).read(), upgraded)
-            with sqlite3.connect(Path(directory)/'campaign-before-schema-4-to-66.sqlite3') as db:
+            with sqlite3.connect(Path(directory)/f"campaign-before-schema-4-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3") as db:
                 self.assertEqual(json.loads(db.execute('SELECT state FROM campaign').fetchone()[0]), old)
             self.state = upgraded; self.advances(1)
             self.assertEqual(self.state['craftedArtifacts']['hearth-kettle'], 1)

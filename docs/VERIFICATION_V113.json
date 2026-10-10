@@ -1,0 +1,76 @@
+{
+  "version": "0.113",
+  "schema": 71,
+  "python": {
+    "passed": true,
+    "total_unique_tests": 245,
+    "module_counts": {
+      "test_companion_threads": 17,
+      "test_companion_dialogue_review": 7,
+      "test_companion_almanac": 20,
+      "test_social_life": 12,
+      "test_household_chapters": 16,
+      "test_relationships": 14,
+      "test_dialogue": 18,
+      "test_party_journeys": 28,
+      "test_romance": 15,
+      "test_intimacy": 14,
+      "test_household_sagas": 18,
+      "test_foundation_chamber": 15,
+      "test_resident_friendships": 19,
+      "test_resident_bonds": 17,
+      "test_art_release": 4,
+      "test_candidate_http": 1,
+      "test_outfits": 10
+    },
+    "new_complete_paths_exercised": 1812,
+    "execution_notes": [
+      "Initial command named a nonexistent test_outfit_progression module; the intended test_outfits module passed after correcting the command. All other initial modules passed.",
+      "Final companion-thread tests passed after the continuity and dynamic-effect updates. Counts are unique tests, not cumulative reruns."
+    ]
+  },
+  "connected_ui": {
+    "passed": true,
+    "count": 12,
+    "suites": [
+      "companion_threads",
+      "almanac",
+      "social_life",
+      "household_chapters",
+      "relationships",
+      "party_journeys",
+      "romance",
+      "intimacy",
+      "resident_friendships",
+      "foundation_chamber",
+      "outfits",
+      "resident_bonds"
+    ],
+    "runtime": "Node VM HTML templates and click controllers with real Python GameStore actions",
+    "new_suite": {
+      "completed_conversations": 46,
+      "saved_exchanges": 115,
+      "lost_response_retry": true,
+      "interrupted_turn_reload": true,
+      "profile_preference_correction": true,
+      "journal_and_direct_navigation": true,
+      "html_escaping": true
+    }
+  },
+  "rendered_browser": {
+    "verified": false,
+    "reason": "No browser executable is available. No desktop/mobile pixel verification claimed."
+  },
+  "audio_performance": {
+    "verified": false,
+    "scope": "Dialogue cadence and voice reviewed as text; no audio performance claimed."
+  },
+  "compatibility": {
+    "previous_release": "0.112",
+    "save_schema_migration": "70 to 71; automatic pre-migration SQLite backup",
+    "existing_fields_preserved_except_schema": true,
+    "historical_memory_records_preserved": true,
+    "unchanged_runtime_art_files": 398,
+    "deployment": "Not deployed; full installable archive."
+  }
+}

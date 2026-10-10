@@ -52,7 +52,7 @@ const context = vm.createContext({
   if(v.complete)break;
   if(v.scene){
    const sc=v.scene;
-   if(sc.id==='repair-notes'){assert.match(element('#app').innerHTML,/data-person-portrait="maren"/);sawPortrait=true;}
+   if(sc.id==='repair-notes'){assert.match(element('#app').innerHTML,/data-person-portrait="koharu"/);sawPortrait=true;}
    const choice=sc.id==='company'?'meet':sc.id==='conclusion'?'craft':sc.choices[0].id;
    const day=value('state.dayNumber'),phase=value('state.currentDayPhase');
    await act({type:'first-hearth-choice',sceneId:sc.id,choiceId:choice});

@@ -94,7 +94,7 @@ class EncounterTests(unittest.TestCase):
             with sqlite3.connect(Path(directory)/'campaign.sqlite3') as db:
                 db.execute('CREATE TABLE campaign(id INTEGER PRIMARY KEY,state TEXT NOT NULL)');db.execute('INSERT INTO campaign VALUES(1,?)',(json.dumps(old),))
             store=GameStore(directory)
-            self.assertTrue((Path(directory)/'campaign-before-schema-10-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-10-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             def call(kind,**fields):return store.action({'requestId':uuid.uuid4().hex,'expectedRevision':store.read()['revision'],'action':{'type':kind,**fields}})
             call('start-expedition',siteId='rainward-observatory');call('advance');call('choose-expedition-approach',approach='survey')
             request={'requestId':uuid.uuid4().hex,'expectedRevision':store.read()['revision'],'action':{'type':'choose-encounter-method','methodId':'drain-by-hand'}}

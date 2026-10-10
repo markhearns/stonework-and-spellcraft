@@ -102,5 +102,5 @@ class ExpeditionTests(unittest.TestCase):
             self.assertEqual(upgraded['schemaVersion'],66)
             self.assertEqual(upgraded['materialInventory']['sun-amber'],9)
             self.assertIn('steady-hearth-wards',upgraded['founderKnownPrinciples'])
-            self.assertTrue((Path(directory)/'campaign-before-schema-2-to-66.sqlite3').is_file())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-2-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").is_file())
             self.assertEqual(upgraded,GameStore(directory).read())

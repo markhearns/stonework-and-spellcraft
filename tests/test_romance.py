@@ -37,8 +37,8 @@ class RomanceTests(unittest.TestCase):
    self.reject('share-romance',who=who,index=3,choice='romantic')
  def test_distinct_content_for_all_characters(self):
   rows=[row for scenes in c.SCENES.values() for row in scenes]
-  self.assertEqual(len(rows),60)
-  for column in range(3):self.assertEqual(len({row[column] for row in rows}),60)
+  self.assertEqual(len(rows),64)
+  for column in range(3):self.assertEqual(len({row[column] for row in rows}),64)
  def test_scores_alone_never_establish_romance_and_views_are_pure(self):
   self.ready();old=deepcopy(self.s);v=r.views(self.s);self.assertEqual(old,self.s);self.assertEqual(r.level(self.s,'mira'),0)
   self.assertTrue(v['mira']['scenes'][0]['available']);self.assertFalse(v['mira']['scenes'][1]['available'])
@@ -105,7 +105,7 @@ class RomanceTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as directory:
    st=GameStore(directory)
    with sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(self.s),))
-   st=GameStore(directory);s=st.read();self.assertEqual(s['schemaVersion'],66);self.assertTrue(Path(directory,'campaign-before-schema-52-to-66.sqlite3').exists())
+   st=GameStore(directory);s=st.read();self.assertEqual(s['schemaVersion'],g.CURRENT_SCHEMA_VERSION);self.assertTrue(Path(directory,f'campaign-before-schema-52-to-{g.CURRENT_SCHEMA_VERSION}.sqlite3').exists())
    self.assertEqual(r.saved(s)['memories'],{});self.assertEqual(s['outfitProgression'],old['outfitProgression'])
    req={'requestId':uuid.uuid4().hex,'expectedRevision':s['revision'],'action':{'type':'share-romance','characterId':'mira','index':0,'choice':'romantic'}}
    after=st.action(req);self.assertEqual(st.action(req),after);self.assertEqual(GameStore(directory).read(),after)

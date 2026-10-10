@@ -13,7 +13,8 @@ def available(s):
     return bool(s['livingWingCompletedOn']) and 'hearth-margin' in s['castleMystery']['discoveries'] and (not opening or 'conclusion' in opening['memories'])
 
 def undertakings_complete(s):return all(record(s,k) and record(s,k)['finished'] for k in PATHS)
-def chapter_complete(s):return undertakings_complete(s) and bool(saved(s).get('conclusion'))
+def completed_paths(s):return [k for k in PATHS if record(s,k) and record(s,k)['finished']]
+def chapter_complete(s):return bool(completed_paths(s)) and bool(saved(s).get('conclusion'))
 def bonus(s,effect):
     return sum(PATHS[k]['designs'][r['design']]['amount'] for k,r in saved(s)['projects'].items()
                if r.get('project') and r['project']['status']=='complete' and PATHS[k]['designs'][r['design']]['effect']==effect)
@@ -213,7 +214,7 @@ def view(s):
         public['designs']={dk:{field:val for field,val in dd.items() if field!='response'} for dk,dd in d['designs'].items()}
         rows.append({'id':k,**public,'adviserId':a,'adviserName':g.character_profile(s,a)['name'] if a else None,'status':'complete' if old and old['finished'] else 'started' if old else 'available'})
     result={'title':'The House Takes Shape','available':available(s),'enabled':saved(s)['enabled'],'paths':rows,'active':key,'record':deepcopy(r),'people':[], 'next':None,'blockers':[]}
-    result.update(completedCount=sum(bool(record(s,k) and record(s,k)['finished']) for k in PATHS),allUndertakingsComplete=undertakings_complete(s),chapterComplete=chapter_complete(s),conclusion=deepcopy(saved(s).get('conclusion')))
+    result.update(completedCount=sum(bool(record(s,k) and record(s,k)['finished']) for k in PATHS),allUndertakingsComplete=undertakings_complete(s),canConclude=bool(completed_paths(s)) and not saved(s).get('conclusion'),chapterComplete=chapter_complete(s),conclusion=deepcopy(saved(s).get('conclusion')))
     result['improvements']={room:room_improvements(s,room) for room in ('library','conservatory','workshop')}
     result['memories']=[deepcopy(m) for row in saved(s)['projects'].values() for m in row['memories']]
     if not r:return result
@@ -245,16 +246,16 @@ def apply(s,a):
         initialize(s);saved(s)['enabled']=a['enabled'];return True
     g.require(g.character_at_castle(s,'founder'),'Return home before changing the shared plan.')
     if kind=='shape-conclude':
-        g.require(undertakings_complete(s) and not saved(s).get('conclusion'),'Finish all three undertakings before closing Chapter 2 once.')
+        g.require(completed_paths(s) and not saved(s).get('conclusion'),'Complete one chosen undertaking before closing Chapter 2 once.')
         contributions={}
-        for path in PATHS:
+        for path in completed_paths(s):
             p=record(s,path)['project']
             for who,n in p['contributions'].items():
                 entry=contributions.setdefault(who,{'name':p['names'][who],'work':0});entry['work']+=n
-        designs=[PATHS[k]['designs'][record(s,k)['design']]['name'] for k in PATHS]
-        text='The first hearth gave you somewhere to return to. '+', '.join(designs)+' have made that home useful in three different ways. The archive evidence remains one discovery, read alongside the work rather than earned again. Recorded contributions: '+', '.join(d['name']+' · '+str(d['work'])+' work' for d in contributions.values())+'. The next page asks where a larger household could live, meet and work.'
+        designs=[PATHS[k]['designs'][record(s,k)['design']]['name'] for k in completed_paths(s)]
+        text='The first hearth gave you somewhere to return to. With '+', '.join(designs)+', the household now has a place for this work and the equipment to carry it out. The other undertakings remain available as optional improvements. Recorded contributions: '+', '.join(d['name']+' · '+str(d['work'])+' work' for d in contributions.values())+'. The next page asks where a larger household could live, meet and work.'
         people=[who for who in contributions if who!='founder' and who in g.household_members(s) and g.character_at_castle(s,who)]
-        remember(s,saved(s)['active'],'Three rooms, one home',text,people)
+        remember(s,completed_paths(s)[0],'A working home',text,people)
         saved(s)['conclusion']={'text':text,'contributions':contributions,'participants':['founder']+people,**stamp(s)}
         return True
     key=a.get('pathId',saved(s)['active'])

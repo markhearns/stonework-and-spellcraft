@@ -13,15 +13,37 @@ def view(s):
     names={**g.CHARACTERS,**{k:v['profile'] for k,v in summoning.CANDIDATES.items()},
            **{k:local.definition(s,k)['profile'] for k in local.PEOPLE},
            **{k:v['candidate']['profile'] for k,v in containment.CASES.items()}}
+    import chapel_spirit
+    names['merrin']=chapel_spirit.definition(s)['profile']
     return {'companions':[{'id':k,'name':names[k]['name'],'recruited':k in g.household_members(s)} for k in unique_ids()],
             'rooms':{**{k:d['name'] for k,d in g.HOUSING_ROOMS.items()},**{k:d['name'] for k,d in g.FACILITIES.items()},
-                     **{k:d['name'] for k,d in h.ROOMS.items() if not d.get('legacy')},'conservatory':'Conservatory'},
+                     **{k:d['name'] for k,d in h.ROOMS.items() if not d.get('legacy') and (k!='foundation-chamber' or 'instructions' in s.get('foundationChamber',{}).get('completed',{}))},
+                     **{k:d['name'] for k,d in containment.CHAMBERS.items()},'conservatory':'Conservatory'},
             'gear':{k:d['name'] for k,d in armoury.CATALOG.items()}}
 
 
 def build(s,key):
-    import game as g, headquarters as h
+    import game as g, headquarters as h, foundation_chamber as fc, containment
     g.require(isinstance(key,str) and key in view(s)['rooms'],'Choose a listed room or facility.')
+    if key==fc.ROOM:
+        r=fc.saved(s)
+        g.require('restoration' not in r['completed'],'The foundation chamber is already restored.')
+        g.require(not r['job'] or r['job']['stepId']=='restoration','Finish or cancel the current investigation task first.')
+        d=fc.STEPS['restoration']
+        r['completed']['restoration']=dict(title=d['name'],text=d['result'],method='Cheat: immediate restoration',dayNumber=s['dayNumber'],phase=s['currentDayPhase'])
+        if r['job']:
+            r['job']=None
+            if g.character_assignment(s,'founder')==fc.ASSIGNMENT:g.set_character_assignment(s,'founder','rest')
+        s['headquarters']['rooms'][key]='complete'
+        return 'Restored the discovered foundation chamber. Existing construction payments remain spent. Both circuit tests are still required; no blessing, relationship progress or romantic milestone was granted.'
+    if key in containment.CHAMBERS:
+        g.require(s['containment']['chambers'][key]['status']!='ready','This chamber is already fitted.')
+        s['containment']['chambers'][key]['status']='ready'
+        job=s['containment']['project']
+        if job and job['kind']=='chamber' and job['targetId']==key:
+            s['containment']['project']=None
+            if s['founderAssignment']=='containment':s['founderAssignment']='rest'
+        return 'Fitted '+containment.CHAMBERS[key]['name']+'. Existing construction payments remain spent. No encounter, care case or recruitment was completed.'
     if key=='conservatory':
         g.require(s['restorationStatus']!='complete','The conservatory is already restored.')
         s['restorationStatus']='complete';s['restorationCompletedPhases']=s['restorationRequiredPhases']
@@ -57,6 +79,16 @@ def recruit(s,selected):
     g.require(len(g.household_members(s))+len(targets)<=51,'The household limit is 51 people, including your character.')
     added=[];built=[]
     for who in targets:
+        import recruitment_quests,field_patrols
+        quest=recruitment_quests.saved(s).get(who)
+        if quest:
+            quest.update(status='invited',chamberId=None)
+            run=field_patrols.saved(s)['active']
+            if run and run.get('recruitmentId')==who:run.pop('recruitmentId')
+        if who=='merrin':
+            import chapel_spirit
+            s['localEncounterCandidates'].setdefault(who,chapel_spirit.definition(s))
+            chapel_spirit.initialize(s);s['chapelSpirit']['introduced']=True
         if who in summoning.CANDIDATES:s['reviewedCandidates'].setdefault(who,deepcopy(summoning.CANDIDATES[who]))
         if who in containment.CASES:
             s['reviewedCandidates'].setdefault(who,deepcopy(containment.CASES[who]['candidate']))
@@ -135,7 +167,7 @@ def apply(s,a):
         key=a.get('recordId');g.require(isinstance(key,str) and key in armoury.CATALOG,'Choose a listed equipment item.')
         g.require(len(s['armoury']['items'])<1000,'The equipment limit for cheats is 1,000 items.')
         item=armoury.make(s,key,who)
-        return 'Added '+item['name']+' for '+g.character_profile(s,who)['name']+'. Equip and enchant it from Build → Loadout.'
+        return 'Added '+item['name']+' for '+g.character_profile(s,who)['name']+'. Equip and enchant it from Build → Equipment & abilities.'
     if kind=='cheat-advancement':
         n=a.get('quantity');g.require(type(n) is int and 1<=n<=10000,'Choose 1–10,000 advancement points.')
         g.award_advancement(s,who,'cheat:'+str(s['testing']['nextNumber']),n,'Cheat: advancement points')

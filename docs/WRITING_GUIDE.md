@@ -50,3 +50,24 @@ Before accepting a scene, ask: What are they talking about? What does the respon
 - Equipment comparisons must come from the same rules as the action. Distinguish equipment bonuses from skill, party and action bonuses, and do not add together effects that do not stack.
 - Room conversation markers count available, unshared conversations. Journal thumbnails show known places and owned artifacts; do not suggest an undiscovered reward.
 - Keep master artwork outside the game folder. Verify package contents before every release, while preserving the pixels of runtime assets.
+
+## Player responses and character motivations
+
+- When the player joins a conversation, offer distinct ways to respond. A question, a personal contribution and a respectful challenge are useful options when each fits the subject. Do not put the same answer behind differently labelled buttons.
+- Keep the exact displayed player line and the selected reply in the saved memory. Follow-ups must use that record rather than assume a different branch occurred.
+- Do not narrate a detailed player preference or personal history that no choice established. A dialogue scene may offer a clearly labelled fictional contribution; an open-ended generated reply should ask and wait.
+- `companion_conversations.py` records the named cast’s goals, values and habitual difficulties. These are directions for character choices, not completed activities, new powers or lines to repeat in every scene. Private disclosures keep their existing gates.
+- Give work-focused companions interests beyond work. Preserve overlapping skills: Tamsin binds books and enjoys food; Zahra’s careful craft grew from water-channel work; Kaede’s glasswork and competitive training coexist; Elowen understands wards as well as herbs.
+- Quiet gestures and concise answers can have purpose. Do not pad a completed exchange with an explanation that it was meaningful, honest or a sign of trust.
+
+## Continuing conversations
+
+- `companion_threads_content.py` supplies the new authored trees. Review each path as a conversation: a reply must answer the chosen line, and the next exchange must make sense after every route into it.
+- An NPC question about the player must offer uncertainty and privacy when appropriate. Store the explicit answer with the resident who heard it. Use the latest correction for later invitations; do not rewrite earlier transcripts or give the answer to other residents.
+- An invitation can adapt to a preference without guaranteeing the player wants that activity every time. A one-off response does not silently replace an enduring preference.
+- Respectful disagreement can survive a later visit. Do not narrate agreement or a conversion unless a choice actually establishes it.
+- Give a follow-up a new fact, result, attempt, joke or decision. Merely praising the earlier conversation is not a follow-up.
+- Residents may decide, revise a plan and disagree with each other without asking the player to arbitrate. Offer listening as a real response when it fits.
+- Keep phase-independent scenes compatible with morning, afternoon and evening. Do not claim yesterday passed because a single phase passed.
+- A tradition is a clearly agreed future intention, not proof of a completed activity or an automatic appointment. Keep those distinctions in the profile and dialogue context.
+- Save actual reached text. Display progress, missing requirements and current effects beside controls, and keep long history expandable. Every response must survive reload and a retried save without replaying a reward.

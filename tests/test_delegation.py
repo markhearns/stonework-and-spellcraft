@@ -99,7 +99,7 @@ class DelegationTests(unittest.TestCase):
             store=GameStore(directory)
             with sqlite3.connect(store.database) as db:db.execute('UPDATE campaign SET state=?',(json.dumps(old),))
             store=GameStore(directory)
-            self.assertTrue((Path(directory)/'campaign-before-schema-13-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-13-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             self.assertIsNone(store.read()['workOrders'][0]['delegation']);self.assertEqual(store.read()['sharedFunds'],80)
             payload={'requestId':uuid.uuid4().hex,'expectedRevision':store.read()['revision'],'action':{'type':'delegate-work-order','orderId':order['id'],'budgetCrowns':10}}
             result=store.action(payload);self.assertEqual(store.action(payload),result)

@@ -1,0 +1,1161 @@
+{
+  "assets": [
+    {
+      "path": "static/assets/materials/rime-membrane.webp",
+      "sha256": "9ff55e2ac44c4da528e52bae0b5260e2abca41bf525d8c733e8885aec3fc6da4",
+      "bytes": 18486,
+      "dimensions": [
+        256,
+        213
+      ]
+    },
+    {
+      "path": "static/assets/materials/lantern-dust.webp",
+      "sha256": "a651b1c532de561082bea7e6ec648991b231a129e4cbac98759eda2776983374",
+      "bytes": 23278,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/materials/flint-beak-splinter.webp",
+      "sha256": "33d78f062d072cd991253987e1b05e9ffb66467677ed6ee06d2af8e349ca6734",
+      "bytes": 12176,
+      "dimensions": [
+        256,
+        171
+      ]
+    },
+    {
+      "path": "static/assets/materials/marsh-shell.webp",
+      "sha256": "c37dc23b6083f783544edc71df7ef2c1fef5584e5c04055a0ed1b9061b565e11",
+      "bytes": 28488,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/materials/living-root-fibre.webp",
+      "sha256": "168821c1232fc6c69db6d8f02353101bd465f91160fea1a3a760222146e6dbfd",
+      "bytes": 33946,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/materials/ward-stone-chip.webp",
+      "sha256": "931cedd8d2348f298d85855e244c301466bd87d9b4bb9213c3dfff2bb2f3406b",
+      "bytes": 15404,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/materials/kiln-cinder.webp",
+      "sha256": "791f9c78d4c7040b5b34ef5c754781247e10a170675a3914c2b2554bcb9a38ec",
+      "bytes": 17228,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/materials/storm-antler.webp",
+      "sha256": "0af81c5382a6ee14006f2044f9396ff3ca8065486ff2248bacc4c1f79da25fcc",
+      "bytes": 15518,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/materials/grave-silk.webp",
+      "sha256": "03a30f476f15c8ae90267d1c279ddbaecf0db402507738f3eca64b6b5437994a",
+      "bytes": 21482,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/materials/gloam-gel.webp",
+      "sha256": "665124f2baa14c7e959750919e40875c3841063cd6e0eaf95850b00be252cd56",
+      "bytes": 17960,
+      "dimensions": [
+        256,
+        240
+      ]
+    },
+    {
+      "path": "static/assets/materials/burrow-down.webp",
+      "sha256": "5ad32bad7f9145c90277b81a58418519828e104a45dce3a89a3e05b324e35205",
+      "bytes": 18574,
+      "dimensions": [
+        256,
+        171
+      ]
+    },
+    {
+      "path": "static/assets/materials/reed-membrane.webp",
+      "sha256": "87ac9d6637f754f13f71e6278466e7fbbb957b24be6fa718f39df3382c5368fc",
+      "bytes": 15006,
+      "dimensions": [
+        256,
+        171
+      ]
+    },
+    {
+      "path": "static/assets/materials/slate-scale.webp",
+      "sha256": "795620e9fd2c1e6d3d3a79c57d95276ff75cc2210cb9754fbdd5798a3ce396c6",
+      "bytes": 15872,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/materials/bridge-moss.webp",
+      "sha256": "4af0924cbe812ffcfd53900454242b2c1aecc093134c42b5a0cb94cbe0f19f8a",
+      "bytes": 15608,
+      "dimensions": [
+        256,
+        171
+      ]
+    },
+    {
+      "path": "static/assets/materials/silt-scute.webp",
+      "sha256": "b5300439d11f370b00fdfd6ae1b152655c4b6368603a4eeda3bef4616cc49195",
+      "bytes": 22110,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/materials/wolf-underfur.webp",
+      "sha256": "819fcca908c2b2bac46cab515f2476a55788fcc163fe7e3862eef9343d68fc5c",
+      "bytes": 24690,
+      "dimensions": [
+        256,
+        213
+      ]
+    },
+    {
+      "path": "static/assets/materials/watch-iron.webp",
+      "sha256": "c0d2c882e5dd9eb8d584aae211096995473e06e9cd9a372217dbf3b584659273",
+      "bytes": 13442,
+      "dimensions": [
+        256,
+        171
+      ]
+    },
+    {
+      "path": "static/assets/materials/griffin-feather.webp",
+      "sha256": "201c17dae1f66fe9599ad0993f61c8dc1a12f77edec6287c528503ecaec36670",
+      "bytes": 16180,
+      "dimensions": [
+        256,
+        171
+      ]
+    },
+    {
+      "path": "static/assets/materials/briar-bristle.webp",
+      "sha256": "00262da527ec25c716d8b8502cf19343fb02acd5d56afb1ead5eb14b58c260f7",
+      "bytes": 23120,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/materials/scarab-gear.webp",
+      "sha256": "87209c0680a551f6b5766e70ebb48953fc59c0e44a85b6fd4bbe283f7a103f74",
+      "bytes": 31420,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/portraits/brakka-outfit-2.webp",
+      "sha256": "5e67724376a437088525cca768d93e89a6a459413ac7ee11e8639afb42c6a01e",
+      "bytes": 229458,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/brakka-outfit-3.webp",
+      "sha256": "033076c8d54f2c26080330e0584014bf696a09d85d60dc59507c834a3590a3e3",
+      "bytes": 250918,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/kaede-outfit-2.webp",
+      "sha256": "1ed7be77b7fb67cce0288298dfa1b10ecb493245d9824067419a34de0592d244",
+      "bytes": 294768,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/sylva-outfit-2.webp",
+      "sha256": "d13e1211f52051ccf7e3e2a233ebffc474f79ac1f6064780c41acec716e5fcf9",
+      "bytes": 284698,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/elowen-outfit-3.webp",
+      "sha256": "364491d221931dfee1f49cdeebeced33d5eb05d1a12c68398ba2ad2f41ad11cf",
+      "bytes": 271184,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/fenna-outfit-3.webp",
+      "sha256": "5361a75ca644e41685bceff55c0cd90a6860c81e73bbfb11bc0af370a016a1b4",
+      "bytes": 252000,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/tamsin-outfit-3.webp",
+      "sha256": "1cf347550b85655125335a3ece153a202c66b14391c20be33bf9440eefda1918",
+      "bytes": 228744,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/maren-outfit-2.webp",
+      "sha256": "9e923e4636b546ac07a90a55fc838de7f411cfbf8cd2edaa89f5507eedd5ee79",
+      "bytes": 239866,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/iona-outfit-2.webp",
+      "sha256": "30ff9a1c8057dcc2858be7240022df5c1c55aeb70a9de16042d98626d5db2e90",
+      "bytes": 249318,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/neris.webp",
+      "sha256": "533e1a59d2b6d986752482dad5320b7448b707b48c1bf2b5e69356d830409bab",
+      "bytes": 297692,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/mira-outfit-2.webp",
+      "sha256": "29fcd78ec9370d7d7326cc1320949146630dbef064bc6df46b40771ae7432aa5",
+      "bytes": 213086,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/neris-outfit-3.webp",
+      "sha256": "81b8bc1f86ff81f7ae3b9130400a8c16d1f5504af37b8163947e28f77477cee3",
+      "bytes": 282200,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/neris-outfit-2.webp",
+      "sha256": "4b8e83c3a556d285c48e3c86e74bb1a1d4bb566ea3f2246ee51b0160ab51a6eb",
+      "bytes": 296618,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/fenna-outfit-2.webp",
+      "sha256": "8776a5b277a0abb85f83d10baad14b5be1843943ebcb99e475914e76f972acdd",
+      "bytes": 255188,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/fenna.webp",
+      "sha256": "7a215fc1b1479a129967f166d236c66b2ba815fcfd4b358e0b0db8b36a77d539",
+      "bytes": 254406,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/tamsin.webp",
+      "sha256": "3f6d5c590a2362f69b27a37cd673ed8560fd2a76bdbaf269eaaa28714a2ce19a",
+      "bytes": 254986,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/velis-outfit-3.webp",
+      "sha256": "4dff217339627d8961eb7606866acd4f0babe1fdbe994091debf53753fb50377",
+      "bytes": 231418,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/iona-outfit-3.webp",
+      "sha256": "10fa47ee900c30f15b3d34c52bf9f71f72ce8cd19c62f11b3490f63211305a1e",
+      "bytes": 246262,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/maren.webp",
+      "sha256": "60e440b61c652c7d0979afb36ded3cb4abe59943e88b29e62c082bd1cb7f859b",
+      "bytes": 267590,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/rhess-outfit-2.webp",
+      "sha256": "7d5672aad2081dcbeb326bef5e56dd1bcf1a39024fcdf6d36c2687cde02d1839",
+      "bytes": 272124,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/sylva-outfit-3.webp",
+      "sha256": "e6dc3b3fe457ba76b60fa3518194666976bac7af3b917ad8f391f950190ec72e",
+      "bytes": 263858,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/velis-outfit-2.webp",
+      "sha256": "339b67e5047362fc26985167133e085a15c4b5d9c3cf5131fc622f9061bfd387",
+      "bytes": 232118,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/sabine.webp",
+      "sha256": "6b4552f5d02e4d16e32675b49c1b095444bbaf104d360e7404d9653de4797f72",
+      "bytes": 245778,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/aurelia-outfit-3.webp",
+      "sha256": "b9e2b23d7ce914cd2809bfb07b00309d3d8cf2b085e1bd9f4d3251d1f53df945",
+      "bytes": 240048,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/nyssara.webp",
+      "sha256": "b5ab7035a50c4daae30bafc8be58eed3d7e686b5a806cdefb96f7d08a995ed7d",
+      "bytes": 278062,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/elowen.webp",
+      "sha256": "9e07e7e2a45be1522d53bff93a00b80d95cec272e9d6d86cc6b53e4b98e52fa7",
+      "bytes": 274172,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/velis.webp",
+      "sha256": "939863e600dac2a1afc7f8a85eb985de1295f4a3fbe4e2cc4f5bff4d72c09189",
+      "bytes": 262848,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/aurelia.webp",
+      "sha256": "6bf075de3aa9fc9de3c37a4776c3d27c9ecf6c6f206067f2718c5d93d58e9b8d",
+      "bytes": 248822,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/aurelia-outfit-2.webp",
+      "sha256": "55676d1c5b91cc91be40b28224141cf9e95a05ccc9ae136ec0468bbcdaafa8a0",
+      "bytes": 247044,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/mira.webp",
+      "sha256": "9ab9237076ee6d99327c42cb5b1596c65a265074dfb6f06ee7bc9f060e800ac6",
+      "bytes": 251308,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/iona.webp",
+      "sha256": "5afd8782225a95f75e606864bc5be8ad131d10c74a8f15a40273f8a153852f6d",
+      "bytes": 278142,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/kaede-outfit-3.webp",
+      "sha256": "2f9ad2e85cb79e07a852b27f4e881a268812e49db3b4de08fa0864867e86b7bf",
+      "bytes": 273642,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/sabine-outfit-2.webp",
+      "sha256": "84fa09af658b7cc420e4872da4f4e43a2d627eabad989efc297856576038b531",
+      "bytes": 246938,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/nyssara-outfit-2.webp",
+      "sha256": "574df5a6ccf3cd0acd5db6f5e162ee404e98a23fbbc4844d621b47a4d5bf909b",
+      "bytes": 277924,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/nyssara-outfit-3.webp",
+      "sha256": "e12bcf852dc8870c6adcca6730a99d1732a29437e2ed4911b97be0af3dbe122b",
+      "bytes": 271490,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/rhess-outfit-3.webp",
+      "sha256": "91e01106679981066cd63626adf8eec534a2106de36a7e77e04776dacaad4d78",
+      "bytes": 277248,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/sabine-outfit-3.webp",
+      "sha256": "e4762e77ec46d651635a4c5dc2d26441ed81c94aee02f337636347fb2b3a11f1",
+      "bytes": 231100,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/mira-outfit-3.webp",
+      "sha256": "6223ba2fe7a39b6642eccaf32d7738fb3b840296e933236ffc587610174692ac",
+      "bytes": 230912,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/sylva.webp",
+      "sha256": "c8c57f5680e03dc2b7cefe40db63b15536beda50e248c052e138fa1d52c7cad0",
+      "bytes": 291274,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/brakka.webp",
+      "sha256": "7949a5e40ff4d4e827c9a14902255e98edc9398364a948a293ce40b2436c2b02",
+      "bytes": 258194,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/rhess.webp",
+      "sha256": "5d1f747146925b241ad2971419b870b95686f136f61eddccedf45addc6ae42bf",
+      "bytes": 250994,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/elowen-outfit-2.webp",
+      "sha256": "56bc555857095a649ea1e1601919d18bf880a0e8d15e6ad80879931f2bbd81f2",
+      "bytes": 268958,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/maren-outfit-3.webp",
+      "sha256": "46efc777730fc2d13531c5d9c96d59a22d02a04294d0443cb321a46d65dd5d86",
+      "bytes": 249794,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/kaede.webp",
+      "sha256": "b159019114cb229f4a3a56fbc6912e694a3001bb0bb81cd932bbf48e40d3972b",
+      "bytes": 299790,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/portraits/tamsin-outfit-2.webp",
+      "sha256": "fed3d1677a605086168d8a560cc9e21485be20a51a9658bd60ef223bc93927bb",
+      "bytes": 228010,
+      "dimensions": [
+        640,
+        960
+      ]
+    },
+    {
+      "path": "static/assets/abilities/binding.webp",
+      "sha256": "532d9c3cf911a6ff41048897271d94af227d14f413e762b326bd03ecc6d0e9d9",
+      "bytes": 67408,
+      "dimensions": [
+        639,
+        426
+      ]
+    },
+    {
+      "path": "static/assets/abilities/ward.webp",
+      "sha256": "0cffea15829836b3a2041fdeded79684168f3f59ad43e5b2bc9f7f5cd84b871b",
+      "bytes": 71644,
+      "dimensions": [
+        639,
+        426
+      ]
+    },
+    {
+      "path": "static/assets/abilities/passive.webp",
+      "sha256": "34506658282da7921550513f220298a764afe92e4525d4056606d4d7cb99bb44",
+      "bytes": 77382,
+      "dimensions": [
+        639,
+        426
+      ]
+    },
+    {
+      "path": "static/assets/abilities/scholar.webp",
+      "sha256": "912db420ccf984952355dd0deacd9cef6676aa8b3b37c7305feb516745f3e589",
+      "bytes": 86042,
+      "dimensions": [
+        639,
+        426
+      ]
+    },
+    {
+      "path": "static/assets/abilities/technique.webp",
+      "sha256": "d97f688cfb9c94212e99b8e4c9bd38305caa377c65f17f2df3798a2f2f3725f3",
+      "bytes": 64802,
+      "dimensions": [
+        639,
+        426
+      ]
+    },
+    {
+      "path": "static/assets/ui/provisions.webp",
+      "sha256": "f1c1d0c729c6ed6222ff35ce44c6f5ff06c99cca03b6dc9a73d22813c02dbfd7",
+      "bytes": 29886,
+      "dimensions": [
+        256,
+        256
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/flint-beak-cockatrice-thumb.webp",
+      "sha256": "c3d844a7077f145f773a0da24c35803a7d7cf9c8dd818763b23f75c577a7a78f",
+      "bytes": 11824,
+      "dimensions": [
+        160,
+        160
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/siltback-tortoise-thumb.webp",
+      "sha256": "26f184ba6e1c181af2ca03d0326fd35becd8b95a0c038a323bf3bc9c007b6baa",
+      "bytes": 12844,
+      "dimensions": [
+        160,
+        160
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/brass-wing-scarab-thumb.webp",
+      "sha256": "3dc7acba967b2203dce988893ae23851bb7d690fec502c8a467f4349b9930f11",
+      "bytes": 12576,
+      "dimensions": [
+        160,
+        160
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/brass-wing-scarab.webp",
+      "sha256": "d182ef65278ca12048578a14e3e470de4e772009c63f9e6430769d6df62979a2",
+      "bytes": 206514,
+      "dimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/rimewing-bat-thumb.webp",
+      "sha256": "51095ad441834fae7b6624b014af6bda8448d2bb0519f7da36dacc644ff5f9f6",
+      "bytes": 9554,
+      "dimensions": [
+        160,
+        160
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/rimewing-bat.webp",
+      "sha256": "2e1a40052b24f36d5c3ec694abb39ba3f9fd7697ba9e140caf439c58449c792c",
+      "bytes": 166044,
+      "dimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/gloam-jelly.webp",
+      "sha256": "5b24936e50998f88c5697ae9bc1774105290f43d86fc8675a2cd1ee5dba97bc4",
+      "bytes": 200020,
+      "dimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/siltback-tortoise.webp",
+      "sha256": "4152378b1112b23efaecdf84a119840116736ea37be418c22bc61a5bab5b2148",
+      "bytes": 221844,
+      "dimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/gloam-jelly-thumb.webp",
+      "sha256": "582fd4cfb4b43f64bf3fdfe71f52fd2c0b146e7b645085432962834a9c50de2d",
+      "bytes": 12634,
+      "dimensions": [
+        160,
+        160
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/flint-beak-cockatrice.webp",
+      "sha256": "f3172ddf252ea3313db9e4ebe1926b087209c4c6955f0cd0a0ecb5c0b306a651",
+      "bytes": 198314,
+      "dimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/barrow-badger.webp",
+      "sha256": "cf9bdb2b77485560feb138daab9afec9259995f1a700286a2712386131afa317",
+      "bytes": 209862,
+      "dimensions": [
+        640,
+        640
+      ]
+    },
+    {
+      "path": "static/assets/bestiary/creatures/barrow-badger-thumb.webp",
+      "sha256": "54240bfc578451fa7cedd6e5133f316f6c39391ef91d4fcb01dce791e5ec97d2",
+      "bytes": 11870,
+      "dimensions": [
+        160,
+        160
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/brakka-outfit-2.webp",
+      "sha256": "ae8bdd5da0f396d3f513c2ee9e16862b52091ab4a1dd6e0a1304383d3a6f6db7",
+      "bytes": 450178,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/brakka-outfit-3.webp",
+      "sha256": "fcfb6e7938b7785e66a27bf96263d1594e75efbb75e3b8d966590d555e76fca5",
+      "bytes": 470980,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/kaede-outfit-2.webp",
+      "sha256": "fc8cfbf51811a525f64a17569513837111381cf43b9cc94df3b8d91f32f04c79",
+      "bytes": 554676,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/sylva-outfit-2.webp",
+      "sha256": "36f81a99a49b96659d6cacd86c69de4d9d933031586eae37e73465b0583b8e7f",
+      "bytes": 552554,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/elowen-outfit-3.webp",
+      "sha256": "16a47537b19021f74f7bdd2ef68ec349647163706b935a72d2766d77f7d5c110",
+      "bytes": 543582,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/fenna-outfit-3.webp",
+      "sha256": "6915ada0d512ba444b642bd8cc792e4fed2b5b8056cf53c5728fa2daacdd6b75",
+      "bytes": 491236,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/tamsin-outfit-3.webp",
+      "sha256": "72675c656036616aa035eb0b9fbff37cd7f676f57315381a3ea61864ad7f2522",
+      "bytes": 411832,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/maren-outfit-2.webp",
+      "sha256": "58a32e67ceb1e6b4a7f004874d17624bc66748855b51e4ae8fdf05a62132ac0a",
+      "bytes": 472546,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/iona-outfit-2.webp",
+      "sha256": "a8c371c891b4931a33089c078714bdc345fdc86fbfc61f2b789773eea9ead0e7",
+      "bytes": 509072,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/neris.webp",
+      "sha256": "a2cd1043827e94204c8b6a21a3d7924ce21d3ed0d84576837ac91713725b7e90",
+      "bytes": 548292,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/mira-outfit-2.webp",
+      "sha256": "84dacca58af7401d055f2c091c41191cd1624c11fb39eb20829541663b7466bc",
+      "bytes": 407392,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/neris-outfit-3.webp",
+      "sha256": "bdbdd8c6549d79b717421232c33ef501c08cbaa49de1c41c62900bbe2e214d2e",
+      "bytes": 522128,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/neris-outfit-2.webp",
+      "sha256": "cb4d430e544b6bb5d27bb542c4d4e87a5f72ee37a8a58d14b6fe50a1bf40b9a8",
+      "bytes": 540562,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/fenna-outfit-2.webp",
+      "sha256": "a3a816ed58436dd7a6214755eac56a379cf010ee1f56c02aa3b76b51374b92b6",
+      "bytes": 476080,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/fenna.webp",
+      "sha256": "5bd8bb047f1878ffb52c0017f1b9a604d9a04db152a8999284a917703a54a5d3",
+      "bytes": 498160,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/tamsin.webp",
+      "sha256": "daed7d7631969599b2c5632e1fec4e0d1bb1a65da59a88b26df10cbd9ee83346",
+      "bytes": 475970,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/velis-outfit-3.webp",
+      "sha256": "6c0f0dbbd5d7b7b6c985089f6e6c613b0ecc8f9142009334313ac91848b80e91",
+      "bytes": 443114,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/iona-outfit-3.webp",
+      "sha256": "cbd8dda491754021cd10f7fbd05ef19abf48d725a083641cb38c014418bfd077",
+      "bytes": 507526,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/maren.webp",
+      "sha256": "5ac381ca2bb25a00faa3a30508af9e896ea33ded1c6d41e6afd4ed25f6ebeef7",
+      "bytes": 519862,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/rhess-outfit-2.webp",
+      "sha256": "67ecf77de6b7b8776e7d537549ff1b05f6bcc857e050af7349c1f0bc35bedc3b",
+      "bytes": 570630,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/sylva-outfit-3.webp",
+      "sha256": "308754f50ab0da600bae67becaa891aa601a2243da95bfcc7f560f3f28c05e04",
+      "bytes": 490256,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/velis-outfit-2.webp",
+      "sha256": "535766bcb9bb8348efe2ec210a46ca1540825f0d1a5e2ee3056e8ee31f8019a0",
+      "bytes": 440962,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/sabine.webp",
+      "sha256": "fdccefc7bf2a0a82d7ee969a1ad16a369e85057bf406fe51f454a468a9b57c87",
+      "bytes": 483304,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/aurelia-outfit-3.webp",
+      "sha256": "8d8021b1f2627545a8e63cf1ba92d792e81528196136126f337c1378af15dac1",
+      "bytes": 470852,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/nyssara.webp",
+      "sha256": "172929e77877fed3bcac10b81b7c2185c52dcf46a9cae096c3de9d4058f4fa63",
+      "bytes": 577792,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/elowen.webp",
+      "sha256": "77f0313aa6d3ff87c8c659034c95d64894b403a4d38657045c1284402eddd0e5",
+      "bytes": 562320,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/velis.webp",
+      "sha256": "ae79fcca1bf929f0dd013666674a45f22e78c3423907b08a3304c374c51c04ad",
+      "bytes": 545046,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/aurelia.webp",
+      "sha256": "760ca6de97ed81f89c3fecc53652670a9debd2d6792f8eb7b87e6092c5bec509",
+      "bytes": 506568,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/aurelia-outfit-2.webp",
+      "sha256": "f007fa5f8990545cbebfe3d219a86a62de70e27d525133c2603a71f2a9506f73",
+      "bytes": 492308,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/mira.webp",
+      "sha256": "f0c6ba2421f4b8b7b2bb68ad0a209e922c83f833c80bb66de2c374e3e5e2307e",
+      "bytes": 510242,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/iona.webp",
+      "sha256": "f53a2a93b5f636296ea61f304e289db9916f02144367b37edd0dd9a7d93e3e03",
+      "bytes": 563486,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/kaede-outfit-3.webp",
+      "sha256": "1f6b8a3dcdec444c5a2d06005a41fdadb3e35cf023046282db35bc2ccd64db96",
+      "bytes": 505740,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/sabine-outfit-2.webp",
+      "sha256": "fe48b43852816e9732467686d7eee47fbb63d23c16a4a817af8f7c212a5fade7",
+      "bytes": 478736,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/nyssara-outfit-2.webp",
+      "sha256": "c30d9ae6c1a9264cea2e6178a11eb4c38fda3ae5ed4345f2786c08008761bbd4",
+      "bytes": 557704,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/nyssara-outfit-3.webp",
+      "sha256": "31d8685a63918452ac00f1be214e021463f067454fb5f4c28833650f5434bb21",
+      "bytes": 524002,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/rhess-outfit-3.webp",
+      "sha256": "3273e712d0355e83852ccf7168396c23979d497495d677c46b674690a97297c2",
+      "bytes": 583344,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/sabine-outfit-3.webp",
+      "sha256": "a115d22d9b4a46f1a1c5eeaea74f259a69202a138caccb9fa8c89841476acdc6",
+      "bytes": 431762,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/mira-outfit-3.webp",
+      "sha256": "20c0982d4ad15559f88a7e585d87c0d31eafd1d2fa6ebc4a37137344c0a2f9d1",
+      "bytes": 433658,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/sylva.webp",
+      "sha256": "21890ccfe9c66da94786b259659ae126f1c73b054482e6ec8caeeba9f1d08b88",
+      "bytes": 595404,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/brakka.webp",
+      "sha256": "270863f085a31b174097406655d16d66a3b7f47c34cc5454d197c0d383750fa5",
+      "bytes": 513478,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/rhess.webp",
+      "sha256": "5151bf4a49118ed429d3ea0572d9147170ebb10559a34576a8613fdd3a4e40fe",
+      "bytes": 511416,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/elowen-outfit-2.webp",
+      "sha256": "aa8f3b6da76f649c228086b752cd5020bed3dd3052dd3f8cdd5333ecc62035e8",
+      "bytes": 547368,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/maren-outfit-3.webp",
+      "sha256": "ba63fe870cfcc1c8cd3729ae614fc480f07c1125599c2157128e836548da4c10",
+      "bytes": 487226,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/kaede.webp",
+      "sha256": "93a895189624a12b7bcc973740cd16f6f3f814a738bb0ae748fa33faa76901c7",
+      "bytes": 560174,
+      "dimensions": [
+        960,
+        1440
+      ]
+    },
+    {
+      "path": "static/assets/portraits/overview/tamsin-outfit-2.webp",
+      "sha256": "d48f0c6b2e8dbbc4640116d059fa08a91f320d41b194b0968d2eff5c5486a000",
+      "bytes": 429488,
+      "dimensions": [
+        960,
+        1440
+      ]
+    }
+  ],
+  "generation": "Built-in image generation; recovered and resumed artwork. Runtime WebP resized proportionally, quality 88.",
+  "portraits": 45,
+  "creaturesAdded": 6,
+  "materialIcons": 20,
+  "abilityBackgrounds": 5
+}

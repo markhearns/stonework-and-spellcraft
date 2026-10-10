@@ -60,7 +60,7 @@ const context = vm.createContext({
    for(const tag of html.match(/<button\b[^>]*aria-disabled="true"[^>]*>/g)||[])assert.match(tag,/data-disabled-reason="[^"]+"/);
    assert(!html.includes('src="undefined"'),view+' has a broken image reference');
  }
- const sample=vm.runInContext(`illustrateNames('<p>Fenna spoke to Maren.</p><input value="Fenna"><textarea>Fenna</textarea><select><option>Fenna</option></select><p>Fennarium</p>')`,context);
+ const sample=vm.runInContext(`illustrateNames('<p>Fenna spoke to Koharu.</p><input value="Fenna"><textarea>Fenna</textarea><select><option>Fenna</option></select><p>Fennarium</p>')`,context);
  assert.equal((sample.match(/data-person-portrait=/g)||[]).length,2);
  assert(sample.includes('<textarea>Fenna</textarea>'));
  assert(sample.includes('<option>Fenna</option>'));
@@ -70,5 +70,24 @@ const context = vm.createContext({
  assert.match(vm.runInContext("portraitImage('founder')",context),/portrait not yet illustrated/);
  assert.match(vm.runInContext(`presentUI('<select><option disabled data-disabled-reason="Return home">Fenna</option></select>')`,context),/Why are some choices unavailable/);
  assert.match(vm.runInContext("activityImage('restoration')",context),/conservatory/);
+ // An unavailable assignment explains the missing work and opens its actual setup screen.
+ const assignmentMarkup=vm.runInContext('presentUI(assignmentPanel())',context);
+ const researchButton=assignmentMarkup.match(/<button\b[^>]*data-founder="research"[^>]*>/)[0];
+ const decode=text=>text.replaceAll('&quot;','"').replaceAll('&#39;',"'").replaceAll('&amp;','&').replaceAll('&lt;','<').replaceAll('&gt;','>');
+ const disabledReason=decode(researchButton.match(/data-disabled-reason="([^"]+)"/)[1]);
+ const disabledNext=decode(researchButton.match(/data-disabled-next="([^"]+)"/)[1]);
+ const beforeAssignment=vm.runInContext('state.revision',context);
+ await click({founder:'research',disabledReason,disabledNext});
+ assert.match(element('#unavailable-content').textContent,/No research study is underway/);
+ assert.match(element('#unavailable-actions').innerHTML,/Choose a research study/);
+ assert.equal(vm.runInContext('state.revision',context),beforeAssignment);
+ element('#unavailable-actions').onclick({target:{closest(){return {dataset:{unavailableNext:'yes'}};}}});
+ assert.equal(vm.runInContext('currentView',context),'research');
+ assert.equal(element('#unavailable-dialog').open,false);
+ assert.match(element('#app').innerHTML,/Begin research/);
+ await click({action:'start-research'});
+ assert.equal(vm.runInContext('state.hasActiveResearch',context),true);
+ const readyResearch=vm.runInContext('presentUI(assignmentPanel())',context).match(/<button\b[^>]*data-founder="research"[^>]*>/)[0];
+ assert.doesNotMatch(readyResearch,/data-disabled-reason|aria-disabled="true"/);
  console.log('PASS: unavailable action explanations without mutations, Fenna route, portraits, editable fields, image overrides, native select help and all main view rendering.');
  } finally {fs.rmSync(directory,{recursive:true,force:true});}})().catch(error=>{console.error(error);process.exitCode=1;});

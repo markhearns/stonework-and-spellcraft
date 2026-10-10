@@ -150,7 +150,7 @@ class CharacterBuildTests(unittest.TestCase):
             store=GameStore(directory);upgraded=store.read()
             for key,value in old.items():
                 if key not in ('schemaVersion','revision'):self.assertEqual(upgraded[key],value,key)
-            self.assertTrue((Path(directory)/'campaign-before-schema-25-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-25-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             request={'requestId':uuid.uuid4().hex,'expectedRevision':upgraded['revision'],'action':{'type':'train-character-build','characterId':'founder','buildKind':'attribute','targetId':'intelligence'}}
             after=store.action(request)
             self.assertEqual(store.action(request),after)

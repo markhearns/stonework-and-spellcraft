@@ -90,7 +90,7 @@ class HousingTests(unittest.TestCase):
             for key,value in old.items():
                 if key not in ('schemaVersion','revision','roomFurnishings'):self.assertEqual(state[key],value,key)
             for key,value in old['roomFurnishings'].items():self.assertEqual(state['roomFurnishings'][key],value)
-            self.assertTrue((Path(directory)/'campaign-before-schema-8-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-8-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             payload={'requestId':uuid.uuid4().hex,'expectedRevision':state['revision'],'action':{'type':'fund-housing','roomId':'west-chamber'}}
             funded=store.action(payload);self.assertEqual(store.action(payload),funded)
             self.assertEqual(funded['sharedFunds'],64)

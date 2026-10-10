@@ -114,12 +114,12 @@ class RefinementTests(unittest.TestCase):
         self.assertEqual(awards,self.s['characterDevelopment']['founder']['advancementAwards'])
 
     def test_companion_commission_agreement_and_paused_work(self):
-        self.member('brakka');self.reject('commission-start',commissionId='translate',workerId='brakka',payment='crowns')
-        self.act('commission-start',commissionId='translate',workerId='brakka',payment='crowns',agreed=True)
-        self.advance();self.act('assign-character',characterId='brakka',assignment='rest');self.advance()
+        self.member('zahra');self.reject('commission-start',commissionId='translate',workerId='zahra',payment='crowns')
+        self.act('commission-start',commissionId='translate',workerId='zahra',payment='crowns',agreed=True)
+        self.advance();self.act('assign-character',characterId='zahra',assignment='rest');self.advance()
         self.assertEqual(commissions.saved(self.s)['job']['done'],1)
         self.act('commission-resume');self.advance()
-        self.assertTrue(history.view(self.s,'brakka'))
+        self.assertTrue(history.view(self.s,'zahra'))
 
     def test_commission_refund_and_protected_materials(self):
         self.fund();self.room('workshop');self.s['characterSkills']['founder']['artifice']=1
@@ -159,35 +159,35 @@ class RefinementTests(unittest.TestCase):
         self.assertTrue(any('already has the agreed provision stock' in x for x in self.s['lastPhaseSummary']))
 
     def test_two_sleeping_routines_survive_nested_resumption(self):
-        self.member('brakka');self.fund();self.room('smithy')
-        self.s.setdefault('fieldPatrols',dict(serial=0,active=None,reports=[]))['reports']=[dict(party=['brakka'],complete=True)]
-        self.act('practical-start',characterId='brakka')
+        self.member('zahra');self.fund();self.room('smithy')
+        self.s.setdefault('fieldPatrols',dict(serial=0,active=None,reports=[]))['reports']=[dict(party=['zahra'],complete=True)]
+        self.act('practical-start',characterId='zahra')
         self.act('commission-start',commissionId='translate',workerId='founder',payment='crowns')
-        for who,key in [('founder','commission'),('brakka','practical:brakka')]:
+        for who,key in [('founder','commission'),('zahra','practical:zahra')]:
             self.act('routine-start',workerId=who,mode='project',projectId=key,restEvenings=True)
         self.s['currentDayPhase']='evening';self.advance()
-        for who in ('founder','brakka'):
+        for who in ('founder','zahra'):
             self.assertFalse(routines.saved(self.s)[who]['sleeping'])
             self.assertEqual(routines.saved(self.s)[who]['status'],'active')
         self.assertEqual(commissions.saved(self.s)['job']['done'],0)
-        self.assertEqual(projects.saved(self.s)['brakka']['done'],0)
+        self.assertEqual(projects.saved(self.s)['zahra']['done'],0)
         self.advance();self.assertEqual(commissions.saved(self.s)['job']['done'],1)
-        self.assertEqual(projects.saved(self.s)['brakka']['done'],1)
+        self.assertEqual(projects.saved(self.s)['zahra']['done'],1)
 
     def test_work_arrangement_restores_new_assignments_and_work_rooms(self):
         import room_life,work_arrangements
-        self.member('brakka');self.fund();self.room('smithy');self.room('workshop')
-        self.s.setdefault('fieldPatrols',dict(serial=0,active=None,reports=[]))['reports']=[dict(party=['brakka'],complete=True)]
+        self.member('zahra');self.fund();self.room('smithy');self.room('workshop')
+        self.s.setdefault('fieldPatrols',dict(serial=0,active=None,reports=[]))['reports']=[dict(party=['zahra'],complete=True)]
         self.s['characterSkills']['founder']['artifice']=1
-        self.act('practical-start',characterId='brakka')
+        self.act('practical-start',characterId='zahra')
         self.act('commission-start',commissionId='restore',workerId='founder',payment='crowns')
         self.act('save-work-arrangement',name='Paid jobs')
-        for who in ('founder','brakka'):self.act('assign-character',characterId=who,assignment='rest')
+        for who in ('founder','zahra'):self.act('assign-character',characterId=who,assignment='rest')
         self.assertTrue(work_arrangements.view(self.s)['plans'][0]['canApply'])
         self.act('apply-work-arrangement',name='Paid jobs')
         self.assertEqual(room_life.location(self.s,'founder'),'workshop')
-        self.assertEqual(room_life.location(self.s,'brakka'),'smithy')
-        self.reject('assign-character',characterId='brakka',assignment='external-commission')
+        self.assertEqual(room_life.location(self.s,'zahra'),'smithy')
+        self.reject('assign-character',characterId='zahra',assignment='external-commission')
         self.s['castleMystery']['discoveries']['lamp-plan']={'text':'Found repair plan'}
         self.act('castle-lamp-start');self.act('assign-founder',assignment='rest')
         self.act('assign-founder',assignment='castle-lamp')
@@ -205,7 +205,7 @@ class RefinementTests(unittest.TestCase):
         self.reject('routine-start',workerId='founder',mode='project',projectId='made-up',restEvenings=True)
         self.reject('routine-start',workerId='founder',mode='provisions',target=True,assignment='forage')
         self.act('commission-start',commissionId='translate',workerId='founder',payment='crowns')
-        self.member('brakka');self.reject('routine-start',workerId='brakka',mode='project',projectId='commission')
+        self.member('zahra');self.reject('routine-start',workerId='zahra',mode='project',projectId='commission')
 
     def test_all_objectives_pay_without_enemy_loot_and_do_not_repeat_advancement(self):
         for key,d in objectives.OBJECTIVES.items():
@@ -266,7 +266,7 @@ class RefinementTests(unittest.TestCase):
         self.fund()
         for who in projects.PROJECTS:self.member(who);self.room(projects.PROJECTS[who]['room'])
         self.s['additionalResidents']['iona']['personalProject']['status']='complete'
-        self.s.setdefault('fieldPatrols',dict(serial=0,active=None,reports=[]))['reports']=[dict(party=['brakka'],complete=True)]
+        self.s.setdefault('fieldPatrols',dict(serial=0,active=None,reports=[]))['reports']=[dict(party=['zahra'],complete=True)]
         self.s['fieldObjectiveHistory']={'observe':True}
         for who in projects.PROJECTS:
             funds=self.s['sharedFunds'];materials=deepcopy(self.s['materialInventory'])
@@ -274,11 +274,11 @@ class RefinementTests(unittest.TestCase):
             self.assertEqual(funds,self.s['sharedFunds']);self.assertEqual(materials,self.s['materialInventory'])
             self.act('practical-start',characterId=who);self.advance(3);self.assertTrue(projects.active(self.s,who))
             self.reject('practical-start',characterId=who)
-        self.depart('escort',['founder','iona','brakka']);self.site_manual()
+        self.depart('escort',['founder','iona','zahra']);self.site_manual()
         row=next(r for r in patrol.choices(self.s) if r['id']=='iona:atlas-route')
         self.assertTrue(row['preview']['cancelled'])
         import patrol_tactics
-        self.assertTrue(any('fitted straps' in x for x in patrol_tactics.defence(self.s,'founder',['founder','brakka'])[1]))
+        self.assertTrue(any('fitted straps' in x for x in patrol_tactics.defence(self.s,'founder',['founder','zahra'])[1]))
         self.act('watch-method',methodId=row['id']);self.advance(2)
         self.assertEqual(patrol.saved(self.s)['reports'][-1]['loot']['crowns'],16)
         self.depart('observe');self.site_manual();self.finish_tasks()
@@ -309,17 +309,17 @@ class RefinementTests(unittest.TestCase):
         self.assertFalse(any(r['rewarded'] for r in report['outcomes']))
         self.assertTrue(any(r['itemId']==key and r['rank']==1 for r in report['signatureUnlocks']))
 
-    def test_brakka_cover_waits_for_first_actual_retaliation(self):
+    def test_zahra_cover_waits_for_first_actual_retaliation(self):
         import patrol_tactics
-        self.member('brakka');self.fund();self.room('smithy')
-        self.s.setdefault('fieldPatrols',dict(serial=0,active=None,reports=[]))['reports']=[dict(party=['brakka'],complete=True)]
-        self.act('practical-start',characterId='brakka');self.advance(3)
-        self.spell('founder','ice-bind');self.depart('rescue',['founder','brakka']);self.site_manual()
+        self.member('zahra');self.fund();self.room('smithy')
+        self.s.setdefault('fieldPatrols',dict(serial=0,active=None,reports=[]))['reports']=[dict(party=['zahra'],complete=True)]
+        self.act('practical-start',characterId='zahra');self.advance(3)
+        self.spell('founder','ice-bind');self.depart('rescue',['founder','zahra']);self.site_manual()
         ice=next(r for r in patrol.choices(self.s) if r.get('spellKind')=='ice')
         self.act('watch-method',methodId=ice['id']);self.advance()
-        self.assertTrue(any('fitted straps' in x for x in patrol_tactics.defence(self.s,'founder',['founder','brakka'])[1]))
+        self.assertTrue(any('fitted straps' in x for x in patrol_tactics.defence(self.s,'founder',['founder','zahra'])[1]))
         self.act('watch-method',methodId='founder:objective');self.advance()
-        self.assertFalse(any('fitted straps' in x for x in patrol_tactics.defence(self.s,'founder',['founder','brakka'])[1]))
+        self.assertFalse(any('fitted straps' in x for x in patrol_tactics.defence(self.s,'founder',['founder','zahra'])[1]))
 
     def test_owner_refinements_keep_one_paid_equipment_job(self):
         key=self.signature();self.room('enchanting-room');self.fund()
@@ -333,21 +333,21 @@ class RefinementTests(unittest.TestCase):
         self.assertEqual(growth.personal_effect(self.s,'founder'),'spell')
 
     def test_history_is_specific_bounded_and_does_not_dispatch(self):
-        self.member('brakka');history.record(self.s,'actual-repair',['founder','brakka'],'Repaired the wagon','Brakka replaced the split axle bracket.','work')
-        history.record(self.s,'later-repair',['founder','brakka'],'Another wagon','Another fact.','work')
+        self.member('zahra');history.record(self.s,'actual-repair',['founder','zahra'],'Repaired the wagon','Zahra replaced the split axle bracket.','work')
+        history.record(self.s,'later-repair',['founder','zahra'],'Another wagon','Another fact.','work')
         rows=history.view(self.s);self.assertEqual(len(rows),1);self.assertIn('split axle bracket',rows[0]['opening'])
         self.act('history-defer',eventId=rows[0]['id']);self.advance(3);self.assertTrue(history.view(self.s)[0]['deferred'])
         self.act('history-restore',eventId=rows[0]['id']);before=self.s['currentDayPhase'];points=deepcopy(self.s['relationships'])
         self.act('history-share',eventId=rows[0]['id'],choiceId='plan')
         self.assertEqual(self.s['currentDayPhase'],before);self.assertEqual(self.s['relationships'],points);self.assertFalse(patrol.saved(self.s)['active'])
-        self.assertEqual(history.saved(self.s)['suggestedParty'],['founder','brakka'])
+        self.assertEqual(history.saved(self.s)['suggestedParty'],['founder','zahra'])
         self.reject('history-share',eventId=rows[0]['id'],choiceId='plan')
 
     def test_history_requires_present_participants_and_romance_for_affection(self):
-        self.member('brakka');history.record(self.s,'actual',['brakka'],'Finished work','The repaired lantern passed its test.','work')
+        self.member('zahra');history.record(self.s,'actual',['zahra'],'Finished work','The repaired lantern passed its test.','work')
         e=history.view(self.s)[0];self.assertNotIn('affection',[c['id'] for c in e['choices']])
         self.reject('history-share',eventId=e['id'],choiceId='affection')
-        self.field_ready();self.act('watch-depart',participants=['brakka'],routeId='road')
+        self.field_ready();self.act('watch-depart',participants=['zahra'],routeId='road')
         self.reject('history-share',eventId=e['id'],choiceId='credit')
 
     def test_full_mystery_restoration_study_and_old_truth_preserved(self):
@@ -364,8 +364,8 @@ class RefinementTests(unittest.TestCase):
         self.reject('castle-lamp-study');self.s['resonancePoints']=12;self.act('castle-lamp-study');self.advance(2)
         self.assertEqual(self.s['resonancePoints'],12);self.assertIn('field-calibration',g.character_principles(self.s,'founder'))
         self.act('castle-lamp-colour',colour='violet');self.assertEqual(self.s['roomFurnishings']['library'],'violet-lamp')
-        self.member('brakka');self.act('castle-lamp-share',characterId='brakka');self.assertTrue(history.view(self.s,'brakka'))
-        self.reject('castle-lamp-share',characterId='brakka');self.reject('castle-lamp-study')
+        self.member('zahra');self.act('castle-lamp-share',characterId='zahra');self.assertTrue(history.view(self.s,'zahra'))
+        self.reject('castle-lamp-share',characterId='zahra');self.reject('castle-lamp-study')
 
     def test_private_new_evidence_never_leaks_before_discovery(self):
         self.s['privateCastleLore']['evidence']['ward-junction']='UNSEEN_WARD_SENTINEL'
@@ -376,7 +376,7 @@ class RefinementTests(unittest.TestCase):
     def test_resonance_all_authored_romances_contribute_with_cap_and_no_double_count(self):
         self.s=g.new_campaign();self.s['roomFurnishings']['common-room']='velvet-settee'
         self.s['romance']={'people':{},'memories':{},'dates':{}}
-        for who in ('mira','brakka','neris','sylva'):
+        for who in ('mira','zahra','neris','sylva'):
             self.member(who);self.s['romance']['people'][who]={'level':1,'mode':'open','deferred':False}
         self.s['completedDevelopments'].append('shared-flirtation')
         self.assertEqual(g.resonance_forecast(self.s),3)

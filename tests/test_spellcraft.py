@@ -149,7 +149,7 @@ class SpellcraftTests(unittest.TestCase):
             for key,value in old.items():
                 if key not in ('schemaVersion','revision'):self.assertEqual(state[key],value)
             self.assertEqual(state['schemaVersion'],66)
-            self.assertTrue((Path(directory)/'campaign-before-schema-9-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-9-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             request={'type':'draft-spell','characterId':'founder','formId':'warm-twist','name':'Saved working','intent':'Make cord','materials':['sun-amber','binding-thread'],'requestId':uuid.uuid4().hex,'expectedRevision':state['revision']}
             request={'requestId':request.pop('requestId'),'expectedRevision':request.pop('expectedRevision'),'action':request}
             once=store.action(request);again=store.action(request);self.assertEqual(once,again)

@@ -208,7 +208,7 @@ class LivingWingTests(unittest.TestCase):
             self.assertEqual({key:value for key,value in upgraded['expedition'].items() if key != 'companionId'}, old['expedition'])
             self.assertEqual(upgraded['schemaVersion'],66)
             self.assertEqual(upgraded['revision'], old['revision'] + 1)
-            with sqlite3.connect(Path(directory)/'campaign-before-schema-3-to-66.sqlite3') as db:
+            with sqlite3.connect(Path(directory)/f"campaign-before-schema-3-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3") as db:
                 self.assertEqual(json.loads(db.execute('SELECT state FROM campaign').fetchone()[0]), old)
             self.assertEqual(GameStore(directory).read(), upgraded)
             self.state = upgraded

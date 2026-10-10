@@ -3,7 +3,10 @@ from copy import deepcopy
 from character_pool import GOLEM_MATERIALS, arrival_method
 
 
-def initialize(state):state.setdefault('golemProjects',{})
+def initialize(state):
+    state.setdefault('golemProjects',{})
+    import recruitment_quests
+    recruitment_quests.initialize(state)
 
 
 def candidate(state,who):
@@ -53,7 +56,7 @@ def view(state):
     import game as g
     rows={}
     for who,c in {**state.get('reviewedCandidates',{}),**state.get('localEncounterCandidates',{})}.items():
-        profile=c['profile'];method=arrival_method(profile['ancestryLabel'])
+        profile=c['profile'];method=profile.get('arrivalMethod',arrival_method(profile['ancestryLabel']))
         if method=='summoning':continue
         project=deepcopy(state['golemProjects'].get(who))
         if project:project['working']=project['status']=='in-progress' and g.character_at_castle(state,'founder') and state['founderAssignment']=='awakening'
@@ -66,12 +69,14 @@ def apply(state,action):
     kind=action.get('type')
     if kind not in ('open-correspondence','start-golem','resume-golem','cancel-golem','choose-golem-room'):return False
     import game as g
-    who=action.get('characterId');c=candidate(state,who);profile=c['profile'];method=arrival_method(profile['ancestryLabel'])
+    who=action.get('characterId');c=candidate(state,who);profile=c['profile'];method=profile.get('arrivalMethod',arrival_method(profile['ancestryLabel']))
     g.require(g.character_at_castle(state,'founder'),'Return home before planning this arrival.')
     if kind=='open-correspondence':
         g.require(method=='recruitment','Ordinary introductions are for common ancestries; use the appropriate magical path for others.')
         g.require(who not in state['people'],'Continue this person’s existing correspondence.')
-        contact(state,who,'ordinary-correspondence');g.add_journal(state,'Opened ordinary correspondence with '+profile['name']+'. No payment or ritual is needed for this introduction. A visit still needs to be arranged.')
+        import recruitment_quests
+        g.require(not recruitment_quests.common(c),'Complete a rescue or a bandit recruitment quest before offering an invitation. Open the recruitment quest board.')
+        contact(state,who,'ordinary-correspondence')
         return True
     g.require(method=='construction','Only a reviewed golem can use the construction ritual.')
     if kind=='start-golem':

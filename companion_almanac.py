@@ -1,6 +1,7 @@
 """Progressive disclosures and deterministic everyday companion life."""
 from copy import deepcopy
 import companion_almanac_content as c
+import companion_conversations
 
 TIERS={'familiar':'Getting to know her','trusted':'In her confidence','intimate':'Private affection'}
 CHOICES={'curious':('Ask a thoughtful question and listen.','trust'), 'warm':('Respond warmly and make room for her answer.','affection'), 'candid':('Speak honestly, without trying to decide for her.','respect')}
@@ -25,26 +26,28 @@ def definition(s,key):
   title,opening,result=d[3][index]
   prior=saved(s)['memories'].get(f'pair:{a}:{b}:{index-1}')
   if prior:opening='Last time, you chose: “'+prior['playerLine']+'” '+prior['response']+'\n\n'+opening
-  responses={
-   'curious':'You ask each of them what she wanted the other to understand. '+result,
-   'warm':'You give them time to find something they still enjoy together. '+result,
-   'candid':'You name the point of disagreement without appointing yourself its judge. '+result}
-  return {'kind':kind,'title':title,'opening':opening,'people':['founder',a,b],'responses':responses,'index':index,'target':None}
+  choices=companion_conversations.pair_choices(a,b,index)
+  return {'kind':kind,'title':title,'opening':opening,'people':['founder',a,b],
+          'responses':{k:v['response'] for k,v in choices.items()},
+          'labels':{k:v['label'] for k,v in choices.items()},'index':index,'target':None}
  who=parts[1];p=c.PERSONAL[who];name=g.character_profile(s,who)['name']
  if kind=='initiative':
   title,opening,target=p['initiative']
   responses=dict(zip(('curious','warm','candid'),c.INITIATIVE_REPLIES[who]))
-  return {'kind':kind,'title':title,'opening':opening,'people':['founder',who],'responses':responses,'target':{'view':target,'personId':who}}
+  return {'kind':kind,'title':title,'opening':opening,'people':['founder',who],'responses':responses,'labels':dict(zip(CHOICES,companion_conversations.INITIATIVE_LABELS[who])),'target':{'view':target,'personId':who}}
  title=TIERS[kind]+' · '+name
- openings={'familiar':name+' offers to tell you something about the life behind her work. “You may ask. I would like this to be a conversation, not an interview.”', 'trusted':name+' has made room for a more personal conversation: comfort, clothing and the things she finds difficult to ask for. “I trust you to hear the person in the details.”', 'intimate':name+' invites a private conversation about attraction and affection. “I would like us to know what we each enjoy, instead of requiring impressive guesses.”'}
- facts=section_facts(who,kind);detail=' '.join(label+': '+value+'.' for label,value in facts.items())
- responses={'curious':name+' takes her time answering your questions. '+detail, 'warm':name+' relaxes into the conversation, pleased that you are listening without hurrying her. '+detail, 'candid':name+' appreciates a straightforward conversation. Neither of you turns a preference into a promise. '+detail}
- return {'kind':kind,'title':title,'opening':openings[kind],'people':['founder',who],'responses':responses,'target':None}
+ conversation=companion_conversations.disclosure(who,kind)
+ return {'kind':kind,'title':title,'opening':conversation['opening'],'people':['founder',who],
+         'responses':{key:value['response'] for key,value in conversation['choices'].items()},
+         'labels':{key:value['label'] for key,value in conversation['choices'].items()},'target':None}
 
-def section_facts(who,tier):
+def section_facts(who,tier,state=None):
  p=c.PERSONAL[who];h,w,(b,wa,hi),build,note=c.PHYSICAL[who]
- if tier=='familiar':return {'A small habit':p['habit'],'A piece of her past':p['history'],'What feels like home':p['comfort']}
- if tier=='trusted':return {'Bust / waist / hips':f'{b} / {wa} / {hi} cm','Fit and anatomy':note,'Something she finds difficult':p['worry'],'Affection she appreciates':p['affection']}
+ goal,value,tension=companion_conversations.CHARACTER[who]
+ import companion_goals
+ if state is not None and companion_goals.complete(state,who):goal="Completed: "+companion_goals.GOALS[who]["proof"]
+ if tier=='familiar':return {'A small habit':p['habit'],'A piece of her past':p['history'],'What feels like home':p['comfort'],'What she wants':goal,'What she values':value}
+ if tier=='trusted':return {'Bust / waist / hips':f'{b} / {wa} / {hi} cm','Fit and anatomy':note,'Something she finds difficult':p['worry'],'A habit she is working on':tension,'Affection she appreciates':p['affection']}
  return {'Turn-ons':p['attraction'],'Turn-offs':p['turnoff'],'A private admission':p['private'],'What these preferences mean':'An invitation to ask and listen; each moment still needs mutual agreement'}
 
 def keys(s):
@@ -74,13 +77,13 @@ def blockers(s,key,d):
 
 def row(s,key):
  d=definition(s,key);m=saved(s)['memories'].get(key);r=blockers(s,key,d);deferred=key in saved(s)['deferred'];available=not m and not r and not deferred
- return {'id':key,'kind':d['kind'],'title':d['title'],'participants':d['people'],'opening':m['opening'] if m else d['opening'] if available else '', 'choices':{k:{'label':v[0],'effect':v[1].title()+' +1 for each present pair, once (maximum 12).'} for k,v in CHOICES.items()} if available else {},'memory':deepcopy(m),'blockers':r if not m else [],'available':available,'deferred':deferred,'target':d['target']}
+ return {'id':key,'kind':d['kind'],'title':d['title'],'participants':d['people'],'opening':m['opening'] if m else d['opening'] if available else '', 'choices':{k:{'label':d.get('labels',{}).get(k,v[0]),'effect':v[1].title()+' +1 for each present pair, once (maximum 12).'} for k,v in CHOICES.items()} if available else {},'memory':deepcopy(m),'blockers':r if not m else [],'available':available,'deferred':deferred,'target':d['target']}
 
 def profile(s,who):
  import game as g
  if who not in members(s):return None
  d=g.character_profile(s,who);p=c.PERSONAL[who];h,w,_,build,note=c.PHYSICAL[who];mem=saved(s)['memories']
- return {'id':who,'name':d['name'],'basic':{'Age':str(d['adultAgeYears'])+' years','Ancestry':d['ancestryLabel'],'Height':str(h)+' cm','Approximate weight':str(w)+' kg','Build':build,'Dominant hand':p['hand'],'Measurement note':note},'sections':[{'id':tier,'title':title,'known':tier+':'+who in mem,'facts':section_facts(who,tier) if tier+':'+who in mem else {}} for tier,title in TIERS.items()]}
+ return {'id':who,'name':d['name'],'basic':{'Age':str(d['adultAgeYears'])+' years','Ancestry':d['ancestryLabel'],'Height':str(h)+' cm','Approximate weight':str(w)+' kg' if w is not None else 'No fixed physical mass · spirit form','Build':build,'Dominant hand':p['hand'],'Measurement note':note},'sections':[{'id':tier,'title':title,'known':tier+':'+who in mem,'facts':section_facts(who,tier,s) if tier+':'+who in mem else {}} for tier,title in TIERS.items()]}
 
 def ambient(s,who):
  import game as g
@@ -120,7 +123,7 @@ def apply(s,a):
  if kind=='defer-almanac':initialize(s);saved(s)['deferred'].append(key);return True
  choice=a.get('choice');g.require(isinstance(choice,str) and choice in CHOICES,'Choose an offered response.')
  from social_life import stamp
- d=definition(s,key);record={'id':key,'kind':d['kind'],'title':d['title'],'participants':d['people'],'opening':d['opening'],'choice':choice,'playerLine':CHOICES[choice][0],'response':d['responses'][choice],'dayNumber':s['dayNumber'],'phase':s['currentDayPhase'],'stamp':stamp(s)}
+ d=definition(s,key);record={'id':key,'kind':d['kind'],'title':d['title'],'participants':d['people'],'opening':d['opening'],'choice':choice,'playerLine':r['choices'][choice]['label'],'response':d['responses'][choice],'dayNumber':s['dayNumber'],'phase':s['currentDayPhase'],'stamp':stamp(s)}
  initialize(s);saved(s)['memories'][key]=record
  import relationships
  relationships.remember(s,'almanac:'+key,record,dimension=CHOICES[choice][1])

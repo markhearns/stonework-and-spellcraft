@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": "0.117",
   "creatures": {
     "briarback-boar": {
       "id": "briarback-boar",
@@ -13,7 +13,15 @@
       "materialsNote": "Recover usable binding thread from the overturned supply cart. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "boar",
       "art": "/assets/bestiary/creatures/briarback-boar.webp",
-      "thumbnail": "/assets/bestiary/creatures/briarback-boar-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/briarback-boar-thumb.webp",
+      "scholarNote": {
+        "quote": "At first I mistook the bristles caught in the bark for dead thorns. The broad cloven tracks below them settled the question. These boars return to the same rubbing trees, leaving useful samples without any need to chase them.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Put a tree between you and its tusks, then drive it away.",
+      "mechanics": []
     },
     "slatehide-lizard": {
       "id": "slatehide-lizard",
@@ -27,7 +35,15 @@
       "materialsNote": "Mineral-rich clay is scraped from the lizard’s abandoned ledge. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "slatehide-lizard",
       "art": "/assets/bestiary/creatures/slatehide-lizard.webp",
-      "thumbnail": "/assets/bestiary/creatures/slatehide-lizard-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/slatehide-lizard-thumb.webp",
+      "scholarNote": {
+        "quote": "Three polished stones beside the quarry marked three favoured basking places. The shed plates nearby were duller than the living armour, but their overlapping edges fitted together like roofing slates. The quarrymen had been calling them fallen stone.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Lure it away from its nest before crossing the exposed ledge.",
+      "mechanics": []
     },
     "storm-antler-stag": {
       "id": "storm-antler-stag",
@@ -41,7 +57,15 @@
       "materialsNote": "Recover a moon-glass fragment exposed where the stag’s charge struck the old boundary stones. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "storm-antler-stag",
       "art": "/assets/bestiary/creatures/storm-antler-stag.webp",
-      "thumbnail": "/assets/bestiary/creatures/storm-antler-stag-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/storm-antler-stag-thumb.webp",
+      "scholarNote": {
+        "quote": "After the storm I found singed twigs at antler height, with no burn marks on the ground. A shed antler still raised the hairs on my wrist. I wrapped it separately from my metal instruments for the walk home.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Intermediate",
+      "preparation": "Keep your distance and guide it toward open ground.",
+      "mechanics": []
     },
     "giant-marsh-crab": {
       "id": "giant-marsh-crab",
@@ -55,7 +79,15 @@
       "materialsNote": "Clean porous clay is gathered from the bank after the crossing is safe. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "giant-marsh-crab",
       "art": "/assets/bestiary/creatures/giant-marsh-crab.webp",
-      "thumbnail": "/assets/bestiary/creatures/giant-marsh-crab-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/giant-marsh-crab-thumb.webp",
+      "scholarNote": {
+        "quote": "The empty shell looked like a dead crab until I found the opening along its back. A much larger track led away into the reeds. Shells collected after a moult tell us more about its growth than a frightened glimpse at the crossing.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Place bait away from the crossing to draw it off.",
+      "mechanics": []
     },
     "lantern-moth": {
       "id": "lantern-moth",
@@ -69,7 +101,15 @@
       "materialsNote": "Warm resin left beneath the feeding tree can be cleaned into sun amber. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "lantern-moth",
       "art": "/assets/bestiary/creatures/lantern-moth.webp",
-      "thumbnail": "/assets/bestiary/creatures/lantern-moth-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/lantern-moth-thumb.webp",
+      "scholarNote": {
+        "quote": "By morning the inn’s lamp glass wore a fine golden powder. The moths had spent the night circling the brightest flame, while a shaded lamp drew only a few. The innkeeper now hangs the brighter light well away from the door.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Shade the party’s lamps and set a small decoy light off the path.",
+      "mechanics": []
     },
     "grave-silk-spider": {
       "id": "grave-silk-spider",
@@ -83,7 +123,15 @@
       "materialsNote": "Ordinary abandoned silk is cleaned and spun into binding thread; the rare intact strands are kept separately. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "grave-silk-spider",
       "art": "/assets/bestiary/creatures/grave-silk-spider.webp",
-      "thumbnail": "/assets/bestiary/creatures/grave-silk-spider-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/grave-silk-spider-thumb.webp",
+      "scholarNote": {
+        "quote": "The old cellar’s lowest threads were almost invisible; the thick white ropes overhead were only their anchors. Wrapped beetles lay behind the barrels. The name is dramatic, but these spiders favour dry, undisturbed corners rather than graves themselves.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Trace its silk anchors and clear a route around the web.",
+      "mechanics": []
     },
     "reed-lurker": {
       "id": "reed-lurker",
@@ -97,7 +145,15 @@
       "materialsNote": "Silver ivy grows along the bank that the creature had made unsafe to reach. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "reed-lurker",
       "art": "/assets/bestiary/creatures/reed-lurker.webp",
-      "thumbnail": "/assets/bestiary/creatures/reed-lurker-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/reed-lurker-thumb.webp",
+      "scholarNote": {
+        "quote": "From the bank, its ridged back looked like a bundle of broken reeds. A smooth belly slide in the mud betrayed the animal beneath them. I now sketch a crossing from above before stepping down to examine its plants.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Cross on firm high ground instead of entering the shallows.",
+      "mechanics": []
     },
     "hearth-ash-hound": {
       "id": "hearth-ash-hound",
@@ -111,7 +167,15 @@
       "materialsNote": "Recover fireglass formed in the heat of the occupied kiln. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "ember-hound",
       "art": "/assets/bestiary/creatures/hearth-ash-hound.webp",
-      "thumbnail": "/assets/bestiary/creatures/hearth-ash-hound-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/hearth-ash-hound-thumb.webp",
+      "scholarNote": {
+        "quote": "The kiln had been cold for a week, yet fresh paw marks were warm beneath the ash. Each print held a few hard cinders that cooled more slowly than the surrounding dust. The hound’s trail was easier to feel than to see.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Intermediate",
+      "preparation": "Water and ice are effective; fire cannot damage it. Smother nearby fuel to draw it off.",
+      "mechanics": []
     },
     "root-mimic": {
       "id": "root-mimic",
@@ -125,7 +189,15 @@
       "materialsNote": "Recover living silver-ivy cuttings caught in the moving root mass. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "root-mimic",
       "art": "/assets/bestiary/creatures/root-mimic.webp",
-      "thumbnail": "/assets/bestiary/creatures/root-mimic-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/root-mimic-thumb.webp",
+      "scholarNote": {
+        "quote": "The fallen log had no stump, and the soil beneath it had been turned that morning. By sunset it lay a yard nearer the path. I marked its position from a distance and stopped resting my bags against convenient deadwood.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Find the main anchoring root and draw the smaller roots away from the path.",
+      "mechanics": []
     },
     "moss-troll": {
       "id": "moss-troll",
@@ -139,7 +211,15 @@
       "materialsNote": "Gather silver ivy from the bridge bank after the crossing is settled. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "moss-troll",
       "art": "/assets/bestiary/creatures/moss-troll.webp",
-      "thumbnail": "/assets/bestiary/creatures/moss-troll-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/moss-troll-thumb.webp",
+      "scholarNote": {
+        "quote": "The supposed monster at the bridge showed me a cracked support and counted the overloaded wagons that had crossed it. Beside the stones were a cooking pot and carefully stacked firewood. I changed the heading in my notebook from hazard to dispute.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Intermediate",
+      "preparation": "Ask what it is protecting and agree safe passage. Hostility belongs to the situation, not its species.",
+      "mechanics": []
     },
     "ruin-gargoyle": {
       "id": "ruin-gargoyle",
@@ -153,7 +233,15 @@
       "materialsNote": "Recover loose clay and moon-glass fragments from the damaged ward post. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "ruin-gargoyle",
       "art": "/assets/bestiary/creatures/ruin-gargoyle.webp",
-      "thumbnail": "/assets/bestiary/creatures/ruin-gargoyle-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/ruin-gargoyle-thumb.webp",
+      "scholarNote": {
+        "quote": "Its wings were carved stone, right down to the chipped tips. Scrapes on the gateposts repeated the same short arc, suggesting years of the same movement. The mason’s boundary marks remained clearer than the inscription naming the lord who commissioned it.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Intermediate",
+      "preparation": "Read the boundary marks and follow the permitted route. Lightning is effective against its construct body.",
+      "mechanics": []
     },
     "restless-sentry": {
       "id": "restless-sentry",
@@ -167,7 +255,15 @@
       "materialsNote": "Recover an intact moon-glass setting from the abandoned watch equipment. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "restless-sentry",
       "art": "/assets/bestiary/creatures/restless-sentry.webp",
-      "thumbnail": "/assets/bestiary/creatures/restless-sentry-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/restless-sentry-thumb.webp",
+      "scholarNote": {
+        "quote": "The sentry wore a path between two doors that no longer existed. Beneath the weeds I found the old threshold stones exactly where it stopped each turn. Its armour had rusted through; its patrol still followed the vanished building.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Intermediate",
+      "preparation": "Use the old watch orders to secure passage. Magic that harms undead is effective.",
+      "mechanics": []
     },
     "wolf": {
       "id": "wolf",
@@ -181,7 +277,15 @@
       "materialsNote": "Gather silver ivy from the cleared path. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "wolf",
       "art": "/assets/bestiary/creatures/wolf.webp",
-      "thumbnail": "/assets/bestiary/creatures/wolf-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/wolf-thumb.webp",
+      "scholarNote": {
+        "quote": "The tracks passed along the sheltered side of every rise, keeping cover between the pack and the road. Tufts of underfur clung to the thorn gaps. The wolves knew this route as well as the carriers who claimed it belonged to them.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Keep the group together and leave the wolves an escape route.",
+      "mechanics": []
     },
     "griffin": {
       "id": "griffin",
@@ -195,7 +299,571 @@
       "materialsNote": "Recover moon-glass cargo dropped on the now-accessible ridge path. A separate rare component is used for advanced equipment or permanent castle improvements.",
       "enemyId": "griffin",
       "art": "/assets/bestiary/creatures/griffin.webp",
-      "thumbnail": "/assets/bestiary/creatures/griffin-thumb.webp"
+      "thumbnail": "/assets/bestiary/creatures/griffin-thumb.webp",
+      "scholarNote": {
+        "quote": "The feathers below the ridge were broad and stiff, unlike the soft tawny fur caught nearby. Both came from the same nesting ledge. From below I could see why the griffin chose it: shelter behind, a clear approach ahead.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Intermediate",
+      "preparation": "Watch its circling route and pass below the nesting ledge.",
+      "mechanics": []
+    },
+    "flint-beak-cockatrice": {
+      "id": "flint-beak-cockatrice",
+      "name": "Flint-beak cockatrice",
+      "habitat": "Upland",
+      "appearance": "A waist-high ground bird with a hooked flint-grey beak, mottled bronze feathers, a red comb and a long scaled tail.",
+      "signs": "Three-toed tracks, chipped pebbles and dusty scraping hollows on dry slopes.",
+      "behaviour": "Guards its dust-bathing hollow and snaps at hands reaching over its head.",
+      "advice": "Circle below the hollow and guide it toward open scree. Its stare does not turn people to stone.",
+      "materialsNote": "Collect loose flint-beak splinters from the stones it uses to hone its beak; resin can be gathered from the scrub above the hollow.",
+      "category": "creature",
+      "enemyId": "flint-beak-cockatrice",
+      "art": "/assets/bestiary/creatures/flint-beak-cockatrice.webp",
+      "thumbnail": "/assets/bestiary/creatures/flint-beak-cockatrice-thumb.webp",
+      "scholarNote": {
+        "quote": "I watched it sharpen its beak on a stone for several minutes. The flakes looked like knapped flint. Nothing it stared at became stone, including my very anxious assistant; that part of the roadside tale can finally be crossed out.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Intermediate",
+      "preparation": "Circle below the hollow and guide it toward open scree. Its stare does not turn people to stone.",
+      "mechanics": []
+    },
+    "barrow-badger": {
+      "id": "barrow-badger",
+      "name": "Barrow badger",
+      "habitat": "Woodland",
+      "appearance": "A low, broad badger with earth-brown fur, pale cheek stripes and heavy shovel-shaped foreclaws.",
+      "signs": "Fresh soil fans, clawed roots and wide tunnel mouths beneath old banks.",
+      "behaviour": "Defends its tunnel entrance, then backs toward shelter between charges.",
+      "advice": "Read the fresh spoil and lead the party around the active entrance.",
+      "materialsNote": "Gather loose burrow down from an abandoned bedding hollow and porous clay from the spoil bank.",
+      "category": "creature",
+      "enemyId": "barrow-badger",
+      "art": "/assets/bestiary/creatures/barrow-badger.webp",
+      "thumbnail": "/assets/bestiary/creatures/barrow-badger-thumb.webp",
+      "scholarNote": {
+        "quote": "The newest heap of soil was still damp beneath its crust. Beside it lay an older tunnel filled with dry bedding and soft down. These animals extend their burrows often; a map drawn last spring is a poor guide to this autumn’s entrances.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Read the fresh spoil and lead the party around the active entrance.",
+      "mechanics": []
+    },
+    "rimewing-bat": {
+      "id": "rimewing-bat",
+      "name": "Rimewing bat",
+      "habitat": "Ruins",
+      "appearance": "A large cave bat with charcoal fur, long ears and pale blue wing membranes edged in fine frost.",
+      "signs": "Frost beneath sheltered beams, hooked claw scratches and thin shed membrane caught on rough stone.",
+      "behaviour": "Roosts above cold passages and swoops when warm light disturbs the colony.",
+      "advice": "Shade the lantern and take the lower passage beneath the roost.",
+      "materialsNote": "Collect naturally shed rime membrane from empty roost ledges and salvage moon-glass fragments from the old lamp brackets.",
+      "category": "creature",
+      "enemyId": "rimewing-bat",
+      "art": "/assets/bestiary/creatures/rimewing-bat.webp",
+      "thumbnail": "/assets/bestiary/creatures/rimewing-bat-thumb.webp",
+      "scholarNote": {
+        "quote": "The frost lay beneath the roost, although the passage outside was thawing. A loose scrap of wing membrane stayed cool inside my sample box. I kept my lantern shaded while drawing; the bats settled again once its warm beam left the ceiling.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Shade the lantern and take the lower passage beneath the roost.",
+      "mechanics": []
+    },
+    "siltback-tortoise": {
+      "id": "siltback-tortoise",
+      "name": "Siltback tortoise",
+      "habitat": "Wetland",
+      "appearance": "A cart-sized freshwater tortoise with a broad mud-brown shell, algae-lined scutes and thick webbed feet.",
+      "signs": "Two wide tracks through shallow mud, scraped reeds and loose shell scutes near sunny banks.",
+      "behaviour": "Blocks narrow banks while feeding, withdrawing beneath its shell before pushing forward.",
+      "advice": "Find a firm detour above the feeding bank and leave room for it to reach the water.",
+      "materialsNote": "Gather shed silt scutes from its resting bank and porous clay from exposed mud after the crossing is safe.",
+      "category": "creature",
+      "enemyId": "siltback-tortoise",
+      "art": "/assets/bestiary/creatures/siltback-tortoise.webp",
+      "thumbnail": "/assets/bestiary/creatures/siltback-tortoise-thumb.webp",
+      "scholarNote": {
+        "quote": "From the far bank I took its shell for a mud island. Then the island rose on four webbed feet. The loose plates on its resting bank were layered and surprisingly light; new growth was already visible beneath the places they had left.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Intermediate",
+      "preparation": "Find a firm detour above the feeding bank and leave room for it to reach the water.",
+      "mechanics": []
+    },
+    "brass-wing-scarab": {
+      "id": "brass-wing-scarab",
+      "name": "Brass-wing scarab",
+      "habitat": "Ruins",
+      "appearance": "A dog-sized clockwork beetle with tarnished brass wing cases, six jointed iron legs and a small glass lens in its head.",
+      "signs": "Six evenly spaced marks, oily grit and neatly separated metal scraps near a ruined workshop.",
+      "behaviour": "Collects loose metal and guards its sorting pile under an old workshop command.",
+      "advice": "Read the workshop’s sorting marks and offer an approved scrap route away from the passage. Lightning disrupts its construct body.",
+      "materialsNote": "Recover a discarded scarab gear from the sorting pile and salvage a sound moon-glass lens from abandoned workshop fittings.",
+      "category": "creature",
+      "enemyId": "brass-wing-scarab",
+      "art": "/assets/bestiary/creatures/brass-wing-scarab.webp",
+      "thumbnail": "/assets/bestiary/creatures/brass-wing-scarab-thumb.webp",
+      "scholarNote": {
+        "quote": "Its pile contained separate heaps for iron, brass and glass. A bent gear had been rejected with remarkable care. Even after the workshop roof collapsed, this little machine continued sorting its master’s rubbish; the sorting marks survived on the wall.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Intermediate",
+      "preparation": "Read the workshop’s sorting marks and offer an approved scrap route away from the passage. Lightning disrupts its construct body.",
+      "mechanics": []
+    },
+    "gloam-jelly": {
+      "id": "gloam-jelly",
+      "name": "Gloam jelly",
+      "habitat": "Wetland",
+      "appearance": "A low translucent violet-green ooze with a domed body, suspended seed husks and a rippled fringe pressed against wet stone.",
+      "signs": "Clean strips across mossy stones, a faint sour scent and clear gel beads beneath old sluices.",
+      "behaviour": "Spreads toward damp organic matter and clings to anything crossing its feeding surface.",
+      "advice": "Trace the water flow and divert it toward a damp unoccupied channel.",
+      "materialsNote": "Collect detached gloam gel from the cleared channel and binding fibres washed into the sluice grate.",
+      "category": "creature",
+      "enemyId": "gloam-jelly",
+      "art": "/assets/bestiary/creatures/gloam-jelly.webp",
+      "thumbnail": "/assets/bestiary/creatures/gloam-jelly-thumb.webp",
+      "scholarNote": {
+        "quote": "The stones behind it were cleaner than those ahead. Seed husks turned slowly inside its clear body, and small beads of gel remained beneath the sluice. It followed damp leaf litter into a side channel, leaving my sampling ledge quite empty.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      },
+      "challengeTier": "Standard",
+      "preparation": "Trace the water flow and divert it toward a damp unoccupied channel.",
+      "mechanics": []
+    },
+    "owlbear": {
+      "id": "owlbear",
+      "name": "Owlbear",
+      "category": "creature",
+      "challengeTier": "Intermediate",
+      "habitat": "Deep woodland",
+      "appearance": "A heavy four-legged forest animal with a bear’s body, feathered shoulders, a round owl-like face and a hooked beak.",
+      "signs": "Broad clawed tracks, torn rotten logs and brown down caught on rubbing trees.",
+      "behaviour": "Defends a den or feeding hollow. It lowers its head before charging and uses its foreclaws to hold an opponent.",
+      "advice": "Brace against the announced charge. Break a grip before asking the held companion to attack, or guide it away from the work path.",
+      "materialsNote": "Recover 2 silver ivy from the secured work site. Gather loose down from the rubbing trees after reopening the trail.",
+      "enemyId": "owlbear",
+      "art": "/assets/bestiary/creatures/owlbear.webp",
+      "thumbnail": "/assets/bestiary/creatures/owlbear-thumb.webp",
+      "preparation": "Bring protection and a second fieldworker who can help a held companion.",
+      "mechanics": [
+        "Hooking claws grapple their target if they cause injury. A grapple reduces that character’s physical damage by 2 until someone breaks the grip.",
+        "Brace against the charge or use a control technique. Break the grip is available to every able party member."
+      ],
+      "sample": {
+        "id": "owlbear-down",
+        "name": "Shed owlbear down",
+        "properties": [
+          "rare-care"
+        ],
+        "price": 38,
+        "collection": "Gather loose down from the rubbing trees after reopening the trail."
+      },
+      "bounty": {
+        "name": "Reopen the foresters’ trail",
+        "client": "Valley foresters",
+        "reason": "An owlbear is feeding across the marked cart trail. Secure a route around its den so the foresters can collect their tools.",
+        "kind": "clearance",
+        "route": "outer-valley",
+        "crowns": 28
+      },
+      "scholarNote": {
+        "quote": "The broken log held grubs, not treasure. When we moved our survey ropes away from its feeding hollow, the owlbear stopped following us. Its warning was plain enough once we stopped treating every step forward as a challenge.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
+    },
+    "rust-beetle": {
+      "id": "rust-beetle",
+      "name": "Rust beetle",
+      "category": "creature",
+      "challengeTier": "Intermediate",
+      "habitat": "Quarries and ruined workshops",
+      "appearance": "A dog-sized living beetle with six jointed legs, rust-red wing cases and mineral-stained mandibles.",
+      "signs": "Pitted iron, red mineral paste and six-footed tracks around abandoned metal fittings.",
+      "behaviour": "Feeds on mineral deposits. It raises its head before spraying corrosive fluid toward movement near its food.",
+      "advice": "Interrupt the spray or rinse the residue away. Corrosion briefly reduces cover but never destroys owned equipment.",
+      "materialsNote": "Recover 2 porous clay from the secured work site. Collect dried catalyst flakes from the abandoned iron it was feeding on.",
+      "enemyId": "rust-beetle",
+      "art": "/assets/bestiary/creatures/rust-beetle.webp",
+      "thumbnail": "/assets/bestiary/creatures/rust-beetle-thumb.webp",
+      "preparation": "Bring protection; Water jet offers a damaging alternative to washing residue away.",
+      "mechanics": [
+        "A spray that causes injury leaves corrosion for two further exchanges: the affected person loses 1 cover.",
+        "Interrupt the spray, wash the party’s equipment, or cast Water jet to clear residue. Equipped items are never damaged or removed."
+      ],
+      "sample": {
+        "id": "rust-catalyst",
+        "name": "Rust catalyst",
+        "properties": [
+          "rare-focus",
+          "rare-heat"
+        ],
+        "price": 40,
+        "collection": "Collect dried catalyst flakes from the abandoned iron it was feeding on."
+      },
+      "bounty": {
+        "name": "Recover an etching catalyst",
+        "client": "Hillfold enchanters",
+        "reason": "The enchanters need a controlled etching agent for precise rank-2 inscriptions. Clear the quarry platform and collect dried catalyst from the abandoned fittings.",
+        "kind": "sample",
+        "route": "outer-valley",
+        "crowns": 30
+      },
+      "scholarNote": {
+        "quote": "The newest hinges were untouched. It preferred the damp mineral crust on the old lifting chain. A bucket of rinse water saved our tools; a tempting pile of discarded ore saved us a much longer argument with its mandibles.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
+    },
+    "blink-lynx": {
+      "id": "blink-lynx",
+      "name": "Blink lynx",
+      "category": "creature",
+      "challengeTier": "Intermediate",
+      "habitat": "Woodland near old wards",
+      "appearance": "A lean grey-brown lynx with tufted ears, a short tail and a faint displaced outline when it prepares to jump through space.",
+      "signs": "Paw tracks that stop abruptly, paired scuffs several paces apart and shed silver-grey whiskers.",
+      "behaviour": "Makes short jumps between nearby cover. It watches exposed travellers and returns to the same stable landing places.",
+      "advice": "Track its landing marks before striking. A tracked animal cannot use its jump to evade the next two exchanges.",
+      "materialsNote": "Recover 1 moon glass from the secured work site. Recover naturally shed whiskers caught on the marked landing stones.",
+      "enemyId": "blink-lynx",
+      "art": "/assets/bestiary/creatures/blink-lynx.webp",
+      "thumbnail": "/assets/bestiary/creatures/blink-lynx-thumb.webp",
+      "preparation": "Bring a companion who can cover an exposed party member; tracking is available without magic.",
+      "mechanics": [
+        "On jumping exchanges, untracked physical attacks deal at most 1 damage. Spells and control techniques can reach it.",
+        "Track the landing marks reveals its position for this exchange and the next two. It attacks the weakest party member when jumping."
+      ],
+      "sample": {
+        "id": "blink-whisker",
+        "name": "Shed blink whisker",
+        "properties": [
+          "rare-binding",
+          "rare-flow"
+        ],
+        "price": 42,
+        "collection": "Recover naturally shed whiskers caught on the marked landing stones."
+      },
+      "bounty": {
+        "name": "Chart the nursery’s broken trail",
+        "client": "Fern nursery",
+        "reason": "Collectors keep meeting the same lynx on opposite sides of the path. Mark its landing places and establish a route the nursery can use safely.",
+        "kind": "clearance",
+        "route": "outer-valley",
+        "crowns": 30
+      },
+      "scholarNote": {
+        "quote": "I first drew two animals. The matching nick in its left ear corrected my notes. It landed on the same flat stones each time, so we marked those stones and moved the baskets instead of chasing an outline through the bracken.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
+    },
+    "cliff-harpy": {
+      "id": "cliff-harpy",
+      "name": "Cliff harpy",
+      "category": "creature",
+      "challengeTier": "Intermediate",
+      "habitat": "Ridge crossings",
+      "appearance": "An intelligent winged person with a humanlike face, a feathered torso, wings in place of arms and scaled legs ending in talons.",
+      "signs": "Large barred flight feathers, tied warning cords and carefully stacked belongings above the crossing.",
+      "behaviour": "Can negotiate and explain her boundary. In a confrontation she uses wing gusts to unbalance travellers on exposed ground.",
+      "advice": "Use the shelter below the ledge, or agree a route that leaves her perch undisturbed. Her ancestry does not determine her intentions.",
+      "materialsNote": "Recover 2 binding thread from the secured work site. Collect a fallen feather from the cleared lower path; it is not taken from her body.",
+      "enemyId": "cliff-harpy",
+      "art": "/assets/bestiary/creatures/cliff-harpy.webp",
+      "thumbnail": "/assets/bestiary/creatures/cliff-harpy-thumb.webp",
+      "preparation": "Bring a capable negotiator or protection for the exposed crossing.",
+      "mechanics": [
+        "A wing gust that causes injury leaves its target off balance for two exchanges, reducing physical damage by 1.",
+        "Take shelter below the ledge clears the party’s imbalance and gives the actor extra cover. Negotiating safe passage earns full rewards."
+      ],
+      "sample": {
+        "id": "harpy-feather",
+        "name": "Shed harpy feather",
+        "properties": [
+          "rare-flow"
+        ],
+        "price": 40,
+        "collection": "Collect a fallen feather from the cleared lower path; it is not taken from her body."
+      },
+      "bounty": {
+        "name": "Settle the cliff crossing dispute",
+        "client": "Hillfold surveyors",
+        "reason": "Falling survey stones have damaged a harpy’s perch. Agree a safe boundary or establish the sheltered lower route so the survey work can resume.",
+        "kind": "clearance",
+        "route": "outer-valley",
+        "crowns": 30
+      },
+      "scholarNote": {
+        "quote": "She had kept the stone that broke her cooking pot. We moved the survey line below her ledge and promised to catch loose rubble. By evening her warning cords marked our safe route. Describing that agreement as taming would be dishonest.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
+    },
+    "will-o-wisp": {
+      "id": "will-o-wisp",
+      "name": "Will-o’-wisp",
+      "category": "creature",
+      "challengeTier": "Intermediate",
+      "habitat": "Marshes and flooded ruins",
+      "appearance": "A small floating knot of pale green-blue light enclosed by thin translucent filaments.",
+      "signs": "Moving lights without footprints, false reflections over deep water and pale grains left on wet stone.",
+      "behaviour": "Drifts over unstable ground and produces misleading reflections. Following its brightest light is an unreliable way to find a crossing.",
+      "advice": "Mark the firm bank or equip a hooded field lantern. A revealed wisp can be struck normally.",
+      "materialsNote": "Recover 1 sun amber from the secured work site. Gather phosphor grains left on the old guideposts after the route is secure.",
+      "enemyId": "will-o-wisp",
+      "art": "/assets/bestiary/creatures/will-o-wisp.webp",
+      "thumbnail": "/assets/bestiary/creatures/will-o-wisp-thumb.webp",
+      "preparation": "Equip a Hooded field lantern, or spend an exchange marking firm ground.",
+      "mechanics": [
+        "An unrevealed wisp limits physical damage to 1. Mark the true path reveals it for this exchange and the next two.",
+        "A hooded field lantern equipped in any party member’s expedition loadout keeps the wisp revealed. Spells remain effective."
+      ],
+      "sample": {
+        "id": "wisp-phosphor",
+        "name": "Wisp phosphor",
+        "properties": [
+          "rare-focus"
+        ],
+        "price": 42,
+        "collection": "Gather phosphor grains left on the old guideposts after the route is secure."
+      },
+      "bounty": {
+        "name": "Replace the marsh’s false markers",
+        "client": "Roadside refuge",
+        "reason": "Travellers have mistaken a wisp’s reflections for the refuge lamps. Locate firm ground and restore a reliable crossing.",
+        "kind": "clearance",
+        "route": "outer-valley",
+        "crowns": 30
+      },
+      "scholarNote": {
+        "quote": "The lights shifted when I changed banks, but the old guideposts stayed in place. A hooded lamp showed their worn bases through the water. I marked the posts with cord and stopped using brightness as proof of a safe path.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
+    },
+    "basilisk": {
+      "id": "basilisk",
+      "name": "Basilisk",
+      "category": "creature",
+      "challengeTier": "Difficult",
+      "habitat": "Deep quarries",
+      "appearance": "A heavy six-legged reptile with olive-grey scales, an ochre crest and amber eyes beneath bony brows.",
+      "signs": "Six-footed tracks, chalky crusts on living weeds and long tail furrows through quarry dust.",
+      "behaviour": "Holds an intruder’s gaze before closing with its jaws. Repeated exposure stiffens skin and joints.",
+      "advice": "Break line of sight before a gaze exchange. Treat stone stiffness with silver ivy or healing magic; do not wait for several exposures.",
+      "materialsNote": "Recover 3 porous clay from the secured work site. Collect intact scales shed against the basin wall after securing access.",
+      "enemyId": "basilisk",
+      "art": "/assets/bestiary/creatures/basilisk.webp",
+      "thumbnail": "/assets/bestiary/creatures/basilisk-thumb.webp",
+      "preparation": "Bring silver ivy, protection and a rested party. Gaze counters remain available without magic.",
+      "mechanics": [
+        "Each unblocked gaze adds one stone-stiffness level, up to 3. Each level reduces physical damage by 1; level 3 also costs 1 vitality after each committed exchange.",
+        "Break line of sight prevents retaliation and removes one stiffness level from every party member. First aid clears a chosen member; healing magic clears conditions on the member it heals."
+      ],
+      "sample": {
+        "id": "basilisk-scale",
+        "name": "Shed basilisk scale",
+        "properties": [
+          "rare-guard"
+        ],
+        "price": 62,
+        "collection": "Collect intact scales shed against the basin wall after securing access."
+      },
+      "bounty": {
+        "name": "Secure the lower quarry basin",
+        "client": "Valley stonecutters",
+        "reason": "A basilisk is occupying the lower inspection basin. Screen its sightlines and secure the work area so the quarry crew can examine the supports.",
+        "kind": "clearance",
+        "route": "deep-quarry",
+        "crowns": 46
+      },
+      "scholarNote": {
+        "quote": "A stiff hand was warning enough. Behind the stone screen I could move my fingers again, slowly, while my companion prepared the ivy wash. We built the next screen before approaching the basin. Courage did not make looking directly at it a useful experiment.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
+    },
+    "manticore": {
+      "id": "manticore",
+      "name": "Manticore",
+      "category": "creature",
+      "challengeTier": "Difficult",
+      "habitat": "High rocky crags",
+      "appearance": "A tawny lion-bodied predator with folded leathery wings and a long tail carrying a fan of detachable dark spines.",
+      "signs": "Deep padded tracks, discarded tail spines and puncture marks clustered on exposed rocks.",
+      "behaviour": "Fires a spine volley, recovers its balance, then threatens nearby prey with its venomous tail.",
+      "advice": "Take cover for volleys. Attack during recovery and treat venom before it drains the party.",
+      "materialsNote": "Recover 3 binding thread from the secured work site. Collect intact discarded spines from the cleared rock face.",
+      "enemyId": "manticore",
+      "art": "/assets/bestiary/creatures/manticore.webp",
+      "thumbnail": "/assets/bestiary/creatures/manticore-thumb.webp",
+      "preparation": "Bring silver ivy, protection and someone able to cover an exposed companion.",
+      "mechanics": [
+        "The volley and tail sting inflict venom when they cause injury: 1 vitality after each of the next two committed exchanges.",
+        "Take cover counters the volley. The recovery exchange gives damaging actions +2 damage. First aid clears venom and restores vitality."
+      ],
+      "sample": {
+        "id": "manticore-spine",
+        "name": "Discarded manticore spine",
+        "properties": [
+          "rare-force"
+        ],
+        "price": 64,
+        "collection": "Collect intact discarded spines from the cleared rock face."
+      },
+      "bounty": {
+        "name": "Recover the ridge carriers’ packs",
+        "client": "Reedbank carriers",
+        "reason": "A manticore has pinned the carriers’ abandoned packs against an exposed shelf. Secure access and recover the supplies.",
+        "kind": "clearance",
+        "route": "high-crags",
+        "crowns": 48
+      },
+      "scholarNote": {
+        "quote": "Its tail was empty immediately after the volley, and it paused to set its feet. That pause gave us time to move the pack frame behind cover. We kept the discarded spines for the enchanters and the ivy wash within reach.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
+    },
+    "wyvern": {
+      "id": "wyvern",
+      "name": "Wyvern",
+      "category": "creature",
+      "challengeTier": "Difficult",
+      "habitat": "High cliffs and ruined towers",
+      "appearance": "A slate-green winged reptile with two hind legs, wings serving as forelimbs and a hooked sting at the end of its tail.",
+      "signs": "Two-footed tracks, wing-claw scrapes and dried venom around punctures in the tower masonry.",
+      "behaviour": "Dives from a high perch, lands to regain balance, then turns its venomous tail toward nearby threats.",
+      "advice": "Defend against the dive and attack while it is grounded. A prepared snare or Icebind extends the grounded opening.",
+      "materialsNote": "Recover 2 moon glass from the secured work site. Recover dried venom crystals from the tower’s punctured outer stones using sealed sample tools.",
+      "enemyId": "wyvern",
+      "art": "/assets/bestiary/creatures/wyvern.webp",
+      "thumbnail": "/assets/bestiary/creatures/wyvern-thumb.webp",
+      "preparation": "Bring binding thread, silver ivy and protection; Icebind is useful but optional.",
+      "mechanics": [
+        "During the dive, physical damage is limited to 1 unless the wyvern is grounded. Grounded exchanges give damaging actions +2 damage.",
+        "A landing snare costs 1 binding thread and grounds it for this exchange and the next two; Icebind also grounds it. A sting that causes injury inflicts two exchanges of venom."
+      ],
+      "sample": {
+        "id": "wyvern-venom-crystal",
+        "name": "Dried wyvern venom crystal",
+        "properties": [
+          "rare-care"
+        ],
+        "price": 68,
+        "collection": "Recover dried venom crystals from the tower’s punctured outer stones using sealed sample tools."
+      },
+      "bounty": {
+        "name": "Collect a venom sample for field remedies",
+        "client": "Brook apothecary",
+        "reason": "The apothecary needs a stable dried sample for an advanced field-remedy cabinet. Secure the ruined tower landing and collect crystals from its outer masonry.",
+        "kind": "sample",
+        "route": "high-crags",
+        "crowns": 50
+      },
+      "scholarNote": {
+        "quote": "The third mark beside its two footprints came from a folded wing claw. When it landed, the tail had to swing wide before it could threaten us. We worked from the opposite side and kept the sampling vial closed until the wyvern left the wall.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
+    },
+    "marsh-hydra": {
+      "id": "marsh-hydra",
+      "name": "Marsh hydra",
+      "category": "creature",
+      "challengeTier": "Difficult",
+      "habitat": "Deep wetlands",
+      "appearance": "A broad olive-scaled amphibious body with four stout legs, one tail and three long necks ending in separate reptilian heads.",
+      "signs": "Several bite heights on one post, broad overlapping tracks and clear resin on the sluice stones.",
+      "behaviour": "Uses different heads to threaten separate approaches. Its tissue closes small wounds quickly while it remains unpressured.",
+      "advice": "Pin heads to reduce simultaneous attacks and suppress regeneration with heat or ice. Coordinate protection before concentrating damage.",
+      "materialsNote": "Recover 3 silver ivy from the secured work site. Bottle detached clear resin from the sluice stones after restoring safe access.",
+      "enemyId": "marsh-hydra",
+      "art": "/assets/bestiary/creatures/marsh-hydra.webp",
+      "thumbnail": "/assets/bestiary/creatures/marsh-hydra-thumb.webp",
+      "preparation": "Bring binding thread and sun amber, or prepared fire or ice magic. A full rested party is recommended.",
+      "mechanics": [
+        "Unpinned heads increase the main attack. With two or more free heads, a second head makes a separate force-2 attack.",
+        "Pin a head costs 1 binding thread; up to two heads can be pinned. The hydra restores 2 vitality after an exchange unless defeated or suppressed by fire, ice or a heat dressing. A heat dressing costs 1 sun amber."
+      ],
+      "sample": {
+        "id": "hydra-resin",
+        "name": "Hydra resin",
+        "properties": [
+          "rare-care",
+          "rare-binding"
+        ],
+        "price": 70,
+        "collection": "Bottle detached clear resin from the sluice stones after restoring safe access."
+      },
+      "bounty": {
+        "name": "Reopen the old flood-basin sluice",
+        "client": "Valley water keepers",
+        "reason": "A hydra has blocked the inspection steps and delayed sluice maintenance. Secure access or divert it into an unoccupied channel before the next survey.",
+        "kind": "clearance",
+        "route": "flooded-basin",
+        "crowns": 54
+      },
+      "scholarNote": {
+        "quote": "Three heads watched three approaches, but all shared the same heavy body. We secured one neck away from the steps and worked behind the sluice wall. Its closing wounds explained why scattered strikes had achieved so little.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
+    },
+    "runebound-colossus": {
+      "id": "runebound-colossus",
+      "name": "Runebound colossus",
+      "category": "creature",
+      "challengeTier": "Difficult",
+      "habitat": "Buried castle outworks",
+      "appearance": "A towering stone-and-bronze guardian with massive jointed limbs and three separately inset ward plates.",
+      "signs": "Repeated heavy footprints, carved maintenance channels and matching notches on discarded bronze keys.",
+      "behaviour": "Follows an old boundary instruction. Its ward plates protect the central mechanism and strengthen its blows.",
+      "advice": "Disconnect the plates or use lightning to trip them. Study its observed bestiary entry before returning to identify a bypass plate.",
+      "materialsNote": "Recover 2 moon glass, 1 fireglass from the secured work site. Recover a loose maintenance key from the cleared service recess.",
+      "enemyId": "runebound-colossus",
+      "art": "/assets/bestiary/creatures/runebound-colossus.webp",
+      "thumbnail": "/assets/bestiary/creatures/runebound-colossus-thumb.webp",
+      "preparation": "Study an observed entry, bring protection and consider Arc bolt. Plate disconnection works without magic.",
+      "mechanics": [
+        "It begins with three ward plates, or two if its bestiary entry is complete. While a plate remains, each damaging action is limited to 1 damage.",
+        "Disconnect the next ward plate is available without a skill check. Lightning also trips one plate. Each removed plate reduces incoming force by 1. With no plates, physical armour is bypassed and damaging actions gain +3 damage; the skilled shutdown approach also becomes available."
+      ],
+      "sample": {
+        "id": "colossus-ward-key",
+        "name": "Colossus ward key",
+        "properties": [
+          "rare-focus",
+          "rare-binding"
+        ],
+        "price": 72,
+        "collection": "Recover a loose maintenance key from the cleared service recess."
+      },
+      "bounty": {
+        "name": "Survey the buried castle outwork",
+        "client": "Hillfold conservators",
+        "reason": "A guardian blocks the old service walkway. Secure access and recover a loose maintenance key so the conservators can document the separate ward circuits.",
+        "kind": "sample",
+        "route": "deep-quarry",
+        "crowns": 54
+      },
+      "scholarNote": {
+        "quote": "Each plate had its own disconnect channel. Whoever built this guardian expected ordinary workers to service it without unmaking the whole machine. The walkway markings led to a water inspection gate, not a throne room or a treasury.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     }
   },
   "ancestries": {
@@ -209,8 +877,13 @@
       "arrival": "recruitment",
       "art": "/assets/bestiary/ancestries/bovinefolk.webp",
       "thumbnail": "/assets/bestiary/ancestries/bovinefolk-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "The potters at Reedbank fasten their aprons below the tail and hang mugs on wide pegs that clear their horns. Their children learn to turn sideways through narrow doors long before visitors remember to step aside.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "orc": {
       "id": "orc",
@@ -222,8 +895,13 @@
       "arrival": "recruitment",
       "art": "/assets/bestiary/ancestries/orc.webp",
       "thumbnail": "/assets/bestiary/ancestries/orc-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "An orc smith showed me how she files a drinking cup’s rim to sit comfortably beneath her lower tusks. The green of her skin was olive; her sister’s was a much darker moss. My first colour sketch was too narrow.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "wolfkin": {
       "id": "wolfkin",
@@ -235,21 +913,31 @@
       "arrival": "recruitment",
       "art": "/assets/bestiary/ancestries/wolfkin.webp",
       "thumbnail": "/assets/bestiary/ancestries/wolfkin-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "My wolfkin guide turned her ears toward a loose shutter while continuing our conversation. She asked me to leave a gap behind her chair for her tail. A tail pinned beneath a pack strap makes a long journey miserable.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
-    "oni": {
-      "id": "oni",
-      "name": "Oni",
+    "ogrekin": {
+      "id": "ogrekin",
+      "name": "Ogrekin",
       "category": "ancestry",
       "appearance": "Two strong horns and a powerful imposing frame with mature generous curves and a large bust.",
       "nature": "Horned people with sturdy, often generously curved builds. Skin colours include muted red, copper-brown and dusky blue.",
       "accommodation": "Check horn clearance, sturdy seating and comfortable clothing; no special room surcharge is added.",
-      "arrival": "summoning",
-      "art": "/assets/bestiary/ancestries/oni.webp",
-      "thumbnail": "/assets/bestiary/ancestries/oni-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "arrival": "recruitment",
+      "art": "/assets/bestiary/ancestries/ogrekin.webp",
+      "thumbnail": "/assets/bestiary/ancestries/ogrekin-thumb.webp",
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "I measured three ogrekin travellers for a shelter doorway: their horns curved in three different directions. The carpenter widened the opening instead of asking them to stoop. Red and blue skin were both common among that party.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "human": {
       "id": "human",
@@ -261,8 +949,13 @@
       "arrival": "recruitment",
       "art": "/assets/bestiary/ancestries/human.webp",
       "thumbnail": "/assets/bestiary/ancestries/human-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "The human ferry households keep recipes, marriage records and flood dates in the same kitchen books. A traveller can learn the river’s history over supper. I found more differences between neighbouring households than any single portrait could record.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "high-elf": {
       "id": "high-elf",
@@ -274,8 +967,13 @@
       "arrival": "recruitment",
       "art": "/assets/bestiary/ancestries/high-elf.webp",
       "thumbnail": "/assets/bestiary/ancestries/high-elf-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "At a high-elf forest settlement, young saplings mark the paths reserved for future buildings. Their planning spans more years than my notebook. Their pale complexions and long ears were familiar; the patient argument about where to put a bakery was wonderfully ordinary.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "dark-elf": {
       "id": "dark-elf",
@@ -287,8 +985,13 @@
       "arrival": "recruitment",
       "art": "/assets/bestiary/ancestries/dark-elf.webp",
       "thumbnail": "/assets/bestiary/ancestries/dark-elf-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "The dark elves I met on the southern road had rich brown skin and wore bright linen beneath travel coats. Their market stood in open sunlight. Do not confuse these surface communities with the drow settlements below the hills.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "drow": {
       "id": "drow",
@@ -300,8 +1003,13 @@
       "arrival": "recruitment",
       "art": "/assets/bestiary/ancestries/drow.webp",
       "thumbnail": "/assets/bestiary/ancestries/drow-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "My drow hosts shaded their lamps with thin stone screens, keeping the passages readable without glare. Their slate and violet-grey complexions caught the lamplight softly. I learned to lower my lantern before entering a room, just as one wipes muddy boots.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "catfolk": {
       "id": "catfolk",
@@ -313,8 +1021,13 @@
       "arrival": "recruitment",
       "art": "/assets/bestiary/ancestries/catfolk.webp",
       "thumbnail": "/assets/bestiary/ancestries/catfolk-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "A catfolk seamstress cut two soft openings in my hood pattern and added a tail gusset to the trousers. Her ears stayed free to turn, and the cloth stopped pulling when she sat. Useful tailoring begins with watching someone move.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "kitsune": {
       "id": "kitsune",
@@ -326,8 +1039,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/kitsune.webp",
       "thumbnail": "/assets/bestiary/ancestries/kitsune-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "Koharu is the named kitsune workshop companion. She already lives nearby and uses a local introduction; other kitsune contact plans use summoning.",
+      "scholarNote": {
+        "quote": "The kitsune courier brushed burrs from her great fox tail before checking her boots. Her spare cloak had a separate tail cover for rain. When I asked whether another tail meant greater magical skill, she asked to see my examination papers.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "golem": {
       "id": "golem",
@@ -339,8 +1057,13 @@
       "arrival": "construction",
       "art": "/assets/bestiary/ancestries/golem.webp",
       "thumbnail": "/assets/bestiary/ancestries/golem-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "A porcelain-bodied mason repaired a chip in her wrist while explaining the clay mixture to me. The repair restored her chosen surface; it did not change the person speaking. She signed her own employment contract, though her maker was standing beside her.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "demon": {
       "id": "demon",
@@ -352,8 +1075,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/demon.webp",
       "thumbnail": "/assets/bestiary/ancestries/demon-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "The demon cartographer’s coat had gussets for folded wings and a neat opening above the belt for her tail. Her horns had grown unevenly, so she padded one side of her hood. Such practical details are absent from most frightening woodcuts.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "seraph": {
       "id": "seraph",
@@ -365,8 +1093,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/seraph.webp",
       "thumbnail": "/assets/bestiary/ancestries/seraph-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "A seraph archivist laid her loose flight feathers in a tray while mending a split sleeve. Her chair had a low back to accommodate folded wings. Feather care occupied the quiet part of the afternoon, much as boot care did for her travelling companion.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "elemental": {
       "id": "elemental",
@@ -378,8 +1111,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/elemental.webp",
       "thumbnail": "/assets/bestiary/ancestries/elemental-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "Through a water elemental’s forearm I could see the distorted edge of a cup. Small currents continued beneath her surface while she stood still, and her hair separated into falling streams. Fire, air and earth elementals require their own observations; this sketch records water.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "vampire": {
       "id": "vampire",
@@ -391,8 +1129,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/vampire.webp",
       "thumbnail": "/assets/bestiary/ancestries/vampire-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "The vampire clerk asked for heavy curtains over the west window and a private place to keep her provisions. She discussed feeding arrangements as carefully as the rent. I wrote down what she actually required, rather than trusting the alarming stories sold outside the inn.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "fae": {
       "id": "fae",
@@ -404,8 +1147,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/fae.webp",
       "thumbnail": "/assets/bestiary/ancestries/fae-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "My fae host’s leaf-shaped ears changed colour at their edges as the light shifted. The painted marks on her hands named her household, she said, and were not a spell. I now ask what an ornament means before inventing an explanation.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "djinn": {
       "id": "djinn",
@@ -417,8 +1165,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/djinn.webp",
       "thumbnail": "/assets/bestiary/ancestries/djinn-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "The djinn glassworker’s hair trailed like smoke when she crossed the workshop, then gathered again around her shoulders. She arrived to study a kiln design and negotiated her own lodging. No lamp on the premises belonged to her, despite a visitor’s persistent questions.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "dragonkin": {
       "id": "dragonkin",
@@ -430,8 +1183,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/dragonkin.webp",
       "thumbnail": "/assets/bestiary/ancestries/dragonkin-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "A dragonkin courier showed me the worn lining of her coat where her shoulder scales rubbed it. Her tail needed room to turn on narrow stairs. Fresh stitching and a wider landing solved both problems more cheaply than replacing the whole building.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "dryad": {
       "id": "dryad",
@@ -443,8 +1201,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/dryad.webp",
       "thumbnail": "/assets/bestiary/ancestries/dryad-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "The dryad’s wrist had the grain of young wood, and a vine growing from her forearm curled around my measuring stick. Her leaves were living growth, not jewellery. She loosened the vine herself and asked me to keep my pruning knife sheathed.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "nymph": {
       "id": "nymph",
@@ -456,8 +1219,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/nymph.webp",
       "thumbnail": "/assets/bestiary/ancestries/nymph-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "The spring nymph knew exactly where the water first emerged beneath the stones and noticed a blocked channel before the village did. Her skin held a faint dew-like sheen. She explained that attachment to a place need not mean never leaving it.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     },
     "spirit": {
       "id": "spirit",
@@ -469,8 +1237,13 @@
       "arrival": "summoning",
       "art": "/assets/bestiary/ancestries/spirit.webp",
       "thumbnail": "/assets/bestiary/ancestries/spirit-thumb.webp",
-      "mechanics": "Ancestry alone adds no attribute, skill, combat bonus or immunity. The person’s approved abilities, learned skills, spells and equipment determine what they can do.",
-      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary."
+      "mechanics": "The listed ancestry trait adds +1 to one kind of capability check. Learned skills, spells, equipment and earned talents provide other abilities. Ancestry grants no immunity or extra action.",
+      "exampleNote": "One adult example of this ancestry. Individual appearance, clothing and personality vary.",
+      "scholarNote": {
+        "quote": "I could make out the window’s edge through the spirit’s sleeve, yet she corrected my spelling as firmly as any living tutor. Her outline was clearest in still lamplight. I recorded her name before attempting to describe the light around her.",
+        "author": "Scholar Elian Voss",
+        "work": "Notes from the Border Roads"
+      }
     }
   },
   "encounters": {
@@ -1153,6 +1926,732 @@
         "threshold": 9
       },
       "materialsNote": "Recover an intact moon-glass setting from the abandoned watch equipment."
+    },
+    "flint-beak-cockatrice": {
+      "name": "Flint-beak cockatrice",
+      "hp": 10,
+      "attack": 2,
+      "kind": "animal",
+      "enemy": "living",
+      "materials": {
+        "sun-amber": 1
+      },
+      "patterns": [
+        [
+          "Hooking beak strike",
+          1,
+          0,
+          "front"
+        ],
+        [
+          "Scaled tail lash",
+          0,
+          1,
+          "rotate"
+        ],
+        [
+          "Dust-hollow rush",
+          0,
+          0,
+          "weak"
+        ]
+      ],
+      "crowns": 4,
+      "food": 0,
+      "text": "Guards its dust-bathing hollow and snaps at hands reaching over its head. Secure a safe route for the carriers.",
+      "bestiaryId": "flint-beak-cockatrice",
+      "art": "/assets/bestiary/creatures/flint-beak-cockatrice.webp",
+      "thumbnail": "/assets/bestiary/creatures/flint-beak-cockatrice-thumb.webp",
+      "approach": {
+        "name": "Guide it away from the dust hollow",
+        "attribute": "dexterity",
+        "skill": "fieldcraft",
+        "threshold": 10
+      },
+      "materialsNote": "Collect loose flint-beak splinters from the stones it uses to hone its beak; resin can be gathered from the scrub above the hollow."
+    },
+    "barrow-badger": {
+      "name": "Barrow badger",
+      "hp": 8,
+      "attack": 2,
+      "kind": "animal",
+      "enemy": "living",
+      "materials": {
+        "porous-clay": 2
+      },
+      "patterns": [
+        [
+          "Low shoulder charge",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Digging-claw sweep",
+          1,
+          0,
+          "rotate"
+        ],
+        [
+          "Back toward the burrow",
+          0,
+          0,
+          "front"
+        ]
+      ],
+      "crowns": 4,
+      "food": 0,
+      "text": "Defends its tunnel entrance, then backs toward shelter between charges. Secure a safe route for the carriers.",
+      "bestiaryId": "barrow-badger",
+      "art": "/assets/bestiary/creatures/barrow-badger.webp",
+      "thumbnail": "/assets/bestiary/creatures/barrow-badger-thumb.webp",
+      "approach": {
+        "name": "Follow the abandoned side of the burrow",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 9
+      },
+      "materialsNote": "Gather loose burrow down from an abandoned bedding hollow and porous clay from the spoil bank."
+    },
+    "rimewing-bat": {
+      "name": "Rimewing bat",
+      "hp": 7,
+      "attack": 2,
+      "kind": "animal",
+      "enemy": "living",
+      "materials": {
+        "moon-glass": 1
+      },
+      "patterns": [
+        [
+          "Low wing sweep",
+          0,
+          1,
+          "front"
+        ],
+        [
+          "Dive from the ceiling",
+          1,
+          0,
+          "rotate"
+        ],
+        [
+          "Chilling close pass",
+          0,
+          0,
+          "weak"
+        ]
+      ],
+      "crowns": 4,
+      "food": 0,
+      "text": "Roosts above cold passages and swoops when warm light disturbs the colony. Secure a safe route for the carriers.",
+      "bestiaryId": "rimewing-bat",
+      "art": "/assets/bestiary/creatures/rimewing-bat.webp",
+      "thumbnail": "/assets/bestiary/creatures/rimewing-bat-thumb.webp",
+      "approach": {
+        "name": "Pass below the roost with shaded lamps",
+        "attribute": "intelligence",
+        "skill": "scholarship",
+        "threshold": 9
+      },
+      "materialsNote": "Collect naturally shed rime membrane from empty roost ledges and salvage moon-glass fragments from the old lamp brackets."
+    },
+    "siltback-tortoise": {
+      "name": "Siltback tortoise",
+      "hp": 12,
+      "attack": 2,
+      "kind": "animal",
+      "enemy": "living",
+      "materials": {
+        "porous-clay": 2
+      },
+      "patterns": [
+        [
+          "Heavy shell shove",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Webbed-foot sweep",
+          0,
+          1,
+          "rotate"
+        ],
+        [
+          "Snap from the shell",
+          1,
+          0,
+          "front"
+        ]
+      ],
+      "crowns": 4,
+      "food": 0,
+      "text": "Blocks narrow banks while feeding, withdrawing beneath its shell before pushing forward. Secure a safe route for the carriers.",
+      "bestiaryId": "siltback-tortoise",
+      "art": "/assets/bestiary/creatures/siltback-tortoise.webp",
+      "thumbnail": "/assets/bestiary/creatures/siltback-tortoise-thumb.webp",
+      "approach": {
+        "name": "Mark a firm detour around the feeding bank",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 10
+      },
+      "materialsNote": "Gather shed silt scutes from its resting bank and porous clay from exposed mud after the crossing is safe.",
+      "armour": 2
+    },
+    "brass-wing-scarab": {
+      "name": "Brass-wing scarab",
+      "hp": 9,
+      "attack": 2,
+      "kind": "construct",
+      "enemy": "construct",
+      "materials": {
+        "moon-glass": 1
+      },
+      "patterns": [
+        [
+          "Jointed-leg jab",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Brass wing-case sweep",
+          1,
+          0,
+          "rotate"
+        ],
+        [
+          "Clamp the nearest buckle",
+          0,
+          1,
+          "weak"
+        ]
+      ],
+      "crowns": 4,
+      "food": 0,
+      "text": "Collects loose metal and guards its sorting pile under an old workshop command. Secure a safe route for the carriers.",
+      "bestiaryId": "brass-wing-scarab",
+      "art": "/assets/bestiary/creatures/brass-wing-scarab.webp",
+      "thumbnail": "/assets/bestiary/creatures/brass-wing-scarab-thumb.webp",
+      "approach": {
+        "name": "Reset the workshop sorting route",
+        "attribute": "intelligence",
+        "skill": "artifice",
+        "threshold": 10
+      },
+      "materialsNote": "Recover a discarded scarab gear from the sorting pile and salvage a sound moon-glass lens from abandoned workshop fittings.",
+      "armour": 1
+    },
+    "gloam-jelly": {
+      "name": "Gloam jelly",
+      "hp": 8,
+      "attack": 2,
+      "kind": "ooze",
+      "enemy": "living",
+      "materials": {
+        "binding-thread": 1
+      },
+      "patterns": [
+        [
+          "Clinging fringe",
+          0,
+          1,
+          "front"
+        ],
+        [
+          "Spread across the stones",
+          0,
+          0,
+          "rotate"
+        ],
+        [
+          "Contract around a boot",
+          1,
+          0,
+          "weak"
+        ]
+      ],
+      "crowns": 4,
+      "food": 0,
+      "text": "Spreads toward damp organic matter and clings to anything crossing its feeding surface. Secure a safe route for the carriers.",
+      "bestiaryId": "gloam-jelly",
+      "art": "/assets/bestiary/creatures/gloam-jelly.webp",
+      "thumbnail": "/assets/bestiary/creatures/gloam-jelly-thumb.webp",
+      "approach": {
+        "name": "Divert the feeding flow into an empty channel",
+        "attribute": "intelligence",
+        "skill": "scholarship",
+        "threshold": 9
+      },
+      "materialsNote": "Collect detached gloam gel from the cleared channel and binding fibres washed into the sluice grate."
+    },
+    "owlbear": {
+      "name": "Owlbear",
+      "kind": "creature",
+      "enemy": "living",
+      "hp": 14,
+      "attack": 3,
+      "armour": 0,
+      "crowns": 9,
+      "food": 3,
+      "materials": {
+        "silver-ivy": 2
+      },
+      "text": "An owlbear is feeding beside the foresters’ marked trail. The party needs to reopen the trail without entering its den.",
+      "bestiaryId": "owlbear",
+      "art": "/assets/bestiary/creatures/owlbear.webp",
+      "thumbnail": "/assets/bestiary/creatures/owlbear-thumb.webp",
+      "patterns": [
+        [
+          "Lowered head: charging",
+          1,
+          0,
+          "front"
+        ],
+        [
+          "Hooking claws: grapple on injury",
+          0,
+          0,
+          "rotate"
+        ],
+        [
+          "Heavy shoulder shove",
+          0,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Guide it away from the marked trail",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 11
+      },
+      "materialsNote": "Recover 2 silver ivy from the secured work site.",
+      "challenge": "owlbear",
+      "challengeTier": "Intermediate"
+    },
+    "rust-beetle": {
+      "name": "Rust beetle",
+      "kind": "creature",
+      "enemy": "living",
+      "hp": 13,
+      "attack": 3,
+      "armour": 1,
+      "crowns": 8,
+      "food": 0,
+      "materials": {
+        "porous-clay": 2
+      },
+      "text": "A beetle has settled beside the quarry’s lifting fittings. Clear the working platform before its feeding weakens more abandoned iron.",
+      "bestiaryId": "rust-beetle",
+      "art": "/assets/bestiary/creatures/rust-beetle.webp",
+      "thumbnail": "/assets/bestiary/creatures/rust-beetle-thumb.webp",
+      "patterns": [
+        [
+          "Raised mandibles: corrosive spray",
+          0,
+          1,
+          "front"
+        ],
+        [
+          "Wing-case shove",
+          0,
+          0,
+          "rotate"
+        ],
+        [
+          "Mineral-crushing bite",
+          1,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Lure it to the abandoned ore pile",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 11
+      },
+      "materialsNote": "Recover 2 porous clay from the secured work site.",
+      "challenge": "rust-beetle",
+      "challengeTier": "Intermediate"
+    },
+    "blink-lynx": {
+      "name": "Blink lynx",
+      "kind": "creature",
+      "enemy": "living",
+      "hp": 12,
+      "attack": 3,
+      "armour": 0,
+      "crowns": 9,
+      "food": 0,
+      "materials": {
+        "moon-glass": 1
+      },
+      "text": "A lynx is repeatedly appearing beside the nursery’s collection baskets. Identify its landing places and secure the path.",
+      "bestiaryId": "blink-lynx",
+      "art": "/assets/bestiary/creatures/blink-lynx.webp",
+      "thumbnail": "/assets/bestiary/creatures/blink-lynx-thumb.webp",
+      "patterns": [
+        [
+          "A ripple at the landing place: short jump",
+          0,
+          1,
+          "weak"
+        ],
+        [
+          "Grounded claw strike",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "A second ripple: flanking jump",
+          1,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Mark a route outside its landing places",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 11
+      },
+      "materialsNote": "Recover 1 moon glass from the secured work site.",
+      "challenge": "blink-lynx",
+      "challengeTier": "Intermediate"
+    },
+    "cliff-harpy": {
+      "name": "Cliff harpy",
+      "kind": "person",
+      "enemy": "living",
+      "hp": 14,
+      "attack": 3,
+      "armour": 0,
+      "crowns": 10,
+      "food": 0,
+      "materials": {
+        "binding-thread": 2
+      },
+      "text": "A harpy has tied warning cords across the upper crossing. She says falling survey stones have damaged her perch. Discuss a safe working boundary or secure the sheltered lower route.",
+      "bestiaryId": "cliff-harpy",
+      "art": "/assets/bestiary/creatures/cliff-harpy.webp",
+      "thumbnail": "/assets/bestiary/creatures/cliff-harpy-thumb.webp",
+      "patterns": [
+        [
+          "Spread wings: destabilising gust",
+          0,
+          1,
+          "rotate"
+        ],
+        [
+          "Low talon sweep",
+          1,
+          0,
+          "front"
+        ],
+        [
+          "Withdraw to the ledge",
+          -1,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Agree a safe boundary for the survey work",
+        "attribute": "charisma",
+        "skill": "diplomacy",
+        "threshold": 11
+      },
+      "materialsNote": "Recover 2 binding thread from the secured work site.",
+      "challenge": "cliff-harpy",
+      "challengeTier": "Intermediate"
+    },
+    "will-o-wisp": {
+      "name": "Will-o’-wisp",
+      "kind": "creature",
+      "enemy": "living",
+      "hp": 11,
+      "attack": 3,
+      "armour": 0,
+      "crowns": 9,
+      "food": 0,
+      "materials": {
+        "sun-amber": 1
+      },
+      "text": "Several lights appear to mark the refuge’s flooded path. Find the real bank before the next carriers follow a reflection into deep mud.",
+      "bestiaryId": "will-o-wisp",
+      "art": "/assets/bestiary/creatures/will-o-wisp.webp",
+      "thumbnail": "/assets/bestiary/creatures/will-o-wisp-thumb.webp",
+      "patterns": [
+        [
+          "False light over the deep channel",
+          0,
+          1,
+          "weak"
+        ],
+        [
+          "Drifting light across the bank",
+          0,
+          0,
+          "rotate"
+        ],
+        [
+          "Bright flare beside the crossing",
+          1,
+          0,
+          "front"
+        ]
+      ],
+      "approach": {
+        "name": "Mark a reliable crossing for the carriers",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 11
+      },
+      "materialsNote": "Recover 1 sun amber from the secured work site.",
+      "challenge": "will-o-wisp",
+      "challengeTier": "Intermediate"
+    },
+    "basilisk": {
+      "name": "Basilisk",
+      "kind": "creature",
+      "enemy": "living",
+      "hp": 20,
+      "attack": 4,
+      "armour": 1,
+      "crowns": 18,
+      "food": 0,
+      "materials": {
+        "porous-clay": 3
+      },
+      "text": "A basilisk has occupied the lower quarry basin. Its gaze has begun stiffening the weeds around the inspection path. Secure the work area before the stonecutters return.",
+      "bestiaryId": "basilisk",
+      "art": "/assets/bestiary/creatures/basilisk.webp",
+      "thumbnail": "/assets/bestiary/creatures/basilisk-thumb.webp",
+      "patterns": [
+        [
+          "Fixed stare: petrifying gaze",
+          0,
+          0,
+          "rotate"
+        ],
+        [
+          "Armoured jaw strike",
+          1,
+          1,
+          "front"
+        ],
+        [
+          "Second fixed stare: petrifying gaze",
+          0,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Screen the basin and establish a protected route",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 14
+      },
+      "materialsNote": "Recover 3 porous clay from the secured work site.",
+      "challenge": "basilisk",
+      "challengeTier": "Difficult"
+    },
+    "manticore": {
+      "name": "Manticore",
+      "kind": "creature",
+      "enemy": "living",
+      "hp": 22,
+      "attack": 4,
+      "armour": 0,
+      "crowns": 20,
+      "food": 2,
+      "materials": {
+        "binding-thread": 3
+      },
+      "text": "A manticore is guarding a broken pack frame above the ridge track. Secure the track and recover the carriers’ abandoned supplies.",
+      "bestiaryId": "manticore",
+      "art": "/assets/bestiary/creatures/manticore.webp",
+      "thumbnail": "/assets/bestiary/creatures/manticore-thumb.webp",
+      "patterns": [
+        [
+          "Raised tail: venomous spine volley",
+          1,
+          1,
+          "rotate"
+        ],
+        [
+          "Recovering after the volley",
+          -2,
+          0,
+          "front"
+        ],
+        [
+          "Venomous tail strike",
+          0,
+          1,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Recover the packs behind a protected screen",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 14
+      },
+      "materialsNote": "Recover 3 binding thread from the secured work site.",
+      "challenge": "manticore",
+      "challengeTier": "Difficult"
+    },
+    "wyvern": {
+      "name": "Wyvern",
+      "kind": "creature",
+      "enemy": "living",
+      "hp": 23,
+      "attack": 4,
+      "armour": 1,
+      "crowns": 22,
+      "food": 2,
+      "materials": {
+        "moon-glass": 2
+      },
+      "text": "A wyvern is using the ruined ridge tower as a perch. Secure the inspection landing so the weather watchers can repair their instruments.",
+      "bestiaryId": "wyvern",
+      "art": "/assets/bestiary/creatures/wyvern.webp",
+      "thumbnail": "/assets/bestiary/creatures/wyvern-thumb.webp",
+      "patterns": [
+        [
+          "Circling above: diving strike",
+          1,
+          1,
+          "rotate"
+        ],
+        [
+          "Landed: regaining balance",
+          -1,
+          0,
+          "front"
+        ],
+        [
+          "Grounded venomous sting",
+          0,
+          1,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Rig a protected route below the perch",
+        "attribute": "dexterity",
+        "skill": "fieldcraft",
+        "threshold": 14
+      },
+      "materialsNote": "Recover 2 moon glass from the secured work site.",
+      "challenge": "wyvern",
+      "challengeTier": "Difficult"
+    },
+    "marsh-hydra": {
+      "name": "Marsh hydra",
+      "kind": "creature",
+      "enemy": "living",
+      "hp": 24,
+      "attack": 5,
+      "armour": 0,
+      "crowns": 24,
+      "food": 0,
+      "materials": {
+        "silver-ivy": 3
+      },
+      "text": "A three-headed hydra has settled against the old flood basin’s sluice. The water keepers need safe access to the inspection steps.",
+      "bestiaryId": "marsh-hydra",
+      "art": "/assets/bestiary/creatures/marsh-hydra.webp",
+      "thumbnail": "/assets/bestiary/creatures/marsh-hydra-thumb.webp",
+      "patterns": [
+        [
+          "Heads spread across the sluice",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Upper head follows the exposed traveller",
+          0,
+          0,
+          "weak"
+        ],
+        [
+          "Necks cross the approach",
+          0,
+          0,
+          "rotate"
+        ]
+      ],
+      "approach": {
+        "name": "Open a diversion channel beyond its reach",
+        "attribute": "intelligence",
+        "skill": "fieldcraft",
+        "threshold": 15
+      },
+      "materialsNote": "Recover 3 silver ivy from the secured work site.",
+      "challenge": "marsh-hydra",
+      "challengeTier": "Difficult"
+    },
+    "runebound-colossus": {
+      "name": "Runebound colossus",
+      "kind": "construct",
+      "enemy": "construct",
+      "hp": 22,
+      "attack": 6,
+      "armour": 2,
+      "crowns": 24,
+      "food": 0,
+      "materials": {
+        "moon-glass": 2,
+        "fireglass": 1
+      },
+      "text": "A guardian still patrols the buried approach beside the castle’s old quarry. Its maintenance markings remain readable. Secure the walkway and examine the outwork records.",
+      "bestiaryId": "runebound-colossus",
+      "art": "/assets/bestiary/creatures/runebound-colossus.webp",
+      "thumbnail": "/assets/bestiary/creatures/runebound-colossus-thumb.webp",
+      "patterns": [
+        [
+          "Ward-fed arm sweep",
+          0,
+          0,
+          "front"
+        ],
+        [
+          "Ward-fed step across the walkway",
+          0,
+          0,
+          "rotate"
+        ],
+        [
+          "Ward-fed closing strike",
+          0,
+          0,
+          "weak"
+        ]
+      ],
+      "approach": {
+        "name": "Apply the old maintenance shutdown sequence",
+        "attribute": "intelligence",
+        "skill": "artifice",
+        "threshold": 14
+      },
+      "materialsNote": "Recover 2 moon glass, 1 fireglass from the secured work site.",
+      "challenge": "runebound-colossus",
+      "challengeTier": "Difficult"
     }
+  },
+  "scholar": {
+    "name": "Scholar Elian Voss",
+    "work": "Notes from the Border Roads",
+    "description": "A travelling naturalist who catalogued the region’s peoples and creatures through visits, interviews and field observation."
   }
 }

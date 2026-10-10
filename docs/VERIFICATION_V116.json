@@ -1,0 +1,183 @@
+{
+  "version": "0.116",
+  "schema": 73,
+  "python": {
+    "testsAcrossCompletedRuns": 274,
+    "modules": [
+      "test_release_v116",
+      "test_character_pool",
+      "test_local_expansion",
+      "test_containment",
+      "test_candidate_proposals",
+      "test_arrival_paths",
+      "test_personal_stories",
+      "test_character_builds",
+      "test_attribute_integration",
+      "test_character_quests",
+      "test_art_release",
+      "test_bathing_outfits",
+      "test_outfits",
+      "test_recruitment",
+      "test_summoning",
+      "test_cheat_tools",
+      "test_companion_threads",
+      "test_companion_dialogue_review",
+      "test_companion_almanac",
+      "test_first_hearth",
+      "test_candidate_http",
+      "test_bestiary_v105",
+      "test_content_packs",
+      "test_public_integration"
+    ],
+    "runs": [
+      {
+        "log": "verify-v116-rules.log",
+        "tests": 171,
+        "result": "passed"
+      },
+      {
+        "log": "verify-v116-dialogue.log",
+        "tests": 65,
+        "result": "passed"
+      },
+      {
+        "log": "verify-v116-final.log",
+        "tests": 95,
+        "result": "passed",
+        "note": "Includes final artwork, Ogrekin ordinary arrival, catalogue, content packs and public integration"
+      }
+    ]
+  },
+  "connectedUISuites": {
+    "passed": [
+      "test_ui_castle_map_v115.cjs",
+      "test_ui_outfits.cjs",
+      "test_ui_build_workspace.cjs",
+      "test_ui_release_v116.cjs",
+      "test_ui_bestiary_v105.cjs",
+      "test_ui_public_integration.cjs"
+    ],
+    "method": "Shipped JavaScript in Node VM with real Python GameStore fixtures"
+  },
+  "artwork": {
+    "totalRuntimeImages": 400,
+    "unchanged": 364,
+    "added": [
+      "static/assets/bestiary/ancestries/ogrekin-thumb.webp",
+      "static/assets/bestiary/ancestries/ogrekin.webp",
+      "static/assets/portraits/bathing/koharu.webp",
+      "static/assets/portraits/koharu-outfit-2.webp",
+      "static/assets/portraits/koharu-outfit-3.webp",
+      "static/assets/portraits/koharu.webp",
+      "static/assets/portraits/overview/koharu-outfit-2.webp",
+      "static/assets/portraits/overview/koharu-outfit-3.webp",
+      "static/assets/portraits/overview/koharu.webp"
+    ],
+    "removed": [
+      "static/assets/bestiary/ancestries/oni-thumb.webp",
+      "static/assets/bestiary/ancestries/oni.webp",
+      "static/assets/portraits/bathing/maren.webp",
+      "static/assets/portraits/maren-outfit-2.webp",
+      "static/assets/portraits/maren-outfit-3.webp",
+      "static/assets/portraits/maren.webp",
+      "static/assets/portraits/overview/maren-outfit-2.webp",
+      "static/assets/portraits/overview/maren-outfit-3.webp",
+      "static/assets/portraits/overview/maren.webp"
+    ],
+    "changed": [
+      "static/assets/bestiary/ancestries/catfolk-thumb.webp",
+      "static/assets/bestiary/ancestries/catfolk.webp",
+      "static/assets/bestiary/ancestries/kitsune-thumb.webp",
+      "static/assets/bestiary/ancestries/kitsune.webp",
+      "static/assets/bestiary/ancestries/wolfkin-thumb.webp",
+      "static/assets/bestiary/ancestries/wolfkin.webp",
+      "static/assets/portraits/bathing/fenna.webp",
+      "static/assets/portraits/bathing/tamsin.webp",
+      "static/assets/portraits/bathing/zahra.webp",
+      "static/assets/portraits/fenna-outfit-2.webp",
+      "static/assets/portraits/fenna-outfit-3.webp",
+      "static/assets/portraits/fenna.webp",
+      "static/assets/portraits/overview/fenna-outfit-2.webp",
+      "static/assets/portraits/overview/fenna-outfit-3.webp",
+      "static/assets/portraits/overview/fenna.webp",
+      "static/assets/portraits/overview/tamsin-outfit-2.webp",
+      "static/assets/portraits/overview/tamsin-outfit-3.webp",
+      "static/assets/portraits/overview/tamsin.webp",
+      "static/assets/portraits/overview/zahra-outfit-2.webp",
+      "static/assets/portraits/overview/zahra-outfit-3.webp",
+      "static/assets/portraits/overview/zahra.webp",
+      "static/assets/portraits/tamsin-outfit-2.webp",
+      "static/assets/portraits/tamsin-outfit-3.webp",
+      "static/assets/portraits/tamsin.webp",
+      "static/assets/portraits/zahra-outfit-2.webp",
+      "static/assets/portraits/zahra-outfit-3.webp",
+      "static/assets/portraits/zahra.webp"
+    ],
+    "renamedWithoutPixelChanges": {
+      "oni": "ogrekin"
+    }
+  },
+  "artReview": {
+    "finalMasters": 15,
+    "displayFilesCreatedEditedOrRenamed": 36,
+    "reviewed": "Koharu dark loose hair; top animal ears only for Koharu/Tamsin/Fenna and the three generic ancestries; Fenna/Tamsin revisions compared against v0.115 original likenesses, tousled hair silhouettes and etched style; rejected glamour-hair variants excluded",
+    "bathingAlphaPreserved": true,
+    "generationMethod": "built-in image_gen"
+  },
+  "systems": {
+    "mapLocations": 53,
+    "mapViews": 5,
+    "emberChambers": 1,
+    "quietChambers": 1,
+    "bedroomProfileAndMapOccupancy": true,
+    "ancestryBonus": "One named +1 capability check, no base-rank or reward change",
+    "ogrekin": {
+      "id": "ogrekin",
+      "arrival": "recruitment",
+      "kaedeUnlock": "First hearth-ward study",
+      "sourceBundleValidated": true,
+      "publicPacksValidated": 16
+    },
+    "scriptedSolo": [
+      "Candidate creation",
+      "Contact and arrival lifecycle",
+      "Three-response created-companion dialogue and persistence",
+      "Personal story preparation",
+      "Exact last-phase account"
+    ],
+    "noProviderRequired": true,
+    "coopDeferred": true
+  },
+  "helpUpdated": true,
+  "cheatCatalogueUpdated": true,
+  "browserLayoutVerified": false,
+  "deployed": false,
+  "pendingUserChoice": "Replacement ancestry for Bovinefolk; candidates presented, not selected",
+  "portraitCompression": {
+    "version": "0.116",
+    "scope": "All 28 Koharu, Fenna, Tamsin and Zahra portraits: three standard outfits, three overview outfits and one bathing cutout per character.",
+    "exportSettings": {
+      "format": "WebP",
+      "quality": 92,
+      "method": 6,
+      "lossless": false,
+      "alphaLossless": true
+    },
+    "count": 28,
+    "beforeBytes": 34404536,
+    "afterBytes": 9440316,
+    "savedBytes": 24964220,
+    "reductionPercent": 72.56,
+    "allDimensionsAndModesUnchanged": true,
+    "allFourAlphaChannelsByteIdentical": true,
+    "otherRuntimeImagesUnchanged": 372,
+    "originalsRetained": true,
+    "artworkRegenerated": false,
+    "artReleaseRegression": {
+      "command": "PYTHONPATH=.:tests python3 -m unittest test_art_release",
+      "tests": 4,
+      "result": "passed",
+      "log": "verify-v116-portrait-compression.log"
+    }
+  }
+}

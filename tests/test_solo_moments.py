@@ -74,10 +74,10 @@ class SoloMomentTests(unittest.TestCase):
     def test_shared_roof_waits_for_membership_not_a_visit(self):
         import summoning
         s=g.new_campaign('fresh')
-        g.apply_action(s,{'type':'start-local-visit','encounterId':'maren'})
+        g.apply_action(s,{'type':'start-local-visit','encounterId':'koharu'})
         g.apply_action(s,{'type':'advance'})
-        contact=next(k for k,c in s['summoningContacts'].items() if c['personId']=='maren')
-        for topic in summoning.candidate_catalogue(s)['maren']['topics']:
+        contact=next(k for k,c in s['summoningContacts'].items() if c['personId']=='koharu')
+        for topic in summoning.candidate_catalogue(s)['koharu']['topics']:
             g.apply_action(s,{'type':'summoning-talk','contactId':contact,'topic':topic})
         g.apply_action(s,{'type':'summoning-invite','contactId':contact,'roomId':'bedchamber'})
         g.apply_action(s,{'type':'advance'})

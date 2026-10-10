@@ -98,7 +98,7 @@ class ExpansionTests(unittest.TestCase):
             self.assertEqual(upgraded['founderAssignment'],'research')
             self.assertEqual(upgraded['wardrobe'],state['wardrobe'])
             self.assertEqual(upgraded['resonancePoints'],7)
-            backup_path=Path(directory)/'campaign-before-schema-1-to-66.sqlite3'
+            backup_path=Path(directory)/f"campaign-before-schema-1-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3"
             with sqlite3.connect(backup_path) as db:
                 self.assertEqual(json.loads(db.execute('SELECT state FROM campaign').fetchone()[0]),state)
             self.assertEqual(GameStore(directory).read(),upgraded)

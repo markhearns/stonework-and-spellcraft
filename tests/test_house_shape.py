@@ -35,14 +35,14 @@ class HouseShapeTests(unittest.TestCase):
                 self.money(g.MATERIALS[key]['price']);self.act('buy-material',materialId=key)
     def recruit(self):
         import summoning
-        if self.s['localEncounters']['maren']['status']!='introduced':
-            self.act('start-local-visit',encounterId='maren');self.advance()
-        contact=next(k for k,c in self.s['summoningContacts'].items() if c['personId']=='maren')
-        for topic in summoning.candidate_catalogue(self.s)['maren']['topics']:self.act('summoning-talk',contactId=contact,topic=topic)
+        if self.s['localEncounters']['koharu']['status']!='introduced':
+            self.act('start-local-visit',encounterId='koharu');self.advance()
+        contact=next(k for k,c in self.s['summoningContacts'].items() if c['personId']=='koharu')
+        for topic in summoning.candidate_catalogue(self.s)['koharu']['topics']:self.act('summoning-talk',contactId=contact,topic=topic)
         self.act('summoning-invite',contactId=contact,roomId='bedchamber');self.advance()
         self.act('summoning-ask-stay',contactId=contact)
         self.act('summoning-household-decision',contactId=contact,decision='invite-to-stay')
-        self.act('assign-character',characterId='maren',assignment='rest')
+        self.act('assign-character',characterId='koharu',assignment='rest')
 
     def run_chapter(self,key,design,shared=False,stop=None):
         if not h.record(self.s,key):self.act('shape-start',pathId=key)
@@ -61,7 +61,7 @@ class HouseShapeTests(unittest.TestCase):
             elif stage=='planning':
                 self.money(h.PATHS[key]['cost']);self.buy_for(h.PATHS[key]['inputs']);self.money(h.PATHS[key]['cost'])
                 self.act('assign-founder',assignment='rest')
-                if shared and 'maren' not in r['workers']:self.act('shape-include',characterId='maren')
+                if shared and 'koharu' not in r['workers']:self.act('shape-include',characterId='koharu')
                 self.act('shape-fund')
             elif stage=='construction':self.advance();phases+=1
             elif stage=='gathering':self.act('shape-gather',choice='credit')
@@ -92,9 +92,9 @@ class HouseShapeTests(unittest.TestCase):
     def test_agreed_resident_and_solo_progress_are_real(self):
         self.recruit();self.run_chapter('scholarship','table',shared=True)
         r=h.record(self.s,'scholarship')
-        self.assertEqual(r['project']['contributions'],{'founder':3,'maren':3})
-        self.assertEqual(r['project']['names']['maren'],'Maren')
-        self.assertTrue(any('maren' in m['participants'] for m in h.context(self.s,'maren')))
+        self.assertEqual(r['project']['contributions'],{'founder':3,'koharu':3})
+        self.assertEqual(r['project']['names']['koharu'],'Koharu')
+        self.assertTrue(any('koharu' in m['participants'] for m in h.context(self.s,'koharu')))
 
     def test_cancel_refunds_exact_inputs_once_and_retains_other_work(self):
         self.run_chapter('cultivation','nursery',stop='construction');self.advance(2)
@@ -113,12 +113,12 @@ class HouseShapeTests(unittest.TestCase):
         self.act('start-expedition',siteId='old-waterworks',carryLantern=True)
         before=deepcopy(self.s);preview=guidance.preview(self.s);self.assertEqual(before,self.s)
         p=next(x for x in preview['projects'] if x['id']=='house-shape');self.assertEqual(p['progress'],1)
-        self.advance();self.assertEqual(h.record(self.s,'scholarship')['project']['contributions'],{'maren':1})
+        self.advance();self.assertEqual(h.record(self.s,'scholarship')['project']['contributions'],{'koharu':1})
         self.act('return-expedition');self.advance()
         self.act('shape-resume',characterId='founder');self.advance()
-        r=h.record(self.s,'scholarship');self.assertEqual(r['project']['contributions'],{'maren':3,'founder':1})
+        r=h.record(self.s,'scholarship');self.assertEqual(r['project']['contributions'],{'koharu':3,'founder':1})
         self.act('shape-pause');done=r['project']['done'];self.advance();self.assertEqual(r['project']['done'],done)
-        self.act('shape-resume',characterId='maren');self.assertEqual(room_life.location(self.s,'maren'),'library')
+        self.act('shape-resume',characterId='koharu');self.assertEqual(room_life.location(self.s,'koharu'),'library')
         self.advance(2);self.assertEqual(r['project']['status'],'complete')
 
     def test_reserves_invalid_choices_and_out_of_order_actions_are_atomic(self):
@@ -150,18 +150,18 @@ class HouseShapeTests(unittest.TestCase):
         import party_journeys
         self.recruit();self.run_chapter('craftsmanship','production',shared=True,stop='construction')
         self.act('save-work-arrangement',name='Shared fitting')
-        self.assertEqual(next(r for r in party_journeys.departure(self.s) if r['id']=='maren')['commitments'][0]['name'],'A working commission bench')
+        self.assertEqual(next(r for r in party_journeys.departure(self.s) if r['id']=='koharu')['commitments'][0]['name'],'A working commission bench')
         self.act('shape-pause');self.act('apply-work-arrangement',name='Shared fitting')
-        self.assertEqual(set(h.eligible(self.s)),{'founder','maren'})
-        self.act('hq-agree-work',workerId='maren',enabled=True)
-        self.money(20);self.act('hq-build',workerId='maren',roomId='chapel')
+        self.assertEqual(set(h.eligible(self.s)),{'founder','koharu'})
+        self.act('hq-agree-work',workerId='koharu',enabled=True)
+        self.money(20);self.act('hq-build',workerId='koharu',roomId='chapel')
         self.act('shape-resume',characterId='founder')
         prior=deepcopy(h.record(self.s,'craftsmanship')['project']['contributions'])
         self.advance()
         contributions=h.record(self.s,'craftsmanship')['project']['contributions']
         self.assertEqual(contributions.get('founder',0),prior.get('founder',0)+1)
-        self.assertEqual(contributions.get('maren',0),prior.get('maren',0))
-        self.assertEqual(headquarters.project_for(self.s,'maren')['done'],1)
+        self.assertEqual(contributions.get('koharu',0),prior.get('koharu',0))
+        self.assertEqual(headquarters.project_for(self.s,'koharu')['done'],1)
 
     def test_later_paths_remain_available_and_do_not_remove_completed_benefits(self):
         self.run_chapter('scholarship','table');self.run_chapter('cultivation','kitchen')

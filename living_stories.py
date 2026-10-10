@@ -4,8 +4,8 @@ from copy import deepcopy
 # Lists rotate by day, skipping facilities not yet ready. They never assign work.
 ROUTINES={
  'mira':{'morning':['library'],'afternoon':['library','common-room','conservatory'],'evening':['common-room','chapel','bedroom']},
- 'maren':{'morning':['workshop','library'],'afternoon':['training-yard','common-room'],'evening':['common-room','sauna','bedroom']},
- 'brakka':{'morning':['conservatory','library'],'afternoon':['pool','conservatory','common-room'],'evening':['hot-spring','chapel','bedroom']},
+ 'koharu':{'morning':['workshop','library'],'afternoon':['training-yard','common-room'],'evening':['common-room','sauna','bedroom']},
+ 'zahra':{'morning':['conservatory','library'],'afternoon':['pool','conservatory','common-room'],'evening':['hot-spring','chapel','bedroom']},
  'fenna':{'morning':['command-room','library'],'afternoon':['training-yard','common-room'],'evening':['common-room','pool','bedroom']},
  'iona':{'morning':['command-room','library'],'afternoon':['library','common-room'],'evening':['chapel','common-room','bedroom']},
  'kaede':{'morning':['workshop','library'],'afternoon':['smithy','common-room'],'evening':['sauna','common-room','bedroom']},
@@ -15,8 +15,8 @@ ROUTINES={
 }
 GREETINGS={
  'mira':'“I am reading for pleasure. Please do not tell the catalogue.”',
- 'maren':'“Nothing needs mending this minute. I checked.”',
- 'brakka':'“A useful pause. Those exist, you know.”',
+ 'koharu':'“Nothing needs mending this minute. I checked.”',
+ 'zahra':'“A useful pause. Those exist, you know.”',
  'fenna':'“No, I am not lost. This is the interesting way to the chair.”',
  'iona':'“I left the maps closed. We may have to find our own conversation.”',
  'kaede':'“Careful. I intend to enjoy myself with absolutely no improvements to show for it.”',
@@ -29,19 +29,19 @@ def chain(room,title,opening,choices,follow,echoes,reply,answers):
     return dict(roomId=room,title=title,opening=opening,choices=choices,follow=follow,echoes=echoes,reply=reply,answers=answers)
 
 CHAINS={
- 'maren':chain('workshop','The repair worth keeping',
-  'Maren turns a repaired wooden clasp in her palm. “It holds. The question is whether to hide where it broke. People can be awfully rude to useful things once they see a scar.”',
+ 'koharu':chain('workshop','The repair worth keeping',
+  'Koharu turns a repaired wooden clasp in her palm. “It holds. The question is whether to hide where it broke. People can be awfully rude to useful things once they see a scar.”',
   {'visible':('Let the repair show','“Good. Then someone can learn from it. And I need not sand away a perfectly respectable afternoon.”'), 'quiet':('Make it comfortable to use','“Exactly. No point making a monument of a handle if it bites your fingers.”')},
   'A margin for somebody else',
   {'visible':'“You wanted the repair to show. I remembered that when we wrote up our work.”','quiet':'“You asked whether the repair felt right in the hand. I tried applying that to our notes.”'},
-  'After the research you both contributed to, Maren leaves a generous blank margin beside the method. “For the next person to disagree in. What shall we give them first?”',
+  'After the research you both contributed to, Koharu leaves a generous blank margin beside the method. “For the next person to disagree in. What shall we give them first?”',
   {'method':('A clear starting method','“And permission to improve it. Otherwise we have only made a very tidy obstacle.”'), 'question':('The question still troubling us','“Oh, I like that. A useful invitation, with none of the sweeping.”')}),
- 'brakka':chain('conservatory','An honest measurement',
-  'Brakka lays a cord beside the growing bench. “Two measurements disagree. I could choose the prettier one, but the water will decline to cooperate.” She offers you the end of the cord.',
+ 'zahra':chain('conservatory','An honest measurement',
+  'Zahra lays a cord beside the growing bench. “Two measurements disagree. I could choose the prettier one, but the water will decline to cooperate.” She offers you the end of the cord.',
   {'repeat':('Measure again together','“Patient company. Much more useful than an audience.”'), 'note':('Record the uncertainty','“Good. A blank is better than a confident lie, provided we remember why it is blank.”')},
   'What the notes leave open',
   {'repeat':'“You were willing to take the measure twice. That helped when our research refused a neat answer.”','note':'“You let the uncertain part stay uncertain. Our new notes are better for it.”'},
-  'With your shared research written up, Brakka rests the measuring cord on its hook. “There. Something dependable, and room to discover where it stops being dependable.”',
+  'With your shared research written up, Zahra rests the measuring cord on its hook. “There. Something dependable, and room to discover where it stops being dependable.”',
   {'rest':('Leave the next question for tomorrow','“A radical proposal.” Her smile is brief and warm. “I accept.”'), 'compare':('Ask which part surprised her','“How much easier it was to stop guessing once someone else was willing to say they did not know.”')}),
  'fenna':chain('command-room','A route with no grand name',
   'Fenna points to an unremarkable bend on the map. “This is where I stop when I do not want to arrive anywhere yet. It has no ancient title. I checked.”',
@@ -92,7 +92,7 @@ def initialize(s):
             p.setdefault('identityHistory',[]).append({k:deepcopy(p.get(k)) for k in ('ancestryLabel','role','appearanceDescription','identityRevision')})
             p['identityRevision']=p.get('identityRevision',1)+1
         p['ancestryLabel']='Catfolk';p['role']='Catfolk bookbinder · '+str(p['adultAgeYears'])
-        p['appearanceDescription']='Adult catfolk woman; preserve Tamsin’s established face, hair, eyes, build and bookbinder clothing. Add expressive feline ears and one softly furred cat tail; humanlike face and smooth human skin. No extra human ears, muzzle or paws.'
+        p['appearanceDescription']='Adult catfolk woman; preserve Tamsin’s established face, auburn curls, green eyes, build and bookbinder clothing. Exactly two feline ears on top of her head and one softly furred cat tail; humanlike face and smooth human skin. Her short, tousled auburn curls cover the side-ear areas without increasing her hair volume. No human ears, ear lobes, muzzle or paws.'
 
 
 def record_shared_work(s,participants):
@@ -216,9 +216,9 @@ def resolve_review(s,summary):
     summary.append('Compared research notes with '+g.character_profile(s,who)['name']+'. Your previous assignments resume next phase; the follow-up conversation is now available.')
 
 # The resident's enhancement conversation is reached from their associated room.
-for _who,_room in {'brakka':'smithy','fenna':'common-room','kaede':'training-yard','tamsin':'kitchen','elowen':'infirmary','nyssara':'enchanting-room'}.items():
+for _who,_room in {'zahra':'smithy','fenna':'common-room','kaede':'training-yard','tamsin':'kitchen','elowen':'infirmary','nyssara':'enchanting-room'}.items():
     CHAINS[_who]['roomId']=_room
-for _who,_room in {'brakka':'smithy','fenna':'common-room','iona':'command-room','kaede':'training-yard','tamsin':'kitchen','elowen':'infirmary','nyssara':'enchanting-room','neris':'hot-spring','aurelia':'guard-barracks','sylva':'conservatory'}.items():
+for _who,_room in {'zahra':'smithy','fenna':'common-room','iona':'command-room','kaede':'training-yard','tamsin':'kitchen','elowen':'infirmary','nyssara':'enchanting-room','neris':'hot-spring','aurelia':'guard-barracks','sylva':'conservatory'}.items():
     ROUTINES.setdefault(_who,{'morning':['library'],'afternoon':['common-room'],'evening':['common-room','bedroom']})['morning']=[_room,'common-room']
 CHAINS['neris']=chain('hot-spring','Warmth in the right places',
  'Neris tests the water with a plain glass vessel. “A warm pool should have a cooler place to sit. Comfort is a choice, not a test of endurance.”',
@@ -240,14 +240,14 @@ CHAINS['sylva']=chain('conservatory','Room for the next leaf',
  {'question':('Write down the next question','“In pencil. Questions enjoy changing their minds.”'),'rest':('Let it grow without watching for a while','“You are learning the difficult part of gardening.”')})
 GREETINGS['sylva']='“I am letting the seedlings get on with it. Shall we try the same?”'
 
-CHAINS['brakka']['opening']='Brakka lays a measuring cord beside the forge’s cooling trough. “Two measurements disagree. I could choose the prettier one, but hot metal will decline to cooperate.” She offers you the end of the cord.'
+CHAINS['zahra']['opening']='Zahra lays a measuring cord beside the forge’s cooling trough. “Two measurements disagree. I could choose the prettier one, but hot metal will decline to cooperate.” She offers you the end of the cord.'
 CHAINS['fenna']['opening']='Fenna spreads a small map on a tavern table beside a half-finished game. “Travellers bring better stories when there is somewhere comfortable to sit. This bend has no grand name. Shall we keep it that way?”'
 CHAINS['kaede']['opening']='Kaede sets a glass cup beside the training rail. “Strong hands can break this without trying. The difficult part is holding it steadily after a drill. Restraint is irritatingly difficult to show off.”'
 CHAINS['tamsin']['opening']='Tamsin lays two repaired recipe books on the pantry counter. “This one is prettier. That one will survive being opened every day. I would rather hear what you think before I put either beside the flour.”'
 
 # Leisure preferences follow the current specialist roles. Assigned work still takes priority.
 ROUTINES.update({
- 'brakka':{'morning':['smithy','library'],'afternoon':['pool','common-room'],'evening':['sauna','common-room','bedroom']},
+ 'zahra':{'morning':['smithy','library'],'afternoon':['pool','common-room'],'evening':['sauna','common-room','bedroom']},
  'fenna':{'morning':['common-room','library'],'afternoon':['common-room','conservatory'],'evening':['common-room','pool','bedroom']},
  'kaede':{'morning':['training-yard','library'],'afternoon':['training-yard','common-room'],'evening':['sauna','common-room','bedroom']},
  'tamsin':{'morning':['kitchen','library'],'afternoon':['conservatory','common-room'],'evening':['common-room','chapel','bedroom']},

@@ -88,7 +88,7 @@ class SpecializationTests(unittest.TestCase):
             with sqlite3.connect(Path(directory)/'campaign.sqlite3') as db:
                 db.execute('CREATE TABLE campaign(id INTEGER PRIMARY KEY,state TEXT NOT NULL)');db.execute('INSERT INTO campaign VALUES(1,?)',(json.dumps(old),))
             store=GameStore(directory);state=store.read()
-            self.assertTrue((Path(directory)/'campaign-before-schema-18-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-18-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             self.assertEqual(state['characterDevelopment'],old['characterDevelopment'])
             payload={'requestId':uuid.uuid4().hex,'expectedRevision':state['revision'],'action':{'type':'save-preparation-set','characterId':'founder','name':'Unprepared'}}
             after=store.action(payload);self.assertEqual(after,store.action(payload));self.assertEqual(after,GameStore(directory).read())

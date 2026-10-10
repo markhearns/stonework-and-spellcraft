@@ -45,9 +45,9 @@ const context = vm.createContext({
  assert(!/[♜✧♧⌑⌂✎◇⌁≡▤⚙]/.test(source),'Decorative font symbols remain in templates');
  for(const id of vm.runInContext('Object.keys(state.recipeCatalog)',context))assert.match(vm.runInContext('paintedIcon('+JSON.stringify(id)+')',context),['weather-screen','cistern-filter'].includes(id)?/objects/:/workshop-atlas.webp/);
  for(const id of vm.runInContext('Object.keys(state.materialCatalog)',context))assert.match(vm.runInContext('paintedIcon('+JSON.stringify(id)+')',context),/materials-atlas.webp/);
- const words=vm.runInContext(`illustrateNames('<p>Fenna greets Fenna. Maren smiles at Fenna.</p><p>Fenna returns.</p><button>Fenna</button><textarea>Fenna</textarea>')`,context);
+ const words=vm.runInContext(`illustrateNames('<p>Fenna greets Fenna. Koharu smiles at Fenna.</p><p>Fenna returns.</p><button>Fenna</button><textarea>Fenna</textarea>')`,context);
  assert.equal((words.match(/data-person-portrait="fenna"/g)||[]).length,3,'One portrait per character per independent block');
- assert.equal((words.match(/data-person-portrait="maren"/g)||[]).length,1);
+ assert.equal((words.match(/data-person-portrait="koharu"/g)||[]).length,1);
  assert(words.includes('<textarea>Fenna</textarea>'));
  for(const file of ['workshop-atlas.webp','materials-atlas.webp','midnight-paper.webp','botanical-frame.webp','castle-emblem.webp']){
   const bytes=fs.readFileSync('static/assets/ui/'+file);assert.equal(bytes.subarray(8,12).toString(),'WEBP');

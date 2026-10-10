@@ -6,6 +6,9 @@ def resume_action(s,key):
     p=guidance.projects(s).get(key)
     if not p:return None
     who=p['personId']
+    if key=='resident-friendship':return {'type':'friendship-resume'}
+    if key=='foundation-task':return {'type':'foundation-resume'}
+    if key=='foundation-ritual':return {'type':'foundation-ritual-resume'}
     if key.startswith('equipment:'):return {'type':'gear-resume-job','workerId':who}
     if key=='commission':return {'type':'commission-resume'}
     if key.startswith('practical:'):return {'type':'practical-resume','characterId':who}

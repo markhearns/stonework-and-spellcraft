@@ -1,0 +1,303 @@
+{
+  "version": "0.116",
+  "scope": "All 28 Koharu, Fenna, Tamsin and Zahra portraits: three standard outfits, three overview outfits and one bathing cutout per character.",
+  "exportSettings": {
+    "format": "WebP",
+    "quality": 92,
+    "method": 6,
+    "lossless": false,
+    "alphaLossless": true
+  },
+  "count": 28,
+  "beforeBytes": 34404536,
+  "afterBytes": 9440316,
+  "savedBytes": 24964220,
+  "reductionPercent": 72.56,
+  "allDimensionsAndModesUnchanged": true,
+  "allFourAlphaChannelsByteIdentical": true,
+  "otherRuntimeImagesUnchanged": 372,
+  "originalsRetained": true,
+  "artworkRegenerated": false,
+  "assets": [
+    {
+      "path": "static/assets/portraits/bathing/fenna.webp",
+      "beforeBytes": 500244,
+      "afterBytes": 173370,
+      "originalSHA256": "486d99b026fab27042ccc35f9b97fee64e13fafa5286a271601631c48bcf98c7",
+      "optimizedSHA256": "de7176cdb101dac0fbbd84bce44ab95aeeeb3162909070568e50573fb93129b1",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": true
+    },
+    {
+      "path": "static/assets/portraits/bathing/koharu.webp",
+      "beforeBytes": 439662,
+      "afterBytes": 146516,
+      "originalSHA256": "1d0e8179736b60b68cb26611277df7d7b1373b1979b0e0e27d27971a9367a8fb",
+      "optimizedSHA256": "176e27b7467120681ea9a0990cdb1a16596c2d2f5ba2eeefb839a78ca09dc295",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": true
+    },
+    {
+      "path": "static/assets/portraits/bathing/tamsin.webp",
+      "beforeBytes": 423092,
+      "afterBytes": 163784,
+      "originalSHA256": "f290669dd38466951e44745c9b08ec852d17609ad3e258e2a31763aee08a1e6a",
+      "optimizedSHA256": "ce2e06c8e0f83aa4378b872f08855d7db0f11ef44aa5d37118cdf81c85cd1b85",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": true
+    },
+    {
+      "path": "static/assets/portraits/bathing/zahra.webp",
+      "beforeBytes": 469988,
+      "afterBytes": 152026,
+      "originalSHA256": "6277055b3659fc9394a479e299a359ad1bb6b8b078c04d286917ffed4aefda36",
+      "optimizedSHA256": "c414bf45570b26e9d9379fad1682269a19788ab4d7d703595d0da601dd1a1408",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": true
+    },
+    {
+      "path": "static/assets/portraits/fenna-outfit-2.webp",
+      "beforeBytes": 880178,
+      "afterBytes": 265218,
+      "originalSHA256": "c91a8c2a6eca2360345627fba16404c02172d192ce3fa09bf99fe4079fb94e51",
+      "optimizedSHA256": "b24353ced33db54123c19b4133a2d812cddfcbe6529a49b4854cd54ab5705041",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/fenna-outfit-3.webp",
+      "beforeBytes": 877264,
+      "afterBytes": 266116,
+      "originalSHA256": "b8ecbeb599eb39c5cac889878e5bfce7229cec48f0cbda61b1ed650a46cd3756",
+      "optimizedSHA256": "e9c746e5524dd29c3a18f88564d44d568bac7d0835fb4df903c0e979e4e66d4e",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/fenna.webp",
+      "beforeBytes": 862786,
+      "afterBytes": 270096,
+      "originalSHA256": "ca2c59fcadb6d5b1e0589611a0570c31e5b4bd9339da992e69034ba8ed83fe6f",
+      "optimizedSHA256": "0274201c93a65f000e969a9846cca756ac14282262cd339a3be76b6e457148e2",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/koharu-outfit-2.webp",
+      "beforeBytes": 808560,
+      "afterBytes": 221980,
+      "originalSHA256": "e157ce39ef87b404763d270cf6da22620983587a2e65c97d94fc2612190821b4",
+      "optimizedSHA256": "e4565748bdfa30b6b8a002d0e72ec86abacef1662afecbf4fbc8252390680145",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/koharu-outfit-3.webp",
+      "beforeBytes": 793574,
+      "afterBytes": 209716,
+      "originalSHA256": "a4ba4a2e671438ad069a189a1f53acbd79c025327e00351ebf1c4e0bea836a8a",
+      "optimizedSHA256": "141d45e63b02b7068b0caf6e2fcd83c42cb1ef355c272104266327990f5ba3ef",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/koharu.webp",
+      "beforeBytes": 773830,
+      "afterBytes": 198736,
+      "originalSHA256": "5abb832ec2f8d9048975756166a461b5faa644427a9defffc102d93f1f539145",
+      "optimizedSHA256": "26c7780da953db2adc0197183da243013661eb900bcb4d6e22e1f52990d7e844",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/fenna-outfit-2.webp",
+      "beforeBytes": 1803490,
+      "afterBytes": 455276,
+      "originalSHA256": "d2e11da8374153589412be8c69e9c9b57523ee302f1623d229d001dbe6bf03c1",
+      "optimizedSHA256": "499f5fd28b4bbe54af552126e8d372eeebe2ec976cb50cefbd530a24d468357c",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/fenna-outfit-3.webp",
+      "beforeBytes": 1820480,
+      "afterBytes": 468088,
+      "originalSHA256": "7c510eeb65791ae2109b54006df2b0cdf1d14c6c333ea517d76bb9a092c88b1a",
+      "optimizedSHA256": "947a04fb3e6b8782bf674cc091b54dee2d9cb406dd1dd2caf36a60a4e403b24f",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/fenna.webp",
+      "beforeBytes": 1795698,
+      "afterBytes": 480312,
+      "originalSHA256": "c668aadde3e0b1a358f3bf0ff3e6823ccadec492a1c21b165c8fc15a4320401d",
+      "optimizedSHA256": "b4754fb5b39aca411670f37168ecf2a9892a21c2d66e4cf6ffa02b1a982b3a0c",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/koharu-outfit-2.webp",
+      "beforeBytes": 1706536,
+      "afterBytes": 407640,
+      "originalSHA256": "eee5015fa0ac8b03800f73bfaa1b0c273a8e8c69a50f651ca03f79a1cc236163",
+      "optimizedSHA256": "12d6953ca1e4245c63fad2bae62423621180a3e3127b0dc8bb558e0fbe8ed3ae",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/koharu-outfit-3.webp",
+      "beforeBytes": 1682798,
+      "afterBytes": 390928,
+      "originalSHA256": "7634a8d6081919869529045f8a2ca26c0044b9e444bfd91e0ad9579b6e6571b9",
+      "optimizedSHA256": "b7f6057dd427edaafed69f84adba8f2c3bc3807040ced24813cf11d4a0f2daf8",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/koharu.webp",
+      "beforeBytes": 1593038,
+      "afterBytes": 349628,
+      "originalSHA256": "9e88bbbf43a5913fd03ada70853154f66f4714e5f7bcc2b719b5fbbf62331c94",
+      "optimizedSHA256": "06495a8182f11cf5fa3f8c705aeb8313cdbfa91a826d864f884a479afd9fb510",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/tamsin-outfit-2.webp",
+      "beforeBytes": 1733244,
+      "afterBytes": 428122,
+      "originalSHA256": "fecf2e1b6cdc22d004e495c874f957bd1ebeb3684b407033b0b253066d88a073",
+      "optimizedSHA256": "436e73fd81a415667d43ad01a617836b68d25ca315f85e4ec7ab2a07fc2d9cf5",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/tamsin-outfit-3.webp",
+      "beforeBytes": 1678186,
+      "afterBytes": 402854,
+      "originalSHA256": "c945f20879d10cffdd828c587f0125a45ccb21caa6a50238373aed63dd10cff6",
+      "optimizedSHA256": "daf8ebe5eb8813c0ed2841e19ac134ff82c0bdff79daa09021f319d9d8d4a646",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/tamsin.webp",
+      "beforeBytes": 1802800,
+      "afterBytes": 460070,
+      "originalSHA256": "480261740c51c5f846da10200775f3e76527830e723f73eb8d2f6335331704a3",
+      "optimizedSHA256": "42f4c36d8ae26283d11fd1e54dd166c3e739ee352b086ce710f1d08de5c288b9",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/zahra-outfit-2.webp",
+      "beforeBytes": 2292584,
+      "afterBytes": 687584,
+      "originalSHA256": "774c240c78e8c8a95a56708e0ff4b78be140dcb3a1d27bb2e167cb7786ff31b4",
+      "optimizedSHA256": "5e587fd02e7d4d922a91f2800aa0cb54906d6faf5102137176459bf922e91a2e",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/zahra-outfit-3.webp",
+      "beforeBytes": 1975378,
+      "afterBytes": 534226,
+      "originalSHA256": "8d4218c82bc760ffd03db6c6d87a35f94cf54157d97abc0b2ed3e43e324f14ff",
+      "optimizedSHA256": "d8066a9607224b84f00f056696127991c49c25f6f9346277166a8f879dfeb0ae",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/overview/zahra.webp",
+      "beforeBytes": 2151806,
+      "afterBytes": 606738,
+      "originalSHA256": "f3de2fa74136913640e8e9caf88b1cfa0a30e024aefe55baff643a23848866d3",
+      "optimizedSHA256": "7a0d9e45404d73bee4f22188ebbdd631ec81a848ea85d3796c1ce291a2c27b4c",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/tamsin-outfit-2.webp",
+      "beforeBytes": 842960,
+      "afterBytes": 251614,
+      "originalSHA256": "ff506e36cf9dc175500d5f8a09e98e9f76e4e68b501a1f5b02a96b7a6074bce0",
+      "optimizedSHA256": "b6034e35df9eaf08558e9582997f00a4ea907a38260b80782c6a9acdb002b912",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/tamsin-outfit-3.webp",
+      "beforeBytes": 820912,
+      "afterBytes": 240822,
+      "originalSHA256": "2ccad802b79e4462d892407056334a14735c123196a1567bd7f2d213994855e8",
+      "optimizedSHA256": "d2be150ca9b4e7759847c7d314c210eacc36930868087bf81ec3eecd2f7e62ad",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/tamsin.webp",
+      "beforeBytes": 866464,
+      "afterBytes": 260432,
+      "originalSHA256": "a7522b0a9736b412de3df7c188a7e7f8e5c8dd366dc83e31e1f32e5dd120f620",
+      "optimizedSHA256": "ce2f1b1b8d0c1e1268e09d477da35b3a6aaf62129ba8f9d426b300682d832b5f",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/zahra-outfit-2.webp",
+      "beforeBytes": 1061078,
+      "afterBytes": 339154,
+      "originalSHA256": "7e6b0f6cbff776ec5cc7cbb66a16d2249f8e0d354a67d237b8bf5ddb37656fb6",
+      "optimizedSHA256": "ec74ed557032dd58eb32cfd8863868fb93f5aac520470dd17def6b85208e966d",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/zahra-outfit-3.webp",
+      "beforeBytes": 948262,
+      "afterBytes": 293566,
+      "originalSHA256": "022873b73eeb299c78c853349bfa9334a3eae3f0fe3400a45809c2f7be8299b4",
+      "optimizedSHA256": "82b723f52c1771ab238b59edb36fa14fecb78115f641a0a50ceba256c7ecdc24",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    },
+    {
+      "path": "static/assets/portraits/zahra.webp",
+      "beforeBytes": 999644,
+      "afterBytes": 315704,
+      "originalSHA256": "1b63c30065b3489aa1099e33854f8c0f8f5ece3802d7f2791936116864bfbedf",
+      "optimizedSHA256": "275e7c4f454c114fad780b87400a8a83584581117f55f8a2197480cdfe759e55",
+      "dimensionsUnchanged": true,
+      "modeUnchanged": true,
+      "alphaUnchanged": null
+    }
+  ]
+}

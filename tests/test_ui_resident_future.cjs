@@ -33,25 +33,25 @@ const context = vm.createContext({
 
 (async()=>{try {
  // One established resident is fixture data; all actions below go through GameStore.
- execFileSync(process.env.PYTHON||'python',['-c',"import sys,json,sqlite3\nfrom server import GameStore\nimport game as g,local_encounters as l,summoning\nst=GameStore(sys.argv[1],start_type='fresh');s=st.read()\ns['localEncounterCandidates']['maren']=l.definition(s,'maren');summoning.initialize_person(s,'maren',summoned=False)\ns['additionalResidents']['maren']['status']='resident';s['residency']['maren']['residencyStatus']='resident';s['bedroomAssignments']['maren']='garden-chamber';s['housingRooms']['garden-chamber']['status']='complete'\ns['headquarters']['rooms']['workshop']='complete';s['sharedFunds']=100\nwith sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(s),))",directory]);
+ execFileSync(process.env.PYTHON||'python',['-c',"import sys,json,sqlite3\nfrom server import GameStore\nimport game as g,local_encounters as l,summoning\nst=GameStore(sys.argv[1],start_type='fresh');s=st.read()\ns['localEncounterCandidates']['koharu']=l.definition(s,'koharu');summoning.initialize_person(s,'koharu',summoned=False)\ns['additionalResidents']['koharu']['status']='resident';s['residency']['koharu']['residencyStatus']='resident';s['bedroomAssignments']['koharu']='garden-chamber';s['housingRooms']['garden-chamber']['status']='complete'\ns['headquarters']['rooms']['workshop']='complete';s['sharedFunds']=100\nwith sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(s),))",directory]);
  vm.runInContext(fs.readFileSync('static/app.js','utf8'),context);await new Promise(resolve=>setImmediate(resolve));
  const click=dataset=>events.click({preventDefault(){},target:{closest(){return {dataset,disabled:false};}}});
  const value=expr=>vm.runInContext(expr,context);
  const act=async action=>{await value('commit('+JSON.stringify(action)+')');};
  await click({view:'specialists'});assert.match(element('#app').innerHTML,/Resident room improvements/);assert.match(element('#app').innerHTML,/Elowen/);assert.match(element('#app').innerHTML,/Nyssara/);assert.match(element('#app').innerHTML,/Sylva/);assert.match(element('#app').innerHTML,/Aurelia/);assert.match(element('#app').innerHTML,/Neris/);assert.doesNotMatch(element('#app').innerHTML,/>Veyra</);assert.match(element('#app').innerHTML,/Catfolk bookbinder/);assert.doesNotMatch(element('#app').innerHTML,/undefined/);
  await click({view:'livingStories'});assert.match(element('#app').innerHTML,/The repair worth keeping/);
- await click({livingScene:'maren:0',livingChoice:'quiet'});assert.match(element('#app').innerHTML,/Remembered on day/);assert.equal(value('state.livingStories.memories["maren:0"].choice'),'quiet');
- await click({view:'specialists'});await click({hqAction:'hq-job',jobId:'specialty-maren'});assert.equal(value('state.sharedFunds'),76);
+ await click({livingScene:'koharu:0',livingChoice:'quiet'});assert.match(element('#app').innerHTML,/Remembered on day/);assert.equal(value('state.livingStories.memories["koharu:0"].choice'),'quiet');
+ await click({view:'specialists'});await click({hqAction:'hq-job',jobId:'specialty-koharu'});assert.equal(value('state.sharedFunds'),76);
  await act({type:'advance'});
- const setMarenStatus=status=>execFileSync(process.env.PYTHON||'python',['-c',"import sys,json,sqlite3\nfrom server import GameStore\nst=GameStore(sys.argv[1]);s=st.read();s['residency']['maren']['residencyStatus']=sys.argv[2];s['additionalResidents']['maren']['status']=sys.argv[2]\nwith sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(s),))",directory,status]);
- setMarenStatus('away');await value('readState().then(s=>{state=s;render();})');
+ const setKoharuStatus=status=>execFileSync(process.env.PYTHON||'python',['-c',"import sys,json,sqlite3\nfrom server import GameStore\nst=GameStore(sys.argv[1]);s=st.read();s['residency']['koharu']['residencyStatus']=sys.argv[2];s['additionalResidents']['koharu']['status']=sys.argv[2]\nwith sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(s),))",directory,status]);
+ setKoharuStatus('away');await value('readState().then(s=>{state=s;render();})');
  const cancelButton=element('#app').innerHTML.match(/<button[^>]*data-hq-action="hq-cancel"[^>]*>/)[0];assert.doesNotMatch(cancelButton,/disabled/);
  assert.match(element('#app').innerHTML,/specialist must be a resident and at home/);
  await click({hqAction:'hq-cancel'});assert.equal(value('state.sharedFunds'),100);
- setMarenStatus('resident');await value('readState().then(s=>{state=s;render();})');
- await click({hqAction:'hq-job',jobId:'specialty-maren'});
+ setKoharuStatus('resident');await value('readState().then(s=>{state=s;render();})');
+ await click({hqAction:'hq-job',jobId:'specialty-koharu'});
  for(let i=0;i<3;i++)await act({type:'advance'});
- assert.equal(value('state.headquarters.stock["specialty:maren"]'),1);assert.match(element('#app').innerHTML,/Completed · permanent facility/);
+ assert.equal(value('state.headquarters.stock["specialty:koharu"]'),1);assert.match(element('#app').innerHTML,/Completed · permanent facility/);
  await act({type:'start-research'});await act({type:'advance'});await act({type:'assign-founder',assignment:'rest'});
  await click({view:'progression'});assert.match(element('#app').innerHTML,/Resume this project/);const funds=value('state.sharedFunds');await click({resumeProject:'hearth'});assert.equal(value('state.sharedFunds'),funds);assert.equal(value('state.founderAssignment'),'research');
  for(let i=0;i<2;i++)await act({type:'advance'});

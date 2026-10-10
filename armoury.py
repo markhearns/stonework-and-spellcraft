@@ -10,8 +10,8 @@ DATA=json.loads(Path(__file__).with_name('equipment_catalogue.json').read_text()
 SLOTS=DATA['slots']; MODES=('household','expedition','social')
 CATALOG={d['id']:d for d in DATA['items']}
 ENCHANTS={d['id']:d for d in DATA['newEnchantments']}
-FOCUS_MAP={'founder':'field-staff','mira':'focus-clasp','tamsin':'engraving-tool','iona':'plain-pendant','aurelia':'plain-pendant','neris':'plain-pendant','sabine':'ward-key','maren':'repair-hammer','brakka':'repair-hammer','fenna':'plain-pendant','kaede':'plain-pendant','elowen':'plain-pendant','nyssara':'engraving-tool','sylva':'plain-pendant'}
-STARTERS={'velis':'field-staff','kaede':'steel-kanabo','aurelia':'steel-spear','brakka':'working-axe','maren':'repair-hammer','sabine':'ward-key','nyssara':'engraving-tool','sylva':'steel-knife','mira':'field-staff','tamsin':'steel-knife','neris':'steel-spear','elowen':'field-staff'}
+FOCUS_MAP={'founder':'field-staff','mira':'focus-clasp','tamsin':'engraving-tool','iona':'plain-pendant','aurelia':'plain-pendant','neris':'plain-pendant','sabine':'ward-key','koharu':'repair-hammer','zahra':'engraving-tool','fenna':'plain-pendant','kaede':'plain-pendant','elowen':'plain-pendant','nyssara':'engraving-tool','sylva':'plain-pendant'}
+STARTERS={'velis':'field-staff','kaede':'steel-kanabo','aurelia':'steel-spear','zahra':'repair-hammer','koharu':'repair-hammer','sabine':'ward-key','nyssara':'engraving-tool','sylva':'steel-knife','mira':'field-staff','tamsin':'steel-knife','neris':'steel-spear','elowen':'field-staff'}
 LEGACY_STOCK={'blade':'steel-sword','armour':'leather-coat','warded-armour':'leather-coat'}
 
 def state(s):return s['armoury']
@@ -241,10 +241,10 @@ def owned(s,key,who=None):
     if who is not None:g.require(it['ownerId']==who,'Choose this person’s own item.')
     return it
 
-def review_starters(s):
+def review_starters(s,people=None):
     import game as g
     r=state(s)
-    for who in g.household_members(s):
+    for who in (g.household_members(s) if people is None else people):
         if who in r['starterGrants'] or not g.character_at_castle(s,who):continue
         ensure_person(s,who);existing=[i for i in r['items'].values() if i['ownerId']==who]
         categories=[(STARTERS.get(who,'steel-sword'),lambda i:bool(set(CATALOG[i['definitionId']]['tags'])&{'weapon','tool'})),('work-shirt',lambda i:'shirt' in slots_for(i)),('work-trousers',lambda i:'pants' in slots_for(i))]
@@ -281,7 +281,7 @@ def recipe(s,a):
         d=CATALOG.get(a.get('definitionId'));g.require(d is not None,'Choose a catalogue object.')
         cost=d['baseCostCrowns'] or 0;phases=d['workPhases'];room=d['room'];name='Make '+d['name'];extra['definitionId']=d['id']
         import resident_specialties as specialties
-        if room=='smithy' and specialties.active(s,'brakka'):phases=max(1,phases-1)
+        if room=='smithy' and specialties.active(s,'zahra'):phases=max(1,phases-1)
         if d['baseCostCrowns'] is None:
             properties=['vessel','binding'];extra['legacyTool']=True
             principle='reference-binding' if d['id']=='scholars-folio' else 'clear-instruction'
@@ -328,13 +328,19 @@ def recipe(s,a):
         if kind not in ('refit',) and 'field-calibration' not in g.character_principles(s,who):reasons.append('The worker must have learned Field calibration.')
     if not h.ready(s,room):reasons.append('Restore '+h.ROOMS[room]['name']+' first.')
     materials=a.get('materials')
+    import rare_accessories
+    fixed=None
+    if kind=='craft' and extra.get('definitionId') in rare_accessories.RECIPES:
+        fixed,rare_blockers=rare_accessories.quote(s,extra['definitionId'],who);reasons+=rare_blockers
+        if materials is not None and materials!=fixed:reasons.append('This rare accessory needs its exact listed creature samples and binding components.')
+        materials=fixed[:]
     if materials is None:
         available={k:max(0,n-s['materialReserveTargets'].get(k,0)) for k,n in s['materialInventory'].items()};materials=[]
         for prop in properties:
             choices=sorted((k for k,n in available.items() if n and prop in g.MATERIALS[k]['properties']),key=lambda k:(g.MATERIALS[k]['price'],k))
             chosen=choices[0] if choices else min((k for k,d in g.MATERIALS.items() if prop in d['properties']),key=lambda k:(g.MATERIALS[k]['price'],k))
             materials.append(chosen);available[chosen]-=1
-    if not isinstance(materials,list) or len(materials)!=len(properties) or any(not isinstance(k,str) or k not in g.MATERIALS or prop not in g.MATERIALS[k]['properties'] for k,prop in zip(materials,properties)):
+    if fixed is None and (not isinstance(materials,list) or len(materials)!=len(properties) or any(not isinstance(k,str) or k not in g.MATERIALS or prop not in g.MATERIALS[k]['properties'] for k,prop in zip(materials,properties))):
         reasons.append('Choose exactly the listed compatible components.');materials=[]
     shortfalls={m:max(0,materials.count(m)+s['materialReserveTargets'].get(m,0)-s['materialInventory'][m]) for m in set(materials)}
     shortfalls={m:n for m,n in shortfalls.items() if n}
@@ -631,3 +637,6 @@ def prepare_host(s,action):
     if it['ownerId']!='household':home(s,it['ownerId'])
     g.require(not busy(s,it['id']),'Finish reserved work or retrieve this piece first.')
     remove_from_loadouts(s,it['id'])
+
+import rare_accessories
+rare_accessories.install()

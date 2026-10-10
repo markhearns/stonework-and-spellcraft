@@ -6,10 +6,10 @@ PROJECTS = {
         inputs={'binding-thread': 1}, phases=3,
         opening='Iona spreads her finished atlas across the map table. “The main road is obvious. I want to mark the tracks a laden cart can actually use. Give me three work phases and I can add reliable detours.”',
         effect='On an objective patrol with Iona, bypass one enemy after clearing the site obstacle. Earn the objective payment on completion; the bypass grants no enemy loot or enemy-type advancement.'),
-    'brakka': dict(name='Make Brakka’s field-fitting gauges', room='smithy', cost=10,
+    'zahra': dict(name='Make Zahra’s field-fitting gauges', room='smithy', cost=10,
         inputs={'binding-thread': 1, 'porous-clay': 1}, phases=3,
-        opening='Brakka lays a twisted strap on her bench. “It held, but it pulled the coat sideways. I can make gauges that let me fit everyone’s straps before we leave. Three work phases.”',
-        effect='When Brakka joins a field patrol, every conscious party member gains 1 personal cover against the first enemy attack in each encounter.'),
+        opening='Zahra lays a twisted strap on her bench. “It held, but it pulled the coat sideways. I can make gauges that let me fit everyone’s straps before we leave. Three work phases.”',
+        effect='When Zahra joins a field patrol, every conscious party member gains 1 personal cover against the first enemy attack in each encounter.'),
     'sylva': dict(name='Plant Sylva’s field-specimen beds', room='conservatory', cost=10,
         inputs={'silver-ivy': 1, 'porous-clay': 1}, phases=3,
         opening='Sylva sets three cuttings in separate clay pots. “These roots need different soil. Build me a divided bed and I can grow useful ivy from the specimens we bring home.”',
@@ -33,8 +33,8 @@ def blockers(s, who):
     elif not all(g.character_at_castle(s,w) for w in ('founder',who)): b.append('Return home together to discuss the project.')
     if not h.ready(s,d['room']): b.append('Restore the '+(h.ROOMS.get(d['room']) or g.ROOMS[d['room']])['name']+'.')
     if who == 'iona' and s.get('additionalResidents',{}).get('iona',{}).get('personalProject',{}).get('status') != 'complete': b.append('Complete Iona’s crossing atlas first.')
-    if who == 'brakka' and not ('journey:field-patrol:brakka:complete' in s.get('companionParticipation',{}).get('events',{}) or any('brakka' in r['party'] and r['complete'] for r in s.get('fieldPatrols',{}).get('reports',[]))):
-        b.append('Return from a completed field patrol with Brakka before discussing the fitting problem.')
+    if who == 'zahra' and not ('journey:field-patrol:zahra:complete' in s.get('companionParticipation',{}).get('events',{}) or any('zahra' in r['party'] and r['complete'] for r in s.get('fieldPatrols',{}).get('reports',[]))):
+        b.append('Return from a completed field patrol with Zahra before discussing the fitting problem.')
     if who == 'sylva' and not (g.discoveries_for(s,'fern-nursery') or s.get('fieldObjectiveHistory',{}).get('observe')):
         b.append('Bring home a fern-nursery discovery or complete a creature-observation patrol.')
     if who in saved(s): b.append('This project is already funded or complete.')

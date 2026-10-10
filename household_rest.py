@@ -15,6 +15,8 @@ def apply(s,a):
  g.require(not reasons,' '.join(reasons))
  day=str(s['dayNumber']);r=s['eveningRest'];g.require(day not in r['choices'],'Tonight’s wind-down is already remembered. Choose Rest in assignments if you changed plans.')
  for who in participants:g.set_character_assignment(s,who,'rest')
+ import resident_bonds
+ resident_bonds.award(s,participants,'wind-down:'+day,OPTIONS[key][0]+' together',2)
  r['choices'][day]=key;title,text=OPTIONS[key];r['memories'].append({'day':s['dayNumber'],'title':title,'text':text});r['memories']=r['memories'][-30:];g.set_character_assignment(s,'founder','rest');g.add_journal(s,title+': '+text+' Resting tonight: '+', '.join(g.character_profile(s,w)['name'] for w in participants)+'. Advance ends the evening and includes the night’s sleep.');return True
 def resolve(s,summary,assignments,phase):
  if phase!='evening':return

@@ -1,0 +1,70 @@
+{
+  "version": "0.119",
+  "schemaVersion": 76,
+  "verifiedAt": "2026-10-10T02:12:29.106720+00:00",
+  "result": "passed",
+  "content": {
+    "namedCompanions": 16,
+    "workStages": 65,
+    "stageResponses": 130,
+    "endingResponses": 32,
+    "postCompletionQuestions": 32,
+    "fullGoalRoutesExercised": 32
+  },
+  "python": {
+    "distinctTestsPassed": 157,
+    "newGoalTests": 13,
+    "regressionTests": 144,
+    "additionalTargetedRerun": 3,
+    "modules": [
+      "test_companion_goals",
+      "test_character_quests",
+      "test_household_chapters",
+      "test_companion_almanac",
+      "test_merrin_integration",
+      "test_provisions",
+      "test_combat_magic_v117",
+      "test_content_v117",
+      "test_release_v118",
+      "test_cheat_tools",
+      "test_outfits",
+      "test_dialogue"
+    ],
+    "command": "PYTHONPATH=tests python -m unittest <module names above> -q"
+  },
+  "connectedUI": {
+    "suitesPassed": 6,
+    "files": [
+      "tests/test_ui_companion_goals.cjs",
+      "tests/test_ui_character_quests.cjs",
+      "tests/test_ui_provisions.cjs",
+      "tests/test_ui_almanac.cjs",
+      "tests/test_ui_companion_threads.cjs",
+      "tests/test_ui_release_v118.cjs"
+    ],
+    "command": "node <test file>",
+    "notes": "Real GameStore bridge with rendered HTML templates and actual controllers; no browser raster rendering. Companion threads include all 50 conversations and 125 saved exchanges."
+  },
+  "checks": [
+    "Every companion and both stage response paths finish using actual Advance actions.",
+    "Stage crowns and components paid once; reserves and room requirements enforced atomically.",
+    "Pausing, JSON reload and schema migration preserve progress.",
+    "Owned equipment, repeat-proof rewards and completed profile projections verified.",
+    "Actual field-kit preview equals resolved exchange; unused pending kit refunds exactly once on retreat.",
+    "Actual morning deliveries and cookbook menu verified.",
+    "Legacy overlapping quests credit completed work and cannot be offered twice.",
+    "Merrin completed scenes and spirit interaction context verified.",
+    "Existing recruitment, wardrobe, almanac, optional provider adapters and combat regression suites pass."
+  ],
+  "scopeLimits": [
+    "No rendered desktop/mobile layout QA.",
+    "No extended economy/balance campaign.",
+    "No live paid text or image provider calls.",
+    "Route surveys and tournament bouts resolve through the existing authored quest-work engine, not a new expedition or live-combat minigame."
+  ],
+  "artwork": {
+    "newImages": 0,
+    "runtimeImageCount": 490,
+    "sourceArchive": "Existing v0.118 source archive remains applicable."
+  }
+}

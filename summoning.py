@@ -52,6 +52,9 @@ def initialize_person(state, who='iona', summoned=True):
     if who in state['people']:return
     state['people'][who] = deepcopy(profile)
     g.initialize_character_records(state, who, candidate['principles'], candidate['focusName'])
+    if who=='zahra':
+        import zahra_identity
+        zahra_identity.start_magic(state)
     if who=='iona':
         import resident_projects
         resident_projects.initialize(state)
@@ -73,7 +76,7 @@ def preparation_blockers(state, conductor, candidate="iona"):
     blockers=[]
     if not isinstance(candidate,str) or candidate not in candidate_catalogue(state):return ['Choose an authored exotic contact.']
     from character_pool import arrival_method
-    if arrival_method(candidate_catalogue(state)[candidate]['profile']['ancestryLabel'])!='summoning':return ['Use ordinary correspondence or the golem workbench for this ancestry.']
+    if candidate_catalogue(state)[candidate]['profile'].get('arrivalMethod',arrival_method(candidate_catalogue(state)[candidate]['profile']['ancestryLabel']))!='summoning':return ['Use ordinary correspondence or the golem workbench for this ancestry.']
     try:validate_npc_profile(candidate_catalogue(state)[candidate]['profile'], summoned=True)
     except ValueError as error:blockers.append(str(error))
     if conductor not in g.household_members(state):return ['Choose a household member as conductor.']
@@ -282,7 +285,7 @@ def resolve_visits(state):
         state['lastPhaseSummary'].append(text);g.add_journal(state,text)
 
 
-EXOTIC_ANCESTRIES = frozenset({'demon','seraph','elemental','vampire','fae','djinn','dragonkin','spirit','dryad','nymph','kitsune','oni'})
+EXOTIC_ANCESTRIES = frozenset({'demon','seraph','elemental','vampire','fae','djinn','dragonkin','spirit','dryad','nymph','kitsune'})
 
 def validate_npc_profile(profile, summoned=False):
     """Authored identity gate; the player character is outside this NPC policy."""

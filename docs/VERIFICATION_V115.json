@@ -1,0 +1,209 @@
+{
+  "version": "0.115",
+  "schema": 72,
+  "python": {
+    "tests": 43,
+    "result": "passed",
+    "suites": [
+      "test_art_release",
+      "test_bathing_outfits",
+      "test_outfits",
+      "test_magic_reference_v108",
+      "test_candidate_http",
+      "test_cheat_tools"
+    ]
+  },
+  "connectedUISuites": {
+    "passed": [
+      "test_ui_visuals.cjs",
+      "test_ui_build_workspace.cjs",
+      "test_ui_outfits.cjs",
+      "test_ui_magic_reference_v108.cjs",
+      "test_ui_castle_map_v115.cjs",
+      "test_ui_solo.cjs"
+    ],
+    "method": "Node VM executing the shipped UI against real Python GameStore fixtures; no browser renderer"
+  },
+  "cardAndSceneAudit": {
+    "passed": true,
+    "hubCards": 88,
+    "groups": [
+      {
+        "startType": "fresh",
+        "group": "estateHub",
+        "cards": 8
+      },
+      {
+        "startType": "fresh",
+        "group": "studyHub",
+        "cards": 6
+      },
+      {
+        "startType": "fresh",
+        "group": "peopleHub",
+        "cards": 18
+      },
+      {
+        "startType": "fresh",
+        "group": "worldHub",
+        "cards": 7
+      },
+      {
+        "startType": "fresh",
+        "group": "magicHub",
+        "cards": 5
+      },
+      {
+        "startType": "demo",
+        "group": "estateHub",
+        "cards": 8
+      },
+      {
+        "startType": "demo",
+        "group": "studyHub",
+        "cards": 6
+      },
+      {
+        "startType": "demo",
+        "group": "peopleHub",
+        "cards": 18
+      },
+      {
+        "startType": "demo",
+        "group": "worldHub",
+        "cards": 7
+      },
+      {
+        "startType": "demo",
+        "group": "magicHub",
+        "cards": 5
+      }
+    ],
+    "roomCardsChecked": 6,
+    "ritualIconAndDestination": true,
+    "preparedMagicClass": true,
+    "sceneCheck": "PASS: 3 room/conversation layouts keep full portrait art outside room scenes.",
+    "guideTargets": [
+      {
+        "task": "research",
+        "view": "research"
+      },
+      {
+        "task": "crafting",
+        "view": "workshop"
+      },
+      {
+        "task": "training",
+        "view": "characterProfile"
+      },
+      {
+        "task": "spellwork",
+        "view": "spells"
+      },
+      {
+        "task": "inscribing",
+        "view": "focus"
+      },
+      {
+        "task": "ritual",
+        "view": "rituals"
+      },
+      {
+        "task": "restoration",
+        "view": "restoration"
+      },
+      {
+        "task": "garden",
+        "view": "restoration"
+      },
+      {
+        "task": "housing",
+        "view": "housing"
+      },
+      {
+        "task": "facilities",
+        "view": "ledger"
+      },
+      {
+        "task": "estate",
+        "view": "housing"
+      },
+      {
+        "task": "containment",
+        "view": "containment"
+      },
+      {
+        "task": "mystery",
+        "view": "mystery"
+      },
+      {
+        "task": "archive-project",
+        "view": "characterProfile"
+      }
+    ],
+    "browserLayoutVerified": false
+  },
+  "artwork": {
+    "unchanged": 394,
+    "changed": [
+      "static/assets/portraits/zahra-outfit-3.webp",
+      "static/assets/portraits/bathing/zahra.webp",
+      "static/assets/portraits/bathing/iona.webp",
+      "static/assets/portraits/overview/zahra-outfit-3.webp"
+    ],
+    "added": [
+      "static/assets/spells/foundation-intimacy.webp",
+      "static/assets/ui/room-rubble-v115.webp"
+    ],
+    "removed": [],
+    "totalRuntimeImages": 400
+  },
+  "styleReview": {
+    "roomCards": "Shared 3:2 image frame, full width, no flex shrinking, top-aligned content; removed conflicting legacy image height rules",
+    "systemAndHeadquartersCards": "Existing consistent aspect ratios preserved; images cannot shrink and content aligns at the top",
+    "fieldPatrolCards": "Shared 3:2 chapter image frame within card grids",
+    "preparedMagic": "Same scoped background treatment as equipment, with its own spellbook artwork",
+    "portraitScenes": "Full portraits are siblings of room scenes, with single-column layout at narrow widths"
+  },
+  "browserLayoutVerified": false,
+  "deployed": false,
+  "map": {
+    "locations": 61,
+    "views": [
+      "Ground floor",
+      "Upper floor",
+      "Lower level",
+      "Grounds & watch",
+      "Annex"
+    ],
+    "levelButtons": "Stairs and passages; browsing changes no campaign time or state",
+    "roomStates": [
+      "Unrestored rubble",
+      "Working/paused repair progress",
+      "Ready interiors",
+      "Undiscovered ??? without name or art"
+    ],
+    "checked": [
+      "All catalogue, bedroom and containment locations plus survey rooms",
+      "Unique room IDs; every view has working stairs/passages",
+      "Construction, pause, cheat completion and reload",
+      "Foundation reveal follows the maintenance-ledger discovery",
+      "Headquarters, bedroom, containment and investigation destinations"
+    ]
+  },
+  "helpAndCheats": {
+    "help": [
+      "Map levels, repair states and unknown-room discovery",
+      "Specific assignment setup links",
+      "Foundation investigation, exact blessing, eligibility and expiry",
+      "Resident bonding, milestones and Zahra\u2019s identity",
+      "Cheat scope, backups, limitations and required follow-up actions"
+    ],
+    "cheats": [
+      "Foundation restoration updates the investigation and room together, preserves paid costs, does not grant circuit tests or blessing",
+      "Containment chamber fittings resolve their construction without completing care or recruitment",
+      "Ordinary resident generation accepts up to 51 household members and atomically rejects a 52nd",
+      "Updated equipment navigation labels"
+    ]
+  }
+}

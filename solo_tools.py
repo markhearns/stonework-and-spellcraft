@@ -80,7 +80,7 @@ def apply(s, a):
         import character_pool as pool
         import candidate_proposals as candidates
         import arrivals
-        g.require(len(g.household_members(s))<30,'The testing household limit is 30.')
+        g.require(len(g.household_members(s))<51,'The household limit is 51 people, including your character.')
         ancestry=a.get('ancestry')
         g.require(isinstance(ancestry,str) and ancestry in pool.ANCESTRIES,'Choose an available ancestry.')
         seed=f'cheat-{t["nextNumber"]}'

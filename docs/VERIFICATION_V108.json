@@ -1,0 +1,27 @@
+{
+  "version": "0.108",
+  "schemaVersion": 67,
+  "referenceEntries": 133,
+  "artExports": 82,
+  "pythonTests": {
+    "magic_reference": 3,
+    "asset_release": 4,
+    "bathing_outfits": 6,
+    "outfits": 10
+  },
+  "headlessUISuites": [
+    "magic_reference_v108",
+    "bestiary_v105",
+    "overview_portraits",
+    "builds",
+    "personal_paths",
+    "outfits"
+  ],
+  "httpSmoke": "passed",
+  "javascriptSyntax": "passed",
+  "imageDecoding": "82 of 82 passed",
+  "renderedBrowserQA": "unavailable; browser download failed",
+  "fullRegressionSuite": "not run",
+  "hostedDeployment": "not performed",
+  "historicalFailureFixed": "stale schema assertion in wardrobe test; same failure confirmed in untouched v0.107"
+}

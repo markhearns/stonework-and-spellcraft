@@ -10,6 +10,7 @@ from founder_setup import portrait_prompt, profile
 
 
 class PortraitSettings(ProviderSettings):
+    image_mode=True
     def __init__(self,directory):
         super().__init__(directory)
         self.path=Path(directory)/'portrait-provider-settings.json'
@@ -19,18 +20,29 @@ class PortraitSettings(ProviderSettings):
 
 
 def provider_image(settings,prompt):
-    body={'model':settings['model'],'prompt':prompt,'n':1,'output_format':'png','stream':False}
-    request=urllib.request.Request('https://openrouter.ai/api/v1/images',data=json.dumps(body).encode(),headers={
-        'Authorization':'Bearer '+settings['apiKey'],'Content-Type':'application/json'})
+    import provider_protocols as p
+    fmt=settings.get('format','openrouter-images')
+    if fmt=='gemini-images':body={'contents':[{'parts':[{'text':prompt}]}],'generationConfig':{'responseModalities':['TEXT','IMAGE']}}
+    elif fmt=='openrouter-images':body={'model':settings['model'],'messages':[{'role':'user','content':prompt}],'modalities':['image','text'],'stream':False}
+    else:body={'model':settings['model'],'prompt':prompt,'n':1,'output_format':'png'}
+    request=urllib.request.Request(p.request_url(settings),data=json.dumps(body).encode(),headers=p.headers(settings))
     try:
-        with urllib.request.urlopen(request,timeout=90) as response:raw=response.read(9_000_001)
+        with p.open_request(request,timeout=90) as response:raw=response.read(9_000_001)
         if len(raw)>9_000_000:raise RuleError('The image reply exceeded the supported size. Try a smaller image.')
-        result=json.loads(raw);item=result['data'][0]
-        mime=item.get('media_type','image/png')
-        if mime not in ('image/png','image/jpeg','image/webp') or not isinstance(item.get('b64_json'),str):raise ValueError()
-        return 'data:'+mime+';base64,'+item['b64_json']
+        result=json.loads(raw)
+        if fmt=='openrouter-images':
+            data=result['choices'][0]['message']['images'][0]['image_url']['url']
+            if not isinstance(data,str) or not data.startswith(('data:image/png;base64,','data:image/jpeg;base64,','data:image/webp;base64,')):raise ValueError()
+            return data
+        if fmt=='gemini-images':
+            item=next(x['inlineData'] for x in result['candidates'][0]['content']['parts'] if 'inlineData' in x)
+            mime=item['mimeType'];encoded=item['data']
+        else:
+            item=result['data'][0];mime=item.get('media_type','image/png');encoded=item.get('b64_json')
+        if mime not in ('image/png','image/jpeg','image/webp') or not isinstance(encoded,str):raise ValueError()
+        return 'data:'+mime+';base64,'+encoded
     except urllib.error.HTTPError as error:
-        raise RuleError({401:'The image provider rejected the key.',402:'The image account has insufficient credit.',429:'The image provider rate limit was reached.'}.get(error.code,'The image provider rejected the request. Check the image model and account.')) from None
+        raise RuleError({401:'The image provider rejected the key.',402:'The image account has insufficient credit.',429:'The image provider rate limit was reached.'}.get(error.code,'The image provider rejected the request. Check its API format, endpoint and model.')) from None
     except RuleError:raise
     except Exception:raise RuleError('No usable image was received. The request may have incurred usage. No portrait was accepted.') from None
 
@@ -72,7 +84,7 @@ class PortraitService:
             if type(payload.get('expectedRevision')) is not int or payload['expectedRevision']!=state['revision']:raise RuleError('The campaign changed. Review your character before requesting a portrait.')
             if not state.get('soloLife',{}).get('characterSetup',{}).get('profileSaved'):raise RuleError('Save your character details before requesting a portrait.')
             config=self.settings.read()
-            if not config['enabled'] or not config['apiKey'] or not config['model']:raise RuleError('Configure and enable an image model first, or import a portrait or keep the placeholder.')
+            if not __import__('provider_protocols').ready(config):raise RuleError('Configure and enable an image model first, or import a portrait or keep the placeholder.')
             if db.execute("SELECT COUNT(*) FROM portrait_drafts WHERE json_extract(result,'$.status')='processing'").fetchone()[0]:raise RuleError('A portrait request is already processing. Recover its result before starting another.')
             prompt=portrait_prompt(state)
             draft={'id':request_id,'status':'processing','baseRevision':state['revision'],'model':config['model'],'prompt':prompt,'profile':profile(state)}

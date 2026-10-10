@@ -20,6 +20,9 @@ class HouseholdChapterTests(unittest.TestCase):
     def activity(self,who,room='common-room',choice='quiet'):self.act('share-room-activity',characterId=who,sceneId=who+':'+room,choice=choice)
     def member(self,who):
         if who=='mira':return
+        if who=='merrin':
+            import chapel_spirit
+            self.s['localEncounterCandidates'][who]=chapel_spirit.definition(self.s)
         if who in ('sabine',):
             import containment
             self.s['reviewedCandidates'][who]=deepcopy(containment.CASES[who]['candidate'])
@@ -54,12 +57,12 @@ class HouseholdChapterTests(unittest.TestCase):
                 self.assertIsNone(outfits.current(self.s,who))
                 self.assertEqual(self.s['outfitProgression'][who]['invitations']['2']['choice'],'playful')
     def test_distinct_authored_content_and_valid_rooms(self):
-        self.assertEqual(len(content.PROFILES),15)
+        self.assertEqual(len(content.PROFILES),16)
         for field in ('relaxed','daring'):
-            self.assertEqual(len({p[field] for p in content.PROFILES.values()}),15)
+            self.assertEqual(len({p[field] for p in content.PROFILES.values()}),16)
         scenes=[b for p in content.PROFILES.values() for b in p['beats']]
-        self.assertEqual(len({b['opening'] for b in scenes}),60)
-        self.assertEqual(len({b['title'] for b in scenes}),60)
+        self.assertEqual(len({b['opening'] for b in scenes}),64)
+        self.assertEqual(len({b['title'] for b in scenes}),64)
         self.assertTrue(set(content.ACTIVITIES)<=set(h.ROOMS))
     def test_repeat_activity_preserves_first_choice_and_does_not_farm(self):
         self.activity('mira');first=deepcopy(self.s['householdChapters']['activities']['mira:common-room'])

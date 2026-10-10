@@ -111,7 +111,7 @@ class RecruitmentTests(unittest.TestCase):
             with sqlite3.connect(Path(directory)/'campaign.sqlite3') as db:
                 db.execute('CREATE TABLE campaign(id INTEGER PRIMARY KEY,state TEXT NOT NULL)');db.execute('INSERT INTO campaign VALUES(1,?)',(json.dumps(old),))
             store=GameStore(directory);state=store.read()
-            self.assertTrue((Path(directory)/'campaign-before-schema-11-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f'campaign-before-schema-11-to-{__import__("game").CURRENT_SCHEMA_VERSION}.sqlite3').exists())
             self.assertEqual(state['bedroomAssignments'],old['bedroomAssignments']);self.assertEqual(state['sharedFunds'],old['sharedFunds'])
             def call(kind,**fields):return store.action({'requestId':uuid.uuid4().hex,'expectedRevision':store.read()['revision'],'action':{'type':kind,**fields}})
             call('meet-candidate')

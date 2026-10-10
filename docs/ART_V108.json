@@ -1,0 +1,997 @@
+{
+  "version": "0.108",
+  "recoveredSourceImages": 77,
+  "newSourceImages": 1,
+  "assets": [
+    {
+      "path": "static/assets/spells/wisp-scout.webp",
+      "sha256": "e226d8c7483c67ca079f0a882e55f68c2e4e4218178f013dafbb8eeff099dd33",
+      "bytes": 39978,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Watchful Lantern Wisp Engraving.png",
+      "sourceLibraryFileId": "libfile_1bb79fa131d481919f426b5864c8b606"
+    },
+    {
+      "path": "static/assets/spells/wind-step.webp",
+      "sha256": "922fc3de5d37f44d556cafa1b412e3be783fd016193adf0737b3506db7286990",
+      "bytes": 42530,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Windborne Leather Boot.png",
+      "sourceLibraryFileId": "libfile_12e46a9230d8819186383d52e2f73f0b"
+    },
+    {
+      "path": "static/assets/spells/welcome-circle.webp",
+      "sha256": "8b1c4fd439bf7b0fb4bb043cc286794085a87d568c20bdcacee0c2d32ebc3d99",
+      "bytes": 55882,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Wreathed Lantern Door.png",
+      "sourceLibraryFileId": "libfile_e2e6c937fd4481919f8f673f1fe8b58e"
+    },
+    {
+      "path": "static/assets/spells/water-walk.webp",
+      "sha256": "461e96b2cc9e087d89e607aa8b3ed1b69ccc6062ebb27b1823d56402846ee8aa",
+      "bytes": 47610,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Engraved Foot Over Rippling Waters.png",
+      "sourceLibraryFileId": "libfile_2bd4a4dc2f0c819192576fbd6468923b"
+    },
+    {
+      "path": "static/assets/spells/water-jet.webp",
+      "sha256": "6b4ee87b39a54f5537dbebffd115ddf6ae4a3d25b0595b0118e8451f4e95af3b",
+      "bytes": 42360,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Antique Engraved Water Arc.png",
+      "sourceLibraryFileId": "libfile_130cedb4f73881919e3eda3b1a886390"
+    },
+    {
+      "path": "static/assets/spells/water-breath.webp",
+      "sha256": "70bc956b2c2c9627b047e2a2adf3214622d07d8dc5a03dcc89684f164713a0ba",
+      "bytes": 48830,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Antique engraved air bubble spell.png",
+      "sourceLibraryFileId": "libfile_a8b22a07d8208191a67058cb591cd851"
+    },
+    {
+      "path": "static/assets/spells/warm-twist.webp",
+      "sha256": "71098e68d711055d90a846c56469fdc6b7b7340a4941968845063d7dca546a4d",
+      "bytes": 59662,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Flax Cord and Amber Ember.png",
+      "sourceLibraryFileId": "libfile_8d2a54c81564819198add640ca45b511"
+    },
+    {
+      "path": "static/assets/spells/threshold-fold.webp",
+      "sha256": "639c59415aaa8ac59849b5aeb877dd6fab41f819e94f2c834c834224f799f580",
+      "bytes": 47154,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Twin Stone Doorways, Folded Space.png",
+      "sourceLibraryFileId": "libfile_85000ffb92488191a05f0fa174fc4b30"
+    },
+    {
+      "path": "static/assets/spells/silver-tongue.webp",
+      "sha256": "1099ba1b45d5031407cf4fa9f4b480f97eb462615fe37bc1fc1541d2b14ed748",
+      "bytes": 59324,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Silver-Bound Twin Silhouettes.png",
+      "sourceLibraryFileId": "libfile_aa6c9c12cd308191ac66d75dcd8124f6"
+    },
+    {
+      "path": "static/assets/spells/sanctuary-circle.webp",
+      "sha256": "61ae052121873aac7508619ab634c0f04fb3affe6bfc0eba918764acba93c8a9",
+      "bytes": 53972,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Sheltered Hearth with Healing Sprig.png",
+      "sourceLibraryFileId": "libfile_f2563a0f4c3481919f424a16b10b9f66"
+    },
+    {
+      "path": "static/assets/spells/root-song.webp",
+      "sha256": "77c210fe8be0b535062d78a4526cb649f61f5fc94bada42de4e265ad4a7894d2",
+      "bytes": 59902,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Coiled Root Seedling Emblem.png",
+      "sourceLibraryFileId": "libfile_ee77de8414c48191a030c4585f4bf6a3"
+    },
+    {
+      "path": "static/assets/spells/research-lens.webp",
+      "sha256": "fb26fdbfdbaa816676c0259afed60039ba9a8017436efcd04a6dce975c4584d7",
+      "bytes": 52560,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Grimoire Lens and Pressed Leaf.png",
+      "sourceLibraryFileId": "libfile_e34c1a5b8de88191bffd78c8ac8cf675"
+    },
+    {
+      "path": "static/assets/spells/mirror-decoy.webp",
+      "sha256": "1705fd46f689d3909d6ba96d0a7ab6ff5be46aa8767d86f96601e43333bcf333",
+      "bytes": 53526,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Hooded Wanderer in an Antique Mirror.png",
+      "sourceLibraryFileId": "libfile_8afdbccb34108191887601f1cc399d78"
+    },
+    {
+      "path": "static/assets/spells/mending-light.webp",
+      "sha256": "2c00c43df60f2e86a911eea3d5a80b28c0dca3bc841fe66a4abade30cb9d260d",
+      "bytes": 38074,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Engraved Bandaged Hand and Silver Leaves.png",
+      "sourceLibraryFileId": "libfile_2e04727794e0819180cabd7d5ff77105"
+    },
+    {
+      "path": "static/assets/spells/market-circle.webp",
+      "sha256": "3b314f907dc10c3cf8c0274738a102639bafc35b0f54b2f87956f9fb8f8153a0",
+      "bytes": 56284,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Engraved brass merchant scales.png",
+      "sourceLibraryFileId": "libfile_eaafacaa1ca48191b26867124e0d4626"
+    },
+    {
+      "path": "static/assets/spells/maker-circle.webp",
+      "sha256": "c9bcce082e2dc6aa1ad0f62c2d9af9faa09f67ebc449c06fc475be448cc0f890",
+      "bytes": 76424,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Hammer and Chisel in Wood Shavings.png",
+      "sourceLibraryFileId": "libfile_4be838bb50008191806cb309c607f75f"
+    },
+    {
+      "path": "static/assets/spells/luminous-copy.webp",
+      "sha256": "c70da021b385e3db2407a2956e4945fe9d3d7b768fcbe04662939b33e671c40f",
+      "bytes": 51152,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Copperplate quill over twin manuscript sheets.png",
+      "sourceLibraryFileId": "libfile_b1d6b943fed881918c93cfd159680966"
+    },
+    {
+      "path": "static/assets/spells/lucid-sight.webp",
+      "sha256": "70bf406443c30aa45d8902eb34edd97191c0cbdeca76feb27a389556f900559b",
+      "bytes": 44370,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Watchful Eye and Faceted Lens.png",
+      "sourceLibraryFileId": "libfile_c5bff07e2a248191b8c706864283acfa"
+    },
+    {
+      "path": "static/assets/spells/ice-bind.webp",
+      "sha256": "fd67cbce8fa2d82da7ebab8174a31c51966c2c55a6288f97ac0a35e3d5ad1376",
+      "bytes": 54708,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Icebound broken chain emblem.png",
+      "sourceLibraryFileId": "libfile_82d6d55161f08191bc63ee468327dcb9"
+    },
+    {
+      "path": "static/assets/spells/green-frame.webp",
+      "sha256": "6c52c95e2ca1d6d116b50cef810cbc2e909861d89a8e52b85e06c4f9943c4728",
+      "bytes": 59480,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Antique Leafy Branch Grimoire Emblem.png",
+      "sourceLibraryFileId": "libfile_56dee925f5c081919318a603b54d3209"
+    },
+    {
+      "path": "static/assets/spells/foundation-line.webp",
+      "sha256": "590590a371b7208dda407606ff969bfe7ea3fa935363393189937b133df7a47d",
+      "bytes": 45884,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Engraved Plumb Line and Stone Blocks.png",
+      "sourceLibraryFileId": "libfile_eb4cf2e9ee7081918a3a72b6c4e00757"
+    },
+    {
+      "path": "static/assets/spells/giant-grasp.webp",
+      "sha256": "9bda18cc13ce8c52b8c44a087844f5990267390c5d050c9c1a5d4143675cb7cf",
+      "bytes": 50446,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Engraved Fist Gripping Stone.png",
+      "sourceLibraryFileId": "libfile_85f5502aab748191a1f1a25637ec9ea1"
+    },
+    {
+      "path": "static/assets/spells/garden-circle.webp",
+      "sha256": "79d7577c0f127dd876da7282dceb6c0ac2c63f1698840bdc57ad5d3ead5b71bb",
+      "bytes": 77362,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Braided Vine Seedling Emblem.png",
+      "sourceLibraryFileId": "libfile_dbe83252967c81919cd6478984c02c63"
+    },
+    {
+      "path": "static/assets/spells/fire-lance.webp",
+      "sha256": "fdf1d63fa197e81d58fa7c6c8604bcf0b6e3ce8246defe2028b93ab219098dba",
+      "bytes": 37732,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Antique copperplate flame sigil.png",
+      "sourceLibraryFileId": "libfile_f612aceae2a4819181ed5b55143ae792"
+    },
+    {
+      "path": "static/assets/spells/foundation-circle.webp",
+      "sha256": "9eb901547912c50be98dcc0b4c3c72e2556e800dd6b2cacc6ab610de0d3d8034",
+      "bytes": 49242,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Three Stones, Plumb Circle Sigil.png",
+      "sourceLibraryFileId": "libfile_7f60b31baa4c81919752c340ef843717"
+    },
+    {
+      "path": "static/assets/spells/focus-guide.webp",
+      "sha256": "c2be868600964a1ca5e09ca4d9d17281929c851520c75e9e9b79603e85b2a397",
+      "bytes": 52044,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Copperplate Quill and Focus Circles.png",
+      "sourceLibraryFileId": "libfile_a443988c1f908191a372a508de6f65ee"
+    },
+    {
+      "path": "static/assets/spells/field-compass.webp",
+      "sha256": "d1c589acae7e3ef81b31889f72fbac3a092473043b6c76eff0132fa53be8d648",
+      "bytes": 55848,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Antique Compass and Rolled Map.png",
+      "sourceLibraryFileId": "libfile_14dc9041527481919918c1adfec45ea4"
+    },
+    {
+      "path": "static/assets/spells/craft-hand.webp",
+      "sha256": "ee435d10ed8af201191e0303158353b7c53f5950e671b5b3d93e0f1e485bbafe",
+      "bytes": 54864,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Carpenter's Chisel Spell.png",
+      "sourceLibraryFileId": "libfile_3d571649e8f0819183ecd928f605b268"
+    },
+    {
+      "path": "static/assets/spells/dawn-lance.webp",
+      "sha256": "2c440c37685f95df691a609d5595fb661123ea994a0c53a21571b4cb9ee3bc13",
+      "bytes": 50218,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Sunbeam Breaking the Skeletal Shield.png",
+      "sourceLibraryFileId": "libfile_0ef24cf1c868819189ae6d65ab359f13"
+    },
+    {
+      "path": "static/assets/spells/copy-lamp.webp",
+      "sha256": "042257a2d1f89f8023b4d71d1a7cc421a15b799d401c94f4409300d51a93c930",
+      "bytes": 47874,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Antique Lamp and Open Grimoire.png",
+      "sourceLibraryFileId": "libfile_b4dcc5125f14819183b69bc9e3159453"
+    },
+    {
+      "path": "static/assets/spells/clarify-glass.webp",
+      "sha256": "198a71468465ad0f69b70c96d9cd1899c99abecf8ee4e66c08636f04cd3d81e3",
+      "bytes": 41128,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Engraved Glass Sediment Vessel.png",
+      "sourceLibraryFileId": "libfile_2497323c3ea88191be6e72eae0f03c6c"
+    },
+    {
+      "path": "static/assets/spells/borrowed-hour.webp",
+      "sha256": "2b19f2c69408b613504e03513584070afd11b24a1dddb7044f10cb5bee6a4e33",
+      "bytes": 46918,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Engraved Spiral Sand Hourglass.png",
+      "sourceLibraryFileId": "libfile_1d3ae8fa2220819189ccda9c19c7e0b8"
+    },
+    {
+      "path": "static/assets/spells/calm-tide.webp",
+      "sha256": "ceb847814195cbd019c9320ae3d015a4fe4705d19f3d8c120502f947c3a8dad9",
+      "bytes": 52188,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Resting Hand Over Still Water.png",
+      "sourceLibraryFileId": "libfile_c9bd04ba1718819184154f80620818e4"
+    },
+    {
+      "path": "static/assets/spells/borne-flight.webp",
+      "sha256": "0e69c977b9c1492bb7809629bfdd6b6de90e8b1986a1b2c5cdf7de7e88138b8e",
+      "bytes": 51978,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Copperplate winged travel pack.png",
+      "sourceLibraryFileId": "libfile_a91808876624819193188cc17afa851d"
+    },
+    {
+      "path": "static/assets/spells/bedroom-ward.webp",
+      "sha256": "fbb4a9657d5a3a76da1ddae3657d6e6548673ecedd3cd551890e7335819eb456",
+      "bytes": 51226,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Copperplate Bed and Protective Arch.png",
+      "sourceLibraryFileId": "libfile_979fada15b6881918c958adb753455a5"
+    },
+    {
+      "path": "static/assets/spells/archive-circle.webp",
+      "sha256": "55651be87f4edf7efe85bf883ae324f17a877f9ccb054af8a2fd0f02774729c8",
+      "bytes": 56410,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Twin grimoire books, engraved circle.png",
+      "sourceLibraryFileId": "libfile_8284de0f28cc81919a1b267df044192a"
+    },
+    {
+      "path": "static/assets/spells/arc-bolt.webp",
+      "sha256": "8db0a9fd1cc1b30c152812614f03122b8f0db7b2a4a406141986066e5b4caa3c",
+      "bytes": 38310,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Etched Lightning Strikes an Iron Rod.png",
+      "sourceLibraryFileId": "libfile_d75945c5fbbc819186689c0897d2d3ed"
+    },
+    {
+      "path": "static/assets/spells/anchor-circle.webp",
+      "sha256": "937cc4dd842cad8f2d1af3d421462e484643718dd8abd4316fc9267ddb8aa5a0",
+      "bytes": 55534,
+      "dimensions": [
+        384,
+        384
+      ],
+      "category": "spell-or-ritual",
+      "sourceName": "Compass-Bound Stone Doorway.png",
+      "sourceLibraryFileId": "libfile_fe91a33626c08191b4bfc1124982eec5"
+    },
+    {
+      "path": "static/assets/equipment/equipment-steel-kanabo.webp",
+      "sha256": "5a29a9d75ea36357e6afab4d2aba2889247e7e5086835b9e7ca709dadb43ad49",
+      "bytes": 13070,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Engraved steel-and-leather war club.png",
+      "sourceLibraryFileId": "libfile_048685409cb48191a3725fb99c8ce619"
+    },
+    {
+      "path": "static/assets/equipment/equipment-field-shield.webp",
+      "sha256": "05d00b0f6a7f9cbe83a2db32f80cbb704f1fec1d94704fc594c0b8b2d02fd057",
+      "bytes": 24620,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique engraved wood-and-steel field shield.png",
+      "sourceLibraryFileId": "libfile_ab126073c6b08191858258630ca2ba14"
+    },
+    {
+      "path": "static/assets/equipment/equipment-field-staff.webp",
+      "sha256": "394b4ee0f5b9254b2334163472ceaafd49bbf2b3ecb50c468253ddce7555112c",
+      "bytes": 11528,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Engraved steel-shod field staff.png",
+      "sourceLibraryFileId": "libfile_08784200209881918376ac2df69065f6"
+    },
+    {
+      "path": "static/assets/equipment/equipment-steel-spear.webp",
+      "sha256": "94de9da1250bc95647918cb6652e9e881808e5a9efc525ba2c27f0b8a8292a7c",
+      "bytes": 10438,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique engraved steel-and-wood spear.png",
+      "sourceLibraryFileId": "libfile_23eecd8ed3fc8191982f0349f8bdcb3a"
+    },
+    {
+      "path": "static/assets/equipment/equipment-steel-knife.webp",
+      "sha256": "74495e5e169b480cfd5b4e32d51c9f615588e72d46e67832316d4ef85e9273bc",
+      "bytes": 12146,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique engraved steel-and-wood utility knife.png",
+      "sourceLibraryFileId": "libfile_0c3b33eda7e08191ba4fd8b399d9634c"
+    },
+    {
+      "path": "static/assets/equipment/equipment-steel-sword.webp",
+      "sha256": "969596066184ac85d6f03ffb5c90b03c2b8a2abf36a3bb93483254c0a0fbc5be",
+      "bytes": 5574,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique Engraved Field Sword.png",
+      "sourceLibraryFileId": "libfile_f0f2d6a1b0e881919c347d3061ea74bd"
+    },
+    {
+      "path": "static/assets/equipment/equipment-plain-pendant.webp",
+      "sha256": "429140556e0f2881d171aa21b16ea76d96fea0f56894524bcc40c8d301fbbf9c",
+      "bytes": 16782,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Engraved steel and glass focus pendant.png",
+      "sourceLibraryFileId": "libfile_eee2528c8ec481919a101813b908ebfb"
+    },
+    {
+      "path": "static/assets/equipment/equipment-armoured-boots.webp",
+      "sha256": "cb4b56ba2a336b62b19d815f11f4385233abc0f337f6aaa251fcae125bdf9a23",
+      "bytes": 26518,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique engraved steel-and-leather armored boots.png",
+      "sourceLibraryFileId": "libfile_30d7bb8b78448191b449215afcaee1f4"
+    },
+    {
+      "path": "static/assets/equipment/equipment-plain-ring.webp",
+      "sha256": "cd9e4122b2b18c535bf7a6e96471d5919630483624a4589017ad90f3d0240118",
+      "bytes": 20552,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique engraved steel ring.png",
+      "sourceLibraryFileId": "libfile_88866609a7808191a0114b55804d29c5"
+    },
+    {
+      "path": "static/assets/equipment/equipment-field-boots.webp",
+      "sha256": "f5a7b2dc7db0c966aff9597b50748d76ddc606ccdd14ba2d092d5979ab89d28a",
+      "bytes": 25936,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique engraved leather field boots.png",
+      "sourceLibraryFileId": "libfile_e4c9f7d8f598819187d0958a384d99bf"
+    },
+    {
+      "path": "static/assets/equipment/equipment-work-trousers.webp",
+      "sha256": "e74e5caac93d9f32310ce8ef64aa0fe05d9dfce5f2c58fbd67411e0d68a790f7",
+      "bytes": 23676,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique engraved cloth work trousers.png",
+      "sourceLibraryFileId": "libfile_039efde923348191a817ff088ea49ca2"
+    },
+    {
+      "path": "static/assets/equipment/equipment-work-dress.webp",
+      "sha256": "9c6ea4e9e1f9d78f7126df3d1c7470a3d48ead916d9cb012f239c42d9920ae9b",
+      "bytes": 23508,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique Engraved Cloth Dress.png",
+      "sourceLibraryFileId": "libfile_39ae816a39608191a98b3e046708523e"
+    },
+    {
+      "path": "static/assets/equipment/equipment-leg-armour.webp",
+      "sha256": "351dd4de6f2f8947a31bee1c3f698ad5b377d8dba4ce152497550cbadd9ae8f3",
+      "bytes": 19004,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique Engraved Steel Leg Armor.png",
+      "sourceLibraryFileId": "libfile_ed1f006ff5d8819197088d2ae1f0b0c8"
+    },
+    {
+      "path": "static/assets/equipment/equipment-work-skirt.webp",
+      "sha256": "7b29781620f5ba37bc8837a85c206fda2d9fbbe54cefe86b1329781d14a6f696",
+      "bytes": 24770,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique Engraved Cloth Skirt.png",
+      "sourceLibraryFileId": "libfile_1572285203508191906e6e0f749efce9"
+    },
+    {
+      "path": "static/assets/equipment/equipment-breastplate.webp",
+      "sha256": "0c0f5c66eb2c0fce7c009f827959adc1907f1241aa7456d9bc01041915d9be68",
+      "bytes": 26680,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique engraved steel breastplate.png",
+      "sourceLibraryFileId": "libfile_ed3f6d2f8d008191ad8973c64a2c9264"
+    },
+    {
+      "path": "static/assets/equipment/equipment-mail-shirt.webp",
+      "sha256": "46b1332101685b46ccac297de6d3c565623bdce255a0a3d84d3a4d89713c0a16",
+      "bytes": 30472,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique Engraved Steel Chainmail Shirt.png",
+      "sourceLibraryFileId": "libfile_a4e913f216fc81918cf5dfd7f2be110a"
+    },
+    {
+      "path": "static/assets/equipment/equipment-work-shirt.webp",
+      "sha256": "b7433143403f79917309d907469c5a1ce9160e86083be95c941a07ed012caee5",
+      "bytes": 28806,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique engraved cloth work shirt.png",
+      "sourceLibraryFileId": "libfile_4392976bed98819185bc342b2dee1af9"
+    },
+    {
+      "path": "static/assets/equipment/equipment-leather-coat.webp",
+      "sha256": "52d791108a663ce5f6f6af8e535e4c1455b6ccc8cd1efdfcbea95dd461b8d1f9",
+      "bytes": 32378,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique fitted leather armor.png",
+      "sourceLibraryFileId": "libfile_546d83e2638881918accbe1d4f2f7f77"
+    },
+    {
+      "path": "static/assets/equipment/equipment-focus-circlet.webp",
+      "sha256": "bc337572acca802f96c4209bcdd00d93ca02d5abc4eb77f20051ca5f2cacd939",
+      "bytes": 18168,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Engraved steel-and-cloth focus circlet.png",
+      "sourceLibraryFileId": "libfile_88c5a7c9df3881918a7acea419ce7965"
+    },
+    {
+      "path": "static/assets/equipment/equipment-steel-helmet.webp",
+      "sha256": "11d4821599988f9075202d2e9333a96088f9345c7a21431ca95bf3983e1d6bc6",
+      "bytes": 22196,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique engraved steel helmet.png",
+      "sourceLibraryFileId": "libfile_1cab25deff148191b5730d53501843d9"
+    },
+    {
+      "path": "static/assets/equipment/equipment-cloth-cap.webp",
+      "sha256": "5b7a4e98ff164c3eafb5a821f452f4c6a2ce5832e41a047e68a9bf298b438da1",
+      "bytes": 21898,
+      "dimensions": [
+        256,
+        256
+      ],
+      "category": "equipment",
+      "sourceName": "Antique Engraved Cloth Work Cap.png",
+      "sourceLibraryFileId": "libfile_1d6198f5f36c8191b52dbe12476694d5"
+    },
+    {
+      "path": "static/assets/portraits/bathing/iona.webp",
+      "sha256": "bb1965e9994a5c145d808b83d1f2edf17ad83bd6952d482b2cb965f306852ccd",
+      "bytes": 161142,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Horned demoness in wine-red swimwear.png",
+      "sourceLibraryFileId": "libfile_a805f1c112608191af1e080281aa7a67"
+    },
+    {
+      "path": "static/assets/portraits/bathing/sylva.webp",
+      "sha256": "bf021200c4236cc3226cd7cfef8577c10ff3fb29b0274729f885c8672d89ecba",
+      "bytes": 177618,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Antique engraved dryad character cutout.png",
+      "sourceLibraryFileId": "libfile_40ced6af27888191a7cfeed018af0037"
+    },
+    {
+      "path": "static/assets/portraits/bathing/tamsin.webp",
+      "sha256": "f876a1aa0ddcd8f7a98add9f0acb59de739b5d807ce62d0bc3d2135cf9ea2817",
+      "bytes": 140752,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Engraved Freckled Catfolk in Plum Swimwear.png",
+      "sourceLibraryFileId": "libfile_d420e9c411908191b3320ea00753b984"
+    },
+    {
+      "path": "static/assets/portraits/bathing/velis.webp",
+      "sha256": "a2078d38d448a5a271f203c51ea29a46874b4a7a849b84ee044208872b22df9e",
+      "bytes": 130388,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Freckled Copper-Brown Elf in Teal Swimwear.png",
+      "sourceLibraryFileId": "libfile_7737b7a4df408191bba9d8a412394047"
+    },
+    {
+      "path": "static/assets/portraits/bathing/sabine.webp",
+      "sha256": "6f716175a6f2327ed8291b1f9c20437ffbf475a18875c045e4f73815e9eed5c5",
+      "bytes": 127340,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Antique-engraved freckled vampire in swimwear.png",
+      "sourceLibraryFileId": "libfile_d2baee50692c819186931a1007b1b80c"
+    },
+    {
+      "path": "static/assets/portraits/bathing/rhess.webp",
+      "sha256": "01270f1e834388f89a04c864dce08080a16e12c86259e644bc4fd6dd0990ec43",
+      "bytes": 158682,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Copper dragonkin in moss-green swimwear.png",
+      "sourceLibraryFileId": "libfile_1b2c20c9365081919d3f2c23c4724848"
+    },
+    {
+      "path": "static/assets/portraits/bathing/neris.webp",
+      "sha256": "3588daa4c0a56955d62a402eff2064b6a3b7eaf719fe34c5f3484573a7bfb137",
+      "bytes": 168796,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Engraved teal water elemental in plum swimwear.png",
+      "sourceLibraryFileId": "libfile_1c02cea0834c8191a30335c6e671c69a"
+    },
+    {
+      "path": "static/assets/portraits/bathing/nyssara.webp",
+      "sha256": "f0786bc075614017c6ce6188a2bb79a13d1a88848df4ab89f95482b825bd8e53",
+      "bytes": 122630,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Antique-engraved drow in blue swimwear.png",
+      "sourceLibraryFileId": "libfile_28ac46f5920081918fdfe98ccdf150de"
+    },
+    {
+      "path": "static/assets/portraits/bathing/mira.webp",
+      "sha256": "0b63aee9101e5d537ddc4cf850d255ec6f11215e01512b98a05110a7e02a2ed6",
+      "bytes": 123160,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Antique engraved woman in teal swimwear.png",
+      "sourceLibraryFileId": "libfile_8836e05397ac81919f89964240672ca1"
+    },
+    {
+      "path": "static/assets/portraits/bathing/kaede.webp",
+      "sha256": "e0b3dafd28e4e55a854991b918bd245b039bb22d4bea12e9b98fd2700efc8622",
+      "bytes": 143346,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Engraved Oni Woman in Violet Swimwear.png",
+      "sourceLibraryFileId": "libfile_8aee8f0803048191b4db04b958d91786"
+    },
+    {
+      "path": "static/assets/portraits/bathing/maren.webp",
+      "sha256": "e0420a4e230c4ab6711ea214c8249d2af6785f815a13644515332a8b379136f1",
+      "bytes": 165798,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Freckled bovinefolk in plum linen.png",
+      "sourceLibraryFileId": "libfile_e5ca121e95f48191af2e1509cc19038c"
+    },
+    {
+      "path": "static/assets/portraits/bathing/brakka.webp",
+      "sha256": "08e627756850ccf54eb3c2f663803c9fac77d4fbef4125ac53ed85438d45f21f",
+      "bytes": 144428,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Engraved green orc woman cutout.png",
+      "sourceLibraryFileId": "libfile_86d9df20cfe081919c3c6ec5dc28994c"
+    },
+    {
+      "path": "static/assets/portraits/bathing/fenna.webp",
+      "sha256": "8548c70f385de2f63c30d8f70fbcf52eb28695fd7d211860c5a609154126f0c3",
+      "bytes": 164310,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Antique Engraved Wolfkin Woman in Swimwear.png",
+      "sourceLibraryFileId": "libfile_eac492535974819180599b23e3ac93b0"
+    },
+    {
+      "path": "static/assets/portraits/bathing/aurelia.webp",
+      "sha256": "4009a0978a2225c430a05799b3e34eb03f7745be8e1067f925d2af1f10dada49",
+      "bytes": 219742,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Engraved violet-winged seraph cutout.png",
+      "sourceLibraryFileId": "libfile_0cc5f86a09f881918537a7bb2b13bb8f"
+    },
+    {
+      "path": "static/assets/portraits/bathing/elowen.webp",
+      "sha256": "382951b0225563648bf77aff608f91ee7c156444971deb6df52c162ffd061ed7",
+      "bytes": 126094,
+      "dimensions": [
+        768,
+        1152
+      ],
+      "category": "bathing",
+      "sourceName": "Antique-engraved high elf in swimwear.png",
+      "sourceLibraryFileId": "libfile_e0448fb8479c8191806ca696250d6ebc"
+    },
+    {
+      "path": "static/assets/portraits/maren-outfit-3.webp",
+      "sha256": "b832b9b83d40a5fcbde15d936d93c50be17ae5787ff5ef47af006fd58168974c",
+      "bytes": 238102,
+      "dimensions": [
+        640,
+        960
+      ],
+      "category": "outfit",
+      "sourceName": "Horned Joiner in a Timeless Workshop.png",
+      "sourceLibraryFileId": "libfile_9a4e80ec2920819181f4680bf194aee5"
+    },
+    {
+      "path": "static/assets/portraits/overview/maren-outfit-3.webp",
+      "sha256": "108bce0b419ed6f6b37c9f62d8fa3e10b87d804f7432af5fedf3a81242170352",
+      "bytes": 435062,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "category": "outfit",
+      "sourceName": "Horned Joiner in a Timeless Workshop.png",
+      "sourceLibraryFileId": "libfile_9a4e80ec2920819181f4680bf194aee5"
+    },
+    {
+      "path": "static/assets/portraits/neris-outfit-3.webp",
+      "sha256": "ae1e4eacf14d2554fe45df9576deec521df7518935c4cb5d44c699633197abce",
+      "bytes": 269632,
+      "dimensions": [
+        640,
+        960
+      ],
+      "category": "outfit",
+      "sourceName": "Plum Bikini at the Teal Hot Springs.png",
+      "sourceLibraryFileId": "libfile_c4fbb6f9c4808191b8948e67695bc6d3"
+    },
+    {
+      "path": "static/assets/portraits/overview/neris-outfit-3.webp",
+      "sha256": "06865a941dc1d1c99d8a5efff7429da7032561dca5990b94fd87809ada8b8a48",
+      "bytes": 463526,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "category": "outfit",
+      "sourceName": "Plum Bikini at the Teal Hot Springs.png",
+      "sourceLibraryFileId": "libfile_c4fbb6f9c4808191b8948e67695bc6d3"
+    },
+    {
+      "path": "static/assets/portraits/tamsin-outfit-3.webp",
+      "sha256": "bf9e9fca1f27c9829ee18015b7b0f07a0fb431f8ce8429e3ebbdab2d955f5e2d",
+      "bytes": 217604,
+      "dimensions": [
+        640,
+        960
+      ],
+      "category": "outfit",
+      "sourceName": "Plum halter top, mug, cozy kitchen.png",
+      "sourceLibraryFileId": "libfile_6acb06f6738c8191823afacb7be2540e"
+    },
+    {
+      "path": "static/assets/portraits/overview/tamsin-outfit-3.webp",
+      "sha256": "ce6535fc7a3ce29b6e5b7c46e928ed5bfd2e8f19d6047dd858d5e7df807ace56",
+      "bytes": 384046,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "category": "outfit",
+      "sourceName": "Plum halter top, mug, cozy kitchen.png",
+      "sourceLibraryFileId": "libfile_6acb06f6738c8191823afacb7be2540e"
+    },
+    {
+      "path": "static/assets/portraits/sylva-outfit-3.webp",
+      "sha256": "de6edf192aed78d23eeaa67ec6750d668cc7c40f6e8738f021cef1338f7d5d5a",
+      "bytes": 249776,
+      "dimensions": [
+        640,
+        960
+      ],
+      "category": "outfit",
+      "sourceName": "exec-d885b400-f114-4d8b-b253-8d0b7ddc243f.png",
+      "sourceLibraryFileId": null
+    },
+    {
+      "path": "static/assets/portraits/overview/sylva-outfit-3.webp",
+      "sha256": "b9c607a493144d0d935d3788c98b2ed77ad017d5908ba27cd12e2e9610e13690",
+      "bytes": 434392,
+      "dimensions": [
+        960,
+        1440
+      ],
+      "category": "outfit",
+      "sourceName": "exec-d885b400-f114-4d8b-b253-8d0b7ddc243f.png",
+      "sourceLibraryFileId": null
+    }
+  ],
+  "runtimeBytes": 7364074,
+  "note": "Existing accepted save-owned artwork overrides retain priority.",
+  "sylvaRevision": {
+    "mode": "Built-in image generation",
+    "prompt": "Create a revised costume for the adult dryad gardener in this fantasy game portrait. Preserve the character face, olive-gold living wood skin, botanical leaf ears, leafy hair, natural proportions, neutral standing pose, bare feet on the stone floor, and the same modest evening conservatory background. Replace the current outfit with a practical summer gardening ensemble: a sleeveless cropped top woven from overlapping leaves, a visible strip of midriff, and short tailored woven-leaf shorts with a thin vine belt. The shorts are clearly separate shorts, not a skirt or dress; bare lower legs, no long trailing leaves. Keep the overall framing full body and the character friendly and approachable. Antique engraving-inspired fantasy art, intricate etched lines and fine crosshatching, muted natural plant colors over a warm charcoal and parchment foundation. No text or border."
+  }
+}

@@ -1,5 +1,15 @@
 # Browser usability review — access status
 
+## Current checkpoint — 8 October 2026, v0.105 reviewed / v0.106 prepared
+
+The user's running Codespace made a rendered desktop review possible. A separate demonstration campaign was used to inspect the main early-game screens, rooms, character workspaces, resources, bestiary, bounty requirements and Help. Screenshots record the original v0.105 build. The review found concrete navigation, labeling and information-hierarchy issues; v0.106 implements the fixes and passes automated UI checks.
+
+The revised build has not been installed or rendered in the Codespace. Mobile layouts, broad keyboard/focus coverage, late-game combat remain pending. After the user approved enabling cheats in the separate review campaign, the revealed bestiary was checked and its persistence verified after reload. All 14 completed creature pages were inspected, with the 21 ancestry references and representative material/bounty links also checked. The campaign is marked TESTING MODIFIED. See [the full review and release notes](RELEASE_V106.md) and [current verification](VERIFICATION_V106.json).
+
+The entries below are historical checkpoints. Their browser-access limitations do not describe the successful v0.105 Codespace review.
+
+---
+
 4 October 2026 · Stonework and Spellcraft v0.20
 
 A real browser review was attempted using a separate test data directory. No player save or external provider account was used.

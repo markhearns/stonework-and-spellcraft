@@ -120,8 +120,8 @@ class CharacterQuestTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as directory:
    st=GameStore(directory)
    with sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(self.s),))
-   st=GameStore(directory);state=st.read();self.assertEqual(state['schemaVersion'],66)
-   self.assertTrue(Path(directory,'campaign-before-schema-51-to-66.sqlite3').exists())
+   st=GameStore(directory);state=st.read();self.assertEqual(state['schemaVersion'],g.CURRENT_SCHEMA_VERSION)
+   self.assertTrue(Path(directory,f"campaign-before-schema-51-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
    for k,v in before.items():
     if k not in ('schemaVersion','revision'):self.assertEqual(state[k],v)
    req={'requestId':uuid.uuid4().hex,'expectedRevision':state['revision'],'action':{'type':'talk-character-quest','questId':'personal:mira','choice':'flirt'}}

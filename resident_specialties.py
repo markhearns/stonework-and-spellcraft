@@ -4,8 +4,8 @@ from copy import deepcopy
 def specialty(person,room,name,cost,benefit):return dict(personId=person,room=room,name=name,cost=cost,phases=3,benefit=benefit,output='specialty:'+person)
 SPECIALTIES={
  'sabine':specialty('sabine','dungeons','Sabine’s release-key register',28,'New specialized chamber and care projects take one fewer scholar phase, to a minimum of one. Already funded work keeps its duration; admission, release and recruitment rules remain separate.'),
- 'maren':specialty('maren','workshop','Maren’s restoration bench',24,'Adds +1 core artifact work per assigned maker at home.'),
- 'brakka':specialty('brakka','smithy','Brakka’s fitted forge stations',30,'New metalware, blade and armour jobs take one fewer assigned phase, to a minimum of one. Already funded work keeps its agreed duration.'),
+ 'koharu':specialty('koharu','workshop','Koharu’s restoration bench',24,'Adds +1 core artifact work per assigned maker at home.'),
+ 'zahra':specialty('zahra','smithy','Zahra’s fitted forge stations',30,'New metalware, blade and armour jobs take one fewer assigned phase, to a minimum of one. Already funded work keeps its agreed duration.'),
  'fenna':specialty('fenna','common-room','Fenna’s travellers’ exchange',22,'Each newly completed core expedition lead returns 1 extra binding thread through the tavern’s exchange of route notes and supplies. Once per lead, not per participant; no repeat-visit reward.'),
  'iona':specialty('iona','command-room','Iona’s correspondence and dispatch desk',26,'Adds 2 crowns per assigned scholar copying phase through organised correspondence. No passive income; personal wallets remain separate.'),
  'kaede':specialty('kaede','training-yard','Kaede’s controlled-strength circle',30,'Unlocks an advanced control drill: three assigned phases, awarding the scholar 2 advancement once. Practice requires an owned field blade and armour.'),
@@ -16,15 +16,15 @@ SPECIALTIES={
  'aurelia':specialty('aurelia','guard-barracks','Aurelia’s shuttered watch lanterns',32,'Unlocks a watch drill: two assigned phases and 2 scholar advancement, once. Also prepares an ordinary field briefing here. Does not automatically assign guards.'),
  'sylva':specialty('sylva','conservatory','Sylva’s living propagation beds',28,'Adds 1 silver ivy to each staffed binding-plant harvest. Does not increase unattended root-tender production or surplus-sale income.'),
 }
-NAMES={'sabine':'Sabine','elowen':'Elowen','nyssara':'Nyssara','maren':'Maren','brakka':'Brakka','fenna':'Fenna','iona':'Iona','kaede':'Kaede','tamsin':'Tamsin','neris':'Neris','aurelia':'Aurelia','sylva':'Sylva'}
+NAMES={'sabine':'Sabine','elowen':'Elowen','nyssara':'Nyssara','koharu':'Koharu','zahra':'Zahra','fenna':'Fenna','iona':'Iona','kaede':'Kaede','tamsin':'Tamsin','neris':'Neris','aurelia':'Aurelia','sylva':'Sylva'}
 JOB_OWNERS={'advanced-control-drill':'kaede','thermal-balance-study':'neris','watch-drill':'aurelia','watch-briefing':'aurelia','assess-deep-samples':'nyssara','prepare-fireglass':'nyssara'}
 
 def initialize(s):
     # Existing paid facilities keep their original benefits, in addition to their updated room association.
     h=s['headquarters']
-    h.setdefault('legacySpecialties', [who for who in ('brakka','kaede','tamsin') if active(s,who)])
+    h.setdefault('legacySpecialties', [who for who in ('zahra','kaede','tamsin') if active(s,who)])
     p=h.get('project')
-    if p and p.get('id') in ('specialty-brakka','specialty-kaede','specialty-tamsin'):
+    if p and p.get('id') in ('specialty-zahra','specialty-kaede','specialty-tamsin'):
         p.setdefault('legacySpecialty',p['id'].removeprefix('specialty-'))
     s['localEncounters'].setdefault('sylva',{'status':'available','completedOn':None})
     s['localEncounters'].setdefault('nyssara',{'status':'available','completedOn':None})
@@ -33,7 +33,7 @@ def legacy(s,who):return who in s.get('headquarters',{}).get('legacySpecialties'
 
 def job_phases(s,key):
     import headquarters as h
-    return max(1,h.JOBS[key]['phases']-int(active(s,'brakka') and key in ('metalware','blade','armour')))
+    return max(1,h.JOBS[key]['phases']-int(active(s,'zahra') and key in ('metalware','blade','armour')))
 
 def active(s,who):return bool(s.get('headquarters',{}).get('stock',{}).get('specialty:'+who,0))
 

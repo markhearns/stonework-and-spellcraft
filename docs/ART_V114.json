@@ -1,0 +1,94 @@
+{
+  "character": "Zahra",
+  "internalId": "zahra",
+  "reference": "Creatures and Peoples: Djinn",
+  "design": "Adult, 23; 155 cm; warm brown skin; short, soft non-muscular build; amber eyes; black curls dissolving into smoke with tiny embers. Precision smith associated with the smithy.",
+  "removed": [
+    "static/assets/portraits/brakka.webp",
+    "static/assets/portraits/overview/brakka.webp",
+    "static/assets/portraits/brakka-outfit-2.webp",
+    "static/assets/portraits/overview/brakka-outfit-2.webp",
+    "static/assets/portraits/brakka-outfit-3.webp",
+    "static/assets/portraits/overview/brakka-outfit-3.webp",
+    "static/assets/portraits/bathing/brakka.webp"
+  ],
+  "assets": [
+    {
+      "id": "zahra",
+      "path": "static/assets/portraits/zahra.webp",
+      "size": [
+        640,
+        960
+      ],
+      "bytes": 999644,
+      "sha256": "1b63c30065b3489aa1099e33854f8c0f8f5ece3802d7f2791936116864bfbedf",
+      "alpha": false
+    },
+    {
+      "id": "zahra",
+      "path": "static/assets/portraits/overview/zahra.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "bytes": 2151806,
+      "sha256": "f3de2fa74136913640e8e9caf88b1cfa0a30e024aefe55baff643a23848866d3",
+      "alpha": false
+    },
+    {
+      "id": "zahra-outfit-2",
+      "path": "static/assets/portraits/zahra-outfit-2.webp",
+      "size": [
+        640,
+        960
+      ],
+      "bytes": 1061078,
+      "sha256": "7e6b0f6cbff776ec5cc7cbb66a16d2249f8e0d354a67d237b8bf5ddb37656fb6",
+      "alpha": false
+    },
+    {
+      "id": "zahra-outfit-2",
+      "path": "static/assets/portraits/overview/zahra-outfit-2.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "bytes": 2292584,
+      "sha256": "774c240c78e8c8a95a56708e0ff4b78be140dcb3a1d27bb2e167cb7786ff31b4",
+      "alpha": false
+    },
+    {
+      "id": "zahra-outfit-3",
+      "path": "static/assets/portraits/zahra-outfit-3.webp",
+      "size": [
+        640,
+        960
+      ],
+      "bytes": 1010598,
+      "sha256": "072054ee370087de250050535ba0405315f2c9a949a98e16b4b2cc76f96f9968",
+      "alpha": false
+    },
+    {
+      "id": "zahra-outfit-3",
+      "path": "static/assets/portraits/overview/zahra-outfit-3.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "bytes": 2166694,
+      "sha256": "c57232afddac667ca7f136c029af947bc838c55610930b3330981f18a107584a",
+      "alpha": false
+    },
+    {
+      "id": "zahra-bathing",
+      "path": "static/assets/portraits/bathing/zahra.webp",
+      "size": [
+        768,
+        1152
+      ],
+      "bytes": 503580,
+      "sha256": "89e37edd3b556923e6141684c944e96ce76299cbb1206456dd84b12bd09933b1",
+      "alpha": true
+    }
+  ]
+}

@@ -23,13 +23,14 @@ const context = vm.createContext({
   window:{scrollTo(){}},location:{reload(){}},
   fetch:async(url, options)=>{
     const body = options?.body || '{}';
-    const json=JSON.parse(execFileSync(process.env.PYTHON || 'python', ['-c',bridge,directory,url], {input:body, encoding:'utf8'}));
+    const json=JSON.parse(execFileSync(process.env.PYTHON || 'python', ['-c',bridge,directory,url], {input:body, encoding:'utf8',maxBuffer:32*1024*1024}));
     if(url==='/api/campaigns' && options?.method==='POST' && dropCreationResponse) {dropCreationResponse=false;throw new Error('Simulated lost response');}
+    if(json.error)console.error(url,json.error);
     return {ok:!json.error,async json(){return json;}};
   }
 });
 
-const fixture=`import json,sys\nfrom server import CampaignLibrary\nfrom dialogue import ProviderSettings\nimport game as g\ns=g.new_campaign();s['sharedFunds']=100\nfor m in ('porous-clay','binding-thread'):s['materialInventory'][m]=5\ng.learn_for_character(s,'founder','courteous-passage')\ns['housingRooms']['garden-chamber']['status']='complete'\nstore=CampaignLibrary(sys.argv[1]).get('default')\nwith store.connect() as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(s),))\nProviderSettings(sys.argv[1]).save({'enabled':True,'model':'test/model','apiKey':'fixture','maxOutputTokens':1000})`;
+const fixture=`import json,sys\nfrom server import CampaignLibrary\nfrom dialogue import ProviderSettings\nimport game as g\ns=g.new_campaign();s['testing']['enabled']=True;s['sharedFunds']=100\nfor m in ('porous-clay','binding-thread'):s['materialInventory'][m]=5\ng.learn_for_character(s,'founder','courteous-passage')\ns['housingRooms']['garden-chamber']['status']='complete'\nstore=CampaignLibrary(sys.argv[1]).get('default')\nwith store.connect() as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(s),))\nProviderSettings(sys.argv[1]).save({'enabled':True,'model':'test/model','apiKey':'fixture','maxOutputTokens':1000})`;
 (async()=>{try {
  execFileSync(process.env.PYTHON||'python',['-c',fixture,directory]);
  vm.runInContext(fs.readFileSync('static/app.js','utf8'),context);await new Promise(resolve=>setImmediate(resolve));

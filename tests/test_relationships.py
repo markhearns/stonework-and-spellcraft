@@ -23,7 +23,7 @@ class RelationshipTests(unittest.TestCase):
  def story(self,agreement='turns',follow='keep'):
   for d in content.STORY:
    choice=agreement if d['id']=='agreement' else follow if d['id']=='followthrough' else next(iter(d['choices']))
-   protected={k:deepcopy(v) for k,v in self.s.items() if k not in ('relationships','journal')}
+   protected={k:deepcopy(v) for k,v in self.s.items() if k not in ('relationships','journal','residentBonds')}
    self.share('story:'+d['id'],choice)
    self.assertEqual(protected,{k:self.s[k] for k in protected})
    self.act('advance')
@@ -84,7 +84,8 @@ class RelationshipTests(unittest.TestCase):
     self.assertEqual(len(row['choices']),3);self.assertNotIn(content.PREFERENCES[who][4],json.dumps(row))
     self.share(row['id'],choice)
     memory=r.saved(self.s)['memories'][row['id']]
-    if choice=='ask':self.assertIn(content.PREFERENCES[who][1],memory['response'])
+    if choice=='ask':
+     self.assertEqual(memory['response'],r.invitation_definition(who)['choices']['ask'][1]);self.assertEqual(memory['playerLine'],r.invitation_definition(who)['choices']['ask'][0])
     self.assertTrue(memory['response']);self.assertFalse(next(x for x in r.rows(self.s) if x['id']==row['id'])['available'])
  def test_repeated_room_activity_cannot_farm_relationships(self):
   household.HouseholdChapterTests.activity(self,'mira')
@@ -117,7 +118,7 @@ class RelationshipTests(unittest.TestCase):
  def test_migration_preserves_old_memories_without_retroactive_scoring(self):
   self.act('share-social-conversation',sceneId='personal:mira:0',choice='warm')
   self.s.pop('relationships');self.s['schemaVersion']=50;old=deepcopy(self.s)
-  g.migrate_state(self.s);self.assertEqual(self.s['schemaVersion'],66);self.assertEqual(r.saved(self.s)['events'],{})
+  g.migrate_state(self.s);self.assertEqual(self.s['schemaVersion'],g.CURRENT_SCHEMA_VERSION);self.assertEqual(r.saved(self.s)['events'],{})
   for k,v in old.items():
    if k!='schemaVersion':self.assertEqual(self.s[k],v)
   current=deepcopy(self.s);g.migrate_state(self.s);self.assertEqual(current,self.s)
@@ -125,7 +126,7 @@ class RelationshipTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as directory:
    st=GameStore(directory);self.s.pop('relationships');self.s['schemaVersion']=50
    with sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(self.s),))
-   st=GameStore(directory);self.assertTrue(Path(directory,'campaign-before-schema-50-to-66.sqlite3').exists())
+   st=GameStore(directory);self.assertTrue(Path(directory,f'campaign-before-schema-50-to-{g.CURRENT_SCHEMA_VERSION}.sqlite3').exists())
    action={'requestId':uuid.uuid4().hex,'expectedRevision':st.read()['revision'],'action':{'type':'share-relationship','sceneId':'story:table','choice':'listen'}}
    st.action(action);before=st.read();st.action(action);self.assertEqual(before,st.read())
    self.assertEqual(GameStore(directory).read()['relationships'],before['relationships'])

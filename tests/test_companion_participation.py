@@ -133,7 +133,7 @@ class CompanionParticipationTests(unittest.TestCase):
    with sqlite3.connect(Path(directory)/'campaign.sqlite3') as db:
     db.execute('CREATE TABLE campaign(id INTEGER PRIMARY KEY,state TEXT NOT NULL)');db.execute('INSERT INTO campaign VALUES(1,?)',(json.dumps(old),))
    store=GameStore(directory);current=store.read()
-   self.assertTrue((Path(directory)/'campaign-before-schema-49-to-66.sqlite3').exists())
+   self.assertTrue((Path(directory)/f"campaign-before-schema-49-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
    for k,v in old.items():
     if k not in ('schemaVersion','revision'):self.assertEqual(current[k],v,k)
    req={'requestId':uuid.uuid4().hex,'expectedRevision':current['revision'],'action':{'type':'start-expedition','siteId':b.SITE,'companionId':'mira'}}

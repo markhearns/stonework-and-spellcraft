@@ -1,0 +1,108 @@
+{
+  "version": "0.115",
+  "mode": "image_gen.imagegen; local reference image edits",
+  "assets": [
+    {
+      "id": "iona-bathing",
+      "path": "static/assets/portraits/bathing/iona.webp",
+      "source": "artwork/iona-bathing.png",
+      "size": [
+        768,
+        1152
+      ],
+      "bytes": 417608,
+      "sha256": "231f0d4af2edeae1f7052cbcab5c9ea476f3d3452a5c702f30f293f2089ac184",
+      "alpha": true,
+      "encoding": "Lossless WebP; display-sized copy"
+    },
+    {
+      "id": "zahra-bathing",
+      "path": "static/assets/portraits/bathing/zahra.webp",
+      "source": "artwork/zahra-bathing.png",
+      "size": [
+        768,
+        1152
+      ],
+      "bytes": 469988,
+      "sha256": "6277055b3659fc9394a479e299a359ad1bb6b8b078c04d286917ffed4aefda36",
+      "alpha": true,
+      "encoding": "Lossless WebP; display-sized copy"
+    },
+    {
+      "id": "zahra-outfit-3",
+      "path": "static/assets/portraits/zahra-outfit-3.webp",
+      "source": "artwork/zahra-outfit-3.png",
+      "size": [
+        640,
+        960
+      ],
+      "bytes": 948262,
+      "sha256": "022873b73eeb299c78c853349bfa9334a3eae3f0fe3400a45809c2f7be8299b4",
+      "alpha": false,
+      "encoding": "Lossless WebP; display-sized copy"
+    },
+    {
+      "id": "zahra-outfit-3",
+      "path": "static/assets/portraits/overview/zahra-outfit-3.webp",
+      "source": "artwork/zahra-outfit-3.png",
+      "size": [
+        960,
+        1440
+      ],
+      "bytes": 1975378,
+      "sha256": "8d4218c82bc760ffd03db6c6d87a35f94cf54157d97abc0b2ed3e43e324f14ff",
+      "alpha": false,
+      "encoding": "Lossless WebP; display-sized copy"
+    },
+    {
+      "id": "foundation-intimacy",
+      "path": "static/assets/spells/foundation-intimacy.webp",
+      "source": "artwork/foundation-intimacy.png",
+      "size": [
+        192,
+        192
+      ],
+      "bytes": 43570,
+      "sha256": "22bc72cadec451f72542f72f3b5eec7ef215f20de0fb35adee1c8ca8712b7a30",
+      "alpha": true,
+      "encoding": "Lossless WebP; display-sized icon"
+    },
+    {
+      "id": "room-rubble-v115",
+      "path": "static/assets/ui/room-rubble-v115.webp",
+      "source": "artwork/room-rubble-v115.png",
+      "size": [
+        480,
+        320
+      ],
+      "bytes": 224850,
+      "sha256": "aedb279fed64f6563eaebe81f455ebeec5d97e0658f7dc7bc7f5bef2b5c8d43a",
+      "alpha": false,
+      "encoding": "Lossless WebP; display-sized map texture"
+    }
+  ],
+  "prompts": [
+    {
+      "id": "iona-bathing",
+      "prompt": "Edit the attached illustration of adult fantasy character Iona. Wardrobe revision only: replace her wine-red one-piece swimsuit with a conventional opaque wine-red two-piece swimsuit, a supportive scoop-neck swim top and standard-coverage bikini bottoms. Her midriff is visible. Keep the same face, freckles, horns, long dark hair, tail, adult body proportions, relaxed standing pose and bare feet. Preserve the detailed painted fantasy art style. Full-body character asset, head to toes visible, genuine transparent background, no scenery and no text."
+    },
+    {
+      "id": "zahra-bathing",
+      "prompt": "Edit the supplied full-body illustration of Zahra, an adult 23-year-old Djinn fantasy companion. Wardrobe change only: replace her current long bathing top and high-waisted swim shorts with a conventional two-piece indigo bikini, a supportive halter swim top and standard-coverage bikini briefs with a slim muted-gold embroidered waistband. Leave her midriff visible. All swim fabric is opaque. Preserve her exact face, warm brown skin, amber eyes, short petite softly curvy non-muscular proportions, narrow shoulders, and black curly hair that dissolves into grey-violet smoke with tiny embers. Preserve the small floating ember above her hand, pose, jewelry, bare feet, and painted fantasy illustration style. She must remain short rather than tall. Full figure with comfortable transparent margins around hair and toes. Genuine transparent background, no scenery, no text."
+    },
+    {
+      "id": "zahra-outfit-3",
+      "prompt": "Use case: identity-preserve. Edit the supplied portrait of Zahra, the adult 23-year-old Djinn woman seated by the castle window. Change only her third outfit: replace the long blouse with a fitted deep-indigo halter crop top, leaving shoulders, arms and midriff visible. Replace the ankle-length skirt with an elegant asymmetric indigo wrap skirt ending above the knees, edged with the same muted gold embroidery. The skirt is opaque and comfortably covers her lap while seated. Keep the same recognizable face, warm brown skin, amber eyes, short petite soft non-muscular adult build, long black smoky curls with glowing embers, gold jewelry, sandals, seated pose, teacup, floating ember, window bench, fireplace and background. The outfit should read as a confident evening outfit, clearly lighter and more open than the existing flowing clothing. Preserve the highly detailed painted fantasy style and warm lighting. Full-body vertical composition showing head and feet, no text or border."
+    },
+    {
+      "id": "foundation-intimacy",
+      "mode": "image_gen.imagegen; new icon with local style reference",
+      "prompt": "Create a single transparent fantasy game ritual icon, using the attached engraved spell icon as the style reference only. Subject: two adult hands gently clasped together, framed by a low circular carved stone ring with subtle branching violet inlay lines. Three small stylized castle rooftops above the ring suggest that a shared household blessing reaches the entire castle. Make the clasped hands the clear central silhouette. Antique hand-colored engraving, fine hatching and crosshatching, aged ivory highlights, charcoal contours, muted warm bronze and restrained violet. Crisp readable shapes at 192 pixels; no tiny decorative clutter, no room scene, no people beyond the two hands, no text, letters, numbers, logo, or rectangular frame. Centered square composition with generous transparent margins. Genuine transparent background. This represents trust, affection, and bonds among residents."
+    },
+    {
+      "id": "room-rubble-v115",
+      "mode": "image_gen.imagegen; new texture with local style reference",
+      "prompt": "Create one landscape texture illustration for unrepaired rooms on a fantasy castle map. Use the attached castle library image only as the antique engraving and muted palette reference. A bird's-eye view directly down into an EMPTY ruined stone chamber: cracked flagstone floor, a few small piles of fallen masonry and broken timber concentrated around the edges, faint traces of old walls and cold dusty stone. No furniture, no books, no people, no roof, no windows, no text, no symbols, no interface or map labels. It should clearly read as rubble needing repair, while staying subdued behind readable UI room names. Fine etched linework and hand-colored engraving, charcoal, slate, dusty brown and muted violet shadows, enough midtone contrast to see the stones. Landscape 3:2 composition, a usable uninterrupted central floor area, full opaque background. This is a generic repeating visual for unrepaired rooms, not a precise floor plan."
+    }
+  ]
+}

@@ -1,3 +1,5 @@
+> Current direction, v0.116: solo play uses authored and scripted narrative; an LLM gamemaster is optional. See [SCRIPTED_SOLO_V116.md](SCRIPTED_SOLO_V116.md) and the v0.116 release notes. The dated implementation records below are historical. Eris/Selene co-op remains deferred.
+
 # Castle Household RPG
 ## Consolidated design specification — v0.1
 

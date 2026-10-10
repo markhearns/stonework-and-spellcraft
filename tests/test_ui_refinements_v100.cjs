@@ -32,7 +32,7 @@ const context = vm.createContext({
 
 
 (async()=>{try {
- const fixture="import sys,json,sqlite3\nsys.path.insert(0,'tests')\nfrom server import GameStore\nfrom test_refinements_v100 import RefinementTests\nt=RefinementTests();t.setUp();t.field_ready();t.member('brakka');t.spell('founder','water-jet');t.s['currentDayPhase']='evening'\nst=GameStore(sys.argv[1])\nwith sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(t.s),))";
+ const fixture="import sys,json,sqlite3\nsys.path.insert(0,'tests')\nfrom server import GameStore\nfrom test_refinements_v100 import RefinementTests\nt=RefinementTests();t.setUp();t.field_ready();t.member('zahra');t.spell('founder','water-jet');t.s['currentDayPhase']='evening'\nst=GameStore(sys.argv[1])\nwith sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(t.s),))";
  execFileSync(process.env.PYTHON||'python',['-c',fixture,directory]);
  vm.runInContext(fs.readFileSync('static/app.js','utf8'),context);await new Promise(r=>setImmediate(r));
  const value=e=>vm.runInContext(e,context),act=a=>value(`provisionsClick({foodAction:${JSON.stringify(JSON.stringify(a))}})`);
@@ -46,7 +46,7 @@ const context = vm.createContext({
  await act({type:'advance'});await act({type:'advance'});
  assert.equal(value('state.commissionView.job'),null);assert.equal(value('state.routineView.rows[0].status'),'complete');
  value("currentView='fieldPatrols';render()");assert.match(value('fieldPatrolPage()'),/Observe a ridge griffin/);
- await events.submit({preventDefault(){},target:{id:'field-patrol-form',fields:{route:'road',objective:'rescue','patroller-founder':'on','patroller-brakka':'on'}}});
+ await events.submit({preventDefault(){},target:{id:'field-patrol-form',fields:{route:'road',objective:'rescue','patroller-founder':'on','patroller-zahra':'on'}}});
  assert.equal(value('state.fieldPatrolView.active.objectiveId'),'rescue');await act({type:'advance'});
  assert.equal(value('state.fieldPatrolView.active.stage'),'site-decision');
  html=value('patrolActivePanel()');assert.match(html,/Fumes in the inspection passage/);assert.match(html,/Settle the hot dust with water/);
@@ -54,14 +54,14 @@ const context = vm.createContext({
  await act({type:'watch-site-method',methodId:spell});await act({type:'advance'});
  assert.equal(value('state.fieldPatrolView.objectives.siteWork.condition'),true);
  html=value('patrolActivePanel()');assert.match(html,/one phase/);
- await act({type:'watch-site-method',methodId:'brakka:site-work'});await act({type:'advance'});
+ await act({type:'watch-site-method',methodId:'zahra:site-work'});await act({type:'advance'});
  assert.equal(value('state.fieldPatrolView.active.stage'),'decision');assert.match(value('patrolActivePanel()'),/Objective work: 1\/2/);
  await act({type:'watch-method',methodId:'founder:objective'});await act({type:'advance'});
  await act({type:'watch-method',methodId:'founder:objective'});await act({type:'advance'});await act({type:'advance'});
  assert.equal(value('state.fieldPatrolView.active'),null);assert.match(value('sharedHistoryPage()'),/Bring a missing surveyor home/);
  const id=value('state.sharedHistoryView[0].id');await act({type:'history-share',eventId:id,choiceId:'plan'});
  assert.match(value('sharedHistoryPage()'),/on the proposed party list/);assert.match(value('patrolPartyForm()'),/Review the party/);
- await value("provisionsClick({historyParty:'yes'})");assert.deepEqual(Array.from(value('patrolDraft.party')),['founder','brakka']);assert.equal(value('state.fieldPatrolView.active'),null);
+ await value("provisionsClick({historyParty:'yes'})");assert.deepEqual(Array.from(value('patrolDraft.party')),['founder','zahra']);assert.equal(value('state.fieldPatrolView.active'),null);
  for(const [view,fn,pattern] of [['practicalProjects','practicalProjectsPage()',/fitting gauges/],['mystery','mysteryPage()',/6 crowns, 1 binding thread/],['resonance','resonancePage()',/12 points/]]){value(`currentView=${JSON.stringify(view)};render()`);html=value(fn);assert.match(html,pattern);assert.doesNotMatch(html,/undefined|NaN/);}
  assert.match(value('practicalProjectsPage()'),/three work phases|3 assigned work phases/);
  assert.equal(value("HELP_TOPICS.some(t=>t.id==='refinements')"),true);

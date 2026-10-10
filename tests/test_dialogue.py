@@ -170,7 +170,7 @@ class DialogueTests(unittest.TestCase):
         from unittest.mock import patch
         from dialogue import provider_completion
         response=io.BytesIO(json.dumps({'choices':[{'message':{'content':'A short answer.'}}],'usage':{'total_tokens':8,'prompt_tokens':5,'completion_tokens':3,'unexpected':'ignored'}}).encode())
-        with patch('dialogue.urllib.request.urlopen',return_value=response) as transport:
+        with patch('provider_protocols.open_request',return_value=response) as transport:
             result=provider_completion(self.settings.read(),[{'role':'user','content':'Hello'}])
         request=transport.call_args.args[0];payload=json.loads(request.data)
         self.assertEqual(request.full_url,'https://openrouter.ai/api/v1/chat/completions')
@@ -180,7 +180,7 @@ class DialogueTests(unittest.TestCase):
     def test_provider_transport_rejects_empty_reply_without_exposing_error_body(self):
         from unittest.mock import patch
         from dialogue import provider_completion
-        with patch('dialogue.urllib.request.urlopen',return_value=io.BytesIO(b'{"choices":[]}')):
+        with patch('provider_protocols.open_request',return_value=io.BytesIO(b'{"choices":[]}')):
             with self.assertRaises(RuleError) as caught:provider_completion(self.settings.read(),[])
         self.assertNotIn('test-secret',str(caught.exception))
 

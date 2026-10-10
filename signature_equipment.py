@@ -1,6 +1,6 @@
 """Optional equipment requests with real fitting and supervised proof work."""
 from copy import deepcopy
-ROOMS=dict(zip('mira tamsin iona aurelia neris sabine maren brakka fenna kaede elowen nyssara sylva'.split(),'library kitchen command-room guard-barracks hot-spring dungeons workshop smithy common-room training-yard infirmary enchanting-room conservatory'.split()))
+ROOMS=dict(zip('mira tamsin iona aurelia neris sabine koharu zahra fenna kaede elowen nyssara sylva'.split(),'library kitchen command-room guard-barracks hot-spring dungeons workshop smithy common-room training-yard infirmary enchanting-room conservatory'.split()))
 ROOMS['founder']='workshop'
 CONTENT={'founder':('A familiar weight','Choose the piece you want to carry forward. Let its fitting reflect the work you have learned to do.','You mark the proven fitting in your own hand. The familiar object carries a little more of your history.','personal-control'),
 'mira':('Notes within reach','A familiar tool should let me look up from the page. Help me find the right mark by touch.','Now the notes can support a conversation instead of interrupting it.','reference'),
@@ -10,8 +10,8 @@ CONTENT={'founder':('A familiar weight','Choose the piece you want to carry forw
 'neris':('Sure hands in the rain','A grip that behaves beautifully when dry has told us only half its story. Bring a basin.','It seems we have persuaded it to be useful in my sort of weather.','footing'),
 
 'sabine':('The keeper’s margin','The important line is the one you do not cross. I want a tool that makes that boundary easy to keep.','It opens as carefully as it closes. I rather insist on that distinction.','seals'),
-'maren':('Keep the useful wear','Do not polish its history away. Just mend the part that makes me fight it.','Still mine. Only a little less stubborn. I suppose that is a compliment to both of us.','repair'),
-'brakka':('An honest line','A strong hand is no excuse for a crooked fitting. Mark the line; I will tell you when it sits right.','Good. It does what the mark promises. We can build on that.','measure'),
+'koharu':('Keep the useful wear','Do not polish its history away. Just mend the part that makes me fight it.','Still mine. Only a little less stubborn. I suppose that is a compliment to both of us.','repair'),
+'zahra':('An honest line','A steady ember is no excuse for a crooked fitting. Mark the line; I will tell you when it sits right.','Good. It does what the mark promises. We can build on that.','measure'),
 'fenna':('Nothing to catch on the path','If it catches every branch, I will remember the branches instead of the route. A quieter arrangement, please.','That is much better. Now I can pay attention to where we are going.','route'),
 'kaede':('Exactly there','Anyone can make a loud strike. I want to stop this one exactly where I mean to. Hold the chalk, not the target.','There. I told you the interesting part was knowing when to stop.','restraint'),
 'elowen':('A warning that reassures','Someone depending on a ward should be able to tell whether it is ready. A quiet sign is enough.','Clear to the person using it. Reassuring to the person being helped.','care'),

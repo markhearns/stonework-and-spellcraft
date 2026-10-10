@@ -7,8 +7,8 @@ import hashlib
 import random
 import json
 
-VERSION=2
-COMMON_ANCESTRIES=('Human','High elf','Dark elf','Drow','Catfolk','Bovinefolk','Orc','Wolfkin')
+VERSION=3
+COMMON_ANCESTRIES=('Human','High elf','Dark elf','Drow','Catfolk','Bovinefolk','Orc','Wolfkin','Ogrekin')
 GOLEM_MATERIALS={
  'clay':{'name':'Warm clay','appearance':'warm terracotta ceramic with softly burnished surfaces','costCrowns':32,'materials':{'porous-clay':4,'binding-thread':2,'moon-glass':1}},
  'porcelain':{'name':'Glazed porcelain','appearance':'ivory porcelain with fine violet glaze lines and restrained gold repairs','costCrowns':40,'materials':{'porous-clay':3,'fireglass':2,'binding-thread':2,'moon-glass':1}},
@@ -22,14 +22,14 @@ def arrival_method(ancestry):
 ANCESTRIES={
  'Bovinefolk':{'detail':'bovine horns, bovine ears and a slender tufted tail, a human face and smooth human skin without body fur','backgrounds':['bookbinder','glassworker','gardener','waterkeeper','conservator']},
  'Orc':{'detail':'small tusks, strong features and an enduring sturdy physique','backgrounds':['bookbinder','lampwright','glassworker','courier','waterkeeper','mapmaker']},
- 'Wolfkin':{'detail':'expressive wolf ears and a fluffy wolf tail, a human face and smooth human skin','backgrounds':['bookbinder','courier','gardener','mapmaker','conservator']},
- 'Oni':{'detail':'two strong horns and a powerful imposing frame with mature generous curves and a large bust','backgrounds':['lampwright','glassworker','bookbinder','waterkeeper','conservator']},
+ 'Wolfkin':{'detail':'exactly two expressive wolf ears on top of the head and a fluffy wolf tail, a human face and smooth human skin; no human side ears, hair covers the sides of the head','backgrounds':['bookbinder','courier','gardener','mapmaker','conservator']},
+ 'Ogrekin':{'detail':'two strong horns and a powerful imposing frame with mature generous curves and a large bust','backgrounds':['lampwright','glassworker','bookbinder','waterkeeper','conservator']},
  'Human':{'detail':'individual, wholly human features','backgrounds':['bookbinder','lampwright','glassworker','courier','gardener','waterkeeper','mapmaker','conservator']},
  'High elf':{'detail':'long pointed ears and woodland-inspired personal adornments','backgrounds':['bookbinder','gardener','waterkeeper','mapmaker','conservator']},
  'Dark elf':{'detail':'elegant pointed ears and fine expressive features','backgrounds':['bookbinder','lampwright','glassworker','courier','mapmaker','conservator']},
  'Drow':{'detail':'pointed ears, luminous eyes adapted to subterranean light, and silvery hair accents','backgrounds':['bookbinder','lampwright','glassworker','waterkeeper','mapmaker','conservator']},
- 'Catfolk':{'detail':'expressive feline ears and a softly furred tail','backgrounds':['bookbinder','lampwright','courier','gardener','mapmaker','conservator']},
- 'Kitsune':{'detail':'fox ears and one luxuriant fox tail; tail count conveys no free magical power','backgrounds':['bookbinder','lampwright','glassworker','courier','gardener','mapmaker']},
+ 'Catfolk':{'detail':'exactly two expressive feline ears on top of the head and a softly furred tail; no human side ears, hair covers the sides of the head','backgrounds':['bookbinder','lampwright','courier','gardener','mapmaker','conservator']},
+ 'Kitsune':{'detail':'exactly two fox ears on top of the head and one luxuriant fox tail; no human side ears, hair covers the sides of the head; tail count conveys no free magical power','backgrounds':['bookbinder','lampwright','glassworker','courier','gardener','mapmaker']},
  'Golem':{'detail':'a carefully crafted adult feminine form with fine visible maker’s joins','backgrounds':['bookbinder','lampwright','glassworker','gardener','waterkeeper','conservator']},
  'Demon':{'detail':'small swept horns and a slender expressive tail','backgrounds':['bookbinder','lampwright','glassworker','courier','gardener','mapmaker']},
  'Seraph':{'detail':'soft feathered wings with subtly luminous edges','backgrounds':['bookbinder','lampwright','courier','gardener','mapmaker','conservator']},
@@ -109,9 +109,9 @@ def select(state,request_id,choices=None,pack=None):
     a,b,s=combination
     t=choices.get('temperament') or choose(list(TEMPERAMENTS),Counter(p.get('generationIngredients',{}).get('temperament') for p in profiles))
     appearance={key:choose(list(values),Counter(p.get('generationIngredients',{}).get('appearance',{}).get(key) for p in profiles)) for key,values in [('skin',SKIN),('hair',HAIR),('build',BUILDS)]}
-    if a in ('Bovinefolk','Oni'):appearance['build']='strong, broad-shouldered and generously curvy'
+    if a in ('Bovinefolk','Ogrekin'):appearance['build']='strong, broad-shouldered and generously curvy'
     if a=='Orc':appearance.update(skin=rng.choice(['moss green','deep jade green','olive green']),build='sturdy, powerful and softly curved')
-    if a=='Oni':appearance['skin']=rng.choice(['muted terracotta red','warm copper brown','dusky blue'])
+    if a=='Ogrekin':appearance['skin']=rng.choice(['muted terracotta red','warm copper brown','dusky blue'])
     if a=='High elf':appearance['skin']='fair with warm or cool undertones'
     if a=='Dark elf':appearance['skin']='rich chocolate brown'
     if a=='Drow':appearance['skin']=rng.choice(['slate grey','deep charcoal','soft violet-grey'])
@@ -142,7 +142,7 @@ def offline(state,selection,request_id):
         import content_packs
         return content_packs.offline(selection)
     rng=random.Random(request_id)
-    existing={p['name'].casefold() for p in state['people'].values()}|{c['profile']['name'].casefold() for c in state.get('reviewedCandidates',{}).values()}|{'eris','selene','mira','tamsin','iona','aurelia','neris','sabine'}
+    existing={p['name'].casefold() for p in state['people'].values()}|{c['profile']['name'].casefold() for c in state.get('reviewedCandidates',{}).values()}|{'eris','selene','mira','tamsin','iona','aurelia','neris','sabine','zahra'}
     names=[n+' '+s for n in NAMES for s in SURNAMES if (n+' '+s).casefold() not in existing]
     from game import RuleError
     if not names:raise RuleError('The offline name pool is exhausted.')
@@ -152,6 +152,11 @@ def offline(state,selection,request_id):
         'origin':b['origin'],'ambition':s['ambition'],'accommodationPreference':rng.choice(['separate-bed','private-room']),'capabilityPackageId':b['packageId'],'stayPreference':rng.choice(['open-to-staying','open-to-staying','visit-only']),
         'introduction':'“'+name+'. I heard this was a house where useful work and a little curiosity could share a desk. I would like to see it for myself.”',
         'personalTopic':'“'+s['ambition']+' That is a project I would like to make my own. A good conversation along the way would be welcome.”'}
+    import scripted_companions
+    hobby,value,difficulty,anecdote,question=scripted_companions.life(selection)
+    result['personality']=(t['text']+' '+value+' Enjoys '+hobby+'. '+difficulty)[:400]
+    result['introduction']='“'+name+'. '+{'recruitment':'Your letter reached the workshop.','summoning':'Your invitation reached me between jobs.','construction':'I would like to introduce myself.'}[selection['arrivalMethod']]+' '+s['hook']+' Would your household have room for that sort of work?”'
+    result['personalTopic']='“'+anecdote+' '+question+'”'
     if selection['ancestry']=='Golem':
         result['origin']='A proposed companion to be constructed and awakened here, fully adult in form and cognition, with no invented years of lived history. Her interests and starting knowledge are bounded by the reviewed plan.'
         result['appearanceDescription']='A clearly adult feminine golem, '+a['build']+', made from '+GOLEM_MATERIALS[selection.get('bodyMaterial','clay')]['appearance']+', with '+a['hair']+' and '+t['charm']+'. An opaque fitted violet bodice and practical skirt complement fine handmade joins. No childlike presentation.'

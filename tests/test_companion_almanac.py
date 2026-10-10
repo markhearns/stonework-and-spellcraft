@@ -24,12 +24,12 @@ class CompanionAlmanacTests(unittest.TestCase):
   with self.assertRaises(g.RuleError):self.act(kind,**kw)
   self.assertEqual(self.s,before)
  def test_all_fourteen_have_realistic_individual_basics(self):
-  v=a.views(self.s);self.assertEqual(len(v['people']),15);self.assertEqual(len(v['scenes']),87)
+  v=a.views(self.s);self.assertEqual(len(v['people']),16);self.assertEqual(len(v['scenes']),94)
   self.assertEqual(set(c.PERSONAL),set(c.PHYSICAL))
-  self.assertGreater(c.PHYSICAL['kaede'][0],c.PHYSICAL['brakka'][0]);self.assertGreater(c.PHYSICAL['brakka'][1],c.PHYSICAL['mira'][1])
+  self.assertGreater(c.PHYSICAL['kaede'][0],c.PHYSICAL['zahra'][0]);self.assertEqual(c.PHYSICAL['zahra'][0],155);self.assertEqual(c.PHYSICAL['zahra'][1],54)
   for w,p in v['people'].items():
    self.assertEqual(p['basic']['Ancestry'],g.character_profile(self.s,w)['ancestryLabel']);h,weight,(b,wa,hips),_,_=c.PHYSICAL[w]
-   self.assertTrue(150<=h<=200);self.assertTrue(45<=weight<=130);self.assertTrue(wa<b and wa<hips)
+   self.assertTrue(150<=h<=200);self.assertTrue(45<=weight<=130) if weight is not None else self.assertEqual(g.character_profile(self.s,w)['ancestryLabel'],'Spirit');self.assertTrue(wa<b and wa<hips)
  def test_read_only_views_and_context(self):
   before=deepcopy(self.s);a.views(self.s)
   for w in c.PERSONAL:a.context(self.s,w)
@@ -79,7 +79,7 @@ class CompanionAlmanacTests(unittest.TestCase):
   involved=set()
   for x,y,_,_ in c.PAIRS:
    involved.update([x,y]);self.familiar(x);self.familiar(y);self.share(f'pair:{x}:{y}:0','candid')
-   self.assertIn(a.CHOICES['candid'][0],a.definition(self.s,f'pair:{x}:{y}:1')['opening'])
+   self.assertIn(a.saved(self.s)['memories'][f'pair:{x}:{y}:0']['playerLine'],a.definition(self.s,f'pair:{x}:{y}:1')['opening'])
    self.reject('share-almanac',sceneId=f'pair:{x}:{y}:1',choice='warm');self.act('advance');self.share(f'pair:{x}:{y}:1','curious');self.act('advance');self.share(f'pair:{x}:{y}:2','warm')
    self.assertEqual(relationships.saved(self.s)['bonds'][relationships.pair_id(x,y)]['affection'],1)
   self.assertEqual(involved,set(c.PERSONAL))
@@ -109,8 +109,8 @@ class CompanionAlmanacTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as d:
    st=GameStore(d);asset=Path(d,'assets');asset.mkdir(exist_ok=True);(asset/'accepted.png').write_bytes(b'kept')
    with sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(old),))
-   upgraded=GameStore(d).read();self.assertTrue(Path(d,'campaign-before-schema-57-to-66.sqlite3').exists());self.assertEqual((asset/'accepted.png').read_bytes(),b'kept')
-   expected=deepcopy(old);expected['schemaVersion']=66;expected['revision']+=1;expected['companionAlmanac']={'memories':{},'deferred':[]};__import__('armoury').initialize(expected);self.assertEqual(upgraded,expected)
+   upgraded=GameStore(d).read();self.assertTrue(Path(d,f'campaign-before-schema-57-to-{g.CURRENT_SCHEMA_VERSION}.sqlite3').exists());self.assertEqual((asset/'accepted.png').read_bytes(),b'kept')
+   expected=deepcopy(old);expected['schemaVersion']=g.CURRENT_SCHEMA_VERSION;expected['revision']+=1;expected['companionAlmanac']={'memories':{},'deferred':[]};__import__('armoury').initialize(expected);self.assertEqual(upgraded,expected)
  def test_retry_and_reload_awards_disclosure_once(self):
   self.trust('mira')
   with tempfile.TemporaryDirectory() as d:

@@ -1,6 +1,6 @@
 # Stonework and Spellcraft — expansion content handoffs
 
-The original character-foundations ZIP is included unchanged under `dependencies/`. Give the other LLM this folder, and one or more numbered assignments. Tell it: **Read 00-shared-contract.md and the assigned handoff. Generate the requested complete content pack, validate it, and deliver its files. Do not implement game code or claim unsupported imports work.**
+The original character-foundations ZIP is available unchanged at [the downloadable example pack](../../static/examples/stonework-spellcraft-content-pack.zip). Give the other LLM that ZIP, this folder, and one or more numbered assignments. Tell it: **Read 00-shared-contract.md and the assigned handoff. Generate the requested complete content pack, validate it, and deliver its files. Do not implement game code or claim unsupported imports work.**
 
 The supplied character pack passed the prototype's structural validation: 2,100 names, 525 appearances, 525 story seeds and 445 shared records (3,595 total). It already covers personality, boundaries, voices, ambitions, clothing, ensembles, interaction seeds and story patterns. Extend those categories with usable follow-through; do not commission duplicate pools just to increase counts.
 

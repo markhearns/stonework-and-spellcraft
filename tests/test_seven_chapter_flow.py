@@ -21,20 +21,25 @@ class SevenChapterFlowTests(six.FiveChapterFlowTests):
   if not rooms:
    # Existing spare room construction, funded through commissions.
    self.money(34);self.act('hq-bedroom',roomId='guard-dormitory');self.advance(4);rooms=arrivals.eligible_rooms(self.s,self.s['people']['rhess'])
-  self.act('summoning-invite',contactId=cid,roomId=rooms[0]);self.advance();self.act('summoning-ask-stay',contactId=cid);self.act('summoning-household-decision',contactId=cid,decision='invite-to-stay')
-  self.act('agree-household-role',characterId='rhess',role='fieldwork',enabled=True,willingnessReviewed=True);self.act('gear-review')
-  self.money(32);self.act('hq-build',roomId='watchtower');self.advance(4);self.assertTrue(h.ready(self.s,'watchtower'))
-  for w in ('founder','rhess'):self.act('assign-character',characterId=w,assignment='rest')
+  self.act('summoning-invite',contactId=cid,roomId=rooms[0]);self.advance()
+  guest=getattr(self,'lean',False) and company=='solo'
+  if guest:self.act('patrol-guest-ally');self.assertNotIn('rhess',g.household_members(self.s))
+  else:
+   self.act('summoning-ask-stay',contactId=cid);self.act('summoning-household-decision',contactId=cid,decision='invite-to-stay')
+   self.act('agree-household-role',characterId='rhess',role='fieldwork',enabled=True,willingnessReviewed=True);self.act('gear-review')
+  self.build('watchtower');self.assertTrue(h.ready(self.s,'watchtower'))
+  for w in (('founder',) if guest else ('founder','rhess')):self.act('assign-character',characterId=w,assignment='rest')
   self.act('patrol-drill');self.advance(2);self.act('patrol-plan',choice='repair' if company=='solo' else 'retire')
   for _ in range(3):
    if not p.departure_blockers(self.s,p.WARD):break
    self.advance()
   self.assertEqual(p.departure_blockers(self.s,p.WARD),[])
-  self.act('gear-party-loadout',participants=['founder','rhess'],mode='expedition');self.journey(p.WARD,['rhess'],company=='meet')
+  self.act('gear-party-loadout',participants=['founder'] if guest else ['founder','rhess'],mode='expedition');self.journey(p.WARD,['rhess'],company=='meet')
   for _ in range(6):
    if not p.closing_blockers(self.s):break
    self.advance()
   self.act('patrol-conclude');self.assertTrue(p.saved(self.s)['completedOn']);self.assertFalse(self.s['testing']['used'])
-  before=deepcopy(self.s);v=g.public_state(self.s);self.assertEqual(before,self.s);self.assertIn('rhess',v['characterCatalog']);self.assertIn('overview-rhess',v['originalAssets'])
+  before=deepcopy(self.s);v=g.public_state(self.s);self.assertEqual(before,self.s);self.assertIn('rhess',self.s['people']);self.assertIn('overview-rhess',v['originalAssets'])
+  if not guest:self.assertIn('rhess',v['characterCatalog'])
   if not os.environ.get('STONEWORK_AUDIT_DIR'):return
   out=Path(os.environ['STONEWORK_AUDIT_DIR']);out.mkdir(parents=True,exist_ok=True);(out/('earned-seven-'+company+'.json')).write_text(json.dumps(self.s));(out/('chapter-seven-'+company+'.json')).write_text(json.dumps({'startDay':start['dayNumber'],'startPhase':start['currentDayPhase'],'endDay':self.s['dayNumber'],'endPhase':self.s['currentDayPhase'],'breathUsed':p.saved(self.s)['breathUsed'],'outcomes':self.s['patrolJourneys']},indent=2))

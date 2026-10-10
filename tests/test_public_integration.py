@@ -128,7 +128,7 @@ class PublicIntegrationTests(unittest.TestCase):
    store=GameStore(directory);old=store.read();old['schemaVersion']=36
    for k in ('journeys','discoveries','communities','contacts','productionBriefs','qaRuns'):old['publicWorkshop'].pop(k)
    with store.connect() as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(old),))
-   store=GameStore(directory);self.assertEqual(store.read()['schemaVersion'],66);self.assertTrue(Path(directory,'campaign-before-schema-36-to-66.sqlite3').exists())
+   store=GameStore(directory);self.assertEqual(store.read()['schemaVersion'],g.CURRENT_SCHEMA_VERSION);self.assertTrue(Path(directory,f"campaign-before-schema-36-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
    r=next(iter(w.records('community-template')));payload={'requestId':str(uuid.uuid4()),'expectedRevision':store.read()['revision'],'action':{'type':'public-establish-community','ownerId':'founder','recordId':r,'scopeReviewed':True,'agreed':True,'evidence':NOTE}}
    first=store.action(payload);self.assertEqual(first,store.action(payload));self.assertEqual(first,GameStore(directory).read())
    before=deepcopy(store.read());payload.update(requestId=str(uuid.uuid4()),expectedRevision=before['revision']);payload['action']['recordId']='bad'

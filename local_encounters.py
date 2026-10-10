@@ -2,10 +2,10 @@
 from copy import deepcopy
 
 PEOPLE={
- 'maren':{'name':'Maren','age':24,'ancestry':'Bovinefolk','background':'bookbinder','temperament':'playful','story':'repair-method','place':'The neighbouring joinery','lead':'A nearby craftswoman offers an afternoon comparing repair methods.','unlock':'Available from the beginning.','greeting':'“Maren. I can lift the case myself, thank you. You may impress me by finding somewhere sensible to put it.” Her smile takes the sting out of the challenge.','appearance':'Strong, curvy adult woman with smooth warm brown human skin, bovine horns and ears, a tufted tail, chestnut waves and hazel eyes; fitted plum work bodice, charcoal skirt and worn apron.','origin':'A bovinefolk craftswoman who repairs cases and book furniture at the neighbouring joinery.','ambition':'Develop careful repair notes for useful objects too often discarded.'},
- 'brakka':{'name':'Brakka','age':23,'ancestry':'Orc','background':'waterkeeper','temperament':'poised','story':'water-study','place':'A conservatory work visit','lead':'A green-skinned irrigation worker has heard that the old conservatory is usable again.','unlock':'Restore the conservatory.','greeting':'“Brakka. I have patience for awkward channels and very little for confident guesses.” She lifts a measuring cord and gives you an amused look. “Which sort of afternoon shall we have?”','appearance':'Sturdy, athletic and curvy adult orc woman with olive-green skin, a broad nose, strong jaw, small upward lower canine tusks rooted in her mouth, black braided hair and amber eyes. Youthful feminine features retain her clearly orc identity; plum work tunic, charcoal trousers, leather apron, bracers and boots.','origin':'An orc irrigation worker from the valley gardens, accustomed to steady demanding work and careful measurements.','ambition':'Make a reliable notebook of small irrigation channels and how to check them.'},
- 'fenna':{'name':'Fenna','age':22,'ancestry':'Wolfkin','background':'mapmaker','temperament':'restless','story':'route-notes','place':'The nursery path','lead':'The nursery route may introduce a route keeper interested in comparing observations.','unlock':'Return with a discovery from the fern nursery.','greeting':'“Fenna. You came back with notes instead of a heroic explanation. Promising.” Her ears tilt towards you as she opens a worn notebook. “Let us compare the interesting bits.”','appearance':'Adult wolfkin woman with warm tan human skin, grey wolf ears and fluffy tail, silver-grey waves and amber eyes; sage bodice, navy side-slit skirt and ankle boots.','origin':'A wolfkin route keeper who works between the valley settlements and the fern nursery.','ambition':'Record the small useful routes that grand maps tend to leave out.'},
- 'kaede':{'name':'Kaede','age':24,'ancestry':'Oni','background':'glassworker','temperament':'bold','story':'colour-study','place':'A letter from beyond the threshold','lead':'Passage studies can uncover an oni glassworker interested in exchanging workshop notes.','unlock':'Record Courteous passage in the archive.','greeting':'“Kaede.” She turns a small glass cup so you can see its thin rim. “I made this one. Getting the thickness even took longer than I care to admit.”','appearance':'Tall adult oni woman with terracotta-red skin, two horns, loose blue-black hair, a full bust, defined waist and rounded hips, with a fit figure and subtle muscle definition; barbarian-style leather cuirass over a violet tunic, full hide trousers, fur shoulder mantle, bracers and fur-trimmed boots.','origin':'An oni glassworker beyond the threshold who values controlled strength and a lively exchange of ideas.','ambition':'Study patient colour and the effects of small changes in a glassworking method.'},
+ 'koharu':{'name': 'Koharu', 'age': 23, 'ancestry': 'Kitsune', 'background': 'bookbinder', 'occupation': 'stage-prop restorer', 'temperament': 'playful', 'story': 'repair-method', 'place': 'The neighbouring travelling theatre workshop', 'lead': 'A local kitsune craftswoman brings a broken mechanical bird and an invitation to compare repair methods.', 'unlock': 'Available from the beginning. Koharu already lives nearby; no crossing ritual is needed.', 'greeting': '“Koharu. This bird is supposed to bow, but it has developed an opinion about the audience.” She steadies its loose wooden head. “May I borrow a clear table? You can help decide whether it looks offended or merely tired.”', 'appearance': 'Clearly adult kitsune woman of 23, 158 cm tall, slight slender build with narrow shoulders, warm light-olive skin, hazel-green eyes and long dark chestnut hair worn loose, with thick side locks covering the sides of her head. Exactly two dark brown fox ears on top of her head and one full dark brown fox tail with a cream tip. No human ears. Human face and smooth human skin. Deep-teal wrap blouse, cinnamon divided work skirt, dark leggings, lace-up ankle boots and a small tool belt.', 'origin': 'A kitsune stage-prop restorer from the neighbouring travelling theatre workshop. She repairs small mechanisms, book stands and scenery that must fold neatly into a wagon.', 'ambition': 'Build a small travelling puppet stage with repairs its performers can manage themselves, and write clear instructions for every moving part.'},
+ 'zahra':{'name': 'Zahra', 'age': 23, 'ancestry': 'Djinn', 'background': 'waterkeeper', 'occupation': 'precision smith', 'temperament': 'poised', 'story': 'water-study', 'place': 'A letter carried through the conservatory wards', 'lead': 'A Djinn smith offers designs for the conservatory’s worn brass water gates. Her letter includes a measured drawing and a tiny ember that fades when the paper cools.', 'unlock': 'Restore the conservatory, then use an exotic contact ritual to exchange an invitation.', 'greeting': '“Zahra. I make small things that must fit properly.” A curl of smoke slips from her hair as she unfolds a hinge drawing. “The ember is mine. The measurements still need checking.”', 'appearance': 'Clearly adult Djinn woman of 23, short at 155 cm, with a soft curvy build, narrow shoulders and no visible muscle definition. Warm brown skin, an oval face, slender nose, softly luminous amber eyes and long black curls that dissolve into grey-violet smoke with tiny ember lights. Indigo wrap blouse, woven sash, loose trousers, short leather apron and ankle boots. A small ember glows above her fingertips.', 'origin': 'A Djinn precision smith from a canal town beyond the threshold. She learned to fit brass sluice gates and direct a small, steady ember before turning to hinges, clasps and musical mechanisms.', 'ambition': 'Make a dependable small clockwork instrument and teach apprentices how to work with heat without wasting delicate pieces.'},
+ 'fenna':{'name':'Fenna','age':22,'ancestry':'Wolfkin','background':'mapmaker','temperament':'restless','story':'route-notes','place':'The nursery path','lead':'The nursery route may introduce a route keeper interested in comparing observations.','unlock':'Return with a discovery from the fern nursery.','greeting':'“Fenna. You came back with notes instead of a heroic explanation. Promising.” Her ears tilt towards you as she opens a worn notebook. “Let us compare the interesting bits.”','appearance':'Adult wolfkin woman with warm tan human skin, exactly two grey wolf ears on top of her head and a fluffy tail, silver-grey waves covering both sides of her head, no human ears, and amber eyes; sage bodice, navy side-slit skirt and ankle boots.','origin':'A wolfkin route keeper who works between the valley settlements and the fern nursery.','ambition':'Record the small useful routes that grand maps tend to leave out.'},
+ 'kaede':{'name':'Kaede','age':24,'ancestry':'Ogrekin','background':'glassworker','temperament':'bold','story':'colour-study','place':'The valley glassworks','lead':'The repaired hearth wards draw a local ogrekin glassworker interested in exchanging workshop notes.','unlock':'Complete the first hearth-ward study.','greeting':'“Kaede.” She turns a small glass cup so you can see its thin rim. “I made this one. Getting the thickness even took longer than I care to admit.”','appearance':'Tall adult ogrekin woman with terracotta-red skin, two horns, loose blue-black hair, a full bust, defined waist and rounded hips, with a fit figure and subtle muscle definition; barbarian-style leather cuirass over a violet tunic, full hide trousers, fur shoulder mantle, bracers and fur-trimmed boots.','origin':'A local ogrekin glassworker from the valley glassworks who values controlled strength and a lively exchange of ideas.','ambition':'Study patient colour and the effects of small changes in a glassworking method.'},
 }
 
 
@@ -20,10 +20,10 @@ def unlocked(state,key):
     if key=='rhess':return bool(state.get('patrolJourneys',{}).get('watchtower-trail',{}).get('discoveries'))
     if key=='velis':return bool(state.get('hollowRoad',{}).get('discoveries'))
     if key=='sylva':return g.room_available(state,'conservatory') and bool(g.discoveries_for(state,'fern-nursery'))
-    if key=='elowen':return state['researchStatus']=='complete'
+    if key in ('elowen','kaede'):return state['researchStatus']=='complete'
     if key=='nyssara':return 'survey' in g.discoveries_for(state,'ridge-cistern')
-    if key=='maren':return True
-    if key=='brakka':return g.room_available(state,'conservatory')
+    if key=='koharu':return True
+    if key=='zahra':return g.room_available(state,'conservatory')
     if key=='fenna':return bool(g.discoveries_for(state,'fern-nursery'))
     return 'courteous-passage' in state['archivePrinciples']
 
@@ -37,6 +37,16 @@ def definition(state,key):
     p.update(name=d['name'],adultAgeYears=d['age'],appearanceDescription=d['appearance'],origin=d['origin'],ambition=d['ambition'],introduction=d['greeting'],accommodationPreference='separate-bed',stayPreference='open-to-staying')
     if d.get('occupation'):p['occupation']=d['occupation']
     c=approved_definition(p,key,'authored-local-v1','local-'+key)
+    
+    if key=='zahra':
+        c['principles']=['water-guidance','steady-hearth-wards']
+        c['focusName']='Ember-marked brass gauge'
+        c['topics']['intentions']['text']='“I fit sluice gates, hinges and little musical movements. My ember keeps a small piece evenly warm; it does not measure or shape the piece for me.”'
+        c['personalTopics']['interests']['text']='“I am making a musical box with a tune I chose myself. The third note keeps catching. I can control the heat; persuading a spring to behave is another matter.”'
+    if key=='koharu':
+        c['profile'].update(arrivalMethod='recruitment',personality='Quick-witted, candid and absorbed by small mechanisms. Enjoys playful surprises, painted scenery and spiced plum tea. Values the audience’s enjoyment and repair instructions anyone can follow; dislikes humiliating jokes and starts redesigning before asking.')
+        c['topics']['intentions']['text']='“Stage birds, folding scenery, book stands: things that have to survive a wagon ride. I want performers to repair them without sending for me. A good trick can keep its secret; a broken hinge needs instructions.”'
+        c['personalTopics']['interests']['text']='“I am painting a ridiculous little dragon for my puppet stage. Its eyebrows must move before its mouth does, or the joke arrives in the wrong order. Would you rather see the mechanism or try its voice?”'
     selection.pop('appearance',None) # Authored appearance is fixed by the portrait and explicit description above.
     c['profile'].update(identitySource='authored-local-encounter',generationIngredients=selection)
     c['textSource']='authored-local-encounter'
@@ -102,8 +112,12 @@ def resolve(state,summary):
     state['localEncounterCandidates'][key]=definition(state,key)
     state['localEncounters'][key].update(status='introduced',completedOn={'dayNumber':state['dayNumber'],'phase':state['currentDayPhase']})
     state['localVisit']=None;state['founderAssignment']='rest'
-    if key not in ('kaede','sylva'):arrivals.contact(state,key,'ordinary-encounter')
-    text=('A letter establishes '+d['name']+'’s identity and interests. Use the normal exotic contact ritual before meeting her.' if key in ('kaede','sylva') else d['name']+' is now an ordinary contact. An agreed visit and household membership remain separate choices.')
+    import recruitment_quests
+    is_common=recruitment_quests.common(state['localEncounterCandidates'][key])
+    if is_common:recruitment_quests.lead(state,key,'rescue')
+    elif key not in ('sylva','zahra'):arrivals.contact(state,key,'ordinary-encounter')
+    text=('A letter establishes '+d['name']+'’s identity and interests. Use the normal exotic contact ritual before meeting her.' if key in ('sylva','zahra') else d['name']+' is now an ordinary contact. An agreed visit and household membership remain separate choices.')
+    if is_common:text=d['name']+'’s route notes identify a stranded traveller beyond a raider roadblock. Her rescue lead is on the recruitment quest board; no person has joined the household.'
     summary.append(text);g.add_journal(state,text)
 
 # Two authored common-ancestry specialists use ordinary introductions and visits.
@@ -139,3 +153,12 @@ def revise_sylva(state):
         if profile.get('appearanceDescription')==PEOPLE['sylva']['appearance']:continue
         profile.setdefault('identityHistory',[]).append({k:deepcopy(profile.get(k)) for k in ('appearanceDescription','identityRevision')})
         profile.update(appearanceDescription=PEOPLE['sylva']['appearance'],identityRevision=profile.get('identityRevision',1)+1)
+
+# Named common neighbours have concrete rescue leads before an optional invitation.
+for _who,_lead in {
+ 'fenna':'Fenna’s route notebook reaches the castle with a returning courier. A toll-taking band has blocked her way back from the nursery path.',
+ 'kaede':'The valley glassworks reports that Kaede and a wagon of repair supplies are stranded beyond an illegal roadblock.',
+ 'elowen':'Elowen’s hearth-ward report arrives without its author. A traveller saw her waiting with other travellers behind a raider barricade.',
+ 'nyssara':'Nyssara sent the cistern survey ahead, but her mineral cart has been stopped by raiders on the return road.'
+}.items():
+ PEOPLE[_who]['lead']=_lead

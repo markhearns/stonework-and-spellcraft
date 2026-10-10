@@ -22,6 +22,7 @@ class CandidateHTTPTests(unittest.TestCase):
                 with urllib.request.urlopen(req,timeout=5) as response:return json.load(response)
             try:
                 state=request('/api/state?campaign=default')
+                state=request('/api/action?campaign=default',{'requestId':uuid.uuid4().hex,'expectedRevision':state['revision'],'action':{'type':'cheat-toggle','enabled':True}})
                 draft=request('/api/dialogue/draft?campaign=default',{'requestId':uuid.uuid4().hex,'expectedRevision':state['revision'],'purpose':'candidate-proposal','text':'An adult vampire artisan.'})
                 self.assertEqual(draft['status'],'ready')
                 self.assertEqual(len(request('/api/dialogue/drafts?campaign=default&purpose=candidate-proposal')['drafts']),1)
@@ -32,6 +33,6 @@ class CandidateHTTPTests(unittest.TestCase):
                 who='summoned-'+draft['id'];self.assertIn(who,accepted['reviewedCandidates'])
                 self.assertNotIn(who,accepted['people'])
                 self.assertIn(who,accepted['summoningView']['candidates'])
-                self.assertEqual(request('/api/health')['version'],'0.105')
+                self.assertEqual(request('/api/health')['version'],'0.118')
             finally:
                 server.shutdown();worker.join(timeout=5);server.server_close()

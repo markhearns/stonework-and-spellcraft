@@ -17,7 +17,7 @@ class BestiaryTests(unittest.TestCase):
   self.assertEqual(old,self.s)
  def test_shared_catalogue_and_pools(self):
   self.assertIs(p.ENEMIES,b.ENCOUNTERS);self.assertIs(p.ROUTES,b.ROUTES)
-  self.assertEqual((len(b.CREATURES),len(b.ANCESTRIES)),(14,21))
+  self.assertEqual((len(b.CREATURES),len(b.ANCESTRIES)),(30,21))
   offered={k for r in b.ROUTES.values() for k in r['pool']}
   self.assertTrue(all(d['enemyId'] in offered for d in b.CREATURES.values()))
   for r in b.ROUTES.values():
@@ -48,6 +48,7 @@ class BestiaryTests(unittest.TestCase):
   self.s['materialInventory']['grave-silk']=2;self.s['materialReserveTargets']['grave-silk']=1
   funds=self.s['sharedFunds'];self.act('sell-material',materialId='grave-silk');self.assertEqual(self.s['sharedFunds'],funds+g.MATERIALS['grave-silk']['price']);self.reject('sell-material',materialId='grave-silk')
  def test_all_bounties_shared_profiles_and_exact_return_rewards(self):
+  p.initialize(self.s);self.s['firstRealTest']['completedOn']={'dayNumber':1,'phase':'morning'}
   initial=deepcopy(self.s)
   for cid,contract in c.CONTRACTS.items():
    with self.subTest(creature=cid):
@@ -57,6 +58,9 @@ class BestiaryTests(unittest.TestCase):
     import character_builds
     character_builds.build(self.s,'founder')['attributes']={k:10 for k in character_builds.ATTRIBUTES}
     self.s['characterSkills']['founder']={k:4 for k in g.CHARACTER_SKILLS}
+    if cid=='runebound-colossus':
+     for _ in range(3):
+      action=next(r for r in p.choices(self.s) if r.get('challengeAction')=='disconnect');self.act('watch-method',methodId=action['id']);self.act('advance')
     row=next(r for r in p.choices(self.s) if r['kind']=='peace' and not r['blockers'])
     self.act('watch-method',methodId=row['id']);self.act('advance');self.s['currentDayPhase']='morning'
     self.assertEqual(b.knowledge(self.s,cid),2);old=deepcopy(self.s['materialInventory']);funds=self.s['sharedFunds'];self.act('advance');r=p.saved(self.s)['reports'][-1]
@@ -73,7 +77,7 @@ class BestiaryTests(unittest.TestCase):
   # Use the same testing toggle as other cheats.
   self.s['testing']['enabled']=True
   old=deepcopy(self.s['materialInventory']);funds=self.s['sharedFunds'];self.act('cheat-bestiary')
-  self.assertEqual(b.view(self.s)['complete'],14);self.assertTrue(b.saved(self.s)['revealed']);self.assertEqual(self.s['materialInventory'],old);self.assertEqual(self.s['sharedFunds'],funds)
+  self.assertEqual(b.view(self.s)['complete'],30);self.assertTrue(b.saved(self.s)['revealed']);self.assertEqual(self.s['materialInventory'],old);self.assertEqual(self.s['sharedFunds'],funds)
   self.assertTrue(all(r['sightings']==r['resolved']==0 for r in b.saved(self.s)['entries'].values()))
  def test_old_reports_knowledge_and_migration_backup(self):
   from server import GameStore
@@ -84,7 +88,7 @@ class BestiaryTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as folder:
    st=GameStore(folder)
    with sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(s),))
-   actual=GameStore(folder).read();self.assertTrue(Path(folder,'campaign-before-schema-65-to-66.sqlite3').is_file());self.assertEqual(actual['schemaVersion'],66)
+   actual=GameStore(folder).read();self.assertTrue(Path(folder,'campaign-before-schema-65-to-'+str(g.CURRENT_SCHEMA_VERSION)+'.sqlite3').is_file());self.assertEqual(actual['schemaVersion'],g.CURRENT_SCHEMA_VERSION)
    for k,v in expected.items():
     if k not in ('schemaVersion','revision','materialInventory','materialReserveTargets'):self.assertEqual(actual[k],v,k)
    self.assertEqual(b.knowledge(actual,'briarback-boar'),2)

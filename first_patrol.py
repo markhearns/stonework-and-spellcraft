@@ -19,6 +19,18 @@ def initialize(s):
  household_rest.initialize(s)
  s['localEncounters'].setdefault('rhess',{'status':'available','completedOn':None})
 def saved(s):return s['firstPatrol']
+def guest_ally(s):return bool(saved(s).get('guestAlly') and s.get('residency',{}).get('rhess',{}).get('residencyStatus')=='visiting')
+def willing_ally(s):
+ import game as g
+ return 'rhess' in g.household_members(s) or guest_ally(s)
+def guest_blockers(s):
+ import game as g
+ b=[]
+ if not progress(s,TRAIL)['discoveries']:b.append('Meet Rhess on the watchtower trail first.')
+ if s.get('residency',{}).get('rhess',{}).get('residencyStatus')!='visiting':b.append('Arrange Rhess’s ordinary visit and let her arrive. Permanent membership is optional.')
+ if not g.character_at_castle(s,'founder') or not g.character_at_castle(s,'rhess'):b.append('Both of you must be at the castle.')
+ if saved(s).get('guestAlly'):b.append('The guest alliance is already agreed.')
+ return b
 def active(s):return bool(s.get('expedition') and s['expedition']['siteId'] in SITES)
 def progress(s,site=None):return s['patrolJourneys'][site or s['expedition']['siteId']]
 def step(s):return next((d for d in STEPS[s['expedition']['siteId']] if d[0] not in progress(s)['completed']),None)
@@ -32,11 +44,11 @@ def departure_blockers(s,site):
  if not available(s) or not r['started']:b.append('Conclude Chapter 6 and open The First Patrol.')
  if site==WARD:
   if not progress(s,TRAIL)['discoveries']:b.append('Return from the watchtower trail first.')
-  if 'rhess' not in g.household_members(s):b.append('Invite Rhess to visit and agree household membership through Contacts.')
+  if not willing_ally(s):b.append('Invite Rhess to visit, then agree a guest alliance or household membership.')
   if not r['drillDone']:b.append('Complete the two-phase shared relief drill.')
   if not h.ready(s,'watchtower'):b.append('Restore the watchtower.')
   if not r['resolution']:b.append('Agree whether to repair or retire the old guardian command.')
-  if not r['returnedOn'] or any(s.get('overnightRest',{}).get(w,0)<=r['returnedOn'] for w in ('founder','rhess')):b.append('After returning and recruiting Rhess, spend an evening with both of you resting at home; Advance includes overnight sleep.')
+  if not r['returnedOn'] or any(s.get('overnightRest',{}).get(w,0)<=r['returnedOn'] for w in ('founder','rhess')):b.append('After returning and welcoming Rhess, spend an evening with both of you resting at home; Advance includes overnight sleep.')
  return b
 
 def encounter_view(s):
@@ -70,7 +82,12 @@ def apply(s,act):
  if not isinstance(k,str) or not k.startswith('patrol-'):return False
  g.require(g.character_at_castle(s,'founder'),'Return home first.');g.require(available(s),'Conclude Chapter 6 first.')
  if k=='patrol-start':
-  g.require(not r['started'],'The patrol has already begun.');r['started']=True;remember(s,'An unanswered signal','Velis brings reports of deserted camps. A tower lamp still answers the road, though nobody remembers assigning a keeper.')
+  g.require(not r['started'],'The patrol has already begun.');r['started']=True;remember(s,'An unanswered signal','A letter from Velis reports deserted camps. A tower lamp still answers the road, though nobody remembers assigning a keeper.')
+ elif k=='patrol-guest-ally':
+  b=guest_blockers(s);g.require(not b,' '.join(b));r['guestAlly']=True
+  import armoury
+  armoury.review_starters(s,['rhess'])
+  remember(s,'A guest on the shared watch','Rhess considers the wardstone map. “I will help finish this work and practice handing over the watch. I would like to stay as a guest while we do it; I am not deciding where to settle.” You agree. Her guest bed and belongings remain hers, and permanent membership is a separate invitation.')
  elif k=='patrol-plan':
   g.require(progress(s,TRAIL)['discoveries'],'Meet the keeper and bring her account home first.');g.require(not progress(s,WARD)['completed'] and not r['completedOn'],'The field resolution is already underway.');g.require(act.get('choice') in ('repair','retire'),'Choose repair or safe retirement.');r['resolution']=act['choice']
  elif k=='patrol-drill':
@@ -84,7 +101,7 @@ def drill_blockers(s):
  import game as g
  r=saved(s);b=[]
  if r['drillDone'] or r['drill']:b.append('The relief drill is already complete or underway.')
- if any(w not in g.household_members(s) or not g.character_at_castle(s,w) for w in ('founder','rhess')):b.append('Bring yourself and household member Rhess home.')
+ if not willing_ally(s) or any(not g.character_at_castle(s,w) for w in ('founder','rhess')):b.append('Bring yourself and your willing ally Rhess home.')
  elif any(g.character_assignment(s,w)!='rest' for w in ('founder','rhess')):b.append('Set both yourself and Rhess to Rest before beginning the shared drill.')
  if not h.ready(s,'training-yard'):b.append('Restore the training yard.')
  return b
@@ -92,7 +109,11 @@ def drill_blockers(s):
 def resolve_home(s,summary,assignments,phase):
  import game as g
  r=saved(s)
- if r['drill'] and all(assignments.get(w)=='rest' for w in ('founder','rhess')):
+ assignments=dict(assignments)
+ if guest_ally(s) and g.character_at_castle(s,'rhess'):
+  assignments['rhess']=g.character_assignment(s,'rhess')
+  if phase=='evening' and assignments['rhess']=='rest':s['overnightRest']['rhess']=s['dayNumber']+1
+ if r['drill'] and willing_ally(s) and all(assignments.get(w)=='rest' for w in ('founder','rhess')):
   r['drill']['done']+=1;summary.append('Shared relief drill: '+str(r['drill']['done'])+'/2 phases. Rhess practices giving up the front position.')
   if r['drill']['done']==2:r['drillDone']=True;r['drill']=None
 
@@ -113,7 +134,7 @@ def resolve_expedition(s):
  if e['discoveryReady'] and not p['discoveries']:
   p['discoveries'].append('survey');s['sharedFunds']+=20;provisions.add(s,12);rewards=['The household receives 20 crowns and 12 provisions for securing this route.']
   if site==TRAIL:
-   saved(s)['returnedOn']=s['dayNumber'];rewards.append('Rhess offers correspondence. Invite her through Contacts, restore the tower, practice relief, and sleep at home before the next journey.')
+   saved(s)['returnedOn']=s['dayNumber'];rewards.append('Rhess offers correspondence. Invite her through Contacts and agree a guest alliance or membership, restore the tower, practice relief, and sleep at home before the next journey.')
    if 'rhess' not in s['people'] and not any(x['name'].casefold()=='rhess' for x in list(s['people'].values())+[c['profile'] for c in s['reviewedCandidates'].values()]):
     s['localEncounterCandidates']['rhess']=local_encounters.definition(s,'rhess');s['localEncounters']['rhess'].update(status='introduced',completedOn={'dayNumber':s['dayNumber'],'phase':s['currentDayPhase']});arrivals.contact(s,'rhess','ordinary-encounter')
   else:
@@ -126,7 +147,7 @@ def resolve_expedition(s):
 def closing_blockers(s):
  import game as g
  r=saved(s);b=[]
- if 'rhess' not in g.household_members(s) or not g.character_at_castle(s,'rhess'):b.append('Bring Rhess home for the shared supper.')
+ if not willing_ally(s) or not g.character_at_castle(s,'rhess'):b.append('Bring Rhess home for the shared supper as a guest ally or resident.')
  if r['completedOn']:b.append('Chapter complete.')
  if not progress(s,WARD)['discoveries']:b.append('Return with the wardstone resolution first.')
  if s['currentDayPhase']!='evening':b.append('Share the closing supper in the evening.')
@@ -136,7 +157,7 @@ def view(s):
  import campaign_guidance as guide
  import game as g
  r=saved(s)
- return {**deepcopy(r),'next':guide.checked(s,guide.first_patrol(s)),'drillBlockers':drill_blockers(s),'available':available(s),'met':bool(progress(s,TRAIL)['discoveries']),'resident':'rhess' in g.household_members(s),'tower':h.ready(s,'watchtower'),'trailBlockers':departure_blockers(s,TRAIL),'wardBlockers':departure_blockers(s,WARD),'closingBlockers':closing_blockers(s),'nightRestDay':s['overnightRest'].get('founder')}
+ return {**deepcopy(r),'next':guide.checked(s,guide.first_patrol(s)),'drillBlockers':drill_blockers(s),'available':available(s),'met':bool(progress(s,TRAIL)['discoveries']),'resident':'rhess' in g.household_members(s),'guestAlly':guest_ally(s),'guestBlockers':guest_blockers(s),'tower':h.ready(s,'watchtower'),'trailBlockers':departure_blockers(s,TRAIL),'wardBlockers':departure_blockers(s,WARD),'closingBlockers':closing_blockers(s),'nightRestDay':s['overnightRest'].get('founder')}
 def register(g):
  h.ROOMS['watchtower']=h.room('Watchtower & signal room','Defence','A castle-linked outpost with a signal lamp, route table and a chair for the guard coming off duty.',('firstPatrol','expeditions'),32,4,('guard-barracks','supply-office'),benefit='A restored route outpost. Shares castle supplies; no separate inventory or hunger meter.')
  for key,(name,description) in SITES.items():

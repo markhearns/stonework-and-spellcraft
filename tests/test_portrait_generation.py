@@ -113,15 +113,15 @@ class PortraitTests(unittest.TestCase):
         class Response:
             def __enter__(self):return self
             def __exit__(self,*args):pass
-            def read(self,n):self.limit=n;return json.dumps({'data':[{'b64_json':data}]}).encode()
+            def read(self,n):self.limit=n;return json.dumps({'choices':[{'message':{'images':[{'image_url':{'url':'data:image/png;base64,'+data}}]}}]}).encode()
         response=Response()
-        with patch('portrait_generation.urllib.request.urlopen',return_value=response) as send:
+        with patch('provider_protocols.open_request',return_value=response) as send:
             self.assertEqual(provider_image(self.settings.read(),'portrait'),PNG)
             req=send.call_args.args[0]
-            self.assertEqual(req.full_url,'https://openrouter.ai/api/v1/images')
-            body=json.loads(req.data);self.assertEqual(body['n'],1);self.assertFalse(body['stream'])
+            self.assertEqual(req.full_url,'https://openrouter.ai/api/v1/chat/completions')
+            body=json.loads(req.data);self.assertEqual(body['modalities'],['image','text']);self.assertFalse(body['stream'])
             self.assertEqual(response.limit,9_000_001)
-        with patch('portrait_generation.urllib.request.urlopen',side_effect=RuntimeError('test-secret')):
+        with patch('provider_protocols.open_request',side_effect=RuntimeError('test-secret')):
             with self.assertRaises(RuleError) as raised:provider_image(self.settings.read(),'portrait')
             self.assertNotIn('test-secret',str(raised.exception))
 

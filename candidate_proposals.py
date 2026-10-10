@@ -55,7 +55,7 @@ def validate_candidate(raw,state):
     for key,limit in [('name',40),('occupation',60),('personality',400),('appearanceDescription',500),('origin',400),('ambition',300),('introduction',500),('personalTopic',500)]:proposal[key]=text_value(proposal[key],limit)
     existing={'eris','selene'}|{p['name'].casefold() for p in state['people'].values()}|{c['profile']['name'].casefold() for c in state.get('reviewedCandidates',{}).values()}
     # Authored contacts retain their names even before introduction.
-    existing.update({'mira','tamsin','iona','aurelia','neris','sabine','maren','brakka','fenna','kaede'})
+    existing.update({'mira','tamsin','iona','aurelia','neris','sabine','koharu','zahra','fenna','kaede'})
     if proposal['name'].casefold() in existing:raise RuleError('Choose a distinct identity; this name is already reserved or established.')
     package=deepcopy(PACKAGES[proposal['capabilityPackageId']])
     review={**package,'startingSkillRanks':0,'earnedAdvancement':0,'focusCapacity':1,'fundingCostCrowns':12,'preparationPhases':2,
@@ -65,10 +65,12 @@ def validate_candidate(raw,state):
     review['arrivalMethod']=method
     if method=='construction':
         review.update(principles=[],practices=[],prospectiveStartingPackage=package['name'],publicFocusId=None)
-    if method=='recruitment':review.update(fundingCostCrowns=0,preparationPhases=0,arrivalDescription='Open ordinary correspondence for free; agree a normal visit and bed separately.')
+    if method=='recruitment':review.update(fundingCostCrowns=0,preparationPhases=0,arrivalDescription='Complete a rescue or capture-and-release quest before offering an introduction; agree a visit and bed separately.')
     elif method=='construction':review.update(fundingCostCrowns=None,preparationPhases=6,arrivalDescription='Construct the reviewed body over four phases, then conduct a two-phase awakening ritual. Materials and crowns depend on the selected body. A suitable free bed is checked before awakening completes; membership remains separate.')
     else:review['arrivalDescription']='Prepare an exotic contact: 12 crowns, a vessel, a binding component and two conductor phases.'
     from character_builds import PERKS
+    import ancestry_traits
+    review['ancestryTrait']=ancestry_traits.definition(proposal['ancestryLabel'])
     review['ancestryTraining']=[{'name':d['name'],'description':d['description']} for d in PERKS.values() if proposal['ancestryLabel'] in d.get('ancestries',[])]
     return proposal,review
 

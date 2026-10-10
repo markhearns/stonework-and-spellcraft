@@ -14,6 +14,14 @@ class FiveChapterFlowTests(unittest.TestCase):
   self.act('assign-founder',assignment='commissions')
   while self.s['sharedFunds']<n:self.advance()
   self.act('assign-founder',assignment='rest')
+ def build(self,key):
+  if h.ready(self.s,key):return
+  for dep in h.ROOMS[key]['needs']:self.build(dep)
+  self.money(h.ROOMS[key]['cost']);self.act('hq-build',roomId=key)
+  for _ in range(20):
+   if h.ready(self.s,key):break
+   self.advance()
+  self.assertTrue(h.ready(self.s,key))
  def learn(self,key):
   if key in g.character_principles(self.s,'founder'):return
   if key=='gentle-preservation' and key not in self.s['archivePrinciples']:
@@ -45,23 +53,27 @@ class FiveChapterFlowTests(unittest.TestCase):
    with self.subTest(company=company):
     one=first.FirstHearthTests();one.setUp();one.act('food-policy',enabled=True,targetDays=7,budget=2,floor=0);one.play(company=company,approach='salvage',reload_each=True)
     two=shape.HouseShapeTests();two.s=one.s;two.beginning=deepcopy(one.s)
-    for path,design in [('scholarship','table'),('cultivation','nursery'),('craftsmanship','production')]:two.run_chapter(path,design)
-    two.act('shape-conclude');three=grow.RoomToGrowTests();three.s=two.s;three.plan(layout='private' if company=='solo' else 'shared',specialist='smithy');three.play()
-    four=security.KeepingHearthTests();four.s=three.s;four.play(defense=defense,choice=resolution);self.s=four.s
+    for path,design in ([('scholarship','table')] if getattr(self,'lean',False) else [('scholarship','table'),('cultivation','nursery'),('craftsmanship','production')]):two.run_chapter(path,design)
+    two.act('shape-conclude');three=grow.RoomToGrowTests();three.s=two.s;three.plan(layout='private' if company=='solo' else 'shared',communal='none' if getattr(self,'lean',False) else 'chapel',specialist='infirmary' if getattr(self,'lean',False) and company=='solo' else 'smithy');three.play()
+    four=security.KeepingHearthTests();four.s=three.s;four.play(defense=defense,choice='drive-away' if getattr(self,'lean',False) else resolution);self.s=four.s
+    if getattr(self,'lean',False):
+     self.assertFalse(h.ready(self.s,'dungeons'));self.assertEqual(len(self.s['houseShape']['projects']),1)
+     self.assertTrue(any(sp['castCount'] for sp in self.s['spellbook']))
+     self.play_local_patrol()
     self.act('arms-start');people=['founder']
     if company=='meet':
-     cid='introduced-maren'
+     cid='introduced-koharu'
      for topic in ('intentions','home','visit'):self.act('summoning-talk',contactId=cid,topic=topic)
      import arrivals
-     room=arrivals.eligible_rooms(self.s,self.s['people']['maren'])[0];self.act('summoning-invite',contactId=cid,roomId=room);self.advance()
+     room=arrivals.eligible_rooms(self.s,self.s['people']['koharu'])[0];self.act('summoning-invite',contactId=cid,roomId=room);self.advance()
      self.act('summoning-ask-stay',contactId=cid);self.act('summoning-household-decision',contactId=cid,decision='invite-to-stay')
-     self.assertIn('maren',g.household_members(self.s));self.act('gear-review');people.append('maren');self.act('agree-household-role',characterId='maren',role='fieldwork',enabled=True,willingnessReviewed=True)
+     self.assertIn('koharu',g.household_members(self.s));self.act('gear-review');people.append('koharu');self.act('agree-household-role',characterId='koharu',role='fieldwork',enabled=True,willingnessReviewed=True)
      self.act('arms-party',participants=people,agreed=True)
     for w in people:self.act('assign-character',characterId=w,assignment='rest')
     self.act('arms-drill');self.advance();self.assertTrue(five.saved(self.s)['drillDone'])
     self.learn('field-calibration')
     if not h.ready(self.s,'enchanting-room'):
-     self.money(65);self.act('hq-build',roomId='enchanting-room')
+     self.build('enchanting-room')
      for _ in range(10):
       if h.ready(self.s,'enchanting-room'):break
       self.advance()
@@ -87,6 +99,7 @@ class FiveChapterFlowTests(unittest.TestCase):
     self.assertTrue(receipt['completeCoverage']);self.assertTrue(receipt['completedLead'])
     self.assertEqual(len(receipt['outcomes']),len(self.s['watchRoad']['outcomes']))
     self.assertGreaterEqual(sum(o.get('timeSaved',0) for o in receipt['outcomes']),2)
+    if getattr(self,'lean',False):self.play_foundation()
     import roads_we_keep as roads
     self.money(60);self.act('food-buy',bundles=10);self.act('roads-start')
     self.act('start-expedition',siteId=roads.SITE,companionIds=people[1:]);self.advance();self.act('choose-expedition-approach',approach='survey')

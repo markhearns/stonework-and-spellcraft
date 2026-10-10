@@ -54,7 +54,7 @@ class HouseholdSagaTests(unittest.TestCase):
   row=next(r for r in saga.views(self.s)['stories'] if r['id']=='maps')
   self.assertIn('Your earlier choice',row['scene']['callbacks'][0]);self.assertTrue(any('margins' in x for x in row['scene']['callbacks']))
   self.assertFalse(any('borrowed ribbon' in x for x in row['scene']['callbacks']))
-  self.assertEqual(len(saga.context(self.s,'mira')['sharedStories']),4);self.assertEqual(saga.context(self.s,'brakka')['sharedStories'],[])
+  self.assertEqual(len(saga.context(self.s,'mira')['sharedStories']),4);self.assertEqual(saga.context(self.s,'zahra')['sharedStories'],[])
  def test_projects_use_only_actual_workers_and_exact_cost_once(self):
   self.middle('margins');funds=self.s['sharedFunds'];thread=self.s['materialInventory']['binding-thread']
   self.act('fund-household-project',storyId='margins',workers=['founder','mira']);self.assertEqual(self.s['sharedFunds'],funds-4);self.assertEqual(self.s['materialInventory']['binding-thread'],thread-1)
@@ -123,11 +123,11 @@ class HouseholdSagaTests(unittest.TestCase):
  def test_finite_deferral_read_purity_and_migration(self):
   self.act('defer-household-saga',storyId='margins');self.advance(6);self.assertIn('margins',saga.saved(self.s)['deferred']);self.act('restore-household-saga',storyId='margins')
   old=deepcopy(self.s);saga.views(self.s);self.assertEqual(old,self.s)
-  self.s['schemaVersion']=55;self.s.pop('householdSagas');funds=self.s['sharedFunds'];g.migrate_state(self.s);self.assertEqual(self.s['schemaVersion'],66);self.assertEqual(self.s['sharedFunds'],funds);self.assertEqual(saga.saved(self.s)['memories'],{})
+  self.s['schemaVersion']=55;self.s.pop('householdSagas');funds=self.s['sharedFunds'];g.migrate_state(self.s);self.assertEqual(self.s['schemaVersion'],g.CURRENT_SCHEMA_VERSION);self.assertEqual(self.s['sharedFunds'],funds);self.assertEqual(saga.saved(self.s)['memories'],{})
  def test_save_backup_request_id_and_reload(self):
   with tempfile.TemporaryDirectory() as folder:
    st=GameStore(folder);old=deepcopy(self.s);old['schemaVersion']=55;old.pop('householdSagas')
    with sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(old),))
-   st=GameStore(folder);self.assertTrue(Path(folder,'campaign-before-schema-55-to-66.sqlite3').exists())
+   st=GameStore(folder);self.assertTrue(Path(folder,f'campaign-before-schema-55-to-{g.CURRENT_SCHEMA_VERSION}.sqlite3').exists())
    payload={'requestId':str(uuid.uuid4()),'expectedRevision':st.read()['revision'],'action':{'type':'share-household-saga','storyId':'margins','choice':'method'}}
    first=st.action(payload);self.assertEqual(st.action(payload),first);self.assertEqual(GameStore(folder).read()['householdSagas']['stories']['margins']['stage'],1)

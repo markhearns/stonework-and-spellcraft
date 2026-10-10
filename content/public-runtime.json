@@ -1,22 +1,22 @@
 {
   "version": 1,
   "sourceDigests": {
-    "ss-books-food-gardens-and-treasures": "5fca4a0334f6977daa1954cdd407ed5b5f38c09dda67be68b1382c8d921e9165",
-    "ss-communities-services-and-visitors": "dae63e8c2b3cb43427523328a22d498efa0f26bb8c6332363718878f85df2e27",
-    "ss-encounters-and-care": "86a98087baa59a1dbcab11f0af9ad422c5b3ea5fab9d0e2d92e2f1af4bce9b42",
-    "ss-household-scenes-and-ambient-life": "d61a4d7bfe700a01032f570d0956c49569807b1953dada46d05a0f7e7f5c61e5",
-    "ss-materials-and-properties": "6ce7621a49af5feac50ad3d026d5535404ffe690315d69a8e65aa5aa32b7cd95",
-    "ss-personal-arcs-and-relationships": "3140fe54006997ac7107040b8dc01c09d787ac7c3d44ea24857b2c02a9ee3379",
-    "ss-rituals-and-voluntary-augmentation": "ab9ded29e46b95a5f4f7e697fb4a5f9badcb3cb61f89241cfdefb0be0db96e0e",
-    "ss-tutorials-explanations-and-qa": "91e1438964e67fcae574548879184349096ae5c08c2620232b3c70f221dccfa2",
-    "ss-artifacts-and-recipes": "793452beb2a25b54521a1c09facc4ac6618955d813fbb57ea5f034eb149c7cce",
-    "ss-equipment-and-signature-items": "a4affaba72d9b274109eb9a7bf6702f61caf6a8ca660846cb2177ae3182ce641",
-    "ss-expeditions-and-discoveries": "e68be1e1348d0b130e0e66281467dc6b089ded6dc05af510803e8588f2deec6c",
-    "ss-magic-principles-and-spells": "8b2e945312710574959f609a1c50c0813140859d19412f174fcf8a36b4f70d26",
-    "ss-rooms-furnishings-and-synergies": "e2f0775651753a673ffc58d16e536a38cf5c6c683ba6dcf28363dc6e95f52863",
-    "ss-art-and-visual-production": "ced2e9a5e1edb5892919f27085bf5b8078ee303446239b6fe58e248c12b466fd",
-    "ss-backgrounds-training-and-perks": "2f4631136a7f1d9acfb612ff41db5bbaa23dd6592209d2f070d755634bc8890b",
-    "ss-letters-commissions-and-gifts": "a8fa8b115de719fb42b0029787270e1f1aa8268ec7e1feb0ce8ee42e460d97e3"
+    "ss-books-food-gardens-and-treasures": "634096f23b62fb88232bed494680ebf8ead5c6b3b5a16a33c798e55ee38f52a6",
+    "ss-communities-services-and-visitors": "9934e792da8cb748dd8e608af97534d82d29aa31c9df80b0f19ab9687f0078bd",
+    "ss-encounters-and-care": "7efa37e259f33daadec36e802231eec1df71efde472ab7f643456903895dd4da",
+    "ss-household-scenes-and-ambient-life": "529e5e42094584aef53858976eec88f89e3e7b94c47319bf3f34fe53b3801e85",
+    "ss-materials-and-properties": "9bdfde23bfc07428990320ab4872bc5f3a9ca8fb0cb0c5b1846575184440ac77",
+    "ss-personal-arcs-and-relationships": "16f9a5f73c5a0a9869fab4c24918b15130174e8dab8fa7629602034254a62a8e",
+    "ss-rituals-and-voluntary-augmentation": "9dbdf4bdf4312f689f3ed0ef4351e2d92d2dbfe22175a98a97121e95639d9cb2",
+    "ss-tutorials-explanations-and-qa": "c2d29fc04e3eece5efa8af73332b220da72c06157a23f18a7f5fed3750eede33",
+    "ss-artifacts-and-recipes": "ae007a871cb586e6216962d87bae9276e425090ea0b7e96a31006ccf9d56072b",
+    "ss-equipment-and-signature-items": "2a2de5711a06558d96a53448f898b13e642da06e26f62fcdbc2155a8635d81b4",
+    "ss-expeditions-and-discoveries": "1f8402d25deb534064e7df9a2ba0cca5b251c6584998991b72fa1abc1a157da6",
+    "ss-magic-principles-and-spells": "e515c2afd079b66b3234e62713f3d4205cf8b8bfb1d0406d43389ce43abf6308",
+    "ss-rooms-furnishings-and-synergies": "973f248da37509d91ebf800a14be6012b5b6a6db69a09575710fc3ddf5fd329d",
+    "ss-art-and-visual-production": "2cf7d323e98a3156300f8d6a1b2ad6592feb30a4219d296933167425f0f87a65",
+    "ss-backgrounds-training-and-perks": "954c9d2d5e2b849ff1740098686cec2dd5bd6164b5c23d99b6c4b3a7a68f576d",
+    "ss-letters-commissions-and-gifts": "8a3cefaa12a4139829f41ce6af2a121dde0ef28e79e380ecda026498729c78ca"
   },
   "records": {
     "ss-shelf-book-or-document-the-honest-margin": {
@@ -27598,7 +27598,7 @@
         "autonomy"
       ],
       "ancestryRestrictions": [
-        "oni"
+        "ogrekin"
       ],
       "excludedAncestries": [],
       "visibility": "public-template",
@@ -27620,17 +27620,17 @@
       "references": [
         {
           "namespace": "dependency",
-          "id": "oni-story-001",
+          "id": "ogrekin-story-001",
           "purpose": "Related definition; does not grant access, ownership, knowledge, or an effect."
         },
         {
           "namespace": "baseline",
-          "id": "oni",
+          "id": "ogrekin",
           "purpose": "Related definition; does not grant access, ownership, knowledge, or an effect."
         }
       ],
       "mechanicsProposalId": null,
-      "ancestryId": "oni",
+      "ancestryId": "ogrekin",
       "personalQuestion": "Where can a cup gain comfort while retaining the refinement she enjoys?",
       "openingInvitation": "She asks whether a broader handle can keep the cup's light appearance. This remains an optional invitation, not an event that has happened.",
       "chapters": [
@@ -27679,7 +27679,7 @@
         "autonomy"
       ],
       "ancestryRestrictions": [
-        "oni"
+        "ogrekin"
       ],
       "excludedAncestries": [],
       "visibility": "public-template",
@@ -27701,17 +27701,17 @@
       "references": [
         {
           "namespace": "dependency",
-          "id": "oni-story-002",
+          "id": "ogrekin-story-002",
           "purpose": "Related definition; does not grant access, ownership, knowledge, or an effect."
         },
         {
           "namespace": "baseline",
-          "id": "oni",
+          "id": "ogrekin",
           "purpose": "Related definition; does not grant access, ownership, knowledge, or an effect."
         }
       ],
       "mechanicsProposalId": null,
-      "ancestryId": "oni",
+      "ancestryId": "ogrekin",
       "personalQuestion": "Which small joke keeps an affectionate poem personal without making its recipient responsible for a grand declaration?",
       "openingInvitation": "She asks which line sounds too grand for the feeling. This remains an optional invitation, not an event that has happened.",
       "chapters": [
@@ -86271,9 +86271,9 @@
       "recordType": "wardrobe-art-brief",
       "packId": "ss-art-and-visual-production"
     },
-    "ss-visual-wardrobe-art-brief-oni-adult-wardrobe-study": {
-      "id": "ss-visual-wardrobe-art-brief-oni-adult-wardrobe-study",
-      "name": "Oni adult wardrobe study",
+    "ss-visual-wardrobe-art-brief-ogrekin-adult-wardrobe-study": {
+      "id": "ss-visual-wardrobe-art-brief-ogrekin-adult-wardrobe-study",
+      "name": "Ogrekin adult wardrobe study",
       "summary": "A candidate ensemble using supplied garment records, not a new face or equipped appearance.",
       "tags": [
         "visual-art",
@@ -86281,7 +86281,7 @@
         "sensual"
       ],
       "ancestryRestrictions": [
-        "oni"
+        "ogrekin"
       ],
       "excludedAncestries": [],
       "visibility": "public-template",
@@ -86301,7 +86301,7 @@
       "references": [
         {
           "namespace": "baseline",
-          "id": "oni",
+          "id": "ogrekin",
           "purpose": "Related definition; does not grant access, ownership, knowledge, or an effect."
         },
         {
@@ -86326,7 +86326,7 @@
         }
       ],
       "mechanicsProposalId": null,
-      "ancestryId": "oni",
+      "ancestryId": "ogrekin",
       "identityPreservation": "Use the actual accepted portrait and full-body reference supplied at execution. Preserve face, hair, colours, body proportions, mature adult identity, and signature details exactly. No image reference has been inspected by this written pack; without a usable target, obtain it before attempting an identity-preserving edit. The proposed ensemble is optional, never an ancestry uniform.",
       "garmentReferenceIds": [
         "garment-003",

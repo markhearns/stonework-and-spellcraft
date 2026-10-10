@@ -88,13 +88,13 @@ class WritingReviewTests(unittest.TestCase):
         self.assertIn('without adding an individual accomplishment', choices['thanks']['response'])
 
     def test_planned_party_display_matches_saved_party_and_never_departs(self):
-        people = ['brakka','iona','fenna','mira','rhess']
+        people = ['zahra','iona','fenna','mira','rhess']
         shared_history.record(self.s,'objective:rescue',people,'Completed rescue','The surveyor returned.','fieldwork')
-        row = shared_history.view(self.s,'brakka')[0]
+        row = shared_history.view(self.s,'zahra')[0]
         plan = next(c for c in row['choices'] if c['id']=='plan')
         before = {k:deepcopy(v) for k,v in self.s.items() if k not in ('sharedHistory','journal')}
         g.apply_action(self.s,dict(type='history-share',eventId=row['id'],choiceId='plan'))
-        self.assertEqual(shared_history.saved(self.s)['suggestedParty'], ['founder','brakka','iona','fenna'])
+        self.assertEqual(shared_history.saved(self.s)['suggestedParty'], ['founder','zahra','iona','fenna'])
         for who in shared_history.saved(self.s)['suggestedParty']:
             self.assertIn(g.character_profile(self.s,who)['name'], plan['effect'])
         self.assertNotIn('Rhess',plan['effect'])

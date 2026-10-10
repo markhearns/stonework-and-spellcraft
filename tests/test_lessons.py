@@ -85,7 +85,7 @@ class LessonTests(unittest.TestCase):
             store=GameStore(directory)
             with sqlite3.connect(store.database) as db:db.execute('UPDATE campaign SET state=?',(json.dumps(old),))
             store=GameStore(directory)
-            self.assertTrue((Path(directory)/'campaign-before-schema-14-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-14-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             payload={'requestId':uuid.uuid4().hex,'expectedRevision':store.read()['revision'],'action':{'type':'start-lesson','learnerId':'founder','teacherId':'mira','subjectKind':'principle','targetId':'gentle-preservation'}}
             once=store.action(payload);self.assertEqual(store.action(payload),once)
             self.assertEqual(GameStore(directory).read()['trainingProjects']['founder']['teacherId'],'mira')

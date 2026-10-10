@@ -29,9 +29,12 @@ import roads_we_keep
 import first_patrol
 import household_rest
 import personal_paths
+import resident_bonds
+import foundation_chamber
+import resident_friendships as friendship_milestones
 from copy import deepcopy
 
-CURRENT_SCHEMA_VERSION = 66
+CURRENT_SCHEMA_VERSION = 76
 
 DAY_PHASES = ('morning', 'afternoon', 'evening')
 ROOMS = {
@@ -95,6 +98,10 @@ def public_state(state):
     result = deepcopy(state)
     import companion_almanac
     result['companionAlmanacView']=companion_almanac.views(state)
+    import companion_threads
+    result['companionThreadsView']=companion_threads.views(state)
+    import survey_rooms
+    result['surveyRoomsView']=survey_rooms.view(state)
     import household_sagas
     result['householdSagasView']=household_sagas.views(state)
     import character_customization
@@ -109,8 +116,16 @@ def public_state(state):
     result['socialLifeView']=social_life.view(state)
     import relationships
     result['relationshipsView']=relationships.view(state)
+    result['residentBondsView']=resident_bonds.view(state)
+    result['foundationChamberView']=foundation_chamber.view(state)
+    result['residentFriendshipsView']=friendship_milestones.view(state)
     import character_quests
     result['characterQuestsView']=character_quests.view(state)
+    import companion_goals
+    result['companionGoalsView']=companion_goals.view(state)
+    for quest in result.get('characterQuests',{}).get('records',{}).values():
+        if quest.get('kind')=='ambition':
+            for private_key in ('opening','middle','ending','flirt'):quest.pop(private_key,None)
     import romance
     result['romanceView']=romance.views(state)
     import lantern_adventure
@@ -147,6 +162,13 @@ def public_state(state):
     result.pop('privateCastleLore',None)
     result['localEncounterView']=local_encounters.view(state)
     result['arrivalPathViews']=arrivals.view(state)
+    import recruitment_quests
+    result['recruitmentView']=recruitment_quests.view(state)
+    import world_recruitment
+    result['worldRecruitmentView']=world_recruitment.view(state)
+    result['worldRecruitment'].pop('seed',None)
+    import chapel_spirit
+    result['chapelSpiritView']=chapel_spirit.view(state)
     result['publicWorkshopView']=public_workshop.view(state)
     result['equipmentView']=equipment.view(state)
     result['armouryView']=armoury.view(state)
@@ -246,6 +268,10 @@ def public_state(state):
     result['spareArtifacts'] = {key: spare_artifact_count(state, key) for key in RECIPES}
     result['focusInscriptionCatalog'] = FOCUS_INSCRIPTIONS
     result['focusViews'] = {key: focus_view(state, key) for key in household_members(state)}
+    import scripted_companions
+    result['scriptedCompanionsView']=scripted_companions.view(state)
+    import ancestry_traits
+    result['ancestryTraits'] = {who:ancestry_traits.for_person(state,who) for who in household_members(state)}
     result['housingCatalog'] = HOUSING_ROOMS
     result['housingSummary'] = housing_summary(state)
     result['encounterView'] = encounter_view(state)
@@ -254,6 +280,8 @@ def public_state(state):
     result['magicOpportunities'] = spell_support.opportunities(state)
     result['fieldMagicView'] = field_magic.view(state)
     result['lastingRitualsView'] = lasting_rituals.view(state)
+    import magic_reference
+    result['magicReferenceView'] = magic_reference.view(state)
     result['materialPurchasePrices'] = {k:d['price'] for k,d in MATERIALS.items()}
     result['spellViews'] = [spell_view(state, spell) for spell in state['spellbook']]
     result['spellPreparationCapacity'] = spell_preparation_capacity(state)
@@ -311,6 +339,8 @@ def _apply_action_legacy(state, action):
     if relationships.apply(state,action):return
     import character_quests
     if character_quests.apply(state,action):return
+    import companion_goals
+    if companion_goals.apply(state,action):return
     import romance
     if romance.apply(state,action):return
     import party_journeys
@@ -423,6 +453,7 @@ def _apply_action_legacy(state, action):
         state['currentDayPhase'] = DAY_PHASES[(phase_index + 1) % 3]
         if phase_index == 2:
             state['dayNumber'] += 1
+        foundation_chamber.after_advance(state)
         add_journal(state, 'The household settles into ' + state['currentDayPhase'] + '.')
         state['soloLife']['phaseNotice']={'phase':phase_tasks.phase_key(state),'newIds':[t['id'] for t in phase_tasks.build(state)['tasks'] if t['id'] not in previous_tasks]}
     elif kind == 'accept-invitation':
@@ -464,6 +495,8 @@ def _apply_action_legacy(state, action):
         history = state['assetHistory'].get(asset, [])
         require(len(history) > 0, 'There is no previous accepted version.')
         state['assetOverrides'][asset] = history.pop()
+    elif __import__('scripted_companions').apply(state,action):
+        pass
     elif character_builds.apply_action(state,action):
         pass
     elif apply_augmentation_action(state,action):
@@ -829,6 +862,49 @@ def migrate_state(state):
         import bounty_contracts
         bounty_contracts.initialize(state)
         state['schemaVersion']=66
+    if state['schemaVersion']==66:
+        # Six new encounters and their materials must not be opened by older engines.
+        # Preserve existing stock, reserves, field records and active expeditions.
+        import bounty_contracts
+        bounty_contracts.initialize(state)
+        state['schemaVersion']=67
+    if state['schemaVersion']==67:
+        resident_bonds.initialize(state)
+        state['schemaVersion']=68
+    if state['schemaVersion']==68:
+        foundation_chamber.initialize(state)
+        state['schemaVersion']=69
+    if state['schemaVersion']==69:
+        friendship_milestones.initialize(state)
+        state['schemaVersion']=70
+    if state['schemaVersion']==70:
+        import companion_threads
+        companion_threads.initialize(state)
+        state['schemaVersion']=71
+    if state['schemaVersion']==71:
+        import survey_rooms
+        survey_rooms.initialize(state)
+        state['schemaVersion']=72
+    if state['schemaVersion']==72:
+        import release_v116_migration
+        release_v116_migration.migrate(state)
+        state['schemaVersion']=73
+    if state['schemaVersion']==73:
+        import bounty_contracts
+        bounty_contracts.initialize(state)
+        import recruitment_quests
+        recruitment_quests.initialize(state)
+        state['schemaVersion']=74
+    if state['schemaVersion']==74:
+        import world_recruitment
+        world_recruitment.initialize(state)
+        import chapel_spirit
+        chapel_spirit.initialize(state)
+        state['schemaVersion']=75
+    if state['schemaVersion']==75:
+        import companion_goals
+        companion_goals.initialize(state)
+        state['schemaVersion']=76
     return state
 
 def room_available(state, room):
@@ -838,6 +914,12 @@ def room_available(state, room):
 
 def phase_forecast(state):
     rows = headquarters.forecast(state)
+    if state.get('worldRecruitment',{}).get('report'):
+        rows.append('Local recruitment reports: one phase remaining.' if state['founderAssignment']=='local-reports' else 'Local recruitment reports are paused; resume them on the recruitment board.')
+    rows.extend(foundation_chamber.forecast(state))
+    import survey_rooms
+    rows.extend(survey_rooms.forecast(state))
+    rows.extend(friendship_milestones.forecast(state))
     review=state.get('livingStories',{}).get('review')
     if review:
         party=['founder',review['personId']]
@@ -904,6 +986,7 @@ def phase_forecast(state):
 
 def resolve_work(state):
     armoury.sync(state)
+    bond_snapshot = resident_bonds.phase_groups(state)
     food_assignments={w:character_assignment(state,w) for w in household_members(state) if character_at_castle(state,w)}
     food_phase=state['currentDayPhase']
     import character_quests
@@ -920,7 +1003,7 @@ def resolve_work(state):
     used_supports=spell_support.snapshot(state)
     for who in household_members(state):
         if character_at_castle(state,who) and character_assignment(state,who)=='rest' and field_magic.vitality(state,who)<6:
-            field_magic.heal(state,who,1 if provisions.short(state) else (3 if food_phase=='evening' or lasting_rituals.active(state,'sanctuary-circle') else 1)+int(character_builds.build(state,who)['attributes']['vitality']>=8)+int(bool(state['headquarters']['stock'].get('recovery-ward'))))
+            field_magic.heal(state,who,1 if provisions.short(state) else (3 if food_phase=='evening' or lasting_rituals.active(state,'sanctuary-circle') else 1)+int(character_builds.build(state,who)['attributes']['vitality']>=8)+int(bool(state['headquarters']['stock'].get('recovery-ward')))+int(bool(state['headquarters']['stock'].get('specialty:merrin'))))
             summary.append(character_profile(state,who)['name']+' recovered vitality while resting at home: '+str(field_magic.vitality(state,who))+'/6.')
     harvest = garden_harvest(state)
     if state['researchStatus'] == 'in-progress':
@@ -1027,6 +1110,8 @@ def resolve_work(state):
     provisions.resolve(state,summary,food_assignments,food_phase)
     import bestiary
     bestiary.resolve(state,summary,food_assignments)
+    import world_recruitment
+    world_recruitment.resolve(state,summary,food_assignments)
     first_patrol.resolve_home(state,summary,food_assignments,food_phase)
     household_rest.resolve(state,summary,food_assignments,food_phase)
     field_patrols.resolve(state,summary)
@@ -1034,6 +1119,11 @@ def resolve_work(state):
     commissions.resolve(state,summary,food_assignments)
     practical_projects.resolve(state,summary,food_assignments)
     castle_reawakening.resolve(state,summary,food_assignments)
+    foundation_chamber.resolve(state,summary)
+    import survey_rooms
+    survey_rooms.resolve(state,summary)
+    friendship_milestones.resolve(state,summary)
+    resident_bonds.resolve_phase(state,bond_snapshot,summary)
     state['roadsWeKeep']['refugeDone']=bool(state['headquarters']['stock'].get('roadside-refuge'))
     state['lastPhaseSummary'] = summary or ['A restful phase. No project work or production was resolved.']
     for line in summary:
@@ -1250,6 +1340,11 @@ def resolve_expedition(state):
     if not expedition:
         return
     stage = expedition['stage']
+    if stage in ('outbound', 'returning'):
+        changes = resident_bonds.award(state, expedition_party(state),
+            'expedition:' + state['currentDayPhase'] + ':' + stage,
+            'Travelling together: ' + EXPEDITION_SITES[expedition['siteId']]['name'])
+        resident_bonds.summarize(state, changes, state['lastPhaseSummary'])
     if stage=='outbound':
         visited=field_magic.initialize(state)['visited']
         if expedition['siteId'] not in visited:visited.append(expedition['siteId'])
@@ -1655,12 +1750,12 @@ def work_contribution(state, character_id, practice):
     return sum(item['amount'] for item in work_contribution_parts(state,character_id,practice))
 
 def research_work(state):
-    return sum(work_contribution(state, key, 'archive-focus') for key, assignment in [(who,'research' if who=='founder' else 'archive') for who in household_members(state)] if character_assignment(state, key) == assignment)
+    return sum(work_contribution(state, key, 'archive-focus') for key, assignment in [(who,'research' if who=='founder' else 'archive') for who in household_members(state)] if character_assignment(state, key) == assignment) + friendship_milestones.bonus(state,'archive')
 
 def archive_project_work(state):
     if state['miraArchiveProject']['status'] != 'in-progress':
         return 0
-    work = sum(work_contribution(state, key, 'archive-focus') for key in household_members(state) if character_assignment(state, key) == 'archive-project')
+    work = sum(work_contribution(state, key, 'archive-focus') for key in household_members(state) if character_assignment(state, key) == 'archive-project') + friendship_milestones.bonus(state,'archive-project')
     return min(work, state['miraArchiveProject']['requiredWorkPhases'] - state['miraArchiveProject']['completedWorkPhases'])
 
 def crafting_work(state):
@@ -1909,16 +2004,18 @@ def garden_harvest(state, assume_staffed=False):
         elif choice == 'silver-ivy':
             amount = 1 + int(state['wateringCharmInstalled']) + int(state['utilityArtifactPlacements']['capillary-mat']) + int(state['utilityArtifactPlacements'].get('cistern-filter',False)) + int(resident_specialties.active(state,'sylva'))
         else:
-            amount = 4 + 2 * int(state['wateringCharmInstalled']) + 2 * int(state['householdArtifactPlacements']['pantry-seal']) + 2 * int((resident_specialties.active(state,'tamsin') or resident_specialties.legacy(state,'brakka')))
+            amount = 4 + 2 * int(state['wateringCharmInstalled']) + 2 * int(state['householdArtifactPlacements']['pantry-seal']) + 2 * int((resident_specialties.active(state,'tamsin') or resident_specialties.legacy(state,'zahra')))
     if amount and staffed:amount+=house_shape.bonus(state,'ivy' if choice=='silver-ivy' else 'garden-sales')
     if amount and staffed and lasting_rituals.active(state,'garden-circle'):amount+=1 if choice=='silver-ivy' else 2
-    return {'output':choice, 'amount':amount, 'staffed':bool(staffed), 'automated':bool(automated),
+    cooperation = friendship_milestones.bonus(state,'garden') if amount and staffed else 0
+    amount += cooperation
+    return {'output':choice, 'amount':amount, 'cooperation':cooperation, 'staffed':bool(staffed), 'automated':bool(automated),
         'reserveTarget':state['materialReserveTargets']['silver-ivy']}
 
 def garden_summary(harvest):
     source = 'Garden harvest' if harvest['staffed'] else 'Root tender harvest'
     unit = 'provisions' if harvest['output']=='provisions' else 'silver ivy' if harvest['output'] == 'silver-ivy' else 'shared crowns from designated surplus'
-    return f'{source}: +{harvest["amount"]} {unit}.'
+    return f'{source}: +{harvest["amount"]} {unit}.' + (' Includes +'+str(harvest['cooperation'])+' from resident cooperation.' if harvest.get('cooperation') else '')
 
 def research_blockers(state, research_id, leader_id):
     definition = RESEARCH_CATALOG[research_id]
@@ -1966,6 +2063,14 @@ def resolve_catalog_research(state, summary):
                 project['contributors'].append(character_id)
             summary.append(definition['name']+f': +{work} contribution(s) from '+character_profile(state,character_id)['name']+'.')
     import living_stories
+    cooperation=friendship_milestones.cooperation(state,'archive')
+    extra=min(remaining,cooperation['amount']) if cooperation else 0
+    if extra:
+        project['completedWorkPhases']+=extra
+        remaining-=extra
+        for who in cooperation['participants']:
+            if who not in project['contributors']:project['contributors'].append(who)
+        summary.append(definition['name']+': +'+str(extra)+' work from resident cooperation ('+' & '.join(character_profile(state,w)['name'] for w in cooperation['participants'])+').')
     living_stories.record_shared_work(state,phase_contributors)
     if remaining == 0:
         project['status'] = 'complete'
@@ -2456,7 +2561,9 @@ def spell_blockers(state, spell, casting=False):
     if state['spellWork'][who] is not None:
         blockers.append('Finish this person’s pending spell work first, or cancel a pending casting.')
     if casting:
-        if definition.get('field') not in (None,'heal','haste'):blockers.append('Use this spell through the expedition’s field-magic controls.')
+        if definition.get('field') not in (None,'heal','haste'):
+            import combat_magic
+            blockers.append('Use this prepared spell in the active field patrol’s combat actions.' if spell['formId'] in combat_magic.SPELLS else 'Use this spell through the expedition’s field-magic controls.')
         if spell['status']!='learned': blockers.append('Complete the two-phase spell test first.')
         if spell['id'] not in state['preparedSpells'][who]: blockers.append('Prepare this learned spell first.')
         for key,count in definition['castingInputs'].items():
@@ -2881,7 +2988,7 @@ def apply_recruitment_action(state,action):
         require(assignment!='personal-project' or state['additionalResidents'][who]['personalProject']['status']=='in-progress','Agree the personal notebook project first.')
         validate_development_assignment(state,who,assignment);set_character_assignment(state,who,assignment)
         return True
-    require(action.get('characterId','tamsin')=='tamsin','Choose the available sample contact.')
+    require(action.get('characterId','tamsin')=='tamsin','Choose the available bookbinder contact.')
     require(action.get('characterId','tamsin')=='tamsin','Choose Tamsin for this conversation or project.')
     record=state['additionalResidents']['tamsin']
     if kind in ('style-resident','save-resident-style','load-resident-style','join-resident-scene'):
@@ -2947,7 +3054,7 @@ def apply_recruitment_action(state,action):
     if kind=='meet-candidate':
         require(record['status']=='unknown','The introduction has already happened.')
         record['status']='contacted';record['conversation'].append({'speaker':'Tamsin','text':'“The bindery keeper passed along your note. I am Tamsin. I mend books, dislike waste, and prefer a workbench to a grand promise. Shall we see whether this would suit us both?”'})
-        add_journal(state,'Met Tamsin, an optional sample bookbinder. Her identity and preferences are established before the invitation; she is not the final campaign’s first recruit.')
+        add_journal(state,'Met Tamsin, a bookbinder introduced through the recovered bindery correspondence. Her work, home preferences and plans need discussion before a household invitation.')
     elif kind=='talk-candidate':
         require(record['status'] in ('contacted','resident'),'Tamsin must be available for this conversation.')
         topic=action.get('topic');require(isinstance(topic,str) and topic in TAMSIN_TOPICS,'Choose an offered conversation topic.')
@@ -3477,7 +3584,7 @@ def room_furnishing_view(state,room):
         if definition['roomId']==room and state['utilityArtifactPlacements'][key]:
             rows.append({'name':RECIPES[key]['name'],'effect':definition['benefit']})
     for who in household_members(state):
-        if state['bedroomAssignments'][who]==room:
+        if state['bedroomAssignments'].get(who)==room:
             for key in state['displayedKeepsakes'][who]:
                 rows.append({'name':PERSONAL_REQUESTS[key]['keepsakeName'],'effect':'Personal keepsake belonging to '+character_profile(state,who)['name']+'. No numerical bonus.'})
     return rows
@@ -3542,6 +3649,7 @@ def apply_resident_moment_action(state,action):
         illustration=resident_moment_view(state,key).get('illustrationId')
         if illustration:record['illustrationId']=illustration
         record.update(status='complete',completedOn={'dayNumber':state['dayNumber'],'phase':state['currentDayPhase']})
+        resident_bonds.award(state, definition['participants'], 'resident-moment:' + key, definition['title'], 2)
         for who in definition['participants']:
             lines=state['conversation'] if who=='mira' else state['additionalResidents'][who]['conversation']
             lines.extend({'speaker':speaker,'text':text,'source':'authored-moment','momentId':key} for speaker,text in definition['lines'])
@@ -3593,7 +3701,7 @@ def work_contribution_parts(state,who,practice):
     if shape_bonus:rows.append({'name':'Fitted household undertaking','amount':shape_bonus})
     rows.extend(character_builds.work_parts(state,who,practice))
     rows.extend(equipment.bonus(state,who,practice))
-    if practice=='careful-assembly' and resident_specialties.active(state,'maren'):rows.append({'name':'Maren’s restoration bench','amount':1})
+    if practice=='careful-assembly' and resident_specialties.active(state,'koharu'):rows.append({'name':'Koharu’s restoration bench','amount':1})
     if practice=='archive-focus' and resident_specialties.legacy(state,'tamsin'):rows.append({'name':'Tamsin’s working reference cabinet','amount':1})
     if practice=='careful-assembly' and headquarters.ready(state,'workshop') and state['headquarters']['stock'].get('sorting-bench',0):rows.append({'name':'Roadkeeper’s sorting bench','amount':1})
     if practice=='careful-assembly' and headquarters.ready(state,'workshop'):rows.append({'name':'Fitted headquarters workshop','amount':1})
@@ -3884,6 +3992,8 @@ import field_magic, sys
 field_magic.install(sys.modules[__name__])
 
 import lasting_rituals
+import combat_magic
+combat_magic.install(sys.modules[__name__])
 
 field_magic.expand_existing(sys.modules[__name__])
 
@@ -4056,6 +4166,21 @@ def apply_action(state,action):
         staged=deepcopy(state)
         require(bestiary.apply(staged,action),'Choose a listed bestiary action.')
         state.clear();state.update(staged);return state
+    if isinstance(kind,str) and kind.startswith('chapel-spirit-'):
+        import chapel_spirit
+        staged=deepcopy(state)
+        chapel_spirit.apply(staged,action)
+        state.clear();state.update(staged);return state
+    if isinstance(kind,str) and kind.startswith('world-'):
+        import world_recruitment
+        staged=deepcopy(state)
+        world_recruitment.apply(staged,action)
+        state.clear();state.update(staged);return state
+    if isinstance(kind,str) and kind.startswith('recruit-'):
+        import recruitment_quests
+        staged=deepcopy(state)
+        recruitment_quests.apply(staged,action)
+        state.clear();state.update(staged);return state
     if isinstance(kind,str) and kind.startswith(('watch-','trial-')):
         staged=deepcopy(state)
         field_patrols.apply(staged,action)
@@ -4065,3 +4190,64 @@ def apply_action(state,action):
 # Register creature components before creating or loading any campaign.
 import bounty_contracts
 bounty_contracts.install(globals())
+
+foundation_chamber.register(globals())
+_apply_action_v109 = apply_action
+def apply_action(state, action):
+    kind = action.get('type', '')
+    if kind in ('assign-character', 'assign-founder', 'assign-resident') and action.get('assignment') in (foundation_chamber.ASSIGNMENT, foundation_chamber.RITUAL_ASSIGNMENT):
+        who=action.get('characterId', 'mira' if kind=='assign-resident' else 'founder')
+        if action['assignment']==foundation_chamber.ASSIGNMENT:
+            require(who=='founder', 'The scholar is responsible for this investigation.')
+            action={'type':'foundation-resume'}
+        else:
+            ritual=foundation_chamber.saved(state)['ritual']
+            require(ritual and who in ('founder',ritual['partnerId']), 'This person has no arranged foundation ritual.')
+            action={'type':'foundation-ritual-resume'}
+        kind=action['type']
+    if isinstance(kind,str) and kind.startswith('foundation-'):
+        staged=deepcopy(state)
+        foundation_chamber.apply(staged, action)
+        state.clear();state.update(staged);return state
+    return _apply_action_v109(state,action)
+
+_apply_action_v110 = apply_action
+def apply_action(state, action):
+    kind=action.get('type','')
+    if kind in ('assign-character','assign-founder','assign-resident') and action.get('assignment')==friendship_milestones.ASSIGNMENT:
+        who=action.get('characterId','mira' if kind=='assign-resident' else 'founder')
+        job=friendship_milestones.saved(state)['job']
+        require(job and who in job['participants'],'This person has no arranged shared activity.')
+        action={'type':'friendship-resume'};kind=action['type']
+    if isinstance(kind,str) and kind.startswith('friendship-'):
+        staged=deepcopy(state)
+        friendship_milestones.apply(staged,action)
+        state.clear();state.update(staged);return state
+    return _apply_action_v110(state,action)
+
+_apply_action_v112 = apply_action
+def apply_action(state, action):
+    kind = action.get('type', '')
+    if isinstance(kind, str) and kind.startswith('thread-'):
+        import companion_threads
+        staged = deepcopy(state)
+        require(companion_threads.apply(staged, action), 'Choose a listed conversation action.')
+        state.clear(); state.update(staged)
+        return state
+    return _apply_action_v112(state, action)
+
+# v0.114: explicit early lessons and a saved survey-room investigation.
+_apply_action_v113=apply_action
+def apply_action(state,action):
+    kind=action.get('type','')
+    if isinstance(kind,str) and (kind=='opening-equipment' or kind.startswith('survey-room-')):
+        import early_lessons,survey_rooms
+        staged=deepcopy(state)
+        require(early_lessons.apply(staged,action) or survey_rooms.apply(staged,action),'Choose a listed progression action.')
+        state.clear();state.update(staged);return state
+    return _apply_action_v113(state,action)
+
+import chapel_spirit
+chapel_spirit.register(globals())
+import companion_goals
+companion_goals.register()

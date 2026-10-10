@@ -1,0 +1,568 @@
+{
+  "version": "0.117",
+  "mode": "built-in image_gen",
+  "note": "New creature, material, common-ancestry bandit, accessory and spell/ritual artwork. Catfolk bandit corrected to show only feline top ears. Optimized WebP runtime exports; full-resolution masters and exact prompts in separate source archive.",
+  "assets": [
+    {
+      "id": "owlbear",
+      "path": "static/assets/bestiary/creatures/owlbear.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 218556,
+      "sha256": "60f93126c0350412402a5bba4481296a2171789e97f2a7cd6651824016b14dbb"
+    },
+    {
+      "id": "owlbear",
+      "path": "static/assets/bestiary/creatures/owlbear-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 13482,
+      "sha256": "05c0e6a71bb51aa068fcfb407189d3aa1f7d6c33b90f7c6d4d7e00f870afa4b4"
+    },
+    {
+      "id": "rust-beetle",
+      "path": "static/assets/bestiary/creatures/rust-beetle.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 217494,
+      "sha256": "4661513030769d2a44cf7cb0a7e39fe38dec9823ffa71202f1dea7e81cdfbbfd"
+    },
+    {
+      "id": "rust-beetle",
+      "path": "static/assets/bestiary/creatures/rust-beetle-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 13088,
+      "sha256": "b14373a9ef3fff126c42be17212c4438de831c63b5e80a5807e9c639e9647d6e"
+    },
+    {
+      "id": "blink-lynx",
+      "path": "static/assets/bestiary/creatures/blink-lynx.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 220878,
+      "sha256": "3c9af86124cf8e3f104866b8fa76356fe2993d993597d230963f2268f8ad5b02"
+    },
+    {
+      "id": "blink-lynx",
+      "path": "static/assets/bestiary/creatures/blink-lynx-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 13384,
+      "sha256": "24d12cd1dd973c0ca457d179030df9bce9ec717b87a89ca8cc2ee566523ceade"
+    },
+    {
+      "id": "cliff-harpy",
+      "path": "static/assets/bestiary/creatures/cliff-harpy.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 197196,
+      "sha256": "92cb14d63c24e7f7192539c5aa15d82853a067fa0d7d147e13a6f6b435bc85d1"
+    },
+    {
+      "id": "cliff-harpy",
+      "path": "static/assets/bestiary/creatures/cliff-harpy-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 12634,
+      "sha256": "69a835df391cc3c5ef32f7784b529e1ff62b1927805f4f4596a3cbffa2a68404"
+    },
+    {
+      "id": "will-o-wisp",
+      "path": "static/assets/bestiary/creatures/will-o-wisp.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 172886,
+      "sha256": "a9b0b8fc1c436d2fb40de71db8c51a79be3dbb0990b59b4c7c01af3721c25c9d"
+    },
+    {
+      "id": "will-o-wisp",
+      "path": "static/assets/bestiary/creatures/will-o-wisp-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 10892,
+      "sha256": "13ff7f2150679468d1b774328d461cf3fb679fdf4c9542968ff5e03fc5d1d3fa"
+    },
+    {
+      "id": "basilisk",
+      "path": "static/assets/bestiary/creatures/basilisk.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 222634,
+      "sha256": "722a3b82434499ccf35776a79120cef71e7336cb18bc6e436ad58459a3d891a5"
+    },
+    {
+      "id": "basilisk",
+      "path": "static/assets/bestiary/creatures/basilisk-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 13962,
+      "sha256": "1e95e634de23f973ee6cb56ee76be478d6ef8035b9dbfd4fab2e4e27f3bf912e"
+    },
+    {
+      "id": "manticore",
+      "path": "static/assets/bestiary/creatures/manticore.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 199354,
+      "sha256": "f6ab25de126a126fe59167e588488f2d860f86906582aed047c0c69e73d19557"
+    },
+    {
+      "id": "manticore",
+      "path": "static/assets/bestiary/creatures/manticore-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 12762,
+      "sha256": "257e7bf8c99330d9376c37d7479c31b0f89ad1be526148ce1c9d6343fd17e8c2"
+    },
+    {
+      "id": "wyvern",
+      "path": "static/assets/bestiary/creatures/wyvern.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 199142,
+      "sha256": "4a5baf08f5100320f6c6f655700e881acd4b0754fc8890fc9949bcba3fa83759"
+    },
+    {
+      "id": "wyvern",
+      "path": "static/assets/bestiary/creatures/wyvern-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 12574,
+      "sha256": "dc20db4f63a19989d664cf3006a9e6e6b1711a3199b07358e3771e7a8cb94c0f"
+    },
+    {
+      "id": "marsh-hydra",
+      "path": "static/assets/bestiary/creatures/marsh-hydra.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 212556,
+      "sha256": "b333b40fb3183ea32c6f5cc5ac1f9497d64ff2575f776c45cf36407020ef0f46"
+    },
+    {
+      "id": "marsh-hydra",
+      "path": "static/assets/bestiary/creatures/marsh-hydra-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 12512,
+      "sha256": "5a7968269c1bbe338e5dc85968590193c1a26bd40c551b0cacd04d8e37302348"
+    },
+    {
+      "id": "runebound-colossus",
+      "path": "static/assets/bestiary/creatures/runebound-colossus.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 213112,
+      "sha256": "9e0e01993752538fee8409a2afb411a5099eba794fec084f651745b8bbc266df"
+    },
+    {
+      "id": "runebound-colossus",
+      "path": "static/assets/bestiary/creatures/runebound-colossus-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 12020,
+      "sha256": "ddd27df899a9f9a4d9df0368ea42931fb576ae79b5e6ef6afac49e86e79af91b"
+    },
+    {
+      "id": "owlbear-down",
+      "path": "static/assets/materials/owlbear-down.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 21232,
+      "sha256": "5fb9ac5b6a6df2c9375d5cdbf3f9962d8ed6b536f87aaf5c04053c0d5310b792"
+    },
+    {
+      "id": "rust-catalyst",
+      "path": "static/assets/materials/rust-catalyst.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 17136,
+      "sha256": "0397e7ec24c0c4a5d64717904f4329e226f253b306070e6739c90a9264048ee4"
+    },
+    {
+      "id": "blink-whisker",
+      "path": "static/assets/materials/blink-whisker.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 12550,
+      "sha256": "ca49f32fb56163bd6713eba7ccdef46de46fb3a788018c5ebe9ce0d4a8e93bf7"
+    },
+    {
+      "id": "harpy-feather",
+      "path": "static/assets/materials/harpy-feather.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 16744,
+      "sha256": "b550065ebdc640ada8a348d3895de3ff8563b3db5aaa21d5791b0f51d12b5813"
+    },
+    {
+      "id": "wisp-phosphor",
+      "path": "static/assets/materials/wisp-phosphor.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 12222,
+      "sha256": "434e82ed147428c236e40338be7302be77442fcaa40d6ef8069a704b7b21966a"
+    },
+    {
+      "id": "basilisk-scale",
+      "path": "static/assets/materials/basilisk-scale.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 17828,
+      "sha256": "fe0dc9b23bd76ee6621a1939bc497943d98ab080297aa009a13ae26134e310c1"
+    },
+    {
+      "id": "manticore-spine",
+      "path": "static/assets/materials/manticore-spine.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 9700,
+      "sha256": "9c147d69d2ec630038856299e3889b56ecb0df0c089b3bf6be5fa019d61e5b1e"
+    },
+    {
+      "id": "wyvern-venom-crystal",
+      "path": "static/assets/materials/wyvern-venom-crystal.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 14534,
+      "sha256": "e367881557f68d6d6808031e76f0ea5d82a9832f4f514eef0701dcb60e6ffd7a"
+    },
+    {
+      "id": "hydra-resin",
+      "path": "static/assets/materials/hydra-resin.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 11700,
+      "sha256": "d0db61f4ef1a5e9cd79eca98be4ebea7219ad4e4079a3c83140f8c183f72a082"
+    },
+    {
+      "id": "colossus-ward-key",
+      "path": "static/assets/materials/colossus-ward-key.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 13452,
+      "sha256": "bd025adba789ccb59ee510f43170172c744caf9d8c820194a08f6ccc539b9fe0"
+    },
+    {
+      "id": "bandit-drow",
+      "path": "static/assets/bestiary/bandits/drow.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 238108,
+      "sha256": "6e71f11f2c4cc7e2a4d24ed5fad27267c3d10b6b83ff89cfff9eb5cd59ab34e9"
+    },
+    {
+      "id": "bandit-catfolk",
+      "path": "static/assets/bestiary/bandits/catfolk.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 213610,
+      "sha256": "4074986486bf0d7f3450698f9229c609eaa900c8fa422428f6b94b0331b6bfc9"
+    },
+    {
+      "id": "bandit-high-elf",
+      "path": "static/assets/bestiary/bandits/high-elf.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 218884,
+      "sha256": "9e788f15f22f9c2e8a45bd0b7d80d49b7f8f2500090ff9d0b0b73324b282b600"
+    },
+    {
+      "id": "bandit-orc",
+      "path": "static/assets/bestiary/bandits/orc.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 212908,
+      "sha256": "45003d64bf5f528f7db8aec3bf9cdee028a1e627346e22de951e64dde1a85ee2"
+    },
+    {
+      "id": "bandit-wolfkin",
+      "path": "static/assets/bestiary/bandits/wolfkin.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 215788,
+      "sha256": "79b847711ad0d39bb523bc13a104463aec4e6abc818a2029ccbc5100796717df"
+    },
+    {
+      "id": "bandit-dark-elf",
+      "path": "static/assets/bestiary/bandits/dark-elf.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 216496,
+      "sha256": "29ad03071c938da3cb766106afbf7fa92208c923675fd4e0b257cd5fa8b8aa9f"
+    },
+    {
+      "id": "bandit-ogrekin",
+      "path": "static/assets/bestiary/bandits/ogrekin.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 212910,
+      "sha256": "a75b75a1df2df91062cfa8d4b93ae51277a1e0a779bddf0a44bcf28f92623951"
+    },
+    {
+      "id": "bandit-human",
+      "path": "static/assets/bestiary/bandits/human.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 217302,
+      "sha256": "d49ac52fa199324f27589123e9de83a2f66e5d8a9cf0168709c220a2a3f148fb"
+    },
+    {
+      "id": "basilisk-mirror-brooch",
+      "path": "static/assets/equipment/equipment-basilisk-mirror-brooch.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 16808,
+      "sha256": "7e3dbd60a80f6f043d8784dd13a4554def4e4133558b42d480acea67f358a66e"
+    },
+    {
+      "id": "wyvern-antivenom-locket",
+      "path": "static/assets/equipment/equipment-wyvern-antivenom-locket.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 12730,
+      "sha256": "7113161d44febdc67332a400594ccf4c2441df05cf20150b9befb5e2e827c00d"
+    },
+    {
+      "id": "manticore-barb-ring",
+      "path": "static/assets/equipment/equipment-manticore-barb-ring.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 13972,
+      "sha256": "ef58299b99e2d1e642b28955f7de1f9c352f291375e9fa6648508fd6f9831220"
+    },
+    {
+      "id": "hydra-heart-charm",
+      "path": "static/assets/equipment/equipment-hydra-heart-charm.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 12776,
+      "sha256": "6093448b55bce46984b89b8047e8de807d30878f00027e2b39ed96da4e8ec900"
+    },
+    {
+      "id": "colossus-ward-talisman",
+      "path": "static/assets/equipment/equipment-colossus-ward-talisman.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 11720,
+      "sha256": "498355f8a34237eea71b24f78cffebfba87f1f145e339685e4108e930c56fd2c"
+    },
+    {
+      "id": "stoneguard",
+      "path": "static/assets/spells/stoneguard.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 16048,
+      "sha256": "fbac21249b02089cd696d9633c028c838bf6b1b4eaaf22278cf2b9ff0bb820e3"
+    },
+    {
+      "id": "dispel-ward",
+      "path": "static/assets/spells/dispel-ward.webp",
+      "size": [
+        192,
+        160
+      ],
+      "alpha": true,
+      "bytes": 15440,
+      "sha256": "383bde16efe3975d79917fd45b05d08b4c8819b1ade312bd89593a9f26e3282d"
+    },
+    {
+      "id": "gust-strike",
+      "path": "static/assets/spells/gust-strike.webp",
+      "size": [
+        192,
+        175
+      ],
+      "alpha": true,
+      "bytes": 15332,
+      "sha256": "16347fb27428545ab52c9fc8c344f8794088525687e8edb25dcefd02cc71bd4b"
+    },
+    {
+      "id": "purifying-light",
+      "path": "static/assets/spells/purifying-light.webp",
+      "size": [
+        192,
+        192
+      ],
+      "alpha": true,
+      "bytes": 14968,
+      "sha256": "939c471a35ab0f08fffa0924835303d038776e5fb5cbc1c5d557334d48ff1e05"
+    },
+    {
+      "id": "chain-lightning",
+      "path": "static/assets/spells/chain-lightning.webp",
+      "size": [
+        192,
+        189
+      ],
+      "alpha": true,
+      "bytes": 13468,
+      "sha256": "c42e08f6b960e398da1d22ebe69ee941e1f7fa0e74223eaec1bd4be4696a7fa3"
+    },
+    {
+      "id": "binding-snare",
+      "path": "static/assets/spells/binding-snare.webp",
+      "size": [
+        192,
+        128
+      ],
+      "alpha": true,
+      "bytes": 9422,
+      "sha256": "4f15cf9906be5cc733a1b67ecb240245be3ecb6ddf55b54feab848f157ef1d0b"
+    },
+    {
+      "id": "expedition-warding",
+      "path": "static/assets/spells/expedition-warding.webp",
+      "size": [
+        192,
+        175
+      ],
+      "alpha": true,
+      "bytes": 17780,
+      "sha256": "75751433f3d4ebf39abde32ed3b7c0c1d1bc677a0d83f04d0cd56f2eb617a7f4"
+    },
+    {
+      "id": "antivenom-preparation",
+      "path": "static/assets/spells/antivenom-preparation.webp",
+      "size": [
+        192,
+        178
+      ],
+      "alpha": true,
+      "bytes": 13216,
+      "sha256": "6288a99dfa1f77cd7f2d5e28893389a7e131e8ff33ef2576809c49b7c2c0d6b6"
+    }
+  ]
+}

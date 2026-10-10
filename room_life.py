@@ -1,7 +1,9 @@
 """Read-only room presence and explanations of individual work."""
 
 ACTIVITIES={'equipment-work':'Fitting or enchanting personal equipment','signature-fitting':'Reviewing a personal fitting','equipment-review':'Practising with the agreed field kit','house-shape':'Fitting an agreed household undertaking','household-story':'Making an agreed shared project','shared-review':'Comparing research notes','rest':'Taking personal time','research':'Studying hearth wards','archive':'Working on shared research','commissions':'Copying for income','crafting':'Making the active artifact','garden':'Tending the conservatory','headquarters':'Working on a headquarters project','facilities':'Restoring living facilities','restoration':'Restoring the conservatory','housing':'Fitting a bedroom','training':'Studying or training','teaching':'Giving an agreed lesson','inscribing':'Inscribing equipment','spellwork':'Practising a spell','personal-request':'Making a personal keepsake','public-project':'Working on an agreed project'}
+ACTIVITIES.update({'resident-friendship':'Sharing an agreed friendship activity','foundation-work':'Investigating and restoring the foundation chamber','foundation-ritual':'Sharing an agreed private ritual'})
 AMBIENCE={
+    'foundation-chamber':('The inspection lamp lights the repaired channels beside the private bed.','The closed door keeps the chamber separate from the household corridors.','A hooded lamp lights the bedside table and the hearth-supply switch.'),
     'library':('Light reaches the reading desk; there is room for a new question.','The long table has space for letters, study and careful work.','The shelves recede into shadow around the reading lamps.'),
     'common-room':('The shared table waits for the day’s first conversations.','A chair by the hearth offers a pause between jobs.','The common room has room for a drink, a game or quiet company.'),
     'conservatory':('Pale light picks out the youngest leaves.','The growing benches make a green shelter from the stone corridors.','The glass holds the last light above the planting benches.'),
@@ -18,6 +20,15 @@ def location(s,who):
     import headquarters as h
     if not g.character_at_castle(s,who):return None
     assignment=g.character_assignment(s,who)
+    if assignment=='resident-friendship':
+        import resident_friendships
+        job=resident_friendships.saved(s)['job']
+        if job and who in job['participants']:return job['room']
+    if assignment=='foundation-ritual':return 'foundation-chamber'
+    if assignment=='foundation-work':
+        import foundation_chamber as fc
+        job=fc.saved(s)['job']
+        return 'library' if job and job['stepId']=='instructions' else 'foundation-chamber'
     if assignment=='external-commission':
         import commissions
         job=commissions.saved(s)['job']

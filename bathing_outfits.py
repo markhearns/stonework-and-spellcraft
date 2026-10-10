@@ -1,21 +1,21 @@
 """Room-specific cosmetic outfits, derived from current presence without save changes."""
 ROOMS = frozenset(('pool', 'sauna', 'hot-spring'))
 OUTFITS = {
-    'mira': ('Teal bathing wraps', 'Two-piece teal linen wraps.'),
-    'tamsin': ('Plum bathing linen', 'Plum wrap top and short tied bathing trousers.'),
-    'iona': ('Wine-coloured bathhouse wrap', 'Deep burgundy linen chest wrap and short tied bathing trousers.'),
-    'aurelia': ('Violet bathing wraps', 'Slate-violet two-piece linen wraps fitted around her wings.'),
-    'neris': ('Canal bathing wrap', 'Plum chest wrap and tied bathing trousers.'),
-    'sabine': ('Wine bathhouse linen', 'Wine wrap top and charcoal bathing skirt over matching briefs.'),
-    'maren': ('Joiner’s bathing wraps', 'Plum wrap top and charcoal tied shorts.'),
-    'brakka': ('Practical bathing linen', 'Plum chest wrap and charcoal short bathing trousers.'),
-    'fenna': ('Valley bathing wraps', 'Sage chest wrap and navy short bathing trousers.'),
-    'kaede': ('Violet bathhouse wrap', 'Violet chest wrap and hip wrap over bathing briefs.'),
-    'elowen': ('Sage bathing linen', 'Sage wrap top and violet bathing skirt over briefs.'),
-    'nyssara': ('Deepwater bathing wraps', 'Petrol-blue wrap top and short bathing trousers.'),
-    'sylva': ('Moss bathing wrap', 'Moss-green chest wrap and bathing trousers tied with plant-fibre cord.'),
-    'velis': ('Roadside bathing linen', 'Teal wrap top and short bathing trousers with rust ties.'),
-    'rhess': ('Keeper’s bathing wraps', 'Moss-green wrap top and separate bathing trousers with an exposed navel.'),
+    'mira': ('Teal bathing linen', 'Teal two-piece bathing ensemble.'),
+    'tamsin': ('Plum bathing linen', 'Plum halter bathing top and matching short bottoms, with her feline tail free.'),
+    'iona': ('Wine-red bathing two-piece', 'Wine-red scoop-neck swim top and matching bikini bottoms, with her tail free.'),
+    'aurelia': ('Violet bathing linen', 'Violet two-piece bathing ensemble fitted around her wings.'),
+    'neris': ('Plum tide', 'Plum two-piece bathing ensemble over her translucent teal water-elemental form.'),
+    'sabine': ('Wine bathhouse linen', 'Wine-red bathing top and charcoal bottoms.'),
+    'koharu': ('Teal bathing ribbons', 'Opaque teal halter swim top and matching standard bikini briefs, with her single dark brown fox tail free, long loose dark chestnut hair covering the sides of her head and only two fox ears on top; no human ears.'),
+    'zahra': ('Indigo bathing two-piece', 'Indigo halter swim top and matching bikini briefs with muted gold trim; her smoky curls drift above the water.'),
+    'fenna': ('Valley bathing linen', 'Sage bathing top and dark bottoms, with her wolfkin tail free.'),
+    'kaede': ('Violet bathhouse linen', 'Violet two-piece bathing ensemble.'),
+    'elowen': ('Sage bathing linen', 'Sage-green two-piece bathing ensemble.'),
+    'nyssara': ('Deepwater bathing linen', 'Petrol-blue two-piece bathing ensemble.'),
+    'sylva': ('Living-leaf bathing ensemble', 'Overlapping leaves and delicate vines over her living wood form.'),
+    'velis': ('Roadside bathing linen', 'Teal two-piece bathing ensemble.'),
+    'rhess': ('Keeper’s bathing linen', 'Moss-green two-piece bathing ensemble fitted around her dragonkin tail.'),
 }
 
 

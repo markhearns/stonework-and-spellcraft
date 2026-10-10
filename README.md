@@ -1,3 +1,125 @@
+# v0.119 — Companion goals with a finished result
+
+All 16 named companions now have concrete personal ambitions with four work stages each (five for Elowen), two authored responses at each stage, explicit success conditions, individual celebrations and two conversations about the finished result. Goals appear on Overview, Talk and Quests. Completed works remain in their associated rooms. Friendship is sufficient; romance is optional.
+
+Zahra forges Emberline, Sabine recovers her necklace, Tamsin finishes a usable cookbook menu, and Elowen produces a consumable field kit. Velis establishes standing deliveries. The other goals end in identifiable books, tested installations, a festival, a tournament title or a completed handover. Merrin explains how a massless spirit can handle real objects by concentrating.
+
+Earlier overlapping quests contribute completed work, and saved memories remain intact. Help explains costs, work, rewards and limitations. No text model is required. See [the companion goal guide](docs/COMPANION_GOALS_V119.md), [release notes](docs/RELEASE_V119.md) and [verification](docs/VERIFICATION_V119.json). Earlier release notes follow.
+
+# v0.118 — Merrin, world recruitment and interface repairs
+
+Restore the chapel to discover Merrin, an adult spirit companion. She has normal visit and household decisions, authored dialogue and remembered preferences, quests, friendships, three wardrobe tiers plus bathing artwork, romance, signature work and three field disciplines. Her visual appearance follows the generic Spirit reference. Both individual and all-companion Cheats include her.
+
+Normal procedural recruitment now begins with a saved rescue or bandit report, not custom character authoring. Rare exotics have a 1% chance. Golems and spirits never appear in these encounters; dryads and nymphs may be rescued but never appear as bandits. All four elemental variants have separate rescue and bandit art.
+
+All 30 creatures have challenge ranks. Expedition cards have location artwork, repeated room portrait icons are fixed, and the header day number has moved beside the phase indicator. Settings supports configurable API endpoints and the documented text/image request formats, including compatible local servers. Help and Cheats reflect these changes.
+
+See [release notes](docs/RELEASE_V118.md), [companion recruitment](docs/COMPANION_RECRUITMENT.md), [verification](docs/VERIFICATION_V118.json), and `START_HERE.md`. Earlier release notes follow.
+
+# v0.117 — Creature challenges, combat magic and recruitment quests
+
+Ten creatures add five intermediate and five difficult encounters, illustrated bestiary entries, bounties, materials and visible counters. Difficult expeditions unlock after Chapter 8. Their five rare materials make five powerful magical accessories with distinct effects; each needs two of its specific creature sample, binding materials, learned principles and six equipment-work phases.
+
+New common-ancestry arrivals require a completed rescue or a bandit capture-and-release quest. Rescue invitations are optional. Captured bandits use the existing Quiet chamber and three scripted conversation topics with multiple responses before a possible voluntary invitation. No instant correspondence creates a new common recruit. Existing contacts, starting companions and established story arrivals remain intact. Koharu keeps her local kitsune workshop meeting; exotic summoning and golem awakening retain their separate paths.
+
+Eight generic bandit illustrations cover Human, High elf, Dark elf, Drow, Catfolk, Wolfkin, Orc and Ogrekin. No new Bovinefolk bandit content was added while its replacement remains undecided. Creature, material, bandit and accessory runtime art is optimized WebP; masters and prompts are in the separate v0.117 source archive.
+
+Six new spells add targeted protection, cleansing, snares, wind attacks, ward removal and chain lightning to patrol combat. Two repeatable preparation rituals provide limited protection or antidote doses for one outgoing patrol. Costs, remaining durations and effects appear in combat previews and the Spells & Rituals reference. The Catfolk bandit artwork has been corrected to show only feline top ears.
+
+See [release notes](docs/RELEASE_V117.md), [verification](docs/VERIFICATION_V117.json), and `START_HERE.md`. The in-game Help and Cheats use the current catalogue. Earlier release notes follow.
+
+---
+
+# v0.116 — Residents, accommodation and scripted solo play
+
+Oni is now **Ogrekin** (ancestry ID `ogrekin`), a common ancestry reached through ordinary introductions. Kaede remains the same person; meet her through the valley glassworks after completing the first hearth-ward study. No summoning ritual is required.
+
+One Ember chamber and one Quiet chamber replace the duplicate fittings. Profiles and the full castle map show bedroom and quarters assignments. Each ancestry has a small, clearly explained capability bonus.
+
+Koharu (`koharu`), a slight-built dark-haired kitsune stage-prop restorer, replaces Maren while keeping the workshop connection. Her identity, dialogue, goals and artwork have been recreated. Koharu, Tamsin and Fenna, plus their generic ancestry illustrations, have only animal ears.
+
+Solo recruitment, character creation, personal-story preparation and phase accounts work without an LLM gamemaster. Created residents have saved conversation choices grounded in their interests and values. Eris/Selene co-op remains deferred. The requested Bovinefolk replacement is awaiting the user's ancestry choice.
+
+See [release notes](docs/RELEASE_V116.md), [solo narrative direction](docs/SCRIPTED_SOLO_V116.md) and `START_HERE.md`. Install the complete release, restart the server and hard-refresh. Earlier release notes follow.
+
+# v0.115 — Artwork and interface corrections
+
+Updated Iona and Zahra bathing portraits and Zahra’s third outfit. Fixed missing navigation-card artwork, uneven card image frames, the Prepared magic background and the Foundation ritual icon. Task explanations now name the missing work and link to its setup screen. Mira’s portraits appear beside room scenes. A full map covers 61 locations across five views connected by stairs and passages, with rubble, repair progress and hidden special rooms. Help and Cheats have been updated and verified.
+
+43 Python tests and six connected UI suites pass; all 44 navigation cards resolve artwork in fresh and demonstration games. Rendered browser layout remains unverified. See [release notes](docs/RELEASE_V115.md) and `START_HERE.md`. Restart the server and hard-refresh after installing this complete release.
+
+Previous release notes follow.
+
+# v0.114 — Progression and Zahra
+
+Zahra is now the smithy’s Djinn companion, with internal ID `zahra`, a new profile, revised dialogue and four completely recreated portraits. No Brakka save migration is included, as requested.
+
+The opening teaches equipment and an actual practical spell. Chapter 2 needs one chosen undertaking; extra communal construction is optional in Chapter 3; Chapter 4 only requires dungeon care when you choose an escorted capture or parley. Local patrols open after Chapter 4, the foundation ritual chamber after Chapter 5, and Rhess can help in Chapter 7 as a guest. Chapter 9 now investigates the castle’s old survey rooms. Friendship traditions open at 60 bonding.
+
+Two complete campaign routes pass with earned resources, no cheats and no food shortages. The Spells & Rituals reference and optional fade-to-black chamber ritual remain connected. All 391 unrelated artwork files are unchanged. See [current release notes](docs/RELEASE_V114.md) and `START_HERE.md` for installation. This archive has not been deployed to a hosted server; rendered browser layout remains unverified.
+
+The sections below describe previous releases and their original rules.
+
+# v0.113 — Conversations to return to
+
+All fifteen companions have new multi-exchange conversations and later visits: **46 conversations, 115 exchanges and 329 specific response choices**. Residents remember the preferences you explicitly share with them, acknowledge uncertainty or privacy, and accept corrections without rewriting your history. Disagreements can remain open. Shared jokes, revised plans and optional traditions give later conversations something new to discuss. Eight resident pairs also get continuing conversations in which they make their own decisions.
+
+Open **Companions → a resident → Talk → Conversations to return to** after her first personal disclosure in About. Each response saves immediately. Home invitations, room links, profiles and the journal use the same saved exchanges. Completing a conversation gives its relationship reward once; conversations spend no time or supplies. The foundation blessing applies to eligible gains.
+
+**245 Python tests and 12 connected UI suites pass.** All 398 artwork files are preserved. Rendered browser layout and audio performance remain unverified. Preserve the complete `data/` directory, install the full release, restart and hard-refresh. Schema 71 upgrades automatically with a backup. This package includes Chapter 9 and the ritual chamber and has not been deployed to a hosted server. See [release and installation notes](docs/RELEASE_V113.md).
+
+# v0.112 — Companion dialogue and meaningful choices
+
+Companion conversations now give all fifteen residents clearer goals, values, interests and shortcomings. Personal disclosures and resident-pair conversations offer three specific player responses with different replies; travel conversations include a second platonic response. Existing saved conversations retain their wording.
+
+The editorial pass replaces unspecified stories, missing explanations, interchangeable reassurance and several incorrect callbacks. Open a companion’s **About** or **Talk** tab to find the revised conversations. Disclosed goals and values also appear in her profile.
+
+Preserve the complete `data/` directory when upgrading, restart the Python server and hard-refresh. Schema 70 is unchanged. This archive is the full game, including Chapter 9 and the foundation ritual chamber; it does not deploy to your hosted server. See [release and verification notes](docs/RELEASE_V112.md).
+
+# v0.111 — Resident friendships that lead somewhere
+
+Open **Companions → Resident friendships**, or follow the link on a resident’s bonding card. Seven authored pair stories and general activities for other pairs turn bonding into optional invitations, shared keepsakes, later callbacks and modest cooperation benefits during real work.
+
+Milestones open at 10, 25, 45 and 100 bonding. A keepsake costs 4 crowns and one shared phase; completing it unlocks +1 cooperation when both residents do the same supported task, rising to +2 at 70 bonding. Invitations wait for your decision, and completed memories appear in both profiles and the keepsake’s room.
+
+The quality pass covers the new friendships, Chapter 9, the ritual, saved games, conversation context, navigation and responsive styles. 141 Python tests, including two earned routes through Chapters 1–9, and seven connected UI suites pass. Rendered browser layout is still unverified because the browser download failed.
+
+Preserve the complete `data/` directory, install, restart the Python server and hard-refresh. Schema 70 upgrades automatically with a backup. See [release, installation and verification notes](docs/RELEASE_V111.md).
+
+# v0.110 — Beneath the Hearth
+
+Chapter 9 follows the supply-road defense into the castle foundations. Trace the old connections, recover the operating instructions, restore the ritual chamber, and test its separate power supply and household connections. Each step records its findings; prior research can shorten the work. Open **Castle rooms & household → Foundation ritual chamber**, also available from **Magic** and the Chapter 8 conclusion.
+
+An optional, consensual intimacy ritual with an established adult partner takes one shared phase and fades to black. It grants **+20% positive relationship gains for the following nine phases (three game days)**, including bonds between residents. The page shows eligibility, costs, progress, discoveries and exact blessing expiry. Renewing refreshes the duration without stacking the percentage. Completing the chapter does not require romance.
+
+Preserve the complete `data/` directory, install this release, restart the Python server and hard-refresh. Save schema 69 upgrades automatically with a backup. This is the complete game package; it has not been deployed to your hosted server. See [release, installation and verification notes](docs/RELEASE_V110.md).
+
+# v0.109 — Bonds between residents
+
+Each resident now has a mutual bonding score with every other resident. Open a character’s **Profile** or **Relationships** tab to see portraits, levels, progress and recent shared activities; **Overview** shows their strongest connections.
+
+Conversations and shared work, lessons, ritual work, leisure, meals, gathering and expeditions build bonds automatically through the existing activity controls. Your deeper character relationships remain separate. Save schema 68 imports existing recorded relationship history and creates an automatic migration backup.
+
+Preserve the complete `data/` directory, install this release, restart the Python server and hard-refresh. See [release, installation and verification notes](docs/RELEASE_V109.md).
+
+# v0.108 — Recovered artwork and the magic reference
+
+Open **Magic → Spells & Rituals** for 133 illustrated reference entries with in-character observations, effects, requirements, costs, filters and links to the working controls. All 77 recovered images and Sylva’s new third outfit are integrated as optimized runtime assets.
+
+Preserve the complete existing `data/` directory, install this release, restart the Python server and hard-refresh. Save schema remains 67. See [release, installation and verification notes](docs/RELEASE_V108.md).
+
+# v0.107 — Portrait overhaul and expanded field guide
+
+See [release notes and installation](docs/RELEASE_V107.md).
+
+# v0.106 — Clearer actions and more useful space
+
+A rendered desktop review of v0.105 informed this update: less repeated page furniture, objective-led Home actions, clearer room workspaces and spell learning, correct bestiary breadcrumbs and scroll restoration, accurate equipment-action labels, fewer duplicate portraits, and bestiary/bounty Help. Existing artwork is reused; save schema remains 66.
+
+Run `python server.py`. Stop the previous process and preserve the complete `data/` directory before upgrading. The small patch can be overlaid onto v0.105; follow its `APPLY_UI_PATCH.txt`. Hard-refresh after restarting. Extracting into `public_html` alone does not run the Python server.
+
+See [release and review notes](docs/RELEASE_V106.md) and [verification](docs/VERIFICATION_V106.json). Eight existing UI suites and one new regression suite passed. The revised v0.106 desktop layout, mobile layout and late-game rendered states still need review after installation. Build with `python scripts/package_game.py ../stonework-and-spellcraft-v0.106.zip`.
+
 # v0.105 — Illustrated bestiary and creature bounties
 
 Browse 14 creatures and 21 ancestry references in **Adventures → Creatures and Peoples**. Encounters reuse the guide’s illustrations and creature profiles. Creature bounties pay crowns and supply rare components for advanced enchanting, signature upgrades and permanent castle improvements. Suitable creatures also provide existing materials. Household Hunting continues to produce generic food.

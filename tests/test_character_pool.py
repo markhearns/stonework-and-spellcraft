@@ -8,6 +8,7 @@ import character_pool as pool
 from candidate_proposals import validate_candidate
 from dialogue import DialogueService,ProviderSettings
 from server import GameStore
+from authoring_fixture import enable_authoring
 
 class CharacterPoolTests(unittest.TestCase):
     def test_all_compatible_combinations_and_bounded_prose(self):
@@ -29,10 +30,10 @@ class CharacterPoolTests(unittest.TestCase):
         s=g.new_campaign();before=deepcopy(s);ancestries=set();personalities=set();skins=set()
         for n in range(100):
             selection=pool.select(s,str(n));ancestries.add(selection['ancestry']);personalities.add(selection['temperament']);skins.add(selection['appearance']['skin'])
-        self.assertEqual(len(ancestries),12);self.assertEqual(len(personalities),8);self.assertGreaterEqual(len(skins),8);self.assertEqual(s,before)
+        self.assertEqual(ancestries,{a for a in pool.ANCESTRIES if pool.arrival_method(a)=='summoning'});self.assertEqual(len(personalities),8);self.assertGreaterEqual(len(skins),8);self.assertEqual(s,before)
     def test_offline_no_provider_retry_binding_and_approval(self):
         with tempfile.TemporaryDirectory() as d:
-            store=GameStore(d);calls=[];svc=DialogueService(ProviderSettings(d),lambda *_:calls.append(1))
+            store=GameStore(d);enable_authoring(store);calls=[];svc=DialogueService(ProviderSettings(d),lambda *_:calls.append(1))
             payload={'requestId':uuid.uuid4().hex,'expectedRevision':0,'purpose':'candidate-proposal','source':'offline','poolChoices':{'ancestry':'Seraph'},'text':'An optional brief.'}
             draft=svc.generate(store,payload);self.assertEqual(draft['status'],'ready');self.assertEqual(calls,[])
             self.assertEqual(svc.generate(store,payload),draft)
@@ -44,7 +45,7 @@ class CharacterPoolTests(unittest.TestCase):
             self.assertEqual(svc.accept(store,{'draftId':draft['id']}),s)
     def test_provider_selected_rules_reject_drift(self):
         with tempfile.TemporaryDirectory() as d:
-            store=GameStore(d);settings=ProviderSettings(d);settings.save({'enabled':True,'model':'fixture','apiKey':'secret','maxOutputTokens':1000})
+            store=GameStore(d);enable_authoring(store);settings=ProviderSettings(d);settings.save({'enabled':True,'model':'fixture','apiKey':'secret','maxOutputTokens':1000})
             payload={'requestId':uuid.uuid4().hex,'expectedRevision':0,'purpose':'candidate-proposal','poolChoices':{'ancestry':'Seraph','background':'lampwright'},'text':'An adult artisan.'}
             selection=pool.select(store.read(),payload['requestId'],payload['poolChoices']);p=pool.offline(store.read(),selection,payload['requestId']);p['capabilityPackageId']='archive-reader'
             calls=[]

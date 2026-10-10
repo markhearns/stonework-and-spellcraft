@@ -1,7 +1,7 @@
 """Low-pressure household provisions, gathering and reviewed supply orders."""
 from copy import deepcopy
 from math import ceil
-PREFERENCES={'founder':'forage','mira':'forage','tamsin':'forage','iona':'forage','aurelia':'forage','neris':'forage','sabine':'hunt','maren':'forage','brakka':'hunt','fenna':'hunt','kaede':'hunt','elowen':'forage','nyssara':'forage','sylva':'forage','velis':'forage'}
+PREFERENCES={'founder':'forage','mira':'forage','tamsin':'forage','iona':'forage','aurelia':'forage','neris':'forage','sabine':'hunt','koharu':'forage','zahra':'hunt','fenna':'hunt','kaede':'hunt','elowen':'forage','nyssara':'forage','sylva':'forage','velis':'forage'}
 def saved(s):return s['provisions']
 def initialize(s):
  import game as g
@@ -14,7 +14,8 @@ def yield_for(s,who,kind):
  return 6+min(3,g.skill_rank(s,who,'fieldcraft'))+int(PREFERENCES.get(who,'forage')==kind)
 def contract(s):
  import resident_specialties as r
- return (4 if r.active(s,'velis') else 0)+(2 if s.get('roadsWeKeep',{}).get('agreement')=='food' else 0)
+ import companion_goals
+ return (4 if r.active(s,'velis') else 0)+(2 if s.get('roadsWeKeep',{}).get('agreement')=='food' else 0)+(2 if companion_goals.complete(s,'velis') else 0)
 def add(s,n):saved(s)['stock']+=n
 def short(s):return saved(s)['unfedDays']>=3
 def forecast(s):
@@ -24,6 +25,10 @@ def forecast(s):
   kind=g.character_assignment(s,w)
   if kind in ('hunt','forage') and g.character_at_castle(s,w):lines.append(g.character_profile(s,w)['name']+': +'+str(yield_for(s,w,kind))+' provisions ('+kind+').')
  if s['currentDayPhase']=='evening':lines.append('At morning: '+str(need(s))+' provisions for the whole household, including travellers; '+str(contract(s))+' standing-contract provisions available before breakfast.')
+ import resident_friendships
+ for kind in ('hunt','forage'):
+  cooperation=resident_friendships.cooperation(s,kind)
+  if cooperation:lines.append('Resident cooperation: +'+str(cooperation['amount'])+' additional provisions from '+('hunting' if kind=='hunt' else 'foraging')+' together. Included in the phase result once.')
  if r['ritual']:lines.append('Conjure Sustenance: '+('one ritual work phase.' if g.character_assignment(s,'founder')=='food-ritual' and g.character_at_castle(s,'founder') else 'paused.'))
  return lines
 def quote(s,requests):
@@ -90,6 +95,13 @@ def resolve(s,summary,assignments,phase):
     bonus=who=='rhess' and resident_specialties.active(s,'rhess') and h.ready(s,'watchtower')
     food,crowns=(6,3) if bonus else (4,2)
     r['patrolWork'][who]=0;add(s,food);s['sharedFunds']+=crowns;summary.append(g.character_profile(s,who)['name']+' completed a road patrol: '+str(food)+' provisions and '+str(crowns)+' crowns from the refuge agreement.')
+ import resident_friendships
+ for kind in ('hunt','forage'):
+  workers=[w for w,k in assignments.items() if k==kind and w in g.household_members(s) and g.character_at_castle(s,w)]
+  cooperation=resident_friendships.cooperation(s,kind,workers)
+  if cooperation:
+   amount=cooperation['amount'];add(s,amount);r['gathered']+=amount
+   summary.append('Resident cooperation: '+' & '.join(g.character_profile(s,w)['name'] for w in cooperation['participants'])+' brought back '+str(amount)+' additional provisions from '+('hunting' if kind=='hunt' else 'foraging')+' together.')
  if r['ritual'] and assignments.get('founder')=='food-ritual' and g.character_at_castle(s,'founder'):
   r['ritual']['done']+=1
   if r['ritual']['done']>=2:r['ritual']=None;add(s,18);g.set_character_assignment(s,'founder','rest');summary.append('Conjure Sustenance completed: 18 provisions. Familiar nourishing food, with no expiry timer.')
@@ -107,6 +119,10 @@ def resolve(s,summary,assignments,phase):
   if bundles:s['sharedFunds']-=bundles;add(s,bundles*6);summary.append('Automatic pantry purchase: '+str(bundles*6)+' provisions for '+str(bundles)+' crowns; treasury floor respected.')
  served=min(daily,r['stock']);r['stock']-=served;r['unfedDays']=0 if served==daily else r['unfedDays']+1
  r['lastMeal']={'needed':daily,'served':served,'day':s['dayNumber']}
+ import companion_goals
+ if companion_goals.complete(s,'tamsin') and companion_goals.saved(s)['meal']=='tamsin':
+  r['lastMeal']['menu']='Tamsin’s herb broth, mushroom pie, oat rolls and pear tart'
+  summary.append('Household menu: '+r['lastMeal']['menu']+'. The normal provision cost applies.')
  summary.append('Household meals: '+str(served)+' / '+str(daily)+' provisions; '+str(r['stock'])+' remain.')
  if r['unfedDays']>=3:summary.append('Three or more unfed days: resting restores at most one vitality per phase. Feed the household to clear this capped effect; nobody dies or loses relationships.')
 def view(s):

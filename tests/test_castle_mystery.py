@@ -89,7 +89,7 @@ class CastleMysteryTests(unittest.TestCase):
             with sqlite3.connect(Path(directory)/'campaign.sqlite3') as db:
                 db.execute('CREATE TABLE campaign(id INTEGER PRIMARY KEY,state TEXT NOT NULL)');db.execute('INSERT INTO campaign VALUES(1,?)',(json.dumps(old),))
             store=GameStore(directory);upgraded=store.read()
-            self.assertTrue((Path(directory)/'campaign-before-schema-26-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f'campaign-before-schema-26-to-{g.CURRENT_SCHEMA_VERSION}.sqlite3').exists())
             for key,value in old.items():
                 if key not in ('schemaVersion','revision'):self.assertEqual(upgraded[key],value)
             self.assertEqual(upgraded,GameStore(directory).read())

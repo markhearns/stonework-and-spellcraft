@@ -1,0 +1,71 @@
+{
+  "version": "0.112",
+  "schema": 70,
+  "companions": [
+    "mira",
+    "tamsin",
+    "iona",
+    "aurelia",
+    "neris",
+    "sabine",
+    "maren",
+    "brakka",
+    "fenna",
+    "kaede",
+    "elowen",
+    "nyssara",
+    "sylva",
+    "velis",
+    "rhess"
+  ],
+  "rewritten_existing_passages": 175,
+  "passages_by_file": {
+    "social_content.py": 120,
+    "household_chapter_content.py": 19,
+    "party_journey_content.py": 12,
+    "relationship_content.py": 10,
+    "intimacy_content.py": 2,
+    "conversation_voice.py": 2,
+    "romance_content.py": 8,
+    "rhess_content.py": 2
+  },
+  "personal_disclosures_rebuilt": 45,
+  "pair_scenes_rebuilt": 27,
+  "scene_specific_initiative_choice_sets": 15,
+  "individual_relationship_invitation_sets": 13,
+  "additional_platonic_travel_choices": 15,
+  "almanac_choices": 3,
+  "social_scene_ids_and_gates_preserved": 100,
+  "existing_personal_chapter_ids_choices_rooms_preserved": 52,
+  "unchanged_runtime_assets": 398,
+  "saved_history": "Openings, chosen player lines and replies are read from existing memory records. No migration or dialogue reset. Legacy resident moments were left unchanged to preserve records that resolve text from their definitions.",
+  "continuity_fixes": [
+    "Neris follow-up mentions the invented duck only on the selected duck-song branch.",
+    "Fenna reassurance no longer says yes to whether her company is unwelcome.",
+    "Nyssara early affectionate callback refers to the warning-indicator story actually told, not the later clock-charm story.",
+    "Rhess describes the original watch dispersing before she arrived, consistent with her quest.",
+    "Neris refund anecdote matches her established account."
+  ],
+  "reviewed_writing_standards": [
+    "Concrete topic, answer or decision in each revised exchange.",
+    "Stories, song lines, jokes and technical explanations supplied rather than announced.",
+    "Named companions retain overlapping crafts, hobbies and differences of opinion.",
+    "Clear labels, distinct answers, saved selected player line, private scene gates unchanged."
+  ],
+  "changed_modules": [
+    "companion_almanac.py",
+    "companion_conversations.py",
+    "conversation_voice.py",
+    "dialogue.py",
+    "household_chapter_content.py",
+    "intimacy_content.py",
+    "party_journey_content.py",
+    "party_journeys.py",
+    "relationship_content.py",
+    "relationships.py",
+    "rhess_content.py",
+    "romance_content.py",
+    "server.py",
+    "social_content.py"
+  ]
+}

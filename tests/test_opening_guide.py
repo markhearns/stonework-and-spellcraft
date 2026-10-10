@@ -43,7 +43,7 @@ class OpeningGuideTests(unittest.TestCase):
         self.assertEqual(guide.view(self.s)['next']['id'],'journey')
         self.act('choose-expedition-approach',approach='survey');self.advance();self.act('return-expedition');self.advance()
         self.assertEqual(guide.view(self.s)['next']['id'],'introduction');self.assertTrue(guide.view(self.s)['milestones'][3]['complete'])
-        self.act('start-local-visit',encounterId='maren');self.advance()
+        self.act('start-local-visit',encounterId='koharu');self.advance()
         self.assertEqual(guide.view(self.s)['next']['id'],'membership');self.assertFalse(guide.view(self.s)['milestones'][4]['complete'])
     def test_headquarters_preview_tracks_active_and_paused_projects(self):
         self.act('hq-build',roomId='chapel')

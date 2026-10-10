@@ -19,7 +19,12 @@ def party_selection(s,a):
  g.require(isinstance(selected,list) and len(selected)<=3 and all(isinstance(w,str) for w in selected),'Choose up to three willing resident companions.')
  g.require(len(set(selected))==len(selected),'Choose each companion only once.')
  if 'companionIds' in a and a.get('companionId') is not None:g.require(a['companionId'] in selected,'The individual companion must also be in the selected party.')
- reasons=[reason for who in selected for reason in solo_life.companion_blockers(s,who)]
+ import first_patrol
+ def blockers(who):
+  if who=='rhess' and a.get('siteId')==first_patrol.WARD and first_patrol.guest_ally(s):
+   return [] if g.character_at_castle(s,who) else ['Bring Rhess home before departure.']
+  return solo_life.companion_blockers(s,who)
+ reasons=[reason for who in selected for reason in blockers(who)]
  g.require(not reasons,' '.join(reasons))
  return selected[:]
 
@@ -237,6 +242,9 @@ def scenes(s,key):
   available=len(p['completed'])>=2 and (ready and field and who in party or private_home)
   setting=d['campPlace'] if field else 'At home, you find a quiet place to talk about the journey.'
   choices={'company':{'label':'Enjoy the quiet company','response':response},'affection':{'label':'Share a moment of established mutual affection','response':romance.quest_reply(s,who,response),'blockers':[] if romance.level(s,who)>=1 else ['First establish mutual attraction together. Quiet company is always available.']}}
+  from companion_conversations import CAMP_QUESTIONS
+  question,answer=CAMP_QUESTIONS[who]
+  choices['curious']={'label':question,'response':answer}
   if field and key=='masquerade-manor':opening+=' She holds a half-mask beside her face, then lowers it. “Entirely optional. I rather like knowing who I am talking to.”'
   add('private:'+who,title,setting+'\n\n'+opening,['founder',who],available,choices)
  ending=d['endings'].get(p['ending'],('',''))[1]

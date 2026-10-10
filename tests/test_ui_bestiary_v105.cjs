@@ -37,10 +37,10 @@ const context = vm.createContext({
  const value=expr=>vm.runInContext(expr,context);
  const click=dataset=>events.click({preventDefault(){},target:{closest(){return {dataset,disabled:false};}}});
  const before=value('JSON.stringify(state)');
- await click({view:'bestiary'});assert.match(element('#app').innerHTML,/Creatures and Peoples/);assert.match(element('#app').innerHTML,/14/);
+ await click({view:'bestiary'});assert.match(element('#app').innerHTML,/Creatures and Peoples/);assert.match(element('#app').innerHTML,/30/);
  await click({bestiaryEntry:'grave-silk-spider'});let html=element('#app').innerHTML;
  assert.match(html,/Not yet observed/);assert.match(html,/Grave silk/);assert.match(html,/binding thread/i);assert.match(html,/advanced work/);assert.match(html,/bestiary\/creatures\/grave-silk-spider.webp/);
- await click({bestiaryTab:'ancestries'});await click({bestiaryEntry:'seraph'});assert.match(element('#app').innerHTML,/Generic adult ancestry illustration/);
+ await click({bestiaryTab:'ancestries'});await click({bestiaryEntry:'seraph'});assert.match(element('#app').innerHTML,/Scholar Elian Voss/);
  assert.equal(value('JSON.stringify(state)'),before,'navigation and references never change campaign state');
  await click({bounty:'grave-silk-spider'});html=element('#app').innerHTML;assert.match(html,/Brook apothecary/);assert.match(html,/healing ward/);assert.match(html,/name="bounty" value="grave-silk-spider"/);assert.match(html,/No food reward/);
  assert.equal(value('JSON.stringify(state)'),before);
@@ -53,7 +53,7 @@ const context = vm.createContext({
  await click({bestiaryEntry:'grave-silk-spider'});assert.match(element('#app').innerHTML,/Entry complete/);assert.match(element('#app').innerHTML,/Encounter values and responses/);
  await click({patrolRepeat:String(value('state.fieldPatrolView.reports.at(-1).id'))});assert.equal(value('currentView'),'bounties');assert.match(element('#app').innerHTML,/name="bounty" value="grave-silk-spider"/);
  await click({view:'stores'});html=element('#app').innerHTML;assert.doesNotMatch(html,/data-buy="grave-silk"/);assert.match(html,/data-sell="grave-silk"/);assert.match(html,/Source and advanced uses/);assert.doesNotMatch(html,/Hunting targets and recent hunts/);
- await click({view:'cheats'});assert.match(element('#app').innerHTML,/Fill out the bestiary/);await value('commit({type:"cheat-bestiary"})');assert.equal(value('state.bestiaryView.complete'),14);
- await click({view:'bestiary'});await click({bestiaryBack:'yes'});assert.match(element('#app').innerHTML,/14 entries complete/);
+ await click({view:'cheats'});assert.match(element('#app').innerHTML,/Fill out the bestiary/);await value('commit({type:"cheat-bestiary"})');assert.equal(value('state.bestiaryView.complete'),30);
+ await click({view:'bestiary'});await click({bestiaryBack:'yes'});assert.match(element('#app').innerHTML,/30 entries complete/);assert.match(element('#app').innerHTML,/30 entries unlocked/);assert.match(element('#app').innerHTML,/Knowledge unlocked/);assert.match(element('#app').innerHTML,/Reference only/);assert.doesNotMatch(element('#app').innerHTML,/30 observed/);
  console.log('v0.105 connected headless UI checks passed: bestiary, ancestry, bounty departure, real peaceful resolution, materials, stock purchase restrictions and reveal cheat.');
 }finally{fs.rmSync(directory,{recursive:true,force:true});}})().catch(e=>{console.error(e);process.exitCode=1;});

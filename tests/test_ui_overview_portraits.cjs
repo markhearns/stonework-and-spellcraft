@@ -36,7 +36,7 @@ const context = vm.createContext({
  vm.runInContext(fs.readFileSync('static/app.js','utf8'),context);await new Promise(resolve=>setImmediate(resolve));
  const value=expr=>vm.runInContext(expr,context);
  assert.match(value('startScreen()'),/title-backdrop/);
- const names=['mira','tamsin','iona','aurelia','neris','sabine','maren','brakka','fenna','kaede','elowen','nyssara','sylva','velis','rhess'];
+ const names=['mira','tamsin','iona','aurelia','neris','sabine','koharu','zahra','fenna','kaede','elowen','nyssara','sylva','velis','rhess'];
  const before=value('JSON.stringify(state)');
  for(const who of names)for(const tier of [1,2,3]){
   const id=who+(tier>1?'-outfit-'+tier:'');

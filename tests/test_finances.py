@@ -25,7 +25,7 @@ class FinanceTests(unittest.TestCase):
             store=GameStore(directory)
             with sqlite3.connect(store.database) as db:db.execute('UPDATE campaign SET state=?',(json.dumps(old),))
             migrated=GameStore(directory).read()
-            self.assertTrue((Path(directory)/'campaign-before-schema-12-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-12-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             self.assertEqual(migrated['schemaVersion'],66)
             for key in ('sharedFunds','dayNumber','currentDayPhase','materialInventory'):self.assertEqual(migrated[key],old[key])
             self.assertEqual(migrated['expedition']['wealthPlan'],'shared')

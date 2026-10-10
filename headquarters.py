@@ -146,6 +146,8 @@ def ready(s,key):
 def blockers(s,key,who='founder'):
     import game as g
     d=ROOMS[key];r=[]
+    if key=='foundation-chamber':
+        return ['Already restored. Visit the chamber to use its ritual.'] if ready(s,key) else ['Restore this room through the foundation-chamber investigation, available after Chapter 5.']
     if not g.character_at_castle(s,'founder'):r.append('Return home first.')
     if key=='watchtower' and not s.get('patrolJourneys',{}).get('watchtower-trail',{}).get('discoveries'):r.append('Meet Rhess and return from the watchtower trail first.')
     if ready(s,key):r.append('Already available.')

@@ -19,7 +19,7 @@ PROFILES = {
  'tamsin': (5,5,6,4,4,6), 'iona': (4,6,5,5,4,6),
  'aurelia': (6,5,6,4,6,3), 'neris': (3,7,4,7,5,4),
   'sabine': (3,5,4,6,5,7),
- 'maren': (5,7,5,6,4,3), 'brakka': (7,4,7,4,5,3),
+ 'koharu': (3,7,4,6,4,6), 'zahra': (3,7,4,6,6,4),
  'fenna': (3,7,4,5,4,7), 'kaede': (5,7,5,4,6,3),
  'elowen': (3,4,5,6,5,7), 'nyssara': (3,6,4,7,6,4),
  'sylva': (4,4,6,6,6,4),
@@ -42,7 +42,7 @@ PERKS = {
     'hearth-weaver': {'name': 'Hearth weaver', 'attribute': 'resolve', 'skill': 'artifice', 'affinity': 'hearth', 'description': 'One extra binding thread from each personally cast Warm-twist binding. Adds to the Hearth rank 2 bonus; inputs are still consumed.'},
 }
 PERKS.update({
- 'powerful-frame':{'name':'Practised strength','attribute':'dexterity','skill':'artifice','affinity':'hearth','ancestries':['Bovinefolk','Oni'],'description':'Turn physical strength into controlled workshop technique: +1 crafting work contribution. No faster research, personal stories, training or ritual.'},
+ 'powerful-frame':{'name':'Practised strength','attribute':'dexterity','skill':'artifice','affinity':'hearth','ancestries':['Bovinefolk','Ogrekin'],'description':'Turn physical strength into controlled workshop technique: +1 crafting work contribution. No faster research, personal stories, training or ritual.'},
  'enduring-focus':{'name':'Enduring focus','attribute':'resolve','skill':'scholarship','affinity':'hearth','ancestries':['Orc'],'description':'Sustain a personal story study: +1 own story work contribution per assigned phase. No extra action or reward; no faster training or construction.'},
  'keen-observation':{'name':'Practised keen observation','attribute':'intelligence','skill':'scholarship','affinity':'light','ancestries':['Wolfkin'],'description':'Train sharp senses into careful comparisons: +1 research/archive work contribution. Does not reveal secrets, grant discoveries or shorten travel.'},
 })

@@ -12,6 +12,7 @@ import bounty_contracts
 
 ENEMIES=bestiary.ENCOUNTERS
 ROUTES=bestiary.ROUTES
+LOCAL_ROAD={**ROUTES['road'],'name':'Local supply road','description':'A short patrol near the castle: one encounter with lantern moths or wolves. Rest and bring your field equipment. Retreat remains available; longer routes and raiders open after Chapter 7.','pool':['lantern-moth','wolf'],'weights':[60,40]}
 MISSIONS={
  'scout':dict(name='Trace the missing delivery',enemies=['thief','wolf'],art='patrol-road'),
  'escort':dict(name='Reopen the supply route',enemies=['bandit','thief'],art='patrol-road'),
@@ -24,6 +25,7 @@ def chapter(s):return s.get('firstRealTest',{'started':False,'completed':[],'las
 def initialize(s):
  s.setdefault('fieldPatrols',deepcopy(saved(s)));s.setdefault('firstRealTest',deepcopy(chapter(s)))
 def unlocked(s):return bool(s.get('firstPatrol',{}).get('completedOn'))
+def local_unlocked(s):return unlocked(s) or bool(s.get('keepingHearth',{}).get('completedOn'))
 def away(s,who):return bool(saved(s)['active'] and who in saved(s)['active']['party'])
 def require(s,condition,message):
  import game as g
@@ -129,6 +131,15 @@ def choices(s):
    if any(s['materialInventory'].get(k,0)-s['materialReserveTargets'].get(k,0)<n for k,n in inputs.items()):b.append('Needs unreserved casting components: '+', '.join(str(n)+' '+g.MATERIALS[k]['name'] for k,n in inputs.items())+'.')
    rows.append(dict(id=who+':spell:'+spell['id'],who=who,name=form['name'],damage=0 if kind=='heal' else f.damage(kind,d),block=99 if kind=='ice' else defence,cost=0,kind='spell',spellId=spell['id'],spellKind=kind,inputs=deepcopy(inputs),blockers=b))
  if run['mission']=='escort' and chapter(s)['plan']=='scout' and not run['bypassUsed']:rows.append(dict(id='detour',who=party[0] if party else run['party'][0],name='Use the surveyed detour (no encounter reward)',kind='bypass',damage=0,block=99,cost=0,blockers=[]))
+ import creature_challenges
+ rows.extend(creature_challenges.rows(s,run))
+ import combat_magic
+ rows.extend(combat_magic.rows(s,run))
+ import recruitment_quests
+ rows.extend(recruitment_quests.capture_rows(s,run))
+ if creature_challenges.key(run)=='runebound-colossus' and creature_challenges.state(s,run)['wards']:
+  for row in rows:
+   if row['kind']=='peace':row['blockers'].append('Disconnect all remaining ward plates before applying the shutdown sequence.')
  import field_objectives
  rows.extend(field_objectives.combat_rows(s,run))
  return tactics.enrich(s,run,rows)
@@ -142,7 +153,8 @@ def apply(s,act):
  kind=act.get('type','');initialize(s);r=saved(s);c=chapter(s)
  import patrol_homecoming
  if patrol_homecoming.apply(s,act):return
- require(s,unlocked(s),'Conclude Chapter 7 to unlock field patrols and Chapter 8.')
+ require(s,local_unlocked(s),'Conclude Chapter 4 to unlock local road patrols.')
+ if kind.startswith('trial-'):require(s,unlocked(s),'Conclude Chapter 7 before starting Chapter 8.')
  import field_objectives as objectives
  if objectives.apply(s,act):
   if r['active']:bestiary.observe(s,r['active'])
@@ -152,6 +164,7 @@ def apply(s,act):
   require(s,g.character_at_castle(s,'founder'),'Return home before dispatching a patrol.')
   party=act.get('participants');route=act.get('routeId');mission=act.get('missionId')
   objective=act.get('objectiveId');bounty=act.get('bountyId')
+  if not unlocked(s):require(s,route=='road' and mission is None and objective is None and bounty is None,'Only the local Supply road patrol is available before Chapter 7. Larger routes, bounties and special operations open after the shared watch.')
   require(s,bounty is None or (isinstance(bounty,str) and bounty in bounty_contracts.CONTRACTS and objective is None and mission is None),'Choose one bounty, objective or story outing.')
   require(s,objective is None or (isinstance(objective,str) and objective in objectives.OBJECTIVES and mission is None),'Choose a listed objective without a Chapter 8 mission.')
   require(s,isinstance(party,list) and 1<=len(party)<=4 and all(isinstance(w,str) for w in party) and len(set(party))==len(party),'Choose one to four distinct household members.')
@@ -163,28 +176,38 @@ def apply(s,act):
   elif mission is not None:
    require(s,isinstance(mission,str) and mission in MISSIONS,'Choose an offered story outing.');b=story_blockers(s,mission);require(s,not b,' '.join(b));require(s,'founder' in party,'Bring your scholar on Chapter 8 story outings.');enemies=MISSIONS[mission]['enemies'][:];name=MISSIONS[mission]['name'];route='road'
   else:
-   require(s,isinstance(route,str) and route in ROUTES,'Choose an offered patrol route.');d=ROUTES[route]
+   require(s,isinstance(route,str) and route in ROUTES,'Choose an offered patrol route.');d=ROUTES[route] if unlocked(s) else LOCAL_ROAD
+   import creature_challenges
+   require(s,not creature_challenges.route_blockers(s,route),' '.join(creature_challenges.route_blockers(s,route)))
    r.setdefault('seed',secrets.token_hex(16));rng=random.Random(r['seed']+':'+str(r['serial']+1));enemies=rng.choices(d['pool'],weights=d['weights'],k=d['count']);name=d['name']
-  ancestries=[rng.choice(bestiary.RAIDER_ANCESTRIES) if ENEMIES[key].get('roleId') else None for key in enemies] if bounty is None and objective is None and mission is None else ['human' if ENEMIES[key].get('roleId') else None for key in enemies]
+  ancestries=[__import__('encounter_people').choose(rng,'capture') if ENEMIES[key].get('roleId') else None for key in enemies] if bounty is None and objective is None and mission is None else ['human' if ENEMIES[key].get('roleId') else None for key in enemies]
   previous_modes={w:a.state(s)['mode'].get(w,'household') for w in party}
   for w in party:
    a.validate_loadout(s,w,a.loadout(s,w,'expedition'));a.state(s)['mode'][w]='expedition';g.set_character_assignment(s,w,'rest')
   r['serial']+=1;r['active']=dict(id=r['serial'],name=name,party=party[:],previousModes=previous_modes,route=route,mission=mission,enemies=enemies,ancestries=ancestries,index=0,hp=encounter_hp(s,enemies[0],mission),stage='outbound',pending=None,used=[],bypassUsed=False,outcomes=[],loot={'crowns':0,'food':0,'materials':{}},log=[],startedDay=s['dayNumber'],retreated=False,round=0,opening=False,contributions={})
+  import combat_magic
+  combat_magic.depart(s,r['active'])
   if bounty:bounty_contracts.attach(r['active'],bounty)
   if objective:objectives.attach(s,r['active'],objective)
   g.add_journal(s,'Departed: '+name+'. '+', '.join(g.character_profile(s,w)['name'] for w in party)+'. Household work pauses; expedition equipment is active.');return
  if kind=='watch-method':
   run=r['active'];require(s,run is not None and run['stage']=='decision','Wait for a patrol decision.');key=act.get('methodId');row=next((x for x in choices(s) if x['id']==key),None);require(s,row is not None,'Choose an offered patrol method.');require(s,not row['blockers'],' '.join(row['blockers']))
   for k,n in row.get('inputs',{}).items():s['materialInventory'][k]-=n
+  if row.get('goalKit'):
+   import companion_goals
+   companion_goals.initialize(s);require(s,companion_goals.saved(s)['kits']>0,'Restock a field kit first.');companion_goals.saved(s)['kits']-=1
   run['pending']=deepcopy(row);run['stage']='exchange';return
  if kind=='watch-retreat':
   run=r['active'];require(s,run is not None and run['stage'] in ('outbound','decision','exchange','site-decision','site-work'),'This patrol is already returning or absent.')
   for k,n in (run['pending'] or {}).get('inputs',{}).items():s['materialInventory'][k]+=n
+  if (run['pending'] or {}).get('goalKit'):
+   import companion_goals
+   companion_goals.saved(s)['kits']+=1
   run.update(stage='returning',retreated=True,pending=None);run['log'].append('Withdrew safely. Completed encounter rewards are retained; unfinished rewards are not granted.');return
  require(s,g.character_at_castle(s,'founder') and not r['active'],'Bring the patrol and your scholar home first.')
  if kind=='trial-start':
   require(s,not c['started'],'Chapter 8 has already begun.');c['started']=True
-  remember(s,'The missing delivery','Rhess puts two signal records beside Velis’s delivery ledger. “The same wagon stopped twice,” she says. Velis taps its seal number. “The driver reached the refuge. Someone has the cargo. We can investigate when we are ready.”')
+  remember(s,'The missing delivery','The watchtower report and Velis’s letter identify the same missing wagon. The driver reached the refuge, but the cargo did not. You put the two seal numbers beside one another and open a page for the investigation.')
  elif kind=='trial-plan':
   require(s,'scout' in c['completed'] and 'escort' not in c['completed'],'Scout the missing delivery before agreeing the escort plan.');choice=act.get('choice');require(s,isinstance(choice,str) and choice in PLANS,'Choose a route plan.');c['plan']=choice
   remember(s,'The route plan',PLANS[choice]+(' Sabine identifies a false toll mark from the recovered harness. “They want us to mistake theft for authority. Ask who issued their order.”' if 'sabine' in g.household_members(s) else 'Velis compares the recovered seal with her contract. The toll collectors have no claim on the cargo.'))
@@ -206,6 +229,8 @@ def encounter_hp(s,key,mission):
 def finish_encounter(s,run,row,reward=True):
  import game as g
  key=run['enemies'][run['index']];d=bestiary.encounter(s,run)
+ import recruitment_quests
+ recruitment_quests.resolved(s,run,row)
  bestiary.resolved(s,run,reward)
  run['outcomes'].append(dict(name=d['name'],method=row['name'],participants=[row['who']],enemyId=key,bestiaryId=d['bestiaryId'],ancestryId=d.get('ancestryId'),rewarded=reward))
  if reward:
@@ -215,6 +240,8 @@ def finish_encounter(s,run,row,reward=True):
    run['loot']['crowns']+=d['crowns'];run['loot']['food']+=d['food']
   for k,n in d['materials'].items():run['loot']['materials'][k]=run['loot']['materials'].get(k,0)+n
   bounty_contracts.collect(s,run,d['bestiaryId'])
+ run.pop('creatureState',None)
+ run.pop('combatMagic',None)
  run['index']+=1;run['used']=[];run['round']=0;run['opening']=False;run['retaliationSeen']=False
  if run['index']==len(run['enemies']):run['stage']='returning'
  else:
@@ -225,6 +252,10 @@ def resolve(s,summary):
  import game as g,field_magic as f,provisions,companion_participation as cp,armoury as a
  run=saved(s)['active']
  if not run:return
+ import resident_bonds
+ if run['stage'] in ('outbound','returning','exchange'):
+  changes=resident_bonds.award(s,run['party'],'field-patrol:'+s['currentDayPhase']+':'+run['stage'],'Working together on '+run['name'])
+  resident_bonds.summarize(s,changes,summary)
  import field_objectives as objectives
  if objectives.resolve_site(s,run,summary):return
  if run['stage']=='decision':return
@@ -237,6 +268,10 @@ def resolve(s,summary):
   for who,stats in run.get('contributions',{}).items():
    for stat,proof in [('protected','protection'),('healed','healing'),('controlled','control')]:
     if complete and stats.get(stat,0):signature_growth.record_work(s,who,proof,field=True)
+  import creature_challenges
+  creature_challenges.returned(s,run,complete,summary)
+  import recruitment_quests
+  recruitment_quests.returned(s,run,complete,summary)
   bounty_text=bounty_contracts.returned(s,run,complete)
   if bounty_text:summary.append(bounty_text);run['log'].append(bounty_text)
   if complete and not run['mission'] and not run.get('bountyId'):
@@ -269,6 +304,9 @@ def resolve(s,summary):
  row=run['pending'];who=row['who'];lines=[]
  import patrol_tactics as tactics
  result=tactics.preview(s,run,row)
+ run['combatMagic']=deepcopy(result['combatMagic']);run['preparations']=deepcopy(result['preparations'])
+ if 'creatureState' in result:run['creatureState']=deepcopy(result['creatureState'])
+ lines.extend(result.get('challengeNotes',[]))
  run['retaliationSeen']=run.get('retaliationSeen',run.get('round',0)>0) or not result['cancelled']
  for w,n in result['healthAfter'].items():f.initialize(s)['vitality'][w]=n
  if row['kind']=='technique':run['used'].append(row['id'])
@@ -280,7 +318,7 @@ def resolve(s,summary):
  lines.append(g.character_profile(s,who)['name']+' · '+row['name']+': '+str(result['damage'])+' damage; enemy '+str(run['hp'])+' vitality remains.')
  if result['intercepted']:lines.append(g.character_profile(s,who)['name']+' covers '+g.character_profile(s,result['originalTarget'])['name']+'.')
  if result['injury']:lines.append(g.character_profile(s,result['target'])['name']+' loses '+str(result['injury'])+' vitality.')
- elif not result['cancelled']:lines.append('The attack is contained; nobody loses vitality.')
+ elif not result['cancelled']:lines.append('The main attack causes no injury.')
  for heal in result['healing']:lines.append(g.character_profile(s,heal['who'])['name']+' recovers '+str(heal['amount'])+' vitality.')
  if row.get('control'):lines.append('The next damaging action gains '+str(result['opening'] or 0)+' damage.')
  task_complete=objectives.resolved(s,run,row,result)
@@ -312,10 +350,16 @@ def view(s):
  if public:
   public.pop('enemies');public['total']=len(run['enemies']);public['enemy']=bestiary.encounter(s,run) if run['index']<len(run['enemies']) and run['stage']!='outbound' else None
   public['entranceDefense']=bool(run['mission']=='defend' and encounter_hp(s,'bandit','defend')<ENEMIES['bandit']['hp'])
+  import creature_challenges
+  public['creatureChallenge']=creature_challenges.view(s,run) if public['enemy'] else None
+  import combat_magic
+  public['magicConditions']=combat_magic.view(s,run)
   public['intent']=tactics.intent(s,run) if run['stage'] in ('decision','exchange') else None
   public['choices']=choices(s);public['cover'],public['coverSources']=cover(s,[w for w in run['party'] if f.vitality(s,w)>0]);public['partyRows']=[dict(id=w,name=g.character_profile(s,w)['name'],vitality=f.vitality(s,w),roles=tactics.roles(s,w)) for w in run['party']]
- import field_objectives
- return dict(objectives=field_objectives.view(s,run),homecoming=patrol_homecoming.view(s),unlocked=unlocked(s),active=public,routes=deepcopy(ROUTES),reports=deepcopy(saved(s)['reports']),members=[dict(id=w,name=g.character_profile(s,w)['name'],vitality=f.vitality(s,w),roles=tactics.roles(s,w),blockers=member_blockers(s,w)) for w in g.household_members(s)],chapter={**deepcopy(chapter(s)), 'next':guide.checked(s,guide.trial(s)), 'missions':{k:{**deepcopy(d),'blockers':story_blockers(s,k)} for k,d in MISSIONS.items()},'plans':PLANS,'improvements':IMPROVEMENTS,'closingBlockers':closing_blockers(s),'nightBlockers':night_blockers(s)})
+ import field_objectives,creature_challenges
+ routes=deepcopy(ROUTES if unlocked(s) else {'road':LOCAL_ROAD})
+ for route_id,definition in routes.items():definition['blockers']=creature_challenges.route_blockers(s,route_id)
+ return dict(objectives=field_objectives.view(s,run) if unlocked(s) else {**field_objectives.view(s,run),'offers':[]},homecoming=patrol_homecoming.view(s),unlocked=local_unlocked(s),advancedUnlocked=unlocked(s),active=public,routes=routes,reports=deepcopy(saved(s)['reports']),members=[dict(id=w,name=g.character_profile(s,w)['name'],vitality=f.vitality(s,w),roles=tactics.roles(s,w),blockers=member_blockers(s,w)) for w in g.household_members(s)],chapter={**deepcopy(chapter(s)), 'next':guide.checked(s,guide.trial(s)), 'missions':{k:{**deepcopy(d),'blockers':story_blockers(s,k)} for k,d in MISSIONS.items()},'plans':PLANS,'improvements':IMPROVEMENTS,'closingBlockers':closing_blockers(s),'nightBlockers':night_blockers(s)})
 
 def forecast(s):
  r=saved(s)['active']

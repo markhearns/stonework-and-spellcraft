@@ -42,17 +42,17 @@ class SoloStartTests(unittest.TestCase):
         for _ in range(g.RECIPES['index-charm']['requiredWorkPhases']):g.apply_action(s,{'type':'advance'})
         g.apply_action(s,{'type':'install-index-charm','installed':True})
         self.assertEqual(g.research_blockers(s,'courteous-passage','founder'),[])
-        g.apply_action(s,{'type':'start-local-visit','encounterId':'maren'})
+        g.apply_action(s,{'type':'start-local-visit','encounterId':'koharu'})
         g.apply_action(s,{'type':'advance'})
-        contact=next(k for k,c in s['summoningContacts'].items() if c['personId']=='maren')
+        contact=next(k for k,c in s['summoningContacts'].items() if c['personId']=='koharu')
         import summoning
-        for topic in summoning.candidate_catalogue(s)['maren']['topics']:
+        for topic in summoning.candidate_catalogue(s)['koharu']['topics']:
             g.apply_action(s,{'type':'summoning-talk','contactId':contact,'topic':topic})
         g.apply_action(s,{'type':'summoning-invite','contactId':contact,'roomId':'bedchamber'})
         g.apply_action(s,{'type':'advance'})
         g.apply_action(s,{'type':'summoning-ask-stay','contactId':contact})
         g.apply_action(s,{'type':'summoning-household-decision','contactId':contact,'decision':'invite-to-stay'})
-        self.assertEqual(g.household_members(s),['founder','maren'])
+        self.assertEqual(g.household_members(s),['founder','koharu'])
         self.assertFalse(s['testing']['used'])
         self.assertNotIn('mira',g.public_state(s)['characterCatalog'])
 
@@ -72,7 +72,7 @@ class SoloStartTests(unittest.TestCase):
             with store.connect() as db:db.execute('UPDATE campaign SET state=?',(json.dumps(legacy),))
             migrated=GameStore(d).read()
             self.assertEqual(migrated['startType'],'demo');self.assertIn('mira',g.household_members(migrated))
-            self.assertTrue(Path(d,'campaign-before-schema-37-to-66.sqlite3').exists())
+            self.assertTrue(Path(d,f"campaign-before-schema-37-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
 
     def test_testing_transaction_retry_validation_and_marking(self):
         with tempfile.TemporaryDirectory() as d:

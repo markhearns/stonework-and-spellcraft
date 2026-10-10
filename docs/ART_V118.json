@@ -1,0 +1,436 @@
+{
+  "version": "0.118",
+  "mode": "built-in image_gen",
+  "note": "Runtime exports for v0.118. Merrin uses the generic Spirit reference; tier 2 is the plum evening dress, tier 3 the plum halter and short wrap skirt. Bathing is separate. Full-resolution masters are in the incremental source-art archive.",
+  "assets": [
+    {
+      "id": "bandit-kitsune",
+      "path": "static/assets/bestiary/bandits/kitsune.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 191024,
+      "sha256": "48aea2e128f8e90595d4227778cc53152c2ce74837dbeb15efefb99dcf2a8e71"
+    },
+    {
+      "id": "bandit-demon",
+      "path": "static/assets/bestiary/bandits/demon.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 203828,
+      "sha256": "fa4899f1be26ac486a343c5a2794ba2b71d0fe852fdbeb3525f934986210e275"
+    },
+    {
+      "id": "bandit-seraph",
+      "path": "static/assets/bestiary/bandits/seraph.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 206346,
+      "sha256": "2072b9dacf602370d92e57b3280ba0ab92c9fdcdd60e96a59087b5deb2114c60"
+    },
+    {
+      "id": "bandit-elemental-water",
+      "path": "static/assets/bestiary/bandits/elemental-water.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 195120,
+      "sha256": "55c1eb46081df809b32a1715972c087779f426a10932fe234129926a118a351a"
+    },
+    {
+      "id": "bandit-vampire",
+      "path": "static/assets/bestiary/bandits/vampire.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 167250,
+      "sha256": "e22054d6f223633f10b1fcd70bd2b6b406f791e79845fb9972bf9b5892245d20"
+    },
+    {
+      "id": "bandit-fae",
+      "path": "static/assets/bestiary/bandits/fae.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 200998,
+      "sha256": "cb5ef5dc1c5e3c86a1339077e45ed567f6b65441cd33879c58ce095b7f593977"
+    },
+    {
+      "id": "bandit-djinn",
+      "path": "static/assets/bestiary/bandits/djinn.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 210338,
+      "sha256": "20b57fbcae7c95b55f211b48ad1d096f0dbb6b49904ad4c997ddc2aebe9428e8"
+    },
+    {
+      "id": "bandit-dragonkin",
+      "path": "static/assets/bestiary/bandits/dragonkin.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 208470,
+      "sha256": "eea5ba7c6f39bd501b6678b7954784fb67ba88ab04f6c5f12be23a072b6bdebe"
+    },
+    {
+      "id": "bandit-elemental-fire",
+      "path": "static/assets/bestiary/bandits/elemental-fire.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 199510,
+      "sha256": "b2fe15f3b0cbdbbaf3fd809c1a964677054bee566c0b2052dd877a67961d569d"
+    },
+    {
+      "id": "bandit-elemental-earth",
+      "path": "static/assets/bestiary/bandits/elemental-earth.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 196868,
+      "sha256": "a85858a5f225a075236a307c3282af914d7c7bc449b2bf3ba3509c08cc09d7a0"
+    },
+    {
+      "id": "bandit-elemental-air",
+      "path": "static/assets/bestiary/bandits/elemental-air.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 206432,
+      "sha256": "06b026b3fe5c34bf441e5c056cf204e2bbe80f77ea1cd6369e3c8fe7e85a32d0"
+    },
+    {
+      "id": "rescue-human",
+      "path": "static/assets/bestiary/rescues/human.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 205830,
+      "sha256": "71ab07cd94c259a16990986f7aea6048481dabac20ac7e3160b6e2cd41926785"
+    },
+    {
+      "id": "rescue-high-elf",
+      "path": "static/assets/bestiary/rescues/high-elf.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 210114,
+      "sha256": "b722269135a83321fb4ce32a7af64a78b1055bf46450b03b33ba4bed5c383929"
+    },
+    {
+      "id": "rescue-dark-elf",
+      "path": "static/assets/bestiary/rescues/dark-elf.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 205216,
+      "sha256": "86141583e6cce0cdc796b52459cc0e748d73010078ebdcfcea5a4847d412f347"
+    },
+    {
+      "id": "rescue-drow",
+      "path": "static/assets/bestiary/rescues/drow.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 201456,
+      "sha256": "6f28a843350958e6f69f83bfdd2ffb8c9c903274dd26284bcf2eb148ad0ae3e5"
+    },
+    {
+      "id": "rescue-catfolk",
+      "path": "static/assets/bestiary/rescues/catfolk.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 199174,
+      "sha256": "c69195f9f1fe58792878fabcde53d593cea13b51361500e3f510efb0cfba0c45"
+    },
+    {
+      "id": "rescue-wolfkin",
+      "path": "static/assets/bestiary/rescues/wolfkin.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 203896,
+      "sha256": "7814acb398da8e34b36baa6a9307d8a7d0187fd9cf097f0330713de346e9e386"
+    },
+    {
+      "id": "rescue-orc",
+      "path": "static/assets/bestiary/rescues/orc.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 201766,
+      "sha256": "d9c02e5206a5e30920b8fb4a1fec96150d4fb3e1e06353762cc396531808b7fe"
+    },
+    {
+      "id": "rescue-ogrekin",
+      "path": "static/assets/bestiary/rescues/ogrekin.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 213484,
+      "sha256": "8dec126ad64b4b6e2b45d0f0ba7f5332dff3fbf4a3b5ae446a8a1707ccbdac65"
+    },
+    {
+      "id": "rescue-kitsune",
+      "path": "static/assets/bestiary/rescues/kitsune.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 188840,
+      "sha256": "0fcf170fbfcb10da145fa6f7bd4af983fcf0d04108a42285b9142c32164ff1f1"
+    },
+    {
+      "id": "rescue-demon",
+      "path": "static/assets/bestiary/rescues/demon.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 205422,
+      "sha256": "23766f17aad795591e56000a2d246eb430773e613ede3624616630c808fe4274"
+    },
+    {
+      "id": "rescue-seraph",
+      "path": "static/assets/bestiary/rescues/seraph.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 204890,
+      "sha256": "dc5d992b738a07958fe5d0697ca4c45a4c69e46b3be4e5e3da6797b2be03da68"
+    },
+    {
+      "id": "rescue-elemental-water",
+      "path": "static/assets/bestiary/rescues/elemental-water.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 213930,
+      "sha256": "122c0f201b40d0a8828c7875b2f51851aed1661f6f840196384b4a1e8dbacb13"
+    },
+    {
+      "id": "rescue-vampire",
+      "path": "static/assets/bestiary/rescues/vampire.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 198082,
+      "sha256": "69df29552070838711114aaafd815c60b1c6f877e3a5c348efdcc11ac2395d5d"
+    },
+    {
+      "id": "rescue-fae",
+      "path": "static/assets/bestiary/rescues/fae.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 202918,
+      "sha256": "33cac2dcb7a7077185dee5b5d82a26d3a24c980e8eb9204ec85d4873fe9f8297"
+    },
+    {
+      "id": "rescue-djinn",
+      "path": "static/assets/bestiary/rescues/djinn.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 209250,
+      "sha256": "fc7054a58da8cbe32104d1341bfd9cc296bad5324d33bf8aa55f9ebdb6e589cf"
+    },
+    {
+      "id": "rescue-dragonkin",
+      "path": "static/assets/bestiary/rescues/dragonkin.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 205786,
+      "sha256": "101da453204291520a2b248dbb82bcd3baee7e18f63f5da9c841574ca3d39776"
+    },
+    {
+      "id": "rescue-dryad",
+      "path": "static/assets/bestiary/rescues/dryad.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 209950,
+      "sha256": "26df9b1698c02a872c7211634029a5625961023c713131400fd51f01f293035a"
+    },
+    {
+      "id": "rescue-nymph",
+      "path": "static/assets/bestiary/rescues/nymph.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 202112,
+      "sha256": "1c0610a3c54f463d220f6e557bc9ee8a5e1754715b87130513f6d6042f3aa0e8"
+    },
+    {
+      "id": "rescue-elemental-fire",
+      "path": "static/assets/bestiary/rescues/elemental-fire.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 210864,
+      "sha256": "d474afcdfa239df36c78590da8ee6ee15b7e9c2370027e5c86e063d0e4b1641c"
+    },
+    {
+      "id": "rescue-elemental-earth",
+      "path": "static/assets/bestiary/rescues/elemental-earth.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 209340,
+      "sha256": "ce94e130b39e2fcd947cd00518c7728b921ebaca04be94cde9c003aa77902b60"
+    },
+    {
+      "id": "rescue-elemental-air",
+      "path": "static/assets/bestiary/rescues/elemental-air.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 200770,
+      "sha256": "028e677ccecb46090342cf24fcdb5d05740fdcc94f6dab134d7c9946c5a2839b"
+    },
+    {
+      "id": "merrin",
+      "path": "static/assets/portraits/merrin.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 215036,
+      "sha256": "04cafedefca29491bd5c8dbbdbe8f652a02378002b3f36e5d9eb1fff56381c43"
+    },
+    {
+      "id": "overview-merrin",
+      "path": "static/assets/portraits/overview/merrin.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 401600,
+      "sha256": "bc8d6d02bfd0914ae524981efe978120e2595d7ae2afdbea1ab1d5eb04ae9de9"
+    },
+    {
+      "id": "merrin-outfit-2",
+      "path": "static/assets/portraits/merrin-outfit-2.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 227924,
+      "sha256": "d60b6d9457eafb24d039fa9814300b85ca28c75d8d2d3adf42c63486bd49970c"
+    },
+    {
+      "id": "overview-merrin-outfit-2",
+      "path": "static/assets/portraits/overview/merrin-outfit-2.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 441080,
+      "sha256": "52c67f91f9a400b38629ca453f5c7bac523d7f6021cc1af7a7559e99069cdae8"
+    },
+    {
+      "id": "merrin-outfit-3",
+      "path": "static/assets/portraits/merrin-outfit-3.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 216342,
+      "sha256": "91d6a951a254c1c38f1572d38be1c80030ef12a459a922e447d166886f3f3210"
+    },
+    {
+      "id": "overview-merrin-outfit-3",
+      "path": "static/assets/portraits/overview/merrin-outfit-3.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 418322,
+      "sha256": "dc7e3ce8ffb67125890823027e71f7553e3f12daccadede02e86e9dfbfd9e9dc"
+    },
+    {
+      "id": "merrin-bathing",
+      "path": "static/assets/portraits/bathing/merrin.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 222348,
+      "sha256": "73f0543cb188a3101aecb33a841c9a7d4470e70110f0257f6331c34d23a2acc8"
+    }
+  ]
+}

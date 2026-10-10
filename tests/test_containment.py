@@ -34,9 +34,9 @@ class ContainmentTests(unittest.TestCase):
     def released(self,who='sabine',chamber='echo-1'):
         self.admit(who,chamber);self.resolve(who);self.act('release-containment',characterId=who);self.advance()
     def test_ten_specialized_slots_are_separate_from_housing(self):
-        housing=deepcopy(g.housing_summary(self.s));self.assertEqual(c.view(self.s)['maximumCapacity'],10)
+        housing=deepcopy(g.housing_summary(self.s));self.assertEqual(c.view(self.s)['maximumCapacity'],2)
         for chamber in c.CHAMBERS:self.chamber(chamber)
-        self.assertEqual(c.view(self.s)['usableCapacity'],10)
+        self.assertEqual(c.view(self.s)['usableCapacity'],2)
         self.assertEqual(g.housing_summary(self.s),housing)
         self.reject('build-containment',chamberId='heat-6');self.reject('build-containment',chamberId='heat-1')
     def test_build_reserves_pause_cancel_refunds_once(self):
@@ -142,7 +142,7 @@ class ContainmentTests(unittest.TestCase):
             store=GameStore(directory);upgraded=store.read()
             for key,value in old.items():
                 if key not in ('schemaVersion','revision'):self.assertEqual(upgraded[key],value,key)
-            self.assertTrue((Path(directory)/'campaign-before-schema-27-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-27-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             payload={'requestId':uuid.uuid4().hex,'expectedRevision':upgraded['revision'],'action':{'type':'build-containment','chamberId':'heat-1'}}
             after=store.action(payload);self.assertEqual(after,store.action(payload));self.assertEqual(after,GameStore(directory).read())
     def test_absence_and_reading_do_not_progress_or_authorize_work(self):

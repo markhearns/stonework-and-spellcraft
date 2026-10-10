@@ -1,0 +1,1855 @@
+{
+  "version": "0.115",
+  "sourceArchive": "stonework-and-spellcraft-source-archive-v0.115.zip",
+  "archivedFiles": [
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/CODEX-START-HERE.md",
+      "bytes": 5959,
+      "sha256": "5473e183d0b907415fc15f286a8f2fa46606eb43bb468b4031d5d549e5cc152b",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/PACK-INDEX.md",
+      "bytes": 2475,
+      "sha256": "a20261c891103b0943eb6e50012d27ae9f2cc829e2d604a0dd6ecd4150ff588a",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/README.md",
+      "bytes": 3991,
+      "sha256": "6c050512a736e51dce33c131b28cda00217e38f0435ba08aebad90c92005987f",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/README.md",
+      "bytes": 11597,
+      "sha256": "32084810d22fadc16feb594757f0ce91ae880911f087edb2bd75a2153f2b4e2a",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/bovinefolk.json",
+      "bytes": 56922,
+      "sha256": "b22eaf0b3a244b78caaf501027d69c24452eb378d633bdda2858f071920ebcd8",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/catfolk.json",
+      "bytes": 54918,
+      "sha256": "5ba12d45279a6dcf061e62c22b5e2dbb2ec26a4129bdc6b8b2f259c3f737a01a",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/dark-elf.json",
+      "bytes": 54573,
+      "sha256": "bcfb66bb1e4ebf66917c3340feaac4a6b74cddb3b68d1e7f0efcad29c22078ff",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/demon.json",
+      "bytes": 57163,
+      "sha256": "fa61d142ba2dba63c53818b1241c8dcebe883395501dc042baf4b1b22c03cccc",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/djinn.json",
+      "bytes": 58766,
+      "sha256": "46d8dff006edd76cb2ce978373ac3289d3562fde981b2aa243c8205bb4740581",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/dragonkin.json",
+      "bytes": 59830,
+      "sha256": "3f24d14dff53ed0054c01a391d597d4b253f8b10492a167ae026218a6db1c1fe",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/drow.json",
+      "bytes": 54637,
+      "sha256": "abeea9becf945205739eea1c5917c1fffabffb377bd754cb7abd076cd1de7505",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/dryad.json",
+      "bytes": 60222,
+      "sha256": "df9b302e401a5e99b338d2bb0c6d46c23b7fcff2548d15fa9e1ce73efa71aa96",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/elemental.json",
+      "bytes": 58558,
+      "sha256": "8eec60aa52063ca5107b01284abd5de4dc591c90fae321faedcefe4c3dec429f",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/fae.json",
+      "bytes": 57651,
+      "sha256": "00715bc607915e0e043657404fdb4e04bafa48ad0a82a725931fdb215c4ec82e",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/golem.json",
+      "bytes": 63075,
+      "sha256": "7a5594abc94ea8341b39af389da95bdb67a4fe961cf92b6eb88210409bb9ba8c",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/high-elf.json",
+      "bytes": 53846,
+      "sha256": "f4e9d327985766aae72f4255c91c0cfa427cde9f8b31f94b8bd7f3fdbb5ec3b1",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/human.json",
+      "bytes": 52576,
+      "sha256": "7d0d65e7d95cd36047064e9243687d8cefef6ebcb473fc86c6bf879449f02699",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/kitsune.json",
+      "bytes": 58954,
+      "sha256": "98586be99261520afb5571e1d01f95bd2738729940f34ba4ac8f621966373c88",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/nymph.json",
+      "bytes": 58885,
+      "sha256": "0c249aa0b764866671eb6ec2f2e1c85943223ee4e7fc6ba0dc5923064f6bdf99",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/oni.json",
+      "bytes": 58754,
+      "sha256": "c63de2c3471e25051a99abb1ca18ce9431d18e878742623f43d0b150a8afd706",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/orc.json",
+      "bytes": 53994,
+      "sha256": "1e290e036d5477d5dc472984679652218872ccc61555054981f1931d6c684aca",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/seraph.json",
+      "bytes": 57807,
+      "sha256": "77a8885e5ce841f56109e33fecdbbf5cc01b8e2e2a14128be94b50f6d0ff2b93",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/spirit.json",
+      "bytes": 61085,
+      "sha256": "5332376fbd4350767d66bf46606e1c1768c3d0d29bb79241121cdad737e655b9",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/vampire.json",
+      "bytes": 60180,
+      "sha256": "5c268db48cd4801b63bc8cae361f4cf548e5a9fa3052754ff261c9dea02ca701",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/ancestries/wolfkin.json",
+      "bytes": 55075,
+      "sha256": "ed07d6791b776db7276fdb95040bea769e4166e8b7f0060b8bf97f6046d1099e",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/manifest.json",
+      "bytes": 7165,
+      "sha256": "745fca24f982604ec21036f0a882065403d1a695fced5f2c881fc96c63201147",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/ambitions.json",
+      "bytes": 69583,
+      "sha256": "4625b18c01ab27661e469e513aed9e7f7cbb73bff82f19f53a27628e0c027849",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/clothing-components.json",
+      "bytes": 100618,
+      "sha256": "8119882df04109c729c11754eb6f9a0fed1291c1b684be14b0fc87b322325bcb",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/conversational-voices.json",
+      "bytes": 26531,
+      "sha256": "8e64126cbff0b5a34ec972bdc7030b3e091035abd0259bd2aca24711256b02a8",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/ensembles.json",
+      "bytes": 51118,
+      "sha256": "ff0fa1d0b8030d56d20b47b7a448d99cb4307592cc0207d31dbc1ce8440c6dea",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/habits-mannerisms.json",
+      "bytes": 40473,
+      "sha256": "2748d0320f09aa39ca50ff91901b3ca84a431369d718668972d3d703676a5739",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/household-interactions.json",
+      "bytes": 88522,
+      "sha256": "67d1054f5660d772d471141f7928fe53dc4df7736a902762d392dbc4c5ef6ad5",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/occupations-backgrounds.json",
+      "bytes": 48009,
+      "sha256": "bb888077f9ecb6ddc9de1788c3de7337bd5e0e6e32a27baa40831e5f9a0e7400",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/personality-nuances.json",
+      "bytes": 37763,
+      "sha256": "796c6f309273b8e7aa93be793e1730db199bf28e393adb7c582f85c2327f71e4",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/social-flirtation-styles.json",
+      "bytes": 34263,
+      "sha256": "0a00d11d1fb6b1c4f783ce22e59002e754c4f046f99dc9e11d33d9c05216de88",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/story-development-patterns.json",
+      "bytes": 48065,
+      "sha256": "5ad56b32690d62af7b6d6a06a97132a0bf1731d052accdef88ec247ee419db50",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/shared/values-boundaries.json",
+      "bytes": 35125,
+      "sha256": "0bd283fe2922c4f6d9ffabada388c913ef463a6eef43b8e2a4b9017075535f73",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/validation-report.json",
+      "bytes": 6345,
+      "sha256": "85dc6940cb595c1889ad1f962a3bdaa73c9d54d2135d44be8c584032125be661",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/dependencies/stonework-spellcraft-content-pack/vocabulary.json",
+      "bytes": 11836,
+      "sha256": "6baa53f1868c05612b6fb5bbe82e53bf1e537ca37ff90d1980e5383aa31936c7",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/pack-index.json",
+      "bytes": 6744,
+      "sha256": "cc10f319508d9d3f1716554604fb15bab855d420f2553a49981180f3873abb8f",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/00-shared-contract.md",
+      "bytes": 10903,
+      "sha256": "e1858b4f0a70548a4891bb741f1f496a55ce577fce54740535383fc6c41e7fe2",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/01-materials-and-properties.md",
+      "bytes": 2997,
+      "sha256": "0826e754c5f5558068e3423f5cab48de049556538a9412168fb67b340be436de",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/02-equipment-and-signature-items.md",
+      "bytes": 2976,
+      "sha256": "642c7abad1396714e51e35cfea3a71fc96f36370570547e4b32e309d1a99bd77",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/03-artifacts-and-recipes.md",
+      "bytes": 2870,
+      "sha256": "8faae4ace3faecace823bb5f34f609ae3dd831e132bb90ed6db546d9d91fb600",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/04-magic-principles-and-spells.md",
+      "bytes": 3386,
+      "sha256": "6529d4b78af4e0419c6394d03bdabbae63a5ad2fe426d35410cc92156c26f188",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/05-rituals-and-voluntary-augmentation.md",
+      "bytes": 3038,
+      "sha256": "ad4161b5eef26ad20c05944062ffbfc25aac8ffa03f6eb2d61d54d64d1e3ee28",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/06-rooms-furnishings-and-synergies.md",
+      "bytes": 3108,
+      "sha256": "ed4b4491133c26cdd6ac3531db3f98090c5cdc3e3bdaa9bbaac7f434cbeaefe0",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/07-expeditions-and-discoveries.md",
+      "bytes": 3102,
+      "sha256": "91c5150da9757d3aab4c8cf8f1411d5053d0e1cd0457a3cc93d4d7e0cd18730f",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/08-encounters-and-care.md",
+      "bytes": 2998,
+      "sha256": "cd4be1d8aaf2771e341efbad04980e75072c95e5800b23c3e4902f10abf02c8c",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/09-communities-services-and-visitors.md",
+      "bytes": 3052,
+      "sha256": "76f482ac9bd9e2c28dcecec57c182f657eb9aa89dde0d10e0d1d7c1adba9055c",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/10-personal-arcs-and-relationships.md",
+      "bytes": 3075,
+      "sha256": "30f6ad361a408ca7742d5e5e86dfe9dccaaa92be284a18da86ad73a38944eaa1",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/11-household-scenes-and-ambient-life.md",
+      "bytes": 3109,
+      "sha256": "cdc01e1803fedf38de8d3b40c1e6b4aabce8056256fc9197b02e71894d73bca2",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/12-letters-commissions-and-gifts.md",
+      "bytes": 3013,
+      "sha256": "944cd62bd17686e3bcc30280876da2aa55de0cc66a0f8c3727017a803a32ae5a",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/13-private-mystery-foundations.md",
+      "bytes": 3081,
+      "sha256": "42bb1e5e8fdf301336a29a5dda1e9089ea308b968f19ab6a953fb0bbaacee620",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/14-books-food-gardens-and-treasures.md",
+      "bytes": 3168,
+      "sha256": "60b3f4e7f0135160a6e844980ee726565c8a64fa320516a1bbb16b89760b13d5",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/15-art-and-visual-production.md",
+      "bytes": 3166,
+      "sha256": "aac4bb2f2d5b2e2cacaff1e11993b2457d53c792474beaed83ea2180e12c7061",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/16-tutorials-explanations-and-qa.md",
+      "bytes": 3011,
+      "sha256": "f8655524c2e1450ee80c087b63eb7b7a7495c879bd3e46574a3b3d1cc1e9d0d1",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/17-backgrounds-training-and-perks.md",
+      "bytes": 3711,
+      "sha256": "fdb3e355ee5adcdf13db6949bcbab84158917c9eca930800d182a9444f6a5a1e",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/README.md",
+      "bytes": 5917,
+      "sha256": "7bfb02e2a4b4b4492a513d02c75f32edeee1d98cdde34f45e381249450afcccf",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reference/prototype-reference.json",
+      "bytes": 12350,
+      "sha256": "bc220496068a8cde5b95fcaca180307be9419b4db7dfa1f7df5160759aeaa7eb",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reports/validation-summary.json",
+      "bytes": 2804,
+      "sha256": "db554ecddc0d1a9bef3492e85e0aed08a0f07c12b5955839443799fba21c0049",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/reports/validator-selftest-report.json",
+      "bytes": 2564,
+      "sha256": "7a1f63e18df9c93fb9830e6b405b7965d1c81b4bac8c4bdc806885898f741d9b",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/tools/__pycache__/test_validator.cpython-312.pyc",
+      "bytes": 12092,
+      "sha256": "5d5b57ccfd59177fda9212878478a7541317fb9b1c9d2aff3e997b174bb960b3",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/tools/__pycache__/validate_packs.cpython-312.pyc",
+      "bytes": 40042,
+      "sha256": "fb6258b2873c4b84694f4f461448b645bca8064e0120a181bf59864f11a212e3",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/tools/test_validator.py",
+      "bytes": 6022,
+      "sha256": "5521c5f11ce321a4bae62f6fa1a24f0afc65883edf000a9fd3c5650496a9533d",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-codex-integration-kit/tools/validate_packs.py",
+      "bytes": 25415,
+      "sha256": "cf714cb4a70d0d75b126fb1bd9caf780c01205f33a7cbce51b32d6b618900061",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/00-shared-contract.md",
+      "bytes": 10903,
+      "sha256": "e1858b4f0a70548a4891bb741f1f496a55ce577fce54740535383fc6c41e7fe2",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/01-materials-and-properties.md",
+      "bytes": 2997,
+      "sha256": "0826e754c5f5558068e3423f5cab48de049556538a9412168fb67b340be436de",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/02-equipment-and-signature-items.md",
+      "bytes": 2976,
+      "sha256": "642c7abad1396714e51e35cfea3a71fc96f36370570547e4b32e309d1a99bd77",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/03-artifacts-and-recipes.md",
+      "bytes": 2870,
+      "sha256": "8faae4ace3faecace823bb5f34f609ae3dd831e132bb90ed6db546d9d91fb600",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/04-magic-principles-and-spells.md",
+      "bytes": 3386,
+      "sha256": "6529d4b78af4e0419c6394d03bdabbae63a5ad2fe426d35410cc92156c26f188",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/05-rituals-and-voluntary-augmentation.md",
+      "bytes": 3038,
+      "sha256": "ad4161b5eef26ad20c05944062ffbfc25aac8ffa03f6eb2d61d54d64d1e3ee28",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/06-rooms-furnishings-and-synergies.md",
+      "bytes": 3108,
+      "sha256": "ed4b4491133c26cdd6ac3531db3f98090c5cdc3e3bdaa9bbaac7f434cbeaefe0",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/07-expeditions-and-discoveries.md",
+      "bytes": 3102,
+      "sha256": "91c5150da9757d3aab4c8cf8f1411d5053d0e1cd0457a3cc93d4d7e0cd18730f",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/08-encounters-and-care.md",
+      "bytes": 2998,
+      "sha256": "cd4be1d8aaf2771e341efbad04980e75072c95e5800b23c3e4902f10abf02c8c",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/09-communities-services-and-visitors.md",
+      "bytes": 3052,
+      "sha256": "76f482ac9bd9e2c28dcecec57c182f657eb9aa89dde0d10e0d1d7c1adba9055c",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/10-personal-arcs-and-relationships.md",
+      "bytes": 3075,
+      "sha256": "30f6ad361a408ca7742d5e5e86dfe9dccaaa92be284a18da86ad73a38944eaa1",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/11-household-scenes-and-ambient-life.md",
+      "bytes": 3109,
+      "sha256": "cdc01e1803fedf38de8d3b40c1e6b4aabce8056256fc9197b02e71894d73bca2",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/12-letters-commissions-and-gifts.md",
+      "bytes": 3013,
+      "sha256": "944cd62bd17686e3bcc30280876da2aa55de0cc66a0f8c3727017a803a32ae5a",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/13-private-mystery-foundations.md",
+      "bytes": 3081,
+      "sha256": "42bb1e5e8fdf301336a29a5dda1e9089ea308b968f19ab6a953fb0bbaacee620",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/14-books-food-gardens-and-treasures.md",
+      "bytes": 3168,
+      "sha256": "60b3f4e7f0135160a6e844980ee726565c8a64fa320516a1bbb16b89760b13d5",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/15-art-and-visual-production.md",
+      "bytes": 3166,
+      "sha256": "aac4bb2f2d5b2e2cacaff1e11993b2457d53c792474beaed83ea2180e12c7061",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/16-tutorials-explanations-and-qa.md",
+      "bytes": 3011,
+      "sha256": "f8655524c2e1450ee80c087b63eb7b7a7495c879bd3e46574a3b3d1cc1e9d0d1",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/17-backgrounds-training-and-perks.md",
+      "bytes": 3711,
+      "sha256": "fdb3e355ee5adcdf13db6949bcbab84158917c9eca930800d182a9444f6a5a1e",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/README.md",
+      "bytes": 5917,
+      "sha256": "7bfb02e2a4b4b4492a513d02c75f32edeee1d98cdde34f45e381249450afcccf",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/complete-handoff.md",
+      "bytes": 69807,
+      "sha256": "98ee7b69fdbcad3ebe9bcadee312f35d516d763dcf17a8f7a76e85f59350f51e",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-content-expansion-handoffs/prototype-reference.json",
+      "bytes": 12350,
+      "sha256": "bc220496068a8cde5b95fcaca180307be9419b4db7dfa1f7df5160759aeaa7eb",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-final-v0.48/HANDOFF-TO-CODEX.md",
+      "bytes": 2414,
+      "sha256": "aaefd6bc5c6ebb872bcac3bf7b98f13749755a7d81ae7c9b6a944a98728e6f7e",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-final-v0.48/ROOMS-AND-GAMEPLAY.txt",
+      "bytes": 10016,
+      "sha256": "c095fe6212aa6b4850bc430ed0548f69c5d342ecabbbff8bc06647a5d6492e34",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-final-v0.48/START-HERE.txt",
+      "bytes": 11032,
+      "sha256": "fc13bfc09646cf0f09cba9e5cbfd40da1dd03133a6c9b72cef5bf020c7f02684",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-final-v0.48/asset-requests.json",
+      "bytes": 16390,
+      "sha256": "2d2a2234645e7f6ac88708af8d7e71b9dcffe497e2ea71a4654525b5a2d4a0a1",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-final-v0.48/manifest.json",
+      "bytes": 36664,
+      "sha256": "5fe0287267018f3650e0a15433b361b0bff46c036b4f5f3582d9594331ebb797",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/CODEX-HANDOFF.md",
+      "bytes": 5740,
+      "sha256": "b75cf3493694487e891ac73a77cf8e40a17f7af24e2a5112a4cf0e1baffe91a0",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/QA-REPORT.md",
+      "bytes": 2703,
+      "sha256": "b43143d188790c7d306407b102de26a1ef8fed61a16e93534bf9632a80abe0e1",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/README.md",
+      "bytes": 829,
+      "sha256": "e281efcda1c86efd1fbd9db9dcc8fc34fed6ca2cbf3d1cfee2fd9e47b84c1222",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/ROOMS-AND-GAMEPLAY.txt",
+      "bytes": 10016,
+      "sha256": "c095fe6212aa6b4850bc430ed0548f69c5d342ecabbbff8bc06647a5d6492e34",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/SHA256SUMS.txt",
+      "bytes": 8056,
+      "sha256": "327401f1d33ba7bec49083e2e7c5826ea4e7c0c5b90e7a3bf7e25fc9de9da852",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/START-HERE.md",
+      "bytes": 1123,
+      "sha256": "e2b86e564e28ceaaedad3694e529aa637ffa834a10077502e4965224489f18a4",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/START-HERE.txt",
+      "bytes": 11032,
+      "sha256": "fc13bfc09646cf0f09cba9e5cbfd40da1dd03133a6c9b72cef5bf020c7f02684",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/asset-manifest.json",
+      "bytes": 106365,
+      "sha256": "a7cd31982067d51f0634b2cfeb7c002404b6880aee0bbd16e8edcf7726717872",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/asset-requests.json",
+      "bytes": 16390,
+      "sha256": "2d2a2234645e7f6ac88708af8d7e71b9dcffe497e2ea71a4654525b5a2d4a0a1",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/ember-chamber-family.txt",
+      "bytes": 2327,
+      "sha256": "75980e604837853384f452c1315f7cb37334fee163c251fdfcb7a96b72c4c1f8",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/excluded-output-inventory.json",
+      "bytes": 18010,
+      "sha256": "f368ecfecf221cb680f3a0fb5abc351e37f8d84956fdb5161b8351caeec8499d",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/guard-dormitory.txt",
+      "bytes": 2183,
+      "sha256": "e008e224f8e80f15e5d6ad98e6eb189a8d8c80f820d8f5d337c5f9f1a37818a5",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/integration-plan.json",
+      "bytes": 21053,
+      "sha256": "c3620df9fe878ac0fcba9f8e256aecd3fe5c4477afce92e42f86b3293b31cd9d",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/lower-chamber.txt",
+      "bytes": 2244,
+      "sha256": "54ffa44b0489a602b2da5619a8881af2e3776485a1cd768b640c0b441fb73dcc",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/manifest.json",
+      "bytes": 106365,
+      "sha256": "a7cd31982067d51f0634b2cfeb7c002404b6880aee0bbd16e8edcf7726717872",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/missing-assets.json",
+      "bytes": 2041,
+      "sha256": "0c060afd536749cea1902b935003740f74554c29e08a55c62d422bf79026a193",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/quiet-chamber-family.txt",
+      "bytes": 2299,
+      "sha256": "594a16be5b1d640b8dc0ccec72ad11aabc84ff95338fe5b43eaa3ac9660fac26",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/source-selection.json",
+      "bytes": 7735,
+      "sha256": "6bb075522b0103477c238d6e5895582bd6e30dec7d3a83ab31eeb13fde8d0991",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/source-audit/stonework-and-spellcraft-room-art-return-v0.48-PARTIAL/verification.json",
+      "bytes": 1134,
+      "sha256": "8e7573400c37dcbf2efcb65fd3b6ab6dff9837677b2561b92afde07edde4b7d8",
+      "action": "archived outside game",
+      "reason": "superseded authoring handoff; no runtime or test references"
+    },
+    {
+      "path": "docs/content_handoffs/dependencies/stonework-spellcraft-content-pack.zip",
+      "bytes": 286473,
+      "sha256": "ec77a86c4833b92d18d7f7c44b913988edce8328b7f37efd6fdc18c29b3d7d11",
+      "action": "archived outside game",
+      "reason": "exact duplicate of static/examples/stonework-spellcraft-content-pack.zip"
+    }
+  ],
+  "archivedFileCount": 112,
+  "archivedBytes": 2857095,
+  "removedCacheFiles": 263,
+  "removedCacheBytes": 5504999,
+  "caches": [
+    {
+      "path": "examples/__pycache__/build_content_fixture.cpython-312.pyc",
+      "bytes": 10952
+    },
+    {
+      "path": "examples/__pycache__/build_expansion_fixture.cpython-312.pyc",
+      "bytes": 4418
+    },
+    {
+      "path": "tools/__pycache__/audit_public_integration.cpython-312.pyc",
+      "bytes": 3532
+    },
+    {
+      "path": "tools/__pycache__/build_public_rules.cpython-312.pyc",
+      "bytes": 3985
+    },
+    {
+      "path": "tests/__pycache__/test_arrival_paths.cpython-312.pyc",
+      "bytes": 17716
+    },
+    {
+      "path": "tests/__pycache__/test_bestiary_v105.cpython-312.pyc",
+      "bytes": 27006
+    },
+    {
+      "path": "tests/__pycache__/test_npc_policy.cpython-312.pyc",
+      "bytes": 4271
+    },
+    {
+      "path": "tests/__pycache__/test_person_registry.cpython-312.pyc",
+      "bytes": 11777
+    },
+    {
+      "path": "tests/__pycache__/test_recruitment_reasons.cpython-312.pyc",
+      "bytes": 3050
+    },
+    {
+      "path": "tests/__pycache__/test_living_wing.cpython-312.pyc",
+      "bytes": 22766
+    },
+    {
+      "path": "tests/__pycache__/test_headquarters.cpython-312.pyc",
+      "bytes": 23655
+    },
+    {
+      "path": "tests/__pycache__/test_eight_chapter_flow.cpython-312.pyc",
+      "bytes": 7944
+    },
+    {
+      "path": "tests/__pycache__/test_art_v053.cpython-312.pyc",
+      "bytes": 8480
+    },
+    {
+      "path": "tests/__pycache__/test_armoury_integration.cpython-312.pyc",
+      "bytes": 9513
+    },
+    {
+      "path": "tests/__pycache__/test_castle_chapter.cpython-312.pyc",
+      "bytes": 22364
+    },
+    {
+      "path": "tests/__pycache__/test_headquarters_workers.cpython-312.pyc",
+      "bytes": 23743
+    },
+    {
+      "path": "tests/__pycache__/test_resident_future.cpython-312.pyc",
+      "bytes": 41027
+    },
+    {
+      "path": "tests/__pycache__/test_daily_plan.cpython-312.pyc",
+      "bytes": 13291
+    },
+    {
+      "path": "tests/__pycache__/test_house_shape.cpython-312.pyc",
+      "bytes": 27041
+    },
+    {
+      "path": "tests/__pycache__/test_room_to_grow.cpython-312.pyc",
+      "bytes": 18392
+    },
+    {
+      "path": "tests/__pycache__/test_campaign_review.cpython-312.pyc",
+      "bytes": 7553
+    },
+    {
+      "path": "tests/__pycache__/test_housing.cpython-312.pyc",
+      "bytes": 12171
+    },
+    {
+      "path": "tests/__pycache__/test_art_release.cpython-312.pyc",
+      "bytes": 13690
+    },
+    {
+      "path": "tests/__pycache__/test_game.cpython-312.pyc",
+      "bytes": 14028
+    },
+    {
+      "path": "tests/__pycache__/test_magic_overhaul.cpython-312.pyc",
+      "bytes": 36104
+    },
+    {
+      "path": "tests/__pycache__/test_story_http.cpython-312.pyc",
+      "bytes": 4960
+    },
+    {
+      "path": "tests/__pycache__/test_companion_participation.cpython-312.pyc",
+      "bytes": 26704
+    },
+    {
+      "path": "tests/__pycache__/test_delegation.cpython-312.pyc",
+      "bytes": 15555
+    },
+    {
+      "path": "tests/__pycache__/test_household_content.cpython-312.pyc",
+      "bytes": 20863
+    },
+    {
+      "path": "tests/__pycache__/test_skills.cpython-312.pyc",
+      "bytes": 10822
+    },
+    {
+      "path": "tests/__pycache__/test_field_patrols.cpython-312.pyc",
+      "bytes": 36037
+    },
+    {
+      "path": "tests/__pycache__/test_companion_almanac.cpython-312.pyc",
+      "bytes": 26152
+    },
+    {
+      "path": "tests/__pycache__/test_pacing_v102.cpython-312.pyc",
+      "bytes": 19003
+    },
+    {
+      "path": "tests/__pycache__/test_refinement_campaign_v100.cpython-312.pyc",
+      "bytes": 6495
+    },
+    {
+      "path": "tests/__pycache__/test_character_quests.cpython-312.pyc",
+      "bytes": 29603
+    },
+    {
+      "path": "tests/__pycache__/test_household_sagas.cpython-312.pyc",
+      "bytes": 30006
+    },
+    {
+      "path": "tests/__pycache__/test_founder_setup.cpython-312.pyc",
+      "bytes": 9071
+    },
+    {
+      "path": "tests/__pycache__/test_neighbours.cpython-312.pyc",
+      "bytes": 21064
+    },
+    {
+      "path": "tests/__pycache__/test_patrol_refinement.cpython-312.pyc",
+      "bytes": 32704
+    },
+    {
+      "path": "tests/__pycache__/test_encounters.cpython-312.pyc",
+      "bytes": 17304
+    },
+    {
+      "path": "tests/__pycache__/test_companion_dialogue_review.cpython-312.pyc",
+      "bytes": 16177
+    },
+    {
+      "path": "tests/__pycache__/test_relationships.cpython-312.pyc",
+      "bytes": 26391
+    },
+    {
+      "path": "tests/__pycache__/test_nine_chapter_flow.cpython-312.pyc",
+      "bytes": 4240
+    },
+    {
+      "path": "tests/__pycache__/test_campaigns.cpython-312.pyc",
+      "bytes": 13229
+    },
+    {
+      "path": "tests/__pycache__/test_armoury_http.cpython-312.pyc",
+      "bytes": 4721
+    },
+    {
+      "path": "tests/__pycache__/test_candidate_proposals.cpython-312.pyc",
+      "bytes": 20874
+    },
+    {
+      "path": "tests/__pycache__/test_iona_life.cpython-312.pyc",
+      "bytes": 20466
+    },
+    {
+      "path": "tests/__pycache__/test_planning.cpython-312.pyc",
+      "bytes": 23644
+    },
+    {
+      "path": "tests/__pycache__/test_dialogue.cpython-312.pyc",
+      "bytes": 34357
+    },
+    {
+      "path": "tests/__pycache__/test_estate_expansion.cpython-312.pyc",
+      "bytes": 18168
+    },
+    {
+      "path": "tests/__pycache__/test_resident_moments.cpython-312.pyc",
+      "bytes": 12356
+    },
+    {
+      "path": "tests/__pycache__/test_visual_status_v104.cpython-312.pyc",
+      "bytes": 8513
+    },
+    {
+      "path": "tests/__pycache__/test_summoned_cast.cpython-312.pyc",
+      "bytes": 13847
+    },
+    {
+      "path": "tests/__pycache__/test_intimacy.cpython-312.pyc",
+      "bytes": 23611
+    },
+    {
+      "path": "tests/__pycache__/test_companion_life.cpython-312.pyc",
+      "bytes": 15592
+    },
+    {
+      "path": "tests/__pycache__/test_customization.cpython-312.pyc",
+      "bytes": 29118
+    },
+    {
+      "path": "tests/__pycache__/test_outfits.cpython-312.pyc",
+      "bytes": 12840
+    },
+    {
+      "path": "tests/__pycache__/test_household_chapters.cpython-312.pyc",
+      "bytes": 26158
+    },
+    {
+      "path": "tests/__pycache__/test_foundation_chamber.cpython-312.pyc",
+      "bytes": 28453
+    },
+    {
+      "path": "tests/__pycache__/test_resident_friendships.cpython-312.pyc",
+      "bytes": 33991
+    },
+    {
+      "path": "tests/__pycache__/test_augmentations.cpython-312.pyc",
+      "bytes": 10972
+    },
+    {
+      "path": "tests/__pycache__/test_containment.cpython-312.pyc",
+      "bytes": 21443
+    },
+    {
+      "path": "tests/__pycache__/test_cheat_tools.cpython-312.pyc",
+      "bytes": 23626
+    },
+    {
+      "path": "tests/__pycache__/test_castle_mystery.cpython-312.pyc",
+      "bytes": 16309
+    },
+    {
+      "path": "tests/__pycache__/test_summoning.cpython-312.pyc",
+      "bytes": 23649
+    },
+    {
+      "path": "tests/__pycache__/test_guidance.cpython-312.pyc",
+      "bytes": 7628
+    },
+    {
+      "path": "tests/__pycache__/test_attribute_integration.cpython-312.pyc",
+      "bytes": 30011
+    },
+    {
+      "path": "tests/__pycache__/test_romance.cpython-312.pyc",
+      "bytes": 22574
+    },
+    {
+      "path": "tests/__pycache__/test_focus.cpython-312.pyc",
+      "bytes": 15756
+    },
+    {
+      "path": "tests/__pycache__/test_lessons.cpython-312.pyc",
+      "bytes": 13227
+    },
+    {
+      "path": "tests/__pycache__/test_opening_guide.cpython-312.pyc",
+      "bytes": 9617
+    },
+    {
+      "path": "tests/__pycache__/test_public_integration.cpython-312.pyc",
+      "bytes": 38680
+    },
+    {
+      "path": "tests/__pycache__/test_candidate_http.cpython-312.pyc",
+      "bytes": 5179
+    },
+    {
+      "path": "tests/__pycache__/test_provisions.cpython-312.pyc",
+      "bytes": 11959
+    },
+    {
+      "path": "tests/__pycache__/test_bathing_outfits.cpython-312.pyc",
+      "bytes": 8471
+    },
+    {
+      "path": "tests/__pycache__/test_solo_start.cpython-312.pyc",
+      "bytes": 15755
+    },
+    {
+      "path": "tests/__pycache__/test_solo_life.cpython-312.pyc",
+      "bytes": 19846
+    },
+    {
+      "path": "tests/__pycache__/test_casting_plans.cpython-312.pyc",
+      "bytes": 13737
+    },
+    {
+      "path": "tests/__pycache__/test_solo_moments.cpython-312.pyc",
+      "bytes": 12403
+    },
+    {
+      "path": "tests/__pycache__/test_development.cpython-312.pyc",
+      "bytes": 23062
+    },
+    {
+      "path": "tests/__pycache__/test_seven_chapter_flow.cpython-312.pyc",
+      "bytes": 8124
+    },
+    {
+      "path": "tests/__pycache__/test_public_workshop.cpython-312.pyc",
+      "bytes": 52285
+    },
+    {
+      "path": "tests/__pycache__/test_magic_reference_v108.cpython-312.pyc",
+      "bytes": 6111
+    },
+    {
+      "path": "tests/__pycache__/test_recruitment.cpython-312.pyc",
+      "bytes": 22257
+    },
+    {
+      "path": "tests/__pycache__/test_finances.cpython-312.pyc",
+      "bytes": 14233
+    },
+    {
+      "path": "tests/__pycache__/test_party_journeys.cpython-312.pyc",
+      "bytes": 49141
+    },
+    {
+      "path": "tests/__pycache__/test_iona_conversation.cpython-312.pyc",
+      "bytes": 6681
+    },
+    {
+      "path": "tests/__pycache__/test_public_content.cpython-312.pyc",
+      "bytes": 16964
+    },
+    {
+      "path": "tests/__pycache__/test_first_hearth.cpython-312.pyc",
+      "bytes": 24307
+    },
+    {
+      "path": "tests/__pycache__/test_progression_v114.cpython-312.pyc",
+      "bytes": 20983
+    },
+    {
+      "path": "tests/__pycache__/test_lantern_adventure.cpython-312.pyc",
+      "bytes": 28081
+    },
+    {
+      "path": "tests/__pycache__/test_armoury.cpython-312.pyc",
+      "bytes": 28017
+    },
+    {
+      "path": "tests/__pycache__/test_specializations.cpython-312.pyc",
+      "bytes": 13783
+    },
+    {
+      "path": "tests/__pycache__/test_resident_bonds.cpython-312.pyc",
+      "bytes": 24472
+    },
+    {
+      "path": "tests/__pycache__/test_personal_requests.cpython-312.pyc",
+      "bytes": 15099
+    },
+    {
+      "path": "tests/__pycache__/test_scene_drafts.cpython-312.pyc",
+      "bytes": 9383
+    },
+    {
+      "path": "tests/__pycache__/test_expansion.cpython-312.pyc",
+      "bytes": 11908
+    },
+    {
+      "path": "tests/__pycache__/test_all_personal_paths.cpython-312.pyc",
+      "bytes": 18054
+    },
+    {
+      "path": "tests/__pycache__/test_personal_paths.cpython-312.pyc",
+      "bytes": 26357
+    },
+    {
+      "path": "tests/__pycache__/test_spellcraft.cpython-312.pyc",
+      "bytes": 22504
+    },
+    {
+      "path": "tests/__pycache__/test_companion_threads.cpython-312.pyc",
+      "bytes": 30645
+    },
+    {
+      "path": "tests/__pycache__/test_expansion_packs.cpython-312.pyc",
+      "bytes": 10001
+    },
+    {
+      "path": "tests/__pycache__/test_local_expansion.cpython-312.pyc",
+      "bytes": 17386
+    },
+    {
+      "path": "tests/__pycache__/test_personal_stories.cpython-312.pyc",
+      "bytes": 13970
+    },
+    {
+      "path": "tests/__pycache__/test_expedition_loop.cpython-312.pyc",
+      "bytes": 10432
+    },
+    {
+      "path": "tests/__pycache__/test_character_pool.cpython-312.pyc",
+      "bytes": 10699
+    },
+    {
+      "path": "tests/__pycache__/test_roads_we_keep.cpython-312.pyc",
+      "bytes": 10913
+    },
+    {
+      "path": "tests/__pycache__/test_fieldcraft.cpython-312.pyc",
+      "bytes": 17672
+    },
+    {
+      "path": "tests/__pycache__/test_expedition.cpython-312.pyc",
+      "bytes": 11954
+    },
+    {
+      "path": "tests/__pycache__/test_room_arrangements.cpython-312.pyc",
+      "bytes": 9830
+    },
+    {
+      "path": "tests/__pycache__/test_expansion_http.cpython-312.pyc",
+      "bytes": 6790
+    },
+    {
+      "path": "tests/__pycache__/test_writing_v101.cpython-312.pyc",
+      "bytes": 14472
+    },
+    {
+      "path": "tests/__pycache__/test_refinements_v100.cpython-312.pyc",
+      "bytes": 56741
+    },
+    {
+      "path": "tests/__pycache__/test_spell_proposals.cpython-312.pyc",
+      "bytes": 3550
+    },
+    {
+      "path": "tests/__pycache__/test_portrait_generation.cpython-312.pyc",
+      "bytes": 20691
+    },
+    {
+      "path": "tests/__pycache__/test_signature_field_flow.cpython-312.pyc",
+      "bytes": 6745
+    },
+    {
+      "path": "tests/__pycache__/test_keeping_hearth.cpython-312.pyc",
+      "bytes": 24839
+    },
+    {
+      "path": "tests/__pycache__/test_equipment_playability.cpython-312.pyc",
+      "bytes": 12557
+    },
+    {
+      "path": "tests/__pycache__/test_character_builds.cpython-312.pyc",
+      "bytes": 20667
+    },
+    {
+      "path": "tests/__pycache__/test_arrival.cpython-312.pyc",
+      "bytes": 8550
+    },
+    {
+      "path": "tests/__pycache__/test_chapter_five_flow.cpython-312.pyc",
+      "bytes": 20362
+    },
+    {
+      "path": "tests/__pycache__/test_equipment.cpython-312.pyc",
+      "bytes": 7427
+    },
+    {
+      "path": "tests/__pycache__/test_first_patrol.cpython-312.pyc",
+      "bytes": 14662
+    },
+    {
+      "path": "tests/__pycache__/test_social_life.cpython-312.pyc",
+      "bytes": 19743
+    },
+    {
+      "path": "tests/__pycache__/test_content_packs.cpython-312.pyc",
+      "bytes": 36215
+    },
+    {
+      "path": "scripts/__pycache__/chapter_flow_review.cpython-312.pyc",
+      "bytes": 2377
+    },
+    {
+      "path": "scripts/__pycache__/audit_chapter_pacing.cpython-312.pyc",
+      "bytes": 6990
+    },
+    {
+      "path": "scripts/__pycache__/audit_campaign_pacing.cpython-312.pyc",
+      "bytes": 7401
+    },
+    {
+      "path": "scripts/__pycache__/audit_late_guidance.cpython-312.pyc",
+      "bytes": 9617
+    },
+    {
+      "path": "scripts/__pycache__/audit_patrol_balance.cpython-312.pyc",
+      "bytes": 8117
+    },
+    {
+      "path": "scripts/__pycache__/package_game.cpython-312.pyc",
+      "bytes": 6113
+    },
+    {
+      "path": "__pycache__/resident_friendship_content.cpython-312.pyc",
+      "bytes": 14491
+    },
+    {
+      "path": "__pycache__/asset_aliases.cpython-312.pyc",
+      "bytes": 13738
+    },
+    {
+      "path": "__pycache__/companion_threads.cpython-312.pyc",
+      "bytes": 16325
+    },
+    {
+      "path": "__pycache__/daily_plan.cpython-312.pyc",
+      "bytes": 3874
+    },
+    {
+      "path": "__pycache__/household_chapters.cpython-312.pyc",
+      "bytes": 17293
+    },
+    {
+      "path": "__pycache__/headquarters.cpython-312.pyc",
+      "bytes": 44478
+    },
+    {
+      "path": "__pycache__/dialogue.cpython-312.pyc",
+      "bytes": 48852
+    },
+    {
+      "path": "__pycache__/household_routines.cpython-312.pyc",
+      "bytes": 13005
+    },
+    {
+      "path": "__pycache__/public_starters.cpython-312.pyc",
+      "bytes": 2180
+    },
+    {
+      "path": "__pycache__/shared_history.cpython-312.pyc",
+      "bytes": 12068
+    },
+    {
+      "path": "__pycache__/beacon_expedition.cpython-312.pyc",
+      "bytes": 22704
+    },
+    {
+      "path": "__pycache__/estate_expansion.cpython-312.pyc",
+      "bytes": 8388
+    },
+    {
+      "path": "__pycache__/public_advanced.cpython-312.pyc",
+      "bytes": 13550
+    },
+    {
+      "path": "__pycache__/resident_friendships.cpython-312.pyc",
+      "bytes": 21650
+    },
+    {
+      "path": "__pycache__/armoury.cpython-312.pyc",
+      "bytes": 84403
+    },
+    {
+      "path": "__pycache__/keeping_hearth.cpython-312.pyc",
+      "bytes": 33228
+    },
+    {
+      "path": "__pycache__/companion_identity.cpython-312.pyc",
+      "bytes": 2731
+    },
+    {
+      "path": "__pycache__/household_chapter_content.cpython-312.pyc",
+      "bytes": 61902
+    },
+    {
+      "path": "__pycache__/party_journey_content.cpython-312.pyc",
+      "bytes": 29075
+    },
+    {
+      "path": "__pycache__/companion_threads_content.cpython-312.pyc",
+      "bytes": 95091
+    },
+    {
+      "path": "__pycache__/field_objectives.cpython-312.pyc",
+      "bytes": 17035
+    },
+    {
+      "path": "__pycache__/roads_we_keep.cpython-312.pyc",
+      "bytes": 20347
+    },
+    {
+      "path": "__pycache__/containment.cpython-312.pyc",
+      "bytes": 24352
+    },
+    {
+      "path": "__pycache__/character_customization.cpython-312.pyc",
+      "bytes": 43005
+    },
+    {
+      "path": "__pycache__/solo_tools.cpython-312.pyc",
+      "bytes": 10101
+    },
+    {
+      "path": "__pycache__/public_contracts.cpython-312.pyc",
+      "bytes": 11116
+    },
+    {
+      "path": "__pycache__/patrol_tactics.cpython-312.pyc",
+      "bytes": 16340
+    },
+    {
+      "path": "__pycache__/social_life.cpython-312.pyc",
+      "bytes": 13223
+    },
+    {
+      "path": "__pycache__/expansion_schemas.cpython-312.pyc",
+      "bytes": 13298
+    },
+    {
+      "path": "__pycache__/household_content.cpython-312.pyc",
+      "bytes": 28682
+    },
+    {
+      "path": "__pycache__/first_hearth.cpython-312.pyc",
+      "bytes": 33638
+    },
+    {
+      "path": "__pycache__/character_pool.cpython-312.pyc",
+      "bytes": 26516
+    },
+    {
+      "path": "__pycache__/lantern_content.cpython-312.pyc",
+      "bytes": 12956
+    },
+    {
+      "path": "__pycache__/lasting_rituals.cpython-312.pyc",
+      "bytes": 15298
+    },
+    {
+      "path": "__pycache__/resident_projects.cpython-312.pyc",
+      "bytes": 8199
+    },
+    {
+      "path": "__pycache__/public_rituals.cpython-312.pyc",
+      "bytes": 6484
+    },
+    {
+      "path": "__pycache__/lantern_adventure.cpython-312.pyc",
+      "bytes": 26798
+    },
+    {
+      "path": "__pycache__/scene_drafts.cpython-312.pyc",
+      "bytes": 5552
+    },
+    {
+      "path": "__pycache__/house_shape.cpython-312.pyc",
+      "bytes": 47277
+    },
+    {
+      "path": "__pycache__/public_journeys.cpython-312.pyc",
+      "bytes": 26432
+    },
+    {
+      "path": "__pycache__/character_quest_content.cpython-312.pyc",
+      "bytes": 19526
+    },
+    {
+      "path": "__pycache__/character_builds.cpython-312.pyc",
+      "bytes": 22148
+    },
+    {
+      "path": "__pycache__/castle_reawakening.cpython-312.pyc",
+      "bytes": 11437
+    },
+    {
+      "path": "__pycache__/public_content.cpython-312.pyc",
+      "bytes": 11837
+    },
+    {
+      "path": "__pycache__/companion_participation.cpython-312.pyc",
+      "bytes": 21994
+    },
+    {
+      "path": "__pycache__/public_life.cpython-312.pyc",
+      "bytes": 13418
+    },
+    {
+      "path": "__pycache__/guidance.cpython-312.pyc",
+      "bytes": 20315
+    },
+    {
+      "path": "__pycache__/foundation_chamber.cpython-312.pyc",
+      "bytes": 28655
+    },
+    {
+      "path": "__pycache__/summoning.cpython-312.pyc",
+      "bytes": 32416
+    },
+    {
+      "path": "__pycache__/room_to_grow.cpython-312.pyc",
+      "bytes": 29322
+    },
+    {
+      "path": "__pycache__/personal_paths.cpython-312.pyc",
+      "bytes": 36247
+    },
+    {
+      "path": "__pycache__/field_patrols.cpython-312.pyc",
+      "bytes": 52866
+    },
+    {
+      "path": "__pycache__/authored_spells.cpython-312.pyc",
+      "bytes": 793
+    },
+    {
+      "path": "__pycache__/signature_growth.cpython-312.pyc",
+      "bytes": 17172
+    },
+    {
+      "path": "__pycache__/intimacy.cpython-312.pyc",
+      "bytes": 14356
+    },
+    {
+      "path": "__pycache__/velis_content.cpython-312.pyc",
+      "bytes": 14415
+    },
+    {
+      "path": "__pycache__/expansion_packs.cpython-312.pyc",
+      "bytes": 32416
+    },
+    {
+      "path": "__pycache__/early_lessons.cpython-312.pyc",
+      "bytes": 6510
+    },
+    {
+      "path": "__pycache__/cheat_tools.cpython-312.pyc",
+      "bytes": 15901
+    },
+    {
+      "path": "__pycache__/customization_content.cpython-312.pyc",
+      "bytes": 7231
+    },
+    {
+      "path": "__pycache__/room_life.cpython-312.pyc",
+      "bytes": 12823
+    },
+    {
+      "path": "__pycache__/household_saga_content.cpython-312.pyc",
+      "bytes": 40784
+    },
+    {
+      "path": "__pycache__/castle_mystery.cpython-312.pyc",
+      "bytes": 12148
+    },
+    {
+      "path": "__pycache__/resident_moments.cpython-312.pyc",
+      "bytes": 14198
+    },
+    {
+      "path": "__pycache__/provisions.cpython-312.pyc",
+      "bytes": 21541
+    },
+    {
+      "path": "__pycache__/spell_support.cpython-312.pyc",
+      "bytes": 13204
+    },
+    {
+      "path": "__pycache__/server.cpython-312.pyc",
+      "bytes": 50717
+    },
+    {
+      "path": "__pycache__/romance_content.cpython-312.pyc",
+      "bytes": 19992
+    },
+    {
+      "path": "__pycache__/commissions.cpython-312.pyc",
+      "bytes": 11817
+    },
+    {
+      "path": "__pycache__/local_encounters.cpython-312.pyc",
+      "bytes": 20730
+    },
+    {
+      "path": "__pycache__/household_sagas.cpython-312.pyc",
+      "bytes": 32642
+    },
+    {
+      "path": "__pycache__/phase_tasks.cpython-312.pyc",
+      "bytes": 26719
+    },
+    {
+      "path": "__pycache__/expedition_loop.cpython-312.pyc",
+      "bytes": 17826
+    },
+    {
+      "path": "__pycache__/art_catalogue.cpython-312.pyc",
+      "bytes": 7506
+    },
+    {
+      "path": "__pycache__/intimacy_content.cpython-312.pyc",
+      "bytes": 45237
+    },
+    {
+      "path": "__pycache__/public_fieldwork.cpython-312.pyc",
+      "bytes": 10341
+    },
+    {
+      "path": "__pycache__/bathing_outfits.cpython-312.pyc",
+      "bytes": 2907
+    },
+    {
+      "path": "__pycache__/public_workshop.cpython-312.pyc",
+      "bytes": 41740
+    },
+    {
+      "path": "__pycache__/bounty_contracts.cpython-312.pyc",
+      "bytes": 20463
+    },
+    {
+      "path": "__pycache__/public_integration.cpython-312.pyc",
+      "bytes": 18986
+    },
+    {
+      "path": "__pycache__/game.cpython-312.pyc",
+      "bytes": 367692
+    },
+    {
+      "path": "__pycache__/outfit_progression.cpython-312.pyc",
+      "bytes": 17014
+    },
+    {
+      "path": "__pycache__/portrait_generation.cpython-312.pyc",
+      "bytes": 9762
+    },
+    {
+      "path": "__pycache__/opening_guide.cpython-312.pyc",
+      "bytes": 9128
+    },
+    {
+      "path": "__pycache__/romance.cpython-312.pyc",
+      "bytes": 14338
+    },
+    {
+      "path": "__pycache__/character_approaches.cpython-312.pyc",
+      "bytes": 15884
+    },
+    {
+      "path": "__pycache__/patrol_homecoming.cpython-312.pyc",
+      "bytes": 10369
+    },
+    {
+      "path": "__pycache__/work_arrangements.cpython-312.pyc",
+      "bytes": 5833
+    },
+    {
+      "path": "__pycache__/conversation_voice.cpython-312.pyc",
+      "bytes": 16288
+    },
+    {
+      "path": "__pycache__/resident_specialties.cpython-312.pyc",
+      "bytes": 10392
+    },
+    {
+      "path": "__pycache__/rhess_content.cpython-312.pyc",
+      "bytes": 13966
+    },
+    {
+      "path": "__pycache__/magic_reference.cpython-312.pyc",
+      "bytes": 20257
+    },
+    {
+      "path": "__pycache__/character_quests.cpython-312.pyc",
+      "bytes": 30672
+    },
+    {
+      "path": "__pycache__/progression.cpython-312.pyc",
+      "bytes": 7383
+    },
+    {
+      "path": "__pycache__/public_spell_effects.cpython-312.pyc",
+      "bytes": 11615
+    },
+    {
+      "path": "__pycache__/living_stories.cpython-312.pyc",
+      "bytes": 33099
+    },
+    {
+      "path": "__pycache__/signature_equipment.cpython-312.pyc",
+      "bytes": 16900
+    },
+    {
+      "path": "__pycache__/personal_stories.cpython-312.pyc",
+      "bytes": 30760
+    },
+    {
+      "path": "__pycache__/first_patrol.cpython-312.pyc",
+      "bytes": 28180
+    },
+    {
+      "path": "__pycache__/zahra_identity.cpython-312.pyc",
+      "bytes": 1848
+    },
+    {
+      "path": "__pycache__/equipment.cpython-312.pyc",
+      "bytes": 21491
+    },
+    {
+      "path": "__pycache__/bestiary.cpython-312.pyc",
+      "bytes": 18658
+    },
+    {
+      "path": "__pycache__/arms_of_our_own.cpython-312.pyc",
+      "bytes": 34619
+    },
+    {
+      "path": "__pycache__/resident_bonds.cpython-312.pyc",
+      "bytes": 14583
+    },
+    {
+      "path": "__pycache__/companion_life.cpython-312.pyc",
+      "bytes": 12636
+    },
+    {
+      "path": "__pycache__/summoned_cast.cpython-312.pyc",
+      "bytes": 6922
+    },
+    {
+      "path": "__pycache__/public_progression.cpython-312.pyc",
+      "bytes": 14996
+    },
+    {
+      "path": "__pycache__/solo_life.cpython-312.pyc",
+      "bytes": 23245
+    },
+    {
+      "path": "__pycache__/household_rest.cpython-312.pyc",
+      "bytes": 6112
+    },
+    {
+      "path": "__pycache__/castle_chapter.cpython-312.pyc",
+      "bytes": 16492
+    },
+    {
+      "path": "__pycache__/spell_proposals.cpython-312.pyc",
+      "bytes": 4398
+    },
+    {
+      "path": "__pycache__/companion_conversations.cpython-312.pyc",
+      "bytes": 71474
+    },
+    {
+      "path": "__pycache__/spell_guidance.cpython-312.pyc",
+      "bytes": 5126
+    },
+    {
+      "path": "__pycache__/practical_projects.cpython-312.pyc",
+      "bytes": 10834
+    },
+    {
+      "path": "__pycache__/candidate_proposals.cpython-312.pyc",
+      "bytes": 12788
+    },
+    {
+      "path": "__pycache__/companion_almanac.cpython-312.pyc",
+      "bytes": 19440
+    },
+    {
+      "path": "__pycache__/service_road.cpython-312.pyc",
+      "bytes": 14673
+    },
+    {
+      "path": "__pycache__/content_packs.cpython-312.pyc",
+      "bytes": 41508
+    },
+    {
+      "path": "__pycache__/relationships.cpython-312.pyc",
+      "bytes": 13946
+    },
+    {
+      "path": "__pycache__/arrivals.cpython-312.pyc",
+      "bytes": 12908
+    },
+    {
+      "path": "__pycache__/attribute_dialogue.cpython-312.pyc",
+      "bytes": 14079
+    },
+    {
+      "path": "__pycache__/room_art.cpython-312.pyc",
+      "bytes": 3523
+    },
+    {
+      "path": "__pycache__/party_journeys.cpython-312.pyc",
+      "bytes": 52516
+    },
+    {
+      "path": "__pycache__/house_shape_content.cpython-312.pyc",
+      "bytes": 9615
+    },
+    {
+      "path": "__pycache__/survey_rooms.cpython-312.pyc",
+      "bytes": 11881
+    },
+    {
+      "path": "__pycache__/founder_setup.cpython-312.pyc",
+      "bytes": 6817
+    },
+    {
+      "path": "__pycache__/social_content.cpython-312.pyc",
+      "bytes": 108598
+    },
+    {
+      "path": "__pycache__/personal_path_content.cpython-312.pyc",
+      "bytes": 20398
+    },
+    {
+      "path": "__pycache__/field_magic.cpython-312.pyc",
+      "bytes": 42817
+    },
+    {
+      "path": "__pycache__/campaign_guidance.cpython-312.pyc",
+      "bytes": 18274
+    },
+    {
+      "path": "__pycache__/companion_almanac_content.cpython-312.pyc",
+      "bytes": 33773
+    },
+    {
+      "path": "__pycache__/relationship_content.cpython-312.pyc",
+      "bytes": 15174
+    }
+  ],
+  "kept": [
+    "All runtime Python modules, canonical authoring references, tests and historical verification manifests",
+    "Both content/public-runtime.json and content/stonework-and-spellcraft-public-packs.zip: actively required by public_integration.py and server.py",
+    "static/examples/stonework-spellcraft-content-pack.zip: downloadable example pack"
+  ],
+  "runtimeImagesRemoved": 0,
+  "runtimeDuplicateImages": 0
+}

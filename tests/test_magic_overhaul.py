@@ -37,8 +37,8 @@ class MagicTests(unittest.TestCase):
   p=f.initialize(self.s)['aqueduct'];p['completed']=[d['id'] for d in f.STEPS[:next(i for i,d in enumerate(f.STEPS) if d['id']==step)]];p['pending']=None;f.resume(self.s)
  def cast(self,spell,target='founder'):
   self.act('field-spell',characterId='founder',spellId=spell,targetId=target);self.advance()
- def test_all_thirty_authored_spells_can_be_studied_and_prepared(self):
-  self.assertEqual(len(g.SPELL_FORMS),30)
+ def test_all_authored_spells_can_be_studied_and_prepared(self):
+  self.assertEqual(len(g.SPELL_FORMS),36)
   for form,d in g.SPELL_FORMS.items():
    with self.subTest(form=form):
     self.s=self.rich();key=self.learned(form,real=True);spell=g.spell_by_id(self.s,key)
@@ -113,6 +113,7 @@ class MagicTests(unittest.TestCase):
   self.assertEqual(self.s['housingRooms'][room]['completedWorkPhases'],2);self.assertEqual(support.remaining(self.s,'founder','haste'),2)
  def test_all_eight_rituals_pause_resume_complete_and_suspend(self):
   for key,d in rituals.CATALOGUE.items():
+   if d.get('repeatable'):continue
    with self.subTest(ritual=key):
     self.s=self.rich();self.act('begin-lasting-ritual',ritualId=key,leaderId='founder',partnerId='mira');self.advance()
     self.act('assign-resident',assignment='rest');self.advance();self.assertEqual(rituals.state(self.s)['project']['done'],1)
@@ -172,6 +173,6 @@ class MagicTests(unittest.TestCase):
   self.s['schemaVersion']=46
   for field in ('spellSupports','fieldMagic','lastingRituals'):self.s.pop(field,None)
   g.migrate_state(self.s)
-  self.assertEqual(self.s['schemaVersion'],66);self.assertEqual(g.spell_by_id(self.s,key)['name'],'Old personal name')
+  self.assertEqual(self.s['schemaVersion'],g.CURRENT_SCHEMA_VERSION);self.assertEqual(g.spell_by_id(self.s,key)['name'],'Old personal name')
   self.assertEqual(self.s['assetOverrides']['mira'],'/user-assets/my-portrait.png')
   before=deepcopy(self.s);g.public_state(self.s);self.assertEqual(before,self.s)

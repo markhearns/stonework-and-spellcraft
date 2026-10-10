@@ -23,7 +23,7 @@ const context = vm.createContext({
   window:{scrollTo(){}},location:{reload(){}},
   fetch:async(url, options)=>{
     const body = options?.body || '{}';
-    const json=JSON.parse(execFileSync(process.env.PYTHON || 'python', ['-c',bridge,directory,url], {input:body, encoding:'utf8'}));
+    const json=JSON.parse(execFileSync(process.env.PYTHON || 'python', ['-c',bridge,directory,url], {input:body, encoding:'utf8',maxBuffer:32*1024*1024}));
     if(url==='/api/campaigns' && options?.method==='POST' && dropCreationResponse) {dropCreationResponse=false;throw new Error('Simulated lost response');}
     return {ok:!json.error,async json(){return json;}};
   }
@@ -31,7 +31,7 @@ const context = vm.createContext({
 
 
 
-const fixture=`import json,sys\nfrom server import CampaignLibrary\nimport game as g\ns=g.new_campaign();s['sharedFunds']=500\nfor k in s['materialInventory']:s['materialInventory'][k]=20\nfor p in ('clear-instruction','gentle-preservation'):g.learn_for_character(s,'founder',p)\ns['housingRooms']['west-chamber']['status']='complete'\ns['housingRooms']['garden-chamber']['status']='complete'\nstore=CampaignLibrary(sys.argv[1]).get('default')\nwith store.connect() as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(s),))`;
+const fixture=`import json,sys\nfrom server import CampaignLibrary\nimport game as g\ns=g.new_campaign();s['testing']['enabled']=True;s['sharedFunds']=500\nfor k in s['materialInventory']:s['materialInventory'][k]=20\nfor p in ('clear-instruction','gentle-preservation'):g.learn_for_character(s,'founder',p)\ns['housingRooms']['west-chamber']['status']='complete'\ns['housingRooms']['garden-chamber']['status']='complete'\nstore=CampaignLibrary(sys.argv[1]).get('default')\nwith store.connect() as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(s),))`;
 (async()=>{try {
  execFileSync(process.env.PYTHON||'python',['-c',fixture,directory]);
  vm.runInContext(fs.readFileSync('static/app.js','utf8'),context);await new Promise(resolve=>setImmediate(resolve));
@@ -40,14 +40,16 @@ const fixture=`import json,sys\nfrom server import CampaignLibrary\nimport game 
  await click({candidateDraft:'offline'});
  assert.equal(vm.runInContext('candidateProposal.status',context),'ready');
  assert.match(element('#app').innerHTML,/chocolate brown/);
- assert.match(element('#app').innerHTML,/ordinary correspondence/);
+ assert.match(element('#app').innerHTML,/rescue or capture-and-release quest/);
  element('#candidate-content-reviewed').checked=true;element('#candidate-mechanics-reviewed').checked=true;
  await click({candidateDraft:'approve'});
  const elf=vm.runInContext('selectedSummoningPerson',context);
- assert.match(element('#app').innerHTML,/Open ordinary correspondence/);
+ assert.match(element('#app').innerHTML,/rescue|Rescue/);
  assert(!element('#app').innerHTML.includes('id="summoning-form"'));
- await click({arrivalPathAction:'open-correspondence',arrivalPerson:elf});
- assert.equal(vm.runInContext(`state.residency['${elf}'].residencyStatus`,context),'remote');
+ await vm.runInContext('commit('+JSON.stringify({type:'recruit-lead',characterId:elf,questKind:'rescue'})+')',context);
+ assert.equal(vm.runInContext(`state.recruitmentQuests['${elf}'].status`,context),'available');
+ assert.match(element('#app').innerHTML,/Recruitment quests/);
+ assert.equal(vm.runInContext(`Boolean(state.people['${elf}'])`,context),false);
  await click({view:'candidateReview'});element('#pool-ancestry').value='Golem';element('#pool-bodyMaterial').value='porcelain';
  await click({candidateDraft:'offline'});
  assert.equal(vm.runInContext('candidateProposal.status',context),'ready');

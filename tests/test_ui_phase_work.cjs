@@ -36,7 +36,7 @@ const context = vm.createContext({
  const click=dataset=>events.click({target:{closest(){return {dataset,disabled:false};}}});
  await click({view:'phaseTasks'});
  assert.match(element('#app').innerHTML,/Study the hearth wards/);
- await click({phaseTaskDismiss:'meet:maren'});assert.match(element('#app').innerHTML,/Show tasks put aside/);
+ await click({phaseTaskDismiss:'meet:koharu'});assert.match(element('#app').innerHTML,/Show tasks put aside/);
  await click({phaseTaskRun:'hearth-study'});
  for(let i=0;i<3;i++)await click({action:'advance'});
  assert.match(element('#advance-content').innerHTML,/new tasks? available/);

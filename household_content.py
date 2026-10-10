@@ -150,7 +150,9 @@ def apply(state,action,pack=None):
                     return True
                 r.update(status='remembered',choiceIndex=choice,completedOn=stamp(state),completedText=[r['opening'],'Discussion chosen: '+r['choices'][choice]['label'],r['choices'][choice]['reply']],
                          portraitPaths={p:state.get('assetOverrides',{}).get(p) for p in r['participants']},clothing={p:wardrobe_context(state,p) for p in r['participants']})
-                g.add_journal(state,'Shared conversation: '+r['title']+'. No time, goods, advancement or relationship rewards were granted.')
+                import resident_bonds
+                resident_bonds.award(state,r['participants'],'content-scene:'+key,r['title'],2)
+                g.add_journal(state,'Shared conversation: '+r['title']+'. Resident participants build their mutual bond; no time, goods or advancement were spent.')
         return True
     who=action.get('ownerId')
     g.require(isinstance(who,str) and present(state,who),'Choose a household resident and return home together.')

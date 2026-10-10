@@ -48,7 +48,7 @@ class BathingTests(unittest.TestCase):
   self.assertNotIn('veyra',str(view).lower())
   for who in ('iona','aurelia','neris','sabine'):
    self.assertNotIn('placeholder',view['originalAssets'][who])
-  self.assertEqual(len(view['characterCatalog']),16)
+  self.assertEqual(len(view['characterCatalog']),17)
   ages={who:g.character_profile(self.s,who)['adultAgeYears'] for who in b.OUTFITS}
   self.assertTrue(all(age>=18 for age in ages.values()))
   self.assertGreaterEqual(len(set(ages.values())),5)
@@ -56,8 +56,8 @@ class BathingTests(unittest.TestCase):
  def test_authored_age_update_preserves_custom_ages_and_is_idempotent(self):
   import companion_identity
   self.s['people']['tamsin']['adultAgeYears']=25
-  self.s['people']['brakka']['adultAgeYears']=28
+  self.s['people']['zahra']['adultAgeYears']=28
   companion_identity.migrate(self.s)
   self.assertEqual(self.s['people']['tamsin']['adultAgeYears'],20)
-  self.assertEqual(self.s['people']['brakka']['adultAgeYears'],28)
+  self.assertEqual(self.s['people']['zahra']['adultAgeYears'],28)
   before=deepcopy(self.s);companion_identity.migrate(self.s);self.assertEqual(before,self.s)

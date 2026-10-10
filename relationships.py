@@ -2,8 +2,17 @@
 from copy import deepcopy
 from itertools import combinations
 from relationship_content import PREFERENCES, STORY, PEOPLE, FOLLOWTHROUGH
+from companion_conversations import INVITATION_REPLIES
 
 DIMENSIONS = ('trust', 'affection', 'respect')
+
+def invitation_definition(who):
+    p = PREFERENCES[who]
+    (question, answer), decline = INVITATION_REPLIES[who]
+    return {'title':p[2], 'opening':p[3], 'choices':{
+        'join':('Accept and spend time together.',p[4],'affection'),
+        'ask':(question,answer,'trust'),
+        'decline':('Decline for today.',decline,'respect')}}
 
 def initialize(s):
     s.setdefault('relationships', {'bonds': {}, 'events': {}, 'memories': {}, 'deferred': [], 'promise': None})
@@ -29,14 +38,19 @@ def remember(s, source, record, dimension=None, amount=1):
     initialize(s)
     data = saved(s)
     effects = []
+    import foundation_chamber
+    gain = round(amount * foundation_chamber.multiplier(s), 1) if amount > 0 else amount
     for a, b in combinations(people, 2):
         key = pair_id(a, b)
         bond = data['bonds'].setdefault(key, {'participants':[a,b], **dict.fromkeys(DIMENSIONS,0)})
         old = bond[dimension]
-        bond[dimension] = min(12, max(0, old + amount))
-        effects.append({'bondId':key, 'dimension':dimension, 'change':bond[dimension]-old})
+        bond[dimension] = round(min(12, max(0, old + gain)), 1)
+        effects.append({'bondId':key, 'dimension':dimension, 'change':round(bond[dimension]-old, 1)})
     data['events'][source] = {'title':record['title'], 'participants':people,
         'dayNumber':s['dayNumber'], 'phase':s['currentDayPhase'], 'effects':effects}
+    if amount > 0:
+        import resident_bonds
+        resident_bonds.award(s, people, 'scene:' + source, record['title'], 2)
 
 def context(s, who):
     data = saved(s)
@@ -95,10 +109,7 @@ def rows(s):
         count = sum('founder' in e['participants'] and who in e['participants'] for e in data['events'].values())
         if count < 2:
             reasons.append('Share two distinct remembered moments together after this update; ordinary conversations remain available.')
-        definition = {'title':p[2], 'opening':p[3], 'choices':{
-            'join':('Accept the invitation on their terms.',p[4],'affection'),
-            'ask':('Ask what would make this comfortable for them.', 'They explain: “'+p[1]+'. That is what I need you to understand.” You agree to ask instead of assuming. The invitation remains something you can share freely.', 'trust'),
-            'decline':('Decline kindly, without making a promise.', 'You thank them for asking and say that you would rather leave it here today. They accept your answer. An invitation does not make either of you responsible for the other person’s evening.', 'respect')}}
+        definition = invitation_definition(who)
         result.append(row(s,'invitation:'+who,definition,['founder',who],reasons))
     return result
 
@@ -140,12 +151,7 @@ def apply(s, action):
         label, response, dimension = definition['choices'][choice]
     else:
         who = key.split(':',1)[1]
-        p = PREFERENCES[who]
-        label = current['choices'][choice]['label']
-        response, dimension = {
-            'join':(p[4],'affection'),
-            'ask':('They explain: “'+p[1]+'. That is what I need you to understand.” You agree to ask instead of assuming. The invitation remains something you can share freely.','trust'),
-            'decline':('You thank them for asking and say that you would rather leave it here today. They accept your answer. An invitation does not make either of you responsible for the other person’s evening.','respect')}[choice]
+        label, response, dimension = invitation_definition(who)['choices'][choice]
     initialize(s)
     data = saved(s)
     record = {'id':key, 'title':current['title'], 'opening':current['opening'],

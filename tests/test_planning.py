@@ -212,7 +212,7 @@ class PlanningTests(unittest.TestCase):
             self.assertTrue(all(target==0 for target in upgraded['materialReserveTargets'].values()))
             self.assertIsNone(upgraded['activeResearchId'])
             self.assertEqual(GameStore(directory).read(), upgraded)
-            with sqlite3.connect(Path(directory)/'campaign-before-schema-5-to-66.sqlite3') as db:
+            with sqlite3.connect(Path(directory)/f"campaign-before-schema-5-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3") as db:
                 self.assertEqual(json.loads(db.execute('SELECT state FROM campaign').fetchone()[0]), old)
             self.state = upgraded; self.advance(2)
             self.assertEqual(self.state['craftedArtifacts']['warming-lantern'], 1)

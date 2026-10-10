@@ -1,0 +1,132 @@
+{
+  "version": "0.114",
+  "schema": 72,
+  "python": {
+    "passed": true,
+    "total_unique_tests": 331,
+    "module_counts": {
+      "test_companion_threads": 17,
+      "test_companion_dialogue_review": 7,
+      "test_companion_almanac": 20,
+      "test_social_life": 12,
+      "test_household_chapters": 16,
+      "test_relationships": 14,
+      "test_dialogue": 18,
+      "test_party_journeys": 28,
+      "test_romance": 15,
+      "test_intimacy": 14,
+      "test_household_sagas": 18,
+      "test_foundation_chamber": 15,
+      "test_resident_friendships": 19,
+      "test_resident_bonds": 17,
+      "test_art_release": 4,
+      "test_candidate_http": 1,
+      "test_outfits": 10,
+      "test_first_hearth": 13,
+      "test_room_to_grow": 8,
+      "test_keeping_hearth": 9,
+      "test_local_expansion": 8,
+      "test_summoning": 15,
+      "test_bathing_outfits": 6,
+      "test_first_patrol": 10,
+      "test_house_shape": 11,
+      "test_progression_v114": 6
+    },
+    "execution_notes": [
+      "All 331 current test methods have passing results across the initial runs and targeted reruns. Updated assertions follow the new character identity, chapter choices, art manifest and schema.",
+      "A UI command first named nonexistent test_ui_magic_reference.cjs; the actual test_ui_magic_reference_v108.cjs subsequently passed.",
+      "The revised capture UI fixture now checks planning and construction before expecting an arriving escort."
+    ]
+  },
+  "connected_ui": {
+    "passed": true,
+    "count": 18,
+    "suites": [
+      "almanac",
+      "companion_threads",
+      "first_patrol",
+      "foundation_chamber",
+      "house_shape",
+      "household_chapters",
+      "intimacy",
+      "keeping_hearth",
+      "magic_reference_v108",
+      "outfits",
+      "party_journeys",
+      "progression_v114",
+      "relationships",
+      "resident_bonds",
+      "resident_friendships",
+      "romance",
+      "room_to_grow",
+      "social_life"
+    ],
+    "runtime": "Node VM templates and click controllers connected to real Python GameStore actions"
+  },
+  "campaign_routes": [
+    {
+      "day": 94,
+      "phase": "evening",
+      "funds": 97,
+      "household": [
+        "founder",
+        "maren",
+        "velis",
+        "rhess"
+      ],
+      "rhessResidency": "resident",
+      "chaptersComplete": 9,
+      "spellCasts": 1,
+      "unfedDays": 0,
+      "cheats": false
+    },
+    {
+      "day": 98,
+      "phase": "evening",
+      "funds": 77,
+      "household": [
+        "founder",
+        "velis"
+      ],
+      "rhessResidency": "visiting",
+      "chaptersComplete": 9,
+      "spellCasts": 1,
+      "unfedDays": 0,
+      "cheats": false
+    }
+  ],
+  "progression": {
+    "foundation_tested_after_chapter": 5,
+    "early_patrol_tested_after_chapter": 4,
+    "chapter_two_required_undertakings": 1,
+    "additional_communal_room_optional": true,
+    "drive_away_without_dungeon": true,
+    "rhess_guest_alliance_completed": true,
+    "chapter_nine_earned_without_intimacy": true,
+    "all_survey_endings_and_once_only_reward_tested": true,
+    "friendship_tradition_threshold_tested": 60
+  },
+  "identity": {
+    "name": "Zahra",
+    "id": "zahra",
+    "ancestry": "Djinn",
+    "room": "smithy",
+    "previous_identity_migration": "Not included; user confirmed there are no saves to migrate.",
+    "old_character_runtime_references": 0
+  },
+  "artwork": {
+    "runtime_files": 398,
+    "unchanged_other_files": 391,
+    "new_zahra_runtime_files": 7,
+    "new_zahra_source_masters": 4,
+    "source_archive_sha256": "f6b2d6fa4a7557fa106cad517160d6362d8fce9b5bc60d68fba1186e78995aca"
+  },
+  "rendered_browser": {
+    "verified": false,
+    "reason": "No browser executable is available; no desktop/mobile pixel review claimed."
+  },
+  "audio_performance": {
+    "verified": false
+  },
+  "deployment": "Not deployed; full installable game archive."
+}

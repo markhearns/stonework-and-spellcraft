@@ -30,7 +30,7 @@ class ArtReleaseTests(unittest.TestCase):
         for version in ('078','079','081','083','085','086','087','092'):
             for record in json.loads((ROOT/f'docs/ART_V{version}.json').read_text())['assets']:
                 latest[record['path']] = record
-                if version in ('078','079'):
+                if version in ('078','079') and record['path'] not in json.loads((ROOT/'docs/ART_V114.json').read_text())['removed']+json.loads((ROOT/'docs/ART_V116.json').read_text())['removed']:
                     self.assertEqual(game.ORIGINAL_ASSETS[record['id']], '/'+record['path'].removeprefix('static/'))
         for record in json.loads((ROOT/'docs/art-v099/manifest.json').read_text())['assets']:
             latest[record['path']] = record
@@ -39,6 +39,22 @@ class ArtReleaseTests(unittest.TestCase):
                 latest[record['path']]=record
         for asset in json.loads((ROOT/'docs/ART_V105.json').read_text())['assets']:
             for record in asset['files']:latest[record['path']]=record
+        for record in json.loads((ROOT/'docs/ART_V107.json').read_text())['assets']:
+            latest[record['path']] = record
+        for record in json.loads((ROOT/'docs/ART_V108.json').read_text())['assets']:
+            latest[record['path']] = record
+        for record in json.loads((ROOT/'docs/ART_V110.json').read_text())['assets']:
+            latest[record['path']] = record
+        replacement=json.loads((ROOT/'docs/ART_V114.json').read_text())
+        for old in replacement['removed']:latest.pop(old,None)
+        for record in replacement['assets']:latest[record['path']]=record
+        for record in json.loads((ROOT/'docs/ART_V115.json').read_text())['assets']:
+            latest[record['path']] = record
+        replacement=json.loads((ROOT/'docs/ART_V116.json').read_text())
+        for old in replacement['removed']:latest.pop(old,None)
+        for record in replacement['assets']:latest[record['path']]=record
+        for version in ('117','118'):
+            for record in json.loads((ROOT/f'docs/ART_V{version}.json').read_text())['assets']:latest[record['path']]=record
         expected = {ROOT/path for path in latest}
         # The v0.94 manifest records reviewed route art without digest fields.
         expected.update(ROOT/r['file'] for r in json.loads((ROOT/'docs/ART_V094.json').read_text())['assets'])
@@ -48,7 +64,7 @@ class ArtReleaseTests(unittest.TestCase):
             self.assertEqual(path.stat().st_size, record['bytes'], relative)
         actual = {p for p in (ROOT/'static/assets').rglob('*') if p.is_file()}
         self.assertEqual(actual,expected)
-        self.assertEqual(len(expected),360)
+        self.assertEqual(len(expected),490)
         self.assertFalse(any(p.name.startswith(('v0','ui-v')) for p in (ROOT/'static/assets').iterdir()))
         for url in game.ORIGINAL_ASSETS.values():
             self.assertTrue((ROOT/'static'/url.lstrip('/')).is_file(),url)

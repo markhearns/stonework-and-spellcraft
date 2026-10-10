@@ -1,14 +1,14 @@
 """Specialized safe chambers and independent resolution/release decisions.
 
 Containment is not residential housing, employment, romance or recruitment.
-Only two authored cases currently exist; ten chambers are an optional ceiling.
+One Ember chamber and one Quiet chamber provide specialized care.
 """
 from copy import deepcopy
 from summoned_cast import profile
 
-CHAMBERS = {f'{ward}-{i}': {'name':f'{"Ember" if ward=="heat" else "Quiet"} chamber {i}', 'ward':ward,
+CHAMBERS = {f'{ward}-{i}': {'name':f'{"Ember" if ward=="heat" else "Quiet"} chamber', 'ward':ward,
     'costCrowns':14, 'materials':{'porous-clay':2,'binding-thread':1}, 'requiredWorkPhases':2}
-    for ward in ('heat','echo') for i in range(1,6)}
+    for ward in ('heat','echo') for i in (1,)}
 
 
 def candidate(who,name,age,ancestry,role,ambition,origin,principle,private,personality):
@@ -71,7 +71,8 @@ def lead_open(state,who):
 
 
 def occupied(state,chamber):
-    return any(r['chamberId']==chamber for r in state['containment']['cases'].values())
+    import recruitment_quests
+    return any(r['chamberId']==chamber for r in state['containment']['cases'].values()) or recruitment_quests.occupies(state,chamber)
 
 
 def cost_blockers(state,definition):
@@ -111,7 +112,7 @@ def view(state):
             'resolution':definition['resolution'] if record['status'] in ('safe','release-pending','released') else None,
             'careBlockers':reasons,'compatibleChambers':[key for key,c in chambers.items() if c['ward']==definition['ward'] and c['status']=='ready' and not c['occupied']]}
     return {'chambers':chambers,'cases':cases,'project':deepcopy(project),'working':bool(project and home and state['founderAssignment']=='containment'),
-        'usableCapacity':sum(c['status']=='ready' for c in chambers.values()),'occupiedCapacity':sum(c['occupied'] for c in chambers.values()),'maximumCapacity':10}
+        'usableCapacity':sum(c['status']=='ready' for c in chambers.values()),'occupiedCapacity':sum(c['occupied'] for c in chambers.values()),'maximumCapacity':len(CHAMBERS)}
 
 
 def fund(state,kind,target,definition):

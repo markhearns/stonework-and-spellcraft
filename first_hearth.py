@@ -199,29 +199,32 @@ def next_beat(s):
                 ('meet','Arrange an introduction','You leave room on the repair list for another person’s observations. The introduction is a separate, one-phase appointment.'),
                 ('solo','Find my own rhythm first','You keep the first page to yourself. The joinery will still be there when you want company.')])
     if r['company']=='meet' and 'repair-notes' not in memories:
-        introduced = s['localEncounters']['maren']['status']=='introduced'
+        introduced = s['localEncounters']['koharu']['status']=='introduced'
         if not introduced:
             if s['localVisit']:
                 p=s['localVisit']; name=local_encounters.PEOPLE[p['encounterId']]['name']
                 return funded(s, 'introduction', 'Introduction to '+name, p['completedWorkPhases'], p['requiredWorkPhases'],
                               s['founderAssignment']=='local-visit', {'type':'resume-local-visit'}, 'localEncounters'), None
-            reasons=local_encounters.start_blockers(s,'maren')
-            n=step('introduction', 'Compare repair notes with Maren',
+            reasons=local_encounters.start_blockers(s,'koharu')
+            n=step('introduction', 'Compare repair notes with Koharu',
                    'One assigned phase, no crowns. Your previous assignment pauses. A meeting does not require a visit or membership.',
-                   'localEncounters', None if reasons else {'type':'start-local-visit','encounterId':'maren'},
-                   'Arrange the introduction', personId='maren')
+                   'localEncounters', None if reasons else {'type':'start-local-visit','encounterId':'koharu'},
+                   'Arrange the introduction', personId='koharu')
             n['blockers']=reasons
             return n,None
         # Do not stage an in-person conversation while a previously met resident is away.
-        if not g.character_at_castle(s,'maren') and s['additionalResidents'].get('maren',{}).get('status') in ('resident','visiting'):
-            return step('wait-company','Repair notes can wait','Return together to compare notes, or continue this chapter on your own.','summoning',personId='maren'),None
+        if not g.character_at_castle(s,'koharu') and s['additionalResidents'].get('koharu',{}).get('status') in ('resident','visiting'):
+            return step('wait-company','Repair notes can wait','Return together to compare notes, or continue this chapter on your own.','summoning',personId='koharu'),None
         return None, scene('repair-notes', 'The respectable end of the repair list',
-            'In the joinery correspondence, Maren considers your sketch. “A kitchen, a washroom, sound service wards. Disappointingly sensible.” '
+            'In the theatre workshop correspondence, Koharu considers your sketch. “A kitchen, a washroom, sound service wards. Disappointingly sensible.” '
             'She taps the kettle drawing. “Good clay, though. Don’t spend your last crowns on a pretty vessel that leaks.” '
             'The abandoned quarry shelter offers both reusable packing and shutter joints worth studying.', [
                 ('practical','Ask what she would fix first','“The place you wash your hands,” she says. “Then the place you feed yourself. Hard to admire your work when you’re hungry and covered in it.”'),
-                ('playful','Promise one magnificently unnecessary flourish','“One?” Maren’s smile widens. “I shall expect something thoroughly impractical once the pipes work.”'),
-                ('independent','Thank her, and keep the work your own','“Of course. Advice isn’t a claim on the finished room.” She returns the sketch with a small, approving nod.')], 'maren')
+                ('playful','Promise one magnificently unnecessary flourish','“One?” Koharu’s smile widens. “I shall expect something thoroughly impractical once the pipes work.”'),
+                ('independent','Thank her, and keep the work your own','“Of course. Advice isn’t a claim on the finished room.” She returns the sketch with a small, approving nod.')], 'koharu')
+    import early_lessons
+    lesson=early_lessons.next_step(s)
+    if lesson:return lesson,None
     if not field_discovery(s):
         return step('fieldwork', 'Something worth bringing home',
                     'The quarry shelter has two useful approaches: salvage returns 2 porous clay, 3 binding thread and 8 crowns '
@@ -245,9 +248,9 @@ def next_beat(s):
                         'phaseTasks',{'type':'advance'},'Advance toward evening'),None
         callback=''
         repair=memories.get('repair-notes',{}).get('choiceId')
-        if repair=='practical':callback=' You wash the last dust from your hands and remember Maren’s priorities with a smile.'
-        elif repair=='playful':callback=' Remembering Maren’s challenge, you sketch an absurdly elaborate drawer pull in the margin. The flourish can remain a sketch for now.'
-        elif repair=='independent':callback=' Maren’s advice helped, but the decisions—and the awkward joins—are recognizably yours.'
+        if repair=='practical':callback=' You wash the last dust from your hands and remember Koharu’s priorities with a smile.'
+        elif repair=='playful':callback=' Remembering Koharu’s challenge, you sketch an absurdly elaborate drawer pull in the margin. The flourish can remain a sketch for now.'
+        elif repair=='independent':callback=' Koharu’s advice helped, but the decisions—and the awkward joins—are recognizably yours.'
         return None, scene('evening', 'An evening without a repair list',
             'The range draws properly. The basin runs warm. Along the gallery, the service wards hold a modest, steady light. '
             'For once there is nothing on this page that must be done before you can sit down. '
@@ -268,14 +271,14 @@ def next_beat(s):
         opening='Your record of the hearth mark lies beside the first lantern sketch. You have a working home, a journey behind you and a question worth following.'
         opening+=(' The light you first imagined beside your chair has now travelled beyond the gate.' if memories['intention']['choiceId']=='comfort' else ' The lantern you designed to travel has found a place beside your chair as well.')
         if r['company']=='meet' and 'repair-notes' in memories:
-            opening+=' You keep Maren’s repair advice in the margin; whether she ever lives here is a separate choice.'
+            opening+=' You keep Koharu’s repair advice in the margin; whether she ever lives here is a separate choice.'
         return None,scene('conclusion','The first hearth',opening,[
             ('history','Follow the house’s history','You turn to a clean page and write down what the hearth evidence actually supports. There is more to learn before the house’s story can be told.'),
             ('household','Make room for a household','The next page is a practical one: a suitable room, an invitation, work that can be shared. People will bring questions of their own.'),
             ('craft','Follow the next useful working','You return to your field notes. The next improvement can begin as this one did: a question, a patient journey and something made by hand.')])
     choice=memories['conclusion']['choiceId']
     view={'history':'mystery','household':'peopleHub','craft':'castleChapter'}[choice]
-    return step('complete','A place to return to','Your first chapter is remembered. The House Takes Shape brings your interests into three useful rooms: an archive, a garden and a commission bench. Follow your chosen direction here, or open Chapter 2 from Home. Your earlier work counts.',view),None
+    return step('complete','A place to return to','Your first chapter is remembered. The House Takes Shape lets you choose an archive, a garden or a commission bench. Complete one undertaking to continue; the other two stay available. Follow your chosen direction here, or open Chapter 2 from Home. Your earlier work counts.',view),None
 
 
 def view(s):

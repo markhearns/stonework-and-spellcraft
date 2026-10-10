@@ -64,7 +64,7 @@ const context = vm.createContext({
  await value('readState().then(s=>{state=s;render();})');assert.equal(value('JSON.stringify(state.relationships.bonds["mira|tamsin"])'),bond);
  assert.match(element('#app').innerHTML,/What shaped these relationships/);
  await click({relationshipAction:'share-relationship',relationshipScene:'invitation:mira',relationshipChoice:'ask'});
- assert.match(element('#app').innerHTML,/That is what I need you to understand/);
+ assert.match(element('#app').innerHTML,/Where would you look for either/);
  assert.equal(value('state.relationships.memories["invitation:mira"].choice'),'ask');
  await click({socialOpen:'personal:mira:0'});html=element('#app').innerHTML;
  assert.match(html,/The correction in red/);assert.match(html,/Ask what bothered her/);

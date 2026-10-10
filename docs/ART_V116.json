@@ -1,0 +1,770 @@
+{
+  "version": "0.116",
+  "mode": "built-in image_gen",
+  "note": "New Koharu character created without any Maren image reference, then revised to loose dark chestnut hair and dark fox fur. Koharu, Tamsin, Fenna and all three generic ancestry portraits have only top-of-head animal ears. Koharu, Tamsin, Fenna and Zahra display portraits use high-quality WebP (quality 92, method 6) at their original dimensions; bathing alpha is preserved exactly. Full-resolution masters and original lossless exports are retained in source archives. Other newly generated display assets remain lossless WebP. Ogrekin ancestry artwork is the unchanged former Oni painting under its new ID.",
+  "assets": [
+    {
+      "id": "portraits-koharu",
+      "path": "static/assets/portraits/koharu.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 198736,
+      "sha256": "26c7780da953db2adc0197183da243013661eb900bcb4d6e22e1f52990d7e844",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-koharu",
+      "path": "static/assets/portraits/overview/koharu.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 349628,
+      "sha256": "06495a8182f11cf5fa3f8c705aeb8313cdbfa91a826d864f884a479afd9fb510",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-koharu-outfit-2",
+      "path": "static/assets/portraits/koharu-outfit-2.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 221980,
+      "sha256": "e4565748bdfa30b6b8a002d0e72ec86abacef1662afecbf4fbc8252390680145",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-koharu-outfit-2",
+      "path": "static/assets/portraits/overview/koharu-outfit-2.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 407640,
+      "sha256": "12d6953ca1e4245c63fad2bae62423621180a3e3127b0dc8bb558e0fbe8ed3ae",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-koharu-outfit-3",
+      "path": "static/assets/portraits/koharu-outfit-3.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 209716,
+      "sha256": "141d45e63b02b7068b0caf6e2fcd83c42cb1ef355c272104266327990f5ba3ef",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-koharu-outfit-3",
+      "path": "static/assets/portraits/overview/koharu-outfit-3.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 390928,
+      "sha256": "b7f6057dd427edaafed69f84adba8f2c3bc3807040ced24813cf11d4a0f2daf8",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-bathing-koharu",
+      "path": "static/assets/portraits/bathing/koharu.webp",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha": true,
+      "bytes": 146516,
+      "sha256": "176e27b7467120681ea9a0990cdb1a16596c2d2f5ba2eeefb839a78ca09dc295",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": true
+      }
+    },
+    {
+      "id": "portraits-tamsin",
+      "path": "static/assets/portraits/tamsin.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 260432,
+      "sha256": "ce2f1b1b8d0c1e1268e09d477da35b3a6aaf62129ba8f9d426b300682d832b5f",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-tamsin",
+      "path": "static/assets/portraits/overview/tamsin.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 460070,
+      "sha256": "42f4c36d8ae26283d11fd1e54dd166c3e739ee352b086ce710f1d08de5c288b9",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-tamsin-outfit-2",
+      "path": "static/assets/portraits/tamsin-outfit-2.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 251614,
+      "sha256": "b6034e35df9eaf08558e9582997f00a4ea907a38260b80782c6a9acdb002b912",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-tamsin-outfit-2",
+      "path": "static/assets/portraits/overview/tamsin-outfit-2.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 428122,
+      "sha256": "436e73fd81a415667d43ad01a617836b68d25ca315f85e4ec7ab2a07fc2d9cf5",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-tamsin-outfit-3",
+      "path": "static/assets/portraits/tamsin-outfit-3.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 240822,
+      "sha256": "d2be150ca9b4e7759847c7d314c210eacc36930868087bf81ec3eecd2f7e62ad",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-tamsin-outfit-3",
+      "path": "static/assets/portraits/overview/tamsin-outfit-3.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 402854,
+      "sha256": "daf8ebe5eb8813c0ed2841e19ac134ff82c0bdff79daa09021f319d9d8d4a646",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-bathing-tamsin",
+      "path": "static/assets/portraits/bathing/tamsin.webp",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha": true,
+      "bytes": 163784,
+      "sha256": "ce2e06c8e0f83aa4378b872f08855d7db0f11ef44aa5d37118cdf81c85cd1b85",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": true
+      }
+    },
+    {
+      "id": "portraits-fenna",
+      "path": "static/assets/portraits/fenna.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 270096,
+      "sha256": "0274201c93a65f000e969a9846cca756ac14282262cd339a3be76b6e457148e2",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-fenna",
+      "path": "static/assets/portraits/overview/fenna.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 480312,
+      "sha256": "b4754fb5b39aca411670f37168ecf2a9892a21c2d66e4cf6ffa02b1a982b3a0c",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-fenna-outfit-2",
+      "path": "static/assets/portraits/fenna-outfit-2.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 265218,
+      "sha256": "b24353ced33db54123c19b4133a2d812cddfcbe6529a49b4854cd54ab5705041",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-fenna-outfit-2",
+      "path": "static/assets/portraits/overview/fenna-outfit-2.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 455276,
+      "sha256": "499f5fd28b4bbe54af552126e8d372eeebe2ec976cb50cefbd530a24d468357c",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-fenna-outfit-3",
+      "path": "static/assets/portraits/fenna-outfit-3.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 266116,
+      "sha256": "e9c746e5524dd29c3a18f88564d44d568bac7d0835fb4df903c0e979e4e66d4e",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-fenna-outfit-3",
+      "path": "static/assets/portraits/overview/fenna-outfit-3.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 468088,
+      "sha256": "947a04fb3e6b8782bf674cc091b54dee2d9cb406dd1dd2caf36a60a4e403b24f",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-bathing-fenna",
+      "path": "static/assets/portraits/bathing/fenna.webp",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha": true,
+      "bytes": 173370,
+      "sha256": "de7176cdb101dac0fbbd84bce44ab95aeeeb3162909070568e50573fb93129b1",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": true
+      }
+    },
+    {
+      "id": "bestiary-ancestries-kitsune",
+      "path": "static/assets/bestiary/ancestries/kitsune.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 628076,
+      "sha256": "0bddd4e18b18c6618e85f661800643b962dd54d8999523e821a65dee0df95117"
+    },
+    {
+      "id": "bestiary-ancestries-kitsune-thumb",
+      "path": "static/assets/bestiary/ancestries/kitsune-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 43866,
+      "sha256": "d986be363fb8fa0c6380461fd5e3213e3ef7b6d2764969a4408b2f033e44e3ef"
+    },
+    {
+      "id": "bestiary-ancestries-wolfkin",
+      "path": "static/assets/bestiary/ancestries/wolfkin.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 614396,
+      "sha256": "0dd995f97a3cacf9bfa0447e475314747e0e08bd892a18fe5d83692d47976873"
+    },
+    {
+      "id": "bestiary-ancestries-wolfkin-thumb",
+      "path": "static/assets/bestiary/ancestries/wolfkin-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 43578,
+      "sha256": "dd5cba0842c6eb5feeee54a5509b2c403a545ec57b35dbc51c16d17b5188c368"
+    },
+    {
+      "id": "bestiary-ancestries-catfolk",
+      "path": "static/assets/bestiary/ancestries/catfolk.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 571090,
+      "sha256": "3c09da103ad2cd8d82cc6ee81fd457148712a29305c3550197fc70cab4804c08"
+    },
+    {
+      "id": "bestiary-ancestries-catfolk-thumb",
+      "path": "static/assets/bestiary/ancestries/catfolk-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 41262,
+      "sha256": "9aa34193e4077f5f2149fe002c9e22e686cf34d8ebd47b6d8c566657bbb49803"
+    },
+    {
+      "id": "ancestry-ogrekin",
+      "path": "static/assets/bestiary/ancestries/ogrekin.webp",
+      "size": [
+        640,
+        640
+      ],
+      "alpha": false,
+      "bytes": 650724,
+      "sha256": "ab4638368876d1f70753110cad2770486a412f986c9c6121786acde5a7786156"
+    },
+    {
+      "id": "ancestry-ogrekin-thumb",
+      "path": "static/assets/bestiary/ancestries/ogrekin-thumb.webp",
+      "size": [
+        160,
+        160
+      ],
+      "alpha": false,
+      "bytes": 41546,
+      "sha256": "de3587a13d1850cb9e67ffcb5e6d6bfba3cdce60ed65f8a5696fed3f5ff26f33"
+    },
+    {
+      "id": "portraits-bathing-zahra",
+      "path": "static/assets/portraits/bathing/zahra.webp",
+      "size": [
+        768,
+        1152
+      ],
+      "alpha": true,
+      "bytes": 152026,
+      "sha256": "c414bf45570b26e9d9379fad1682269a19788ab4d7d703595d0da601dd1a1408",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": true
+      }
+    },
+    {
+      "id": "portraits-overview-zahra-outfit-2",
+      "path": "static/assets/portraits/overview/zahra-outfit-2.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 687584,
+      "sha256": "5e587fd02e7d4d922a91f2800aa0cb54906d6faf5102137176459bf922e91a2e",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-zahra-outfit-3",
+      "path": "static/assets/portraits/overview/zahra-outfit-3.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 534226,
+      "sha256": "d8066a9607224b84f00f056696127991c49c25f6f9346277166a8f879dfeb0ae",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-overview-zahra",
+      "path": "static/assets/portraits/overview/zahra.webp",
+      "size": [
+        960,
+        1440
+      ],
+      "alpha": false,
+      "bytes": 606738,
+      "sha256": "7a0d9e45404d73bee4f22188ebbdd631ec81a848ea85d3796c1ce291a2c27b4c",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-zahra-outfit-2",
+      "path": "static/assets/portraits/zahra-outfit-2.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 339154,
+      "sha256": "ec74ed557032dd58eb32cfd8863868fb93f5aac520470dd17def6b85208e966d",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-zahra-outfit-3",
+      "path": "static/assets/portraits/zahra-outfit-3.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 293566,
+      "sha256": "82b723f52c1771ab238b59edb36fa14fecb78115f641a0a50ceba256c7ecdc24",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    },
+    {
+      "id": "portraits-zahra",
+      "path": "static/assets/portraits/zahra.webp",
+      "size": [
+        640,
+        960
+      ],
+      "alpha": false,
+      "bytes": 315704,
+      "sha256": "275e7c4f454c114fad780b87400a8a83584581117f55f8a2197480cdfe759e55",
+      "encoding": {
+        "format": "WebP",
+        "quality": 92,
+        "method": 6,
+        "lossless": false,
+        "alphaLossless": false
+      }
+    }
+  ],
+  "removed": [
+    "static/assets/portraits/maren-outfit-2.webp",
+    "static/assets/portraits/maren.webp",
+    "static/assets/portraits/maren-outfit-3.webp",
+    "static/assets/portraits/bathing/maren.webp",
+    "static/assets/portraits/overview/maren-outfit-2.webp",
+    "static/assets/portraits/overview/maren.webp",
+    "static/assets/portraits/overview/maren-outfit-3.webp",
+    "static/assets/bestiary/ancestries/oni.webp",
+    "static/assets/bestiary/ancestries/oni-thumb.webp"
+  ],
+  "masters": [
+    {
+      "name": "koharu.png",
+      "source": "exec-69cd9697-5e52-4bc3-adfd-cfe1a7512b64.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "369bb13213fb341cf25c7864c99eb6ec4ae7ea45d26f5a950f9ab370a61513df"
+    },
+    {
+      "name": "koharu-outfit-2.png",
+      "source": "exec-414ccb74-fb95-4a71-ae60-221ded649620.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "d9d18e103da97b61a2ca7ee44826128a198f094832caf68de06efe477498415e"
+    },
+    {
+      "name": "koharu-outfit-3.png",
+      "source": "exec-8b236c1c-e1bb-445f-b750-d97cc16c5f77.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "53751c746b75313e01a1b31460ec972b9f3bea101afbf633956c924d554f5dea"
+    },
+    {
+      "name": "bathing-koharu.png",
+      "source": "exec-394e66a9-2719-43d1-a17b-71e8b1d16ea8.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "90ca6d812bd2d828d5c0e34283c81983f534313bf23b287cc5d67996712269ac"
+    },
+    {
+      "name": "tamsin.png",
+      "source": "exec-a9dac46a-32e4-4718-9e31-e2d135960a6c.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "42bf02a3de9cb68de88894cd99dad8278d310880a22a28ddd1f617231afec18c"
+    },
+    {
+      "name": "tamsin-outfit-2.png",
+      "source": "exec-2642b75e-9f2f-4035-a5dd-26800c1ca18b.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "a37f6ad68c98dc1c31556b6487e5987113b813e9a54ea8c3b19ce0084c700174"
+    },
+    {
+      "name": "tamsin-outfit-3.png",
+      "source": "exec-46c0e411-33b1-406e-afd0-56bf77563a3f.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "b995b4b4cd8c8e1591de56a97b118a321ae8689b29cdd75527c81486c41a70ee"
+    },
+    {
+      "name": "bathing-tamsin.png",
+      "source": "exec-92c8298d-ab0f-4d3a-9125-599c95b27ee7.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "d42facc595781d5b531cc9b336644cddf6b64952412dbbb5cbc1b99a0e3fd200"
+    },
+    {
+      "name": "fenna.png",
+      "source": "exec-16f4b60e-a405-41eb-8ebd-61be7d87d8d6.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "da4f9547e4610273a69a057137383b4f5239846024e3a5acc90f5d04bb61f041"
+    },
+    {
+      "name": "fenna-outfit-2.png",
+      "source": "exec-e710e7a7-fa92-4ebb-a438-b708b5c90a82.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "6306325901750e89c93d422867ca1314f45cd077efb12aea101a64ac9d7fd5bb"
+    },
+    {
+      "name": "fenna-outfit-3.png",
+      "source": "exec-94af5554-bf45-4cef-85a6-29f5446eba3c.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "cd5ce54dcd99b7b2072c91d363f0b00b88c20780588a38fbc38477686ec5b30f"
+    },
+    {
+      "name": "bathing-fenna.png",
+      "source": "exec-aa4e40bb-0d7c-40bd-890a-1739de15aad7.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "sha256": "f067709c7591a26eaf6c2a39bda2a7baf6b7435107830000ec3744dfba7530ed"
+    },
+    {
+      "name": "ancestry-kitsune.png",
+      "source": "exec-d39b44f4-141a-452e-a579-4de1b8066b67.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "0a692fc6a1e4af386fd0e69aa428b7813893f2edf494b54005c2a8437cd07bef"
+    },
+    {
+      "name": "ancestry-wolfkin.png",
+      "source": "exec-86089cf8-b0ea-440d-ac38-d024f0a5a80c.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "7e350006446edfd4313e06b65b7adacc6782cd49101882eb8e38db609400ec34"
+    },
+    {
+      "name": "ancestry-catfolk.png",
+      "source": "exec-6016ec54-5982-40a9-8497-1b799e1252ac.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "sha256": "93a079040d03c9cf11bc79437c03475bada668e091d434c81213d0345f9a6709"
+    }
+  ],
+  "prompts": {
+    "koharu": "Use case: precise-object-edit. The attached image is the edit target, an adult fantasy character game portrait. Correct only the impossible duplicate ear anatomy. Completely ERASE the flesh-colored human ear on the SIDE of the head beside the cheek, including its lobe, rim, inner ear, and any earring. On BOTH sides of her face, replace the entire human-ear area with a thick continuous curtain of dark chestnut loose hair, extending from the temple down past the jaw. Hair must visibly lie IN FRONT of the former human-ear location; no skin-colored protrusion may peek through. She has exactly TWO ears total: the existing fox ears on TOP of her head. Preserve these top ears. Keep the original face identity and expression, hair color and overall length, body, hands, clothing, pose, props, tail, background, framing, engraved linework and colors unchanged. Do not expose any side ear. No text. This is a tiny localized anatomy correction, not a redesign.",
+    "koharu-outfit-2": "Use case: precise-object-edit. Input image is the EDIT TARGET. Adult fantasy game portrait. Correct the duplicate ear anatomy: DELETE the flesh-colored HUMAN EAR on the side of the head beside the cheek, including rim, inner ear, and lobe. Cover its ENTIRE former area with an opaque thick layer of long loose dark chestnut hair hanging forward from temple to below jaw. Both sides of the head must have only continuous hair beside cheeks; NO human or elf ear, skin protrusion, ear lobe, or earring peeking through. Exactly TWO ears TOTAL, the existing fox ears on TOP of her head. Also change her copper hair to very dark chestnut brown, fully loose and down past shoulders, no bun or ponytail. Change fox ears and tail to matching very dark brown with cream inner fur and cream tail tip. Preserve face identity, expression, body, clothing, pose, hands, props, tail shape, background, frame and original engraved illustration style. Keep all non-ear details unchanged except specified darker fur and loose hair. No added text.",
+    "koharu-outfit-3": "Edit the attached adult fantasy portrait. Change the hairstyle around BOTH cheeks: bring TWO WIDE THICK SOLID LOCKS of very dark chestnut brown loose waves FORWARD, lying ON TOP OF the outer cheeks from outer eyebrow down to below the jaw. Each side lock must be broad, opaque, continuous HAIR with no gap, especially the side facing the viewer. Cover a strip of the outer cheek as well as the ENTIRE SIDE OF HEAD. Do not tuck hair back. Her only ears are the two existing fox ears atop her head. Completely remove the human side ears, their lobes, skin-colored curves and earrings. There must be no exposed human ear fragment among the hair. This is the essential correction. Also make ALL hair long, loose and down past shoulders, not tied up; change copper-red to very dark chestnut brown, and change fox ears and tail to matching dark brown with cream inner fur and tail tip. Preserve her facial identity, expression, eyes, adult figure, pose, outfit, hands, tail shape, background and setting, engraved hatching illustration style and composition. Keep all other details unchanged.  No text.",
+    "bathing-koharu": "Edit the attached adult fantasy portrait. Change the hairstyle around BOTH cheeks: bring TWO WIDE THICK SOLID LOCKS of very dark chestnut brown loose waves FORWARD, lying ON TOP OF the outer cheeks from outer eyebrow down to below the jaw. Each side lock must be broad, opaque, continuous HAIR with no gap, especially the side facing the viewer. Cover a strip of the outer cheek as well as the ENTIRE SIDE OF HEAD. Do not tuck hair back. Her only ears are the two existing fox ears atop her head. Completely remove the human side ears, their lobes, skin-colored curves and earrings. There must be no exposed human ear fragment among the hair. This is the essential correction. Also make ALL hair long, loose and down past shoulders, not tied up; change copper-red to very dark chestnut brown, and change fox ears and tail to matching dark brown with cream inner fur and tail tip. Preserve her facial identity, expression, eyes, adult figure, pose, outfit, hands, tail shape, TRUE TRANSPARENT RGBA background, no scenery, engraved hatching illustration style and composition. Keep all other details unchanged. Retain the same opaque swimsuit coverage and full figure cutout; transparent pixels surrounding entire figure. No text.",
+    "tamsin": "Image 1 is the EDIT TARGET: preserve this exact adult character portrait. Image 2 is STYLE REFERENCE ONLY, the game's ancestry illustration with rough etched linework. Make a microscopic correction on image 1: the small flesh-coloured HUMAN EAR on the image-right side of the head, approximately x=478\u2013506, y=132\u2013181 in the 960x1440 image, must be replaced with a few matching short messy auburn curls with the same silhouette and length. Fully replace that ear, including lobe and curved skin rim. Keep the existing two animal ears on TOP. No other ears. Keep the hair's ORIGINAL overall volume, texture and silhouette; do not add a mane, broad locks, glamour waves or a new hairstyle. Keep the original face, eyes, nose, mouth, expression, facial proportions and freckles exactly. Preserve the original rough engraved hatching, muted colours and paper texture; no airbrushing or beautification. Keep the entire body, clothing, hands, tail, pose and background unchanged. Do not redraw or redesign the character. Only retouch the tiny side-ear patch with the adjacent existing hair. Preserve full portrait composition, no crop, no text.",
+    "tamsin-outfit-2": "Image 1 is the edit target: an ADULT game character portrait. Image 2 is style reference ONLY: the existing rough engraved ancestry illustration. Retouch only the tiny flesh-coloured human ear on the IMAGE-RIGHT side of the head, next to the cheek. Completely replace its rim, lobe and inner skin shape with adjacent short messy auburn curls; no visible side ear fragment remains. Retain exactly the two existing animal ears on TOP of the head. Keep the ORIGINAL HAIR VOLUME and silhouette, length, texture, rough small strands and flyaways; no large glamour curls, mane, new hairstyle or extra hair volume. Preserve the face EXACTLY: same eyes, nose, mouth, smile, freckles, proportions and head angle. Keep the original adult body, pose, hands, outfit and tail unchanged. Preserve dense scratchy etched crosshatching, muted gouache colours, textured paper and handmade irregularity; no smooth shading, polished beauty portrait, airbrush, anime or exaggerated facial features. Preserve the whole original background and full-body portrait composition. Do not restyle or redesign anything beyond the little ear patch. No text.",
+    "tamsin-outfit-3": "Image 1 is the edit target: an ADULT game character portrait. Image 2 is style reference ONLY: the existing rough engraved ancestry illustration. Retouch only the tiny flesh-coloured human ear on the IMAGE-RIGHT side of the head, next to the cheek. Completely replace its rim, lobe and inner skin shape with adjacent short messy auburn curls; no visible side ear fragment remains. Retain exactly the two existing animal ears on TOP of the head. Keep the ORIGINAL HAIR VOLUME and silhouette, length, texture, rough small strands and flyaways; no large glamour curls, mane, new hairstyle or extra hair volume. Preserve the face EXACTLY: same eyes, nose, mouth, smile, freckles, proportions and head angle. Keep the original adult body, pose, hands, outfit and tail unchanged. Preserve dense scratchy etched crosshatching, muted gouache colours, textured paper and handmade irregularity; no smooth shading, polished beauty portrait, airbrush, anime or exaggerated facial features. Preserve the whole original background and full-body portrait composition. Do not restyle or redesign anything beyond the little ear patch. No text.",
+    "bathing-tamsin": "Image 1 is the edit target: an ADULT game character portrait. Image 2 is style reference ONLY: the existing rough engraved ancestry illustration. Retouch only the tiny flesh-coloured human ear on the IMAGE-RIGHT side of the head, next to the cheek. Completely replace its rim, lobe and inner skin shape with adjacent short messy auburn curls; no visible side ear fragment remains. Retain exactly the two existing animal ears on TOP of the head. Keep the ORIGINAL HAIR VOLUME and silhouette, length, texture, rough small strands and flyaways; no large glamour curls, mane, new hairstyle or extra hair volume. Preserve the face EXACTLY: same eyes, nose, mouth, smile, freckles, proportions and head angle. Keep the original adult body, pose, hands, outfit and tail unchanged. Preserve dense scratchy etched crosshatching, muted gouache colours, textured paper and handmade irregularity; no smooth shading, polished beauty portrait, airbrush, anime or exaggerated facial features. Keep the true transparent RGBA background, no backdrop or halo, same opaque swimsuit and complete figure with bare feet. Do not restyle or redesign anything beyond the little ear patch. No text.",
+    "fenna": "Image 1 is the EDIT TARGET: preserve this exact adult character portrait. Image 2 is STYLE REFERENCE ONLY, the game's ancestry illustration with rough etched linework. Make a microscopic correction on image 1: the small flesh-coloured HUMAN EAR on the image-right side of the head, approximately x=477\u2013504, y=117\u2013170 in the 960x1440 image, must be replaced with a few matching silver-grey tousled strands, irregular narrow wisps, no polished curls. Fully replace that ear, including lobe and curved skin rim. Keep the existing two animal ears on TOP. No other ears. Keep the hair's ORIGINAL overall volume, texture and silhouette; do not add a mane, broad locks, glamour waves or a new hairstyle. Keep the original face, eyes, nose, mouth, expression, facial proportions and freckles exactly. Preserve the original rough engraved hatching, muted colours and paper texture; no airbrushing or beautification. Keep the entire body, clothing, hands, tail, pose and background unchanged. Do not redraw or redesign the character. Only retouch the tiny side-ear patch with the adjacent existing hair. Preserve full portrait composition, no crop, no text.",
+    "fenna-outfit-2": "Image 1 is the edit target: an ADULT game character portrait. Image 2 is style reference ONLY: the existing rough engraved ancestry illustration. Retouch only the tiny flesh-coloured human ear on the IMAGE-RIGHT side of the head, next to the cheek. Completely replace its rim, lobe and inner skin shape with adjacent silver-grey tousled wisps; no visible side ear fragment remains. Retain exactly the two existing animal ears on TOP of the head. Keep the ORIGINAL HAIR VOLUME and silhouette, length, texture, rough small strands and flyaways; no large glamour curls, mane, new hairstyle or extra hair volume. Preserve the face EXACTLY: same eyes, nose, mouth, smile, freckles, proportions and head angle. Keep the original adult body, pose, hands, outfit and tail unchanged. Preserve dense scratchy etched crosshatching, muted gouache colours, textured paper and handmade irregularity; no smooth shading, polished beauty portrait, airbrush, anime or exaggerated facial features. Preserve the whole original background and full-body portrait composition. Do not restyle or redesign anything beyond the little ear patch. No text.",
+    "fenna-outfit-3": "Image 1 is the edit target: an ADULT game character portrait. Image 2 is style reference ONLY: the existing rough engraved ancestry illustration. Retouch only the tiny flesh-coloured human ear on the IMAGE-RIGHT side of the head, next to the cheek. Completely replace its rim, lobe and inner skin shape with adjacent silver-grey tousled wisps; no visible side ear fragment remains. Retain exactly the two existing animal ears on TOP of the head. Keep the ORIGINAL HAIR VOLUME and silhouette, length, texture, rough small strands and flyaways; no large glamour curls, mane, new hairstyle or extra hair volume. Preserve the face EXACTLY: same eyes, nose, mouth, smile, freckles, proportions and head angle. Keep the original adult body, pose, hands, outfit and tail unchanged. Preserve dense scratchy etched crosshatching, muted gouache colours, textured paper and handmade irregularity; no smooth shading, polished beauty portrait, airbrush, anime or exaggerated facial features. Preserve the whole original background and full-body portrait composition. Do not restyle or redesign anything beyond the little ear patch. No text.",
+    "bathing-fenna": "Image 1 is the edit target: an ADULT game character portrait. Image 2 is style reference ONLY: the existing rough engraved ancestry illustration. Retouch only the tiny flesh-coloured human ear on the IMAGE-RIGHT side of the head, next to the cheek. Completely replace its rim, lobe and inner skin shape with adjacent silver-grey tousled wisps; no visible side ear fragment remains. Retain exactly the two existing animal ears on TOP of the head. Keep the ORIGINAL HAIR VOLUME and silhouette, length, texture, rough small strands and flyaways; no large glamour curls, mane, new hairstyle or extra hair volume. Preserve the face EXACTLY: same eyes, nose, mouth, smile, freckles, proportions and head angle. Keep the original adult body, pose, hands, outfit and tail unchanged. Preserve dense scratchy etched crosshatching, muted gouache colours, textured paper and handmade irregularity; no smooth shading, polished beauty portrait, airbrush, anime or exaggerated facial features. Keep the true transparent RGBA background, no backdrop or halo, same opaque swimsuit and complete figure with bare feet. Do not restyle or redesign anything beyond the little ear patch. No text.",
+    "ancestry-kitsune": "Retouch this exact adult fantasy ancestry illustration. Only remove any tiny skin-coloured human side ear beside either cheek, measured on the 640x640 source. Paint over the COMPLETE ear area, including lobe and rim, using a few matching the adjacent dark loose strands with pale streaks. Keep exactly two existing animal ears atop the head and NO human ears. Keep the original hair silhouette, original face and facial proportions, expression, body, clothing, pose, tail, surroundings and square framing unchanged. Preserve the image's dense rough etched hatching, tiny handmade ink marks, matte earthy gouache and muted palette. No glossy smoothing, anime, beauty retouching, bigger hair or glamorous styling. Do not redesign or re-render the illustration. This is a tiny local anatomy correction. No text.",
+    "ancestry-wolfkin": "Retouch this exact adult fantasy ancestry illustration. Only remove the small exposed skin-coloured ear on image-left beside the temple, around x311,y80, measured on the 640x640 source. Paint over the COMPLETE ear area, including lobe and rim, using a few matching chestnut wisps, keeping the same long braid. Keep exactly two existing animal ears atop the head and NO human ears. Keep the original hair silhouette, original face and facial proportions, expression, body, clothing, pose, tail, surroundings and square framing unchanged. Preserve the image's dense rough etched hatching, tiny handmade ink marks, matte earthy gouache and muted palette. No glossy smoothing, anime, beauty retouching, bigger hair or glamorous styling. Do not redesign or re-render the illustration. This is a tiny local anatomy correction. No text.",
+    "ancestry-catfolk": "Edit the attached adult fantasy portrait. Change the hairstyle around BOTH cheeks: bring TWO WIDE THICK SOLID LOCKS of short dark curls FORWARD, lying ON TOP OF the outer cheeks from outer eyebrow down to below the jaw. Each side lock must be broad, opaque, continuous HAIR with no gap, especially the side facing the viewer. Cover a strip of the outer cheek as well as the ENTIRE SIDE OF HEAD. Do not tuck hair back. Her only ears are the two existing cat ears atop her head. Completely remove the human side ears, their lobes, skin-colored curves and earrings. There must be no exposed human ear fragment among the hair. This is the essential correction.  Preserve her facial identity, expression, eyes, adult figure, pose, outfit, hands, tail shape, background and setting, engraved hatching illustration style and composition. Keep all other details unchanged.  No text."
+  },
+  "initialKoharuGenerationPrompts": {
+    "default": "Use case: stylized-concept. Asset type: full-body default portrait for a fantasy household RPG. Create a completely new fictional character from scratch, no reference images. Koharu is a clearly adult 23-year-old kitsune woman, 158 cm tall, slight slender build with adult proportions and narrow shoulders, delicate oval face, warm light-olive skin, hazel-green eyes, shoulder-length copper-red hair gathered loosely at the nape with wispy sides. Two red fox ears with dark tips and ONE full red fox tail with cream tip. Human face and smooth human skin. Her expression is alert, amused and candid. A stage-prop restorer and maker of small mechanisms. Clothing: fitted deep-teal wrap blouse with a flattering opaque open neckline, sleeves rolled at elbows, cinnamon-brown short divided work skirt, soft dark leggings, practical lace-up ankle boots, a small worn tool belt, tiny carved wooden bird held lightly in one hand. Full figure including ears, tail and both boots, safe margins, naturally standing at eye level. Background: modest castle workshop with workbench, wooden theatre puppet and a hinged painted scenery panel; no other people. Antique engraving-inspired fantasy illustration, intricate etched linework and fine hatching, worn handmade ink and muted gouache colour, midnight navy shadows, muted violet, teal and dull brass; dim but legible and welcoming. Believable anatomy. No text, border, watermark, glowing magic spectacle, glossy CGI or photographic rendering. Portrait aspect ratio 2:3.",
+    "outfit2": "Use case: stylized-concept. Create a new alternate outfit portrait of Koharu using ONLY the attached newly created kitsune portrait as identity reference. Preserve this clearly ADULT 23-year-old kitsune's delicate face, hazel-green eyes, warm light-olive skin, copper-red hair, red fox ears with dark tips, ONE full cream-tipped red fox tail, slight slender adult build and narrow shoulders. Entirely new illustration and pose: seated sideways on a plain wooden bench in a modest castle common room, looking up with an amused friendly smile, reading a small illustrated theatre programme. Outfit: opaque soft teal sleeveless scoop-neck top, plum calf-length wrap skirt and flat sandals. Ears, tail and both feet within frame with margins, eye-level natural perspective. Antique engraving-inspired ink and muted gouache fantasy illustration, intricate etched linework, fine hatching and worn material texture, midnight navy shadows, muted teal and plum with sparse dull brass. Dim but clearly readable. No text, borders, logos, other people, bovine features, horns, bulky muscular frame, glossy CGI or photographic rendering. Portrait 2:3.",
+    "outfit3": "Use case: stylized-concept. New third wardrobe game portrait of the clearly ADULT 23-year-old kitsune Koharu. Use ONLY the provided newly created kitsune portrait as identity reference, never any other former character. Preserve delicate oval adult face, hazel-green eyes, warm light-olive skin, copper-red loosely gathered hair, red fox ears with dark tips, ONE red fox tail with cream tip, slight slender mature build, narrow shoulders. Full figure in a NEW natural standing pose beside a modest castle window at evening, confident softly teasing smile, one hand lightly resting on a plain chair. Outfit: opaque deep-teal halter crop top with a low but covered neckline, cinnamon-coloured short wrap skirt with a long drape down one side, bare midriff and bare legs, flat simple sandals. Tasteful adult fantasy fashion, no sexual action, no intimate anatomy visible, no transparent fabric, no closeups. Head, ears, tail and both feet inside frame with safe margins, eye-level perspective. Intricate antique etched engraving and muted gouache wash, fine hatching, handmade worn texture; midnight navy, muted teal, copper and sparse dull gold. Background humble timber and stone with a small unlit puppet theatre. No text, border, watermark, other people, horns, bovine features, muscle bulk, glossy CGI. Portrait 2:3.",
+    "bathing": "Use case: stylized-concept. Asset type: transparent full-figure bathing wardrobe cutout for a fantasy game. Create a new illustration of the clearly ADULT 23-year-old kitsune woman Koharu. Use ONLY the newly created attached kitsune portrait to maintain her identity. Same delicate adult face, hazel-green eyes, warm light-olive skin, copper-red hair loosely gathered up, red fox ears with dark tips, ONE full red fox tail with cream tip. Slight slender adult proportions and narrow shoulders. Natural relaxed upright standing pose, pleasant amused smile, arms relaxed at sides, full head and ears and both bare feet inside frame with generous margins. Conventional opaque teal two-piece swimsuit: halter swim top and standard bikini briefs, full intimate coverage. Small plain gold fastening, no transparent fabric, no nudity, no sexual action, no body-part focus. TRUE transparent RGBA background, no scenery, no bathtub, no text or frame. Antique engraving-inspired illustration, detailed etched hatching and muted teal and copper gouache colour, handmade surface texture, coherent with reference; do not copy reference background or props. No horns, bovine features, muscular build, glossy CGI or photorealism. Portrait 2:3."
+  }
+}

@@ -72,55 +72,55 @@ class ResidentFutureTests(unittest.TestCase):
                 self.advance(d['phases']);self.assertTrue(specialties.active(self.s,who))
                 self.reject('hq-job',jobId='specialty-'+who)
     def test_specialist_absence_pauses_build_and_cancel_refunds(self):
-        self.member('maren');self.room('workshop');self.first_scene('maren');self.s['sharedFunds']=100
-        self.act('hq-job',jobId='specialty-maren');self.advance()
-        self.s['residency']['maren']['residencyStatus']='away';self.s['additionalResidents']['maren']['status']='away'
+        self.member('koharu');self.room('workshop');self.first_scene('koharu');self.s['sharedFunds']=100
+        self.act('hq-job',jobId='specialty-koharu');self.advance()
+        self.s['residency']['koharu']['residencyStatus']='away';self.s['additionalResidents']['koharu']['status']='away'
         self.advance();self.assertEqual(self.s['headquarters']['project']['done'],1)
         self.reject('hq-resume')
         self.act('hq-cancel');self.assertEqual(self.s['sharedFunds'],100)
     def test_scene_choice_changes_followup_and_grants_no_resources_or_time(self):
-        self.member('maren');self.room('workshop')
-        before=deepcopy(self.s);self.act('choose-living-scene',sceneId='maren:0',choice='quiet')
+        self.member('koharu');self.room('workshop')
+        before=deepcopy(self.s);self.act('choose-living-scene',sceneId='koharu:0',choice='quiet')
         for field in ('dayNumber','currentDayPhase','sharedFunds','materialInventory','characterDevelopment','founderAssignment'):self.assertEqual(before[field],self.s[field])
-        self.reject('choose-living-scene',sceneId='maren:0',choice='visible')
-        self.reject('choose-living-scene',sceneId='maren:1',choice='method')
+        self.reject('choose-living-scene',sceneId='koharu:0',choice='visible')
+        self.reject('choose-living-scene',sceneId='koharu:1',choice='method')
         self.s['researchStatus']='complete';g.learn_for_character(self.s,'founder','steady-hearth-wards');self.s['sharedFunds']=50
         self.act('focus-research',researchId='archive-foundations',leaderId='founder')
-        self.act('assign-character',characterId='maren',assignment='archive');self.advance()
-        row=next(r for r in life.rows(self.s) if r['id']=='maren:1')
+        self.act('assign-character',characterId='koharu',assignment='archive');self.advance()
+        row=next(r for r in life.rows(self.s) if r['id']=='koharu:1')
         self.assertTrue(row['available']);self.assertIn('felt right in the hand',row['opening'])
-        self.act('choose-living-scene',sceneId='maren:1',choice='method')
+        self.act('choose-living-scene',sceneId='koharu:1',choice='method')
         self.assertEqual(self.s,json.loads(json.dumps(self.s)))
     def test_merely_assigned_resident_does_not_count_as_shared_contributor(self):
-        self.member('maren');self.s['researchStatus']='complete';g.learn_for_character(self.s,'founder','steady-hearth-wards')
+        self.member('koharu');self.s['researchStatus']='complete';g.learn_for_character(self.s,'founder','steady-hearth-wards')
         self.act('focus-research',researchId='archive-foundations',leaderId='founder');self.s['researchProjects']['archive-foundations']['completedWorkPhases']=2
-        self.act('assign-character',characterId='maren',assignment='archive');self.advance()
-        self.assertFalse(self.s['livingStories']['sharedWork'].get('maren'))
+        self.act('assign-character',characterId='koharu',assignment='archive');self.advance()
+        self.assertFalse(self.s['livingStories']['sharedWork'].get('koharu'))
     def test_review_can_be_cancelled_after_resident_leaves(self):
-        self.member('maren');self.first_scene('maren')
-        for who in ('founder','maren'):g.learn_for_character(self.s,who,'steady-hearth-wards')
-        self.act('start-shared-review',characterId='maren')
-        self.s['residency']['maren']['residencyStatus']='remote';self.s['additionalResidents']['maren']['status']='away'
+        self.member('koharu');self.first_scene('koharu')
+        for who in ('founder','koharu'):g.learn_for_character(self.s,who,'steady-hearth-wards')
+        self.act('start-shared-review',characterId='koharu')
+        self.s['residency']['koharu']['residencyStatus']='remote';self.s['additionalResidents']['koharu']['status']='away'
         self.advance();self.assertIsNotNone(self.s['livingStories']['review'])
         self.act('cancel-shared-review');self.assertIsNone(self.s['livingStories']['review']);self.assertEqual(self.s['founderAssignment'],'rest')
 
     def test_shared_review_opens_followup_without_new_research_or_double_work(self):
-        self.member('maren');self.first_scene('maren')
-        self.reject('start-shared-review',characterId='maren')
-        for who in ('founder','maren'):g.learn_for_character(self.s,who,'steady-hearth-wards')
+        self.member('koharu');self.first_scene('koharu')
+        self.reject('start-shared-review',characterId='koharu')
+        for who in ('founder','koharu'):g.learn_for_character(self.s,who,'steady-hearth-wards')
         self.act('assign-founder',assignment='commissions');money=self.s['sharedFunds']
-        self.act('start-shared-review',characterId='maren')
+        self.act('start-shared-review',characterId='koharu')
         self.advance();self.assertEqual(self.s['sharedFunds'],money)
         self.assertEqual(self.s['founderAssignment'],'commissions')
-        self.assertTrue(next(r for r in life.rows(self.s) if r['id']=='maren:1')['available'])
+        self.assertTrue(next(r for r in life.rows(self.s) if r['id']=='koharu:1')['available'])
         self.advance();self.assertEqual(self.s['sharedFunds'],money+g.copying_income(self.s))
-        self.reject('start-shared-review',characterId='maren')
+        self.reject('start-shared-review',characterId='koharu')
 
     def test_routines_use_ready_rooms_and_assignments_take_priority(self):
-        self.member('brakka');self.s['currentDayPhase']='afternoon';self.s['dayNumber']=1
-        self.assertEqual(room_life.location(self.s,'brakka'),'common-room')
-        self.room('pool');self.assertEqual(room_life.location(self.s,'brakka'),'pool')
-        self.s['additionalResidents']['brakka']['assignment']='archive';self.assertEqual(room_life.location(self.s,'brakka'),'library')
+        self.member('zahra');self.s['currentDayPhase']='afternoon';self.s['dayNumber']=1
+        self.assertEqual(room_life.location(self.s,'zahra'),'common-room')
+        self.room('pool');self.assertEqual(room_life.location(self.s,'zahra'),'pool')
+        self.s['additionalResidents']['zahra']['assignment']='archive';self.assertEqual(room_life.location(self.s,'zahra'),'library')
         before=deepcopy(self.s);g.public_state(self.s);self.assertEqual(before,self.s)
     def test_specialist_benefits_are_exact_and_persist_after_departure(self):
         income=g.copying_income(self.s);research=g.work_contribution(self.s,'founder','archive-focus');craft=g.work_contribution(self.s,'founder','careful-assembly');slots=g.spell_preparation_capacity(self.s)
@@ -185,11 +185,11 @@ class ResidentFutureTests(unittest.TestCase):
             upgraded=GameStore(directory).read();self.assertEqual(upgraded['schemaVersion'],66)
             self.assertEqual(upgraded['people']['tamsin']['ancestryLabel'],'Catfolk')
             for key in ('assetOverrides','assetHistory','additionalResidents','sharedFunds','materialInventory'):self.assertEqual(upgraded[key],old[key])
-            self.assertTrue(Path(directory,'campaign-before-schema-41-to-66.sqlite3').exists())
+            self.assertTrue(Path(directory,f"campaign-before-schema-41-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             self.assertEqual(upgraded,g.migrate_state(deepcopy(upgraded)))
 
     def test_requested_roster_has_unique_names_and_exact_room_associations(self):
-        expected={'rhess':'watchtower','velis':'supply-office','sabine':'dungeons','maren':'workshop','brakka':'smithy','fenna':'common-room','iona':'command-room','kaede':'training-yard','tamsin':'kitchen','elowen':'infirmary','nyssara':'enchanting-room','neris':'hot-spring','aurelia':'guard-barracks','sylva':'conservatory'}
+        expected={'rhess':'watchtower','velis':'supply-office','sabine':'dungeons','koharu':'workshop','zahra':'smithy','fenna':'common-room','iona':'command-room','kaede':'training-yard','tamsin':'kitchen','elowen':'infirmary','nyssara':'enchanting-room','neris':'hot-spring','aurelia':'guard-barracks','sylva':'conservatory'}
         self.assertEqual({who:d['room'] for who,d in specialties.SPECIALTIES.items()},expected)
         self.assertEqual({who:life.CHAINS[who]['roomId'] for who in expected},expected)
         import containment
@@ -212,7 +212,7 @@ class ResidentFutureTests(unittest.TestCase):
     def test_forge_speed_is_visible_and_only_changes_new_jobs(self):
         self.room('smithy');self.s['sharedFunds']=100
         self.act('hq-job',jobId='metalware');self.assertEqual(self.s['headquarters']['project']['phases'],2)
-        self.s['headquarters']['stock']['specialty:brakka']=1
+        self.s['headquarters']['stock']['specialty:zahra']=1
         self.assertEqual(h.view(self.s)['jobs']['metalware']['phases'],1)
         self.advance();self.assertIsNotNone(self.s['headquarters']['project'])
         self.advance();self.assertEqual(self.s['headquarters']['stock']['metalware'],1)
@@ -239,7 +239,7 @@ class ResidentFutureTests(unittest.TestCase):
         self.act('assign-founder',assignment='rest');self.assertEqual(g.garden_harvest(self.s)['amount'],2)
     def test_previous_paid_specialties_preserve_bonuses_and_accepted_art(self):
         self.s['schemaVersion']=42;self.s['headquarters'].pop('legacySpecialties')
-        self.s['headquarters']['stock'].update({'specialty:brakka':1,'specialty:tamsin':1,'specialty:kaede':1})
+        self.s['headquarters']['stock'].update({'specialty:zahra':1,'specialty:tamsin':1,'specialty:kaede':1})
         self.s['assetOverrides']['neris']='/api/assets/accepted-neris.png'
         research=g.work_contribution(self.s,'founder','archive-focus')
         g.migrate_state(self.s)

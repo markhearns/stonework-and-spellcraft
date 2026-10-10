@@ -19,6 +19,12 @@ SAMPLES = {
  'restless-sentry': ('watch-iron','Old watch iron',['rare-guard'],32,'Salvage abandoned watch fittings after securing the old post.'),
  'wolf': ('wolf-underfur','Shed wolf underfur',['rare-care'],24,'Collect shed underfur caught on the cleared track’s thorn bushes.'),
  'griffin': ('griffin-feather','Shed griffin feather',['rare-flow'],40,'Collect fallen flight feathers from the now-accessible ridge path.'),
+ 'flint-beak-cockatrice': ('flint-beak-splinter','Flint-beak splinter',['rare-force'],36,'Gather loose splinters from the stones used to hone its beak.'),
+ 'barrow-badger': ('burrow-down','Burrow down',['rare-care'],30,'Collect loose insulating down from an abandoned bedding hollow.'),
+ 'rimewing-bat': ('rime-membrane','Shed rime membrane',['rare-flow'],34,'Gather naturally shed wing membrane caught on an empty roost ledge.'),
+ 'siltback-tortoise': ('silt-scute','Shed silt scute',['rare-guard'],34,'Recover intact scutes shed beside the tortoise’s resting bank.'),
+ 'brass-wing-scarab': ('scarab-gear','Discarded scarab gear',['rare-focus'],38,'Salvage a discarded precision gear from the workshop sorting pile.'),
+ 'gloam-jelly': ('gloam-gel','Gloam gel',['rare-binding'],34,'Bottle detached gel beads from the cleared sluice channel.'),
 }
 BRIEFS = {
  'briarback-boar': ('Clear the cart track','Reedbank carriers','A boar has overturned two handcarts on the woodland track. Clear the route so carriers can collect the stranded loads.','clearance','woods',18),
@@ -35,7 +41,19 @@ BRIEFS = {
  'restless-sentry': ('End the abandoned watch','Roadside refuge','An animated sentry has been challenging travellers at an abandoned watch post. Resolve its old duty and make the route safe.','clearance','ruins',22),
  'wolf': ('Move wolves off the supply track','Reedbank carriers','Hungry wolves are guarding a torn food sack beside the track. Secure the path so the carriers can remove the spilled food.','clearance','road',16),
  'griffin': ('Collect feathers for binding trials','Hillfold alchemists','The alchemists need a fallen griffin feather for an advanced spell-conducting binding. Secure access to the ridge path beneath the nest and recover a shed feather.','sample','border',28),
+ 'flint-beak-cockatrice': ('Clear the ridge survey path','Hillfold surveyors','A cockatrice is defending a dust hollow beside the survey markers. Clear a safe route so the surveyors can inspect the ridge without approaching its hollow.','clearance','border',24),
+ 'barrow-badger': ('Collect down for a recovery charm','Brook apothecary','An advanced recovery charm needs fine insulating burrow down. Secure the old bank and collect a clean sample from an abandoned bedding hollow.','sample','woods',20),
+ 'rimewing-bat': ('Supply a cold-channel membrane','Hillfold alchemists','A controlled-cooling enchantment needs a flexible membrane that retains cold. Reach an empty ledge beneath the colony and recover a naturally shed sample.','sample','ruins',24),
+ 'siltback-tortoise': ('Reopen the mill bank','Reedbank carriers','A large tortoise has blocked the narrow bank used to reach the mill. Mark a safe detour or clear the crossing so grain carriers can pass.','clearance','wetland',24),
+ 'brass-wing-scarab': ('Recover a ward-calibration gear','Hillfold conservators','A clockwork scarab guards a sorting pile in the ruined workshop. The conservators need a discarded gear for a precision ward instrument.','sample','ruins',26),
+ 'gloam-jelly': ('Clear the refuge sluice','Roadside refuge','A gloam jelly is clinging to the sluice steps and preventing routine maintenance. Secure the channel so the refuge can restore its water supply.','clearance','wetland',22),
 }
+# New creature records keep their sample and client brief beside their encounter.
+for _cid, _creature in bestiary.CREATURES.items():
+    if 'sample' in _creature:
+        _sample = _creature['sample']; _brief = _creature['bounty']
+        SAMPLES[_cid] = tuple(_sample[k] for k in ('id','name','properties','price','collection'))
+        BRIEFS[_cid] = tuple(_brief[k] for k in ('name','client','reason','kind','route','crowns'))
 CONTRACTS = {cid:dict(id=cid,creatureId=cid,enemyId=bestiary.CREATURES[cid]['enemyId'],name=row[0],client=row[1],reason=row[2],kind=row[3],route=row[4],crowns=row[5],materialId=SAMPLES[cid][0],collect=2,deliver=1 if row[3]=='sample' else 0) for cid,row in BRIEFS.items()}
 
 
@@ -45,7 +63,7 @@ def install(g):
     headquarters.ROOMS['library']['views'].append('bestiary')
     headquarters.ROOMS['watchtower']['views'].extend(['bounties','bestiary'])
     for cid,(key,name,properties,price,collection) in SAMPLES.items():
-        g['MATERIALS'][key]={'name':name,'properties':properties[:],'price':price,'creatureId':cid,'collection':collection,'rare':True,'icon':bestiary.CREATURES[cid]['thumbnail']}
+        g['MATERIALS'][key]={'name':name,'properties':properties[:],'price':price,'creatureId':cid,'collection':collection,'rare':True,'icon':'/assets/materials/'+key+'.webp'}
 
 
 def initialize(s):
@@ -64,6 +82,8 @@ def blockers(s, key):
         return ['Choose a posted creature bounty.']
     reasons=[]
     if not field_patrols.unlocked(s):reasons.append('Conclude Chapter 7 to unlock field bounties.')
+    import creature_challenges
+    reasons += creature_challenges.route_blockers(s, CONTRACTS[key]['route'])
     if not g.character_at_castle(s,'founder'):reasons.append('Return home before dispatching a bounty party.')
     if field_patrols.saved(s)['active']:reasons.append('Bring the active field party home first.')
     if saved(s)['completed'].get(key)==s['dayNumber']:reasons.append('This client’s request is complete today. Another request is available tomorrow.')
@@ -103,6 +123,7 @@ ENCHANT_PROPERTIES = {'sure-footing':'rare-flow','clear-measure':'rare-focus','m
 SIGNATURE_PROPERTIES = {'edge':'rare-force','guard':'rare-guard','care':'rare-care','personal':'rare-flow'}
 PROPERTY_NAMES = {'rare-flow':'Advanced movement and channel control','rare-focus':'Advanced precision enchantments','rare-force':'Advanced force enchantments','rare-binding':'Advanced inscription binding','rare-guard':'Advanced protective enchantments','rare-heat':'Advanced heat enchantments','rare-care':'Advanced healing equipment'}
 IMPROVEMENTS = {
+ 'field-remedy-cabinet': dict(name='Stock an advanced field-remedy cabinet',room='infirmary',cost=80,phases=4,output='field-remedy-cabinet',once=True,needs=['enchanting-room'],principles=['gentle-preservation'],materials={'hydra-resin':2,'wyvern-venom-crystal':1,'owlbear-down':2},benefit='First aid during difficult creature encounters restores 3 vitality instead of 2, still clears venom and stone stiffness, and still costs 1 unreserved silver ivy.'),
  'warded-watch-network': dict(name='Build a warded watch network',room='watchtower',cost=60,phases=4,output='warded-watch-network',once=True,needs=['guard-barracks','enchanting-room'],principles=['field-calibration'],materials={'ward-stone-chip':2,'watch-iron':2,'slate-scale':1},benefit='Adds 1 party cover on field patrols and bounties. Total party cover remains capped at 3.'),
  'deep-heat-bench': dict(name='Build a controlled-heat enchanting bench',room='enchanting-room',cost=70,phases=4,output='deep-heat-bench',once=True,needs=['vault'],principles=['field-calibration'],materials={'kiln-cinder':2,'storm-antler':2,'lantern-dust':1},benefit='Strengthening enchantments, adding quiet mode and upgrading signature equipment to rank 2 each gain 1 extra work per assigned phase.'),
  'recovery-ward': dict(name='Build a permanent infirmary recovery ward',room='infirmary',cost=60,phases=4,output='recovery-ward',once=True,needs=['enchanting-room','vault'],principles=['water-guidance','field-calibration'],materials={'bridge-moss':2,'grave-silk':2,'wolf-underfur':1},benefit='Resting at the castle restores 1 extra vitality per phase, up to the normal maximum of 6. Food shortages still cap recovery at 1.'),
@@ -126,9 +147,12 @@ def uses(material_id):
         if prop in props:rows.append(dict(id=key,name='Upgrade signature equipment to rank 2: '+{'edge':'Precision','guard':'Shelter','care':'Care','personal':'personal refinement'}[key],view='armoury',quantity=1))
     for key,d in IMPROVEMENTS.items():
         if material_id in d['materials']:rows.append(dict(id=key,name=d['name'],view='hqRoom',roomId=d['room'],quantity=d['materials'][material_id]))
+    import rare_accessories
+    for key,d in rare_accessories.RECIPES.items():
+        if material_id==d['drop']:rows.append(dict(id=key,name='Craft rare '+d['name'],view='armoury',quantity=2))
     return rows
 
 
 def view(s):
     import game as g
-    return {'offers':[{**deepcopy(d),'creatureName':bestiary.CREATURES[cid]['name'],'art':bestiary.CREATURES[cid]['thumbnail'],'materialName':g.MATERIALS[d['materialId']]['name'],'keep':d['collect']-d['deliver'],'ordinaryMaterials':deepcopy(bestiary.ENCOUNTERS[d['enemyId']]['materials']),'blockers':blockers(s,cid)} for cid,d in CONTRACTS.items()], 'receipts':deepcopy(saved(s)['receipts'])}
+    return {'offers':[{**deepcopy(d),'challengeTier':bestiary.CREATURES[cid].get('challengeTier','Standard'),'preparation':bestiary.CREATURES[cid].get('preparation',''),'creatureName':bestiary.CREATURES[cid]['name'],'art':bestiary.CREATURES[cid]['thumbnail'],'materialName':g.MATERIALS[d['materialId']]['name'],'keep':d['collect']-d['deliver'],'ordinaryMaterials':deepcopy(bestiary.ENCOUNTERS[d['enemyId']]['materials']),'blockers':blockers(s,cid)} for cid,d in CONTRACTS.items()], 'receipts':deepcopy(saved(s)['receipts'])}

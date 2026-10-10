@@ -12,9 +12,9 @@ import re
 import zipfile
 
 REGISTRY = dict(zip(
-    'human high-elf dark-elf drow catfolk bovinefolk orc wolfkin demon seraph elemental vampire fae djinn dragonkin spirit dryad nymph kitsune oni golem'.split(),
-    ['Human','High elf','Dark elf','Drow','Catfolk','Bovinefolk','Orc','Wolfkin','Demon','Seraph','Elemental','Vampire','Fae','Djinn','Dragonkin','Spirit','Dryad','Nymph','Kitsune','Oni','Golem']))
-RESERVED=set('eris selene mira tamsin iona aurelia neris sabine maren brakka fenna kaede'.split())
+    'human high-elf dark-elf drow catfolk bovinefolk orc wolfkin demon seraph elemental vampire fae djinn dragonkin spirit dryad nymph kitsune ogrekin golem'.split(),
+    ['Human','High elf','Dark elf','Drow','Catfolk','Bovinefolk','Orc','Wolfkin','Demon','Seraph','Elemental','Vampire','Fae','Djinn','Dragonkin','Spirit','Dryad','Nymph','Kitsune','Ogrekin','Golem']))
+RESERVED=set('eris selene mira tamsin iona aurelia neris sabine koharu zahra fenna kaede'.split())
 PACKAGES={'archive-reader','light-maker','water-worker','unmapped'}
 SLOTS='top bottom dress outer-layer footwear accessory'.split()
 # Compact schema: string lengths or (minimum, maximum) array lengths.
@@ -45,7 +45,8 @@ def fail(message):
 
 
 def route(key):
-    return 'construction' if key=='golem' else 'recruitment' if key in list(REGISTRY)[:8] else 'summoning'
+    from character_pool import arrival_method
+    return arrival_method(REGISTRY.get(key,key))
 
 
 def decode_archive(encoded):

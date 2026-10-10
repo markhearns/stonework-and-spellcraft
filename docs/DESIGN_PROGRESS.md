@@ -1,3 +1,5 @@
+> Current direction, v0.116: solo play uses authored and scripted narrative; an LLM gamemaster is optional. See [SCRIPTED_SOLO_V116.md](SCRIPTED_SOLO_V116.md) and the v0.116 release notes. The dated implementation records below are historical. Eris/Selene co-op remains deferred.
+
 ## v0.80 — Opening campaign review
 
 Connected Chapters 1–4 reviewed; preservation-study guidance repaired, Chapter 3 disabled reasons restored, and completed chapter summaries compacted. See `docs/RELEASE_V080.md` and `docs/CAMPAIGN_REVIEW_V080.md`. Preserve the complete existing `data/` directory. Rendered browser review remains unresolved.

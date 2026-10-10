@@ -11,13 +11,23 @@ class EightChapterFlowTests(seven.SevenChapterFlowTests):
  def play_seven(self,company):
   super().play_seven(company)
   start={'day':self.s['dayNumber'],'phase':self.s['currentDayPhase'],'funds':self.s['sharedFunds']};count=0
-  self.act('trial-start');party=['founder','rhess'];plan='scout' if company=='solo' else 'negotiate'
+  if getattr(self,'lean',False) and company=='solo':
+   import armoury
+   self.money(12);self.act('gear-start-job',operation='craft',definitionId='steel-helmet');self.advance(2)
+   helmet=next(i['id'] for i in armoury.state(self.s)['items'].values() if i['definitionId']=='steel-helmet' and i['ownerId']=='household')
+   self.act('gear-allocate',itemId=helmet,recipientId='founder',agreed=True);self.act('gear-equip',itemId=helmet,mode='expedition',replaceConfirmed=True)
+  self.act('trial-start');party=(['founder'] if getattr(self,'lean',False) and company=='solo' else ['founder','rhess']);plan='scout' if company=='solo' else 'negotiate'
   for mission in p.MISSIONS:
    if mission!='scout':
     for _ in range(6):
      if not p.night_blockers(self.s):break
      self.advance();count+=1
     if mission=='escort':self.act('trial-plan',choice=plan)
+   import field_magic
+   for w in party:self.act('assign-character',characterId=w,assignment='rest')
+   for _ in range(6):
+    if all(field_magic.vitality(self.s,w)==6 for w in party):break
+    self.advance()
    self.act('watch-depart',participants=party,missionId=mission)
    for _ in range(90):
     r=p.saved(self.s)['active']

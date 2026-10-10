@@ -32,15 +32,15 @@ class CheatToolsTests(unittest.TestCase):
   self.assertGreaterEqual(self.s['provisions']['stock'],7*provisions.need(self.s))
   self.assertTrue(all(r['availableBeds']>=0 for r in g.housing_summary(self.s)['rooms'].values()))
   for _ in range(4):self.act('advance')
-  self.assertEqual(len(g.household_members(self.s)),16)
-  self.assertEqual(len(g.public_state(self.s)['characterCatalog']),16)
+  self.assertEqual(len(g.household_members(self.s)),17)
+  self.assertEqual(len(g.public_state(self.s)['characterCatalog']),17)
  def test_demo_does_not_duplicate_mira(self):
   self.s=g.new_campaign();self.act('cheat-toggle',enabled=True);before=deepcopy(self.s['characterDevelopment']['mira'])
   self.recruit('all');self.assertEqual(g.household_members(self.s).count('mira'),1);self.assertEqual(before,self.s['characterDevelopment']['mira'])
  def test_pending_local_visit_is_cleared(self):
-  self.act('start-local-visit',encounterId='maren');self.recruit('maren')
+  self.act('start-local-visit',encounterId='koharu');self.recruit('koharu')
   self.assertIsNone(self.s['localVisit']);self.assertEqual(self.s['founderAssignment'],'rest')
-  self.act('advance');self.assertEqual(len([r for r in self.s['summoningContacts'].values() if r['personId']=='maren']),1)
+  self.act('advance');self.assertEqual(len([r for r in self.s['summoningContacts'].values() if r['personId']=='koharu']),1)
  def test_paid_summoning_is_refunded_once_and_contact_is_usable(self):
   self.s['founderKnownPrinciples'].append('courteous-passage');self.s['materialInventory']['porous-clay']=2
   funds=self.s['sharedFunds'];thread=self.s['materialInventory']['binding-thread']
@@ -50,9 +50,9 @@ class CheatToolsTests(unittest.TestCase):
   self.act('summoning-talk',contactId=contact,topic='intentions');g.public_state(self.s)
   self.reject('summoning-cancel',contactId=contact)
  def test_pending_arrival_released_and_not_repeated(self):
-  self.recruit('maren');self.s['additionalResidents']['maren']['status']='visiting';self.s['residency']['maren']['residencyStatus']='arrival-agreed'
-  room=self.s['bedroomAssignments'].pop('maren');self.s['arrivalReservations']['test']={'personId':'maren','roomId':room,'sourceType':'summoning','sourceId':next(iter(self.s['summoningContacts'])),'reservedBeds':1}
-  self.recruit('maren');self.assertNotIn('test',self.s['arrivalReservations']);self.act('advance');self.assertEqual(g.household_members(self.s).count('maren'),1)
+  self.recruit('koharu');self.s['additionalResidents']['koharu']['status']='visiting';self.s['residency']['koharu']['residencyStatus']='arrival-agreed'
+  room=self.s['bedroomAssignments'].pop('koharu');self.s['arrivalReservations']['test']={'personId':'koharu','roomId':room,'sourceType':'summoning','sourceId':next(iter(self.s['summoningContacts'])),'reservedBeds':1}
+  self.recruit('koharu');self.assertNotIn('test',self.s['arrivalReservations']);self.act('advance');self.assertEqual(g.household_members(self.s).count('koharu'),1)
  def test_pending_tamsin_arrival_is_removed(self):
   self.s['pendingResidentArrival']={'characterId':'tamsin','roomId':'west-chamber'}
   self.s['arrivalReservations']['arrival:tamsin']={'personId':'tamsin','roomId':'west-chamber','sourceType':'recruitment','sourceId':'tamsin','reservedBeds':1}
@@ -83,6 +83,23 @@ class CheatToolsTests(unittest.TestCase):
    self.act('cheat-build',buildingId=k)
   self.assertEqual(self.s['headquarters']['rooms']['watchtower'],'complete')
   self.assertEqual(self.s['housingRooms']['annex-suite-5']['status'],'complete');g.public_state(self.s)
+  self.assertTrue(all(r['status']=='ready' for r in self.s['containment']['chambers'].values()))
+ def test_foundation_restoration_keeps_discovery_tests_and_ritual_requirements(self):
+  import foundation_chamber as f
+  from test_foundation_chamber import FoundationChamberTests
+  t=FoundationChamberTests();t.setUp();self.s=t.s;self.act('cheat-toggle',enabled=True)
+  self.assertNotIn(f.ROOM,c.view(self.s)['rooms']);self.reject('cheat-build',buildingId=f.ROOM)
+  t.act('foundation-start');t.step('connections');t.step('instructions')
+  self.assertIn(f.ROOM,c.view(self.s)['rooms'])
+  t.act('foundation-task',stepId='restoration',methodId='careful')
+  paid=(self.s['sharedFunds'],deepcopy(self.s['materialInventory']),self.s['dayNumber'],self.s['currentDayPhase'])
+  self.act('cheat-build',buildingId=f.ROOM)
+  self.assertEqual(paid,(self.s['sharedFunds'],self.s['materialInventory'],self.s['dayNumber'],self.s['currentDayPhase']))
+  self.assertIn('restoration',f.saved(self.s)['completed']);self.assertTrue(h.ready(self.s,f.ROOM))
+  self.assertIsNone(f.saved(self.s)['job']);self.assertEqual(self.s['founderAssignment'],'rest')
+  self.assertFalse(f.ready(self.s));self.assertIsNone(f.saved(self.s)['blessing'])
+  self.reject('cheat-build',buildingId=f.ROOM)
+  g.public_state(self.s)
  def test_funded_hq_room_finished_without_repeated_work(self):
   self.s['sharedFunds']=100;self.act('hq-build',roomId='entry-hall')
   funds=self.s['sharedFunds'];self.act('cheat-build',buildingId='entry-hall');self.assertIsNone(h.project_for(self.s));self.assertEqual(self.s['sharedFunds'],funds)
@@ -100,7 +117,7 @@ class CheatToolsTests(unittest.TestCase):
    def payload(a):return {'requestId':uuid.uuid4().hex,'expectedRevision':store.read()['revision'],'action':a}
    store.action(payload({'type':'cheat-toggle','enabled':True}));p=payload({'type':'cheat-recruit','characterId':'all'})
    first=store.action(p);self.assertEqual(store.action(p),first);self.assertEqual(GameStore(d).read(),first)
-   self.assertEqual(len(g.household_members(first)),16)
+   self.assertEqual(len(g.household_members(first)),17)
  def test_later_chapter_introductions_keep_cheated_residents(self):
   import test_first_patrol as patrol, test_roads_we_keep as roads
   t=patrol.PatrolTests();t.setUp();g.apply_action(t.s,{'type':'cheat-toggle','enabled':True});g.apply_action(t.s,{'type':'cheat-recruit','characterId':'rhess'})
@@ -112,5 +129,11 @@ class CheatToolsTests(unittest.TestCase):
   self.act('share-personal-chapter',characterId='mira',sceneId='mira:0',choice='gentle')
   self.assertTrue(g.character_at_castle(self.s,'mira'));self.assertEqual(self.s['startType'],'fresh')
  def test_cheat_catalogue_is_pure_and_hidden_until_enabled(self):
-  before=deepcopy(self.s);self.assertEqual(len(c.view(self.s)['companions']),15);self.assertEqual(self.s,before)
+  before=deepcopy(self.s);self.assertEqual(len(c.view(self.s)['companions']),16);self.assertEqual(self.s,before)
   self.act('cheat-toggle',enabled=False);self.assertIsNone(g.public_state(self.s)['cheatsView'])
+ def test_generated_residents_use_the_current_fifty_one_person_limit(self):
+  for key in g.HOUSING_ROOMS:
+   if self.s['housingRooms'][key]['status']!='complete':self.act('cheat-build',buildingId=key)
+  for index in range(50):self.act('cheat-character',ancestry='Human',name='Test Resident '+str(index+1))
+  self.assertEqual(len(g.household_members(self.s)),51)
+  self.reject('cheat-character',ancestry='Human',name='One too many')

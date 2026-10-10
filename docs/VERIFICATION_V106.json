@@ -1,0 +1,106 @@
+{
+  "version": "0.106",
+  "date": "2026-10-08",
+  "saveSchema": 66,
+  "renderedReview": {
+    "build": "0.105",
+    "environment": "User-provided running GitHub Codespace",
+    "campaign": "Browser review \u2014 v0.105",
+    "viewport": {
+      "width": 1363,
+      "height": 936
+    },
+    "scope": "Desktop early-game UI, major hubs, rooms, companions, spells, equipment, stores, journal, bestiary and bounty requirements",
+    "updatedBuildRendered": false,
+    "mobileReviewed": false,
+    "lateGameCombatReviewed": false,
+    "cheatsEnabled": true,
+    "approvalBlock": "Initial rejection resolved by explicit user approval; no bypass or retry occurred before approval.",
+    "campaignChanges": "Created isolated demonstration campaign and received starting equipment via the misleadingly named Review starting equipment button. Other campaigns were not used. After explicit user approval, enabled cheats and revealed the bestiary in the same review campaign.",
+    "bestiaryFollowup": {
+      "completedCreatureDetailsChecked": 14,
+      "ancestryReferencesAvailable": 21,
+      "ancestrySearchAndDrowDetailChecked": true,
+      "reloadPersistence": "14 complete entries retained",
+      "sampleMaterialStock": "Shed storm antler: 0",
+      "unchangedVisibleCampaignFacts": [
+        "Day 1 afternoon",
+        "80 crowns",
+        "2 household members"
+      ],
+      "sampleLinksChecked": [
+        "Storm-antler stag bounty",
+        "Enchanting room",
+        "Shed storm antler stock row"
+      ],
+      "horizontalOverflowInCheckedCreatureDetails": false,
+      "fullSizeArtVisuallyConfirmed": [
+        "Storm-antler stag",
+        "Ridge griffin"
+      ],
+      "allFullSizeArtReaudited": false
+    }
+  },
+  "automatedChecks": {
+    "javascriptSyntax": "passed",
+    "serverPythonSyntax": "passed",
+    "headlessUiSuitesPassed": [
+      "test_ui_unified.cjs",
+      "test_ui_room_navigation.cjs",
+      "test_ui_magic.cjs",
+      "test_ui_armoury.cjs",
+      "test_ui_bestiary_v105.cjs",
+      "test_ui_visual_status_v104.cjs",
+      "test_ui_polish.cjs",
+      "test_ui_social_life.cjs",
+      "test_ui_review_v106.cjs"
+    ],
+    "nature": "Controller/template integration, not rendered layout tests",
+    "gameplaySuiteRerun": false,
+    "followupSuitesRerun": [
+      "test_ui_review_v106.cjs",
+      "test_ui_bestiary_v105.cjs"
+    ]
+  },
+  "baselineComparison": {
+    "archive": "stonework-and-spellcraft-v0.105-recovered.zip",
+    "changedExistingFiles": [
+      {
+        "path": "README.md",
+        "status": "changed"
+      },
+      {
+        "path": "START_HERE.md",
+        "status": "changed"
+      },
+      {
+        "path": "docs/BROWSER_REVIEW_STATUS.md",
+        "status": "changed"
+      },
+      {
+        "path": "server.py",
+        "status": "changed"
+      },
+      {
+        "path": "static/app.js",
+        "status": "changed"
+      },
+      {
+        "path": "static/style.css",
+        "status": "changed"
+      },
+      {
+        "path": "tests/test_ui_bestiary_v105.cjs",
+        "status": "changed"
+      }
+    ],
+    "artworkFilesUnchanged": 360
+  },
+  "newImagesGenerated": false,
+  "remaining": [
+    "Install and render v0.106",
+    "Mobile and touch review",
+    "Broader keyboard/focus and screen-reader review",
+    "Late-game combat and unlocked bounty flows"
+  ]
+}

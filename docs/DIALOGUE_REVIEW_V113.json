@@ -1,0 +1,92 @@
+{
+  "version": "0.113",
+  "companions": [
+    "mira",
+    "tamsin",
+    "iona",
+    "aurelia",
+    "neris",
+    "sabine",
+    "maren",
+    "brakka",
+    "fenna",
+    "kaede",
+    "elowen",
+    "nyssara",
+    "sylva",
+    "velis",
+    "rhess"
+  ],
+  "personal_conversations": 15,
+  "personal_followups": 15,
+  "resident_pairs": {
+    "mira:nyssara": [
+      "mira",
+      "nyssara"
+    ],
+    "tamsin:brakka": [
+      "tamsin",
+      "brakka"
+    ],
+    "iona:rhess": [
+      "iona",
+      "rhess"
+    ],
+    "aurelia:sylva": [
+      "aurelia",
+      "sylva"
+    ],
+    "neris:kaede": [
+      "neris",
+      "kaede"
+    ],
+    "sabine:velis": [
+      "sabine",
+      "velis"
+    ],
+    "maren:elowen": [
+      "maren",
+      "elowen"
+    ],
+    "fenna:rhess": [
+      "fenna",
+      "rhess"
+    ]
+  },
+  "pair_conversations": 8,
+  "pair_followups": 8,
+  "total_conversations": 46,
+  "total_exchanges": 115,
+  "authored_response_choices": 329,
+  "personal_preference_variants_per_followup": 4,
+  "unresolved_personal_disagreement_callbacks": 15,
+  "review_method": "Authored each exchange and reviewed all nodes and responses against WRITING_GUIDE.md, companion_conversations.CHARACTER and conversation_voice. Traced approach, preference, final stance, follow-up and tradition outcomes. Text cadence review, not recorded voice QA.",
+  "review_checks": [
+    "Every response answers the selected question, observation or decision.",
+    "Concrete anecdotes, explanations and jokes are delivered rather than described as having happened.",
+    "Player preferences require an explicit choice, with uncertainty and privacy offered.",
+    "A one-off activity selection does not silently replace a stored preference.",
+    "Each companion keeps her established priorities and at least one competing motive.",
+    "Unresolved disagreement is remembered without forced agreement or a friendship penalty.",
+    "Resident pairs address each other and make decisions without requiring player arbitration.",
+    "Follow-ups include a new result, observation, revision or joke.",
+    "Saved history, current preferences and unchosen authoring remain separate.",
+    "UI names the action, progress, requirements, current effect and saved status."
+  ],
+  "continuity_corrections": [
+    "Removed an unestablished shared-journey memory between Fenna and Rhess. Rhess responds to the story Fenna actually tells in their scene.",
+    "Replaced player choice labels that assumed an earlier objection with direct statements the player can make now.",
+    "Changed yesterday/tomorrow claims tied to a one-phase follow-up into phase-neutral wording.",
+    "Adjusted window and lamp prose so daytime availability does not require visible stars.",
+    "Kept Neris’s new cup design as a drawing, without implying an inventory item was crafted."
+  ],
+  "rules_integration": [
+    "Every turn saved; revision and turn guards reject stale actions.",
+    "Completion rewards only once; privacy and disagreement have the same reward.",
+    "Foundation blessing and resident daily bonding cap remain authoritative.",
+    "Completed conversations count as outfit shared-memory evidence.",
+    "Scoped generated-dialogue context sees reached words and the latest explicit preference.",
+    "Full transcript in profile Talk and journal; preference corrections retain earlier records."
+  ],
+  "unchanged_runtime_art_files": 398
+}

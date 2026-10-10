@@ -27,6 +27,24 @@ def build(s):
             g.character_profile(s,who)['name']+' is currently assigned to '+current+'. Switching preserves other project progress; work happens on Advance.',
             view,{'type':'assign-character','characterId':who,'assignment':assignment},'work',who)
     import field_patrols
+    import resident_friendships
+    friendships=resident_friendships.view(s)
+    if friendships['job']:
+        add('friendship-work',friendships['job']['title'],resident_friendships.forecast(s)[0],'residentFriendships',group='work')
+    elif friendships['readyCount']:
+        add('friendship-invitations','Resident friendship invitations',str(friendships['readyCount'])+' optional invitation(s). Review the activity and its requirements.','residentFriendships')
+    import survey_rooms
+    survey=survey_rooms.saved(s)
+    if survey_rooms.unlocked(s) and not survey['completedOn']:
+        add('survey-rooms','Chapter 9: The Survey Rooms','Trace the survey reference and establish whether any crossing remains open.','surveyRooms',group='work' if survey['job'] else 'opportunity')
+    import foundation_chamber as fc
+    chamber=fc.saved(s)
+    if fc.unlocked(s) and not chamber['concludedOn']:
+        add('foundation-chapter','Castle investigation: Beneath the Hearth','Trace the old ward connections, restore the ritual chamber and test its household effect.','foundationChamber',group='work' if chamber['job'] else 'opportunity')
+    if chamber['job'] and not fc.working(s) and g.character_at_castle(s,'founder'):
+        add('foundation-resume','Resume the foundation investigation','Keep completed work and committed costs.','foundationChamber',{'type':'foundation-resume'},group='work')
+    if chamber['ritual']:
+        add('foundation-ritual','Foundation chamber ritual',fc.forecast(s)[-1],'foundationChamber',group='work')
     patrol=field_patrols.saved(s)['active']
     if patrol:add('field-patrol',patrol['name'],field_patrols.forecast(s)[0],'fieldPatrols',group='choice' if patrol['stage'] in ('decision','site-decision') else 'work')
     e=s['expedition']
@@ -60,6 +78,7 @@ def build(s):
         if s['restorationStatus']=='in-progress':resume('founder','restoration','conservatory restoration','restoration')
         if s['activeHousingRoomId']:resume('founder','housing','guest-room restoration','housing')
         if s['activeFacilityId']:resume('founder','facilities','living-wing work','ledger')
+        if s.get('worldRecruitment',{}).get('report'):add('local-reports','Collect local recruitment reports','One assigned phase; the resulting quest and identity are saved.','candidateReview',{'type':'world-resume'},'work')
         if s['localVisit']:add('resume-local','Resume the local introduction','Use your scholar’s next assigned phase to continue this appointment.','localEncounters',{'type':'resume-local-visit'},'work') if s['founderAssignment']!='local-visit' else None
         for who in g.household_members(s):
             if s['trainingProjects'].get(who):resume(who,'training','personal learning','development')

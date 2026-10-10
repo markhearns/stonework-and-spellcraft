@@ -57,7 +57,7 @@ const context = vm.createContext({
   if(v.stage==='intrusion')await act({type:'hearth-scare',choice:'confront'});
   else if(v.stage==='inspection')await act({type:'hearth-inspect',area:v.inspections.find(x=>!x.complete).id});
   else if(v.stage==='design')await act({type:'hearth-design',choice:'wards'});
-  else if(v.stage==='return'){await act({type:'hearth-return',choice:'capture'});sawCapture=true;assert.equal(value('state.containment.cases.sabine.status'),'arrival-pending');}
+  else if(v.stage==='return'){await act({type:'hearth-return',choice:'capture'});if(v.quietReady){sawCapture=true;assert.equal(value('state.containment.cases.sabine.status'),'arrival-pending');}else{assert.equal(value('state.containment.cases.sabine.status'),'unmet');assert.equal(value('state.keepingHearthView.carePlanned'),true);}}
   else if(v.stage==='tutorial')await act({type:'hearth-lesson',lessonId:v.lessons.find(x=>!x.complete&&x.ready).id});
   else if(v.stage==='closing')await act({type:'hearth-finish'});
   else {

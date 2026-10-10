@@ -1,0 +1,72 @@
+{
+  "version": "0.110",
+  "schema": 69,
+  "python": {
+    "targeted_tests": 72,
+    "foundation_tests_included": 14,
+    "total_unique_tests": 73,
+    "passed": true,
+    "modules": [
+      "test_foundation_chamber",
+      "test_resident_bonds",
+      "test_relationships",
+      "test_social_life",
+      "test_castle_mystery",
+      "test_magic_reference_v108",
+      "test_art_release",
+      "test_nine_chapter_flow"
+    ],
+    "full_flow": {
+      "tests": 1,
+      "earned_routes": 2,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "cheats_used": false,
+      "serialized_reload_after_every_action": true
+    }
+  },
+  "connected_headless_ui": {
+    "passed": true,
+    "suites": [
+      "test_ui_foundation_chamber.cjs",
+      "test_ui_resident_bonds.cjs",
+      "test_ui_relationships.cjs",
+      "test_ui_magic_reference_v108.cjs"
+    ]
+  },
+  "javascript_syntax_passed": true,
+  "browser_layout_verified": false,
+  "full_historical_suite_run": false,
+  "remote_server_deployed": false,
+  "chapter_nine_implemented": true,
+  "ritual_implemented": true,
+  "mechanics": {
+    "positive_relationship_bonus_percent": 20,
+    "duration_elapsed_phases": 9,
+    "ritual_phases": 1,
+    "renewal": "Refreshes nine-phase duration without stacking percentage",
+    "resident_pair_daily_base_limit": 4,
+    "resident_pair_maximum_daily_bonus": 0.8,
+    "player_relationship_ceiling": 12,
+    "resident_bond_ceiling": 100
+  },
+  "artwork": {
+    "new_room_assets": 1,
+    "total_runtime_assets": 398,
+    "encoding": "Lossless WebP",
+    "resized_source_pixel_equality": true,
+    "previous_runtime_assets_preserved": true,
+    "manifest": "ART_V110.json"
+  },
+  "magic_reference_entries": 134
+}
+

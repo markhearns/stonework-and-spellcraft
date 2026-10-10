@@ -197,7 +197,7 @@ class PublicWorkshopTests(unittest.TestCase):
    for key,value in before.items():
     if key not in ('schemaVersion','revision'):self.assertEqual(s[key],value,key)
    self.assertEqual(s['revision'],before['revision']+1)
-   self.assertTrue((Path(d)/'campaign-before-schema-35-to-66.sqlite3').exists())
+   self.assertTrue((Path(d)/f"campaign-before-schema-35-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
  def test_every_earned_method_can_be_acquired_and_prepared_without_free_rank(self):
   for r in w.records('perk-concept').values():
    s=rich();principles,practices=public_progression.prerequisites(r);who='founder'

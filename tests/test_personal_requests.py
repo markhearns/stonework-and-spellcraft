@@ -89,7 +89,7 @@ class PersonalRequestTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             store=GameStore(directory)
             with sqlite3.connect(store.database) as db:db.execute('UPDATE campaign SET state=?',(json.dumps(old),))
-            store=GameStore(directory);self.assertTrue((Path(directory)/'campaign-before-schema-15-to-66.sqlite3').exists())
+            store=GameStore(directory);self.assertTrue((Path(directory)/f"campaign-before-schema-15-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             def payload(kind,**fields):return {'requestId':uuid.uuid4().hex,'expectedRevision':store.read()['revision'],'action':{'type':kind,'requestId':self.key,**fields}}
             store.action(payload('accept-personal-request'));fund=payload('fund-personal-request',fundingSource='shared')
             once=store.action(fund);self.assertEqual(store.action(fund),once)

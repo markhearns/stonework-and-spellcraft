@@ -69,4 +69,4 @@ class PersonalStoryTests(unittest.TestCase):
     def test_migration_preserves_old_save(self):
         s=self.store.read();s.pop('personalStories');s['schemaVersion']=29;before=deepcopy(s);self.seed(s)
         migrated=GameStore(self.temp.name).read();self.assertEqual(migrated['personalStories'],{});self.assertEqual(migrated['sharedFunds'],before['sharedFunds'])
-        self.assertTrue((Path(self.temp.name)/'campaign-before-schema-29-to-66.sqlite3').exists())
+        self.assertTrue((Path(self.temp.name)/f"campaign-before-schema-29-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())

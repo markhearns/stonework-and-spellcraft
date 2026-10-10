@@ -53,7 +53,7 @@ class PersonRegistryTests(unittest.TestCase):
                 db.execute('CREATE TABLE campaign(id INTEGER PRIMARY KEY,state TEXT NOT NULL)')
                 db.execute('INSERT INTO campaign VALUES(1,?)',(json.dumps(old),))
             upgraded=GameStore(directory).read()
-            self.assertTrue((Path(directory)/'campaign-before-schema-19-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-19-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             self.assertEqual(upgraded['people'],GameStore(directory).read()['people'])
             self.assertEqual(upgraded['arrivalReservations']['arrival:tamsin']['reservedBeds'],1)
 

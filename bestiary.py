@@ -15,15 +15,21 @@ ANCESTRY_LABELS = {d['name'].casefold(): key for key, d in ANCESTRIES.items()}
 ANCESTRY_LABELS.update({'angel':'seraph','water elemental':'elemental','fire elemental':'elemental','air elemental':'elemental','earth elemental':'elemental','construct':'golem','catgirl':'catfolk'})
 ROUTES = {
     'road': dict(name='Supply road', art='patrol-road', count=1, description='One encounter along the supply road. Animals and raiders; suitable for a rested solo patrol, with retreat available.', pool=['wolf','thief','bandit','boar','lantern-moth','slatehide-lizard'], weights=[25,30,15,10,10,10], rare=0),
-    'woods': dict(name='Woodland circuit', art='patrol-wilds', count=2, description='Two woodland encounters. Wolves, boars, spiders, moths, root mimics and thieves; 5% rare-creature chance per encounter.', pool=['wolf','boar','thief','grave-silk-spider','lantern-moth','root-mimic','storm-antler-stag','griffin','ember-hound'], weights=[15,20,15,15,15,15,2,2,1], rare=5),
-    'border': dict(name='Boundary ridge', art='patrol-wilds', count=2, description='Two harder encounters at ridge crossings and old boundary posts. A group is recommended; 10% rare-creature chance per encounter.', pool=['bandit','boar','thief','slatehide-lizard','moss-troll','ruin-gargoyle','restless-sentry','griffin','ember-hound','storm-antler-stag'], weights=[20,10,10,10,20,10,10,4,4,2], rare=10),
-    'wetland': dict(name='Marsh crossings', art='old-waterworks', count=2, description='Two encounters along reed beds and shallow crossings. Marsh crabs, reed lurkers and lantern moths.', pool=['giant-marsh-crab','reed-lurker','lantern-moth'], weights=[45,40,15], rare=0),
-    'ruins': dict(name='Abandoned outbuildings', art='hillfold-bindery', count=2, description='Two encounters in abandoned cellars, kilns and watch posts. Spiders, roots, gargoyles and sentries; 5% hearth-ash hound chance per encounter.', pool=['grave-silk-spider','root-mimic','ruin-gargoyle','restless-sentry','ember-hound'], weights=[25,15,25,30,5], rare=5),
+    'woods': dict(name='Woodland circuit', art='patrol-wilds', count=2, description='Two woodland encounters. Wolves, boars, badgers, spiders, moths, root mimics and thieves; 5% rare-creature chance per encounter.', pool=['wolf','boar','thief','grave-silk-spider','lantern-moth','root-mimic','storm-antler-stag','griffin','ember-hound','barrow-badger'], weights=[13,17,13,13,13,13,2,2,1,13], rare=5),
+    'border': dict(name='Boundary ridge', art='patrol-wilds', count=2, description='Two harder encounters at ridge crossings, cockatrice hollows and old boundary posts. A group is recommended; 10% rare-creature chance per encounter.', pool=['bandit','boar','thief','slatehide-lizard','moss-troll','ruin-gargoyle','restless-sentry','griffin','ember-hound','storm-antler-stag','flint-beak-cockatrice'], weights=[17,8,8,8,17,8,8,4,4,2,16], rare=10),
+    'wetland': dict(name='Marsh crossings', art='old-waterworks', count=2, description='Two encounters along reed beds and shallow crossings. Marsh crabs, reed lurkers, lantern moths, siltback tortoises and gloam jellies.', pool=['giant-marsh-crab','reed-lurker','lantern-moth','siltback-tortoise','gloam-jelly'], weights=[25,25,10,20,20], rare=0),
+    'ruins': dict(name='Abandoned outbuildings', art='hillfold-bindery', count=2, description='Two encounters in abandoned cellars, kilns and watch posts. Spiders, roots, gargoyles, sentries, rimewing bats and clockwork scarabs; 5% hearth-ash hound chance per encounter.', pool=['grave-silk-spider','root-mimic','ruin-gargoyle','restless-sentry','ember-hound','rimewing-bat','brass-wing-scarab'], weights=[17,10,17,21,5,15,15], rare=5),
 }
+ROUTES.update({
+    'outer-valley': dict(name='Outer valley circuit', challengeTier='Intermediate', count=2, description='Two intermediate encounters through the valley’s woodland, quarry tracks, cliff crossings and marsh banks. Owlbears, rust beetles, blink lynxes, cliff harpies and wisps. A rested equipped party is recommended.', pool=['owlbear','rust-beetle','blink-lynx','cliff-harpy','will-o-wisp'], weights=[20,20,20,20,20], rare=0, art='patrol-wilds', artPath='/assets/bestiary/creatures/blink-lynx.webp'),
+    'deep-quarry': dict(name='Deep quarry and buried outwork', challengeTier='Difficult', count=1, description='One difficult basilisk or runebound colossus encounter. Bring treatment supplies and protection; study observed creatures before returning. Opens after Chapter 8.', pool=['basilisk','runebound-colossus'], weights=[50,50], rare=0, art='patrol-wilds', artPath='/assets/bestiary/creatures/runebound-colossus.webp'),
+    'high-crags': dict(name='High crags', challengeTier='Difficult', count=1, description='One difficult manticore or wyvern encounter. Prepare cover, venom treatment and a way to exploit landing or recovery openings. Opens after Chapter 8.', pool=['manticore','wyvern'], weights=[50,50], rare=0, art='patrol-wilds', artPath='/assets/bestiary/creatures/wyvern.webp'),
+    'flooded-basin': dict(name='Old flood basin', challengeTier='Difficult', count=1, description='One difficult three-headed hydra encounter. A full rested party, binding thread and heat or ice are recommended. Opens after Chapter 8.', pool=['marsh-hydra'], weights=[100], rare=0, art='old-waterworks', artPath='/assets/bestiary/creatures/marsh-hydra.webp'),
+})
 for route in ROUTES.values():
     folder='locations' if route['art'] in ('old-waterworks','hillfold-bindery') else 'expeditions'
-    route['artPath']='/assets/'+folder+'/'+route['art']+'.webp'
-RAIDER_ANCESTRIES = ('human', 'high-elf', 'dark-elf', 'drow', 'catfolk', 'wolfkin', 'bovinefolk', 'orc')
+    route.setdefault('artPath','/assets/'+folder+'/'+route['art']+'.webp')
+RAIDER_ANCESTRIES = ['human','high-elf','dark-elf','drow','catfolk','wolfkin','orc','ogrekin']
 
 
 def empty():
@@ -90,9 +96,11 @@ def encounter(s, run):
     if d.get('roleId'):
         # Old story and in-flight saves default to the original human opponents.
         ids = run.get('ancestries', [])
-        aid = ids[run['index']] if run['index'] < len(ids) else 'human'
-        a = ANCESTRIES.get(aid, ANCESTRIES['human'])
-        d.update(ancestryId=a['id'], bestiaryId=a['id'], art=a['art'], thumbnail=a['thumbnail'], ancestryName=a['name'])
+        aid = (ids[run['index']] if run['index'] < len(ids) else 'human') or 'human'
+        import encounter_people as ep
+        a = ANCESTRIES.get(ep.ancestry(aid or 'human'), ANCESTRIES['human'])
+        art=ep.art(aid,'capture') or a['art']
+        d.update(ancestryId=a['id'], bestiaryId=a['id'], art=art, thumbnail=art, ancestryName=a['name'], banditArt=a['id'] in ep.SUPPORTED, elementalVariant=aid.removeprefix('elemental-') if aid.startswith('elemental-') else None)
     return d
 
 
@@ -182,14 +190,15 @@ def creature_view(s, cid):
     d = deepcopy(CREATURES[cid])
     level = knowledge(s, cid)
     import bounty_contracts
-    sample=bounty_contracts.SAMPLES[cid];d['sample']={'id':sample[0],'name':sample[1],'properties':sample[2],'collection':sample[4],'uses':bounty_contracts.uses(sample[0]),'held':s['materialInventory'].get(sample[0],0),'ordinaryMaterials':deepcopy(ENCOUNTERS[d['enemyId']]['materials'])}
+    sample=bounty_contracts.SAMPLES[cid];d['sample']={'id':sample[0],'name':sample[1],'icon':'/assets/materials/'+sample[0]+'.webp','properties':sample[2],'collection':sample[4],'uses':bounty_contracts.uses(sample[0]),'held':s['materialInventory'].get(sample[0],0),'ordinaryMaterials':deepcopy(ENCOUNTERS[d['enemyId']]['materials'])}
     d.update(level=level, status=('Not yet observed', 'Observed', 'Entry complete')[min(2,level)], record=deepcopy(saved(s)['entries'].get(cid, {})), studyBlockers=study_blockers(s, cid))
     if level < 1:
         d['signs'] = None
     if level < 2:
-        for k in ('behaviour', 'advice', 'materialsNote'):
+        for k in ('behaviour', 'advice', 'materialsNote', 'preparation'):
             d[k] = None
         d['combat'] = None
+        d['mechanics'] = []
     else:
         e = ENCOUNTERS[d['enemyId']]
         d['combat'] = {'hp': e['hp'], 'attack': e['attack'], 'armour': e.get('armour',0), 'patterns': deepcopy(e['patterns']), 'approach': deepcopy(e['approach']), 'spellDamage': {kind: field_magic.damage(kind,e) for kind in ('water','fire','ice','lightning','radiant')}, 'reward': {'crowns': e['crowns'], 'food': e['food'], 'materials': deepcopy(e['materials'])}}
@@ -198,10 +207,12 @@ def creature_view(s, cid):
 
 def view(s):
     import game as g
-    creatures = [creature_view(s, cid) for cid in CREATURES]
+    creatures = sorted((creature_view(s, cid) for cid in CREATURES),key=lambda d:(('Standard','Intermediate','Difficult').index(d['challengeTier']),d['name'].casefold()))
     people = []
     for aid, data in ANCESTRIES.items():
         row = deepcopy(data)
+        import ancestry_traits
+        row['ancestryTrait']=ancestry_traits.definition(data['name'])
         row['knownPeople'] = [{'id':who,'name':g.character_profile(s,who)['name']} for who in g.household_members(s) if ancestry_id(g.character_profile(s,who).get('ancestryLabel')) == aid]
         row['record'] = deepcopy(saved(s)['entries'].get(aid, {}))
         import character_builds as cb

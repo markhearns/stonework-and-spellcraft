@@ -52,7 +52,7 @@ class HeadquartersTests(unittest.TestCase):
             upgraded=GameStore(directory).read()
             self.assertEqual(upgraded['schemaVersion'],66)
             self.assertEqual(upgraded['assetOverrides'],before['assetOverrides'])
-            self.assertTrue(Path(directory,'campaign-before-schema-39-to-66.sqlite3').exists())
+            self.assertTrue(Path(directory,f"campaign-before-schema-39-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             self.assertEqual(upgraded,GameStore(directory).read())
     def test_workshop_bonus_does_not_gate_old_crafting(self):
         before=g.work_contribution(self.s,'founder','careful-assembly');self.open('workshop')

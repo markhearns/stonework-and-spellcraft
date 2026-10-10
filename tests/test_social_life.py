@@ -28,7 +28,7 @@ class SocialLifeTests(unittest.TestCase):
             for key,d in content.CATALOGUE.items():
                 with self.subTest(choice=choice,key=key):
                     self.s['dayNumber']+=1
-                    protected={k:deepcopy(v) for k,v in self.s.items() if k not in ('socialLife','journal','relationships')}
+                    protected={k:deepcopy(v) for k,v in self.s.items() if k not in ('socialLife','journal','relationships','residentBonds')}
                     self.share(key,choice)
                     self.assertEqual(protected,{k:self.s[k] for k in protected})
                     m=social.saved(self.s)['memories'][key]
@@ -63,7 +63,7 @@ class SocialLifeTests(unittest.TestCase):
         for key in ('reaction:mira','reaction:nyssara','reaction:iona'):
             self.assertTrue(social.row(self.s,key)['available']);self.share(key)
     def test_away_people_and_invalid_payloads_are_atomic(self):
-        for fields in ({'sceneId':[],'choice':'warm'},{'sceneId':'bad','choice':'warm'}, {'sceneId':'personal:mira:0','choice':[]}, {'sceneId':'personal:mira:0','choice':'invented'}, {'sceneId':'personal:brakka:0','choice':'warm'}):
+        for fields in ({'sceneId':[],'choice':'warm'},{'sceneId':'bad','choice':'warm'}, {'sceneId':'personal:mira:0','choice':[]}, {'sceneId':'personal:mira:0','choice':'invented'}, {'sceneId':'personal:zahra:0','choice':'warm'}):
             self.reject('share-social-conversation',**fields)
         with patch('game.character_at_castle',return_value=False):self.reject('share-social-conversation',sceneId='personal:mira:0',choice='curious')
         self.member('tamsin')
@@ -100,7 +100,7 @@ class SocialLifeTests(unittest.TestCase):
         v=social.view(g.new_campaign('fresh'));self.assertEqual(v['scenes'],[]);self.assertEqual(v['invitations'],[]);self.assertEqual(v['bonds'],[])
     def test_old_save_initializes_social_state_without_rewriting_prior_history(self):
         self.s.pop('socialLife');self.s['schemaVersion']=47;before=deepcopy(self.s)
-        g.migrate_state(self.s);self.assertEqual(self.s['schemaVersion'],66)
+        g.migrate_state(self.s);self.assertEqual(self.s['schemaVersion'],g.CURRENT_SCHEMA_VERSION)
         for k in before:
             if k!='schemaVersion':self.assertEqual(before[k],self.s[k])
         self.assertEqual(self.s['socialLife'],{'memories':{},'deferred':[]})

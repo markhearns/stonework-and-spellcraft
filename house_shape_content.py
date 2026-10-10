@@ -2,7 +2,7 @@
 PATHS = {
  'scholarship': {
   'title':'A working archive','room':'library','site':'quarry-shelter','approach':'survey','research':'archive-foundations',
-  'cost':16,'inputs':{'porous-clay':1,'binding-thread':2},'work':6,'advisers':['mira','tamsin','elowen','maren'],
+  'cost':16,'inputs':{'porous-clay':1,'binding-thread':2},'work':6,'advisers':['mira','tamsin','elowen','koharu'],
   'proposal':'The collection is usable, but every question still begins with a search through unrelated papers. A proper working archive could give unfinished questions a place of their own.',
   'voice':'“A library should help you find the next question, not merely protect the last answer. Shall we make this one useful?”',
   'field':'The quarry shelter’s shutter notes offer a way to protect working papers without shutting out the room. Bring the survey home before drawing up the archive fittings.',
@@ -15,7 +15,7 @@ PATHS = {
   'ending':'The archive has acquired a habit: unfinished work now has a place to return to. The old leaf makes that ordinary courtesy feel less accidental.'},
  'cultivation': {
   'title':'A dependable kitchen garden','room':'conservatory','site':'old-waterworks','approach':'survey','research':None,
-  'cost':18,'inputs':{'porous-clay':2,'silver-ivy':2},'work':6,'advisers':['brakka','sylva','neris','maren'],
+  'cost':18,'inputs':{'porous-clay':2,'silver-ivy':2},'work':6,'advisers':['zahra','sylva','neris','koharu'],
   'proposal':'The conservatory can grow things again. A dependable household garden needs another kind of care: channels that can be inspected and a clear decision about what the beds are for.',
   'voice':'“A garden can feed the stores or the household purse. Let us choose what these beds should do before we fill every inch.”',
   'field':'Survey the old waterworks and return with Water guidance. The measured channels will determine how the new growing benches receive water.',
@@ -28,7 +28,7 @@ PATHS = {
   'ending':'The garden has a purpose its keeper can name. The old leaf suggests that making room for people and keeping a productive household were once questions asked together.'},
  'craftsmanship': {
   'title':'A working commission bench','room':'workshop','site':'old-waterworks','approach':'salvage','research':None,
-  'cost':20,'inputs':{'fireglass':1,'binding-thread':2},'work':6,'advisers':['maren','kaede','brakka','tamsin'],
+  'cost':20,'inputs':{'fireglass':1,'binding-thread':2},'work':6,'advisers':['koharu','kaede','zahra','tamsin'],
   'proposal':'A fitted workshop could serve more than urgent repairs. With dependable light and a sensible bench, people could finish useful work here and still keep space for an idea of their own.',
   'voice':'“There is nothing wrong with a productive bench. There is something wrong with having nowhere to put the thing you are making just because you like it.”',
   'field':'Recover loose components from the old waterworks. One of its fireglass lenses can become the bench’s dependable working light; bring the salvage home before committing it.',

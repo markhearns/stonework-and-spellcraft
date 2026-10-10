@@ -14,11 +14,11 @@ def goals(s):
     rows=[{'id':'first-lantern','title':'Make your first lantern','steps':[hearth,lantern]},
           {'id':'conservatory','title':'Restore the conservatory','steps':[garden]},
           {'id':'living-wing','title':'Complete a proper living wing','steps':[step('wing-'+str(i),r['name']+' — '+r['detail'],r['complete'],r['view']) for i,r in enumerate(g.living_wing_requirements(s))]}]
-    for who in ('maren','brakka','fenna'):
+    for who in ('koharu','zahra','fenna'):
         introduced=s['localEncounters'][who]['status']=='introduced'
         resident=who in g.household_members(s)
         steps=[]
-        if who=='brakka':steps.append(garden)
+        if who=='zahra':steps.append(garden)
         if who=='fenna':
             delivered=s['neighbourRequestProgress']['brook-lamps']['status']=='delivered'
             discovered=bool(g.discoveries_for(s,'fern-nursery'))
@@ -62,6 +62,11 @@ def projects(s):
     def add(key,name,who,done,total,view,**target):
         out[key]={'id':key,'name':name,'personId':who,'done':done,'total':total,'target':{'view':view,**target}}
     import bestiary
+    import resident_friendships
+    friendship=resident_friendships.saved(s)['job']
+    if friendship:
+        add('resident-friendship',friendship['title'],friendship['participants'][0],0,1,'residentFriendships')
+        out['resident-friendship']['participants']=list(friendship['participants'])
     study=bestiary.saved(s)['research']
     if study:add('bestiary-study','Bestiary: '+bestiary.CREATURES[study['entryId']]['name'],'founder',study['done'],study['total'],'bestiary',entryId=study['entryId'])
     for who,j in s.get('armoury',{}).get('jobs',{}).items():
@@ -77,6 +82,13 @@ def projects(s):
         project=r['project']
         if project and project['status']!='complete':add('saga:'+key,household_sagas.content.STORIES[key]['projectName'],project['workers'][0],project['done'],2,'householdSagas')
     import lasting_rituals
+    import foundation_chamber
+    foundation=foundation_chamber.saved(s)
+    if foundation['job']:
+        job=foundation['job'];add('foundation-task',foundation_chamber.STEPS[job['stepId']]['name'],'founder',job['done'],job['phases'],'foundationChamber')
+    if foundation['ritual']:
+        add('foundation-ritual','Foundation chamber ritual','founder',0,1,'foundationChamber')
+        out['foundation-ritual']['participants']=['founder',foundation['ritual']['partnerId']]
     ritual=lasting_rituals.state(s)['project']
     if ritual:add('lasting-ritual',lasting_rituals.CATALOGUE[ritual['id']]['name'],ritual['participants'][0],ritual['done'],lasting_rituals.CATALOGUE[ritual['id']]['phases'],'rituals',ritualId=ritual['id'])
     for who,job in s['spellWork'].items():

@@ -7,10 +7,11 @@ import headquarters as h
 import containment as c
 import first_hearth as f
 
-ROOMS=('entry-hall','warehouse','workshop','training-yard','smithy','guard-barracks','underground-quarters','dungeons')
+ROOMS=('entry-hall','warehouse','training-yard')
+CARE_ROOMS=('underground-quarters','dungeons')
 DEFENSES={
  'barriers':{'name':'Shuttered watch post and sound gates','job':'hearth-barriers','text':'Repair the service latch, fit shielded lamps and a watched inner gate. The return encounter stops at a physical barrier.','result':'The new inner gate holds. Shielded light catches the hand at its latch before anyone reaches the stores.'},
- 'wards':{'name':'Warning seals and a signal bell','job':'hearth-warning-seals','text':'Fit threshold seals and a bell circuit keyed to the service entrance. These announce an entry; they do not bind a person.','result':'The threshold seal sounds the watchroom bell. You reach the passage while the intruder is still trying to work out which mark noticed her.'}}
+ 'wards':{'name':'Warning seals and a signal bell','job':'hearth-warning-seals','text':'Fit threshold seals and a bell circuit keyed to the service entrance. These announce an entry; they do not bind a person.','result':'The threshold seal sounds the entry-hall bell. You reach the passage while the intruder is still trying to work out which mark noticed her.'}}
 INSPECTIONS={
  'latch':('The service latch','A scrape along the keeper shows how a narrow tool could lift the worn latch. You mark the fitting for repair.'),
  'light':('The dark turn','The service passage disappears from view around one bend. A shuttered lamp can reveal an arrival without lighting the bedrooms.'),
@@ -38,7 +39,10 @@ def fresh_encounter(s):return saved(s)['mode']=='intrusion' and case(s)['status'
 def defense_ready(s):
     r=saved(s);return bool(r and r['defense'] and s['headquarters']['stock'].get(DEFENSES[r['defense']]['job']))
 def quiet_ready(s):return any(x['status']=='ready' for k,x in s['containment']['chambers'].items() if c.CHAMBERS[k]['ward']=='echo')
-def prepared(s):return all(h.ready(s,k) for k in ROOMS) and 'basic-drill' in s['headquarters']['completedDrills'] and defense_ready(s) and quiet_ready(s)
+def care_planned(s):return saved(s).get('responsePlan') in ('capture','parley')
+def required_rooms(s):return ROOMS+CARE_ROOMS if care_planned(s) else ROOMS
+def prepared(s):return all(h.ready(s,k) for k in required_rooms(s)) and 'basic-drill' in s['headquarters']['completedDrills'] and defense_ready(s) and (not care_planned(s) or quiet_ready(s))
+def required_lessons(s):return list(LESSONS) if saved(s)['returnChoice'] in ('capture','parley') or case(s)['status']!='unmet' else []
 
 def supplies(s,definition,title):
     """Buy one missing component at a time above reserves; normal prices and income."""
@@ -58,6 +62,9 @@ def hq_step(s,kind,key):
     p=h.project_for(s)
     if p:return f.funded(s,'paid-work',p['name'],p['done'],p['phases'],h.working(s),{'type':'hq-resume'},'headquarters')
     d=(h.ROOMS if kind=='hq-build' else h.JOBS)[key]
+    if kind=='hq-build':
+        for dep in d['needs']:
+            if not h.ready(s,dep):return hq_step(s,'hq-build',dep)
     if s['sharedFunds']<d['cost']:return f.income(s,d['cost'],d['name'].lower(),{'view':'headquarters'})
     return f.step(key,d['name'],f'{d["cost"]} crowns; {d["phases"]} base assigned phases. Existing paid work keeps its progress. Agreed resident builders can use the ordinary room controls.','headquarters',{'type':kind,('roomId' if kind=='hq-build' else 'jobId'):key},'Fund & assign' if d['cost'] else 'Assign the drill')
 
@@ -85,11 +92,11 @@ def preservation_step(s):
     return f.step('preservation','Learn Gentle preservation','Survey Reedbank waystation and return with its preservation method. A knowledgeable resident can also offer a personal lesson through development. Sabine can transfer to specialists now if you prefer.','expeditions',siteId='reedbank-waystation')
 
 def construction_next(s):
-    for key in ROOMS:
+    for key in required_rooms(s):
         if not h.ready(s,key):return hq_step(s,'hq-build',key)
     if 'basic-drill' not in s['headquarters']['completedDrills']:return hq_step(s,'hq-job','basic-drill')
     if not defense_ready(s):return hq_step(s,'hq-job',DEFENSES[saved(s)['defense']]['job'])
-    if not quiet_ready(s):
+    if care_planned(s) and not quiet_ready(s):
         pending=containment_step(s)
         if pending:return pending
         key=next(k for k,d in c.CHAMBERS.items() if d['ward']=='echo' and s['containment']['chambers'][k]['status']=='sealed')
@@ -130,7 +137,7 @@ def stage(s):
     if not prepared(s):return 'construction'
     if not r['returnChoice']:return 'return'
     if care_next(s):return 'care'
-    if len(r['lessons'])<len(LESSONS):return 'tutorial'
+    if any(k not in r['lessons'] for k in required_lessons(s)):return 'tutorial'
     return 'closing'
 
 def view(s):
@@ -141,9 +148,10 @@ def view(s):
     v['companions']=[{'id':who,'name':g.character_profile(s,who)['name']} for who in g.household_members(s) if who!='founder' and g.character_at_castle(s,who)]
     v['canUseLantern']=bool(g.spare_artifact_count(s,'warming-lantern'))
     v['inspections']=[{'id':key,'title':d[0],'text':d[1] if key in r['inspections'] or v['stage']=='inspection' else None,'complete':key in r['inspections']} for key,d in INSPECTIONS.items()]
-    v['requirements']=[{'id':key,'title':h.ROOMS[key]['name'],'complete':h.ready(s,key),'cost':h.ROOMS[key]['cost'],'target':{'view':'hqRoom','roomId':key}} for key in ROOMS]
-    v['requirements'] += [{'id':'basic-drill','title':'Introductory defensive training','complete':'basic-drill' in s['headquarters']['completedDrills'],'cost':0,'target':{'view':'hqRoom','roomId':'training-yard'}},{'id':'defense','title':'Entrance protections','complete':defense_ready(s),'cost':18,'target':{'view':'hqRoom','roomId':'entry-hall'}},{'id':'quiet-chamber','title':'One fitted Quiet chamber','complete':quiet_ready(s),'cost':14,'target':{'view':'containment'}}]
-    v['lessons']=[{'id':key,'title':d[0],'text':d[1],'complete':key in r['lessons'],'ready':lesson_ready(s,key)} for key,d in LESSONS.items()] if r['returnChoice'] else []
+    v['requirements']=[{'id':key,'title':h.ROOMS[key]['name'],'complete':h.ready(s,key),'cost':h.ROOMS[key]['cost'],'target':{'view':'hqRoom','roomId':key}} for key in required_rooms(s)]
+    v['requirements'] += [{'id':'basic-drill','title':'Introductory defensive training','complete':'basic-drill' in s['headquarters']['completedDrills'],'cost':0,'target':{'view':'hqRoom','roomId':'training-yard'}},{'id':'defense','title':'Entrance protections','complete':defense_ready(s),'cost':18,'target':{'view':'hqRoom','roomId':'entry-hall'}}]+([{'id':'quiet-chamber','title':'One fitted Quiet chamber','complete':quiet_ready(s),'cost':14,'target':{'view':'containment'}}] if care_planned(s) else [])
+    v['lessons']=[{'id':key,'title':d[0],'text':d[1],'complete':key in r['lessons'],'ready':lesson_ready(s,key)} for key,d in LESSONS.items() if key in required_lessons(s)] if r['returnChoice'] else []
+    v['quietReady']=quiet_ready(s);v['carePlanned']=care_planned(s)
     v['caseStatus']=case(s)['status'];v['resident']='sabine' in g.household_members(s)
     v['canTransfer']=case(s)['status'] in ('arrival-pending','contained','safe')
     if not g.character_at_castle(s,'founder'):
@@ -193,10 +201,18 @@ def apply(s,a):
     elif kind=='hearth-design':
         key=a.get('choice');g.require(len(r['inspections'])==len(INSPECTIONS) and not r['defense'] and isinstance(key,str) and key in DEFENSES,'Inspect the route and choose one defensive plan once.')
         r['defense']=key;remember(s,'A plan for the service entrance',DEFENSES[key]['text'])
+    elif kind=='hearth-care-plan':
+        g.require(not r['returnChoice'] and care_planned(s),'There is no unfinished escort plan to put aside.')
+        r['responsePlan']=None
+        remember(s,'Rely on the entrance protections','You put the escort plan aside. Paid construction keeps its progress and remains available in the construction controls.')
     elif kind=='hearth-return':
-        g.require(prepared(s) and not r['returnChoice'],'Complete the training yard, barracks, dungeon, training, entrance protections and Quiet chamber first.')
+        g.require(prepared(s) and not r['returnChoice'],'Complete the listed entrance protections and basic training first.')
         choice=a.get('choice');fresh=fresh_encounter(s)
         g.require(isinstance(choice,str) and choice in (('capture','parley','drive-away') if fresh else ('review',)),'Choose a response appropriate to the current encounter.')
+        if fresh and choice in ('capture','parley') and not quiet_ready(s):
+            r['responsePlan']=choice
+            remember(s,'Prepare specialized care','You plan a Quiet chamber before attempting an escort. Sabine has not returned yet. The incident waits while you prepare; you can change this plan and rely on the entrance protections instead.')
+            return True
         # Admission validates against a staged state so failure cannot leave a half-resolved encounter.
         staged=deepcopy(s);saved(staged)['returnChoice']=choice
         if fresh and choice in ('capture','parley'):
@@ -205,7 +221,7 @@ def apply(s,a):
             g.apply_action(staged,{'type':'admit-containment','characterId':'sabine','chamberId':chambers[0]})
             case(staged)['chapterOrigin']='keeping-hearth'
             text=DEFENSES[r['defense']]['result']+(' Your yard training keeps the interception controlled. Sabine is captured with the latch tool and agrees to put it down.' if choice=='capture' else ' You keep a clear distance and ask what the seal is for. Sabine puts the tool down and accepts a safe escort.')+' “The old alarm oath follows its seals. I tried to take the impression before it found another keeper. A poor introduction; I am aware.” The Quiet chamber can isolate that existing oath. Her escort arrives on the next Advance.'
-        elif fresh:text=DEFENSES[r['defense']]['result']+' You order Sabine to leave. She withdraws; there is no prisoner, stolen stock or recruitment reward. The prepared chamber remains available, and her original archive encounter can still be pursued.'
+        elif fresh:text=DEFENSES[r['defense']]['result']+' You order Sabine to leave. She withdraws; there is no prisoner, stolen stock or recruitment reward. Her original archive encounter can still be pursued; specialized care can be prepared then if you choose.'
         else:text='You rehearse the service-door approach against the completed protections. The new route is secure. Sabine’s existing case and residency are respected; the chapter does not stage another capture.'
         remember(staged,'The service door, a second time',text,['sabine'] if fresh and choice in ('capture','parley') else [])
         s.clear();s.update(staged)
@@ -213,8 +229,8 @@ def apply(s,a):
         key=a.get('lessonId');g.require(r['returnChoice'] and isinstance(key,str) and key in LESSONS and key not in r['lessons'] and lesson_ready(s,key),'Complete the relevant real case step before recording this lesson.')
         r['lessons'][key]=stamp(s);remember(s,*LESSONS[key])
     elif kind=='hearth-finish':
-        g.require(prepared(s) and r['returnChoice'] and not care_next(s) and len(r['lessons'])==len(LESSONS),'Resolve the incident and record all four dungeon lessons first.')
+        g.require(prepared(s) and r['returnChoice'] and not care_next(s) and all(k in r['lessons'] for k in required_lessons(s)),'Resolve the incident and any care you chose to undertake first.')
         r['completedOn']=stamp(s)
-        remember(s,'Keeping the Hearth','The yard teaches restraint as well as readiness. The barracks gives the watch a place to organize; the dungeon has a working chamber and a clear route out of it. The castle can protect its welcome. '+('Sabine is now a resident by a separate agreement.' if 'sabine' in g.household_members(s) else 'Any invitation to Sabine remains a separate choice.'))
+        remember(s,'Keeping the Hearth','The repaired entrance gives a clear warning, and the basic drill gives you a practiced response. The incident is resolved. '+('Sabine is now a resident by a separate agreement.' if 'sabine' in g.household_members(s) else 'Any invitation to Sabine remains a separate choice.'))
     else:raise g.RuleError('Unknown castle security action.')
     return True

@@ -2,7 +2,7 @@
 from copy import deepcopy
 import re
 
-AGES = {'tamsin': 20, 'brakka': 23, 'sylva': 21, 'velis': 22, 'rhess': 24}
+AGES = {'tamsin': 20, 'zahra': 23, 'sylva': 21, 'velis': 22, 'rhess': 24}
 
 
 def migrate(state):

@@ -42,13 +42,13 @@ const context = vm.createContext({
  await click({view:'castle'});assert.match(element('#app').innerHTML,/Journeys with lasting stories/);
  await click({site:'flooded-monastery'});assert.match(element('#app').innerHTML,/Choose your travelling party/);
  element('#carry-lantern').checked=true;await events.change({target:{id:'carry-lantern',checked:true}});
- for(const who of ['mira','brakka','sabine'])await events.change({target:{id:'journey-party-'+who,checked:true}});
+ for(const who of ['mira','zahra','sabine'])await events.change({target:{id:'journey-party-'+who,checked:true}});
  assert.match(element('#app').innerHTML,/3\/3 companions selected/);assert.equal(value('journeyPartySelection.length'),3);assert.match(element('#app').innerHTML,/id="carry-lantern" checked/);
  await events.change({target:{id:'journey-party-iona',checked:true}});assert.equal(value('journeyPartySelection.length'),3);
  assert.match(element('#app').innerHTML,/Prepared spells:<\/strong> Borrowed hour/);
  await click({prepTarget:JSON.stringify({view:'spells',personId:'mira'})});assert.match(element('#app').innerHTML,/Back to preparation/);
  await click({prepReturn:'yes'});assert.equal(value('selectedExpeditionSiteId'),'flooded-monastery');assert.equal(value('journeyPartySelection.length'),3);
- await click({action:'start-expedition'});assert.equal(value('state.expedition.carriedLantern'),true);assert.deepEqual(Array.from(value('state.partyJourneysView.party')),['founder','mira','brakka','sabine']);
+ await click({action:'start-expedition'});assert.equal(value('state.expedition.carriedLantern'),true);assert.deepEqual(Array.from(value('state.partyJourneysView.party')),['founder','mira','zahra','sabine']);
  await advance();await click({approach:'survey'});assert.match(element('#app').innerHTML,/A courtyard without a shore/);assert.match(element('#app').innerHTML,/Bind a permanent water-level boundary/);
  await action('share-party-journey',{sceneId:'arrival',choice:'listen'});assert.match(element('#app').innerHTML,/Remembered journey conversations/);
  const sp=value('state.partyJourneysView.supportSpells.find(s=>s.ownerId==="founder").id');
@@ -65,7 +65,7 @@ const context = vm.createContext({
  assert.equal(value('state.partyJourneys["flooded-monastery"].discoveries.length'),1);assert.match(element('#app').innerHTML,/The rainkeeper’s atlas/);
  await action('place-journey-legacy',{installed:true});await action('share-party-journey',{sceneId:'home',choice:'join'});
  await click({room:'library'});assert.match(element('#app').innerHTML,/The rainkeeper’s atlas/);
- await value('readState().then(s=>{state=s;render();})');assert.equal(value('state.schemaVersion'),65);assert.equal(value('state.partyJourneys["flooded-monastery"].installed'),true);
+ await value('readState().then(s=>{state=s;render();})');assert.equal(value('state.schemaVersion'),73);assert.equal(value('state.partyJourneys["flooded-monastery"].installed'),true);
  assert.doesNotMatch(element('#app').innerHTML,/undefined|src="null"/);
  for(const site of ['frozen-skybridge','masquerade-manor']){await click({site});assert.match(element('#app').innerHTML,/six obstacles and a final commitment/);}
  console.log('PASS: roster of 14, selection cap, departure preparation, four travellers, actual spell caster, support cast phase, accelerated ordinary route, retreat/resume, romance-aware camp, permanent ritual, completed return, legacy installation, room display and reload.');

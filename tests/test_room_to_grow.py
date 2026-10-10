@@ -26,10 +26,16 @@ class RoomToGrowTests(unittest.TestCase):
         for _ in range(160):
             before=deepcopy(self.s);v=grow.view(self.s);self.assertEqual(self.s,before)
             if v['stage']=='complete':return phases
-            if v['stage']=='walkthrough':self.act('grow-inspect',area=next(x['id'] for x in v['inspections'] if not x['complete']))
+            if self.s['expedition']:
+                e=self.s['expedition']
+                self.act('choose-expedition-approach',approach='survey') if e['stage']=='awaiting-choice' else self.act('return-expedition') if e['stage']=='ready-to-return' else self.act('advance')
+            elif v['stage']=='walkthrough':self.act('grow-inspect',area=next(x['id'] for x in v['inspections'] if not x['complete']))
             elif v['stage']=='closing':self.act('grow-finish',choice=closing)
             else:
-                n=v['next'];self.assertTrue(n,n);self.assertTrue(n['action'],n);self.assertFalse(n.get('blockers'),n)
+                n=v['next'];self.assertTrue(n,n)
+                if not n['action'] and n['target'].get('siteId'):
+                    self.act('start-expedition',siteId=n['target']['siteId'],carryLantern=True);continue
+                self.assertTrue(n['action'],n);self.assertFalse(n.get('blockers'),n)
                 g.apply_action(self.s,n['action']);phases+=n['action']['type']=='advance'
             self.s=g.migrate_state(json.loads(json.dumps(self.s)))
         self.fail(repr(grow.view(self.s)))
@@ -50,17 +56,14 @@ class RoomToGrowTests(unittest.TestCase):
                 with self.assertRaises(g.RuleError):self.act('grow-finish',choice='quiet')
                 self.assertEqual(before,self.s)
 
-    def test_all_three_undertakings_and_explicit_closing_are_required(self):
+    def test_one_undertaking_and_explicit_closing_are_required(self):
         self.s=deepcopy(self.before_closing);self.assertFalse(grow.available(self.s))
         with self.assertRaises(g.RuleError):self.plan()
-        for key in shape.PATHS:
-            original=self.s['houseShape']['projects'].pop(key)
-            with self.assertRaises(g.RuleError):self.act('shape-conclude')
-            self.s['houseShape']['projects'][key]=original
+        for key in ('cultivation','craftsmanship'):self.s['houseShape']['projects'].pop(key)
         funds=self.s['sharedFunds'];day=self.s['dayNumber'];evidence=deepcopy(self.s['castleMystery']['discoveries'])
         self.act('shape-conclude');self.assertTrue(grow.available(self.s))
         self.assertEqual(self.s['sharedFunds'],funds);self.assertEqual(self.s['dayNumber'],day);self.assertEqual(evidence,self.s['castleMystery']['discoveries'])
-        self.assertEqual(sum(x['work'] for x in shape.saved(self.s)['conclusion']['contributions'].values()),18)
+        self.assertEqual(shape.completed_paths(self.s),['scholarship'])
 
     def test_priorities_keep_paid_work_and_exact_budget(self):
         self.plan('mixed','sauna','smithy')
@@ -80,13 +83,13 @@ class RoomToGrowTests(unittest.TestCase):
     def test_real_resident_credit_and_scoped_gathering(self):
         t=chapter_two.HouseShapeTests();t.s=self.s;t.recruit();self.s=t.s
         self.plan(priority='community');t.s=self.s;t.money(100)
-        self.act('hq-agree-work',workerId='maren',enabled=True)
-        self.act('hq-build',roomId='chapel',workerId='maren')
+        self.act('hq-agree-work',workerId='koharu',enabled=True)
+        self.act('hq-build',roomId='chapel',workerId='koharu')
         self.act('advance');self.act('advance')
-        self.assertEqual(grow.saved(self.s)['contributions']['chapel']['maren']['work'],2)
-        self.play('gather');self.assertTrue(grow.context(self.s,'maren'))
-        self.assertEqual(len(grow.context(self.s,'maren')),1)
-        self.assertIn('Maren',grow.context(self.s,'maren')[0]['text'])
+        self.assertEqual(grow.saved(self.s)['contributions']['chapel']['koharu']['work'],2)
+        self.play('gather');self.assertTrue(grow.context(self.s,'koharu'))
+        self.assertEqual(len(grow.context(self.s,'koharu')),1)
+        self.assertIn('Koharu',grow.context(self.s,'koharu')[0]['text'])
         self.assertEqual(grow.context(self.s,'mira'),[])
 
     def test_invalid_actions_are_atomic_and_read_does_not_enroll(self):

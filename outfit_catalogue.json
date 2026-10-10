@@ -19,8 +19,8 @@
     },
     "3": {
       "id": "tamsin-outfit-3",
-      "name": "A private chapter",
-      "description": "Opaque charcoal and plum sweetheart-neckline short dress ending at mid-thigh, fitted waist, soft short open shawl, bare legs and slippers; expressive cat ears and one tail."
+      "name": "Kitchen at ease",
+      "description": "Plum halter crop top and charcoal shorts, bare midriff and legs; ginger feline ears and a narrow striped tail."
     }
   },
   "iona": {
@@ -56,7 +56,7 @@
     "3": {
       "id": "neris-outfit-3",
       "name": "Violet tide",
-      "description": "Indigo and plum halter bathing top, high-waisted bathing briefs and short side hip wrap, bare feet; blue water-elemental skin, silver bob and finlike ears."
+      "description": "Plum two-piece bathing ensemble at the hot springs; translucent teal water-elemental body, flowing water hair and bare feet."
     }
   },
   "sabine": {
@@ -71,28 +71,28 @@
       "description": "Opaque charcoal short evening dress ending mid-thigh, wine-red lining, sweetheart neckline with solid coverage, lace-edged short sleeves and dark stockings; self-possessed smile, discreet fangs."
     }
   },
-  "maren": {
+  "koharu": {
     "2": {
-      "id": "maren-outfit-2",
-      "name": "Tools put away",
-      "description": "Opaque plum sleeveless scoop-neck top and charcoal knee-length wrap skirt, simple sandals, no tool apron; preserve horns, bovine ears, strong curvy build and one tufted tail."
+      "id": "koharu-outfit-2",
+      "name": "After the curtain falls",
+      "description": "Opaque soft teal sleeveless scoop-neck top, plum calf-length wrap skirt and flat sandals; long loose dark chestnut hair covering the sides of her head, exactly two dark fox ears on top with no human ears, and one cream-tipped dark brown fox tail. Slight slender adult build."
     },
     "3": {
-      "id": "maren-outfit-3",
-      "name": "A softer strength",
-      "description": "Opaque deep plum fitted short wrap dress ending mid-thigh, low covered neckline, dull-brass fastener, bare legs and sandals; preserve bovine features and mature powerful figure."
+      "id": "koharu-outfit-3",
+      "name": "An evening of her own",
+      "description": "Opaque deep-teal halter crop top and cinnamon short wrap skirt with a long side drape, bare legs and flat sandals; long loose dark chestnut hair covering the sides of her head, exactly two dark fox ears on top with no human ears, and one cream-tipped dark brown fox tail. Slight slender adult build."
     }
   },
-  "brakka": {
+  "zahra": {
     "2": {
-      "id": "brakka-outfit-2",
-      "name": "The work can wait",
-      "description": "Plum cropped laced work top, charcoal knee breeches, leather bracers and boots; youthful adult orc features, broad nose, strong jaw and lower tusks."
+      "id": "zahra-outfit-2",
+      "name": "An afternoon of her own",
+      "description": "Indigo wrap crop blouse, soft loose cream trousers, patterned sash and flat slippers; long smoke-tipped black curls and softly luminous amber eyes."
     },
     "3": {
-      "id": "brakka-outfit-3",
-      "name": "Tempered violet",
-      "description": "Plum halter crop top, brown upper-thigh leather shorts, leather bracers and flat strapped sandals; strong feminine orc build and a confident tusked smile."
+      "id": "zahra-outfit-3",
+      "name": "Embers after dusk",
+      "description": "Deep indigo halter crop top and asymmetric wrap skirt with muted gold embroidery, a shorter front and a long side drape; brass earrings and flat sandals, with ember lights drifting through her smoky curls."
     }
   },
   "fenna": {
@@ -111,12 +111,12 @@
     "2": {
       "id": "kaede-outfit-2",
       "name": "After practice",
-      "description": "Fur-edged cropped leather vest, knee-length leather shorts, broad belt and fur-trimmed boots; red oni skin, two horns and long navy hair."
+      "description": "Fur-edged cropped leather vest, knee-length leather shorts, broad belt and fur-trimmed boots; red ogrekin skin, two horns and long navy hair."
     },
     "3": {
       "id": "kaede-outfit-3",
       "name": "Unhurried confidence",
-      "description": "Leather halter bustier, upper-thigh leather shorts with fur-trimmed waist, bracers and fur-trimmed calf boots; fit, busty adult oni figure with a defined waist and rounded hips."
+      "description": "Leather halter bustier, upper-thigh leather shorts with fur-trimmed waist, bracers and fur-trimmed calf boots; fit, busty adult ogrekin figure with a defined waist and rounded hips."
     }
   },
   "elowen": {
@@ -152,7 +152,19 @@
     "3": {
       "id": "sylva-outfit-3",
       "name": "Moonleaf confidence",
-      "description": "Silver-edged leaf halter crop top and short layered leaf skirt over opaque woven-leaf shorts, with a braided vine belt. Forest-green hair, ivory blossoms, leaf ears, budding twig crown, celadon-green living-sapwood skin with subtle natural woodgrain and bare green feet."
+      "description": "Sleeveless overlapping-leaf crop top and short tailored woven-leaf shorts with a braided vine belt; no trailing skirt. Living olive-gold woodgrain skin, leaf ears and bare feet firmly on the conservatory floor."
+    }
+  },
+  "merrin": {
+    "2": {
+      "id": "merrin-outfit-2",
+      "name": "Plum evening dress",
+      "description": "Opaque plum evening dress with slim straps, a fitted waist and a side slit, dark flat shoes and a small brass bell pendant."
+    },
+    "3": {
+      "id": "merrin-outfit-3",
+      "name": "Plum halter and wrap skirt",
+      "description": "Deep-plum halter crop top with bare shoulders and midriff, a short violet wrap skirt over fitted shorts, flat strap shoes and a brass bell at her waist. Her clothing is opaque; her skin and silhouette retain their pearly spirit glow."
     }
   }
 }

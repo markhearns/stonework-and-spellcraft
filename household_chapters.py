@@ -34,6 +34,8 @@ def personal_rows(s,who):
     records=s.get('householdChapters',{}).get('personal',{});looks=s.get('outfitProgression',{}).get(who,{}).get('invitations',{})
     rows=[]
     for stage,definition in enumerate(PROFILES[who]['beats']):
+        import companion_goals
+        definition=companion_goals.household_scene(s,who,stage,definition)
         key=who+':'+str(stage);previous=records.get(who+':'+str(stage-1));reasons=presence(s,[who])
         if stage and not previous:reasons.append('Share “'+PROFILES[who]['beats'][stage-1]['title']+'” first.')
         if stage==2 and '2' not in looks:reasons.append('Share her relaxed wardrobe invitation first; this scene provides a new moment afterwards.')

@@ -128,7 +128,7 @@ class CastleChapterTests(unittest.TestCase):
             with sqlite3.connect(store.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(old),))
             new=GameStore(directory).read();self.assertEqual(new['schemaVersion'],66)
             for field in ('craftingProject','founderAssignment','assetOverrides','materialInventory','sharedFunds'):self.assertEqual(old[field],new[field])
-            self.assertTrue(Path(directory,'campaign-before-schema-40-to-66.sqlite3').exists())
+            self.assertTrue(Path(directory,f"campaign-before-schema-40-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             self.assertEqual(new,g.migrate_state(deepcopy(new)))
     def test_available_reflections_appear_in_phase_invitations_and_disappear_after_choice(self):
         self.hearth();self.travel('quarry-shelter')

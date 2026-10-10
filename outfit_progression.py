@@ -21,7 +21,7 @@ def memories(s,who):
     events.update('participation:'+key for key,r in s.get('companionParticipation',{}).get('memories',{}).items() if who in r.get('participants',[]))
     for q in s.get('characterQuests',{}).get('records',{}).values():
         if q['who']==who:
-            source=q['id'] if q['kind']=='personal' else 'request:'+who+':'+str(q['template'])
+            source=q['id'] if q['kind'] in ('personal','ambition') else 'request:'+who+':'+str(q['template'])
             events.update('quest:'+source+':'+m['stage'] for m in q['memories'])
     for group in ('memories','dates'):
         events.update('romance:'+group+':'+key for key,r in s.get('romance',{}).get(group,{}).items() if who in r['participants'])
@@ -32,6 +32,7 @@ def memories(s,who):
     for site,r in s.get('partyJourneys',{}).items():
         events.update('journey:'+site+':'+key for key,m in r['memories'].items() if who in m['participants'])
     events.update('almanac:'+key for key,r in s.get('companionAlmanac',{}).get('memories',{}).items() if who in r.get('participants',[]))
+    events.update('thread:'+key for key,r in s.get('companionThreads',{}).get('records',{}).items() if r.get('completed') and who in r.get('participants',[]))
     return sorted(events)
 
 def blockers(s,who,tier):

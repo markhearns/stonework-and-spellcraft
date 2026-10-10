@@ -8,6 +8,7 @@ import summoning
 from candidate_proposals import validate_candidate,candidate_context,approved_definition,PACKAGES
 from dialogue import DialogueService,ProviderSettings,dialogue_context
 from server import GameStore
+from authoring_fixture import enable_authoring
 
 
 def candidate_fixture(**changes):
@@ -24,6 +25,7 @@ class CandidateProposalTests(unittest.TestCase):
     def setUp(self):
         self.temp=tempfile.TemporaryDirectory();self.addCleanup(self.temp.cleanup)
         self.store=GameStore(self.temp.name);self.settings=ProviderSettings(self.temp.name)
+        enable_authoring(self.store)
         self.settings.save({'enabled':True,'model':'test/model','apiKey':'fixture-secret','maxOutputTokens':1000})
         self.output=candidate_fixture();self.calls=[]
         def completion(settings,messages):
@@ -60,7 +62,7 @@ class CandidateProposalTests(unittest.TestCase):
         state=self.accept(draft);who='summoned-'+draft['id']
         self.assertIn(who,state['reviewedCandidates']);self.assertNotIn(who,state['people'])
         for key in before:
-            if key not in ('reviewedCandidates','revision'):self.assertEqual(before[key],state[key],key)
+            if key not in ('reviewedCandidates','revision','testing'):self.assertEqual(before[key],state[key],key)
         self.assertEqual(self.accept(draft),state);self.assertEqual(GameStore(self.temp.name).read(),state)
 
     def test_invalid_provider_output_stays_failed_without_person(self):

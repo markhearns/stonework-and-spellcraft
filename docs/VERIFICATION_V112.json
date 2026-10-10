@@ -1,0 +1,58 @@
+{
+  "version": "0.112",
+  "schema": 70,
+  "python": {
+    "passed": true,
+    "total_unique_tests": 217,
+    "module_counts": {
+      "test_companion_dialogue_review": 7,
+      "test_companion_almanac": 20,
+      "test_social_life": 12,
+      "test_household_chapters": 16,
+      "test_relationships": 14,
+      "test_dialogue": 18,
+      "test_party_journeys": 28,
+      "test_romance": 15,
+      "test_intimacy": 14,
+      "test_household_sagas": 18,
+      "test_foundation_chamber": 15,
+      "test_resident_friendships": 19,
+      "test_resident_bonds": 17,
+      "test_art_release": 4
+    },
+    "final_editorial_subset": {
+      "passed": true,
+      "tests": 19,
+      "modules": [
+        "test_social_life",
+        "test_companion_dialogue_review"
+      ]
+    }
+  },
+  "connected_ui": {
+    "passed": true,
+    "suites": [
+      "almanac",
+      "social_life",
+      "household_chapters",
+      "relationships",
+      "party_journeys",
+      "romance",
+      "intimacy",
+      "resident_friendships",
+      "foundation_chamber"
+    ],
+    "count": 9,
+    "runtime": "Node VM templates/controllers with real Python GameStore actions"
+  },
+  "rendered_browser": {
+    "verified": false,
+    "reason": "Browser executable unavailable; no desktop/mobile pixel verification claimed."
+  },
+  "compatibility": {
+    "save_schema_unchanged": true,
+    "historical_memory_records_preserved": true,
+    "unchanged_runtime_art_files": 398,
+    "deployment": "Not deployed; full installable archive."
+  }
+}

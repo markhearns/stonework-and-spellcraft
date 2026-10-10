@@ -122,7 +122,7 @@ class CustomizationTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as directory:
    st=GameStore(directory);s=st.read();s['schemaVersion']=54;s.pop('customization')
    with sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(s),))
-   st=GameStore(directory);s=st.read();self.assertEqual(s['schemaVersion'],66);self.assertTrue(Path(directory,'campaign-before-schema-54-to-66.sqlite3').exists())
+   st=GameStore(directory);s=st.read();self.assertEqual(s['schemaVersion'],66);self.assertTrue(Path(directory,f"campaign-before-schema-54-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
    a={'action':{'type':'save-personal-appearance','characterId':'founder','appearance':{'hairStyle':'Braided'}},'requestId':str(uuid.uuid4()),'expectedRevision':s['revision']}
    first=st.action(a);again=st.action(a);self.assertEqual(first,again);self.assertEqual(GameStore(directory).read()['customization']['people']['founder']['appearance']['hairStyle'],'Braided')
  def test_saved_spells_share_capacity_and_pending_cast_is_atomic(self):

@@ -20,8 +20,11 @@ def definition(who):
 
 def records(s):
  import game as g
+ import companion_goals
  data=saved(s)
- return [data['records'].get('personal:'+who,definition(who)) for who in content.PERSONAL if who in g.household_members(s)]+extra_records(s)+[r for r in data['records'].values() if r['kind']=='dynamic']
+ personal=[data['records'].get('personal:'+who,definition(who)) for who in content.PERSONAL if who in g.household_members(s)
+           and (who not in companion_goals.LEGACY_CREDIT or 'ambition:'+who not in data['records'] or 'personal:'+who in data['records'])]
+ return companion_goals.definitions(s)+personal+extra_records(s)+[r for r in data['records'].values() if r['kind']=='dynamic']
 
 def extra_records(s):
  import game as g
@@ -43,7 +46,12 @@ def people(q):return ['founder',q['who']]
 
 def presence(s,q):
  from household_chapters import presence as check
- return check(s,people(q))
+ import companion_goals
+ reasons=check(s,people(q))
+ old=saved(s)['records'].get('personal:'+q['who'])
+ if q['kind']=='ambition' and q['who'] in companion_goals.LEGACY_CREDIT and old and old['status'] not in ('complete','declined'):
+  reasons.append('Finish the earlier quest “'+old['title']+'” first. Its completed work will count toward this goal.')
+ return reasons
 
 def staffing(s,q):
  import game as g
@@ -88,18 +96,28 @@ def methods(s,q):
  spell=caster(s,q,step['spell']);cost=g.SPELL_FORMS[step['spell']]['castingInputs']
  magic=common+([] if spell else ['A participant must know and prepare '+g.SPELL_FORMS[step['spell']]['name']+' with its principles.'])
  magic += ['Need '+str(n)+' '+k+'.' for k,n in cost.items() if s['materialInventory'].get(k,0)<n]
- return {
+ result={
  'patient':{'label':step['ordinary'],'phases':2 if supported or legacy or household or journey else 3,'blockers':common,'cost':{},'journeyId':journey,'householdId':household,'legacyId':legacy,'ritualId':ritual if supported else None,'detail':'Free ordinary route. No attribute or spell required.'+(' A displayed expedition legacy saves one phase; it does not stack with other support.' if journey else '')+(' Their shared household project saves one phase; this does not stack with other support.' if household else '')+(' Active '+lasting_rituals.CATALOGUE[ritual]['name']+' saves one phase; this duration is committed when you choose the method.' if supported else '')+(' The installed lantern corner supports this method; its two-phase duration does not stack with a ritual.' if legacy else '')},
  'skilled':{'label':'Use '+g.CHARACTER_SKILLS[step['skill']]['name']+' to solve it efficiently','phases':1,'blockers':common+([] if skilled else ['Need score 9: attribute + twice skill, with eligible companion help.']), 'actor':skilled,'cost':{},'detail':'; '.join(g.character_profile(s,who)['name']+': '+check['detail'] for who,check in checks)},
  'spell':{'label':'Cast '+g.SPELL_FORMS[step['spell']]['name'],'phases':1,'blockers':magic,'actor':spell['ownerId'] if spell else None,'spellId':spell['id'] if spell else None,'formId':step['spell'],'cost':deepcopy(cost),'detail':'Components are committed once. This cast solves this quest obstacle only; it does not also grant the ordinary free-cast effect.'}}
+ if q['kind']=='ambition':
+  import companion_goals
+  return companion_goals.enrich_methods(s,q,result)
+ return result
 
 def talk_options(q):
+ if q['kind']=='ambition':
+  import companion_goals
+  return companion_goals.choices(q)
  if q['status']=='offered':return {'flirt':'Accept with a playful compliment.','warm':'Accept because this matters to them.','practical':'Accept and ask where to begin.'}
  if q['status']=='interlude':return {'flirt':'Tease gently, then support their decision.','warm':'Ask what they want to preserve.','practical':'Agree the next practical step.'}
  if q['status']=='ending':return {'flirt':'Return the flirtation and enjoy the moment.','warm':'Celebrate together as friends.','practical':'Admire the result and thank them for the company.'}
  return {}
 
 def opening(q):
+ if q['kind']=='ambition':
+  import companion_goals
+  return companion_goals.opening(q)
  if q['status']=='offered':return q['opening']
  if q['status']=='interlude':return q['middle']
  if q['status']=='ending':return q['ending']
@@ -117,6 +135,13 @@ def row(s,q):
   'methods':methods(s,q) if q['status']=='ready' and visible else {},
   'resumeBlockers':list(dict.fromkeys(staffing(s,q)+reasons)), 'isWorking':working(s) if other and other['id']==q['id'] else False,
   'reward':'2 advancement each and a named keepsake; once only.' if q['kind']=='personal' else '2 binding thread; no repeatable advancement. Relationship credit once per request type and companion.'})
+ result['totalSteps']=len(q['steps'])
+ if q['kind']=='ambition':
+  import companion_goals
+  d=companion_goals.GOALS[q['who']]
+  result['reward']='On completion: '+d['keepsake']+'. 2 advancement each, once. Friendship is sufficient.'
+  result['proof']=d['proof']
+  if q['status'] in ('ready','working'):result['obstacle']=companion_goals.current(q)['title']
  return result
 
 def board_blockers(s):
@@ -183,9 +208,10 @@ def apply(s,a):
   g.require(saved(s)['active']==key and q['status']=='ready','Resume this quest and reach an unresolved obstacle first.')
   method=a.get('methodId');g.require(isinstance(method,str) and method in ('patient','skilled','spell'),'Choose an offered method.')
   selected=methods(s,q)[method];g.require(not selected['blockers'],' '.join(selected['blockers']))
+  s['sharedFunds']-=selected.get('crowns',0)
   for material,n in selected['cost'].items():s['materialInventory'][material]-=n
   if selected.get('spellId'):g.spell_by_id(s,selected['spellId'])['castCount']+=1
-  q['pending']={'method':method,'label':selected['label'],'remaining':selected['phases'],'actor':selected.get('actor'),'spellId':selected.get('spellId'),'cost':deepcopy(selected['cost']),'ritualId':selected.get('ritualId'),'legacyId':selected.get('legacyId'),'householdId':selected.get('householdId'),'journeyId':selected.get('journeyId')}
+  q['pending']={'method':method,'label':selected['label'],'remaining':selected['phases'],'actor':selected.get('actor'),'spellId':selected.get('spellId'),'cost':deepcopy(selected['cost']),'crowns':selected.get('crowns',0),'ritualId':selected.get('ritualId'),'legacyId':selected.get('legacyId'),'householdId':selected.get('householdId'),'journeyId':selected.get('journeyId')}
   q['status']='working'
   for who in people(q):g.set_character_assignment(s,who,ASSIGNMENT)
   g.add_journal(s,q['title']+': '+selected['label']+'. Advance resolves '+str(selected['phases'])+' assigned quest phase(s).');return True
@@ -193,7 +219,10 @@ def apply(s,a):
  g.require(isinstance(choice,str) and choice in options,'Choose an offered response.')
  g.require(saved(s)['active'] in (None,key) and (q['status']=='offered' or saved(s)['active']==key),'Resume this quest, or set aside the current quest first.')
  old_status=q['status'];text=opening(q)
- if old_status=='ending':
+ if q['kind']=='ambition':
+  import companion_goals
+  reply=companion_goals.reply(q,choice)
+ elif old_status=='ending':
   reply=q['flirt'] if choice=='flirt' else (voice(q['who'])['company'] if choice=='warm' else voice(q['who'])['review']+' You check the finished work together. '+q['outcomes'][-1]['result'])
  else:
   obstacle=content.OBSTACLES[q['steps'][q['step']]]
@@ -206,15 +235,17 @@ def apply(s,a):
  if old_status=='ending' and choice=='flirt':
   import romance
   memory['response']=romance.quest_reply(s,q['who'],memory['response'])
- if old_status=='ending':memory['response']+=' You remember choosing “'+q['memories'][0]['playerLine']+'” when this began, and solving it through '+', then '.join(o['method'] for o in q['outcomes'])+'.'
+ if old_status=='ending' and q['kind']!='ambition':memory['response']+=' You remember choosing “'+q['memories'][0]['playerLine']+'” when this began, and solving it through '+', then '.join(o['method'] for o in q['outcomes'])+'.'
  q['memories'].append(memory)
  if old_status=='ending':
   q['status']='complete';saved(s)['active']=None;release(s,q)
-  if q['kind']=='personal':
+  if q['kind']=='ambition':
+   companion_goals.finish(s,q)
+  elif q['kind']=='personal':
    for who in people(q):g.award_advancement(s,who,'character-quest:'+key,2,q['title'])
   else:s['materialInventory']['binding-thread']=s['materialInventory'].get('binding-thread',0)+2
-  source='quest:'+key if q['kind']=='personal' else 'quest-request:'+q['who']+':'+str(q['template'])
-  relationships.remember(s,source,memory,{'flirt':'affection','warm':'trust','practical':'respect'}[choice])
+  source='quest:'+key if q['kind'] in ('personal','ambition') else 'quest-request:'+q['who']+':'+str(q['template'])
+  relationships.remember(s,source,memory,'trust' if q['kind']=='ambition' else {'flirt':'affection','warm':'trust','practical':'respect'}[choice])
  else:q['status']='ready'
  g.add_journal(s,q['title']+': '+memory['playerLine']+' '+memory['response']);return True
 
@@ -224,6 +255,8 @@ def resolve(s,summary,eligible):
  q['pending']['remaining']-=1
  summary.append(q['title']+': one shared quest phase completed.')
  if q['pending']['remaining']>0:return
- q['outcomes'].append({'obstacle':q['steps'][q['step']],'method':q['pending']['label'],'actor':q['pending']['actor'],'spellId':q['pending']['spellId'],'ritualId':q['pending'].get('ritualId'),'legacyId':q['pending'].get('legacyId'),'householdId':q['pending'].get('householdId'),'journeyId':q['pending'].get('journeyId'),'result':content.OBSTACLES[q['steps'][q['step']]]['result']})
+ import companion_goals
+ result=companion_goals.result(q) if q['kind']=='ambition' else content.OBSTACLES[q['steps'][q['step']]]['result']
+ q['outcomes'].append({'obstacle':q['steps'][q['step']],'method':q['pending']['label'],'actor':q['pending']['actor'],'spellId':q['pending']['spellId'],'ritualId':q['pending'].get('ritualId'),'legacyId':q['pending'].get('legacyId'),'householdId':q['pending'].get('householdId'),'journeyId':q['pending'].get('journeyId'),'result':result})
  q['pending']=None;release(s,q);q['step']+=1;q['status']='ending' if q['step']==len(q['steps']) else 'interlude'
  summary.append(q['outcomes'][-1]['result']+' An optional conversation is ready; no time passes until you choose Advance again.')

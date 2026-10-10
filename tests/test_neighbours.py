@@ -183,7 +183,7 @@ class NeighbourTests(unittest.TestCase):
             for key in old:
                 if key not in ('schemaVersion','revision','utilityArtifactPlacements'): self.assertEqual(upgraded[key],old[key],key)
             self.assertEqual(upgraded['utilityArtifactPlacements'],{**old['utilityArtifactPlacements'],'capillary-mat':False})
-            with sqlite3.connect(Path(directory)/'campaign-before-schema-6-to-66.sqlite3') as db:
+            with sqlite3.connect(Path(directory)/f"campaign-before-schema-6-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3") as db:
                 self.assertEqual(json.loads(db.execute('SELECT state FROM campaign').fetchone()[0]),old)
             def act(kind,**fields):
                 payload={'requestId':uuid.uuid4().hex,'expectedRevision':store.read()['revision'],'action':{'type':kind,**fields}}

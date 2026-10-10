@@ -117,7 +117,7 @@ class FocusTests(unittest.TestCase):
             store=GameStore(directory);upgraded=store.read()
             for key in old:
                 if key not in ('schemaVersion','revision'):self.assertEqual(upgraded[key],old[key],key)
-            self.assertTrue((Path(directory)/'campaign-before-schema-7-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-7-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             payload={'requestId':uuid.uuid4().hex,'expectedRevision':upgraded['revision'],'action':{'type':'start-focus-inscription','characterId':'founder','inscriptionId':'steady-hand','materials':['sun-amber','binding-thread']}}
             first=store.action(payload);self.assertEqual(store.action(payload),first)
             self.assertEqual(first['sharedFunds'],194)

@@ -118,7 +118,7 @@ class LanternAdventureTests(unittest.TestCase):
   with tempfile.TemporaryDirectory() as directory:
    st=GameStore(directory)
    with sqlite3.connect(st.database) as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(self.s),))
-   st=GameStore(directory);current=st.read();self.assertEqual(current['schemaVersion'],66);self.assertTrue(Path(directory,'campaign-before-schema-53-to-66.sqlite3').exists())
+   st=GameStore(directory);current=st.read();self.assertEqual(current['schemaVersion'],66);self.assertTrue(Path(directory,f"campaign-before-schema-53-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
    for k,v in before.items():
     if k not in ('schemaVersion','revision'):self.assertEqual(current[k],v)
    req={'requestId':uuid.uuid4().hex,'expectedRevision':current['revision'],'action':{'type':'start-expedition','siteId':l.SITE,'companionIds':c.CAST}}

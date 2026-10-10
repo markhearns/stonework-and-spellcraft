@@ -24,8 +24,11 @@ def score(s, who, requirement, party=(), magic=False):
     recovered = party_journeys.bonus(s,skill) if party and s.get('expedition') and who in g.expedition_party(s) else 0
     import armoury
     gear,_=armoury.approach_bonus(s,who,requirement.get('equipmentTags',[]))
-    total = base + trained + help_bonus + enchanted + specialist + chemistry + recovered + gear
+    import ancestry_traits
+    ancestry = ancestry_traits.bonus(s,who,attr)
+    total = base + trained + help_bonus + enchanted + specialist + chemistry + recovered + gear + ancestry
     detail = f"{builds.ATTRIBUTES[attr]['name']} {base} + {g.CHARACTER_SKILLS[skill]['name']} {trained}"
+    if ancestry: detail += ' + '+ancestry_traits.for_person(s,who)['name']+' (ancestry) 1'
     if gear: detail += ' + applicable equipment '+str(gear)
     if recovered: detail += ' + recovered expedition legacy 1'
     if chemistry: detail += ' + practised teamwork 1 ('+g.character_profile(s,familiar)['name']+')'

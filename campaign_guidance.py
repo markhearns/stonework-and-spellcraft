@@ -135,8 +135,9 @@ def first_patrol(s):
     if travel:return travel
     if not p.progress(s,p.TRAIL)['discoveries']:
         return f.step('trail','Follow the Watchtower Trail','Choose your party and prepare the first journey.','expeditions',siteId=p.TRAIL)
-    if 'rhess' not in g.household_members(s):
-        return f.step('rhess','Invite Rhess through Contacts','Discuss her account, offer a visit in an available private bedroom, then ask whether she wants to stay. Membership needs a separate invitation.','contacts')
+    if not p.willing_ally(s):
+        if not p.guest_blockers(s):return f.step('rhess','Agree a guest alliance','Rhess will help with the wardstones as a guest. Permanent membership remains a separate choice.',view,{'type':'patrol-guest-ally'},'Agree the guest alliance')
+        return f.step('rhess','Invite Rhess through Contacts','Discuss her account and offer a visit in an available private bedroom. Once she arrives, agree a guest alliance here or discuss permanent membership in Contacts.','contacts')
     if not c['drillDone']:
         free=rest_assignment(s,['founder','rhess'],view,'The relief drill needs both participants resting at home.')
         if free:return free
@@ -149,8 +150,9 @@ def first_patrol(s):
     night=night_step(s,['founder','rhess'],c.get('finalReturnDay',c['returnedOn']) if finished else c['returnedOn'],view)
     if night:return night
     if not finished:
-        if not solo_life.offered(s,'rhess','fieldwork'):
+        if not p.guest_ally(s) and not solo_life.offered(s,'rhess','fieldwork'):
             return f.step('agreement','Agree fieldwork with Rhess','Review and agree her fieldwork role before selecting her for the wardstone expedition.','characterProfile',personId='rhess',characterTab='development')
+        if p.guest_ally(s):return f.step('wardstones','Return with your guest ally','You and Rhess will travel together to resolve the wardstones. Her guest agreement covers this journey; no household membership is added.',view,{'type':'start-expedition','siteId':p.WARD,'companionIds':['rhess']},'Depart with Rhess')
         return f.step('wardstones','Return to the Broken Wardstones with Rhess','Select Rhess in the expedition party. Her knowledge offers specific field methods when you reach the damaged boundary.','expeditions',siteId=p.WARD)
     return evening_step(s,view) or f.step('closing','Share the closing supper','Both of you have slept at home since the final return. Review the watch together.',view,{'type':'patrol-conclude'},'Share the closing supper')
 
@@ -168,7 +170,7 @@ def trial(s):
         return f.step('plan','Choose how to reopen the supply route','Review the three route plans below: one safe bypass, easier negotiation, or extra damage. Choose the approach you want to use.',view)
     mission=next((key for key in p.MISSIONS if key not in c['completed']),None)
     if mission:
-        row=f.step('mission',p.MISSIONS[mission]['name'],'Review the party, vitality, equipment and fieldwork agreements in the departure form below. You choose when to leave.',view)
+        row=f.step('mission',p.MISSIONS[mission]['name'],'Review the party, vitality, equipment and fieldwork agreements below. For a solo outing, recover to 6 vitality and equip protective armour or a shield. Guarded strikes trade damage for cover. One night restores up to 3 vitality; rest longer if needed.',view)
         row['blockers']=p.story_blockers(s,mission)
         return row
     return evening_step(s,view) or f.step('closing','Choose a permanent patrol improvement','Share supper and choose linked signals, recovery stores or road contracts below. The choice also awards 20 crowns and 2 advancement points to each member of the final story party.',view)

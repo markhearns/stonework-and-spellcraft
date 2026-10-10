@@ -78,7 +78,7 @@ class KeepingHearthTests(unittest.TestCase):
   self.assertNotIn('sabine',g.household_members(self.s));self.assertEqual(self.s['summoningContacts']['encounter-sabine']['contactStatus'],'closed')
  def test_drive_away_keeps_original_future_encounter_possible(self):
   self.play(choice='drive-away');self.assertEqual(k.case(self.s)['status'],'unmet');self.assertNotIn('sabine',self.s['people'])
-  self.assertTrue(k.quiet_ready(self.s));self.assertEqual(c.view(self.s)['occupiedCapacity'],0)
+  self.assertFalse(k.quiet_ready(self.s));self.assertEqual(c.view(self.s)['occupiedCapacity'],0)
  def test_resident_specialty_quests_and_household_scenes_are_real(self):
   self.play();self.recruit();self.assertIn('sabine',g.household_members(self.s));profile=deepcopy(self.s['people']['sabine'])
   self.act('choose-living-scene',sceneId='sabine:0',choice='release')
@@ -117,7 +117,7 @@ class KeepingHearthTests(unittest.TestCase):
   self.advance();self.assertEqual(self.s['containment']['project']['completedWorkPhases'],1);self.advance();self.assertIsNone(self.s['containment']['project'])
   self.assertEqual(c.work_phases(self.s,c.CASES['sabine']),2)
  def test_retry_persists_one_capture_identity(self):
-  self.play(stop='return')
+  self.play(stop='return');self.act('hearth-return',choice='capture');self.play(stop='return')
   with tempfile.TemporaryDirectory() as d:
    store=GameStore(d,start_type='fresh')
    with store.connect() as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(json.dumps(self.s),))

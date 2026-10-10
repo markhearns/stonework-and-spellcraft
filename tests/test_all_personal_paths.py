@@ -25,8 +25,8 @@ class AllPathTests(unittest.TestCase):
   m=f.initialize(self.s);m['aqueduct']={'completed':[x['id'] for x in f.STEPS[:f.STEPS.index(d)]],'enemyHp':{},'pending':None,'discoveries':[],'buffs':{}};m['vitality']={w:6 for w in g.household_members(self.s)};return d
  def test_all_seventeen_identities_have_three_distinct_paths_and_nine_talents(self):
   import signature_equipment as sig
-  self.assertEqual(set(p.PEOPLE),set(sig.ROOMS));self.assertEqual(len(p.CATALOG),144)
-  self.assertEqual(len({d['name'] for d in p.CATALOG.values()}),144)
+  self.assertEqual(set(p.PEOPLE),set(sig.ROOMS));self.assertEqual(len(p.CATALOG),153)
+  self.assertEqual(len({d['name'] for d in p.CATALOG.values()}),153)
   for who,person in p.PEOPLE.items():
    nodes=[d for d in p.CATALOG.values() if d['who']==who]
    self.assertEqual(len(nodes),9);self.assertEqual(len({d['branch'] for d in nodes}),3);self.assertEqual(person['room'],sig.ROOMS[who])
@@ -77,9 +77,9 @@ class AllPathTests(unittest.TestCase):
    if d['kind']!='passive':continue
    who=d['who'];r=p.ensure(self.s,who);r['passives']=[key];root=d['requires'];fx=p.preview(self.s,who,root)
    self.assertIn(d['name'], ' '.join(fx['breakdown']))
-  old=deepcopy(self.s);v=p.view(self.s);self.assertEqual(self.s,old);self.assertEqual(len(v),16)
+  old=deepcopy(self.s);v=p.view(self.s);self.assertEqual(self.s,old);self.assertEqual(len(v),17)
  def test_old_pending_technique_and_existing_choices_are_preserved(self):
   self.ready('kaede');self.act('path-prepare',characterId='kaede',talentId='turning-counter',prepared=True);self.at('kaede','enemy','undead');self.act('field-method',characterId='kaede',method='personal:turning-counter')
   for k in ('counter','healsAlly','restoresSelf','immune'):f.progress(self.s)['pending']['personal']['effects'].pop(k,None)
-  self.s['schemaVersion']=63;old=deepcopy(self.s);g.migrate_state(self.s);old['schemaVersion']=66;self.assertEqual(old,self.s);self.act('advance');self.assertEqual(f.progress(self.s)['enemyHp']['bones'],3)
+  self.s['schemaVersion']=63;old=deepcopy(self.s);g.migrate_state(self.s);old['schemaVersion']=g.CURRENT_SCHEMA_VERSION;self.assertEqual(old,self.s);self.act('advance');self.assertEqual(f.progress(self.s)['enemyHp']['bones'],3)
 if __name__=='__main__':unittest.main()

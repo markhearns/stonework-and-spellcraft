@@ -1,0 +1,115 @@
+{
+  "version": "0.111",
+  "schema": 70,
+  "python": {
+    "targeted_tests": 140,
+    "modules": [
+      "test_resident_friendships",
+      "test_foundation_chamber",
+      "test_resident_bonds",
+      "test_relationships",
+      "test_social_life",
+      "test_castle_mystery",
+      "test_magic_reference_v108",
+      "test_art_release",
+      "test_provisions",
+      "test_guidance",
+      "test_dialogue",
+      "test_household_chapters"
+    ],
+    "module_counts": {
+      "test_resident_friendships": 19,
+      "test_foundation_chamber": 15,
+      "test_resident_bonds": 17,
+      "test_relationships": 14,
+      "test_social_life": 12,
+      "test_castle_mystery": 8,
+      "test_magic_reference_v108": 3,
+      "test_art_release": 4,
+      "test_provisions": 9,
+      "test_guidance": 5,
+      "test_dialogue": 18,
+      "test_household_chapters": 16
+    },
+    "passed": true,
+    "total_unique_tests": 141,
+    "full_flow": {
+      "test": "test_nine_chapter_flow",
+      "tests": 1,
+      "passed": true,
+      "earned_routes": 2,
+      "chapters": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "cheats_used": false,
+      "serialized_reload_after_every_action": true
+    }
+  },
+  "connected_headless_ui": {
+    "passed": true,
+    "suites": [
+      "test_ui_resident_friendships.cjs",
+      "test_ui_foundation_chamber.cjs",
+      "test_ui_resident_bonds.cjs",
+      "test_ui_relationships.cjs",
+      "test_ui_magic_reference_v108.cjs",
+      "test_ui_guidance.cjs",
+      "test_ui_room_navigation.cjs"
+    ]
+  },
+  "javascript_syntax_passed": true,
+  "browser_layout_verified": false,
+  "browser_blocker": "No browser executable; Playwright Chromium download returned an invalid or truncated archive.",
+  "full_historical_suite_run": false,
+  "remote_server_deployed": false,
+  "resident_friendships": {
+    "authored_pair_stories": 7,
+    "authored_remembered_events": 28,
+    "general_activity_options": 3,
+    "works_for_other_and_generated_resident_pairs": true,
+    "thresholds": {
+      "meeting": 10,
+      "keepsake": 25,
+      "followup": 45,
+      "improved_cooperation": 70,
+      "tradition": 100
+    },
+    "keepsake_cost_crowns": 4,
+    "keepsake_phases": 1,
+    "cooperation": {
+      "base": 1,
+      "at_70_bonding": 2,
+      "stacking": "One strongest eligible pair per supported task",
+      "tasks": [
+        "shared research",
+        "living-index research",
+        "gardening",
+        "hunting",
+        "foraging"
+      ]
+    },
+    "invitation_expiry": null
+  },
+  "chapter_nine_and_ritual_preserved": true,
+  "runtime_artwork": {
+    "count": 398,
+    "all_previous_bytes_unchanged": true,
+    "new_assets": 0
+  },
+  "magic_reference_entries": 134,
+  "quality_fixes": [
+    "Distinct milestone save field preserves older friendship summaries",
+    "Headquarters room names work in dialogue, including foundation ritual chamber",
+    "Only completed participant-specific friendship and ritual memories enter generated conversation context",
+    "Foundation card grid fits narrow containers",
+    "Profile, Home, room, task and navigation links expose actual requirements and outcomes"
+  ]
+}

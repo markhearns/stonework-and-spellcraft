@@ -47,8 +47,8 @@ def view(s):
             else:n=next_step('wing','Your living wing is ready','All basic facilities are in place. The next Advance records the living-wing milestone and also resolves any assigned work. Review the phase before advancing.','phaseTasks')
     elif not returned:n=next_step('first-expedition','Take your first expedition','The old waterworks are open. Carry an available lantern to shorten survey work, investigate, and return with Water guidance. Travel and work each use Advance.','expeditions','command-room',siteId='old-waterworks')
     elif not residents:
-        if s['localEncounters']['maren']['status']=='introduced':
-            n=next_step('membership','Offer a visit, then discuss staying','A visit uses an available bed; membership is a separate conversation. Nobody is recruited or assigned work automatically.','summoning','entry-hall',personId='maren')
-        else:n=next_step('introduction','Meet someone nearby','A local introduction takes one assigned phase. Maren is available from the beginning; other introductions list their own requirements.','localEncounters','entry-hall')
+        if s['localEncounters']['koharu']['status']=='introduced':
+            n=next_step('membership','Offer a visit, then discuss staying','A visit uses an available bed; membership is a separate conversation. Nobody is recruited or assigned work automatically.','summoning','entry-hall',personId='koharu')
+        else:n=next_step('introduction','Meet someone nearby','A local introduction takes one assigned phase. Koharu is available from the beginning; other introductions list their own requirements.','localEncounters','entry-hall')
     else:n=next_step('settled','Choose what grows next','Your basic home, first discovery and household are established. Explore useful headquarters rooms, pursue research, or agree work with a willing resident.','headquarters')
     return {'milestones':milestones,'next':n,'complete':all(r['complete'] for r in milestones),'optional':True}

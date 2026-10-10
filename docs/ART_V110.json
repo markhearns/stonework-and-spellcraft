@@ -1,0 +1,19 @@
+{
+  "version": "0.110",
+  "mode": "built-in image generation",
+  "prompt": "Use case: stylized-concept. Asset type: landscape room illustration for Stonework and Spellcraft, a fantasy castle restoration RPG. Primary request: an empty restored ritual chamber beneath a modest old castle, comfortably furnished for two adults to spend private time together, with no people. Natural eye-level perspective, landscape 3:2 composition, believable small vaulted underground stone room with absolutely no windows. A low broad timber bed with neatly folded plain linen and muted violet blanket, two cushions; two simple chairs and a small table holding a closed ledger and measuring tools. A door with a working latch, plain wall lamps, a ventilation grille. Shallow carefully carved lines run from a modest circular pattern in the floor to an exposed stone service junction on one wall; a small lever and restrained dull brass fittings show practical magical craftsmanship. No altar, restraints, religious symbols or sexual objects. Antique engraving-inspired fantasy illustration with intricate etched linework, fine hatching and crosshatching, worn print texture and rich aged materials. Historically grounded craftsmanship. Midnight navy and charcoal, muted violet, natural wood and linen colours, sparse dull brass. Dim but readable, warm and welcoming. Very faint violet inlay only, no glowing spectacle. Avoid palatial luxury, glossy CGI, photorealism, crushed blacks, ornate gold, giant hall, modern furniture. Keep walkways clear and architecture plausible. No text, interface, logo, decorative frame or watermark.",
+  "assets": [
+    {
+      "id": "foundation-chamber",
+      "path": "static/assets/rooms/foundation-chamber.webp",
+      "source": "exec-29af8e6e-28ba-420e-9a0c-0a391e6e5819.png",
+      "size": [
+        1200,
+        800
+      ],
+      "bytes": 1550976,
+      "sha256": "03b38ecc303e5f00e283219941c28751170f496051b881e1a855b1fc1ad6f4de",
+      "encoding": "Lossless WebP; 1200 × 800 display copy"
+    }
+  ]
+}

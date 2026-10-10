@@ -40,7 +40,7 @@ const context = vm.createContext({
  const act=a=>click({shapeAction:JSON.stringify(a)});
  await click({view:'castle'});assert.match(element('#app').innerHTML,/The House Takes Shape/);
  await click({view:'houseShape'});assert.match(element('#app').innerHTML,/A working archive/);assert.match(element('#app').innerHTML,/A dependable kitchen garden/);assert.match(element('#app').innerHTML,/A working commission bench/);
- assert.match(element('#app').innerHTML,/data-person-portrait="maren"/);
+ assert.match(element('#app').innerHTML,/data-person-portrait="koharu"/);
  await act({type:'shape-start',pathId:'cultivation'});
  await act({type:'shape-visibility',enabled:false});assert.equal(value('state.houseShapeView.enabled'),false);
  await act({type:'shape-visibility',enabled:true});
@@ -55,7 +55,7 @@ const context = vm.createContext({
    assert.match(element('#app').innerHTML,/No bonus to sales/);
    await act({type:'shape-design',choice:'nursery'});
   }else if(v.stage==='planning'){
-   if(!r.workers.includes('maren')){await act({type:'shape-include',characterId:'maren'});continue;}
+   if(!r.workers.includes('koharu')){await act({type:'shape-include',characterId:'koharu'});continue;}
    const missing=Object.entries(d.inputs).find(([key,n])=>value('state.materialInventory['+JSON.stringify(key)+']-state.materialReserveTargets['+JSON.stringify(key)+']')<n);
    const cost=missing?value('state.materialCatalog['+JSON.stringify(missing[0])+'].price'):d.cost;
    if(value('state.sharedFunds')<cost){await act(value('state.founderAssignment')==='commissions'?{type:'advance'}:{type:'assign-founder',assignment:'commissions'});continue;}
@@ -63,7 +63,7 @@ const context = vm.createContext({
    if(value('state.founderAssignment')!=='rest'){await act({type:'assign-founder',assignment:'rest'});continue;}
    assert.equal(v.blockers.length,0,JSON.stringify(v.blockers));await act({type:'shape-fund'});
   }else if(v.stage==='construction'){
-   if(!sawPaused){await act({type:'shape-pause'});assert.match(element('#app').innerHTML,/Work is paused/);await act({type:'shape-resume',characterId:'founder'});await act({type:'shape-resume',characterId:'maren'});sawPaused=true;}
+   if(!sawPaused){await act({type:'shape-pause'});assert.match(element('#app').innerHTML,/Work is paused/);await act({type:'shape-resume',characterId:'founder'});await act({type:'shape-resume',characterId:'koharu'});sawPaused=true;}
    await act({type:'advance'});
   }else if(v.stage==='gathering')await act({type:'shape-gather',choice:'credit'});
   else if(v.stage==='ending')await act({type:'shape-finish'});
@@ -74,7 +74,7 @@ const context = vm.createContext({
   }
  }
  assert.ok(steps<180);assert.ok(sawPaused);assert.equal(value('state.testing.used'),false);
- assert.equal(value('state.houseShapeView.record.project.contributions.maren'),3);
+ assert.equal(value('state.houseShapeView.record.project.contributions.koharu'),3);
  assert.match(element('#app').innerHTML,/What grows next/);
  await vm.runInContext('readState().then(result=>{state=result;render();})',context);
  assert.equal(value('state.houseShapeView.record.finished'),true);

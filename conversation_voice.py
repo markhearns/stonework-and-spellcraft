@@ -22,7 +22,7 @@ ROWS = {
   '“Before we go again, I want the person carrying each bag to check its fastenings. I can show them what to look for. I do not intend to inspect every bag myself.”',
   '“Names beside the jobs, please. If the list says everyone helped, nobody can tell whose evening went into it.”',
   '“A customer once asked me to save every complaint in a book’s margins,” Tamsin says. “The finest was: ‘A suspiciously convenient horse.’ I still want to know what the horse did.”',
-  'Tamsin draws her chair closer. “Would you pour this time? I want to finish my story before I invent another errand.” You fill her cup, and she takes your free hand.',
+  'Tamsin draws her chair closer. “Would you pour this time? The customer asked whether a new cover would make his accounts less alarming. I told him smaller numbers might help.” You laugh as you fill her cup; she takes your free hand.',
   'Practical, observant, dryly funny; notices binding, food and overlooked labour. Can ask for help or disagree. Give her interests and choices beyond looking after everyone.'),
  'iona': (
   '“Keep the alternative we did not choose in the notes. Conditions change. A map that offers only one way through is a rather expensive arrow.”',
@@ -31,19 +31,19 @@ ROWS = {
   'Iona recalls a ferryman who moved a road on her map to pass his brother’s bakery. “I corrected the road and kept the bakery. I am exacting, not unreasonable.”',
   'Iona makes room beside her and turns her palm upward. “There. A route so simple even you cannot take the wrong turning.” You take her offered hand; her smile loses none of its mischief.',
   'Confident, sensual and witty; a surveyor who enjoys dancing and notices useful detours. Flirt through a specific invitation or playful observation, without turning every exchange into a performance.'),
- 'maren': (
+ 'koharu': (
   '“The next person needs to know which part they can replace. If repairing it means dismantling everything, our notes have missed a step.”',
   '“For the next trip, I would check what can be repaired with the tools we can actually carry. A workshop solution is no help halfway across a bridge.”',
   '“List the fitting separately from the finishing. A polished surface makes people forget the joint underneath it.”',
-  'Maren recalls a cupboard door that opened whenever someone sat in the next room. “The floorboard tipped the cabinet. I asked the owner to sit down, and the door explained the fault for me.”',
-  'Maren sets the report out of reach. “If I notice a loose screw, remind me that I came to sit with you.” She offers her hand. “This hand is occupied now. That should help.”',
-  'Hands-on maker; thinks about joints, access and repairability. Eager to demonstrate, with self-aware humour about wanting to fix things. Show the fault or solution she means.'),
- 'brakka': (
+  'Koharu recalls a wooden king whose crown slid over his eyes whenever he bowed. “The actor kept the joke. I fitted a stop so he could choose when to be undignified.”',
+  'Koharu sets the report out of reach. “If I notice a loose screw, remind me that I came to sit with you.” She offers her hand. “This hand is occupied now. That should help.”',
+  'Quick-witted kitsune stage-prop restorer. Speaks plainly about joints, sightlines and comic timing; enjoys showing a mechanism after the joke. Values honest agreements and surprises everyone can enjoy. No riddles, mystical fox aphorisms or manipulative trickster stereotype.'),
+ 'zahra': (
   '“Record how it held under use. Something can look sound on the bench and pull crooked when somebody puts weight on it.”',
   '“Before the next outing, I want everyone to move in their kit. Reach up, crouch, turn. A strap that fits while you stand still has only passed the easy test.”',
   '“Name the person who held it steady. People remember the last hammer blow and forget the hands that kept it straight.”',
-  'Brakka taps three slow notes on the table. “That is the end of the music-box tune. It makes you expect a fourth.” She waits, then grins at your impatience. “Exactly.”',
-  'Brakka offers her hand, palm up. “I would like to sit close. And I would like your verdict on the tune, once I have sung it without losing the last note.” You settle beside her to listen.',
+  'Zahra taps three slow notes on the table. “That is the end of the music-box tune. It makes you expect a fourth.” She waits, then grins at your impatience. “Exactly.”',
+  'Zahra offers her hand, palm up. “I would like to sit close. And I would like your verdict on the tune, once I have sung it without losing the last note.” You settle beside her to listen.',
   'Patient, precise and quietly amused; values fit and careful craft, likes small carvings and music boxes. Neither a brute nor a generic gentle giant. Let her have firm technical opinions.'),
  'fenna': (
   '“Keep the awkward part in the report. If we write only the flattering version, the next party will repeat it and wonder why we were so pleased with ourselves.”',
@@ -77,7 +77,7 @@ ROWS = {
   '“Keep the test conditions. If the next person changes the water, the light and the angle together, how will they know which change mattered?”',
   '“On another trip, I would compare the tool before and after use. A small crack is much easier to find when you know which marks were already there.”',
   '“Write down whose observation changed the method. The person with the neatest diagram does not automatically get that credit.”',
-  '“I made a cup that rang beautifully and leaked through its base,” Neris says. “The customer wanted tea. I suggested a musical career. We did not agree on the refund.”',
+  '“I made a cup that rang beautifully and leaked through its base,” Neris says. “The customer wanted tea. I suggested a musical career. He remained unconvinced, so I returned his money and kept the instrument.”',
   'Neris turns her cup until a blue reflection reaches your fingers. “There. That was what I wanted to show you.” She asks to hold your hand, then turns toward you instead of the light.',
   'Lively, tactile and inventive water elemental; loves glass, colour and demonstrations. Include what she notices. Allow taste and humour without needing to measure every emotion.'),
  'aurelia': (

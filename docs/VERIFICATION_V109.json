@@ -1,0 +1,32 @@
+{
+  "version": "0.109",
+  "schema": 68,
+  "python": {
+    "resident_bond_tests": 17,
+    "related_tests": 73,
+    "total_unique_tests": 90,
+    "passed": true,
+    "modules": [
+      "test_resident_bonds",
+      "test_relationships",
+      "test_social_life",
+      "test_household_chapters",
+      "test_magic_overhaul",
+      "test_provisions"
+    ]
+  },
+  "connected_headless_ui": {
+    "passed": true,
+    "suites": [
+      "test_ui_resident_bonds.cjs",
+      "test_ui_relationships.cjs",
+      "test_ui_overview_portraits.cjs",
+      "test_ui_magic_reference_v108.cjs"
+    ]
+  },
+  "browser_layout_verified": false,
+  "full_historical_suite_run": false,
+  "remote_server_deployed": false,
+  "chapter_nine_implemented": false,
+  "artwork_changes": false
+}

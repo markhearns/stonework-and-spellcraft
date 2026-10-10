@@ -1,4 +1,4 @@
-"""Costed, two-person, permanent household rituals with explicit suspension."""
+"""Costed two-person rituals: permanent circles and one-expedition preparations."""
 from copy import deepcopy
 import character_approaches as aptitudes
 CATALOGUE={
@@ -19,6 +19,7 @@ def blockers(s,key,leader,partner):
  import game as g,headquarters as h
  d=CATALOGUE[key];r=[];members=g.household_members(s)
  if state(s)['project']:r.append('Finish or cancel the current household ritual first.')
+ if d.get('repeatable') and key in s.get('fieldPreparations',{}):r.append('This preparation is ready for the next field patrol. Depart before making another batch.')
  if key in state(s)['completed']:r.append('This lasting ritual is already inscribed; use its activation control.')
  if leader not in members or partner not in members or leader==partner:r.append('Choose two different resident participants.')
  else:
@@ -71,14 +72,16 @@ def resolve(s,summary):
  if not p or not ready(s,p):return
  p['done']+=1;d=CATALOGUE[p['id']];required=p.get('requiredPhases',d['phases']);summary.append(d['name']+': '+str(p['done'])+'/'+str(required)+' shared phases.')
  if p['done']<required:return
- state(s)['completed'][p['id']]={'active':True,'participants':p['participants'][:],'dayNumber':s['dayNumber'],'phase':s['currentDayPhase']}
+ if d.get('repeatable'):
+  s.setdefault('fieldPreparations',{})[p['id']]={'dayNumber':s['dayNumber'],'phase':s['currentDayPhase']}
+ else:state(s)['completed'][p['id']]={'active':True,'participants':p['participants'][:],'dayNumber':s['dayNumber'],'phase':s['currentDayPhase']}
  for who in p['participants']:g.set_character_assignment(s,who,'rest')
- state(s)['project']=None;summary.append(d['name']+' is now a lasting household enchantment. '+d['effect'])
+ state(s)['project']=None;summary.append(d['name']+(' is ready for the next outgoing field patrol. ' if d.get('repeatable') else ' is now a lasting household enchantment. ')+d['effect'])
 def view(s):
  import game as g
  members=g.household_members(s);p=state(s)['project']
- return {'project':deepcopy(p),'working':bool(p and ready(s,p)),'completed':deepcopy(state(s)['completed']),'catalogue':deepcopy(CATALOGUE),'options':{key:[{'leaderId':a,'partnerId':b,'phases':ritual_phases(s,key,[a,b]),'blockers':blockers(s,key,a,b)} for a in members for b in members if a!=b] for key in CATALOGUE}}
+ return {'preparations':deepcopy(s.get('fieldPreparations',{})),'project':deepcopy(p),'working':bool(p and ready(s,p)),'completed':deepcopy(state(s)['completed']),'catalogue':deepcopy(CATALOGUE),'options':{key:[{'leaderId':a,'partnerId':b,'phases':ritual_phases(s,key,[a,b]),'blockers':blockers(s,key,a,b)} for a in members for b in members if a!=b] for key in CATALOGUE}}
 
 
 def ritual_phases(s,key,participants):
- return CATALOGUE[key]['phases']-int(all(aptitudes.score(s,p,aptitudes.spec('resolve','channeling'))['qualified'] for p in participants))
+ return max(1,CATALOGUE[key]['phases']-int(all(aptitudes.score(s,p,aptitudes.spec('resolve','channeling'))['qualified'] for p in participants)))

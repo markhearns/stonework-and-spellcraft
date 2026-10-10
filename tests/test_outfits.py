@@ -27,7 +27,7 @@ class OutfitTests(unittest.TestCase):
     def test_migration_preserves_overrides_styles_and_history(self):
         s=self.s;s['schemaVersion']=44;s.pop('outfitProgression',None)
         s['assetOverrides']['mira']='/user-assets/accepted.png';before=deepcopy(s)
-        g.migrate_state(s);self.assertEqual(s['schemaVersion'],66)
+        g.migrate_state(s);self.assertEqual(s['schemaVersion'],g.CURRENT_SCHEMA_VERSION)
         for k in ('assetOverrides','wardrobe','savedStyles','conversation','livingStories'):self.assertEqual(s[k],before[k])
         self.assertEqual(s['outfitProgression'],{})
         self.assertEqual(g.migrate_state(json.loads(json.dumps(s))),s)
@@ -43,9 +43,9 @@ class OutfitTests(unittest.TestCase):
     def test_fresh_campaign_has_no_phantom_companions(self):
         self.assertEqual(outfits.view(g.new_campaign('fresh')), {})
     def test_complete_cast_has_two_distinct_art_slots(self):
-        self.assertEqual(len(outfits.CATALOGUE),15)
+        self.assertEqual(len(outfits.CATALOGUE),16)
         ids=[look['id'] for looks in outfits.CATALOGUE.values() for look in looks.values()]
-        self.assertEqual(len(set(ids)),30)
+        self.assertEqual(len(set(ids)),32)
     def test_all_three_portraits_per_character_are_separate_bundled_files(self):
         import hashlib
         from pathlib import Path
@@ -55,7 +55,7 @@ class OutfitTests(unittest.TestCase):
             urls=[g.ORIGINAL_ASSETS[key] for key in [who,looks['2']['id'],looks['3']['id']]]
             self.assertEqual(len(set(urls)),3,who)
             all_hashes.extend(hashlib.sha256((root/url.lstrip('/')).read_bytes()).hexdigest() for url in urls)
-        self.assertEqual(len(set(all_hashes)),45)
+        self.assertEqual(len(set(all_hashes)),48)
     def test_outfit_art_review_rollback_preserves_progression(self):
         self.memory('mira-greenhouse');self.act('accept-outfit-invitation');self.act('choose-outfit')
         before=deepcopy(self.s['outfitProgression'])

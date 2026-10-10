@@ -58,22 +58,23 @@ class FirstHearthTests(unittest.TestCase):
         self.assertIn('hearth-margin',self.s['castleMystery']['discoveries'])
         self.assertFalse(self.s['testing']['used'])
         self.assertGreaterEqual(self.s['sharedFunds'],0)
-        self.assertLessEqual(len(phased),30)
+        self.assertLessEqual(len(phased),34)
         return actions,phased
 
     def test_solo_salvage_playthrough_no_cheats_or_extra_resources(self):
         actions,phased=self.play(reload_each=True)
         self.assertEqual(g.household_members(self.s),['founder'])
         self.assertEqual(self.s['materialInventory']['porous-clay'],1)
-        self.assertFalse(any(a['type']=='buy-material' for a in actions))
+        self.assertEqual([a['materialId'] for a in actions if a['type']=='buy-material'],['silver-ivy','sun-amber'])
+        self.assertTrue(any(sp['ownerId']=='founder' and sp['formId']=='warm-twist' and sp['castCount'] for sp in self.s['spellbook']))
         self.assertTrue(all(m['complete'] for m in h.view(self.s)['milestones']))
 
     def test_company_survey_playthrough_and_chosen_next_direction(self):
         actions,phased=self.play(company='meet',approach='survey',conclusion='household')
-        self.assertEqual(self.s['localEncounters']['maren']['status'],'introduced')
-        self.assertNotIn('maren',g.household_members(self.s),'A meeting is not membership')
+        self.assertEqual(self.s['localEncounters']['koharu']['status'],'introduced')
+        self.assertNotIn('koharu',g.household_members(self.s),'A meeting is not membership')
         self.assertEqual(h.view(self.s)['next']['target']['view'],'peopleHub')
-        self.assertEqual(h.record(self.s)['memories']['repair-notes']['personId'],'maren')
+        self.assertEqual(h.record(self.s)['memories']['repair-notes']['personId'],'koharu')
         self.assertTrue(any(a['type']=='buy-material' and a['materialId']=='porous-clay' for a in actions))
 
     def test_pausing_and_resuming_keeps_exact_funding_and_work(self):
@@ -165,12 +166,12 @@ class FirstHearthTests(unittest.TestCase):
         self.act('start-crafting',recipeId='warming-lantern',materials=['sun-amber','binding-thread'])
         self.advance(2)
         self.act('first-hearth-choice',sceneId='company',choiceId='meet')
-        self.act('start-local-visit',encounterId='maren')
+        self.act('start-local-visit',encounterId='koharu')
         before=deepcopy(self.s['localVisit'])
         self.act('first-hearth-solo')
         self.assertEqual(self.s['localVisit'],before)
         self.assertEqual(self.s['founderAssignment'],'local-visit')
-        self.assertEqual(h.view(self.s)['next']['id'],'fieldwork')
+        self.assertEqual(h.view(self.s)['next']['id'],'field-kit')
 
     def test_evening_waits_for_evening_and_survives_delay(self):
         self.play()
@@ -187,13 +188,13 @@ class FirstHearthTests(unittest.TestCase):
         import dialogue
         import summoning
         self.play(company='meet')
-        contact=next(k for k,c in self.s['summoningContacts'].items() if c['personId']=='maren')
-        for topic in summoning.candidate_catalogue(self.s)['maren']['topics']:
+        contact=next(k for k,c in self.s['summoningContacts'].items() if c['personId']=='koharu')
+        for topic in summoning.candidate_catalogue(self.s)['koharu']['topics']:
             self.act('summoning-talk',contactId=contact,topic=topic)
         self.act('summoning-invite',contactId=contact,roomId='bedchamber');self.advance()
         self.act('summoning-ask-stay',contactId=contact)
         self.act('summoning-household-decision',contactId=contact,decision='invite-to-stay')
-        context=dialogue.dialogue_context(self.s,'Remember the repair list?','maren')
+        context=dialogue.dialogue_context(self.s,'Remember the repair list?','koharu')
         # dialogue_context returns the model message list; inspect its structured user facts.
         text=json.dumps(context)
         self.assertIn('The respectable end of the repair list',text)

@@ -1,0 +1,273 @@
+{
+  "version": "0.117",
+  "schema": 74,
+  "python": {
+    "result": "passed",
+    "tests": 172,
+    "modules": [
+      "test_content_v117",
+      "test_combat_magic_v117",
+      "test_magic_overhaul",
+      "test_magic_reference_v108",
+      "test_bestiary_v105",
+      "test_arrival_paths",
+      "test_field_patrols",
+      "test_patrol_refinement",
+      "test_armoury",
+      "test_armoury_integration",
+      "test_containment",
+      "test_release_v116",
+      "test_cheat_tools",
+      "test_art_release"
+    ],
+    "command": "PYTHONPATH=.:tests python -m unittest test_content_v117 test_combat_magic_v117 test_magic_overhaul test_magic_reference_v108 test_bestiary_v105 test_arrival_paths test_field_patrols test_patrol_refinement test_armoury test_armoury_integration test_containment test_release_v116 test_cheat_tools test_art_release -q",
+    "finalCombatRerun": "----------------------------------------------------------------------\nRan 32 tests in 3.275s\n\nOK"
+  },
+  "connectedUISuites": {
+    "passed": [
+      "test_ui_field_patrols.cjs",
+      "test_ui_armoury.cjs",
+      "test_ui_bestiary_v105.cjs",
+      "test_ui_progression_v114.cjs",
+      "test_ui_companion_threads.cjs",
+      "test_ui_release_v116.cjs",
+      "test_ui_magic.cjs",
+      "test_ui_magic_reference_v108.cjs",
+      "test_ui_content_v117.cjs",
+      "test_ui_arrivals.cjs",
+      "test_ui_containment.cjs"
+    ],
+    "method": "Shipped JavaScript in Node VM connected to real Python GameStore; not rendered browser layout QA",
+    "scope": "Creature counters, spell choices and durations, preparation consumption, equipment, recruitment party form, capture and release, ordinary visits, companion conversations, progression, Help and magic reference"
+  },
+  "artwork": {
+    "runtimeImages": 451,
+    "newExports": 51,
+    "newExportBytes": 4277902,
+    "sourceMasters": 41,
+    "catfolkBandit": "Corrected master and final WebP visually inspected at enlarged size. Only feline top ears visible; both human-ear regions covered by opaque hair.",
+    "integrity": "All runtime asset paths, manifest hashes, byte sizes and server image responses checked."
+  },
+  "balance": {
+    "method": "Ten real completed combat patrols with four members, ordinary swords and coats, Might 6/Athletics 2 and Chapter 8 signals; ordinary counters, no rare accessories or new spells required.",
+    "results": [
+      {
+        "creature": "owlbear",
+        "complete": true,
+        "actions": 5,
+        "vitality": {
+          "founder": 4,
+          "rhess": 6,
+          "elowen": 6,
+          "kaede": 6
+        },
+        "steps": [
+          "founder:strike",
+          "founder:strike",
+          "founder:strike",
+          "founder:strike",
+          "founder:strike"
+        ]
+      },
+      {
+        "creature": "rust-beetle",
+        "complete": true,
+        "actions": 8,
+        "vitality": {
+          "founder": 1,
+          "rhess": 6,
+          "elowen": 6,
+          "kaede": 6
+        },
+        "steps": [
+          "founder:strike",
+          "founder:strike",
+          "founder:strike",
+          "founder:strike",
+          "founder:strike",
+          "founder:creature:wash",
+          "founder:guard",
+          "founder:strike"
+        ]
+      },
+      {
+        "creature": "blink-lynx",
+        "complete": true,
+        "actions": 5,
+        "vitality": {
+          "founder": 5,
+          "rhess": 6,
+          "elowen": 6,
+          "kaede": 6
+        },
+        "steps": [
+          "founder:creature:track",
+          "founder:strike",
+          "founder:strike",
+          "founder:creature:track",
+          "founder:strike"
+        ]
+      },
+      {
+        "creature": "cliff-harpy",
+        "complete": true,
+        "actions": 5,
+        "vitality": {
+          "founder": 4,
+          "rhess": 6,
+          "elowen": 6,
+          "kaede": 5
+        },
+        "steps": [
+          "founder:strike",
+          "rhess:strike",
+          "rhess:strike",
+          "founder:strike",
+          "founder:strike"
+        ]
+      },
+      {
+        "creature": "will-o-wisp",
+        "complete": true,
+        "actions": 5,
+        "vitality": {
+          "founder": 5,
+          "rhess": 6,
+          "elowen": 6,
+          "kaede": 6
+        },
+        "steps": [
+          "founder:creature:path",
+          "founder:strike",
+          "founder:strike",
+          "founder:creature:path",
+          "founder:strike"
+        ]
+      },
+      {
+        "creature": "basilisk",
+        "complete": true,
+        "actions": 19,
+        "vitality": {
+          "founder": 4,
+          "rhess": 6,
+          "elowen": 6,
+          "kaede": 5
+        },
+        "steps": [
+          "founder:strike",
+          "founder:creature:screen",
+          "founder:strike",
+          "kaede:creature:treat:founder",
+          "founder:creature:screen",
+          "founder:strike",
+          "rhess:strike",
+          "founder:creature:screen",
+          "founder:strike",
+          "rhess:creature:treat:founder",
+          "founder:creature:screen",
+          "founder:strike",
+          "founder:creature:treat:elowen",
+          "founder:creature:screen",
+          "founder:strike",
+          "rhess:strike",
+          "founder:creature:screen",
+          "founder:strike",
+          "rhess:strike"
+        ]
+      },
+      {
+        "creature": "manticore",
+        "complete": true,
+        "actions": 7,
+        "vitality": {
+          "founder": 1,
+          "rhess": 6,
+          "elowen": 6,
+          "kaede": 6
+        },
+        "steps": [
+          "founder:creature:cover",
+          "founder:strike",
+          "founder:strike",
+          "kaede:creature:cover",
+          "founder:strike",
+          "founder:guard",
+          "founder:strike"
+        ]
+      },
+      {
+        "creature": "wyvern",
+        "complete": true,
+        "actions": 7,
+        "vitality": {
+          "founder": 1,
+          "rhess": 6,
+          "elowen": 6,
+          "kaede": 6
+        },
+        "steps": [
+          "founder:creature:snare",
+          "founder:strike",
+          "founder:strike",
+          "kaede:creature:snare",
+          "founder:strike",
+          "founder:guard",
+          "founder:creature:snare"
+        ]
+      },
+      {
+        "creature": "marsh-hydra",
+        "complete": true,
+        "actions": 11,
+        "vitality": {
+          "founder": 6,
+          "rhess": 6,
+          "elowen": 6,
+          "kaede": 6
+        },
+        "steps": [
+          "founder:creature:pin",
+          "founder:creature:pin",
+          "founder:creature:heat",
+          "founder:strike",
+          "founder:strike",
+          "founder:creature:heat",
+          "founder:strike",
+          "founder:strike",
+          "founder:creature:heat",
+          "founder:strike",
+          "founder:strike"
+        ]
+      },
+      {
+        "creature": "runebound-colossus",
+        "complete": true,
+        "actions": 7,
+        "vitality": {
+          "founder": 6,
+          "rhess": 6,
+          "elowen": 6,
+          "kaede": 6
+        },
+        "steps": [
+          "founder:creature:disconnect",
+          "founder:creature:disconnect",
+          "founder:creature:disconnect",
+          "founder:strike",
+          "founder:strike",
+          "founder:strike",
+          "founder:strike"
+        ]
+      }
+    ],
+    "limits": "Deterministic coverage confirms viable encounters; not a claim of exhaustive difficulty tuning."
+  },
+  "limitations": [
+    "Rendered desktop/mobile browser layout not verified.",
+    "No hosted deployment.",
+    "Bovinefolk replacement awaits user selection.",
+    "Eris/Selene co-op remains deferred."
+  ],
+  "storage": "Game package excludes live campaign data, caches and source-art masters; source artwork is separate."
+}

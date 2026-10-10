@@ -23,8 +23,9 @@ const context = vm.createContext({
   window:{scrollTo(){}},location:{reload(){}},
   fetch:async(url, options)=>{
     const body = options?.body || '{}';
-    const json=JSON.parse(execFileSync(process.env.PYTHON || 'python', ['-c',bridge,directory,url], {input:body, encoding:'utf8'}));
+    const json=JSON.parse(execFileSync(process.env.PYTHON || 'python', ['-c',bridge,directory,url], {input:body, encoding:'utf8',maxBuffer:32*1024*1024}));
     if(url==='/api/campaigns' && options?.method==='POST' && dropCreationResponse) {dropCreationResponse=false;throw new Error('Simulated lost response');}
+    if(json.error)console.error(url,json.error);
     return {ok:!json.error,async json(){return json;}};
   }
 });
@@ -45,7 +46,7 @@ with store.connect() as db:db.execute('UPDATE campaign SET state=? WHERE id=1',(
  const read=expression=>vm.runInContext(expression,context);
  const care=(action,who='',extra={})=>click({containmentAction:action,carePerson:who,...extra});
  const advance=async n=>{for(let i=0;i<n;i++)await click({action:'advance'});};
- await click({view:'containment'});assert.match(element('#app').innerHTML,/optional maximum 10/);
+ await click({view:'containment'});assert.match(element('#app').innerHTML,/optional maximum 2/);
  await care('build-containment','',{chamberId:'echo-1'});await advance(1);
  await click({founder:'rest'});await advance(1);
  assert.equal(read('state.containment.project.completedWorkPhases'),1);

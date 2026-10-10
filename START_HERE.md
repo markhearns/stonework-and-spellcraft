@@ -1,34 +1,32 @@
-# Stonework and Spellcraft v0.105
+# Stonework and Spellcraft v0.119
 
-1. If upgrading, stop the old server and preserve the complete existing `data/` directory, including campaign subfolders and `data/assets`.
-2. Extract this version and copy that complete directory into the game folder.
-3. Run `python server.py` and open the printed local address.
-4. Continue your save or start a fresh game. Home offers current chapter guidance.
+This update gives every named companion a finite personal goal, branching decisions, paid work stages, a distinct success scene and persistent finished results. Open a companion’s profile → Quests. Elowen has five stages; everyone else has four. Finished works appear in their rooms and can be discussed afterward. See `docs/COMPANION_GOALS_V119.md` for the full list and actual reward effects.
 
-Eight connected chapters lead from settling in to castle development, defense, enchanting, household supply, the first patrol and the first real defense of the approach. Your scholar and all 15 named residents retain their personal paths and focused character-building workspace. Save schema is now 66; an automatic migration backup is created when upgrading an older database.
+Extract into a clean folder. Install Python 3.12 or later, open a terminal in `stonework-and-spellcraft`, and run `python server.py`. Open `http://127.0.0.1:8080/` and choose **New game → Fresh beginning**. Hard-refresh any existing browser tab. If you have a save to keep, copy the complete `data/` folder from your previous installation before starting the new server.
 
-New in this version: Adventures → Creatures and Peoples contains 14 creature entries and 21 ancestry references with generic illustrations. Encounters draw from shared creature profiles and reuse their artwork. Sightings, successful encounters and assigned library study fill out creature knowledge. Adventures → Creature bounties offers crown-paying requests after Chapter 7, with clients, reasons and exact rewards. Household Hunting remains the existing generic food task.
+The castle retains one Ember and one Quiet chamber. The full map lists bedroom and quarters occupants, and profiles show accommodation. Ancestries provide one small named capability bonus. Ogrekin is common; Kaede's valley-glassworks lead opens after the first hearth-ward study and leads to a rescue before invitation. No summoning ritual is required. Help and Cheats reflect the current systems.
 
-Rare creature components are used in advanced enchantments, rank-two signature upgrades and three permanent castle improvements. Appropriate creatures also supply existing materials. The bestiary lists material sources and uses. Regular suppliers do not sell rare components.
+Koharu replaces Maren with internal ID **`koharu`** and retains the **workshop** association. She is a slight-built adult kitsune stage-prop restorer, with loose dark hair and matching dark fox ears and tail. Meet her through the nearby theatre workshop; this local introduction needs no summoning ritual. Her portraits and Tamsin's and Fenna's portraits have corrected ear anatomy, as do the Kitsune, Catfolk and Wolfkin ancestry pictures.
 
-The game includes 35 new illustrations with separate thumbnails. Full-resolution masters stay in a separate optional source-art archive. No master images are bundled in the game.
+You do not need a text model for solo play. Collect saved local reports for rescue/capture quests or prepare a magical invitation and complete the paid contact work. Custom identity authoring requires Cheats. Then follow the ordinary visit and joining steps. Created residents' conversations include three specific replies and saved memories. Personal-story preparation and phase accounts also work offline. Eris/Selene co-op remains deferred. Bovinefolk replacement is pending your choice.
 
-Start from Home → **Current work** for projects, paid commissions, tasks and routines, or companion improvements. Find objectives under **Adventures → Field patrols** after Chapter 7. Shared-history invitations appear in the activity feed and each companion's Relationships tab. Continue the investigation under **Castle mystery**.
+Zahra replaces Brakka. Her internal ID is **`zahra`**, her ancestry is **Djinn**, and her associated room is still the **smithy**. Restore the conservatory to find her letter, then use the exotic contact ritual to meet her. Her portraits, dialogue and character systems use her new identity.
 
-Instructions and conversations follow the standing plain-English rule. Existing portraits, including Iona's dark-haired succubus design, are unchanged.
+Follow Home guidance through the opening. It now includes ordinary field equipment and learning, preparing and casting Warm-twist binding. Chapter 2 requires one completed undertaking; the others remain optional. In Chapter 3 you can use the existing common room. Chapter 4 only adds dungeon care when your response requires an escorted capture or parley.
 
-Chapter 8 and repeatable field patrols remain available after Chapter 7. Enemy intentions, combat action previews, signature equipment refinement and homecoming recovery remain as introduced in v0.95.
+Short local road patrols open after Chapter 4. Restore the foundation ritual chamber after Chapter 5 through **Castle rooms & household → Foundation ritual chamber**, also linked from **Magic → Spells & Rituals**. Its optional intimacy ritual uses a fade to black and gives the whole household +20% positive relationship gains for the following nine phases. It requires an established adult partner and a mutual invitation. The investigation can be completed without using the ritual.
 
-The fifteen bathing outfits still appear only during personal time in a restored pool, sauna or hot springs. Afternoon room preferences are under **Conversation → Tastes & personal invitations**.
+Rhess can help with Chapter 7 as an invited guest; joining the household is a separate choice. For solo Chapter 8 outings, rest to 6 vitality and equip protective armour or a shield. One night restores up to 3 vitality, so recovery may need another night. Guarded strikes give additional cover.
 
-Open **Cheats** and enable cheats to recruit one unique companion or all remaining companions immediately. This supplies suitable beds when needed but does not complete personal quests or raise romance. Cheats also covers food, current rooms, unified equipment, advancement points and healing. **Fill out the bestiary** completes its entries without granting materials, victories, recruits or story progress. Using cheats marks the save as modified; download a backup first if you want to keep a separate unmodified save.
+After Chapter 8, open **Chapter 9 → The Survey Rooms**. Bring the completed foundation findings and the founding record from Castle history. Four tasks establish what the old survey equipment did and whether any crossing remains open; choose how to preserve the findings at the end.
 
-**Companions → a character → Relationships → Time together** contains four repeatable romantic scenes and four one-off closeness milestones per unique companion. Private evenings require Rest for both characters and an available private bedroom. Only Advance moves time.
+Open **Companions → Resident friendships** for pair invitations at 10, keepsakes at 25, follow-up activities at 45 and shared traditions at 60 bonding. Cooperation improves at 70. Each resident’s About and Talk pages retain the earlier dialogue trees, specific player responses, motivations and remembered preferences.
 
-Open **Companions → a character → Build**. Loadout contains prepared talents and saved builds; Personal paths contains one selected branch and talent; Training contains yard exercises and existing development options. Current training remains visible above all three sections. Quests and relationships have their own character tabs.
 
-Workshop → Armoury & enchanting manages all equipment. Specialized working-tool and focus techniques remain linked from that screen. Use the navigation search for companions, rooms or chapters.
+After Chapter 7, try the **Outer valley** circuit for the five new intermediate creatures. After Chapter 8, **Deep quarry**, **High crags** and **Flooded basin** offer the five difficult encounters. Each creature has visible rules and practical counter-actions. **Creature bounties** and **Creatures and Peoples** explain preparation and rewards. Make the five rare accessories under **Equipment → Make equipment**; equip one in the expedition accessory slot.
 
-See `docs/RELEASE_V105.md`. The archive includes no live campaign data. Rendered browser review remains outstanding; automated rules, save compatibility, earned campaign and UI controller checks are recorded in `docs/VERIFICATION_V105.json` and the fresh recovery checks in `docs/RECOVERY_V105.json`.
+For a new common-ancestry companion, spend one scholar phase gathering **rescue** or **bandit** reports in **Recruitment quests & contacts** after Chapter 4. There is a 1% exotic chance. Golems and spirits are excluded; dryads and nymphs appear only as rescue targets. The recruitment quest board also appears in Field patrols. Captures require a free Quiet chamber, a weakened enemy and Binding thread. Return to **Specialized chambers** for conversations and release. Invitations, beds and joining remain separate choices.
 
-If you already extracted the first v0.103 package, remove its `docs/art-v103/masters/` folder, or extract this corrected package into a clean folder and copy your complete `data/` directory into it.
+In **Magic → Spellbook**, learn, test and prepare Stoneguard, Gust strike, Binding snare, Purifying light, Dispel ward or Chain lightning. Use them through an active field party's combat actions. In **Magic → Rituals**, prepare Expedition warding or Antivenom preparation with two qualified residents before departure. Each batch equips one outgoing patrol; unused protection ends when it returns or retreats.
+
+This is the full game, with no live campaign data. It has not been deployed to a hosted server. See `docs/RELEASE_V118.md` and `docs/VERIFICATION_V118.json` for scope and checks. Connected UI behavior is tested; rendered desktop/mobile layout has not been verified.

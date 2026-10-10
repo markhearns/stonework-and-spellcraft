@@ -49,7 +49,7 @@ class AttributeIntegrationTests(unittest.TestCase):
         g.set_character_assignment(self.s,'founder','training')
         before={k:deepcopy(self.s[k]) for k in ('sharedFunds','journal','socialLife','spellbook')}
         g.migrate_state(self.s)
-        self.assertEqual(self.s['schemaVersion'],66)
+        self.assertEqual(self.s['schemaVersion'],g.CURRENT_SCHEMA_VERSION)
         self.assertEqual(b.invested(self.s,'founder'),20)
         self.assertEqual(b.capacity_bonus(self.s,'founder'),1)
         self.assertEqual(self.s['trainingProjects']['founder']['targetId'],'intelligence')
@@ -66,7 +66,7 @@ class AttributeIntegrationTests(unittest.TestCase):
                 db.execute('CREATE TABLE campaign(id INTEGER PRIMARY KEY,state TEXT NOT NULL)')
                 db.execute('INSERT INTO campaign VALUES(1,?)',(json.dumps(self.s),))
             store=GameStore(directory);s=store.read()
-            self.assertTrue((Path(directory)/'campaign-before-schema-48-to-66.sqlite3').exists())
+            self.assertTrue((Path(directory)/f"campaign-before-schema-48-to-{__import__('game').CURRENT_SCHEMA_VERSION}.sqlite3").exists())
             req={'requestId':uuid.uuid4().hex,'expectedRevision':s['revision'],'action':{'type':'train-skill','characterId':'founder','skillId':'diplomacy'}}
             trained=store.action(req);self.assertEqual(store.action(req),trained)
             self.assertEqual(GameStore(directory).read(),trained)
@@ -93,7 +93,7 @@ class AttributeIntegrationTests(unittest.TestCase):
             for row in a.field_options(self.s,'founder'):
                 self.reject('field-method',method=row['id'])
             self.reject('field-method',method='aptitude:made-up')
-        self.reject('field-method',method='aptitude:lift',characterId='maren')
+        self.reject('field-method',method='aptitude:lift',characterId='koharu')
     def test_present_capable_help_and_spell_charge_are_real_contributions(self):
         self.s=self.rich();self.at('stone')
         self.s['characterBuilds']['founder']['attributes']['might']=6
@@ -122,7 +122,7 @@ class AttributeIntegrationTests(unittest.TestCase):
                     self.act('share-social-conversation',sceneId=d['previous'],choice='warm');self.advance()
                 row=social.row(self.s,key)
                 self.assertTrue(set(d['choices']).issubset(row['choices']))
-                before={k:deepcopy(v) for k,v in self.s.items() if k not in ('socialLife','journal','relationships')}
+                before={k:deepcopy(v) for k,v in self.s.items() if k not in ('socialLife','journal','relationships','residentBonds')}
                 self.act('share-social-conversation',sceneId=key,choice=choice)
                 self.assertEqual(before,{k:self.s[k] for k in before})
                 memory=social.saved(self.s)['memories'][key]
@@ -182,14 +182,14 @@ class AttributeIntegrationTests(unittest.TestCase):
         self.at('briar');self.act('field-spell',spellId=key,characterId='founder');self.advance()
         self.assertEqual(field.progress(self.s)['enemyHp']['briar'],1)
     def test_retraining_restores_individual_baseline_and_refunds_only_paid_training(self):
-        self.member('brakka');before=b.baseline('brakka')
-        g.award_advancement(self.s,'brakka','fixture',10,'Fixture')
-        self.act('train-character-build',characterId='brakka',buildKind='attribute',targetId='might');self.advance(3)
-        self.assertEqual(b.build(self.s,'brakka')['attributes']['might'],8)
-        self.assertEqual(b.invested(self.s,'brakka'),3)
-        self.act('start-retraining',characterId='brakka');self.advance()
-        self.assertEqual(b.build(self.s,'brakka')['attributes'],before)
-        self.assertEqual(b.invested(self.s,'brakka'),0)
+        self.member('zahra');before=b.baseline('zahra')
+        g.award_advancement(self.s,'zahra','fixture',10,'Fixture')
+        self.act('train-character-build',characterId='zahra',buildKind='attribute',targetId='might');self.advance(3)
+        self.assertEqual(b.build(self.s,'zahra')['attributes']['might'],before['might']+1)
+        self.assertEqual(b.invested(self.s,'zahra'),3)
+        self.act('start-retraining',characterId='zahra');self.advance()
+        self.assertEqual(b.build(self.s,'zahra')['attributes'],before)
+        self.assertEqual(b.invested(self.s,'zahra'),0)
     def test_readonly_views_do_not_spend_charges_reveal_future_replies_or_modify_builds(self):
         self.boost();before=deepcopy(self.s)
         for _ in range(2):

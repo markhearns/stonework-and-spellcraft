@@ -27,8 +27,8 @@ class IntimacyTests(unittest.TestCase):
  def test_all_128_scenes_are_distinct_and_resolve_for_all_sixteen_adults(self):
   self.assertEqual(set(c.ROWS),set(r.content.SCENES))
   rows=[row for scenes in c.ROWS.values() for row in scenes]
-  self.assertEqual(len(rows),60)
-  for col in range(6):self.assertEqual(len(set(row[col] for row in rows)),60)
+  self.assertEqual(len(rows),64)
+  for col in range(6):self.assertEqual(len(set(row[col] for row in rows)),64)
   for who in c.ROWS:
    with self.subTest(who=who):
     self.setUp();self.ready(who)
